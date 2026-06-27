@@ -1,0 +1,14 @@
+run_id: "cep_onto_jaije_20260627_local_v1"
+generated_at_utc: "2026-06-27T14:38:58.130118+00:00"
+input_dir: "handoff-hanyang"
+output_dir: "experiments/cep_onto_jaije_20260627"
+method: "CEP-Onto deterministic Layer1 + rule-based evidence-first Layer2 + TF-IDF standard triangulation"
+uses_external_llm: false
+chunking:
+  sentence_window:
+    window: 6
+    stride: 4
+  hybrid_max_chars: 2400
+ncs_filter:
+  NCS_DEGR: 29
+  USG_YN: "Y"

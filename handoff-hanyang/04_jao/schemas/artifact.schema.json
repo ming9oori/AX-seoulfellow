@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/artifact.schema.json",
+  "title": "Artifact (Document / Output / Template)",
+  "description": "직무 에이전트가 생성·검토·관리하는 표준 산출물 (보고서·계약서·BRD 등).",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Artifact" },
+        "namespace": { "const": "art" },
+        "category": {
+          "type": "string",
+          "description": "전략, 재무, HR, 제품, 마케팅, 영업, 구매, 법무, 운영, 리스크 …"
+        },
+        "sections": {
+          "type": "array",
+          "description": "산출물의 표준 섹션 목록",
+          "items": { "type": "string" }
+        },
+        "template": {
+          "type": "string",
+          "description": "템플릿 파일 경로 또는 URI"
+        },
+        "mimeType": {
+          "type": "string",
+          "examples": ["application/pdf","application/vnd.openxmlformats-officedocument.wordprocessingml.document","text/markdown"]
+        },
+        "aiAssistable": {
+          "type": "string",
+          "enum": ["low","medium","high"],
+          "description": "AI가 작성·검토를 보조할 수 있는 정도"
+        },
+        "reviewer": {
+          "type": "string",
+          "description": "기본 검토자 역할 (예: cfo, legal, manager)"
+        },
+        "cycle": {
+          "type": "string",
+          "examples": ["on-demand","weekly","monthly","quarterly","annual","per-feature","per-deal","per-claim"]
+        },
+        "retentionDays": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "보존 기간 (일). 0=영구"
+        }
+      },
+      "required": ["category","sections"]
+    }
+  ]
+}

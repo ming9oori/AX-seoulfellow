@@ -1,0 +1,99 @@
+[
+  {
+    "cq_id": "CQ1",
+    "question": "수주·제안 업무는 어떤 주요 Task로 구성되는가?",
+    "required_kg_elements": [
+      "DomainTask",
+      "HAS_SUBTASK",
+      "PRECEDES"
+    ]
+  },
+  {
+    "cq_id": "CQ2",
+    "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+    "required_kg_elements": [
+      "USES_INPUT",
+      "Artifact",
+      "Concept"
+    ]
+  },
+  {
+    "cq_id": "CQ3",
+    "question": "각 Task는 어떤 산출물을 생성하는가?",
+    "required_kg_elements": [
+      "PRODUCES",
+      "Artifact"
+    ]
+  },
+  {
+    "cq_id": "CQ4",
+    "question": "각 Task는 누가 수행하거나 책임지는가?",
+    "required_kg_elements": [
+      "PERFORMED_BY",
+      "Role"
+    ]
+  },
+  {
+    "cq_id": "CQ5",
+    "question": "어떤 의사결정 지점이 존재하는가?",
+    "required_kg_elements": [
+      "DecisionGateway",
+      "HAS_DECISION_GATEWAY"
+    ]
+  },
+  {
+    "cq_id": "CQ6",
+    "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+    "required_kg_elements": [
+      "GuardCondition",
+      "HAS_GUARD_CONDITION"
+    ]
+  },
+  {
+    "cq_id": "CQ7",
+    "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+    "required_kg_elements": [
+      "ArtifactFlow",
+      "FEEDS_INTO",
+      "USED_AS_INPUT_FOR"
+    ]
+  },
+  {
+    "cq_id": "CQ8",
+    "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+    "required_kg_elements": [
+      "ReviewCheckpoint",
+      "HAS_REVIEW"
+    ]
+  },
+  {
+    "cq_id": "CQ9",
+    "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+    "required_kg_elements": [
+      "Principle",
+      "HAS_PRINCIPLE"
+    ]
+  },
+  {
+    "cq_id": "CQ10",
+    "question": "각 지식 항목은 원문 어느 chunk/page에 근거가 있는가?",
+    "required_kg_elements": [
+      "EvidenceAnchor",
+      "EVIDENCED_BY"
+    ]
+  },
+  {
+    "cq_id": "CQ11",
+    "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+    "required_kg_elements": [
+      "CANDIDATE_REQUIRES_CAPABILITY"
+    ]
+  },
+  {
+    "cq_id": "CQ12",
+    "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+    "required_kg_elements": [
+      "CANDIDATE_PROCESS_CONTEXT"
+    ]
+  }
+]

@@ -1,0 +1,192 @@
+{
+  "method": "CAPE-KG",
+  "node_types": [
+    "DomainTask",
+    "ProcedureStep",
+    "DecisionGateway",
+    "GuardCondition",
+    "Artifact",
+    "ArtifactFlow",
+    "Role",
+    "ReviewCheckpoint",
+    "Principle",
+    "Risk",
+    "EvidenceAnchor",
+    "NCSCompetencyUnit",
+    "PCFElement",
+    "MappingCandidate"
+  ],
+  "edge_types": [
+    "HAS_STEP",
+    "PRECEDES",
+    "BRANCHES_TO",
+    "HAS_GUARD_CONDITION",
+    "USES_INPUT",
+    "PRODUCES",
+    "FEEDS_INTO",
+    "PERFORMED_BY",
+    "HAS_DECISION_GATEWAY",
+    "HAS_REVIEW_CHECKPOINT",
+    "HAS_PRINCIPLE",
+    "HAS_RISK",
+    "EVIDENCED_BY",
+    "REQUIRES_CAPABILITY",
+    "PROCESS_CONTEXT",
+    "CANDIDATE_ALIGNS_WITH",
+    "USED_AS_INPUT_FOR"
+  ],
+  "domain_range": {
+    "HAS_STEP": {
+      "subject_types": [
+        "DomainTask"
+      ],
+      "object_types": [
+        "ProcedureStep"
+      ]
+    },
+    "PRECEDES": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep",
+        "ReviewCheckpoint"
+      ],
+      "object_types": [
+        "DomainTask",
+        "ProcedureStep",
+        "ReviewCheckpoint"
+      ]
+    },
+    "BRANCHES_TO": {
+      "subject_types": [
+        "DecisionGateway"
+      ],
+      "object_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ]
+    },
+    "HAS_GUARD_CONDITION": {
+      "subject_types": [
+        "DecisionGateway"
+      ],
+      "object_types": [
+        "GuardCondition"
+      ]
+    },
+    "USES_INPUT": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "Artifact"
+      ]
+    },
+    "PRODUCES": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "Artifact"
+      ]
+    },
+    "FEEDS_INTO": {
+      "subject_types": [
+        "Artifact"
+      ],
+      "object_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ]
+    },
+    "USED_AS_INPUT_FOR": {
+      "subject_types": [
+        "Artifact"
+      ],
+      "object_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ]
+    },
+    "PERFORMED_BY": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "Role"
+      ]
+    },
+    "HAS_DECISION_GATEWAY": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "DecisionGateway"
+      ]
+    },
+    "HAS_REVIEW_CHECKPOINT": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "ReviewCheckpoint"
+      ]
+    },
+    "HAS_PRINCIPLE": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "Principle"
+      ]
+    },
+    "HAS_RISK": {
+      "subject_types": [
+        "DomainTask",
+        "ProcedureStep"
+      ],
+      "object_types": [
+        "Risk"
+      ]
+    },
+    "EVIDENCED_BY": {
+      "subject_types": [
+        "Any"
+      ],
+      "object_types": [
+        "EvidenceAnchor"
+      ]
+    },
+    "REQUIRES_CAPABILITY": {
+      "subject_types": [
+        "DomainTask"
+      ],
+      "object_types": [
+        "NCSCompetencyUnit"
+      ]
+    },
+    "PROCESS_CONTEXT": {
+      "subject_types": [
+        "DomainTask"
+      ],
+      "object_types": [
+        "PCFElement"
+      ]
+    },
+    "CANDIDATE_ALIGNS_WITH": {
+      "subject_types": [
+        "DomainTask"
+      ],
+      "object_types": [
+        "NCSCompetencyUnit",
+        "PCFElement"
+      ]
+    }
+  },
+  "evidence_span_required": true
+}

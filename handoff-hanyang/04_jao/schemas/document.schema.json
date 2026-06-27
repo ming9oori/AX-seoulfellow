@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "document.schema.json",
+  "title": "Document",
+  "description": "외부 자료 메타데이터 (가이드라인·매뉴얼·표준·정책 문서). 원문 텍스트는 corpus/extracted/에, 벡터는 corpus/vectors/에. JAO 인스턴스는 이들의 참조 + 메타.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class":     { "const": "Document" },
+        "namespace": { "enum": ["guideline","regulation","manual","standard","report","spec","policy-doc"] },
+        "title":         { "type": "string", "minLength": 1 },
+        "publisher":     { "type": "string", "description": "발행 기관 (예: 금융감독원)" },
+        "publishedAt":   { "type": "string", "description": "발행일 (YYYY-MM-DD 또는 ISO)" },
+        "documentType":  { "type": "string",
+                           "enum": ["guideline","manual","standard","report","spec","policy","law","regulation","other"] },
+        "sourceUrl":     { "type": "string", "format": "uri" },
+        "sourceHash":    { "type": "string", "pattern": "^sha256:[a-f0-9]{64}$" },
+        "language":      { "type": "string", "default": "ko" },
+        "mimeType":      { "type": "string" },
+        "pageCount":     { "type": "integer", "minimum": 0 },
+        "chunkCount":    { "type": "integer", "minimum": 0 },
+        "vectorIndex":   { "type": "string",
+                           "description": "vector store 위치 (예: chromadb://documents)" },
+        "relevantFor":   {
+          "type": "array",
+          "description": "이 문서가 관련된 Concept/Process/Task/Agent URI",
+          "items": { "type": "string", "pattern": "^jao://" }
+        },
+        "tags":          { "type": "array", "items": { "type": "string" } },
+        "license":       { "type": "string", "default": "gov-open" },
+        "checksumVerifiedAt": { "type": "string", "description": "마지막 hash 재확인 시각" }
+      },
+      "required": ["title","sourceUrl","sourceHash","documentType"]
+    }
+  ]
+}

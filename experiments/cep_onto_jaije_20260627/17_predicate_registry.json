@@ -1,0 +1,112 @@
+[
+  {
+    "predicate": "ALIAS_OF",
+    "domain": "*",
+    "range": "*"
+  },
+  {
+    "predicate": "ANCHOR_OF",
+    "domain": "EvidenceAnchor",
+    "range": "*"
+  },
+  {
+    "predicate": "BRANCHES_TO",
+    "domain": "DecisionGateway",
+    "range": "ProcedureStep"
+  },
+  {
+    "predicate": "BROADER",
+    "domain": "*",
+    "range": "*"
+  },
+  {
+    "predicate": "CANDIDATE_ALIGNS_WITH",
+    "domain": "DomainTask",
+    "range": "StandardAnchor"
+  },
+  {
+    "predicate": "CONFLICTS_WITH",
+    "domain": "*",
+    "range": "*"
+  },
+  {
+    "predicate": "EVIDENCED_BY",
+    "domain": "*",
+    "range": "EvidenceAnchor"
+  },
+  {
+    "predicate": "HAS_DECISION_GATEWAY",
+    "domain": "DomainTask",
+    "range": "DecisionGateway"
+  },
+  {
+    "predicate": "HAS_GUARD_CONDITION",
+    "domain": "*",
+    "range": "GuardCondition"
+  },
+  {
+    "predicate": "HAS_METRIC",
+    "domain": "StandardAnchor",
+    "range": "StandardAnchor"
+  },
+  {
+    "predicate": "HAS_PRINCIPLE",
+    "domain": "DomainTask",
+    "range": "Principle"
+  },
+  {
+    "predicate": "HAS_REVIEW",
+    "domain": "DomainTask",
+    "range": "ReviewEvent"
+  },
+  {
+    "predicate": "HAS_RISK",
+    "domain": "DomainTask",
+    "range": "Risk"
+  },
+  {
+    "predicate": "HAS_SUBTASK",
+    "domain": "DomainTask",
+    "range": "ProcedureStep"
+  },
+  {
+    "predicate": "PERFORMED_BY",
+    "domain": "ProcedureStep",
+    "range": "Role"
+  },
+  {
+    "predicate": "PRECEDES",
+    "domain": "ProcedureStep",
+    "range": "ProcedureStep"
+  },
+  {
+    "predicate": "PROCESS_CONTEXT",
+    "domain": "DomainTask",
+    "range": "StandardAnchor"
+  },
+  {
+    "predicate": "PRODUCES",
+    "domain": "DomainTask",
+    "range": "Artifact"
+  },
+  {
+    "predicate": "REQUIRES_CAPABILITY",
+    "domain": "DomainTask",
+    "range": "StandardAnchor"
+  },
+  {
+    "predicate": "RESPONSIBLE_FOR",
+    "domain": "Role",
+    "range": "DomainTask"
+  },
+  {
+    "predicate": "TRANSFORMS_INTO",
+    "domain": "Artifact",
+    "range": "Artifact"
+  },
+  {
+    "predicate": "USES_INPUT",
+    "domain": "DomainTask",
+    "range": "Artifact"
+  }
+]

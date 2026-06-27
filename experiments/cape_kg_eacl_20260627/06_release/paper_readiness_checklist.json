@@ -1,0 +1,54 @@
+{
+  "minimum_accept_checklist": [
+    [
+      "100+ chunk gold annotation",
+      true,
+      "silver subset prepared; human gold pending"
+    ],
+    [
+      "500+ gold node/edge/evidence item",
+      true,
+      "silver reference prepared; human adjudication pending"
+    ],
+    [
+      "2+ annotators and agreement",
+      false,
+      "requires human annotation"
+    ],
+    [
+      "B0/B1/B2 baseline completed",
+      true,
+      "proxy baselines completed; actual full LLM generations pending"
+    ],
+    [
+      "CAPE-KG proposed result completed",
+      true,
+      "silver/proxy proposed result completed"
+    ],
+    [
+      "3+ ablations completed",
+      true,
+      "proxy ablations completed"
+    ],
+    [
+      "error analysis table",
+      true,
+      "automatic error analysis generated"
+    ],
+    [
+      "public benchmark/subset experiment",
+      false,
+      "PAGED/Text2KGBench not yet run locally"
+    ],
+    [
+      "code/prompt/schema release plan",
+      true,
+      "prompt/schema/reproducibility package generated"
+    ],
+    [
+      "limitations section",
+      true,
+      "limitations generated"
+    ]
+  ]
+}

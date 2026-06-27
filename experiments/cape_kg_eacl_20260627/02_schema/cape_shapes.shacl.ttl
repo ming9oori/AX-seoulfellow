@@ -1,0 +1,8 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cape: <https://example.org/cape-kg#> .
+
+cape:EvidenceGroundedEdgeShape a sh:NodeShape ;
+  sh:message "Every accepted CAPE-KG edge must carry at least one evidence anchor." .
+
+cape:ProducesShape a sh:NodeShape ;
+  sh:message "PRODUCES must connect DomainTask/ProcedureStep to Artifact." .

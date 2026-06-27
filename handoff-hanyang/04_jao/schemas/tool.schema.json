@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/tool.schema.json",
+  "title": "Tool (Software / System / SaaS)",
+  "description": "직무 에이전트가 사용하는 도구·시스템. MCP 통합 가능 여부와 도메인 인기도를 포함.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Tool" },
+        "namespace": { "const": "tool" },
+        "category": {
+          "type": "string",
+          "description": "ERP, CRM, BI, IDE, Cloud, Observability, Compliance-KR …"
+        },
+        "vendor": { "type": "string" },
+        "pricing": {
+          "type": "string",
+          "enum": ["free","freemium","smb","smb-mid","smb-enterprise","mid-market","enterprise","usage"]
+        },
+        "mcpAvailable": { "type": "boolean", "default": false },
+        "mcpServerUri": { "type": "string", "description": "MCP 서버 URI (mcp://…)" },
+        "apiType": { "type": "string", "enum": ["rest","soap","graphql","sdk","mcp","none"] },
+        "popularity": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "industries": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "jobFamilies": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "requiredAuth": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["api-key","oauth2","saml","basic","mtls","kerberos","none"] }
+        }
+      },
+      "required": ["category","vendor"]
+    }
+  ]
+}

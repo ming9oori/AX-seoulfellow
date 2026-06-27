@@ -1,0 +1,361 @@
+[
+  {
+    "$id": "jao://Agent/agent/sales-b2b",
+    "id": "sales-b2b",
+    "class": "Agent",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "B2B 영업 에이전트"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "ko": "리드 관리·제안서 작성 보조·미팅 준비"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/agents.json#sales-b2b",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "role": "리드 관리·제안서 작성 보조·미팅 준비",
+    "jobFamily": "sales",
+    "primaryMissions": [
+      "리드 적합도 점수·우선순위화",
+      "고객 컨텍스트 브리핑(공시·뉴스)",
+      "제안서 1차 draft",
+      "파이프라인 위험 알림"
+    ],
+    "knowledge": [
+      "솔루션 카탈로그",
+      "경쟁사 비교",
+      "케이스 스터디",
+      "산업 트렌드"
+    ],
+    "guardrails": [
+      "가격 할인 한도 검증",
+      "경쟁사 비방 금지",
+      "서약서 없는 정보 공유 금지"
+    ],
+    "escalations": [
+      "대형 거래(>X억) → 임원",
+      "법적 리스크 → 법무"
+    ],
+    "metrics": [
+      "윈율",
+      "평균 거래 규모",
+      "영업 사이클",
+      "파이프라인 가치"
+    ],
+    "interventionMode": "checkpoint",
+    "embodies": {
+      "ncs": [
+        "10020101"
+      ],
+      "pcf": [
+        "3.5",
+        "3.4"
+      ],
+      "onet": [
+        "41-9031.00",
+        "13-1161.00"
+      ]
+    },
+    "actions": [
+      "jao://Action/agent/score_lead",
+      "jao://Action/agent/brief_account",
+      "jao://Action/agent/draft_proposal",
+      "jao://Action/agent/forecast_pipeline",
+      "jao://Action/agent/schedule_meeting"
+    ],
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/linkedin-sales",
+      "jao://Tool/tool/slack",
+      "jao://Tool/tool/figma",
+      "jao://Tool/tool/docusign",
+      "jao://Tool/tool/zoom"
+    ],
+    "artifacts": [
+      "jao://Artifact/art/sales-deck",
+      "jao://Artifact/art/proposal-rfp",
+      "jao://Artifact/art/sales-contract"
+    ],
+    "regulations": [
+      "jao://Regulation/reg/fair-trade-kr",
+      "jao://Regulation/reg/subcontract-kr",
+      "jao://Regulation/reg/consumer-act-kr"
+    ]
+  },
+  {
+    "$id": "jao://Action/agent/score_lead",
+    "id": "score_lead",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "리드 점수 계산"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#score_lead",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.read",
+    "inputs": [
+      {
+        "name": "leadId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "score",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "reasons",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/linkedin-sales"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/brief_account",
+    "id": "brief_account",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "계정 브리핑"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#brief_account",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.generate",
+    "inputs": [
+      {
+        "name": "accountId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "briefDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/draft_proposal",
+    "id": "draft_proposal",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "제안서 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_proposal",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.generate",
+    "inputs": [
+      {
+        "name": "accountId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "budget",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "proposalDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "가격 한도 검증"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [
+      "sales-mgr"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/figma"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/forecast_pipeline",
+    "id": "forecast_pipeline",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "파이프라인 예측"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#forecast_pipeline",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.compute",
+    "inputs": [
+      {
+        "name": "team",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "quarter",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "forecast",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "risks[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/schedule_meeting",
+    "id": "schedule_meeting",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "미팅 일정"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#schedule_meeting",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.write",
+    "inputs": [
+      {
+        "name": "attendees[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "topic",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "duration",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "meetingLink",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "캘린더 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/microsoft365",
+      "jao://Tool/tool/zoom"
+    ],
+    "owner": "sales-b2b"
+  }
+]

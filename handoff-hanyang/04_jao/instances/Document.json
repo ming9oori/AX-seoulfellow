@@ -1,0 +1,5640 @@
+[
+  {
+    "$id": "jao://Document/guideline/guideline-.-III.-kohvac.com-51c9fa34",
+    "id": "guideline-.-III.-kohvac.com-51c9fa34",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Ⅲ. 기계설비 설계지침 III. - kohvac.com"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://kohvac.com/wp-content/uploads/정보통신부조달사무소_기계설비설계지침1.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "Ⅲ. 기계설비 설계지침 III. - kohvac.com",
+    "publisher": "kohvac.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://kohvac.com/wp-content/uploads/정보통신부조달사무소_기계설비설계지침1.pdf",
+    "sourceHash": "sha256:51c9fa34015e59d9000df99856c2deda45b4ffd49c6fcb7dc3005220d5f6aad9",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 17,
+    "chunkCount": 37,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-.pdf-f1e3316f",
+    "id": "guideline-.pdf-f1e3316f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "관리자매뉴얼.pdf"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://hansung.ac.kr/sites/homepage/contents/homepage/관리자매뉴얼.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "관리자매뉴얼.pdf",
+    "publisher": "hansung.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://hansung.ac.kr/sites/homepage/contents/homepage/관리자매뉴얼.pdf",
+    "sourceHash": "sha256:f1e3316fbb3bd910909189742985efec02562539df424170928315a38431cf30",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 185,
+    "chunkCount": 214,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-0ab92d22",
+    "id": "guideline-0ab92d22",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "금융위원회 보도자료·정책정보"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fsc.go.kr/no010101",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융위원회 보도자료·정책정보",
+    "publisher": "금융위원회",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fsc.go.kr/no010101",
+    "sourceHash": "sha256:0ab92d2256cbe4a28a0ea623b33159dcdcf7f9d8fc784683afba00f53bbd4946",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-0d5f1715",
+    "id": "guideline-0d5f1715",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "환경부 환경정책 자료실"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 환경정책 자료실",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:0d5f1715337e36274d88250521fb694d47e038e9502d4793bbca6a283a10d95e",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-1-90e98cf4",
+    "id": "guideline-1-90e98cf4",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "슬라이드 1"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://static.godo.co.kr/download/nhngodo_relocation_service_guide.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "슬라이드 1",
+    "publisher": "static.godo.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://static.godo.co.kr/download/nhngodo_relocation_service_guide.pdf",
+    "sourceHash": "sha256:90e98cf4f2a2395f09a37ca688c46952bb5cc666584088e6f9b2e740b7ff04c2",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 10,
+    "chunkCount": 14,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/10"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-10.-Q-Net-c2191aae",
+    "id": "guideline-10.-Q-Net-c2191aae",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "10. 영업 판 - Q-Net"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.q-net.or.kr/jm/after_jikmu_history_10.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "10. 영업 판 - Q-Net",
+    "publisher": "www.q-net.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.q-net.or.kr/jm/after_jikmu_history_10.pdf",
+    "sourceHash": "sha256:c2191aae3c6f27269116bf73813888f5630501f4a04c78e1f60fe1506b3763b5",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/10"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-105a6139",
+    "id": "guideline-105a6139",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "환경부 환경정책 자료실"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 환경정책 자료실",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:105a6139f17227df6312fddd71af39de941a11d98778db85791936392e489628",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-13_mfds-go-kr_untitled-a03e1507",
+    "id": "guideline-13_mfds-go-kr_untitled-a03e1507",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "13_mfds-go-kr_untitled"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/files/upload/etc/식의약_통계목록.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "13_mfds-go-kr_untitled",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/files/upload/etc/식의약_통계목록.pdf",
+    "sourceHash": "sha256:a03e1507a77e79d6636ef7bf727edf1fe578a100f2685a3c361dd6ab3936e05f",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-15f37bb8",
+    "id": "guideline-15f37bb8",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "직무기술서(행정)"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://jrsfile.jobkorea.co.kr/PJT/kentech211/kentech211_3.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "직무기술서(행정)",
+    "publisher": "jrsfile.jobkorea.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://jrsfile.jobkorea.co.kr/PJT/kentech211/kentech211_3.pdf",
+    "sourceHash": "sha256:15f37bb85815e174d04ebfec21bc6226a752d210b2dd9fd3800e6b1b06d526a0",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 12,
+    "chunkCount": 22,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-18-JMP-Statistical-Discovery-LLC-920-SAS-Campus-Drive-45ecccfe",
+    "id": "guideline-18-JMP-Statistical-Discovery-LLC-920-SAS-Campus-Drive-45ecccfe",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "버전 18 실험 설계 가이드 JMP Statistical Discovery LLC 920 SAS Campus Drive"
+    },
+    "createdAt": "2026-06-04T13:29:56Z",
+    "updatedAt": "2026-06-04T13:29:56Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.jmp.com/content/dam/jmp/documents/kr/support/jmp18/design-of-experiments-guide-ko.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "버전 18 실험 설계 가이드 JMP Statistical Discovery LLC 920 SAS Campus Drive",
+    "publisher": "www.jmp.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.jmp.com/content/dam/jmp/documents/kr/support/jmp18/design-of-experiments-guide-ko.pdf",
+    "sourceHash": "sha256:45ecccfe79fae39eb0b9a99ff147bf858202b648f280705988a082734a9b79cb",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 780,
+    "chunkCount": 1179,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-18d20c0e",
+    "id": "guideline-18d20c0e",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "문체부 관광·체육 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:18:33Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문체부 관광·체육 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+    "sourceHash": "sha256:18d20c0ef1dca1a916b8338bd761943685e8c0d2e254f9a5bf607e3500d48fb6",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/12"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:18:33Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-1e2488ef",
+    "id": "guideline-1e2488ef",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "에너지공단 에너지 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:19:18Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "에너지공단 에너지 정책자료",
+    "publisher": "energy-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+    "sourceHash": "sha256:1e2488efeac62f23b8b9cc865d66b932493517d4c500a81d434e93e966970619",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:18:53Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:19:18Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2-4-.hwp-69e039d7",
+    "id": "guideline-2-4-.hwp-69e039d7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2-4 기독교사회복지 스펙트럼-강상우.hwp"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.worldview.or.kr/library/article/download/987/3987/C2-4+기독교사회복지+스펙트럼-강상우.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2-4 기독교사회복지 스펙트럼-강상우.hwp",
+    "publisher": "www.worldview.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.worldview.or.kr/library/article/download/987/3987/C2-4+기독교사회복지+스펙트럼-강상우.pdf",
+    "sourceHash": "sha256:69e039d7a5a09a6f0049060385affbf254f20d4c796eda42bb85441e8d0e6149",
+    "language": "ko",
+    "mimeType": "application/octet-stream",
+    "pageCount": 26,
+    "chunkCount": 37,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/07"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2018-35a8238f-ad9f5b13",
+    "id": "guideline-2018-35a8238f-ad9f5b13",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "오늘의 재해예방내일의 행복약속 2018 자연재난 표준행동매뉴얼 표준행동매뉴얼 괴산군재난안전대책본부"
+    },
+    "createdAt": "2026-06-04T13:29:56Z",
+    "updatedAt": "2026-06-04T13:29:56Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.goesan.go.kr/DATA/bbs/170/8C194B80-C4F0-2A69-D385-4C45BC6064B9.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "오늘의 재해예방내일의 행복약속 2018 자연재난 표준행동매뉴얼 표준행동매뉴얼 괴산군재난안전대책본부",
+    "publisher": "www.goesan.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.goesan.go.kr/DATA/bbs/170/8C194B80-C4F0-2A69-D385-4C45BC6064B9.pdf",
+    "sourceHash": "sha256:35a8238fcca4c8b5dec56ab167779627911071e4929079d3de76494f2ed828ec",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 325,
+    "chunkCount": 465,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2023-4-_-ISC_-_1212.hwp-38ff9457",
+    "id": "guideline-2023-4-_-ISC_-_1212.hwp-38ff9457",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2023년 4분기 이슈리포트_화학바이오ISC_배포용_1212.hwp"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://kppca.org/wp-content/uploads/2023/12/2023년-4분기-이슈리포트_화학바이오ISC_배포용.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2023년 4분기 이슈리포트_화학바이오ISC_배포용_1212.hwp",
+    "publisher": "kppca.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://kppca.org/wp-content/uploads/2023/12/2023년-4분기-이슈리포트_화학바이오ISC_배포용.pdf",
+    "sourceHash": "sha256:38ff94576c55f45ba5ef2f4512693209ae1458dd9cf7157b9c49d1236a6d312e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 4,
+    "chunkCount": 4,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2023.-03-National-R-D-Innovation-Act-5-09d3d74d",
+    "id": "guideline-2023.-03-National-R-D-Innovation-Act-5-09d3d74d",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "연구시설·장비비 통합관리제 운영·관리 매뉴얼 2023. 03 National R&D Innovation Act 별권 5"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://research.kaist.ac.kr/resources/wis-layout/file/연구시설장비비_통합관리제_운영관리_매뉴얼.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "연구시설·장비비 통합관리제 운영·관리 매뉴얼 2023. 03 National R&D Innovation Act 별권 5",
+    "publisher": "research.kaist.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://research.kaist.ac.kr/resources/wis-layout/file/연구시설장비비_통합관리제_운영관리_매뉴얼.pdf",
+    "sourceHash": "sha256:09d3d74ddfbef596c56afb1ce3df6d836fb39f1f5faee0d5ada6024444272dcd",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 55,
+    "chunkCount": 123,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2024-architecture-estimate.com-34837b73",
+    "id": "guideline-2024-architecture-estimate.com-34837b73",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2024년 건설공 - architecture-estimate.com"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://architecture-estimate.com/wp-content/uploads/2024/03/2024건설공사-실무-가이드북.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2024년 건설공 - architecture-estimate.com",
+    "publisher": "architecture-estimate.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://architecture-estimate.com/wp-content/uploads/2024/03/2024건설공사-실무-가이드북.pdf",
+    "sourceHash": "sha256:34837b73b90b02d75a9632a0292ef5dc87442793afdef3280c74e7d316d93d36",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 525,
+    "chunkCount": 708,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2025-8f0b19fa",
+    "id": "guideline-2025-8f0b19fa",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2025 동국대학교 전공 가이드북"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.dongguk.edu/resources/pdf/2025_guide_book.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2025 동국대학교 전공 가이드북",
+    "publisher": "www.dongguk.edu",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.dongguk.edu/resources/pdf/2025_guide_book.pdf",
+    "sourceHash": "sha256:8f0b19fa288074d97a1c7e97e04f25382b826cd209f7c42fea61dd033bea5d38",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 180,
+    "chunkCount": 179,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2025-dangtalk.co.kr-b1551a33",
+    "id": "guideline-2025-dangtalk.co.kr-b1551a33",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2025년 상반기 한국철 - dangtalk.co.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://dangtalk.co.kr/wp-content/uploads/2025/02/코레일-직무-기술서.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2025년 상반기 한국철 - dangtalk.co.kr",
+    "publisher": "dangtalk.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://dangtalk.co.kr/wp-content/uploads/2025/02/코레일-직무-기술서.pdf",
+    "sourceHash": "sha256:b1551a33d27742d841819e600cb9981180d61b2fddc67b93b008ff4c43036f2c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 66,
+    "chunkCount": 86,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/09"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2025-KEA-a49019f1",
+    "id": "guideline-2025-KEA-a49019f1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "2025 KEA 에너지 편람"
+    },
+    "createdAt": "2026-06-04T13:29:56Z",
+    "updatedAt": "2026-06-04T13:29:56Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.energy.or.kr/energy_issue/mail_vol269/pdf/2025_KEA_02.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "2025 KEA 에너지 편람",
+    "publisher": "www.energy.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.energy.or.kr/energy_issue/mail_vol269/pdf/2025_KEA_02.pdf",
+    "sourceHash": "sha256:a49019f1a7fb35d58b9ea1276f8f539c001718b78d890fe344e5fb89003c542b",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 426,
+    "chunkCount": 421,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2030-72834c4f",
+    "id": "guideline-2030-72834c4f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "한국 금융산업의 2030 비전과 과제 : 보험산업"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kif.re.kr/kmfiledir/132563821013759626_09-30-03-z-zbk1-3.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "한국 금융산업의 2030 비전과 과제 : 보험산업",
+    "publisher": "www.kif.re.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kif.re.kr/kmfiledir/132563821013759626_09-30-03-z-zbk1-3.pdf",
+    "sourceHash": "sha256:72834c4f836f0d9cdf8adac439b5d72f44efe7d601639bd16582d57dc295065f",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-205c6efd",
+    "id": "guideline-205c6efd",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "특별실 공사 간략 매뉴얼 - 경기도교육청"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030111/BBS_202404300300312250.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "특별실 공사 간략 매뉴얼 - 경기도교육청",
+    "publisher": "www.goe.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030111/BBS_202404300300312250.pdf",
+    "sourceHash": "sha256:205c6efd756f95fed4ecacce85d57dda6ab9adea1cd34b01a82919d3cb00c7b1",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 30,
+    "chunkCount": 30,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-22ce761c",
+    "id": "guideline-22ce761c",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식품의약품안전처 식품 가이드"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식품의약품안전처 식품 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:22ce761c646af3fcae606273623bc9758daecf53570d3d4684fc7167910aac90",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-23-403772f7",
+    "id": "guideline-23-403772f7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "’23년도 기계설비 유지관리 및 성능점검 계획"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030111/BBS_202402060444126560.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "’23년도 기계설비 유지관리 및 성능점검 계획",
+    "publisher": "www.goe.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.goe.go.kr/resource/old/BBSMSTR_000000030111/BBS_202402060444126560.pdf",
+    "sourceHash": "sha256:403772f76696c76df76768202e428aa076a452c904c36f174734a88e136b016e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 76,
+    "chunkCount": 231,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-23.-Q-Net-f7c1f474",
+    "id": "guideline-23.-Q-Net-f7c1f474",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "23. 인쇄 목재 가 - Q-Net"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.q-net.or.kr/jm/before_jikmu_history_23.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "23. 인쇄 목재 가 - Q-Net",
+    "publisher": "www.q-net.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.q-net.or.kr/jm/before_jikmu_history_23.pdf",
+    "sourceHash": "sha256:f7c1f474c28e5030f4794f44773c4cba50a8dc0f3a30d10392059e6e44703402",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/22"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-2491ab3b",
+    "id": "guideline-2491ab3b",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "에너지공단 에너지 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "에너지공단 에너지 정책자료",
+    "publisher": "energy-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+    "sourceHash": "sha256:2491ab3b8aec945f895aef7f3b1c0f8dc8cb2ed05c5e02d20dc6e20c5a3c46b5",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-277a4e14",
+    "id": "guideline-277a4e14",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "한국감정원/한국부동산원 자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:19:44Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kalis.or.kr/index.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "한국감정원/한국부동산원 자료",
+    "publisher": "kalis-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kalis.or.kr/index.do",
+    "sourceHash": "sha256:277a4e14b2d7ba236d0f8bce4160011113938f8c13027ac9eecd647044a8001f",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:19:18Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:19:44Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-291299f7",
+    "id": "guideline-291299f7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "금융감독원 메인 (시드 검증용)"
+    },
+    "createdAt": "2026-06-03T02:24:43Z",
+    "updatedAt": "2026-06-03T19:20:09Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fss.or.kr/fss/main/main.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융감독원 메인 (시드 검증용)",
+    "publisher": "금융감독원",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fss.or.kr/fss/main/main.do",
+    "sourceHash": "sha256:291299f7a0e0242c925936123e0aa3acbfc0c4757e7dea7d16947a2c1f5ad189",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:19:44Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:20:09Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-292699d1",
+    "id": "guideline-292699d1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "농식품유통교육원 가이드"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.atfis.or.kr/home/board/FB0028.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "농식품유통교육원 가이드",
+    "publisher": "atfis-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.atfis.or.kr/home/board/FB0028.do",
+    "sourceHash": "sha256:292699d1e1a1619bdffb82b1591f003f839ea1a7fb0773ddc4274934392f130e",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-29da6ff0",
+    "id": "guideline-29da6ff0",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "음식서비스 종사자의 직무스트레스 예방 지침"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://kohma.kr/files/17024423991.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "음식서비스 종사자의 직무스트레스 예방 지침",
+    "publisher": "kohma.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://kohma.kr/files/17024423991.pdf",
+    "sourceHash": "sha256:29da6ff0395ed651af3fe8884d2099e0c208d35a304b15de82e94c9502385c33",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 9,
+    "chunkCount": 36,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-3130204B4D534B2D3232B1C72031C8A32DC1A4BCF8BAB82CC1A4BDC2B7C4...-2fd0b410",
+    "id": "guideline-3130204B4D534B2D3232B1C72031C8A32DC1A4BCF8BAB82CC1A4BDC2B7C4...-2fd0b410",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "<3130204B4D534B2D3232B1C72031C8A32DC1A4BCF8BAB82CC1A4BDC2B7C4..."
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://koreascience.kr/article/JAKO202112354514397.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "<3130204B4D534B2D3232B1C72031C8A32DC1A4BCF8BAB82CC1A4BDC2B7C4...",
+    "publisher": "koreascience.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://koreascience.kr/article/JAKO202112354514397.pdf",
+    "sourceHash": "sha256:2fd0b41084e3b1e5f84d93726234bd021dd88b9f52725a0dc5aac263255ffb56",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 33,
+    "chunkCount": 66,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/10"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-32bcb6a3",
+    "id": "guideline-32bcb6a3",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "직업계고 현장실습 산업안전 매뉴얼"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.cbe.go.kr/upload/na_old/00001502/2019/15645562781.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "직업계고 현장실습 산업안전 매뉴얼",
+    "publisher": "www.cbe.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.cbe.go.kr/upload/na_old/00001502/2019/15645562781.pdf",
+    "sourceHash": "sha256:32bcb6a3329fbe4145653c05c6e8d5f056dab9a118f04dfe452e9d536eb88557",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 48,
+    "chunkCount": 186,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-3a06e876",
+    "id": "guideline-3a06e876",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "(공무원 지침서)"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://research.uos.ac.kr/sites/default/files/2026-06/식품의약품안전처+연구개발비관리지침+개정+전문(2026.04.15.).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "(공무원 지침서)",
+    "publisher": "research.uos.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://research.uos.ac.kr/sites/default/files/2026-06/식품의약품안전처+연구개발비관리지침+개정+전문(2026.04.15.).pdf",
+    "sourceHash": "sha256:3a06e876125bfa79812a1a263383f74fd81d11e11b84baed55037cfd8da9e9f8",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 103,
+    "chunkCount": 181,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-3aa5b3fe",
+    "id": "guideline-3aa5b3fe",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "보건복지부 사회복지 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "보건복지부 사회복지 정책자료",
+    "publisher": "mohw-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+    "sourceHash": "sha256:3aa5b3fe47078bd1419b6cacde667dc6256ea8b1039b55425fc3494d202a0b5a",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/07"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-3bb7f99a",
+    "id": "guideline-3bb7f99a",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "한국감정원/한국부동산원 자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kalis.or.kr/index.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "한국감정원/한국부동산원 자료",
+    "publisher": "kalis-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kalis.or.kr/index.do",
+    "sourceHash": "sha256:3bb7f99a9a912a8f14eb68293dab5b4531f49b182ffe46f06ed8969a9c519068",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-3NEW-af812b3f",
+    "id": "guideline-3NEW-af812b3f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "최근 보험산업 현황과 성장 전략 : 3NEW를 중심으로"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.pwc.com/kr/ko/insights/industry-focus/samilpwc_insurance-growth-strategy.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "최근 보험산업 현황과 성장 전략 : 3NEW를 중심으로",
+    "publisher": "www.pwc.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.pwc.com/kr/ko/insights/industry-focus/samilpwc_insurance-growth-strategy.pdf",
+    "sourceHash": "sha256:af812b3f073d2f0b4f6423d0e258fc702af5a65ae57d5201a4dc49ad2db95079",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 68,
+    "chunkCount": 77,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-40c8082f",
+    "id": "guideline-40c8082f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "국세청 세무 가이드 (법인세 신고)"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:20:34Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2351&cntntsId=7710",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "국세청 세무 가이드 (법인세 신고)",
+    "publisher": "nts-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2351&cntntsId=7710",
+    "sourceHash": "sha256:40c8082fdc6716f17baaa76f363bc1b360bbef48038e56199d4cbc0f6e61ac5e",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:20:09Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:20:34Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-40d5e421",
+    "id": "guideline-40d5e421",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "섬유의복"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://img.securities.miraeasset.com/ezrlink/report/154/20241107134503507_ko.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "섬유의복",
+    "publisher": "img.securities.miraeasset.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://img.securities.miraeasset.com/ezrlink/report/154/20241107134503507_ko.pdf",
+    "sourceHash": "sha256:40d5e4219b9e0fe7f7640390e2e7010d13c9e9150f8a269e9cc958c7bc37ae4c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 42,
+    "chunkCount": 51,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/18"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-416001da",
+    "id": "guideline-416001da",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "환경부 화학물질 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 화학물질 정책자료",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:416001da98c99bedf50ebab468b42cfd662a1b8540590caaf457726a386f1c67",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-463dd147",
+    "id": "guideline-463dd147",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "산업혁신기술지원 플랫폼 구축사업 (전기전자 업종)"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.geri.re.kr/webzine/25/geri02.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "산업혁신기술지원 플랫폼 구축사업 (전기전자 업종)",
+    "publisher": "www.geri.re.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.geri.re.kr/webzine/25/geri02.pdf",
+    "sourceHash": "sha256:463dd14738851c63c79e9a40192ea175f561d183ea9dfa0bbf204827855769a6",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 8,
+    "chunkCount": 8,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-4D6963726F736F667420576F7264202D203139303931365FBEC8C1F8BEC6...-64bed6ee",
+    "id": "guideline-4D6963726F736F667420576F7264202D203139303931365FBEC8C1F8BEC6...-64bed6ee",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "<4D6963726F736F667420576F7264202D203139303931365FBEC8C1F8BEC6..."
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://file.alphasquare.co.kr/media/pdfs/company-report/이베스트201090916섬유.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "<4D6963726F736F667420576F7264202D203139303931365FBEC8C1F8BEC6...",
+    "publisher": "file.alphasquare.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://file.alphasquare.co.kr/media/pdfs/company-report/이베스트201090916섬유.pdf",
+    "sourceHash": "sha256:64bed6ee6d807da91229f30f676ba19ca60bc4532ce8a8876f3f73b9c974ccc0",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 138,
+    "chunkCount": 144,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/18"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-4edb1d13",
+    "id": "guideline-4edb1d13",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "엘리베이터 부품 가이드"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hyundaielevator.co.kr/upload/catalog/부품+가이드.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "엘리베이터 부품 가이드",
+    "publisher": "www.hyundaielevator.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hyundaielevator.co.kr/upload/catalog/부품+가이드.pdf",
+    "sourceHash": "sha256:4edb1d13d0d85cc0aa26a7a4a0363c54d35a034460094eab1a22bc797b859e23",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 28,
+    "chunkCount": 29,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-5-...-06e32ac6",
+    "id": "guideline-5-...-06e32ac6",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "제5차 농어업인 삶의 질 향상 및 농어촌 지역개발 기본계획 수립방향 ..."
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://repository.krei.re.kr/bitstream/2018.oak/31971/1/E20-2024-01.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "제5차 농어업인 삶의 질 향상 및 농어촌 지역개발 기본계획 수립방향 ...",
+    "publisher": "repository.krei.re.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://repository.krei.re.kr/bitstream/2018.oak/31971/1/E20-2024-01.pdf",
+    "sourceHash": "sha256:06e32ac6176e15c8840dfad1e5c34a59ee99ba00140f015c2d37eddfd81194a1",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 220,
+    "chunkCount": 258,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/24"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-5172cffa",
+    "id": "guideline-5172cffa",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "국토교통부 정책자료실"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "국토교통부 정책자료실",
+    "publisher": "국토교통부",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+    "sourceHash": "sha256:5172cffa2d2c8ac9ec0158674fa00b5930c26166a4e0c86b86d90fa90516e95a",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-533a54b0",
+    "id": "guideline-533a54b0",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "환경부 화학물질 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 화학물질 정책자료",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:533a54b011900b08fab35f5a17a20d9a3adef8b1b87585b268bc8067fb4a5b50",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-5a6068fc",
+    "id": "guideline-5a6068fc",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "과제신청 가이드라인"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://kddf.org/upload/files/1661920376_b014baed2a48a808c95b.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "과제신청 가이드라인",
+    "publisher": "kddf.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://kddf.org/upload/files/1661920376_b014baed2a48a808c95b.pdf",
+    "sourceHash": "sha256:5a6068fcbe02ba962d833bbc2071abeb033829e91ca60fc5dc3756f9b13c45e1",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 59,
+    "chunkCount": 103,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-61589f5c",
+    "id": "guideline-61589f5c",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "전기전자 기초 이론"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://gumienergy.emu.ac.kr/contents/0000001899/common/down/01.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "전기전자 기초 이론",
+    "publisher": "gumienergy.emu.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://gumienergy.emu.ac.kr/contents/0000001899/common/down/01.pdf",
+    "sourceHash": "sha256:61589f5c2e7046fb099e71d546da80a9650a1eafcfe94f559a6485df38724a39",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 27,
+    "chunkCount": 9,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-745ad68f",
+    "id": "guideline-745ad68f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "국토교통부 정책자료실"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "국토교통부 정책자료실",
+    "publisher": "국토교통부",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+    "sourceHash": "sha256:745ad68fe5013fa1d7ec81a1dd6f8ba47dac7762b2f6074fc506992320b64775",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-7a33560f",
+    "id": "guideline-7a33560f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "보건복지부 사회복지 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "보건복지부 사회복지 정책자료",
+    "publisher": "mohw-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+    "sourceHash": "sha256:7a33560f385e459f430c303a1b4763c28113ad436095a84ae9079dee57735f43",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/07"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-8054ea43",
+    "id": "guideline-8054ea43",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식약처 의약품·바이오 가이드"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_209/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 의약품·바이오 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_209/list.do",
+    "sourceHash": "sha256:8054ea43ea60d96068d029f0aafcccd01dcd2611b229dcfbcd2c6def68a0cf0f",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-80b9baf5",
+    "id": "guideline-80b9baf5",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "보건복지부 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:20:59Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mohw.go.kr/board.es?mid=a10409010000&bid=0026",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "보건복지부 정책자료",
+    "publisher": "mohw-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mohw.go.kr/board.es?mid=a10409010000&bid=0026",
+    "sourceHash": "sha256:80b9baf52daafd0a0f602908067c77a546588147026f37f98b605bd2de753e34",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:20:34Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:20:59Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-835516a0",
+    "id": "guideline-835516a0",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "건설공사의 설계도서 작성기준(개정)"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.cmak.or.kr/upload/da/건설공사의_설계도서_작성기준_개정_전문_25년11월.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "건설공사의 설계도서 작성기준(개정)",
+    "publisher": "www.cmak.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.cmak.or.kr/upload/da/건설공사의_설계도서_작성기준_개정_전문_25년11월.pdf",
+    "sourceHash": "sha256:835516a003920b1c264b37592cfef63087ac8315cede9d039efd059af235205e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 529,
+    "chunkCount": 2898,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-887a149c",
+    "id": "guideline-887a149c",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "농식품유통교육원 가이드"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:21:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.atfis.or.kr/home/board/FB0028.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "농식품유통교육원 가이드",
+    "publisher": "atfis-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.atfis.or.kr/home/board/FB0028.do",
+    "sourceHash": "sha256:887a149ce73b69335419e21d3f64db1edfc1a9ecdfa5f227aa4013d8ae060614",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:20:59Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:21:29Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-89e795c1",
+    "id": "guideline-89e795c1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "문화체육관광부 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문화체육관광부 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+    "sourceHash": "sha256:89e795c10843fb8c4ac9aa6de15fa4e35b9ea4be6503b59e43f7a289c5750d5e",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-8ac8998b",
+    "id": "guideline-8ac8998b",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "식약처 식품 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:21:54Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 식품 정책자료",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:8ac8998bef9d65bf1a959d07d4655a9838287e916517c3e48d2b00fc87d89b09",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:21:29Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:21:54Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-909a6395",
+    "id": "guideline-909a6395",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "한국전기설비규정"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://gekkosystem.com/wp-content/uploads/2025/09/한국전기설비규정개정전문_202410.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "한국전기설비규정",
+    "publisher": "gekkosystem.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://gekkosystem.com/wp-content/uploads/2025/09/한국전기설비규정개정전문_202410.pdf",
+    "sourceHash": "sha256:909a6395567c5a465a032ece12cdff7bafa4d4f8bb5cb4bc5fcf5ac0c06b3a2b",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1207,
+    "chunkCount": 4539,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-925e4db5",
+    "id": "guideline-925e4db5",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "엘리베이터 부품 가이드"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hyundaielevator.co.kr/upload/catalog/2020-03+부품가이드(0).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "엘리베이터 부품 가이드",
+    "publisher": "www.hyundaielevator.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hyundaielevator.co.kr/upload/catalog/2020-03+부품가이드(0).pdf",
+    "sourceHash": "sha256:925e4db5f4b05dbc5a49a3f26abe017a20c3ad5e70ba01f6ab49212b94e3d75a",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 29,
+    "chunkCount": 44,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-9394bfe4",
+    "id": "guideline-9394bfe4",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "금융감독원 메인 (정보공개)"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fss.or.kr/fss/main/main.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융감독원 메인 (정보공개)",
+    "publisher": "금융감독원",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fss.or.kr/fss/main/main.do",
+    "sourceHash": "sha256:9394bfe4edfddc9ab0713b66e3dab0b67999d6d968087ebb8fa81cf7a2cbfdf5",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-9a67ad51",
+    "id": "guideline-9a67ad51",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "문화체육관광부 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문화체육관광부 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+    "sourceHash": "sha256:9a67ad51e8f3684821ba5365d50409018fcc790fc421fa884450eeadde72ebb0",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-9df19821",
+    "id": "guideline-9df19821",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "국토교통부 정책자료실"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:22:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "국토교통부 정책자료실",
+    "publisher": "국토교통부",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.molit.go.kr/USR/policyData/m_34681/lst.jsp",
+    "sourceHash": "sha256:9df198217bf951d14567919c31b166866f12518d7dc2cbb38d3204b94928a750",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:21:54Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:22:20Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-A4-88c9e758",
+    "id": "guideline-A4-88c9e758",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "A4용지"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.gcyf.or.kr/data/file/recruitment/3547819810_rqAVRHls_0d14f37d36664841b5f5c1254614ae726cff1030.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "A4용지",
+    "publisher": "www.gcyf.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.gcyf.or.kr/data/file/recruitment/3547819810_rqAVRHls_0d14f37d36664841b5f5c1254614ae726cff1030.pdf",
+    "sourceHash": "sha256:88c9e758b78ac344ea9b1e22d7fe4a034138a710f0c031a9c003301a3a2c8967",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 9,
+    "chunkCount": 27,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-a49f21cd",
+    "id": "guideline-a49f21cd",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식약처 의약품·바이오 가이드"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_209/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 의약품·바이오 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_209/list.do",
+    "sourceHash": "sha256:a49f21cdfcc83fdf38bd38f1c0f30f8d96033f8ab81232165e3c4b800996e51b",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-a54dabe8",
+    "id": "guideline-a54dabe8",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "금융위원회 보도자료·정책정보"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fsc.go.kr/no010101",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융위원회 보도자료·정책정보",
+    "publisher": "금융위원회",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fsc.go.kr/no010101",
+    "sourceHash": "sha256:a54dabe8dc97c1b4e7ef9cf5cd28b88a97aa1ce155dbec59afe3474575257d5b",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-a8a255e0",
+    "id": "guideline-a8a255e0",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "국립대구과학관 직무기술서 기"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://jrsfile.jobkorea.co.kr/PJT/dnsm/dnsm252_6.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "국립대구과학관 직무기술서 기",
+    "publisher": "jrsfile.jobkorea.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://jrsfile.jobkorea.co.kr/PJT/dnsm/dnsm252_6.pdf",
+    "sourceHash": "sha256:a8a255e0a2f149a73e6395e646e811975bfb3ce1ea14b744cc60265e865199d8",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/12"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-b664f7d8",
+    "id": "guideline-b664f7d8",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "식품의약품안전처 식품 가이드"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:22:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식품의약품안전처 식품 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:b664f7d83247b2d0bc1bf697cdccfe673d0271b74cc40761d802aa1b93e304ef",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:22:20Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:22:47Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-b84f1845",
+    "id": "guideline-b84f1845",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "문체부 관광·체육 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문체부 관광·체육 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+    "sourceHash": "sha256:b84f184532c5878008d08534b91af65aa0856628b61abcbefeb378684504d34a",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/12"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-b8df0c1c",
+    "id": "guideline-b8df0c1c",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "가이드라인최종수정안"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://health.sangju.go.kr/fileUpload/board/1366936887433.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "가이드라인최종수정안",
+    "publisher": "health.sangju.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://health.sangju.go.kr/fileUpload/board/1366936887433.pdf",
+    "sourceHash": "sha256:b8df0c1c33d6be3d208cd4eaab49903a19018eb1e96b6e8a044900303e65da03",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 8,
+    "chunkCount": 15,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-ba0a4dbb",
+    "id": "guideline-ba0a4dbb",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[안전복지과] 산업안전보건관리 업무 매뉴얼"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.jne.go.kr/upload/open/na/bbs_297/ntt_5006197/doc_a578676d-d02f-489e-b8f2-3dea0ddb48da1639a6302b62560.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[안전복지과] 산업안전보건관리 업무 매뉴얼",
+    "publisher": "www.jne.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.jne.go.kr/upload/open/na/bbs_297/ntt_5006197/doc_a578676d-d02f-489e-b8f2-3dea0ddb48da1639a6302b62560.pdf",
+    "sourceHash": "sha256:ba0a4dbb5f6ed90030fd1e3dbc275851b1fca1d9d1894557c273334ec8bb0946",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=utf-8",
+    "pageCount": 94,
+    "chunkCount": 181,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-bed38c4d",
+    "id": "guideline-bed38c4d",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "문화체육관광부 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:23:15Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문화체육관광부 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp",
+    "sourceHash": "sha256:bed38c4dd9fb8ff34ba256d7ced4993eaab92626542b43b32f44fed92824dc71",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:22:47Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:23:15Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c.incru.it-4c1043f3",
+    "id": "guideline-c.incru.it-4c1043f3",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "운전관리 - c.incru.it"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://c.incru.it/newjobpost/2026/04_nhis/5.직무기술서_운전관리지원직(업무지원직)_2026상.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "운전관리 - c.incru.it",
+    "publisher": "c.incru.it",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://c.incru.it/newjobpost/2026/04_nhis/5.직무기술서_운전관리지원직(업무지원직)_2026상.pdf",
+    "sourceHash": "sha256:4c1043f37ac414119d62e46e6f506798b9a34bb1cd26681dd180499348c81a00",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 2,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/09"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c45ddcc3",
+    "id": "guideline-c45ddcc3",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "의료기기 원재료 작성 가이드라인 개정(안) [민원인 안내서]"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://t1.daumcdn.net/brunch/service/user/9Szd/file/6I3BBr-uXm4FHHWLAEwsKcEp5Vw.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "의료기기 원재료 작성 가이드라인 개정(안) [민원인 안내서]",
+    "publisher": "t1.daumcdn.net",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://t1.daumcdn.net/brunch/service/user/9Szd/file/6I3BBr-uXm4FHHWLAEwsKcEp5Vw.pdf",
+    "sourceHash": "sha256:c45ddcc3948ca5b915acd88e4ba0b6cbacd0abda6366e545e7b5f4275f004cea",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 40,
+    "chunkCount": 45,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c543acf9",
+    "id": "guideline-c543acf9",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "금융감독원 메인 (정보공개)"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:23:43Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fss.or.kr/fss/main/main.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융감독원 메인 (정보공개)",
+    "publisher": "금융감독원",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fss.or.kr/fss/main/main.do",
+    "sourceHash": "sha256:c543acf9c282601d30f98c327999b7e530fd8f933e1f61e64c1d0475d2ddd617",
+    "language": "ko",
+    "mimeType": "text/html; charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:23:15Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:23:43Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c61b8699",
+    "id": "guideline-c61b8699",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식약처 식품 정책자료"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 식품 정책자료",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:c61b8699aedd5dafcc3928ee48cdf9375f8a1a74a237d763af9d56f6880ca26b",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c7981b1e",
+    "id": "guideline-c7981b1e",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "금융위원회 보도자료·정책정보"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:24:10Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fsc.go.kr/no010101",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "금융위원회 보도자료·정책정보",
+    "publisher": "금융위원회",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fsc.go.kr/no010101",
+    "sourceHash": "sha256:c7981b1eac4953b1a3da24cd3d5066bd4304344491ec3ad5adbbc852f62fc3f7",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:23:43Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:24:10Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-c82652e8",
+    "id": "guideline-c82652e8",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "지역농림업 발전사업 추진방안 연구"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://repository.krei.re.kr/bitstream/2018.oak/30681/1/E20-2023-07.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "지역농림업 발전사업 추진방안 연구",
+    "publisher": "repository.krei.re.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://repository.krei.re.kr/bitstream/2018.oak/30681/1/E20-2023-07.pdf",
+    "sourceHash": "sha256:c82652e817a031f618a548b73a6a4a210997c99cba543ba4c27da99811413e00",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 185,
+    "chunkCount": 316,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/24"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-cacda6cd",
+    "id": "guideline-cacda6cd",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "보건복지부 사회복지 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:24:35Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "보건복지부 사회복지 정책자료",
+    "publisher": "mohw-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mohw.go.kr/board.es?mid=a10401000000&bid=0008",
+    "sourceHash": "sha256:cacda6cd1b7b2f5d740f9b7ce40a7f0c41209a7b1d0b7f805a9ceedad5e47840",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/07"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:24:10Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:24:35Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-cc33b341",
+    "id": "guideline-cc33b341",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "문체부 관광·체육 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "문체부 관광·체육 정책자료",
+    "publisher": "mcst-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mcst.go.kr/kor/s_policy/dept/deptList.jsp?pSeq=1881",
+    "sourceHash": "sha256:cc33b341d1ee889fa6761b43c18defb9d3a763fbbca7368ccedbc340831d2cf5",
+    "language": "ko",
+    "mimeType": "text/html;charset=utf-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/12"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d1a31476",
+    "id": "guideline-d1a31476",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "에너지공단 에너지 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "에너지공단 에너지 정책자료",
+    "publisher": "energy-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.energy.or.kr/front/board/List9.do?bcd=cb_data1",
+    "sourceHash": "sha256:d1a31476eb3123096eec49a6cf70c4737143a90ee1e07e576d45c1aa85aeeed6",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d3967710",
+    "id": "guideline-d3967710",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "환경부 환경정책 자료실"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:25:02Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 환경정책 자료실",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:d39677108cb8a0603cdd640a3350c9990a2e116e523047960fa17316ff3acd69",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:24:35Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:25:02Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d4e8b6de",
+    "id": "guideline-d4e8b6de",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "당뇨소모성 판매 업소 등록 및 프로그램 매뉴얼"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://kpaweb.pm2000.co.kr/Pm2000v6faq/Diabete_registration_Manual.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "당뇨소모성 판매 업소 등록 및 프로그램 매뉴얼",
+    "publisher": "kpaweb.pm2000.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://kpaweb.pm2000.co.kr/Pm2000v6faq/Diabete_registration_Manual.pdf",
+    "sourceHash": "sha256:d4e8b6de54c07ac7b7426d84434cacb6235dee9672cb2f1231a404387271e232",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 19,
+    "chunkCount": 16,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d6fa28b2",
+    "id": "guideline-d6fa28b2",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "한국생산성본부 채용 직무 설명자료"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kpc.or.kr/download/pt/직무설명서_경영지원.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "한국생산성본부 채용 직무 설명자료",
+    "publisher": "www.kpc.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kpc.or.kr/download/pt/직무설명서_경영지원.pdf",
+    "sourceHash": "sha256:d6fa28b238a62a15697f9c21522661f1f8ee2ca11a8ada834758ed45fb2cc88e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 8,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d803bd86",
+    "id": "guideline-d803bd86",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식품의약품안전처 식품 가이드"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식품의약품안전처 식품 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:d803bd860c0e425f62a0c52d11584eed8e00693c1ccfe4e55711fe1f44c4237e",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-d97f5d44",
+    "id": "guideline-d97f5d44",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "식약처 의약품·바이오 가이드"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:25:27Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_209/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 의약품·바이오 가이드",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_209/list.do",
+    "sourceHash": "sha256:d97f5d44a44d5476aa40b067d7c7e5f7d84ec01383820a15309762b5f4396958",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:25:02Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:25:27Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-DBPIA-NURIMEDIA-17c005f8",
+    "id": "guideline-DBPIA-NURIMEDIA-17c005f8",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "DBPIA-NURIMEDIA"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://journal.dcs.or.kr/xml/20832/20832.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "DBPIA-NURIMEDIA",
+    "publisher": "journal.dcs.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://journal.dcs.or.kr/xml/20832/20832.pdf",
+    "sourceHash": "sha256:17c005f8375e66c2f75effa86d4766e8e85623b25bd4c971e544d0537bb2835c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 5,
+    "chunkCount": 5,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/20"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-DX-25fd1c5e",
+    "id": "guideline-DX-25fd1c5e",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "스마트건설 DX 가이드 가제)>"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.buildingsmart.or.kr/NewsFile/NewsFile_3385.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "스마트건설 DX 가이드 가제)>",
+    "publisher": "www.buildingsmart.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.buildingsmart.or.kr/NewsFile/NewsFile_3385.pdf",
+    "sourceHash": "sha256:25fd1c5e217a70c0a8d8ce038aab904319325a867f3a3fdd65baebae73b786d2",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 9,
+    "chunkCount": 10,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-e179303a",
+    "id": "guideline-e179303a",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "보건복지부 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mohw.go.kr/board.es?mid=a10409010000&bid=0026",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "보건복지부 정책자료",
+    "publisher": "mohw-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mohw.go.kr/board.es?mid=a10409010000&bid=0026",
+    "sourceHash": "sha256:e179303aaad0bb37b2c195553cf74987c49103f5fd48d3298338f9c93f15ebcc",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-e1a6cefc",
+    "id": "guideline-e1a6cefc",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "농식품유통교육원 가이드"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.atfis.or.kr/home/board/FB0028.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "농식품유통교육원 가이드",
+    "publisher": "atfis-or-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.atfis.or.kr/home/board/FB0028.do",
+    "sourceHash": "sha256:e1a6cefc59994546679d33e992d3c22a7e427c58aadee6df45bb3c3ce5125c39",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-e6c39af6",
+    "id": "guideline-e6c39af6",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "공정거래 모범 가이드라인"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://basecarrier.co.kr/wp-content/uploads/2025/07/공정거래가이드라인.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "공정거래 모범 가이드라인",
+    "publisher": "basecarrier.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://basecarrier.co.kr/wp-content/uploads/2025/07/공정거래가이드라인.pdf",
+    "sourceHash": "sha256:e6c39af64181e89ed18a5aad83ef1e3f6fedef367d73bf87d72685303cb66ab8",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 39,
+    "chunkCount": 46,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/10"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-ec97ce71",
+    "id": "guideline-ec97ce71",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "식약처 식품 정책자료"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.mfds.go.kr/brd/m_207/list.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "식약처 식품 정책자료",
+    "publisher": "mfds-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.mfds.go.kr/brd/m_207/list.do",
+    "sourceHash": "sha256:ec97ce717b8e73070ae3511dfd668edb558da238e9ecc9d89c4f4522447c521f",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/21"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-eda4cc68",
+    "id": "guideline-eda4cc68",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "환경부 화학물질 정책자료"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:25:53Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "환경부 화학물질 정책자료",
+    "publisher": "me-go-kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.me.go.kr/home/web/policy_data/list.do?menuId=10262",
+    "sourceHash": "sha256:eda4cc68e44440d4490bd049df65dadefcfa38da3677e337cb37dab30c851007",
+    "language": "ko",
+    "mimeType": "text/html;charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:25:27Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:25:53Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-edaf4e52",
+    "id": "guideline-edaf4e52",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "정보통신설비 유지보수·관리 및 성능점검 업무 해설서"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.cng.go.kr/_res/data/pdf/p04006_data05.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "정보통신설비 유지보수·관리 및 성능점검 업무 해설서",
+    "publisher": "www.cng.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.cng.go.kr/_res/data/pdf/p04006_data05.pdf",
+    "sourceHash": "sha256:edaf4e520ec68149e1dcee03eee201d312fc65fafb58567878bec08423eed0d9",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 309,
+    "chunkCount": 576,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/20"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-ee29c341",
+    "id": "guideline-ee29c341",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "정보통신 - 부산대학교 홈페이지 통합시스템"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://uitc.pusan.ac.kr/sites/uitc/download/12.download(1).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "정보통신 - 부산대학교 홈페이지 통합시스템",
+    "publisher": "uitc.pusan.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://uitc.pusan.ac.kr/sites/uitc/download/12.download(1).pdf",
+    "sourceHash": "sha256:ee29c341e29bef08e3defbd250c14a8fdde5f7920ed0d8f469f4cff13e13b928",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 7,
+    "chunkCount": 32,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/20"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-Experience-.-51bbbb99",
+    "id": "guideline-Experience-.-51bbbb99",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Experience) 를 디자인하고 계획하는 프로세스를 의미합니다. 이는 게"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://meister.hrdkorea.or.kr/uploads/jobMenual/N_338_게임개발.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "Experience) 를 디자인하고 계획하는 프로세스를 의미합니다. 이는 게",
+    "publisher": "meister.hrdkorea.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://meister.hrdkorea.or.kr/uploads/jobMenual/N_338_게임개발.pdf",
+    "sourceHash": "sha256:51bbbb99907b9d3ba49ac5c208f75cc573257836d5757a1ce04980df90242dab",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=utf-8",
+    "pageCount": 46,
+    "chunkCount": 57,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-fashionnet.or.kr-1f83059b",
+    "id": "guideline-fashionnet.or.kr-1f83059b",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "섬유패션산업통계 - fashionnet.or.kr"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.fashionnet.or.kr/wp-content/uploads/2021/05/섬유패션산업-통계책자2021.5.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "섬유패션산업통계 - fashionnet.or.kr",
+    "publisher": "www.fashionnet.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.fashionnet.or.kr/wp-content/uploads/2021/05/섬유패션산업-통계책자2021.5.pdf",
+    "sourceHash": "sha256:1f83059b40085e39569ee08e13053c234dcbd2beeeb68786e61e83e6d3a3a20a",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 103,
+    "chunkCount": 121,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/18"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-ft.khu.ac.kr-ed4c8aae",
+    "id": "guideline-ft.khu.ac.kr-ed4c8aae",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "예술 디자 - ft.khu.ac.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://ft.khu.ac.kr/resources/user/khu_type8/file/2022_edu.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "예술 디자 - ft.khu.ac.kr",
+    "publisher": "ft.khu.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://ft.khu.ac.kr/resources/user/khu_type8/file/2022_edu.pdf",
+    "sourceHash": "sha256:ed4c8aae83cf9999496385e14f0511512725fd185ae3443e113a2470714e20f9",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 21,
+    "chunkCount": 42,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-Guideline-on-Nonclinical-Evaluation-of-Biopharmaceuticals-8e766a5e",
+    "id": "guideline-Guideline-on-Nonclinical-Evaluation-of-Biopharmaceuticals-8e766a5e",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "생물의약품 비임상시험 가이드라인 (Guideline on Nonclinical Evaluation of Biopharmaceuticals)"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://bicstudy.org/wp-content/uploads/2015/03/생물의약품비임상시험가이드라인_개정2014.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "생물의약품 비임상시험 가이드라인 (Guideline on Nonclinical Evaluation of Biopharmaceuticals)",
+    "publisher": "bicstudy.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://bicstudy.org/wp-content/uploads/2015/03/생물의약품비임상시험가이드라인_개정2014.pdf",
+    "sourceHash": "sha256:8e766a5e10bdf8b8abbed67615134fe63f368417255d72a499d0d8a7c6002a72",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 74,
+    "chunkCount": 92,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/17"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-HIRA-d141e822",
+    "id": "guideline-HIRA-d141e822",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "신의료기술 등재 신청 가이드 - HIRA"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hira.or.kr/ebooksc/2024/01/BZ202401189533243.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "신의료기술 등재 신청 가이드 - HIRA",
+    "publisher": "www.hira.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hira.or.kr/ebooksc/2024/01/BZ202401189533243.pdf",
+    "sourceHash": "sha256:d141e822d250ddd3d6532abd54064937e875cf3c17fb70cc0ee907d5ab392bcc",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 58,
+    "chunkCount": 116,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-his.pusan.ac.kr-ee29c341-c68066b2",
+    "id": "guideline-his.pusan.ac.kr-ee29c341-c68066b2",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "정보통신 - his.pusan.ac.kr 정보통신공사 표준시방서 (정보망·매체공사)정보통신설비 유지보수관리 과업지시서정보통신분야 침해사고 대응 안내서정보통신설비관리규정 - KRIC"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://his.pusan.ac.kr/sites/uitc/download/12.download(1).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "정보통신 - his.pusan.ac.kr 정보통신공사 표준시방서 (정보망·매체공사)정보통신설비 유지보수관리 과업지시서정보통신분야 침해사고 대응 안내서정보통신설비관리규정 - KRIC",
+    "publisher": "his.pusan.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://his.pusan.ac.kr/sites/uitc/download/12.download(1).pdf",
+    "sourceHash": "sha256:ee29c341e29bef08e3defbd250c14a8fdde5f7920ed0d8f469f4cff13e13b928",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 7,
+    "chunkCount": 32,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/20"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-i-Tube-e2a6feb9",
+    "id": "guideline-i-Tube-e2a6feb9",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "산업기술개발장비 공동이용시스템 i-Tube 사용자 매뉴얼(연구장비 관리)"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://research.uos.ac.kr/sites/default/files/bbsfiles/16141316901.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "산업기술개발장비 공동이용시스템 i-Tube 사용자 매뉴얼(연구장비 관리)",
+    "publisher": "research.uos.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://research.uos.ac.kr/sites/default/files/bbsfiles/16141316901.pdf",
+    "sourceHash": "sha256:e2a6feb903e3b6dfb42f0082f7e4f2d4c9bf362e07f6373670c580c20d79d180",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 40,
+    "chunkCount": 36,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-imgstock.naver.com-ace473f6",
+    "id": "guideline-imgstock.naver.com-ace473f6",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "섬유 의복 - imgstock.naver.com"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://imgstock.naver.com/upload/research/industry/1436929069689.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "섬유 의복 - imgstock.naver.com",
+    "publisher": "imgstock.naver.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://imgstock.naver.com/upload/research/industry/1436929069689.pdf",
+    "sourceHash": "sha256:ace473f683e2242222332fdee39a88ffe57e25e1f4ddace4f9380fa99e4a48a1",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 14,
+    "chunkCount": 17,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/18"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-inno.ssu.ac.kr-cc2acda1",
+    "id": "guideline-inno.ssu.ac.kr-cc2acda1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "기독교학과 - inno.ssu.ac.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://inno.ssu.ac.kr/wp-content/uploads/sites/170/2024/05/01.기독교_2023학년도-전공역량로드맵-개편축약본_202403.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "기독교학과 - inno.ssu.ac.kr",
+    "publisher": "inno.ssu.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://inno.ssu.ac.kr/wp-content/uploads/sites/170/2024/05/01.기독교_2023학년도-전공역량로드맵-개편축약본_202403.pdf",
+    "sourceHash": "sha256:cc2acda1025734db430822f500856d81efc213a4d885ddcd75c459f18f2e60ff",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 14,
+    "chunkCount": 9,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/07"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-IoT-2cad94c5",
+    "id": "guideline-IoT-2cad94c5",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "IoT 비즈니스 전략"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://member.kpa21.or.kr/wp-content/uploads/sites/2/2021/01/2020년-12월의-신간.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "IoT 비즈니스 전략",
+    "publisher": "member.kpa21.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://member.kpa21.or.kr/wp-content/uploads/sites/2/2021/01/2020년-12월의-신간.pdf",
+    "sourceHash": "sha256:2cad94c53820b3e953e013590ae2a65d04ca83e36e493ed12d6ad72ecb6eb21e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 110,
+    "chunkCount": 112,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-K2Web-Wizard-5.0-Manual-v2-13978c79",
+    "id": "guideline-K2Web-Wizard-5.0-Manual-v2-13978c79",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "정보인프라팀 K2Web Wizard 5.0 기반 Manual v2 이화여자대학교 홈페이지관리자매뉴얼"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://cms.ewha.ac.kr/Web-home/common/manual/Jwizard5.0_user.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "정보인프라팀 K2Web Wizard 5.0 기반 Manual v2 이화여자대학교 홈페이지관리자매뉴얼",
+    "publisher": "cms.ewha.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://cms.ewha.ac.kr/Web-home/common/manual/Jwizard5.0_user.pdf",
+    "sourceHash": "sha256:13978c79c5c76405bf21ad30f99cc0cdc7ba7f8185b44c41d06ed69128be3875",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 130,
+    "chunkCount": 404,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KCS-14-20-10-2024-kcmt.co.kr-aea4524e",
+    "id": "guideline-KCS-14-20-10-2024-kcmt.co.kr-aea4524e",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KCS 14 20 10 : 2024 - kcmt.co.kr"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kcmt.co.kr/UploadFolder/200015_fix_board_standard_eng/20250430132450_453.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KCS 14 20 10 : 2024 - kcmt.co.kr",
+    "publisher": "www.kcmt.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kcmt.co.kr/UploadFolder/200015_fix_board_standard_eng/20250430132450_453.pdf",
+    "sourceHash": "sha256:aea4524e72613a3fa8c6991e24ab9d4357f609786c16c0e8ac3446dd326c4569",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 74,
+    "chunkCount": 348,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-kiha21.or.kr-7b4a08cb",
+    "id": "guideline-kiha21.or.kr-7b4a08cb",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "건강보호 가이드 - kiha21.or.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://kiha21.or.kr/monthly/2021/02/2021_02_16_s394.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "건강보호 가이드 - kiha21.or.kr",
+    "publisher": "kiha21.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://kiha21.or.kr/monthly/2021/02/2021_02_16_s394.pdf",
+    "sourceHash": "sha256:7b4a08cb9b1813ad3250d9541a1c4cbc4dfdab48f89797d41391336b19c79a82",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 2,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KO-1000-Series-Monitor-27E2N1500L-fcc1c3ea",
+    "id": "guideline-KO-1000-Series-Monitor-27E2N1500L-fcc1c3ea",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KO 사용자 매뉴얼 1000 Series Monitor 27E2N1500L"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.documents.philips.com/assets/20250616/e20345db592845d88b71b2fe006bfb50.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KO 사용자 매뉴얼 1000 Series Monitor 27E2N1500L",
+    "publisher": "www.documents.philips.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.documents.philips.com/assets/20250616/e20345db592845d88b71b2fe006bfb50.pdf",
+    "sourceHash": "sha256:fcc1c3ea7a4d0398d74954cea0223535e39d073408d965ab6e5b542e69738766",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 29,
+    "chunkCount": 40,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KO-Curved-Business-Monitor-3000-Series-34B2U3600C-4ca6cab3",
+    "id": "guideline-KO-Curved-Business-Monitor-3000-Series-34B2U3600C-4ca6cab3",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KO 사용자 매뉴얼 Curved Business Monitor 3000 Series 34B2U3600C"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.documents.philips.com/assets/20260312/7714c321f59e45f89ab6b40b008a71c2.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KO 사용자 매뉴얼 Curved Business Monitor 3000 Series 34B2U3600C",
+    "publisher": "www.documents.philips.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.documents.philips.com/assets/20260312/7714c321f59e45f89ab6b40b008a71c2.pdf",
+    "sourceHash": "sha256:4ca6cab3c19544cf7cfa70f66b94074a66ce1e93a7864e44ce926e38d792a173",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 34,
+    "chunkCount": 58,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KO-Register-your-product-and-get-support-at-www.philips.com-welcome-3c346287",
+    "id": "guideline-KO-Register-your-product-and-get-support-at-www.philips.com-welcome-3c346287",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KO 사용자 매뉴얼 Register your product and get support at www.philips.com/welcome"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.documents.philips.com/assets/20251216/4718af463cad45ecbca6b3b500dce4ec.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KO 사용자 매뉴얼 Register your product and get support at www.philips.com/welcome",
+    "publisher": "www.documents.philips.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.documents.philips.com/assets/20251216/4718af463cad45ecbca6b3b500dce4ec.pdf",
+    "sourceHash": "sha256:3c3462872bea88372b7e09875956cc72a036f59227a8c6cd25b09829450b20a8",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 37,
+    "chunkCount": 64,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-530b6550",
+    "id": "guideline-KOSHA-530b6550",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KOSHA 안전보건 가이드 메인"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA 안전보건 가이드 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:530b65501e6b1fd3b0c48dc68e58aac85f9fece77f10e4536be6179e6f465d8c",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/11"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-7b8f6384",
+    "id": "guideline-KOSHA-7b8f6384",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "KOSHA 안전보건 가이드 메인"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:26:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA 안전보건 가이드 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:7b8f63842260b7b161ca904fbd45c8bb8bbe0f7c3b335db5b63dd802c16c7ab7",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/11"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:25:53Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:26:20Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-c9d3f349",
+    "id": "guideline-KOSHA-c9d3f349",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KOSHA 안전보건 가이드 메인"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA 안전보건 가이드 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:c9d3f3494367fed6a19e3411165eb06805e96e9955228f57f789e93b887fafd5",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/11"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-Guide-161aa4fe",
+    "id": "guideline-KOSHA-Guide-161aa4fe",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KOSHA Guide 메인"
+    },
+    "createdAt": "2026-06-04T12:32:26Z",
+    "updatedAt": "2026-06-04T12:32:26Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA Guide 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:161aa4fe3b9f2b39efe3b04a247d9a2d2aaea98989bae8568b1e327f96a8dcc8",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-Guide-19180da9",
+    "id": "guideline-KOSHA-Guide-19180da9",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "KOSHA Guide 메인"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:26:46Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA Guide 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:19180da932a22c09e6b89e6cfb054465ccc8bc054ac86b666169ad0fe0da11f6",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:26:20Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:26:46Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-Guide-705410a0",
+    "id": "guideline-KOSHA-Guide-705410a0",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "KOSHA Guide 목록 페이지"
+    },
+    "createdAt": "2026-06-03T02:24:43Z",
+    "updatedAt": "2026-06-03T19:27:14Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/extappKosha/kosha/businessOA/kssgList.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA Guide 목록 페이지",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/extappKosha/kosha/businessOA/kssgList.do",
+    "sourceHash": "sha256:705410a0ba8f2f66fcf45a6cd4e32e5ff4211671a3700c383df1d0a0062eee5c",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:26:46Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:27:14Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-Guide-b847d460",
+    "id": "guideline-KOSHA-Guide-b847d460",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "KOSHA Guide 메인"
+    },
+    "createdAt": "2026-06-04T12:40:47Z",
+    "updatedAt": "2026-06-04T12:40:47Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA Guide 메인",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/kosha/data/guidanceMain.do",
+    "sourceHash": "sha256:b847d4601a4e5bb10a6bba7d921c9e42beac4acd42804b3273ce529daf36ef4c",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOSHA-Guide-G-1-2024-f478c721",
+    "id": "guideline-KOSHA-Guide-G-1-2024-f478c721",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "KOSHA Guide G-1-2024 안전보건경영시스템 가이드"
+    },
+    "createdAt": "2026-06-03T02:24:43Z",
+    "updatedAt": "2026-06-03T19:27:41Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kosha.or.kr/extappKosha/kosha/guidance/fileDownload.do?sfhlhTchnlgyManualNo=2114&fileOrdrNo=1",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOSHA Guide G-1-2024 안전보건경영시스템 가이드",
+    "publisher": "한국산업안전보건공단",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kosha.or.kr/extappKosha/kosha/guidance/fileDownload.do?sfhlhTchnlgyManualNo=2114&fileOrdrNo=1",
+    "sourceHash": "sha256:f478c72155f02bfa3723052222718bb655cfda91d6921f6052be16a1dfc72c47",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:27:14Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:27:41Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-KOTITI-e9b9f2e7",
+    "id": "guideline-KOTITI-e9b9f2e7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "published",
+    "label": {
+      "ko": "KOTITI 시험연구원 (섬유 표준)"
+    },
+    "createdAt": "2026-06-03T14:14:39Z",
+    "updatedAt": "2026-06-03T19:28:06Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kotiti-global.com/",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "KOTITI 시험연구원 (섬유 표준)",
+    "publisher": "kotiti-global",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kotiti-global.com/",
+    "sourceHash": "sha256:e9b9f2e796232452243e7471d5b9cfb4375ecceba346fe09733860c61e0ae613",
+    "language": "ko",
+    "mimeType": "text/html; charset=UTF-8",
+    "pageCount": 0,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/18"
+    ],
+    "approvalNote": [
+      {
+        "ts": "2026-06-03T19:27:41Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      },
+      {
+        "ts": "2026-06-03T19:28:06Z",
+        "action": "published",
+        "reason": "bulk-approve (conf>=0.85)"
+      }
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-LM-THK-74f5d089",
+    "id": "guideline-LM-THK-74f5d089",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "LM 가이드 - THK"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://tech.thk.com/upload/product_data/upfile/512K_01_LMGuide.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "LM 가이드 - THK",
+    "publisher": "tech.thk.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://tech.thk.com/upload/product_data/upfile/512K_01_LMGuide.pdf",
+    "sourceHash": "sha256:74f5d089ca66e07f60e3f1e7bc4f44afb714974ac0d554293bd6dfb48dd639a3",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 668,
+    "chunkCount": 860,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/16"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-LM-THK-d4e76dbd",
+    "id": "guideline-LM-THK-d4e76dbd",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "제품해설 LM 가이드 - THK"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://tech.thk.com/upload/product_data/upfile/K_01_LMGuide.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "제품해설 LM 가이드 - THK",
+    "publisher": "tech.thk.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://tech.thk.com/upload/product_data/upfile/K_01_LMGuide.pdf",
+    "sourceHash": "sha256:d4e76dbd2c52916a7621c55c0e0f4e05fe10e0409797f6b3d7c916e2fdf8d14b",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 704,
+    "chunkCount": 894,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-meister.hrdkorea.or.kr-0fcbd0b5",
+    "id": "guideline-meister.hrdkorea.or.kr-0fcbd0b5",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "직 종 설 명 서 - meister.hrdkorea.or.kr"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://meister.hrdkorea.or.kr/uploads/jobMenual/N_412_가구.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "직 종 설 명 서 - meister.hrdkorea.or.kr",
+    "publisher": "meister.hrdkorea.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://meister.hrdkorea.or.kr/uploads/jobMenual/N_412_가구.pdf",
+    "sourceHash": "sha256:0fcbd0b511573154a6cfa2477a0c24649a54d9c450a9e4ba9ac8b3b0f640995e",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=utf-8",
+    "pageCount": 17,
+    "chunkCount": 23,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/22"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-69f62c10",
+    "id": "guideline-NCS-69f62c10",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "NCS 기반 직무기술서 [규제자유특구분야-변호사]"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://lawschool.wku.ac.kr/wp-content/uploads/sites/91/2021/06/2.-직무기술서변호사.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "NCS 기반 직무기술서 [규제자유특구분야-변호사]",
+    "publisher": "lawschool.wku.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://lawschool.wku.ac.kr/wp-content/uploads/sites/91/2021/06/2.-직무기술서변호사.pdf",
+    "sourceHash": "sha256:69f62c10eb65a55ccada1ac1fa0a3e27b6ab22c0ec9ba70b505ecc4f812e0c6c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-6d393da1",
+    "id": "guideline-NCS-6d393da1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "【NCS기반 채용 직무 설명자료 : 인사총무】"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://orasfile.jobkorea.co.kr/orasphoto/public/pipc/채용직무설명자료_인사총무.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "【NCS기반 채용 직무 설명자료 : 인사총무】",
+    "publisher": "orasfile.jobkorea.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://orasfile.jobkorea.co.kr/orasphoto/public/pipc/채용직무설명자료_인사총무.pdf",
+    "sourceHash": "sha256:6d393da1476219bf6171ab0c301c4aa5d915c83c096ced971ac707262dd9ce7c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-738df7e4",
+    "id": "guideline-NCS-738df7e4",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "NCS기반 채용 직무 설명자료: 문화예술행정"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://raspfiles2.incruit.com/jfac/data/103/SuccessData/addFile/직무기술서(문화예술행정).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "NCS기반 채용 직무 설명자료: 문화예술행정",
+    "publisher": "raspfiles2.incruit.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://raspfiles2.incruit.com/jfac/data/103/SuccessData/addFile/직무기술서(문화예술행정).pdf",
+    "sourceHash": "sha256:738df7e4bdec4e7a14dba10644e2125018300494d065e2bf32ab2e529baac529",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/08"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-769450e7",
+    "id": "guideline-NCS-769450e7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "【NCS기반 채용 직무 설명자료】"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://kfi.recruiton.kr/files/web/images/177/시험검사.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "【NCS기반 채용 직무 설명자료】",
+    "publisher": "kfi.recruiton.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://kfi.recruiton.kr/files/web/images/177/시험검사.pdf",
+    "sourceHash": "sha256:769450e787da5e2601b5d6fe82bb50790c537104c42f2bf4bf1b8b5fffad0bb6",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 8,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-b9717492",
+    "id": "guideline-NCS-b9717492",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "NCS 기반 채용 직무기술서(일반직군 안전[방재]직렬)"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://raspfiles2.incruit.com/upa/data/104/SuccessData/addFile/직무기술서(안전).pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "NCS 기반 채용 직무기술서(일반직군 안전[방재]직렬)",
+    "publisher": "raspfiles2.incruit.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://raspfiles2.incruit.com/upa/data/104/SuccessData/addFile/직무기술서(안전).pdf",
+    "sourceHash": "sha256:b9717492951c60979e0f28f55d89872448697760e5b88b1beb808952eaa48934",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NCS-bd4e1de1",
+    "id": "guideline-NCS-bd4e1de1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[ NCS 기반 채용 직무 설명자료 : 임원차량 운전기사 ]"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://raspfiles2.incruit.com/gkl/data/101/SuccessData/addFile/직무기술서임원차량운전기사.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[ NCS 기반 채용 직무 설명자료 : 임원차량 운전기사 ]",
+    "publisher": "raspfiles2.incruit.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://raspfiles2.incruit.com/gkl/data/101/SuccessData/addFile/직무기술서임원차량운전기사.pdf",
+    "sourceHash": "sha256:bd4e1de12ca62378e38331783d0fbbf71b185f3dc2c9ca2afc762f0440541f4e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/09"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NHN-2f399909",
+    "id": "guideline-NHN-2f399909",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "NHN 커머스의 초보자를위한쉬운창업 가이드"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://static.godo.co.kr/download/customer/startguide_v1.0.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "NHN 커머스의 초보자를위한쉬운창업 가이드",
+    "publisher": "static.godo.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://static.godo.co.kr/download/customer/startguide_v1.0.pdf",
+    "sourceHash": "sha256:2f39990932921f06d174b6f930f1a0c47e61ea615b230dea43607c21e2c12f93",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 36,
+    "chunkCount": 33,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/20"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-NSK-TM-c1cb95b6",
+    "id": "guideline-NSK-TM-c1cb95b6",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "NSK리니어가이드TM"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://www.seoeunfa.co.kr/catalog/LMGUIDE_NSK.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "NSK리니어가이드TM",
+    "publisher": "www.seoeunfa.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://www.seoeunfa.co.kr/catalog/LMGUIDE_NSK.pdf",
+    "sourceHash": "sha256:c1cb95b6fa84765bd8c55d17fef6a490cd5597aaa6ce28a60c611b9dea8ce5a9",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 20,
+    "chunkCount": 46,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/15"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-...-956a4940",
+    "id": "guideline-PDF-...-956a4940",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 진화과학에 근거한 인간본성의 탐구를 통해 자연과학과 사회과학을 통합 ..."
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://j-kagedu.or.kr/upload/pdf/kagedu-10-3-787.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 진화과학에 근거한 인간본성의 탐구를 통해 자연과학과 사회과학을 통합 ...",
+    "publisher": "j-kagedu.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://j-kagedu.or.kr/upload/pdf/kagedu-10-3-787.pdf",
+    "sourceHash": "sha256:956a494070c633921cefbc03cf5fc24b7fb13f37ed4ed78728d746eacd966189",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 59,
+    "chunkCount": 115,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-...-ff1061ac",
+    "id": "guideline-PDF-...-ff1061ac",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 쪾재경관리사 쪾경영지도사 쪾전산세무회계 쪾 ... - 아이파경영아카데미"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.aifacta.co.kr/Images/AifaCta/Sub/CTAstudyguide/Part6.회계,경영자격증가이드.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 쪾재경관리사 쪾경영지도사 쪾전산세무회계 쪾 ... - 아이파경영아카데미",
+    "publisher": "www.aifacta.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.aifacta.co.kr/Images/AifaCta/Sub/CTAstudyguide/Part6.회계,경영자격증가이드.pdf",
+    "sourceHash": "sha256:ff1061ac14b5c97d0820b5ff9dc8137c6674cbf76971f571b9878eed7206f6dd",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 16,
+    "chunkCount": 36,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-2025-2025-513f62cd",
+    "id": "guideline-PDF-2025-2025-513f62cd",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 2025년 인문사회분야 - 2025 학술연구지원사업 종합계획"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://webzine.nrf.re.kr/magazine/2502/file/sub1.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 2025년 인문사회분야 - 2025 학술연구지원사업 종합계획",
+    "publisher": "webzine.nrf.re.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://webzine.nrf.re.kr/magazine/2502/file/sub1.pdf",
+    "sourceHash": "sha256:513f62cdba3b1af3381b2bd91e15a4a6321ece67ecf7d08e65d57afd8d4c0b89",
+    "language": "ko",
+    "mimeType": "application/octet-stream",
+    "pageCount": 77,
+    "chunkCount": 244,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-226c01ef",
+    "id": "guideline-PDF-226c01ef",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 혁신금융서비스 지정 매뉴얼"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://kr.object.gov-ncloudstorage.com/nextrounddev/mypage/service/17/190d8759-7677-4cf8-b9dd-208c28ee3cbc.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 혁신금융서비스 지정 매뉴얼",
+    "publisher": "kr.object.gov-ncloudstorage.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://kr.object.gov-ncloudstorage.com/nextrounddev/mypage/service/17/190d8759-7677-4cf8-b9dd-208c28ee3cbc.pdf",
+    "sourceHash": "sha256:226c01ef430a10921aaf005822f4786875ccbeae978da4ca85a2824622afc116",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 73,
+    "chunkCount": 169,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-3-3.26.-6299b098",
+    "id": "guideline-PDF-3-3.26.-6299b098",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 금융감독원, 보험회사의제3자리스크관리가이드라인추진발표(3.26.)"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hwawoo.com/newsletter/2025_05_08_1/2504_i_kor_3.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 금융감독원, 보험회사의제3자리스크관리가이드라인추진발표(3.26.)",
+    "publisher": "www.hwawoo.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hwawoo.com/newsletter/2025_05_08_1/2504_i_kor_3.pdf",
+    "sourceHash": "sha256:6299b0984b3dc967cbe0e5e4908a7790c50a801bee57b7255d639bf5862fa58e",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 2,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-360-6981a7fb",
+    "id": "guideline-PDF-360-6981a7fb",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 사업관리자 가이드 - 인문360"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://inmun360.culture.go.kr/b2bc/assets/doc/Inmun_bus_guide.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 사업관리자 가이드 - 인문360",
+    "publisher": "inmun360.culture.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://inmun360.culture.go.kr/b2bc/assets/doc/Inmun_bus_guide.pdf",
+    "sourceHash": "sha256:6981a7fb6bad2b509f2094eb4e2f0d5c6cc5b466f84d8df52b77b70625e14bda",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 72,
+    "chunkCount": 31,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-3b0fd554",
+    "id": "guideline-PDF-3b0fd554",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 매출채권보험 가이드"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.cnse.kr/files/other_news/683c3946d22bb56eba3d49c0b545bfd7.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 매출채권보험 가이드",
+    "publisher": "www.cnse.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.cnse.kr/files/other_news/683c3946d22bb56eba3d49c0b545bfd7.pdf",
+    "sourceHash": "sha256:3b0fd554d830cf2e13a63b88d34fcfd2045d8f4cedc4439e2ce412187cc92d4b",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 4,
+    "chunkCount": 4,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-967350e7",
+    "id": "guideline-PDF-967350e7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 들어가며"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://naju.hs.jne.kr/data/attach_data/hampyeong/naju_hs/k2board/na/bbs_118467/ntt_1800646872/doc_4970vff3a=aev95=45vd3=9ave8=9071v3c23v81f2_v2491.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 들어가며",
+    "publisher": "naju.hs.jne.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://naju.hs.jne.kr/data/attach_data/hampyeong/naju_hs/k2board/na/bbs_118467/ntt_1800646872/doc_4970vff3a=aev95=45vd3=9ave8=9071v3c23v81f2_v2491.pdf",
+    "sourceHash": "sha256:967350e7961b4ce7223608f2f006752032cf721ee4ac36dbca037fc6bd162776",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 79,
+    "chunkCount": 86,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-9d0b1a9f",
+    "id": "guideline-PDF-9d0b1a9f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 시험응시매뉴얼 - 금융윤리인증센터"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://k-fec.kr/download/exam_Info02.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 시험응시매뉴얼 - 금융윤리인증센터",
+    "publisher": "k-fec.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://k-fec.kr/download/exam_Info02.pdf",
+    "sourceHash": "sha256:9d0b1a9f79305c626da56c8beeb135e849e57bd666f8159ff41370d1e025853f",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 24,
+    "chunkCount": 19,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-aa421264",
+    "id": "guideline-PDF-aa421264",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 선택 과목 가이드북"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://school.busanedu.net/upload/bbs/files/2020/dtnt/help/ntt/1013408/03/a58d02c4edee036fd1cef15a3f307261.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 선택 과목 가이드북",
+    "publisher": "school.busanedu.net",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://school.busanedu.net/upload/bbs/files/2020/dtnt/help/ntt/1013408/03/a58d02c4edee036fd1cef15a3f307261.pdf",
+    "sourceHash": "sha256:aa421264d3a3cd478ca2c8547a8217135f00266b538d876b51d8dba6b0469e3b",
+    "language": "ko",
+    "mimeType": "application/x-pdf",
+    "pageCount": 50,
+    "chunkCount": 53,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-ba36588f",
+    "id": "guideline-PDF-ba36588f",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 「보건의료데이터 활용 가이드라인」개정(안) 발표"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hwawoo.com/newsletter/2024_01_25/240125_k_t.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 「보건의료데이터 활용 가이드라인」개정(안) 발표",
+    "publisher": "www.hwawoo.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hwawoo.com/newsletter/2024_01_25/240125_k_t.pdf",
+    "sourceHash": "sha256:ba36588f7798c88168bf7a70fd37ff3b45884c5c9aefbfd2d7ce45115c6a98ba",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 3,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-c48bbd30",
+    "id": "guideline-PDF-c48bbd30",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 중환자 간호실무 질 향상을 위한 근거중심 임상실무지침서의 개발"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://koreascience.kr/article/JAKO200905365215754.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 중환자 간호실무 질 향상을 위한 근거중심 임상실무지침서의 개발",
+    "publisher": "koreascience.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://koreascience.kr/article/JAKO200905365215754.pdf",
+    "sourceHash": "sha256:c48bbd30769ae6e09960bfcf1f97a413725a4aeba053eff08a0aa0845877e724",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 11,
+    "chunkCount": 12,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-c950b7d7",
+    "id": "guideline-PDF-c950b7d7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 정신질환자 관리를 위한 표준 지침서"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.jkpmhn.org/upload/pdf/jkpmhn-7-1-122.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 정신질환자 관리를 위한 표준 지침서",
+    "publisher": "www.jkpmhn.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.jkpmhn.org/upload/pdf/jkpmhn-7-1-122.pdf",
+    "sourceHash": "sha256:c950b7d76051e071c1ce6cb7c4971fa72e95aa84b67707076c691f04720a69ba",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 14,
+    "chunkCount": 18,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-d6f67ee1",
+    "id": "guideline-PDF-d6f67ee1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 환경안전보건경영매뉴얼 - 모베이스전자"
+    },
+    "createdAt": "2026-06-04T13:29:56Z",
+    "updatedAt": "2026-06-04T13:29:56Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://www.seoyonelec.com/download/환경,안전보건매뉴얼_Rev.24.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 환경안전보건경영매뉴얼 - 모베이스전자",
+    "publisher": "www.seoyonelec.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://www.seoyonelec.com/download/환경,안전보건매뉴얼_Rev.24.pdf",
+    "sourceHash": "sha256:d6f67ee1f571dfaf5a9a4f8d2568d339fb91ce403e06be86589ec598acfbc8ab",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 45,
+    "chunkCount": 164,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-DB-784bdcab",
+    "id": "guideline-PDF-DB-784bdcab",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 컴플라이언스 경영시스템 매뉴얼 - DB손해보험"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.idbins.com/pcweb/bizxpress/cmy/cm/__etc/compliance.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 컴플라이언스 경영시스템 매뉴얼 - DB손해보험",
+    "publisher": "www.idbins.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.idbins.com/pcweb/bizxpress/cmy/cm/__etc/compliance.pdf",
+    "sourceHash": "sha256:784bdcab17279fcd3e1ace810d402c18f6ff7245533b475b3779ce02a4a18030",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 65,
+    "chunkCount": 211,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-eece480d",
+    "id": "guideline-PDF-eece480d",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 공공소프트웨어사업 과업심의 가이드"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://sanhak.hknu.ac.kr/sites/icc/files/icc_guide01.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 공공소프트웨어사업 과업심의 가이드",
+    "publisher": "sanhak.hknu.ac.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://sanhak.hknu.ac.kr/sites/icc/files/icc_guide01.pdf",
+    "sourceHash": "sha256:eece480d7deaafe2acec29a6246c882f3108f44769e53bf8a12dea5482de86e5",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 35,
+    "chunkCount": 100,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-f7c04f71",
+    "id": "guideline-PDF-f7c04f71",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 보건의료자원 - 통합신고포털 - 건강보험심사평가원"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.hira.or.kr/ebooksc/ebook_519/ebook_519_201811210354455630.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 보건의료자원 - 통합신고포털 - 건강보험심사평가원",
+    "publisher": "www.hira.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.hira.or.kr/ebooksc/ebook_519/ebook_519_201811210354455630.pdf",
+    "sourceHash": "sha256:f7c04f71b81cc36c11fd672b3a65cf1f4c278347c596caffa64edc9c321afb7a",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 59,
+    "chunkCount": 133,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-I-i-H-.ii-b3595aa2",
+    "id": "guideline-PDF-I-i-H-.ii-b3595aa2",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 디 I i!H를 위한 .ii!훌훌 - 유네스코한국위원회"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://unesco.or.kr/wp-content/uploads/2008/12/Dpi06o4h8DSJ1Ws5WDr38E0Bz8YtUF__2.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 디 I i!H를 위한 .ii!훌훌 - 유네스코한국위원회",
+    "publisher": "unesco.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://unesco.or.kr/wp-content/uploads/2008/12/Dpi06o4h8DSJ1Ws5WDr38E0Bz8YtUF__2.pdf",
+    "sourceHash": "sha256:b3595aa2c900ef429cb71894514f945c50ac4905b8864e98145da04bca6761b4",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 271,
+    "chunkCount": 426,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/04"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-NCS-...-cd4eb980",
+    "id": "guideline-PDF-NCS-...-cd4eb980",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 전문대학 응급구조과의 국가직무능력표준(NCS) 기반 교육과정 개발 및 ..."
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://koreascience.kr/article/JAKO201527359533112.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 전문대학 응급구조과의 국가직무능력표준(NCS) 기반 교육과정 개발 및 ...",
+    "publisher": "koreascience.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://koreascience.kr/article/JAKO201527359533112.pdf",
+    "sourceHash": "sha256:cd4eb98013c5b539c3fd06c87568b01ede9c62c66e09e8d6a93ab45a983e09c1",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 15,
+    "chunkCount": 35,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-NCS-770276e4",
+    "id": "guideline-PDF-NCS-770276e4",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] NCS 기반 채용 직무설명서(사무-경영사무)"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://iss.ice.go.kr/upload/board/1802/2022/09/1663834525351.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] NCS 기반 채용 직무설명서(사무-경영사무)",
+    "publisher": "iss.ice.go.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://iss.ice.go.kr/upload/board/1802/2022/09/1663834525351.pdf",
+    "sourceHash": "sha256:770276e4eced47b129e86f1a3b28144d1dfefa4c8dca0a9413cc81d4644e5ad9",
+    "language": "ko",
+    "mimeType": "application/pdf;charset=UTF-8",
+    "pageCount": 7,
+    "chunkCount": 9,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-NCS-ac7a113d",
+    "id": "guideline-PDF-NCS-ac7a113d",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] NCS기반 채용 직무 설명자료: 행정사무 보조"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://kohem.org/_data/board_list_file/4/2020/2008101152111378.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] NCS기반 채용 직무 설명자료: 행정사무 보조",
+    "publisher": "kohem.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://kohem.org/_data/board_list_file/4/2020/2008101152111378.pdf",
+    "sourceHash": "sha256:ac7a113df0280cd4b9e2a5b22a5f6058d6032c92ea5914f4940d6fa7165456b1",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 1,
+    "chunkCount": 2,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-NCS-f846f03d",
+    "id": "guideline-PDF-NCS-f846f03d",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 【NCS기반 채용 직무기술서 (사무지원)】"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://www.kohem.org/_data/board_list_file/4/2020/2005251653531378.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 【NCS기반 채용 직무기술서 (사무지원)】",
+    "publisher": "www.kohem.org",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://www.kohem.org/_data/board_list_file/4/2020/2005251653531378.pdf",
+    "sourceHash": "sha256:f846f03d9d2b55f8892476e7996c16c5706f9169f4e226ed07bae1130dd5e05c",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 4,
+    "chunkCount": 7,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-NCS-fe053ae7",
+    "id": "guideline-PDF-NCS-fe053ae7",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 소방직 – 가급(소방) NCS기반 채용 직무설명자료"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://image.career.co.kr/recruitment/cyberairport/200525/firefighting/소방직_공개채용_직무기술서.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 소방직 – 가급(소방) NCS기반 채용 직무설명자료",
+    "publisher": "image.career.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://image.career.co.kr/recruitment/cyberairport/200525/firefighting/소방직_공개채용_직무기술서.pdf",
+    "sourceHash": "sha256:fe053ae7755f65785833ca31f0be295b29044378b40af6eef2cdde3623a00173",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 6,
+    "chunkCount": 12,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/05"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-V5.3-c87e932a",
+    "id": "guideline-PDF-V5.3-c87e932a",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 전자정부지원사업 사업관리매뉴얼 V5.3"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.cisp.or.kr/wp-content/uploads/2021/12/전자정부지원사업-사업관리매뉴얼-V5.3.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 전자정부지원사업 사업관리매뉴얼 V5.3",
+    "publisher": "www.cisp.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.cisp.or.kr/wp-content/uploads/2021/12/전자정부지원사업-사업관리매뉴얼-V5.3.pdf",
+    "sourceHash": "sha256:c87e932a659307e604f8549d04de5cebe0edfb43b90948620e23a3881a960d87",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 222,
+    "chunkCount": 191,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PDF-Ver.4.0-052b0780",
+    "id": "guideline-PDF-Ver.4.0-052b0780",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "[PDF] 이용자 매뉴얼 Ver.4.0 - 인천광역시 공공보건의료지원단"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.ippi.or.kr/index2/s3_st/2025_06_data_ver.4.0.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "[PDF] 이용자 매뉴얼 Ver.4.0 - 인천광역시 공공보건의료지원단",
+    "publisher": "www.ippi.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.ippi.or.kr/index2/s3_st/2025_06_data_ver.4.0.pdf",
+    "sourceHash": "sha256:052b078018571b0d5afe82896afff834a1b8fa47c6861260536a46b54773c482",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 102,
+    "chunkCount": 89,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PowerPoint-db9fd8fe",
+    "id": "guideline-PowerPoint-db9fd8fe",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "PowerPoint 프레젠테이션"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "http://www.newzenerp.kr/page/product/m_manual/manual_2.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "PowerPoint 프레젠테이션",
+    "publisher": "www.newzenerp.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "http://www.newzenerp.kr/page/product/m_manual/manual_2.pdf",
+    "sourceHash": "sha256:db9fd8fedbc8d07b179605309e787805332835b3015e9d377c7a263ed67bbf7b",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 48,
+    "chunkCount": 77,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/10"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-PwC-03c49c7c",
+    "id": "guideline-PwC-03c49c7c",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "급식산 - PwC"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.pwc.com/kr/ko/insights/industry-focus/samilpwc_food-service.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "급식산 - PwC",
+    "publisher": "www.pwc.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.pwc.com/kr/ko/insights/industry-focus/samilpwc_food-service.pdf",
+    "sourceHash": "sha256:03c49c7c226867abe402ebe2cfed63b1b2dc3613a516d3361fe931473910e677",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 53,
+    "chunkCount": 54,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/13"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-QUICK-START-GUIDE-GUIDE-DE-D-MARRAGE-RAPIDE-0da04b18",
+    "id": "guideline-QUICK-START-GUIDE-GUIDE-DE-D-MARRAGE-RAPIDE-0da04b18",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "QUICK START GUIDE 快速指引 快速入門指南 クイックスタートガイド 빠른 시작 가이드 GUIDE DE DÉMARRAGE RAPIDE"
+    },
+    "createdAt": "2026-06-04T13:29:56Z",
+    "updatedAt": "2026-06-04T13:29:56Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://cdn.shopify.com/s/files/1/0047/0247/0190/files/EVO-Lite-Enterprise-Series-Quick-Start-Guide.pdf?v=1723518594",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "QUICK START GUIDE 快速指引 快速入門指南 クイックスタートガイド 빠른 시작 가이드 GUIDE DE DÉMARRAGE RAPIDE",
+    "publisher": "cdn.shopify.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://cdn.shopify.com/s/files/1/0047/0247/0190/files/EVO-Lite-Enterprise-Series-Quick-Start-Guide.pdf?v=1723518594",
+    "sourceHash": "sha256:0da04b183d3c84b95169250d09c9fd334b06c529949eaedc9f4edcd7d3b088fa",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 11,
+    "chunkCount": 1,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/23"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-raspfiles2.incruit.com-ae9d0303",
+    "id": "guideline-raspfiles2.incruit.com-ae9d0303",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "【직무기술서 : 사무】 - raspfiles2.incruit.com"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://raspfiles2.incruit.com/seoulmetro/data/105/SuccessData/addFile/1)직무기술서_사무.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "【직무기술서 : 사무】 - raspfiles2.incruit.com",
+    "publisher": "raspfiles2.incruit.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://raspfiles2.incruit.com/seoulmetro/data/105/SuccessData/addFile/1)직무기술서_사무.pdf",
+    "sourceHash": "sha256:ae9d0303727f88745a860c1a7fd4710ea8fe48b3a975ed1780b4fc861e77cc09",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 3,
+    "chunkCount": 4,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-Register-your-product-and-get-support-at-www.philips.com-welcome-KO-1-de04d3d2",
+    "id": "guideline-Register-your-product-and-get-support-at-www.philips.com-welcome-KO-1-de04d3d2",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Register your product and get support at www.philips.com/welcome KO 사용자 매뉴얼 1"
+    },
+    "createdAt": "2026-06-04T13:55:55Z",
+    "updatedAt": "2026-06-04T13:55:55Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.documents.philips.com/assets/20250110/47da370fee044e00ad1db261006997b3.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "Register your product and get support at www.philips.com/welcome KO 사용자 매뉴얼 1",
+    "publisher": "www.documents.philips.com",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.documents.philips.com/assets/20250110/47da370fee044e00ad1db261006997b3.pdf",
+    "sourceHash": "sha256:de04d3d22fa6768fdb935e1399577cac149baaa72ca9f57880d62e197b620f65",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 33,
+    "chunkCount": 51,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/19"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-Suicide-Policy-Research-2018-Volume-1.-54684bdf",
+    "id": "guideline-Suicide-Policy-Research-2018-Volume-1.-54684bdf",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Suicide Policy Research, 2018 Volume 1."
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://jscp.or.jp/assets/img/english/SPR2018_1.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "Suicide Policy Research, 2018 Volume 1.",
+    "publisher": "jscp.or.jp",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://jscp.or.jp/assets/img/english/SPR2018_1.pdf",
+    "sourceHash": "sha256:54684bdf7dbaef2de2a0be74787230de1dd55699a51f9c589cfad533c0e9b752",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 114,
+    "chunkCount": 167,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/06"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-uwcf.or.kr-25633a7b",
+    "id": "guideline-uwcf.or.kr-25633a7b",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "경영기획 - uwcf.or.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.uwcf.or.kr/AttachUP/OTHER_AGENCY_JO/1766558195250.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "경영기획 - uwcf.or.kr",
+    "publisher": "www.uwcf.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.uwcf.or.kr/AttachUP/OTHER_AGENCY_JO/1766558195250.pdf",
+    "sourceHash": "sha256:25633a7be00dd3b186e75ea51ddc5d0118f5586c430c564e5670c80b7b42ea51",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 4,
+    "chunkCount": 13,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/02"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-Ver-3.7-49f97280",
+    "id": "guideline-Ver-3.7-49f97280",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "관리자시스템사용매뉴얼 (활동처관리자– Ver 3.7)"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://ywvc.or.kr/download/users_manual_2504.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "관리자시스템사용매뉴얼 (활동처관리자– Ver 3.7)",
+    "publisher": "ywvc.or.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://ywvc.or.kr/download/users_manual_2504.pdf",
+    "sourceHash": "sha256:49f972800044f489acf426a80d53e220b681d0f941c1235df60b5929f6151802",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 35,
+    "chunkCount": 60,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/01"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-work-kodit.co.kr-f6e124f1",
+    "id": "guideline-work-kodit.co.kr-f6e124f1",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "업무가이드 시안 최종 work - kodit.co.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.kodit.co.kr/upload/kodit/na/bbs_362/ntt_75026/MIG_24462.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "업무가이드 시안 최종 work - kodit.co.kr",
+    "publisher": "www.kodit.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.kodit.co.kr/upload/kodit/na/bbs_362/ntt_75026/MIG_24462.pdf",
+    "sourceHash": "sha256:f6e124f1519819d0c099754f2665cafbc5db51f96917c4f918885348ca68b15a",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 30,
+    "chunkCount": 30,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/03"
+    ]
+  },
+  {
+    "$id": "jao://Document/guideline/guideline-www.grse.co.kr-35256311",
+    "id": "guideline-www.grse.co.kr-35256311",
+    "class": "Document",
+    "namespace": "guideline",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "www.grse.co.kr"
+    },
+    "createdAt": "2026-06-04T13:35:20Z",
+    "updatedAt": "2026-06-04T13:35:20Z",
+    "source": {
+      "type": "manual",
+      "ref": "https://www.grse.co.kr/wp-content/uploads/2026/01/2026년_적정_공사기간_확보를_위한_가이드라인.pdf",
+      "license": "gov-open"
+    },
+    "confidence": 0.85,
+    "title": "www.grse.co.kr",
+    "publisher": "www.grse.co.kr",
+    "publishedAt": "",
+    "documentType": "guideline",
+    "sourceUrl": "https://www.grse.co.kr/wp-content/uploads/2026/01/2026년_적정_공사기간_확보를_위한_가이드라인.pdf",
+    "sourceHash": "sha256:35256311b426f56e3e1e8524d75d714fa575225733922a23e5a78f07be09c8fb",
+    "language": "ko",
+    "mimeType": "application/pdf",
+    "pageCount": 197,
+    "chunkCount": 279,
+    "vectorIndex": "chromadb://documents (col=documents)",
+    "relevantFor": [
+      "jao://Concept/ncs/14"
+    ]
+  }
+]

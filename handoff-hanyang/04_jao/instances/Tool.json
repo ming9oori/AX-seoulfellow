@@ -1,0 +1,2749 @@
+[
+  {
+    "$id": "jao://Tool/tool/1password",
+    "id": "1password",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "1Password",
+      "en": "1Password"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "vault",
+    "vendor": "1Password",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/32c25492",
+    "id": "32c25492",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "전자세금계산서",
+      "en": "전자세금계산서"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "tax",
+    "vendor": "국세청",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 95,
+    "jobFamilies": [],
+    "koreaShare": "very-high"
+  },
+  {
+    "$id": "jao://Tool/tool/4-b5241767",
+    "id": "4-b5241767",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "4대보험",
+      "en": "4대보험"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "hr",
+    "vendor": "공단",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 95,
+    "jobFamilies": [],
+    "koreaShare": "very-high"
+  },
+  {
+    "$id": "jao://Tool/tool/805c2970",
+    "id": "805c2970",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "쉬프티",
+      "en": "쉬프티"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "hr",
+    "vendor": "Shiftee",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 55,
+    "jobFamilies": [],
+    "koreaShare": "medium"
+  },
+  {
+    "$id": "jao://Tool/tool/8b6d5c63",
+    "id": "8b6d5c63",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "위택스",
+      "en": "위택스"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "tax",
+    "vendor": "지방세포털",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": [],
+    "koreaShare": "high"
+  },
+  {
+    "$id": "jao://Tool/tool/adobe-cc",
+    "id": "adobe-cc",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "어도비 CC",
+      "en": "Adobe Creative Cloud"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "디자인·영상·웹 통합"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#adobe-cc",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Design",
+    "vendor": "Adobe",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 88,
+    "jobFamilies": [
+      "design",
+      "marketing"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/adobe-sign",
+    "id": "adobe-sign",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Adobe Sign",
+      "en": "Adobe Sign"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "esign",
+    "vendor": "Adobe",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/ahnlab-v3",
+    "id": "ahnlab-v3",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "안랩 V3",
+      "en": "AhnLab V3"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 대표 엔드포인트 보안"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#ahnlab-v3",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Security",
+    "vendor": "안랩",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": [
+      "security",
+      "it-ops"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/anthropic-api",
+    "id": "anthropic-api",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "앤스로픽 클로드 API",
+      "en": "Anthropic Claude API"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "Claude 모델 API + MCP"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#anthropic-api",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "AI",
+    "vendor": "Anthropic",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 85,
+    "jobFamilies": [
+      "engineering",
+      "ml"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/asana",
+    "id": "asana",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "아사나",
+      "en": "Asana"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "태스크·프로젝트 관리"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#asana",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Project",
+    "vendor": "Asana",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 75,
+    "jobFamilies": [
+      "operations",
+      "product"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/aws",
+    "id": "aws",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "아마존 웹서비스",
+      "en": "AWS"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "세계 1위 클라우드 인프라"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#aws",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Cloud",
+    "vendor": "Amazon",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 94,
+    "jobFamilies": [
+      "engineering",
+      "data",
+      "security"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/azure",
+    "id": "azure",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "애저",
+      "en": "Microsoft Azure"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "마이크로소프트 클라우드"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#azure",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Cloud",
+    "vendor": "Microsoft",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 85,
+    "jobFamilies": [
+      "engineering",
+      "data"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/bamboohr",
+    "id": "bamboohr",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "뱀부HR",
+      "en": "BambooHR"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "중소기업 HRIS"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#bamboohr",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "HR",
+    "vendor": "BambooHR",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 60,
+    "jobFamilies": [
+      "hr"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/canva",
+    "id": "canva",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Canva",
+      "en": "Canva"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "design",
+    "vendor": "Canva",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/channeltalk",
+    "id": "channeltalk",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "ChannelTalk",
+      "en": "ChannelTalk"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "support",
+    "vendor": "Channel Corp",
+    "pricing": "smb",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [],
+    "koreaShare": "high"
+  },
+  {
+    "$id": "jao://Tool/tool/chatwoot",
+    "id": "chatwoot",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "챗우트",
+      "en": "Chatwoot"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "오픈소스 고객 채팅 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#chatwoot",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "CS",
+    "vendor": "Chatwoot",
+    "pricing": "freemium",
+    "mcpAvailable": false,
+    "popularity": 50,
+    "jobFamilies": [
+      "customer-service"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/claude-api",
+    "id": "claude-api",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Claude API",
+      "en": "Claude API"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "llm",
+    "vendor": "Anthropic",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/claude-in-chrome",
+    "id": "claude-in-chrome",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Claude in Chrome",
+      "en": "Claude in Chrome"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "llm-app",
+    "vendor": "Anthropic",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 60,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/confluence",
+    "id": "confluence",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Confluence",
+      "en": "Confluence"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "docs",
+    "vendor": "Atlassian",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/crowdstrike-falcon",
+    "id": "crowdstrike-falcon",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "CrowdStrike Falcon",
+      "en": "CrowdStrike Falcon"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "edr",
+    "vendor": "CrowdStrike",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/crowdstrike",
+    "id": "crowdstrike",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "크라우드스트라이크",
+      "en": "CrowdStrike"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "EDR·XDR 글로벌 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#crowdstrike",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Security",
+    "vendor": "CrowdStrike",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "security"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/cursor",
+    "id": "cursor",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Cursor",
+      "en": "Cursor"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ide",
+    "vendor": "Cursor",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/databricks",
+    "id": "databricks",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "데이터브릭스",
+      "en": "Databricks"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "레이크하우스·ML 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#databricks",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Data-Platform",
+    "vendor": "Databricks",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 78,
+    "jobFamilies": [
+      "data",
+      "ml"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/datadog",
+    "id": "datadog",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "데이터독",
+      "en": "Datadog"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "모니터링·로그·APM 통합"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#datadog",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Observability",
+    "vendor": "Datadog",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "engineering",
+      "sre"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/docusign",
+    "id": "docusign",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "도큐사인",
+      "en": "DocuSign"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "전자 서명 글로벌 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#docusign",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "E-Sign",
+    "vendor": "DocuSign",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 82,
+    "jobFamilies": [
+      "legal",
+      "hr",
+      "sales"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/duzon",
+    "id": "duzon",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "더존 iCUBE",
+      "en": "Douzone"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 중견·중소기업 점유율 1위 ERP"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#duzon",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "ERP",
+    "vendor": "더존비즈온",
+    "pricing": "mid-market",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": [
+      "finance",
+      "hr"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/erp",
+    "id": "erp",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "이카운트 ERP",
+      "en": "이카운트 ERP"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "erp",
+    "vendor": "Ecount",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 55,
+    "jobFamilies": [],
+    "koreaShare": "medium"
+  },
+  {
+    "$id": "jao://Tool/tool/figma",
+    "id": "figma",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "피그마",
+      "en": "Figma"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "UI/UX 디자인 협업"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#figma",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Design",
+    "vendor": "Adobe",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 90,
+    "jobFamilies": [
+      "design",
+      "product"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/flex",
+    "id": "flex",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "Flex (Flex.team)",
+      "en": "Flex"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 스타트업 HR/근태"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#flex",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "HR-KR",
+    "vendor": "Flex",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 68,
+    "jobFamilies": [
+      "hr"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/freshdesk",
+    "id": "freshdesk",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Freshdesk",
+      "en": "Freshdesk"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "support",
+    "vendor": "Freshworks",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/gcp",
+    "id": "gcp",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "구글 클라우드",
+      "en": "Google Cloud"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "구글 클라우드 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#gcp",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Cloud",
+    "vendor": "Google",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 72,
+    "jobFamilies": [
+      "engineering",
+      "data"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/gemini-api",
+    "id": "gemini-api",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Gemini API",
+      "en": "Gemini API"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "llm",
+    "vendor": "Google",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/github-copilot",
+    "id": "github-copilot",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "GitHub Copilot",
+      "en": "GitHub Copilot"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ide",
+    "vendor": "GitHub",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 90,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/github",
+    "id": "github",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "깃허브",
+      "en": "GitHub"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "코드 호스팅·협업·CI/CD"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#github",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "DevOps",
+    "vendor": "Microsoft",
+    "pricing": "freemium",
+    "mcpAvailable": true,
+    "popularity": 95,
+    "jobFamilies": [
+      "engineering"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/gitlab",
+    "id": "gitlab",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "깃랩",
+      "en": "GitLab"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "올인원 DevOps 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#gitlab",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "DevOps",
+    "vendor": "GitLab",
+    "pricing": "freemium",
+    "mcpAvailable": true,
+    "popularity": 75,
+    "jobFamilies": [
+      "engineering"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/google-ads",
+    "id": "google-ads",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Google Ads",
+      "en": "Google Ads"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ads",
+    "vendor": "Google",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 95,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/google-workspace",
+    "id": "google-workspace",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "구글 워크스페이스",
+      "en": "Google Workspace"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "Docs·Sheets·Slides·Gmail·Drive"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#google-workspace",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Productivity",
+    "vendor": "Google",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 88,
+    "jobFamilies": [
+      "all"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/grafana",
+    "id": "grafana",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Grafana",
+      "en": "Grafana"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "observability",
+    "vendor": "Grafana Labs",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/greenhouse",
+    "id": "greenhouse",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Greenhouse",
+      "en": "Greenhouse"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ats",
+    "vendor": "Greenhouse",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/hometax",
+    "id": "hometax",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "국세청 홈택스",
+      "en": "홈택스"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 국세청 전자세금 신고·납부"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#hometax",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Compliance-KR",
+    "vendor": "국세청",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 98,
+    "jobFamilies": [
+      "finance",
+      "tax"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/hootsuite",
+    "id": "hootsuite",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Hootsuite",
+      "en": "Hootsuite"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "smm",
+    "vendor": "Hootsuite",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 65,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/hubspot",
+    "id": "hubspot",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "허브스팟",
+      "en": "HubSpot"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "인바운드 마케팅·세일즈 통합"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#hubspot",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "CRM",
+    "vendor": "HubSpot",
+    "pricing": "smb-mid",
+    "mcpAvailable": true,
+    "popularity": 78,
+    "jobFamilies": [
+      "marketing",
+      "sales"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/intercom",
+    "id": "intercom",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "인터컴",
+      "en": "Intercom"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "채팅·메시징 기반 CS"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#intercom",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "CS",
+    "vendor": "Intercom",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 70,
+    "jobFamilies": [
+      "customer-service",
+      "marketing"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/ironclad",
+    "id": "ironclad",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Ironclad",
+      "en": "Ironclad"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "clm",
+    "vendor": "Ironclad",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 50,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/jenkins",
+    "id": "jenkins",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Jenkins",
+      "en": "Jenkins"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ci",
+    "vendor": "Jenkins",
+    "pricing": "free",
+    "mcpAvailable": true,
+    "popularity": 75,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/jira",
+    "id": "jira",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "지라",
+      "en": "Atlassian Jira"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "이슈 추적·애자일 보드"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#jira",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Project",
+    "vendor": "Atlassian",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 92,
+    "jobFamilies": [
+      "engineering",
+      "product"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/k-system",
+    "id": "k-system",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "영림원 K-System",
+      "en": "영림원 K-System"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "erp",
+    "vendor": "Younglimwon",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 60,
+    "jobFamilies": [],
+    "koreaShare": "high"
+  },
+  {
+    "$id": "jao://Tool/tool/kakao-talk-biz",
+    "id": "kakao-talk-biz",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "카카오톡 채널",
+      "en": "카카오톡 채널"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 No.1 비즈니스 메시징"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#kakao-talk-biz",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Marketing",
+    "vendor": "카카오",
+    "pricing": "usage",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": [
+      "marketing",
+      "customer-service"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/langchain",
+    "id": "langchain",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "랭체인",
+      "en": "LangChain"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "LLM 애플리케이션 프레임워크"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#langchain",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "AI-Framework",
+    "vendor": "LangChain",
+    "pricing": "free",
+    "mcpAvailable": true,
+    "popularity": 85,
+    "jobFamilies": [
+      "engineering",
+      "ml"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/lever",
+    "id": "lever",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Lever",
+      "en": "Lever"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ats",
+    "vendor": "Lever",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 50,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/linkedin-sales",
+    "id": "linkedin-sales",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "링크드인 세일즈 내비게이터",
+      "en": "LinkedIn Sales Navigator"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "B2B 영업 인텔리전스"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#linkedin-sales",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Sales-Intel",
+    "vendor": "Microsoft",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": [
+      "sales",
+      "hr"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/looker",
+    "id": "looker",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Looker",
+      "en": "Looker"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "bi",
+    "vendor": "Google",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/mailchimp",
+    "id": "mailchimp",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Mailchimp",
+      "en": "Mailchimp"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "email",
+    "vendor": "Intuit",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/meta-ads-manager",
+    "id": "meta-ads-manager",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Meta Ads Manager",
+      "en": "Meta Ads Manager"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "ads",
+    "vendor": "Meta",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 90,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/metabase",
+    "id": "metabase",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Metabase",
+      "en": "Metabase"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "bi",
+    "vendor": "Metabase",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/microsoft-dynamics-365",
+    "id": "microsoft-dynamics-365",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Microsoft Dynamics 365",
+      "en": "Microsoft Dynamics 365"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "crm",
+    "vendor": "Microsoft",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/microsoft-sentinel",
+    "id": "microsoft-sentinel",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Microsoft Sentinel",
+      "en": "Microsoft Sentinel"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "siem",
+    "vendor": "Microsoft",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/microsoft365",
+    "id": "microsoft365",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "마이크로소프트 365",
+      "en": "Microsoft 365"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "Word·Excel·PowerPoint·Teams·SharePoint"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#microsoft365",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Productivity",
+    "vendor": "Microsoft",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 98,
+    "jobFamilies": [
+      "all"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/miro",
+    "id": "miro",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "미로",
+      "en": "Miro"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "디지털 화이트보드 협업"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#miro",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Whiteboard",
+    "vendor": "Miro",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "product",
+      "design",
+      "strategy"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/modulabs",
+    "id": "modulabs",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Modulabs",
+      "en": "Modulabs"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "contract",
+    "vendor": "Modulabs",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 40,
+    "jobFamilies": [],
+    "koreaShare": "medium"
+  },
+  {
+    "$id": "jao://Tool/tool/modusign",
+    "id": "modusign",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "모두싸인",
+      "en": "모두싸인"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 전자계약 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#modusign",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "E-Sign",
+    "vendor": "모두싸인",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": false,
+    "popularity": 78,
+    "jobFamilies": [
+      "legal",
+      "hr",
+      "sales"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/monday",
+    "id": "monday",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "먼데이",
+      "en": "Monday.com"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "비주얼 워크 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#monday",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Project",
+    "vendor": "monday.com",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 72,
+    "jobFamilies": [
+      "operations",
+      "marketing"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/naver-cloud",
+    "id": "naver-cloud",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "네이버 클라우드",
+      "en": "NCP"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 1위 국내 클라우드"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#naver-cloud",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Cloud",
+    "vendor": "네이버",
+    "pricing": "usage",
+    "mcpAvailable": false,
+    "popularity": 65,
+    "jobFamilies": [
+      "engineering"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/notion",
+    "id": "notion",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "노션",
+      "en": "Notion"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "문서·DB·프로젝트 통합 작업공간"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#notion",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Collaboration",
+    "vendor": "Notion",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 85,
+    "jobFamilies": [
+      "product",
+      "engineering",
+      "operations"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/okta",
+    "id": "okta",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Okta",
+      "en": "Okta"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "iam",
+    "vendor": "Okta",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/openai-api",
+    "id": "openai-api",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "OpenAI API",
+      "en": "OpenAI API"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "GPT·Embeddings·DALL-E"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#openai-api",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "AI",
+    "vendor": "OpenAI",
+    "pricing": "usage",
+    "mcpAvailable": false,
+    "popularity": 92,
+    "jobFamilies": [
+      "engineering",
+      "ml",
+      "data"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/oracle-ebs",
+    "id": "oracle-ebs",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "오라클 E-Business Suite",
+      "en": "Oracle EBS"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "오라클의 통합 ERP. 대기업·공공기관 다수"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#oracle-ebs",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "ERP",
+    "vendor": "Oracle",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": [
+      "finance",
+      "supply-chain",
+      "hr"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/oracle-netsuite",
+    "id": "oracle-netsuite",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Oracle NetSuite",
+      "en": "Oracle NetSuite"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "erp",
+    "vendor": "Oracle",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/pagerduty",
+    "id": "pagerduty",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "PagerDuty",
+      "en": "PagerDuty"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "oncall",
+    "vendor": "PagerDuty",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 75,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/pipedrive",
+    "id": "pipedrive",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Pipedrive",
+      "en": "Pipedrive"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "crm",
+    "vendor": "Pipedrive",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 60,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/powerbi",
+    "id": "powerbi",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "파워 BI",
+      "en": "Power BI"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "마이크로소프트 BI 도구"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#powerbi",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "BI",
+    "vendor": "Microsoft",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 85,
+    "jobFamilies": [
+      "data",
+      "analytics",
+      "finance"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/quickbooks",
+    "id": "quickbooks",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "QuickBooks",
+      "en": "QuickBooks"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "accounting",
+    "vendor": "Intuit",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/redash",
+    "id": "redash",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Redash",
+      "en": "Redash"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "bi",
+    "vendor": "Databricks",
+    "pricing": "free",
+    "mcpAvailable": false,
+    "popularity": 55,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/salesforce",
+    "id": "salesforce",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "세일즈포스",
+      "en": "Salesforce"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "고객 관계 관리 1위. Sales/Service/Marketing Cloud"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#salesforce",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "CRM",
+    "vendor": "Salesforce",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 92,
+    "jobFamilies": [
+      "sales",
+      "marketing",
+      "customer-service"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/sap-erp",
+    "id": "sap-erp",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "SAP ERP",
+      "en": "SAP ERP"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "세계 1위 전사적자원관리. 회계·SCM·HR·생산 통합"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#sap-erp",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "ERP",
+    "vendor": "SAP",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 95,
+    "jobFamilies": [
+      "finance",
+      "supply-chain",
+      "hr",
+      "procurement",
+      "manufacturing"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/sap-hana",
+    "id": "sap-hana",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "SAP HANA",
+      "en": "SAP HANA"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "인메모리 DB·실시간 분석"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#sap-hana",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Database",
+    "vendor": "SAP",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 65,
+    "jobFamilies": [
+      "data",
+      "finance"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/sap-s-4hana",
+    "id": "sap-s-4hana",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "SAP S/4HANA",
+      "en": "SAP S/4HANA"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "erp",
+    "vendor": "SAP",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 95,
+    "jobFamilies": [],
+    "koreaShare": "high"
+  },
+  {
+    "$id": "jao://Tool/tool/saramin",
+    "id": "saramin",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "사람인",
+      "en": "사람인"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 채용 플랫폼 점유율 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#saramin",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "HR-KR",
+    "vendor": "사람인",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": [
+      "hr"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/sentry",
+    "id": "sentry",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Sentry",
+      "en": "Sentry"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "apm",
+    "vendor": "Sentry",
+    "pricing": "smb",
+    "mcpAvailable": true,
+    "popularity": 75,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/servicenow",
+    "id": "servicenow",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "서비스나우",
+      "en": "ServiceNow"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "IT 서비스 관리 표준"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#servicenow",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "ITSM",
+    "vendor": "ServiceNow",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "it-ops",
+      "hr"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/slack-huddle",
+    "id": "slack-huddle",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "슬랙 허들",
+      "en": "Slack Huddles"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "슬랙 내장 음성/영상"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#slack-huddle",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Collaboration",
+    "vendor": "Salesforce",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": [
+      "all"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/slack",
+    "id": "slack",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "슬랙",
+      "en": "Slack"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "기업용 메시징·협업 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#slack",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Collaboration",
+    "vendor": "Salesforce",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 90,
+    "jobFamilies": [
+      "all"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/smart-a",
+    "id": "smart-a",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "더존 Smart A",
+      "en": "더존 Smart A"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "erp",
+    "vendor": "Douzone",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": [],
+    "koreaShare": "very-high"
+  },
+  {
+    "$id": "jao://Tool/tool/snowflake",
+    "id": "snowflake",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "스노우플레이크",
+      "en": "Snowflake"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "클라우드 데이터 웨어하우스"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#snowflake",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Data-Warehouse",
+    "vendor": "Snowflake",
+    "pricing": "usage",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "data"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/splunk",
+    "id": "splunk",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "스플렁크",
+      "en": "Splunk"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "로그 분석·보안 SIEM"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#splunk",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Observability",
+    "vendor": "Cisco",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 75,
+    "jobFamilies": [
+      "security",
+      "engineering"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/tableau",
+    "id": "tableau",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "태블로",
+      "en": "Tableau"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "데이터 시각화 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#tableau",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "BI",
+    "vendor": "Salesforce",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 80,
+    "jobFamilies": [
+      "data",
+      "analytics",
+      "finance"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/toss-payments",
+    "id": "toss-payments",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "토스페이먼츠",
+      "en": "Toss Payments"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "한국 PG·결제 솔루션"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#toss-payments",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "FinTech-KR",
+    "vendor": "토스",
+    "pricing": "usage",
+    "mcpAvailable": false,
+    "popularity": 85,
+    "jobFamilies": [
+      "finance",
+      "engineering"
+    ],
+    "industries": [
+      "KR"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/workday-hcm",
+    "id": "workday-hcm",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Workday HCM",
+      "en": "Workday HCM"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "hr",
+    "vendor": "Workday",
+    "pricing": "enterprise",
+    "mcpAvailable": true,
+    "popularity": 90,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/workday",
+    "id": "workday",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "워크데이",
+      "en": "Workday"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "클라우드 HR·재무 통합 플랫폼"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#workday",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "HCM",
+    "vendor": "Workday",
+    "pricing": "enterprise",
+    "mcpAvailable": false,
+    "popularity": 80,
+    "jobFamilies": [
+      "hr",
+      "finance"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/xero",
+    "id": "xero",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Xero",
+      "en": "Xero"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "accounting",
+    "vendor": "Xero",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 70,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/zendesk",
+    "id": "zendesk",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "젠데스크",
+      "en": "Zendesk"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "고객지원 티켓 시스템"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#zendesk",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "CS",
+    "vendor": "Zendesk",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 78,
+    "jobFamilies": [
+      "customer-service"
+    ]
+  },
+  {
+    "$id": "jao://Tool/tool/zoho-crm",
+    "id": "zoho-crm",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "review",
+    "label": {
+      "ko": "Zoho CRM",
+      "en": "Zoho CRM"
+    },
+    "createdAt": "2026-06-03T10:42:19Z",
+    "updatedAt": "2026-06-03T10:42:19Z",
+    "source": {
+      "type": "manual",
+      "ref": "software-discovery/sw_catalog.json",
+      "license": "internal"
+    },
+    "confidence": 0.85,
+    "category": "crm",
+    "vendor": "Zoho",
+    "pricing": "smb",
+    "mcpAvailable": false,
+    "popularity": 65,
+    "jobFamilies": []
+  },
+  {
+    "$id": "jao://Tool/tool/zoom",
+    "id": "zoom",
+    "class": "Tool",
+    "namespace": "tool",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "줌",
+      "en": "Zoom"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "description": {
+      "en": "화상회의 글로벌 1위"
+    },
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/tools.json#zoom",
+      "license": "internal"
+    },
+    "confidence": 0.95,
+    "category": "Collaboration",
+    "vendor": "Zoom",
+    "pricing": "smb-enterprise",
+    "mcpAvailable": true,
+    "popularity": 90,
+    "jobFamilies": [
+      "all"
+    ]
+  }
+]

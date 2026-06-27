@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-06-27T15:29:22.440064+00:00",
+  "input_dir": "handoff-hanyang",
+  "output_dir": "outputs",
+  "ocr_file": "handoff-hanyang/자이제_ocr_preprocessed.xlsx",
+  "manifest_files": 28,
+  "layer1_ncs_nodes": 4109,
+  "layer1_pcf_nodes": 5301,
+  "ocr_sentences": 5009,
+  "chunks": 214,
+  "layer2_nodes": 179,
+  "layer2_edges": 906,
+  "ncs_mapping_candidates": 110,
+  "pcf_mapping_candidates": 110,
+  "visualization_nodes": 9589,
+  "visualization_edges": 10499
+}

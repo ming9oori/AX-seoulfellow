@@ -1,0 +1,32 @@
+[
+  {
+    "$id": "jao://Policy/jao/sox-control-iv",
+    "id": "sox-control-iv",
+    "class": "Policy",
+    "namespace": "jao",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "SOX 통제 IV — 직무 분리 및 4-Eye 원칙",
+      "en": "SOX Control IV — Segregation of Duties & 4-Eye Rule"
+    },
+    "description": {
+      "ko": "재무 조정 분개 시 직무 분리·4-eye 원칙·승인 한도 검증을 강제한다.",
+      "en": "Enforces segregation of duties, 4-eye rule, and approval-limit checks for finance journal adjustments."
+    },
+    "source": {
+      "type": "manual",
+      "ref": "manual",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "createdAt": "2026-05-24T00:00:00Z",
+    "updatedAt": "2026-05-24T00:00:00Z",
+    "sourceRegulation": "jao://Regulation/reg/sox",
+    "enforcePrompt": "이 액션을 수행하기 전 다음을 확인하라: (1) 입력자와 승인자가 다른가, (2) 4-eye review가 적용되는가, (3) 금액이 승인 한도 이내인가. 위반 시 거부하고 사유를 명시하라.",
+    "appliesTo": [
+      "jao://Action/agent/post_adjustment_entry"
+    ],
+    "severity": "critical"
+  }
+]

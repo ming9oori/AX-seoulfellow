@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/term.schema.json",
+  "title": "Term (Multilingual Glossary Entry)",
+  "description": "한·영·동의어를 단일 사전으로 관리. 모든 라벨·별칭의 단일 진실의 원천(SSoT).",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Term" },
+        "definition": { "type": "string" },
+        "partOfSpeech": {
+          "type": "string",
+          "enum": ["noun","verb","adjective","abbreviation","phrase"]
+        },
+        "pronunciation": { "type": "string" },
+        "domain": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "도메인 (finance, hr, it, security …)"
+        },
+        "equivalents": {
+          "type": "array",
+          "description": "동의어/번역 묶음",
+          "items": {
+            "type": "object",
+            "required": ["lang","text"],
+            "properties": {
+              "lang":    { "type": "string", "enum": ["ko","en","ja","zh","other"] },
+              "text":    { "type": "string" },
+              "preferred": { "type": "boolean", "description": "이 언어에서 우선 표기" },
+              "source":  { "type": "string" }
+            }
+          }
+        },
+        "abbreviationOf": {
+          "type": "string",
+          "description": "약어일 경우 원어 Term URI"
+        },
+        "broader": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^jao://(Term|Concept)/" }
+        }
+      },
+      "required": ["definition","equivalents"]
+    }
+  ]
+}

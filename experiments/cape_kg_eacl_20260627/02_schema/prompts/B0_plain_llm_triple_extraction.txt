@@ -1,0 +1,1 @@
+Extract subject-predicate-object triples from the chunk. Return JSON only.

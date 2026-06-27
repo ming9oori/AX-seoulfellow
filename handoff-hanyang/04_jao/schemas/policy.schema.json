@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/policy.schema.json",
+  "title": "Policy (Policy-as-Prompt)",
+  "description": "Regulation을 운영 가능한 enforcePrompt와 적용 범위로 구체화한 정책. LLM이 강제할 수 있는 가드레일.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Policy" },
+        "namespace": { "enum": ["jao","reg"] },
+        "sourceRegulation": {
+          "type": "string",
+          "description": "이 정책의 근거 Regulation URI",
+          "pattern": "^jao://Regulation/"
+        },
+        "enforcePrompt": {
+          "type": "string",
+          "description": "LLM/에이전트가 강제할 자연어 정책 문장 (Policy-as-Prompt)",
+          "minLength": 10
+        },
+        "appliesTo": {
+          "type": "array",
+          "description": "적용 대상 URI (Action / Workflow / Agent / Process …)",
+          "items": { "type": "string", "pattern": "^jao://" }
+        },
+        "severity": {
+          "type": "string",
+          "enum": ["informational","low","medium","high","critical"]
+        },
+        "violationHandling": {
+          "type": "string",
+          "description": "위반 시 동작 (reject, warn, escalate, log)",
+          "enum": ["reject","warn","escalate","log","ask-approver"]
+        },
+        "exceptions": {
+          "type": "array",
+          "description": "예외 조건 표현식",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["enforcePrompt","severity","appliesTo"]
+    }
+  ]
+}

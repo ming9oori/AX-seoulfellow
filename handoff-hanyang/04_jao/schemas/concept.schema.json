@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/concept.schema.json",
+  "title": "Concept (SKOS-aligned)",
+  "description": "SKOS Concept을 기반으로 한 도메인 개념. broader/narrower/related로 계층·연관 표현.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Concept" },
+        "definition": {
+          "type": "string",
+          "description": "개념 정의 (SKOS:definition)"
+        },
+        "broader": {
+          "type": "array",
+          "description": "상위 개념 URI",
+          "items": { "type": "string", "pattern": "^jao://Concept/" }
+        },
+        "narrower": {
+          "type": "array",
+          "description": "하위 개념 URI",
+          "items": { "type": "string", "pattern": "^jao://Concept/" }
+        },
+        "related": {
+          "type": "array",
+          "description": "관련 개념 URI",
+          "items": { "type": "string", "pattern": "^jao://Concept/" }
+        },
+        "scheme": {
+          "type": "string",
+          "description": "포함된 SKOS scheme (예: KSA-Knowledge, KSA-Skill, KSA-Attitude, Domain-Finance)"
+        },
+        "notation": {
+          "type": "string",
+          "description": "외부 표준 코드 (예: ISCO 1234, NCS_CL_CD)"
+        }
+      }
+    }
+  ]
+}

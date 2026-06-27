@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/process.schema.json",
+  "title": "Process (PCF-aligned)",
+  "description": "APQC PCF 비즈니스 프로세스. Cross-Industry + 20 산업별. Activity와 Task를 통해 NCS·O*NET와 연결됨.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Process" },
+        "namespace": { "const": "pcf" },
+        "hid": {
+          "type": "string",
+          "description": "PCF Hierarchy ID (예: 9.3, 8.2.1)",
+          "pattern": "^\\d+(\\.\\d+)*$"
+        },
+        "level": {
+          "type": "integer",
+          "description": "PCF 계층 레벨 (1=Category, 2=Process Group, 3=Process, 4=Activity, 5=Task)",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "parent": {
+          "type": ["string","null"],
+          "description": "상위 프로세스의 JAO URI"
+        },
+        "industry": {
+          "type": "array",
+          "description": "적용 가능 산업 (slug). cross-industry는 모든 산업 포괄",
+          "items": {
+            "type": "string",
+            "enum": [
+              "cross-industry","aerospace-defense","airline","automotive","banking",
+              "broadcasting","city-government","consumer-electronics","consumer-products",
+              "corrosion","downstream-petroleum","education","health-insurance",
+              "healthcare-provider","life-sciences","pc-insurance","retail",
+              "telecommunications","upstream-petroleum","utilities"
+            ]
+          },
+          "minItems": 1
+        },
+        "metrics": {
+          "type": "array",
+          "description": "측정 KPI 인스턴스 URI 목록",
+          "items": { "type": "string", "pattern": "^jao://Metric/" }
+        },
+        "uses": {
+          "type": "array",
+          "description": "이 프로세스가 사용하는 Tool URI",
+          "items": { "type": "string", "pattern": "^jao://Tool/" }
+        },
+        "produces": {
+          "type": "array",
+          "description": "이 프로세스가 생성하는 Artifact URI",
+          "items": { "type": "string", "pattern": "^jao://Artifact/" }
+        },
+        "governedBy": {
+          "type": "array",
+          "description": "이 프로세스에 적용되는 Regulation URI",
+          "items": { "type": "string", "pattern": "^jao://Regulation/" }
+        }
+      },
+      "required": ["hid","level","industry"]
+    }
+  ]
+}

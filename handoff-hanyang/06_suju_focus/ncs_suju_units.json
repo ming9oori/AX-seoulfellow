@@ -1,0 +1,461 @@
+[
+  {
+    "subdCode": "03020101",
+    "subdName": "보험동향분석",
+    "unitCode": "09",
+    "unitName": "보험 상품 개발 제안서 작성",
+    "unitDefinition": "보험 상품 개발 제안서 작성이란 보험 상품 개발 제안서를 작성하고 이에 대해 관련 부서의 의견을 취합하고 이를 바탕으로 보험 상품의 회사 내 판매 가능성을 평가하고 보험 상품을 만들 수 있는 능력이다.",
+    "level": 5,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "03020201",
+    "subdName": "보험모집",
+    "unitCode": "02",
+    "unitName": "영업지원 툴(Tool) 개발",
+    "unitDefinition": "영업지원 툴(Tool) 개발이란, 고객 니즈(Needs)를 반영한 안내장과 전산개발을 지원하고 판촉물 지원 등 다양한 영업활동 지원을 위한 툴(Tool)을 개발하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "04030201",
+    "subdName": "이러닝시스템개발",
+    "unitCode": "01",
+    "unitName": "학습시스템 제안",
+    "unitDefinition": "학습 시스템 제안이란 시스템 사업을 만들기 위해서 시장환경, 고객요구사항, 경쟁사 현황, 학습 시스템 동향, 사업타당성을 분석하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "07010101",
+    "subdName": "지역사회복지개발",
+    "unitCode": "09",
+    "unitName": "정책제안",
+    "unitDefinition": "정책제안이란 사회문제와 지역사회욕구를 파악하여 지역 내 아젠다 설정, 주민의견수렴, 정책대안 제시, 모니터링하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "03",
+    "unitName": "영업 전략수립",
+    "unitDefinition": "영업 전략수립이란 영업 환경분석 결과를 바탕으로 영업 전략 방향과 영업 목표를 설정하여 실행항목을 정의하고 운영계획을 수립하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "04",
+    "unitName": "영업 고객발굴",
+    "unitDefinition": "영업 고객발굴이란 고객 상담 계획을 수립하고 다양한 고객 상담 수단을 통하여 고객을 발굴하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "05",
+    "unitName": "영업 제안",
+    "unitDefinition": "영업 제안이란 계약 체결을 위하여 고객이 요구하는 조건에 맞는 상품을 제안하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "06",
+    "unitName": "영업 계약체결관리",
+    "unitDefinition": "영업 계약체결관리란 고객과의 협상을 통해 계약을 성공적으로 체결하기 위한 과정을 관리하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "07",
+    "unitName": "영업 계약이행관리",
+    "unitDefinition": "영업 계약이행관리란 계약 사항이 원활히 이행될 수 있도록 관리하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "08",
+    "unitName": "영업 성과관리",
+    "unitDefinition": "영업 성과관리란 지속적인 영업 성과를 창출하기 위하여 영업 실적을 평가하고 관리하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "09",
+    "unitName": "영업 고객불만관리",
+    "unitDefinition": "영업 고객불만관리란 고객 이탈을 방지하고 상품을 개선하기 위하여 불만 사항 해결 과정을 관리하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "10",
+    "unitName": "영업 고객유지관리",
+    "unitDefinition": "영업 고객유지관리란 고객의 이탈을 방지하고 충성고객을 확보하기 위하여 입수된 데이터를 기준으로 고객유지 전략을 수립하고 실행하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10010101",
+    "subdName": "일반영업",
+    "unitCode": "11",
+    "unitName": "영업 환경분석",
+    "unitDefinition": "영업 환경분석이란 영업 전략 수립을 위하여 영업 환경 정보를 수집하고 경쟁사 대비 자사 상품을 분석하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "01",
+    "unitName": "통신판매 환경 분석",
+    "unitDefinition": "통신판매 환경 분석이란 통신판매 시장에서의 동향, 경쟁사, 고객, 자사에 대한 현황 파악을 통하여 분석 결과를 상품 개발 기획에 반영할 수 있도록 하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "02",
+    "unitName": "통신판매 상품개발기획",
+    "unitDefinition": "통신판매 상품개발기획이란 통신판매에 적합한 판매상품을 정하고, 목표고객을 선정하여 그에 맞는 가격 전략을 수립하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "03",
+    "unitName": "통신판매 전략수립",
+    "unitDefinition": "통신판매 전략수립은 통신판매 전략을 수립하기 위해 목표고객별 판매방식을 선정하고 이에 따른 판매촉진계획, 고객 DB활용계획, 광고. 홍보계획 등을 수립하여 최종적으로 판매전략 로드맵을 작성하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "04",
+    "unitName": "통신판매 조직운영관리",
+    "unitDefinition": "통신판매 조직운영관리란 통신판매를 위한 인력의 채용, 교육훈련실시, 평가와 보상을 수행하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "05",
+    "unitName": "통신판매 성과관리",
+    "unitDefinition": "통신판매 성과관리란 통신판매 성과를 향상시키기 위하여 수행되어야 하는 목표를 설정하고, 성과를 평가하여 이를 보상하고 모니터링 하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "06",
+    "unitName": "통신판매 고객관계관리",
+    "unitDefinition": "통신판매 고객관계관리는 고객의 정보를 이용하여 관계 유지를 통하여 충성도를 높이기 위한 노력으로 VOC를 수집하고, 고객을 평가하여 보상하며, 고객의 개인정보 보호를 수행하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "07",
+    "unitName": "통신판매 운영관리",
+    "unitDefinition": "통신판매 운영관리란 통신판매 채널을 통해 거래되는 상품의 조달과 배송, 교환/반품을 처리하며, 상품의 원활한 수급을 위해 재고를 관리하고, 비용을 정산하여 판매실적을 관리하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "08",
+    "unitName": "인·아웃바운드 판매 채널 운영관리",
+    "unitDefinition": "인·아웃바운드 판매 채널 운영관리는 통신매체를 이용한 인 바운드 채널활용, 아웃바운드 캠페인 실행, 인·아웃바운드 스크립트를 작성하여 활용하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "09",
+    "unitName": "통신판매 시스템 운용",
+    "unitDefinition": "통신판매 시스템 운용이란 인·아웃바운드시스템을 활용하고 시스템에 장애가 발생하였을 시 대응방안을 마련하고 실행하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030101",
+    "subdName": "통신판매",
+    "unitCode": "10",
+    "unitName": "통신판매 고객 상담",
+    "unitDefinition": "통신판매 고객 상담은 고객만족도 향상을 통한 매출액 증대와 기업 이미지 향상을 위한 커뮤니케이션 능력이다.",
+    "level": 2,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "10030201",
+    "subdName": "매장판매",
+    "unitCode": "11",
+    "unitName": "매장 영업전 판매 지원 점검",
+    "unitDefinition": "매장 영업전 판매 지원 점검이란 매장 판매서비스를 위하여 매장 청결 작업하기, 비품·소모품과 안전시설을 점검하고 용모와 복장을 갖추며 영업 전에 전달사항을 확인할 수 있는 능력이다.",
+    "level": 3,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "10030201",
+    "subdName": "매장판매",
+    "unitCode": "17",
+    "unitName": "매장영업 관리",
+    "unitDefinition": "매장 영업 관리란 매출의 극대화를 위해 영업매출과 손익을 관리하고 영업을 기획하는  능력이다.",
+    "level": 5,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "12030201",
+    "subdName": "숙박기획·개발",
+    "unitCode": "04",
+    "unitName": "호텔 영업회계",
+    "unitDefinition": "호텔 영업회계란 호텔 전체 매출관리를 위한 일일 매출보고서 작성, 외상매출·수입매출 관리, 신용카드매출 관리, 환율 관리를 하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "12030401",
+    "subdName": "카지노기획개발",
+    "unitCode": "12",
+    "unitName": "카지노 영업장배치",
+    "unitDefinition": "카지노 영업장배치란 고객과 직원 동선 설정, 편의시설배치계획, 인테리어를(디자인)계획하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "13010201",
+    "subdName": "식음료접객",
+    "unitCode": "01",
+    "unitName": "식음료 영업 준비",
+    "unitDefinition": "식음료 영업 준비는 본격적인 식음료서비스를 제공하기 전 영업장환경과 비품을 점검함으로써 최선의 서비스가 될 수 있도록 준비하기 위해서 필요한 능력이다.",
+    "level": 2,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "13010201",
+    "subdName": "식음료접객",
+    "unitCode": "02",
+    "unitName": "식음료 영업장 예약 관리",
+    "unitDefinition": "식음료 영업장 예약 관리는 고객의 예약을 받고 적절한 메뉴를 추천하며 확인하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "13010201",
+    "subdName": "식음료접객",
+    "unitCode": "07",
+    "unitName": "식음료 영업장 마감",
+    "unitDefinition": "식음료 영업장 마감은 다음 영업일의 원활한 운영을 위해 영업장 정리, 일일재고를 점검하고 마감하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "13010201",
+    "subdName": "식음료접객",
+    "unitCode": "08",
+    "unitName": "식음료 영업장 위생 안전 관리",
+    "unitDefinition": "식음료 영업장 위생 안전 관리는 식음료서비스 활동의 수행에 있어서 필요한 개인위생 점검, 시설위생 관리, 안전 관리를 하는 능력이다.",
+    "level": 3,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "13010201",
+    "subdName": "식음료접객",
+    "unitCode": "10",
+    "unitName": "식음료 영업장 관리",
+    "unitDefinition": "식음료 영업장 관리는 전반적인 영업의 관리단계로써 경영상의 영업현황을 파악하고 계획을 수립하여 효율적으로 영업장을 운영 관리하는데 필요한 능력이다.",
+    "level": 5,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "15060501",
+    "subdName": "자동차영업",
+    "unitCode": "08",
+    "unitName": "플리트 영업",
+    "unitDefinition": "플리트 영업이란 기업체 또는 정부기관을 대상으로 해당 조직의 구매 니즈를 파악하여 경쟁우위의 가치를 제공하도록 사양과 판매조건을 제시하고 법적요건과 수주절차에 따라 수주하고 납품 및 사후관리 하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "18020101",
+    "subdName": "패션기획",
+    "unitCode": "09",
+    "unitName": "패션상품 영업기획",
+    "unitDefinition": "패션상품 영업기획은 판매의 효율성을 높이기 위하여 유통망과 매장을 관리하고 매장별 상품과 재고물량 관리를 수행하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "18020301",
+    "subdName": "의류유통관리",
+    "unitCode": "08",
+    "unitName": "의류 영업 관리",
+    "unitDefinition": "의류 영업 관리는 효율적인 영업을 위해 점포별 매출목표 관리, 판매사원 관리, 정산관리를 수행하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "19010701",
+    "subdName": "내선공사",
+    "unitCode": "14",
+    "unitName": "내선공사견적",
+    "unitDefinition": "내선공사견적이란 내선공사를 일정에 따라 원활하게 수행하기 위하여 설계도서, 공사계획, 시공상세도 등을 토대로 공사자재 관리, 공사견적 작업 등을 수행하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "01",
+    "unitName": "기술영업시장 현황분석",
+    "unitDefinition": "기술영업시장 현황분석이란 사업 발굴을 통한 기업의 수익 창출을 위해 시장의 요구와 정부시책의 변화, 기업 내외부의 기술 현황을 분석하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "02",
+    "unitName": "기술영업 전략수립",
+    "unitDefinition": "기술영업 전략수립이란 시장 현황 정보를 바탕으로 목표 시장을 설정하여 영업 목표를 달성하기 위한 세부 계획을 수립하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "03",
+    "unitName": "기술영업 고객 현황분석",
+    "unitDefinition": "기술영업 고객 현황분석이란 산업별 고객 수요를 파악하여 구체적인 고객을 정의하고 사업 기회를 발굴하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "04",
+    "unitName": "사전 기술영업",
+    "unitDefinition": "사전 기술영업이란 IT시장의 로드맵과 동종업계의 솔루션 납품 사례를 통해 고객사에 IT 기획 및 예산을 준비하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "05",
+    "unitName": "수주전략수립",
+    "unitDefinition": "수주전략수립이란 사업의 수주를 위하여 고객 요구, 경쟁사 분석, 제안 평가 우위 요소를 도출하여 전략을 수립하는 능력이다.",
+    "level": 7,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "06",
+    "unitName": "기술영업 제안 작업",
+    "unitDefinition": "기술영업 제안 작업이란 판매하고자하는 상품과 서비스에 대해 가격견적, 제안서, 제안설명, 성능테스트를 제공하여 고객이 구매를 결정하도록 제안하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "07",
+    "unitName": "사업계약 협상",
+    "unitDefinition": "사업계약 협상이란 사업자 선정 후 계약 전까지 고객과 업무범위 재정의 및 가격 협의를 통하여 상호 만족할 만한 수준으로 합의를 도출하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "08",
+    "unitName": "기술영업 사후관리",
+    "unitDefinition": "기술영업 사후관리란 사업 수행 지원 및 후속 사업 발굴을 위하여 고객과 지속적인 관계를 유지하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "09",
+    "unitName": "협력선관리",
+    "unitDefinition": "협력선관리란 기술영업 전후에 필요한 협력선을 발굴하여 지속적인 관계를 유지하는 능력이다.",
+    "level": 5,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20010501",
+    "subdName": "IT기술영업",
+    "unitCode": "10",
+    "unitName": "영업관리 지원",
+    "unitDefinition": "영업관리 지원이란 계약 사항의 이행 여부를 관리하고 영업 실적 및 결과 분석을 통하여 성과를 관리하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": true
+  },
+  {
+    "subdCode": "20020301",
+    "subdName": "유선설비접속서비스",
+    "unitCode": "01",
+    "unitName": "영업계획 수립",
+    "unitDefinition": "영업계획수립은 일반전화 서비스 상품의 수요, 소비자의 구매 형태와 요구를 분석하여 영업계획을 수립하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "21010301",
+    "subdName": "수산식품유통",
+    "unitCode": "06",
+    "unitName": "수산식품 영업관리",
+    "unitDefinition": "수산식품 영업관리란 수산식품 매장, 고객, 판매를 관리하는 능력이다.",
+    "level": 4,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "23040101",
+    "subdName": "환경컨설팅",
+    "unitCode": "02",
+    "unitName": "프로젝트 제안",
+    "unitDefinition": "프로젝트 제안이란 수요자의 요구분석 결과를 바탕으로 컨설팅 회사의 강점과 차별화 전략을 활용한 사업 제안, 컨설팅 목적을 달성하기 위한 합리적 기술협상 및 계약 과정에 필요로 되는 능력이다.",
+    "level": 7,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "23050601",
+    "subdName": "에너지절약서비스",
+    "unitCode": "06",
+    "unitName": "제안서 작성",
+    "unitDefinition": "제안서 작성이란 에너지 분석자료를 토대로 개선방안을 구체화하고 절감량을 산출하여 계획 설계와 제안서를 작성하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": false
+  },
+  {
+    "subdCode": "24020101",
+    "subdName": "사료생산",
+    "unitCode": "08",
+    "unitName": "사료 영업관리",
+    "unitDefinition": "사료 영업관리란 영업사원을 채용ㆍ선발하고, 그 실적을 관리하는 한편, 고객에 대한 채권을 관리함으로서 영업 과정을 실행하는 능력이다.",
+    "level": 6,
+    "inTargetDomain": false
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "create_task_frame": {
+    "type": "object",
+    "required": [
+      "task_name",
+      "evidence_anchor_ids",
+      "confidence"
+    ],
+    "properties": {
+      "task_name": {
+        "type": "string"
+      },
+      "definition": {
+        "type": "string"
+      },
+      "inputs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "outputs": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "roles": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "decision_points": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "principles": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "evidence_anchor_ids": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    }
+  },
+  "add_procedural_relation": {
+    "type": "object",
+    "required": [
+      "subject_id",
+      "predicate",
+      "object_id",
+      "evidence_anchor_ids",
+      "confidence"
+    ],
+    "properties": {
+      "subject_id": {
+        "type": "string"
+      },
+      "predicate": {
+        "enum": [
+          "ALIAS_OF",
+          "ANCHOR_OF",
+          "BRANCHES_TO",
+          "BROADER",
+          "CANDIDATE_ALIGNS_WITH",
+          "CONFLICTS_WITH",
+          "EVIDENCED_BY",
+          "HAS_DECISION_GATEWAY",
+          "HAS_GUARD_CONDITION",
+          "HAS_METRIC",
+          "HAS_PRINCIPLE",
+          "HAS_REVIEW",
+          "HAS_RISK",
+          "HAS_SUBTASK",
+          "PERFORMED_BY",
+          "PRECEDES",
+          "PROCESS_CONTEXT",
+          "PRODUCES",
+          "REQUIRES_CAPABILITY",
+          "RESPONSIBLE_FOR",
+          "TRANSFORMS_INTO",
+          "USES_INPUT"
+        ]
+      },
+      "object_id": {
+        "type": "string"
+      },
+      "modality": {
+        "enum": [
+          "must",
+          "should",
+          "may",
+          "example"
+        ]
+      },
+      "condition_id": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "evidence_anchor_ids": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      },
+      "confidence": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 1
+      }
+    }
+  },
+  "attach_evidence_anchor": {
+    "type": "object",
+    "required": [
+      "target_id",
+      "evidence_anchor_id",
+      "claim_part"
+    ],
+    "properties": {
+      "target_id": {
+        "type": "string"
+      },
+      "evidence_anchor_id": {
+        "type": "string"
+      },
+      "claim_part": {
+        "enum": [
+          "subject",
+          "predicate",
+          "object",
+          "slot",
+          "whole_claim"
+        ]
+      }
+    }
+  },
+  "reject_candidate": {
+    "type": "object",
+    "required": [
+      "candidate_id",
+      "reason"
+    ],
+    "properties": {
+      "candidate_id": {
+        "type": "string"
+      },
+      "reason": {
+        "type": "string"
+      }
+    }
+  },
+  "propose_new_schema_term": {
+    "type": "object",
+    "required": [
+      "term",
+      "term_type",
+      "evidence_anchor_ids"
+    ],
+    "properties": {
+      "term": {
+        "type": "string"
+      },
+      "term_type": {
+        "enum": [
+          "class",
+          "predicate",
+          "slot",
+          "constraint"
+        ]
+      },
+      "evidence_anchor_ids": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

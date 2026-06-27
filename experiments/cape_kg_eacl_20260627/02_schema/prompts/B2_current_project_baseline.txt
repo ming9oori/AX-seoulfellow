@@ -1,0 +1,1 @@
+Extract Task Frames, then triples, then post-process into the Layer2 schema.

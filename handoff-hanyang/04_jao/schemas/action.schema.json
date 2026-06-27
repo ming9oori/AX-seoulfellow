@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/action.schema.json",
+  "title": "Action (Palantir AIP-style)",
+  "description": "에이전트가 호출 가능한 사전 검증된 결정론적 작업. 자유 SQL/code 실행 금지. MCP 서버를 통해 외부 시스템과 통신.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Action" },
+        "namespace": { "const": "agent" },
+        "category": {
+          "type": "string",
+          "description": "{domain}.{verb} (예: finance.read, hr.write, security.notify)"
+        },
+        "owner": {
+          "type": "string",
+          "description": "이 Action을 소유한 Agent의 id 또는 jobFamily"
+        },
+        "inputs": {
+          "type": "array",
+          "description": "입력 파라미터 명세",
+          "items": {
+            "type": "object",
+            "required": ["name","type"],
+            "properties": {
+              "name":     { "type": "string" },
+              "type":     { "type": "string", "description": "string|number|boolean|date|AccountCode|... domain types 허용" },
+              "required": { "type": "boolean", "default": false },
+              "description": { "type": "string" },
+              "constraint":  { "type": "string", "description": "예: amount > 0" }
+            }
+          }
+        },
+        "outputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["name","type"],
+            "properties": {
+              "name": { "type": "string" },
+              "type": { "type": "string" }
+            }
+          }
+        },
+        "preconditions": {
+          "type": "array",
+          "description": "실행 전 만족해야 하는 조건 (boolean 표현식 문자열)",
+          "items": { "type": "string" }
+        },
+        "sideEffects": {
+          "oneOf": [
+            { "type": "string", "enum": ["none"] },
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "system":   { "type": "string" },
+                  "mutation": { "type": "string" }
+                }
+              }
+            }
+          ]
+        },
+        "riskLevel": {
+          "type": "string",
+          "enum": ["low","medium","high","critical"]
+        },
+        "approvers": {
+          "type": "array",
+          "description": "승인이 필요한 Role/User id 목록. riskLevel ≥ high면 1개 이상 필수",
+          "items": { "type": "string" }
+        },
+        "humanInTheLoop": {
+          "type": "boolean",
+          "description": "강제 사람 검토 여부. riskLevel ≥ high → true 권장"
+        },
+        "auditLog": {
+          "type": "boolean",
+          "description": "audit-log.jsonl 기록 여부. 모든 Action은 true 권장"
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "description": "중복 호출 방지 키 표현식 (예: hash(period+amount))"
+        },
+        "rollback": {
+          "type": "string",
+          "description": "실패 시 호출할 보상 Action id"
+        },
+        "mcpServer": {
+          "type": "string",
+          "description": "이 Action이 호출하는 MCP 서버 URI. 예: mcp://sap-erp"
+        },
+        "tools": {
+          "type": "array",
+          "description": "사용하는 Tool URI 목록",
+          "items": { "type": "string", "pattern": "^jao://Tool/" }
+        },
+        "enforcedBy": {
+          "type": "array",
+          "description": "이 Action을 제약하는 Policy URI 목록",
+          "items": { "type": "string", "pattern": "^jao://Policy/" }
+        },
+        "timeoutSec": { "type": "integer", "minimum": 1 },
+        "retries": { "type": "integer", "minimum": 0, "default": 0 },
+        "cost": {
+          "type": "object",
+          "properties": {
+            "unit": { "type": "string", "enum": ["request","token","minute","KRW","USD"] },
+            "estimate": { "type": "number" }
+          }
+        }
+      },
+      "required": ["category","inputs","outputs","riskLevel","auditLog"]
+    }
+  ]
+}

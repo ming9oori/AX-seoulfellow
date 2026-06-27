@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-06-27T15:58:14.799020+00:00",
+  "source_kg_summary": {
+    "generated_at_utc": "2026-06-27T15:29:22.440064+00:00",
+    "input_dir": "handoff-hanyang",
+    "output_dir": "outputs",
+    "ocr_file": "handoff-hanyang/자이제_ocr_preprocessed.xlsx",
+    "manifest_files": 28,
+    "layer1_ncs_nodes": 4109,
+    "layer1_pcf_nodes": 5301,
+    "ocr_sentences": 5009,
+    "chunks": 214,
+    "layer2_nodes": 179,
+    "layer2_edges": 906,
+    "ncs_mapping_candidates": 110,
+    "pcf_mapping_candidates": 110,
+    "visualization_nodes": 9589,
+    "visualization_edges": 10499
+  },
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "evaluation_chunk_count": 120,
+  "silver_reference_edge_count": 861,
+  "commands": [
+    "bash scripts/run_ax_epak_preprocessed.sh",
+    "python3 scripts/build_cape_kg_eacl_experiment.py --kg-dir outputs --experiment-dir experiments/cape_kg_eacl_20260627 --sample-size 120",
+    "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cep_onto_llm_extraction.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --max-chunks 10"
+  ],
+  "llm_smoke": {
+    "raw_chunk_rows": 10,
+    "valid_chunk_rows": 10,
+    "valid_task_frames": 8,
+    "valid_procedural_relations": 18,
+    "raw_rows_with_parse_or_generation_errors": 2,
+    "report_file": "experiments/cape_kg_eacl_20260627/47_llm_extraction_quality_report.md"
+  },
+  "claim_status": "silver_proxy_only_pending_human_gold_and_actual_llm_baselines"
+}

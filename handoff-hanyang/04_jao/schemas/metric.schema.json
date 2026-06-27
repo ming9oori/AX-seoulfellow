@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/metric.schema.json",
+  "title": "Metric (KPI / Measurement)",
+  "description": "프로세스·에이전트의 성과를 측정하는 정량 지표. APQC PCF 메트릭과 BSC/OKR 호환.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Metric" },
+        "namespace": { "enum": ["pcf","jao"] },
+        "category": {
+          "type": "string",
+          "examples": ["Process Efficiency","Cycle Time","Cost Effectiveness","Staff Productivity","Quality","Supplemental Information"]
+        },
+        "formula": {
+          "type": "string",
+          "description": "계산식 (자연어 또는 수식)"
+        },
+        "unit": { "type": "string", "description": "단위 (시간, %, KRW, 건…)" },
+        "direction": {
+          "type": "string",
+          "enum": ["up","down","target"],
+          "description": "방향 (up=높을수록 좋음, down=낮을수록 좋음, target=목표값 근접)"
+        },
+        "target": {
+          "type": ["number","string","null"]
+        },
+        "frequency": {
+          "type": "string",
+          "enum": ["realtime","hourly","daily","weekly","monthly","quarterly","annual","ad-hoc"]
+        },
+        "appliesTo": {
+          "type": "array",
+          "description": "이 메트릭이 측정하는 대상 URI (Process / Agent / Workflow)",
+          "items": { "type": "string", "pattern": "^jao://" }
+        }
+      },
+      "required": ["category","formula"]
+    }
+  ]
+}

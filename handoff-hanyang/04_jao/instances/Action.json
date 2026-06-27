@@ -1,0 +1,2844 @@
+[
+  {
+    "$id": "jao://Action/agent/analyze_campaign",
+    "id": "analyze_campaign",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "캠페인 분석"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#analyze_campaign",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "marketing.read",
+    "inputs": [
+      {
+        "name": "campaignId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "metrics",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "insights",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/powerbi",
+      "jao://Tool/tool/hubspot"
+    ],
+    "owner": "marketing-content"
+  },
+  {
+    "$id": "jao://Action/agent/analyze_spend",
+    "id": "analyze_spend",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "지출 분석"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#analyze_spend",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "procurement.read",
+    "inputs": [
+      {
+        "name": "category",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "topVendors",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "savings",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Action/agent/assess_vulnerability",
+    "id": "assess_vulnerability",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "취약점 평가"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#assess_vulnerability",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "security.read",
+    "inputs": [
+      {
+        "name": "asset",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "cves[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "exploitability",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/crowdstrike"
+    ],
+    "owner": "security"
+  },
+  {
+    "$id": "jao://Action/agent/brand_compliance_check",
+    "id": "brand_compliance_check",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "브랜드 컴플라이언스 검증"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#brand_compliance_check",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "marketing.evaluate",
+    "inputs": [
+      {
+        "name": "content",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "pass",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "violations[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "marketing-content"
+  },
+  {
+    "$id": "jao://Action/agent/brief_account",
+    "id": "brief_account",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "계정 브리핑"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#brief_account",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.generate",
+    "inputs": [
+      {
+        "name": "accountId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "briefDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/build_dashboard",
+    "id": "build_dashboard",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "대시보드 생성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#build_dashboard",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "data.generate",
+    "inputs": [
+      {
+        "name": "kpis[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "audience",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "dashboardUrl",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "BI 자산 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/tableau",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "data-analytics"
+  },
+  {
+    "$id": "jao://Action/agent/check_salary_band",
+    "id": "check_salary_band",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "연봉 밴드 확인"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#check_salary_band",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "hr.read",
+    "inputs": [
+      {
+        "name": "role",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "level",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "min",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "mid",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "max",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "market",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/workday"
+    ],
+    "owner": "hr-recruiting"
+  },
+  {
+    "$id": "jao://Action/agent/check_sanctions",
+    "id": "check_sanctions",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "제재 대상 확인"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#check_sanctions",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "procurement.read",
+    "inputs": [
+      {
+        "name": "vendorName",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "onSanctionsList",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "high",
+    "approvers": [
+      "manager"
+    ],
+    "auditLog": true,
+    "humanInTheLoop": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Action/agent/compare_vendors",
+    "id": "compare_vendors",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "공급사 비교"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#compare_vendors",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "procurement.compute",
+    "inputs": [
+      {
+        "name": "rfqId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "responses[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "scorecard",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "recommendation",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Action/agent/compute_kpi",
+    "id": "compute_kpi",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "KPI 계산"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#compute_kpi",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.compute",
+    "inputs": [
+      {
+        "name": "kpiId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "entity",
+        "type": "string",
+        "required": false
+      }
+    ],
+    "outputs": [
+      {
+        "name": "value",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "trend",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "alert",
+        "type": "string",
+        "required": false
+      }
+    ],
+    "preconditions": [
+      "원천 데이터 존재"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/detect_anomaly",
+    "id": "detect_anomaly",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "이상 탐지"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#detect_anomaly",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "security.read",
+    "inputs": [
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "window",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "events[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "riskScore",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/crowdstrike",
+      "jao://Tool/tool/splunk"
+    ],
+    "owner": "security"
+  },
+  {
+    "$id": "jao://Action/agent/detect_outlier",
+    "id": "detect_outlier",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "이상치 탐지"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#detect_outlier",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "data.compute",
+    "inputs": [
+      {
+        "name": "metric",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "window",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "outliers[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "explanation",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/databricks"
+    ],
+    "owner": "data-analytics"
+  },
+  {
+    "$id": "jao://Action/agent/draft_job_description",
+    "id": "draft_job_description",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "JD 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_job_description",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "hr.generate",
+    "inputs": [
+      {
+        "name": "roleTitle",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "ncsCode",
+        "type": "string",
+        "required": false
+      },
+      {
+        "name": "department",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "jdDraft",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/notion"
+    ],
+    "owner": "hr-recruiting"
+  },
+  {
+    "$id": "jao://Action/agent/draft_nda",
+    "id": "draft_nda",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "NDA 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_nda",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "legal.generate",
+    "inputs": [
+      {
+        "name": "counterparty",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "purpose",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "term",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "ndaDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/docusign",
+      "jao://Tool/tool/modusign"
+    ],
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Action/agent/draft_offer",
+    "id": "draft_offer",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "오퍼 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_offer",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "hr.generate",
+    "inputs": [
+      {
+        "name": "candidateId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "role",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "salary",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "startDate",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "offerDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "연봉 한도 검증",
+      "승인 매트릭스 통과"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [
+      "hr-mgr"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/docusign",
+      "jao://Tool/tool/modusign"
+    ],
+    "owner": "hr-recruiting"
+  },
+  {
+    "$id": "jao://Action/agent/draft_proposal",
+    "id": "draft_proposal",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "제안서 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_proposal",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.generate",
+    "inputs": [
+      {
+        "name": "accountId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "budget",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "proposalDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "가격 한도 검증"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [
+      "sales-mgr"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/figma"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/draft_response",
+    "id": "draft_response",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "응답 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_response",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "cs.generate",
+    "inputs": [
+      {
+        "name": "ticketId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "context",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "responseDraft",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "민감 정보 확인"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [
+      "agent-review"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/zendesk"
+    ],
+    "owner": "customer-support"
+  },
+  {
+    "$id": "jao://Action/agent/draft_rfq",
+    "id": "draft_rfq",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "RFQ 작성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#draft_rfq",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "procurement.generate",
+    "inputs": [
+      {
+        "name": "category",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "spec",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "budget",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "rfqDoc",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "vendorList[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp"
+    ],
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Action/agent/escalate_alert",
+    "id": "escalate_alert",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "알림 에스컬레이션"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#escalate_alert",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "itops.notify",
+    "inputs": [
+      {
+        "name": "incidentId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "level",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "pagedTeam",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "외부 알림 발송"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/slack",
+      "jao://Tool/tool/servicenow"
+    ],
+    "owner": "it-ops"
+  },
+  {
+    "$id": "jao://Action/agent/escalate_vip",
+    "id": "escalate_vip",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "VIP 에스컬레이션"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#escalate_vip",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "cs.notify",
+    "inputs": [
+      {
+        "name": "ticketId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "assignedSenior",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "VIP 식별"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "알림 발송"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/slack"
+    ],
+    "owner": "customer-support"
+  },
+  {
+    "$id": "jao://Action/agent/fetch_runbook",
+    "id": "fetch_runbook",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "런북 검색"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#fetch_runbook",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "itops.read",
+    "inputs": [
+      {
+        "name": "symptom",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "system",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "runbookSteps[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/notion",
+      "jao://Tool/tool/servicenow"
+    ],
+    "owner": "it-ops"
+  },
+  {
+    "$id": "jao://Action/agent/flag_anomaly",
+    "id": "flag_anomaly",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "이상치 플래그"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#flag_anomaly",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.alert",
+    "inputs": [
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "threshold",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "anomalies[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-hana",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/flag_risky_clause",
+    "id": "flag_risky_clause",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "위험 조항 표시"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#flag_risky_clause",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "legal.read",
+    "inputs": [
+      {
+        "name": "clauseText",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "riskLevel",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "explanation",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Action/agent/forecast_pipeline",
+    "id": "forecast_pipeline",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "파이프라인 예측"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#forecast_pipeline",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.compute",
+    "inputs": [
+      {
+        "name": "team",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "quarter",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "forecast",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "risks[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/generate_closing_report",
+    "id": "generate_closing_report",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "결산 보고서 생성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#generate_closing_report",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.generate",
+    "inputs": [
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "entity",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "pdf",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "xlsx",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "summary",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "기간 마감 완료"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/generate_copy",
+    "id": "generate_copy",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "카피 생성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#generate_copy",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "marketing.generate",
+    "inputs": [
+      {
+        "name": "topic",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "channel",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "tone",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "length",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "copyVariants[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "브랜드 가이드 컴플라이언스"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/hubspot"
+    ],
+    "owner": "marketing-content"
+  },
+  {
+    "$id": "jao://Action/agent/generate_postmortem",
+    "id": "generate_postmortem",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "포스트모템 생성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#generate_postmortem",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "itops.generate",
+    "inputs": [
+      {
+        "name": "incidentId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "postmortemDraft",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "인시던트 종료"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "문서 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/notion",
+      "jao://Tool/tool/datadog"
+    ],
+    "owner": "it-ops"
+  },
+  {
+    "$id": "jao://Action/agent/keyword_research",
+    "id": "keyword_research",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "키워드 리서치"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#keyword_research",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "marketing.read",
+    "inputs": [
+      {
+        "name": "seed",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "market",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "keywords[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "volume",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "competition",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "marketing-content"
+  },
+  {
+    "$id": "jao://Action/agent/map_to_control",
+    "id": "map_to_control",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "통제 매핑"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#map_to_control",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "security.read",
+    "inputs": [
+      {
+        "name": "findingId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "framework",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "controlIds[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/notion"
+    ],
+    "owner": "security"
+  },
+  {
+    "$id": "jao://Action/agent/match_faq",
+    "id": "match_faq",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "FAQ 매칭"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#match_faq",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "cs.read",
+    "inputs": [
+      {
+        "name": "question",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "answers[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "confidence",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/zendesk",
+      "jao://Tool/tool/channeltalk"
+    ],
+    "owner": "customer-support"
+  },
+  {
+    "$id": "jao://Action/agent/monitor_regulation",
+    "id": "monitor_regulation",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "규제 모니터링"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#monitor_regulation",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "legal.read",
+    "inputs": [
+      {
+        "name": "jurisdiction",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "topics[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "updates[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "impact",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/notion"
+    ],
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Action/agent/narrate_insight",
+    "id": "narrate_insight",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "인사이트 서사화"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#narrate_insight",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "data.generate",
+    "inputs": [
+      {
+        "name": "data",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "audience",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "narrativeText",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "data-analytics"
+  },
+  {
+    "$id": "jao://Action/agent/open_change_request",
+    "id": "open_change_request",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "변경 요청 생성"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#open_change_request",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "itops.write",
+    "inputs": [
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "impact",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "rollbackPlan",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "changeId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "롤백 계획 존재"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "변경 워크플로 트리거"
+      }
+    ],
+    "riskLevel": "high",
+    "approvers": [
+      "change-mgr"
+    ],
+    "auditLog": true,
+    "humanInTheLoop": true,
+    "tools": [
+      "jao://Tool/tool/servicenow",
+      "jao://Tool/tool/jira"
+    ],
+    "owner": "it-ops"
+  },
+  {
+    "$id": "jao://Action/agent/post_adjustment_entry",
+    "id": "post_adjustment_entry",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "조정 분개 등록"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#post_adjustment_entry",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.write",
+    "inputs": [
+      {
+        "name": "debitAccount",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "creditAccount",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "amount",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "description",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "journalId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "postingStatus",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "대변/차변 동등",
+      "승인 한도 내",
+      "기간 미마감"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "GL 변경"
+      }
+    ],
+    "riskLevel": "high",
+    "approvers": [
+      "finance-mgr"
+    ],
+    "auditLog": true,
+    "humanInTheLoop": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/quarantine_endpoint",
+    "id": "quarantine_endpoint",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "엔드포인트 격리"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#quarantine_endpoint",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "security.write",
+    "inputs": [
+      {
+        "name": "assetId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "reason",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "quarantineId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "사용자 통지 또는 임원 승인"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "엔드포인트 네트워크 차단"
+      }
+    ],
+    "riskLevel": "critical",
+    "approvers": [
+      "ciso"
+    ],
+    "auditLog": true,
+    "humanInTheLoop": true,
+    "tools": [
+      "jao://Tool/tool/crowdstrike",
+      "jao://Tool/tool/ahnlab-v3"
+    ],
+    "owner": "security"
+  },
+  {
+    "$id": "jao://Action/agent/query_data",
+    "id": "query_data",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "데이터 조회"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#query_data",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "data.read",
+    "inputs": [
+      {
+        "name": "question",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "rows",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "sqlGenerated",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "PII 가명화",
+      "쿼리 비용 한도"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/snowflake",
+      "jao://Tool/tool/databricks"
+    ],
+    "owner": "data-analytics"
+  },
+  {
+    "$id": "jao://Action/agent/query_gl",
+    "id": "query_gl",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "총계정원장 조회"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#query_gl",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.read",
+    "inputs": [
+      {
+        "name": "accountCode",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "entity",
+        "type": "string",
+        "required": false
+      }
+    ],
+    "outputs": [
+      {
+        "name": "transactions[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "balance",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "사용자 부서 권한 검증"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp",
+      "jao://Tool/tool/duzon"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/reconcile_intercompany",
+    "id": "reconcile_intercompany",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "내부거래 대조"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#reconcile_intercompany",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "finance.read",
+    "inputs": [
+      {
+        "name": "entityA",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "entityB",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "period",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "mismatches[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "totalGap",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/sap-erp"
+    ],
+    "owner": "finance-closing"
+  },
+  {
+    "$id": "jao://Action/agent/report_breach",
+    "id": "report_breach",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "침해 보고"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#report_breach",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "security.write",
+    "inputs": [
+      {
+        "name": "incidentId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "impact",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "reportId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "regulatorTicket",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "CISO 승인",
+      "법적 통지 의무 확인"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "외부 기관 보고 (PIPA 72h)"
+      }
+    ],
+    "riskLevel": "critical",
+    "approvers": [
+      "ciso",
+      "cpo",
+      "legal"
+    ],
+    "auditLog": true,
+    "humanInTheLoop": true,
+    "tools": [
+      "jao://Tool/tool/servicenow"
+    ],
+    "owner": "security"
+  },
+  {
+    "$id": "jao://Action/agent/review_contract",
+    "id": "review_contract",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "계약 검토"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#review_contract",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "legal.evaluate",
+    "inputs": [
+      {
+        "name": "contractDoc",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "riskyClauses[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "suggestedEdits[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [
+      "counsel"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api",
+      "jao://Tool/tool/docusign"
+    ],
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Action/agent/review_contract_terms",
+    "id": "review_contract_terms",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "계약 조항 검토"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#review_contract_terms",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "procurement.evaluate",
+    "inputs": [
+      {
+        "name": "contractText",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "risks[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "suggestions[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [
+      "legal"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Action/agent/route_ticket",
+    "id": "route_ticket",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "티켓 라우팅"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#route_ticket",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "cs.write",
+    "inputs": [
+      {
+        "name": "ticketId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "assignedTeam",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "티켓 할당"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/zendesk",
+      "jao://Tool/tool/servicenow"
+    ],
+    "owner": "customer-support"
+  },
+  {
+    "$id": "jao://Action/agent/schedule_interview",
+    "id": "schedule_interview",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "면접 일정"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#schedule_interview",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "hr.write",
+    "inputs": [
+      {
+        "name": "candidateId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "interviewers[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "duration",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "meetingLink",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "calendarEvent",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "면접관 캘린더 접근"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "캘린더 생성, 이메일 발송"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/microsoft365",
+      "jao://Tool/tool/zoom"
+    ],
+    "owner": "hr-recruiting"
+  },
+  {
+    "$id": "jao://Action/agent/schedule_meeting",
+    "id": "schedule_meeting",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "미팅 일정"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#schedule_meeting",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.write",
+    "inputs": [
+      {
+        "name": "attendees[]",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "topic",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "duration",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "meetingLink",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "캘린더 생성"
+      }
+    ],
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/microsoft365",
+      "jao://Tool/tool/zoom"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/schedule_post",
+    "id": "schedule_post",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "게시 예약"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#schedule_post",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "marketing.write",
+    "inputs": [
+      {
+        "name": "channel",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "datetime",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "postId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "승인된 콘텐츠"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "외부 채널 게시"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [
+      "marketing-mgr"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/hubspot",
+      "jao://Tool/tool/kakao-talk-biz"
+    ],
+    "owner": "marketing-content"
+  },
+  {
+    "$id": "jao://Action/agent/schedule_report",
+    "id": "schedule_report",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "리포트 스케줄"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#schedule_report",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "data.write",
+    "inputs": [
+      {
+        "name": "reportId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "cadence",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "recipients[]",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "scheduleId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "수신자 권한 검증"
+    ],
+    "sideEffects": [
+      {
+        "system": "unknown",
+        "mutation": "정기 발송"
+      }
+    ],
+    "riskLevel": "medium",
+    "approvers": [
+      "data-mgr"
+    ],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/tableau",
+      "jao://Tool/tool/powerbi"
+    ],
+    "owner": "data-analytics"
+  },
+  {
+    "$id": "jao://Action/agent/score_lead",
+    "id": "score_lead",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "리드 점수 계산"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#score_lead",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "sales.read",
+    "inputs": [
+      {
+        "name": "leadId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "score",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "reasons",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/salesforce",
+      "jao://Tool/tool/linkedin-sales"
+    ],
+    "owner": "sales-b2b"
+  },
+  {
+    "$id": "jao://Action/agent/screen_resume",
+    "id": "screen_resume",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "이력서 스크리닝"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#screen_resume",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "hr.evaluate",
+    "inputs": [
+      {
+        "name": "resumeId",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "jdId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "score",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "strengths",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "gaps",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [
+      "지원자 동의 확인"
+    ],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/workday",
+      "jao://Tool/tool/saramin"
+    ],
+    "owner": "hr-recruiting"
+  },
+  {
+    "$id": "jao://Action/agent/sentiment_analysis",
+    "id": "sentiment_analysis",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "감성 분석"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#sentiment_analysis",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "cs.evaluate",
+    "inputs": [
+      {
+        "name": "text",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "sentiment",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "urgency",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/openai-api"
+    ],
+    "owner": "customer-support"
+  },
+  {
+    "$id": "jao://Action/agent/track_litigation",
+    "id": "track_litigation",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "소송 추적"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#track_litigation",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "legal.read",
+    "inputs": [
+      {
+        "name": "caseId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "status",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "nextActions",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "medium",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/notion"
+    ],
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Action/agent/triage_incident",
+    "id": "triage_incident",
+    "class": "Action",
+    "namespace": "agent",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "인시던트 분류"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/actions.json#triage_incident",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "itops.read",
+    "inputs": [
+      {
+        "name": "incidentId",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "outputs": [
+      {
+        "name": "severity",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "category",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "suggestedRunbook",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "preconditions": [],
+    "sideEffects": "none",
+    "riskLevel": "low",
+    "approvers": [],
+    "auditLog": true,
+    "tools": [
+      "jao://Tool/tool/servicenow",
+      "jao://Tool/tool/datadog"
+    ],
+    "owner": "it-ops"
+  }
+]

@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/_base.schema.json",
+  "title": "JAO Base Entity",
+  "description": "직무 에이전트 운영 온톨로지(JAO)의 모든 엔티티가 상속하는 공통 메타-스키마. v1.0",
+  "type": "object",
+  "required": ["$id", "id", "class", "namespace", "version", "status", "label"],
+
+  "properties": {
+    "$id": {
+      "type": "string",
+      "description": "전역 URI. 형식: jao://{class}/{namespace}/{localId}",
+      "pattern": "^jao://[a-zA-Z]+/[a-zA-Z0-9-]+/[a-zA-Z0-9._-]+$"
+    },
+    "id": {
+      "type": "string",
+      "description": "로컬 식별자 (namespace 내 unique)",
+      "minLength": 1,
+      "maxLength": 120
+    },
+    "class": {
+      "type": "string",
+      "enum": [
+        "Concept","Process","Activity","Task","Action",
+        "Tool","Artifact","Regulation","Workflow","Metric",
+        "Term","Agent","Skill","Role","Event","Risk",
+        "Policy","MappingEdge","Document"
+      ]
+    },
+    "namespace": {
+      "type": "string",
+      "enum": ["pcf","ncs","onet","esco","agent","tool","reg","art","jao","ext",
+               "guideline","manual","standard","report","spec","policy-doc"]
+    },
+    "version": {
+      "type": "string",
+      "description": "Semantic Version (major.minor.patch)",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft","review","published","deprecated"]
+    },
+    "label": {
+      "type": "object",
+      "description": "다국어 표시명. 최소 ko 또는 en 하나 필수",
+      "properties": {
+        "ko": { "type": "string" },
+        "en": { "type": "string" }
+      },
+      "anyOf": [ { "required": ["ko"] }, { "required": ["en"] } ]
+    },
+    "aliases": {
+      "type": "array",
+      "description": "동의어·약어",
+      "items": {
+        "type": "object",
+        "required": ["lang","text"],
+        "properties": {
+          "lang": { "type": "string", "enum": ["ko","en","ja","zh","other"] },
+          "text": { "type": "string" },
+          "source": { "type": "string" }
+        }
+      }
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "ko": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "owner": {
+      "type": "string",
+      "description": "RACI 책임자 또는 부서/역할"
+    },
+    "steward": {
+      "type": "string",
+      "description": "데이터 큐레이터 (개인)"
+    },
+    "source": {
+      "type": "object",
+      "description": "Provenance: 데이터 출처",
+      "properties": {
+        "type": { "type": "string", "enum": ["apqc","ncs","onet","esco","manual","llm","ext"] },
+        "ref": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "license": { "type": "string" }
+      }
+    },
+    "confidence": {
+      "type": "number",
+      "description": "0~1. 자동 추출은 ≤0.7, 검증 후 ≥0.85",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "approvedBy": { "type": "string" },
+    "approvedAt": { "type": "string", "format": "date-time" },
+    "supersedes": {
+      "type": "string",
+      "description": "이전 버전 URI",
+      "pattern": "^jao://"
+    },
+    "supersededBy": {
+      "type": "string",
+      "pattern": "^jao://"
+    }
+  }
+}

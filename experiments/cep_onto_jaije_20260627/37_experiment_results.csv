@@ -1,0 +1,8 @@
+﻿metric,value,condition
+clean_ocr_sentences,5009,P-local-rule-cep-onto-v1
+anchor_candidates,9589,P-local-rule-cep-onto-v1
+layer2_nodes,4938,P-local-rule-cep-onto-v1
+layer2_edges,25163,P-local-rule-cep-onto-v1
+verified_task_frames,1476,P-local-rule-cep-onto-v1
+cq_answerability_auto,1.0,P-local-rule-cep-onto-v1
+shacl_like_violation_rate,0.0,P-local-rule-cep-onto-v1

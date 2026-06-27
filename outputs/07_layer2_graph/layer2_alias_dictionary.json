@@ -1,0 +1,382 @@
+{
+  "opportunity assessment": [
+    "L2_TASK_OPPORTUNITY_ASSESSMENT",
+    "L2_TASK_OPPORTUNITY_ASSESSMENT"
+  ],
+  "기회 분석": [
+    "L2_TASK_OPPORTUNITY_ASSESSMENT"
+  ],
+  "고객": [
+    "L2_ROLE_a58673ab1d25"
+  ],
+  "발주처": [
+    "L2_ROLE_a58673ab1d25"
+  ],
+  "구매자": [
+    "L2_ROLE_a58673ab1d25"
+  ],
+  "경쟁사": [
+    "L2_ROLE_bdcca1c8a14c"
+  ],
+  "경쟁자": [
+    "L2_ROLE_bdcca1c8a14c"
+  ],
+  "no bid": [
+    "L2_RISK_7be151cca22c"
+  ],
+  "불리한 조항": [
+    "L2_RISK_7be151cca22c"
+  ],
+  "극복할 수 없는 조건": [
+    "L2_RISK_7be151cca22c"
+  ],
+  "돌발변수": [
+    "L2_RISK_7be151cca22c"
+  ],
+  "bid/no bid": [
+    "L2_DG_DG_BID_NO_BID"
+  ],
+  "bid / no bid": [
+    "L2_DG_DG_BID_NO_BID"
+  ],
+  "제안참여 의사결정": [
+    "L2_DG_DG_BID_NO_BID"
+  ],
+  "참여결정": [
+    "L2_DG_DG_BID_NO_BID",
+    "L2_TASK_BID_NO_BID_DECISION"
+  ],
+  "pursuit decision": [
+    "L2_DG_DG_PURSUIT"
+  ],
+  "영업참여 결정": [
+    "L2_DG_DG_PURSUIT",
+    "L2_TASK_BID_NO_BID_DECISION"
+  ],
+  "입찰타당성 결정": [
+    "L2_DG_DG_BID_VALIDATION",
+    "L2_TASK_BID_VALIDATION"
+  ],
+  "bid validation decision": [
+    "L2_DG_DG_BID_VALIDATION",
+    "L2_TASK_BID_VALIDATION",
+    "L2_TASK_BID_VALIDATION"
+  ],
+  "참여타당성 검증": [
+    "L2_DG_DG_BID_VALIDATION",
+    "L2_TASK_BID_VALIDATION"
+  ],
+  "승인": [
+    "L2_DG_DG_APPROVAL"
+  ],
+  "최종 검토": [
+    "L2_DG_DG_APPROVAL"
+  ],
+  "확인": [
+    "L2_DG_DG_APPROVAL"
+  ],
+  "capture planning": [
+    "L2_TASK_CAPTURE_PLANNING",
+    "L2_TASK_CAPTURE_PLANNING"
+  ],
+  "캡처 플래닝": [
+    "L2_TASK_CAPTURE_PLANNING"
+  ],
+  "캡처플랜 작성": [
+    "L2_TASK_CAPTURE_PLANNING"
+  ],
+  "제안 pm": [
+    "L2_ROLE_6f23fc00fb1f"
+  ],
+  "proposal manager": [
+    "L2_ROLE_6f23fc00fb1f"
+  ],
+  "pm": [
+    "L2_ROLE_6f23fc00fb1f"
+  ],
+  "영업대표": [
+    "L2_ROLE_9d08dd751bf2"
+  ],
+  "영업팀": [
+    "L2_ROLE_9d08dd751bf2"
+  ],
+  "작성자": [
+    "L2_ROLE_0be45e6f773d"
+  ],
+  "담당자": [
+    "L2_ROLE_0be45e6f773d"
+  ],
+  "고객 중심": [
+    "L2_PRINCIPLE_ad76810528c8"
+  ],
+  "고객의 니즈": [
+    "L2_PRINCIPLE_ad76810528c8"
+  ],
+  "고객 니즈": [
+    "L2_PRINCIPLE_ad76810528c8"
+  ],
+  "고객 가치": [
+    "L2_PRINCIPLE_ad76810528c8"
+  ],
+  "충실도": [
+    "L2_PRINCIPLE_bc6d31b3b7e5"
+  ],
+  "요구조건": [
+    "L2_PRINCIPLE_bc6d31b3b7e5",
+    "L2_RISK_e232d58b4a8e"
+  ],
+  "compliance": [
+    "L2_PRINCIPLE_bc6d31b3b7e5"
+  ],
+  "차별화": [
+    "L2_PRINCIPLE_369cb1468674"
+  ],
+  "강점": [
+    "L2_PRINCIPLE_369cb1468674"
+  ],
+  "경쟁우위": [
+    "L2_PRINCIPLE_369cb1468674"
+  ],
+  "약점": [
+    "L2_RISK_00b0a368ea1c"
+  ],
+  "위험": [
+    "L2_RISK_00b0a368ea1c"
+  ],
+  "리스크": [
+    "L2_RISK_00b0a368ea1c"
+  ],
+  "실패": [
+    "L2_RISK_00b0a368ea1c"
+  ],
+  "누락": [
+    "L2_RISK_e232d58b4a8e"
+  ],
+  "불충실": [
+    "L2_RISK_e232d58b4a8e"
+  ],
+  "bid/no bid decision": [
+    "L2_TASK_BID_NO_BID_DECISION",
+    "L2_TASK_BID_NO_BID_DECISION"
+  ],
+  "제안팀": [
+    "L2_ROLE_5d9672872357"
+  ],
+  "제안서 작성팀": [
+    "L2_ROLE_5d9672872357"
+  ],
+  "고객 요구조건 분석": [
+    "L2_TASK_CUSTOMER_NEEDS_ANALYSIS"
+  ],
+  "고객 이슈 분석": [
+    "L2_TASK_CUSTOMER_NEEDS_ANALYSIS"
+  ],
+  "customer needs analysis": [
+    "L2_TASK_CUSTOMER_NEEDS_ANALYSIS"
+  ],
+  "근거": [
+    "L2_PRINCIPLE_8b66ec04365c"
+  ],
+  "논리": [
+    "L2_PRINCIPLE_8b66ec04365c"
+  ],
+  "설득": [
+    "L2_PRINCIPLE_8b66ec04365c"
+  ],
+  "품질": [
+    "L2_PRINCIPLE_954881e92ce7"
+  ],
+  "일관성": [
+    "L2_PRINCIPLE_954881e92ce7"
+  ],
+  "정확": [
+    "L2_PRINCIPLE_954881e92ce7"
+  ],
+  "간결": [
+    "L2_PRINCIPLE_954881e92ce7"
+  ],
+  "명확": [
+    "L2_PRINCIPLE_954881e92ce7"
+  ],
+  "경쟁자 분석": [
+    "L2_TASK_COMPETITOR_ANALYSIS"
+  ],
+  "경쟁 분석": [
+    "L2_TASK_COMPETITOR_ANALYSIS"
+  ],
+  "competitor analysis": [
+    "L2_TASK_COMPETITOR_ANALYSIS"
+  ],
+  "평가자": [
+    "L2_ROLE_53e1d514b20e"
+  ],
+  "평가위원": [
+    "L2_ROLE_53e1d514b20e"
+  ],
+  "임원": [
+    "L2_ROLE_f6a1c5768823"
+  ],
+  "담당 임원": [
+    "L2_ROLE_f6a1c5768823"
+  ],
+  "수주전략": [
+    "L2_TASK_WIN_STRATEGY_DEVELOPMENT"
+  ],
+  "capture strategy": [
+    "L2_TASK_WIN_STRATEGY_DEVELOPMENT"
+  ],
+  "전략 개발": [
+    "L2_TASK_WIN_STRATEGY_DEVELOPMENT"
+  ],
+  "capture strategy development": [
+    "L2_TASK_WIN_STRATEGY_DEVELOPMENT"
+  ],
+  "제안 기획": [
+    "L2_TASK_PROPOSAL_PLANNING"
+  ],
+  "proposal planning": [
+    "L2_TASK_PROPOSAL_PLANNING",
+    "L2_TASK_PROPOSAL_PLANNING"
+  ],
+  "팀 구성": [
+    "L2_TASK_PROPOSAL_TEAM_FORMATION"
+  ],
+  "제안서 작성팀 구성": [
+    "L2_TASK_PROPOSAL_TEAM_FORMATION"
+  ],
+  "proposal team formation": [
+    "L2_TASK_PROPOSAL_TEAM_FORMATION"
+  ],
+  "kickoff meeting": [
+    "L2_TASK_KICKOFF_MEETING",
+    "L2_TASK_KICKOFF_MEETING"
+  ],
+  "제안 킥오프": [
+    "L2_TASK_KICKOFF_MEETING"
+  ],
+  "capture manager": [
+    "L2_ROLE_ea149bf3b642"
+  ],
+  "제안 전략 개발": [
+    "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT"
+  ],
+  "proposal strategy": [
+    "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT"
+  ],
+  "proposal strategy development": [
+    "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT"
+  ],
+  "솔루션 정의": [
+    "L2_TASK_SOLUTION_DEFINITION"
+  ],
+  "솔루션 최적화": [
+    "L2_TASK_SOLUTION_DEFINITION"
+  ],
+  "solution definition": [
+    "L2_TASK_SOLUTION_DEFINITION"
+  ],
+  "pmp 작성": [
+    "L2_TASK_PMP_DEVELOPMENT"
+  ],
+  "제안관리 계획 수립": [
+    "L2_TASK_PMP_DEVELOPMENT"
+  ],
+  "제안계획서 작성": [
+    "L2_TASK_PMP_DEVELOPMENT"
+  ],
+  "proposal management plan development": [
+    "L2_TASK_PMP_DEVELOPMENT"
+  ],
+  "제안서 목차 설계": [
+    "L2_TASK_OUTLINE_DEVELOPMENT"
+  ],
+  "목차 설계": [
+    "L2_TASK_OUTLINE_DEVELOPMENT"
+  ],
+  "proposal outline development": [
+    "L2_TASK_OUTLINE_DEVELOPMENT"
+  ],
+  "pdw": [
+    "L2_TASK_SECTION_PLANNING"
+  ],
+  "스토리보드": [
+    "L2_TASK_SECTION_PLANNING"
+  ],
+  "storyboard": [
+    "L2_TASK_SECTION_PLANNING"
+  ],
+  "섹션 기획": [
+    "L2_TASK_SECTION_PLANNING"
+  ],
+  "proposal development worksheet": [
+    "L2_TASK_SECTION_PLANNING"
+  ],
+  "제안 작성": [
+    "L2_TASK_PROPOSAL_WRITING"
+  ],
+  "proposal preparing": [
+    "L2_TASK_PROPOSAL_WRITING"
+  ],
+  "proposal writing": [
+    "L2_TASK_PROPOSAL_WRITING",
+    "L2_TASK_PROPOSAL_WRITING"
+  ],
+  "executive summary": [
+    "L2_TASK_EXECUTIVE_SUMMARY_WRITING"
+  ],
+  "제안 요약 작성": [
+    "L2_TASK_EXECUTIVE_SUMMARY_WRITING"
+  ],
+  "executive summary writing": [
+    "L2_TASK_EXECUTIVE_SUMMARY_WRITING"
+  ],
+  "제안 리뷰": [
+    "L2_TASK_PROPOSAL_REVIEW"
+  ],
+  "리뷰 수행": [
+    "L2_TASK_PROPOSAL_REVIEW"
+  ],
+  "proposal review": [
+    "L2_TASK_PROPOSAL_REVIEW"
+  ],
+  "리뷰팀": [
+    "L2_ROLE_e663484f6597"
+  ],
+  "core team": [
+    "L2_ROLE_e663484f6597"
+  ],
+  "코어팀": [
+    "L2_ROLE_e663484f6597"
+  ],
+  "red team review": [
+    "L2_TASK_RED_TEAM_REVIEW",
+    "L2_TASK_RED_TEAM_REVIEW"
+  ],
+  "가격전략": [
+    "L2_TASK_PRICE_STRATEGY"
+  ],
+  "목표 가격 결정": [
+    "L2_TASK_PRICE_STRATEGY"
+  ],
+  "price strategy development": [
+    "L2_TASK_PRICE_STRATEGY"
+  ],
+  "발표 전략": [
+    "L2_TASK_PT_STRATEGY"
+  ],
+  "프레젠테이션 전략": [
+    "L2_TASK_PT_STRATEGY"
+  ],
+  "presentation strategy development": [
+    "L2_TASK_PT_STRATEGY"
+  ],
+  "충실도 체크리스트": [
+    "L2_TASK_COMPLIANCE_CHECK"
+  ],
+  "요구조건 충실도 점검": [
+    "L2_TASK_COMPLIANCE_CHECK"
+  ],
+  "compliance check": [
+    "L2_TASK_COMPLIANCE_CHECK"
+  ]
+}

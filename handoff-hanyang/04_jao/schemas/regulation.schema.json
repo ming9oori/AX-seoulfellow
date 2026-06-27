@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/regulation.schema.json",
+  "title": "Regulation (Law / Standard / Policy basis)",
+  "description": "에이전트가 준수해야 할 규제·법령·표준. Policy의 원천이 된다.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Regulation" },
+        "namespace": { "const": "reg" },
+        "code": {
+          "type": "string",
+          "description": "법령 약칭 또는 표준 코드 (예: GDPR, K-IFRS, ISO 27001)"
+        },
+        "category": {
+          "type": "string",
+          "description": "Privacy, Accounting, Banking, Healthcare, Labor, AI …"
+        },
+        "jurisdiction": {
+          "type": "string",
+          "description": "KR, US, EU, US-CA, GLOBAL, JP …"
+        },
+        "enforcer": {
+          "type": "string",
+          "description": "집행 기관 (예: 금융감독원, ICO, FTC)"
+        },
+        "scope": { "type": "string" },
+        "riskLevel": {
+          "type": "string",
+          "enum": ["low","medium","high","critical"]
+        },
+        "keyArticles": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "applies": {
+          "type": "array",
+          "description": "적용 jobFamily 또는 'all'",
+          "items": { "type": "string" }
+        },
+        "effectiveFrom": { "type": "string", "format": "date" },
+        "effectiveTo":   { "type": "string", "format": "date" }
+      },
+      "required": ["code","jurisdiction","riskLevel"]
+    }
+  ]
+}

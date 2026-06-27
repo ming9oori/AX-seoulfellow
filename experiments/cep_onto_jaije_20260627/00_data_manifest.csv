@@ -1,0 +1,11 @@
+﻿path,name,role,records,size_bytes,sha256
+handoff-hanyang/01_ncs/ncs_lclas.json,NCS 대분류,Layer1 NCS hierarchy,192,21691,28d2651a8ce68d00634ce4fc49ca4ad907b1ee8fa153539eaa7625ccc35770d6
+handoff-hanyang/01_ncs/ncs_mclas.json,NCS 중분류,Layer1 NCS hierarchy,665,116026,8ae5fc5d124faad17827e7f26a9acbdc365f9cc9b2c08aa3a7e67f2e9942c5aa
+handoff-hanyang/01_ncs/ncs_sclas.json,NCS 소분류,Layer1 NCS hierarchy,2239,537145,92752ec74167ccf8ccc942ee47d069a88788a9240f255ec3e3c89c6e7b4d2cf2
+handoff-hanyang/01_ncs/ncs_dclas.json,NCS 세분류,Layer1 NCS hierarchy,2165,1322320,ace647e631a0cf3466b71917c0e89a32fe0ff4e6fc77cd3561e0a0487ab8fee0
+handoff-hanyang/01_ncs/ncs_unit.json,NCS 능력단위,Layer1 NCS competency units,28666,20626290,dd5fe61e7bfb92be8ec35a541fc36357ae4fc2aa3cae7c9129e288517df9d2a6
+handoff-hanyang/02_pcf/pcf_data.json,PCF element,Layer1 PCF process axis,2017,1443484,0e7685617eece57c34d4499e325ab2051361940e37bceb85f2ae65899c28092d
+handoff-hanyang/02_pcf/pcf_metrics.json,PCF metrics,Optional metric nodes,3284,2415129,2b0e5f2cabe9b190f8b727e0ae6b96c3bb9d441f733569452595fa3bc3b2d428
+handoff-hanyang/06_suju_focus/ncs_suju_units.json,수주 NCS 선별본,Standard triangulation focus set,51,20335,32edc3f78f403f1c424cf93fa23d544185c6df9535d4b3593d8a92315deeae4d
+handoff-hanyang/06_suju_focus/pcf_3.0_market_and_sell.json,PCF 3.0 선별본,Standard triangulation focus set,213,177658,502b4493c0ad4a6e72436ebcab503a7bbbecfe135c83f82eab0ecae4353afb90
+handoff-hanyang/자이제_ocr_sentences.xlsx,자이제 OCR sentence,Layer2 source corpus,5009,259559,56b0ba639068fb888f15cf46d57c60300db7058f1d68087864fc42d40be3be2a

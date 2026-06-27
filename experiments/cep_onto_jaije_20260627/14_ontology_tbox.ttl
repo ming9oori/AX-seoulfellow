@@ -1,0 +1,32 @@
+@prefix cepo: <https://example.org/cep-onto#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+cepo:DomainTask a owl:Class .
+cepo:ProcedureStep a owl:Class .
+cepo:DecisionGateway a owl:Class .
+cepo:GuardCondition a owl:Class .
+cepo:Artifact a owl:Class .
+cepo:Role a owl:Class .
+cepo:Principle a owl:Class .
+cepo:ReviewEvent a owl:Class .
+cepo:Risk a owl:Class .
+cepo:EvidenceAnchor a owl:Class .
+cepo:StandardAnchor a owl:Class .
+cepo:ExtractionActivity a owl:Class .
+
+cepo:HAS_SUBTASK a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:ProcedureStep .
+cepo:PRECEDES a owl:ObjectProperty ; rdfs:domain cepo:ProcedureStep ; rdfs:range cepo:ProcedureStep .
+cepo:USES_INPUT a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:Artifact .
+cepo:PRODUCES a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:Artifact .
+cepo:PERFORMED_BY a owl:ObjectProperty ; rdfs:domain cepo:ProcedureStep ; rdfs:range cepo:Role .
+cepo:RESPONSIBLE_FOR a owl:ObjectProperty ; rdfs:domain cepo:Role ; rdfs:range cepo:DomainTask .
+cepo:HAS_DECISION_GATEWAY a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:DecisionGateway .
+cepo:HAS_GUARD_CONDITION a owl:ObjectProperty ; rdfs:range cepo:GuardCondition .
+cepo:HAS_REVIEW a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:ReviewEvent .
+cepo:HAS_PRINCIPLE a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:Principle .
+cepo:HAS_RISK a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:Risk .
+cepo:EVIDENCED_BY a owl:ObjectProperty ; rdfs:range cepo:EvidenceAnchor .
+cepo:CANDIDATE_ALIGNS_WITH a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:StandardAnchor .
+cepo:REQUIRES_CAPABILITY a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:StandardAnchor .
+cepo:PROCESS_CONTEXT a owl:ObjectProperty ; rdfs:domain cepo:DomainTask ; rdfs:range cepo:StandardAnchor .

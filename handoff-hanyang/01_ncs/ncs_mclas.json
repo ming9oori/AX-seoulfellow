@@ -1,0 +1,5322 @@
+[
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "01",
+  "NCS_LCLAS_CDNM": "사업관리",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사업관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기획사무",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "총무·인사",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재무·회계",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "02",
+  "NCS_LCLAS_CDNM": "경영·회계·사무",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "생산·품질관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금융",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "03",
+  "NCS_LCLAS_CDNM": "금융·보험",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "보험",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "학교교육",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "평생교육",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "04",
+  "NCS_LCLAS_CDNM": "교육·자연·사회과학",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "직업교육",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "법률",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "소방방재",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "05",
+  "NCS_LCLAS_CDNM": "법률·경찰·소방·교도·국방",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "재난관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "보건",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "06",
+  "NCS_LCLAS_CDNM": "보건·의료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "의료",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "사회복지",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "상담",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "07",
+  "NCS_LCLAS_CDNM": "사회복지·종교",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "보육",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "문화·예술",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "디자인",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "08",
+  "NCS_LCLAS_CDNM": "문화·예술·디자인·방송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "문화콘텐츠",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "자동차운전·운송",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "철도운전·운송",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "선박운전·운송",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "09",
+  "NCS_LCLAS_CDNM": "운전·운송",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "항공운전·운송",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "영업",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "부동산",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "10",
+  "NCS_LCLAS_CDNM": "영업판매",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "판매",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "경비",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "11",
+  "NCS_LCLAS_CDNM": "경비·청소",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "청소",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "이·미용",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "결혼·장례",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "관광·레저",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "12",
+  "NCS_LCLAS_CDNM": "이용·숙박·여행·오락·스포츠",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "스포츠",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "13",
+  "NCS_LCLAS_CDNM": "음식서비스",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식음료조리·서비스",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "건설공사관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "토목",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "건축",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플랜트",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "조경",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "도시·교통",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "건설기계운전·정비",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "14",
+  "NCS_LCLAS_CDNM": "건설",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "해양자원",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "기계설계",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "기계가공",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "기계조립·관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "기계품질관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "기계장치설치",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "자동차",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "07",
+  "NCS_MCLAS_CDNM": "철도차량제작",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "08",
+  "NCS_MCLAS_CDNM": "조선",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "09",
+  "NCS_MCLAS_CDNM": "항공기제작",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "10",
+  "NCS_MCLAS_CDNM": "금형",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "15",
+  "NCS_LCLAS_CDNM": "기계",
+  "NCS_MCLAS_CD": "11",
+  "NCS_MCLAS_CDNM": "스마트공장(smart factory)",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "금속재료",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "16",
+  "NCS_LCLAS_CDNM": "재료",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "세라믹재료",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학물질·화학공정품질관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학물질·화학공정품질관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학물질·화학공정품질관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학물질·화학공정품질관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학·바이오공통",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학·바이오공통",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학·바이오공통",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "화학·바이오공통",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "석유·기초화학물",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "정밀화학",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "플라스틱·고무",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "17",
+  "NCS_LCLAS_CDNM": "화학·바이오",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "바이오",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "섬유제조",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "패션",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "18",
+  "NCS_LCLAS_CDNM": "섬유·의복",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "의복관리",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "전기",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "전자기기일반",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "19",
+  "NCS_LCLAS_CDNM": "전기·전자",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "전자기기개발",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "정보기술",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "통신기술",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "20",
+  "NCS_LCLAS_CDNM": "정보통신",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "방송기술",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "식품가공",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "21",
+  "NCS_LCLAS_CDNM": "식품가공",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "제과·제빵·떡제조",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "인쇄·출판",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "22",
+  "NCS_LCLAS_CDNM": "인쇄·목재·가구·공예",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "공예",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "산업환경",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "환경보건",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "자연환경",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "환경서비스",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "05",
+  "NCS_MCLAS_CDNM": "에너지·자원",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전보건",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전보건",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전보건",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "23",
+  "NCS_LCLAS_CDNM": "환경·에너지·안전",
+  "NCS_MCLAS_CD": "06",
+  "NCS_MCLAS_CDNM": "산업안전보건",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "01",
+  "NCS_MCLAS_CDNM": "농업",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "02",
+  "NCS_MCLAS_CDNM": "축산",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "03",
+  "NCS_MCLAS_CDNM": "임업",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 22,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 23,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 24,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 25,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 26,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 27,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 28,
+  "USG_YN": "N"
+ },
+ {
+  "NCS_LCLAS_CD": "24",
+  "NCS_LCLAS_CDNM": "농림어업",
+  "NCS_MCLAS_CD": "04",
+  "NCS_MCLAS_CDNM": "수산",
+  "NCS_DEGR": 29,
+  "USG_YN": "Y"
+ }
+]

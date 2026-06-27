@@ -1,0 +1,14 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cepo: <https://example.org/cep-onto#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cepo:DomainTaskShape a sh:NodeShape ;
+  sh:targetClass cepo:DomainTask ;
+  sh:property [ sh:path cepo:EVIDENCED_BY ; sh:minCount 1 ] .
+
+cepo:ProcedureStepShape a sh:NodeShape ;
+  sh:targetClass cepo:ProcedureStep ;
+  sh:property [ sh:path cepo:EVIDENCED_BY ; sh:minCount 1 ] .
+
+cepo:ProceduralRelationShape a sh:NodeShape ;
+  sh:message "Every CEP-Onto generated relation must carry at least one evidence anchor in the JSONL edge payload." .

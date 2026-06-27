@@ -1,0 +1,133 @@
+﻿condition,cq_id,question,support_count,score
+B0_plain_llm_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,25,5
+B0_plain_llm_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,29,5
+B0_plain_llm_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,38,5
+B0_plain_llm_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,19,5
+B0_plain_llm_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,8,5
+B0_plain_llm_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,1,5
+B0_plain_llm_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,0,0
+B0_plain_llm_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+B0_plain_llm_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,7,5
+B0_plain_llm_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,0,0
+B0_plain_llm_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+B0_plain_llm_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+B1_predicate_constrained_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,138,5
+B1_predicate_constrained_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,151,5
+B1_predicate_constrained_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,168,5
+B1_predicate_constrained_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,87,5
+B1_predicate_constrained_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,44,5
+B1_predicate_constrained_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,8,5
+B1_predicate_constrained_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,16,5
+B1_predicate_constrained_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+B1_predicate_constrained_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,49,5
+B1_predicate_constrained_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,689,5
+B1_predicate_constrained_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+B1_predicate_constrained_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+B2_current_project_baseline,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+B2_current_project_baseline,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+B2_current_project_baseline,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+B2_current_project_baseline,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+B2_current_project_baseline,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+B2_current_project_baseline,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+B2_current_project_baseline,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+B2_current_project_baseline,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+B2_current_project_baseline,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+B2_current_project_baseline,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,861,5
+B2_current_project_baseline,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+B2_current_project_baseline,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+B4_taxonomy_rag_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,0,0
+B4_taxonomy_rag_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+B4_taxonomy_rag_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+B4_taxonomy_rag_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+B4_taxonomy_rag_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,0,0
+B4_taxonomy_rag_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,0,0
+B4_taxonomy_rag_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,0,0
+B4_taxonomy_rag_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+B4_taxonomy_rag_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+B4_taxonomy_rag_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,610,5
+B4_taxonomy_rag_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+B4_taxonomy_rag_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+B5_procedural_prompt_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+B5_procedural_prompt_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,0,0
+B5_procedural_prompt_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,0,0
+B5_procedural_prompt_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,0,0
+B5_procedural_prompt_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+B5_procedural_prompt_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+B5_procedural_prompt_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+B5_procedural_prompt_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+B5_procedural_prompt_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,0,0
+B5_procedural_prompt_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,251,5
+B5_procedural_prompt_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+B5_procedural_prompt_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_cape_kg_silver,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+P_cape_kg_silver,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+P_cape_kg_silver,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+P_cape_kg_silver,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+P_cape_kg_silver,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+P_cape_kg_silver,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+P_cape_kg_silver,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+P_cape_kg_silver,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_cape_kg_silver,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+P_cape_kg_silver,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,861,5
+P_cape_kg_silver,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_cape_kg_silver,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_minus_CQ_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,138,5
+P_minus_CQ_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,164,5
+P_minus_CQ_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,170,5
+P_minus_CQ_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,97,5
+P_minus_CQ_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,46,5
+P_minus_CQ_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,11,5
+P_minus_CQ_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,13,5
+P_minus_CQ_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_minus_CQ_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,51,5
+P_minus_CQ_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,717,5
+P_minus_CQ_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_minus_CQ_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_minus_Evidence_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+P_minus_Evidence_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+P_minus_Evidence_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+P_minus_Evidence_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+P_minus_Evidence_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+P_minus_Evidence_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+P_minus_Evidence_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+P_minus_Evidence_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_minus_Evidence_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+P_minus_Evidence_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,0,0
+P_minus_Evidence_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_minus_Evidence_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_minus_Procedural_schema_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,0,0
+P_minus_Procedural_schema_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+P_minus_Procedural_schema_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+P_minus_Procedural_schema_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+P_minus_Procedural_schema_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,0,0
+P_minus_Procedural_schema_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,0,0
+P_minus_Procedural_schema_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,0,0
+P_minus_Procedural_schema_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_minus_Procedural_schema_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+P_minus_Procedural_schema_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,610,5
+P_minus_Procedural_schema_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_minus_Procedural_schema_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_minus_Validator_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+P_minus_Validator_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+P_minus_Validator_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,253,5
+P_minus_Validator_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+P_minus_Validator_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+P_minus_Validator_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+P_minus_Validator_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+P_minus_Validator_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_minus_Validator_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+P_minus_Validator_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,904,5
+P_minus_Validator_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_minus_Validator_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5
+P_minus_Standard_bridge_proxy,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,166,5
+P_minus_Standard_bridge_proxy,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,195,5
+P_minus_Standard_bridge_proxy,CQ3,각 Task는 어떤 산출물을 생성하는가?,210,5
+P_minus_Standard_bridge_proxy,CQ4,각 Task는 누가 수행하거나 책임지는가?,113,5
+P_minus_Standard_bridge_proxy,CQ5,어떤 의사결정 지점이 존재하는가?,54,5
+P_minus_Standard_bridge_proxy,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,13,5
+P_minus_Standard_bridge_proxy,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,18,5
+P_minus_Standard_bridge_proxy,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,0,0
+P_minus_Standard_bridge_proxy,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,58,5
+P_minus_Standard_bridge_proxy,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,861,5
+P_minus_Standard_bridge_proxy,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,110,5
+P_minus_Standard_bridge_proxy,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,110,5

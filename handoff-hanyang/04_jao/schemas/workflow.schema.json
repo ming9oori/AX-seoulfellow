@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/workflow.schema.json",
+  "title": "Workflow (BPMN-lite + DMN + CMMN)",
+  "description": "여러 Action을 조건·게이트·에스컬레이션으로 묶은 실행 흐름. BPMN 2.0의 핵심 요소를 JSON으로 가볍게 표현.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Workflow" },
+        "namespace": { "enum": ["jao","agent"] },
+        "triggeredBy": {
+          "type": "array",
+          "description": "트리거 Event URI 또는 문자열 (예: event:month-end, schedule:0 0 1 * *)",
+          "items": { "type": "string" }
+        },
+        "steps": {
+          "type": "array",
+          "description": "순차 실행 단계 목록",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["id"],
+            "properties": {
+              "id":      { "type": "string" },
+              "action":  { "type": "string", "description": "참조 Action URI 또는 id" },
+              "gate":    { "type": "string", "description": "결정 게이트 이름 (DMN 매핑)" },
+              "dmnTable":{ "type": "string", "description": "DMN 결정표 ID" },
+              "condition": { "type": "string", "description": "boolean 표현식" },
+              "onSuccess": { "type": "string", "description": "다음 step id" },
+              "onTrue":    { "type": "string" },
+              "onFalse":   { "type": "string" },
+              "onFail":    { "type": "string", "description": "에러 시 step id 또는 'escalate'" },
+              "requiresApproval": { "type": "string" },
+              "humanInTheLoop":   { "type": "boolean" },
+              "parallel": { "type": "array", "items": { "type": "string" } },
+              "timeoutSec": { "type": "integer" }
+            }
+          }
+        },
+        "gates": {
+          "type": "array",
+          "description": "DMN 결정 테이블 정의 목록",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": { "type": "string" },
+              "inputs": { "type": "array", "items": { "type": "string" } },
+              "rules": { "type": "array" }
+            }
+          }
+        },
+        "cases": {
+          "type": "array",
+          "description": "CMMN 비정형 케이스 정의 (예외/인시던트 처리)",
+          "items": { "type": "object" }
+        },
+        "escalationPolicy": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "after": { "type": "string", "description": "예: 24h, 3d" },
+              "to":    { "type": "string", "description": "Role URI 또는 ID" },
+              "reason":{ "type": "string" }
+            }
+          }
+        },
+        "slaSec":   { "type": "integer", "minimum": 0 },
+        "interventionMode": {
+          "type": "string",
+          "enum": ["full-auto","gate-only","checkpoint","step-by-step","co-pilot","custom"]
+        },
+        "bpmnXml": {
+          "type": "string",
+          "description": "(선택) 외부 BPMN XML 경로 또는 inline"
+        }
+      },
+      "required": ["steps"]
+    }
+  ]
+}

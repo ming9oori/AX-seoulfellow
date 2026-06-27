@@ -1,0 +1,5 @@
+﻿experiment,condition,chunk_count,mean_chars,note
+chunking,C1 sentence-window,1168,315.796,
+chunking,C2 section-based,473,522.446,
+chunking,C3 hybrid-semantic,480,518.858,
+extraction,P local rule-based evidence-first,,,LLM baselines B0-B4 pending model/API configuration

@@ -1,0 +1,100 @@
+[
+  {
+    "cq_id": "CQ1",
+    "question": "수주·제안 업무는 어떤 주요 Task로 구성되는가?",
+    "predicates": [
+      "HAS_STEP",
+      "PRECEDES"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ2",
+    "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+    "predicates": [
+      "USES_INPUT"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ3",
+    "question": "각 Task는 어떤 산출물을 생성하는가?",
+    "predicates": [
+      "PRODUCES"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ4",
+    "question": "각 Task는 누가 수행하거나 책임지는가?",
+    "predicates": [
+      "PERFORMED_BY"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ5",
+    "question": "어떤 의사결정 지점이 존재하는가?",
+    "predicates": [
+      "HAS_DECISION_GATEWAY"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ6",
+    "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+    "predicates": [
+      "HAS_GUARD_CONDITION"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ7",
+    "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+    "predicates": [
+      "FEEDS_INTO",
+      "USED_AS_INPUT_FOR"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ8",
+    "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+    "predicates": [
+      "HAS_REVIEW"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ9",
+    "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+    "predicates": [
+      "HAS_PRINCIPLE"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ10",
+    "question": "각 지식 항목은 원문 어느 chunk/page에 근거가 있는가?",
+    "predicates": [
+      "EVIDENCED_BY"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ11",
+    "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+    "predicates": [
+      "CANDIDATE_REQUIRES_CAPABILITY"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  },
+  {
+    "cq_id": "CQ12",
+    "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+    "predicates": [
+      "CANDIDATE_PROCESS_CONTEXT"
+    ],
+    "query_plan": "predicate scan over generated JSONL graph"
+  }
+]

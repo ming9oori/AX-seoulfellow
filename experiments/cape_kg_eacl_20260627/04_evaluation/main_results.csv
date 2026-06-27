@@ -1,0 +1,12 @@
+﻿condition,pred_edges,reference_edges,true_positive,false_positive,false_negative,precision,recall,f1,edge_grounding_rate,evidence_exact_match,evidence_iou_mean,unsupported_edge_rate,ontology_violation_count,ontology_conformance,procedural_edge_count,precedence_cycle_count,gateway_without_guard_or_evidence,artifact_flow_type_violation_count,procedural_consistency
+B0_plain_llm_proxy,517,861,130,345,731,0.2737,0.151,0.1946,1.0,0.0,0.0,0.0,517,0.0,34,0,0,0,1.0
+B1_predicate_constrained_proxy,689,861,689,0,172,1.0,0.8002,0.889,1.0,1.0,1.0,0.0,689,0.0,206,0,0,16,0.9223
+B2_current_project_baseline,861,861,861,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0,1.0,251,0,0,0,1.0
+B4_taxonomy_rag_proxy,610,861,610,0,251,1.0,0.7085,0.8294,1.0,1.0,1.0,0.0,0,1.0,0,0,0,0,1.0
+B5_procedural_prompt_proxy,251,861,251,0,610,1.0,0.2915,0.4514,1.0,1.0,1.0,0.0,0,1.0,251,0,0,0,1.0
+P_cape_kg_silver,861,861,861,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0,1.0,251,0,0,0,1.0
+P_minus_CQ_proxy,717,861,717,0,144,1.0,0.8328,0.9087,1.0,1.0,1.0,0.0,0,1.0,208,0,0,0,1.0
+P_minus_Evidence_proxy,861,861,861,0,0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,0,1.0,251,0,0,0,1.0
+P_minus_Procedural_schema_proxy,610,861,610,0,251,1.0,0.7085,0.8294,1.0,1.0,1.0,0.0,0,1.0,0,0,0,0,1.0
+P_minus_Validator_proxy,904,861,861,24,0,0.9729,1.0,0.9863,1.0,0.9735,1.0,0.0,43,0.9524,251,0,0,0,1.0
+P_minus_Standard_bridge_proxy,861,861,861,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0.0,0,1.0,251,0,0,0,1.0

@@ -1,0 +1,1 @@
+Extract actions, actors, gateways, guard conditions, artifact flows, and temporal/logical dependencies.

@@ -1,0 +1,158 @@
+[
+  {
+    "predicate": "HAS_SUBTASK",
+    "subject_types": [
+      "DomainTask"
+    ],
+    "object_types": [
+      "DomainTask"
+    ]
+  },
+  {
+    "predicate": "HAS_STEP",
+    "subject_types": [
+      "DomainTask"
+    ],
+    "object_types": [
+      "ProcedureStep"
+    ]
+  },
+  {
+    "predicate": "PRECEDES",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ]
+  },
+  {
+    "predicate": "USES_INPUT",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "Artifact",
+      "Concept"
+    ]
+  },
+  {
+    "predicate": "PRODUCES",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "Artifact"
+    ]
+  },
+  {
+    "predicate": "PERFORMED_BY",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "Role"
+    ]
+  },
+  {
+    "predicate": "HAS_DECISION_GATEWAY",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "DecisionGateway"
+    ]
+  },
+  {
+    "predicate": "HAS_GUARD_CONDITION",
+    "subject_types": [
+      "DecisionGateway"
+    ],
+    "object_types": [
+      "GuardCondition"
+    ]
+  },
+  {
+    "predicate": "HAS_REVIEW",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "ReviewCheckpoint"
+    ]
+  },
+  {
+    "predicate": "HAS_PRINCIPLE",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "Principle"
+    ]
+  },
+  {
+    "predicate": "HAS_RISK",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "Risk"
+    ]
+  },
+  {
+    "predicate": "FEEDS_INTO",
+    "subject_types": [
+      "Artifact"
+    ],
+    "object_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ]
+  },
+  {
+    "predicate": "USED_AS_INPUT_FOR",
+    "subject_types": [
+      "Artifact"
+    ],
+    "object_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ]
+  },
+  {
+    "predicate": "EVIDENCED_BY",
+    "subject_types": [
+      "Any"
+    ],
+    "object_types": [
+      "EvidenceAnchor"
+    ]
+  },
+  {
+    "predicate": "CANDIDATE_REQUIRES_CAPABILITY",
+    "subject_types": [
+      "DomainTask"
+    ],
+    "object_types": [
+      "NCSCompetencyUnit"
+    ]
+  },
+  {
+    "predicate": "CANDIDATE_PROCESS_CONTEXT",
+    "subject_types": [
+      "DomainTask"
+    ],
+    "object_types": [
+      "PCFElement"
+    ]
+  }
+]

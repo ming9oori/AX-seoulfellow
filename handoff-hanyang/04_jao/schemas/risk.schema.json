@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/risk.schema.json",
+  "title": "Risk",
+  "description": "직무 수행 시 발생 가능한 리스크. likelihood × impact 매트릭스로 등급화. mitigation Action에 연결.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Risk" },
+        "category": {
+          "type": "string",
+          "enum": ["operational","financial","compliance","security","reputational","strategic","technical","other"]
+        },
+        "likelihood": {
+          "type": "string",
+          "enum": ["rare","unlikely","possible","likely","almost-certain"]
+        },
+        "impact": {
+          "type": "string",
+          "enum": ["negligible","minor","moderate","major","severe"]
+        },
+        "riskScore": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 25,
+          "description": "5x5 매트릭스 점수"
+        },
+        "mitigation": {
+          "type": "array",
+          "description": "완화 조치 Action URI 또는 텍스트",
+          "items": { "type": "string" }
+        },
+        "appliesTo": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^jao://" }
+        },
+        "owner": { "type": "string" }
+      },
+      "required": ["category","likelihood","impact"]
+    }
+  ]
+}

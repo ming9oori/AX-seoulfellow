@@ -1,0 +1,3 @@
+﻿standard,selected_domain_tasks,covered_tasks,coverage,top5_candidate_rows,reason_present_rate,expert_accept_rate,p_at_5,mrr
+NCS,22,22,1.0,110,1.0,pending_human_review,pending_human_review,pending_human_review
+PCF,22,22,1.0,110,1.0,pending_human_review,pending_human_review,pending_human_review

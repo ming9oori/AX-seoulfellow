@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/event.schema.json",
+  "title": "Event (Trigger)",
+  "description": "Workflow/Action을 자동 트리거하는 이벤트. 시간·외부 시스템·내부 상태 변화 등.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Event" },
+        "namespace": { "enum": ["jao","agent"] },
+        "trigger": {
+          "type": "string",
+          "enum": ["schedule","webhook","threshold","manual","upstream","approval","other"]
+        },
+        "schedule": {
+          "type": "string",
+          "description": "cron 표현식 또는 ISO interval (trigger=schedule일 때)"
+        },
+        "source": {
+          "type": "string",
+          "description": "이벤트 원천 시스템 또는 URI"
+        },
+        "payloadSchema": {
+          "type": "object",
+          "description": "이벤트가 전달하는 페이로드 스키마 (JSON Schema)"
+        },
+        "triggers": {
+          "type": "array",
+          "description": "이 이벤트가 트리거하는 Workflow/Action URI",
+          "items": { "type": "string", "pattern": "^jao://(Workflow|Action)/" }
+        }
+      },
+      "required": ["trigger"]
+    }
+  ]
+}

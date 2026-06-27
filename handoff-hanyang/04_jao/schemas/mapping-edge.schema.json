@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/mapping-edge.schema.json",
+  "title": "MappingEdge (Cross-Standard Edge)",
+  "description": "두 엔티티 간의 의미 매핑 (NCS↔PCF, PCF↔O*NET 등). SKOS exact/broader/narrower/related 차용 + confidence·evidence·validatedBy 포함.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "MappingEdge" },
+        "namespace": { "enum": ["jao"] },
+        "from": {
+          "type": "string",
+          "description": "출발 엔티티 URI",
+          "pattern": "^jao://"
+        },
+        "to": {
+          "type": "string",
+          "description": "도착 엔티티 URI",
+          "pattern": "^jao://"
+        },
+        "predicate": {
+          "type": "string",
+          "description": "관계 술어 (uses, produces, mapsTo, enables, governedBy, embodies …)",
+          "enum": [
+            "mapsTo","uses","produces","governedBy","measuredBy","partOf",
+            "enables","requires","embodies","executes","hasSkill",
+            "mutates","triggers","enforcedBy","requiresApproval","follows",
+            "triggeredBy","derivedFrom","equivalentTo","broader","narrower","related"
+          ]
+        },
+        "mappingType": {
+          "type": "string",
+          "description": "SKOS 매핑 타입 (predicate가 mapsTo·broader·narrower·related일 때)",
+          "enum": ["exact","broader","narrower","related","close","none"]
+        },
+        "evidence": {
+          "type": "string",
+          "description": "매핑 근거 (예: 'TF-IDF 0.45, 키워드: 회계, 감사, 컴플라이언스')"
+        },
+        "validatedBy": {
+          "type": "string",
+          "description": "검증자 (사용자 ID 또는 auto)"
+        },
+        "validatedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "bidirectional": {
+          "type": "boolean",
+          "default": false,
+          "description": "exact 매핑은 자동 양방향"
+        }
+      },
+      "required": ["from","to","predicate"]
+    }
+  ]
+}

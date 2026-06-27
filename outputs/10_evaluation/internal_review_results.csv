@@ -1,0 +1,1 @@
+﻿item_id,item_type,task_id,chunk_id,page_start,page_end,subject,predicate,object,node_or_edge_type,evidence_text,evidence_anchor_type,confidence,system_decision,reviewer_decision,support_label,type_correct,predicate_correct,direction_correct,canonicalization_correct,comment,final_status

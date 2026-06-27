@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/role.schema.json",
+  "title": "Role (Permission holder / Approver)",
+  "description": "조직 내 역할·직책. Action 승인·에스컬레이션의 대상.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Role" },
+        "namespace": { "enum": ["jao","agent"] },
+        "level": {
+          "type": "string",
+          "enum": ["c-level","executive","manager","senior","staff","junior","intern","contractor"]
+        },
+        "permissions": {
+          "type": "array",
+          "description": "이 역할이 허용된 Action 패턴 (예: finance.read, finance.write:<10M, *)",
+          "items": { "type": "string" }
+        },
+        "reportsTo": {
+          "type": "string",
+          "description": "상위 Role URI",
+          "pattern": "^jao://Role/"
+        },
+        "approves": {
+          "type": "array",
+          "description": "승인할 수 있는 Action 카테고리",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["level"]
+    }
+  ]
+}

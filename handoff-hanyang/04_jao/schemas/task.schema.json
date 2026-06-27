@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/task.schema.json",
+  "title": "Task (NCS 능력단위 / O*NET Task)",
+  "description": "직무 수행의 최소 단위 작업. NCS 능력단위·O*NET Task statement와 호환. enables 관계로 PCF Activity에 연결.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Task" },
+        "namespace": { "enum": ["ncs","onet","jao"] },
+        "unitCode": {
+          "type": "string",
+          "description": "NCS 능력단위 분류코드 (NCS_CL_CD) 또는 O*NET Task ID"
+        },
+        "elemCode": {
+          "type": "string",
+          "description": "NCS 능력단위 요소 코드"
+        },
+        "criteria": {
+          "type": "array",
+          "description": "수행준거 (Performance Criteria) 목록",
+          "items": { "type": "string" }
+        },
+        "ksaCodes": {
+          "type": "array",
+          "description": "관련 K/S/A 코드 또는 URI",
+          "items": { "type": "string" }
+        },
+        "levelL": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 8,
+          "description": "NCS 수준 1~8"
+        },
+        "taskType": {
+          "type": "string",
+          "enum": ["Core","Supplemental","DWA","IWA","GWA","NCS-Element"]
+        },
+        "duration": {
+          "type": "string",
+          "description": "표준 수행 시간 (예: 30min, 2h, 1d)"
+        },
+        "enables": {
+          "type": "array",
+          "description": "이 Task가 가능하게 하는 Process/Activity URI",
+          "items": { "type": "string", "pattern": "^jao://Process/" }
+        },
+        "requires": {
+          "type": "array",
+          "description": "선행 요구 Concept/Skill/Knowledge URI",
+          "items": { "type": "string", "pattern": "^jao://" }
+        }
+      }
+    }
+  ]
+}

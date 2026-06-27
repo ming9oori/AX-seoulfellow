@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://jao.example.org/schemas/agent.schema.json",
+  "title": "Agent (Job-role Persona)",
+  "description": "특정 직무를 수행하는 AI 에이전트 페르소나. NCS/PCF/O*NET에 embodies로 연결되고, 정해진 Actions·Tools·Artifacts·Regulations만 사용.",
+  "type": "object",
+  "allOf": [
+    { "$ref": "_base.schema.json" },
+    {
+      "properties": {
+        "class": { "const": "Agent" },
+        "namespace": { "const": "agent" },
+        "role": {
+          "type": "string",
+          "description": "한 줄 역할 설명"
+        },
+        "jobFamily": {
+          "type": "string",
+          "description": "직무군 (finance, hr, it-ops, security, marketing, sales, customer-service, procurement, legal, data, ...)"
+        },
+        "embodies": {
+          "type": "object",
+          "description": "이 에이전트가 수행하는 직무 (외부 표준에 매핑)",
+          "properties": {
+            "ncs":  { "type": "array", "items": { "type": "string" }, "description": "NCS 세분류 코드 (8자리)" },
+            "pcf":  { "type": "array", "items": { "type": "string" }, "description": "PCF hid (예: 9.3)" },
+            "onet": { "type": "array", "items": { "type": "string" }, "description": "O*NET SOC code (예: 13-2011.00)" },
+            "esco": { "type": "array", "items": { "type": "string" }, "description": "ESCO occupation URI" }
+          }
+        },
+        "primaryMissions": {
+          "type": "array",
+          "description": "주요 임무 (3~7개 권장)",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "knowledge": {
+          "type": "array",
+          "description": "필요 도메인 지식 (Concept URI 또는 자유 텍스트)",
+          "items": { "type": "string" }
+        },
+        "actions": {
+          "type": "array",
+          "description": "호출 가능한 Action URI 목록",
+          "items": { "type": "string", "pattern": "^jao://Action/" }
+        },
+        "skills": {
+          "type": "array",
+          "description": "장착된 Skill URI 목록 (Anthropic Skill 패턴)",
+          "items": { "type": "string", "pattern": "^jao://Skill/" }
+        },
+        "tools": {
+          "type": "array",
+          "description": "사용 도구 URI",
+          "items": { "type": "string", "pattern": "^jao://Tool/" }
+        },
+        "artifacts": {
+          "type": "array",
+          "description": "생성·검토하는 산출물 URI",
+          "items": { "type": "string", "pattern": "^jao://Artifact/" }
+        },
+        "regulations": {
+          "type": "array",
+          "description": "준수해야 하는 규제 URI",
+          "items": { "type": "string", "pattern": "^jao://Regulation/" }
+        },
+        "guardrails": {
+          "type": "array",
+          "description": "안전 가드레일 텍스트",
+          "items": { "type": "string" }
+        },
+        "escalations": {
+          "type": "array",
+          "description": "에스컬레이션 경로 (조건 → 대상)",
+          "items": { "type": "string" }
+        },
+        "metrics": {
+          "type": "array",
+          "description": "성과 지표 URI 또는 텍스트",
+          "items": { "type": "string" }
+        },
+        "interventionMode": {
+          "type": "string",
+          "description": "사람 개입 모드 (Vellum 6 modes). 위험도 높은 직무는 checkpoint 권장",
+          "enum": ["full-auto","gate-only","checkpoint","step-by-step","co-pilot","custom"]
+        }
+      },
+      "required": ["role","jobFamily","primaryMissions","actions"]
+    }
+  ]
+}

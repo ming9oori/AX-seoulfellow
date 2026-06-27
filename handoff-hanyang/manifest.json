@@ -1,0 +1,222 @@
+{
+  "builtAt": "2026-06-12",
+  "scope": "전체 데이터 (full dataset) + 수주 우선 활용 선별본",
+  "files": [
+    {
+      "path": "01_ncs\\ncs_lclas.json",
+      "records": 192,
+      "sizeKB": 21,
+      "description": "대분류 (L1) — NCS 분류체계 1단계",
+      "source": "NCS (고용노동부)",
+      "license": "공공데이터 (제약 없음)"
+    },
+    {
+      "path": "01_ncs\\ncs_mclas.json",
+      "records": 665,
+      "sizeKB": 113,
+      "description": "중분류 (L2) — NCS 분류체계 2단계",
+      "source": "NCS (고용노동부)",
+      "license": "공공데이터 (제약 없음)"
+    },
+    {
+      "path": "01_ncs\\ncs_sclas.json",
+      "records": 2239,
+      "sizeKB": 524,
+      "description": "소분류 (L3) — NCS 분류체계 3단계",
+      "source": "NCS (고용노동부)",
+      "license": "공공데이터 (제약 없음)"
+    },
+    {
+      "path": "01_ncs\\ncs_dclas.json",
+      "records": 2165,
+      "sizeKB": 1291,
+      "description": "세분류 (L4, 직무) — NCS 분류체계 4단계 — 직무 정의문(DUTY_DEF) 포함",
+      "source": "NCS (고용노동부)",
+      "license": "공공데이터 (제약 없음)"
+    },
+    {
+      "path": "01_ncs\\ncs_unit.json",
+      "records": 28666,
+      "sizeKB": 20142,
+      "description": "능력단위 — NCS 능력단위 전체 — 정의·수준(1~8)·버전 포함",
+      "source": "NCS (고용노동부)",
+      "license": "공공데이터 (제약 없음)"
+    },
+    {
+      "path": "02_pcf\\pcf_data.json",
+      "records": 2017,
+      "sizeKB": 1267,
+      "description": "PCF v8.0 Cross-Industry 프로세스 전체 (L1~L5, 한국어 번역 포함)",
+      "source": "APQC PCF v8.0",
+      "license": "⚠ APQC 멤버십 — 연구 내부용, 재배포·원문 공개 불가"
+    },
+    {
+      "path": "02_pcf\\pcf_metrics.json",
+      "records": 3284,
+      "sizeKB": 2108,
+      "description": "PCF 성과 메트릭 전체 (한국어 번역 포함)",
+      "source": "APQC PCF v8.0",
+      "license": "⚠ APQC 멤버십 — 연구 내부용, 재배포·원문 공개 불가"
+    },
+    {
+      "path": "02_pcf\\industries",
+      "records": 20,
+      "sizeKB": 22786,
+      "description": "산업별 PCF 20종 (항공·자동차·은행·방송·정부 등) — 산업 특수 프로세스 차이 분석용",
+      "source": "APQC PCF 산업판",
+      "license": "⚠ APQC 멤버십 — 동일"
+    },
+    {
+      "path": "03_onet\\onet_occupations_full.json",
+      "records": 1016,
+      "sizeKB": 10180,
+      "description": "O*NET 직업 전체 (18,641 tasks + skills·knowledge·abilities·work_activities 포함)",
+      "source": "O*NET v30.3 (미국 노동부)",
+      "license": "CC-BY 4.0 (출처 표기만)"
+    },
+    {
+      "path": "04_jao\\schemas",
+      "records": 19,
+      "sizeKB": 39,
+      "description": "JAO 온톨로지 메타모델 JSON Schema 전체 (19 클래스, Draft-07)",
+      "source": "AX 자체 개발",
+      "license": "연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\jao-spec.md",
+      "records": 1,
+      "sizeKB": 12,
+      "description": "JAO 메타모델 명세서 (5계층·클래스 카탈로그·관계술어 22종·검증규칙 R1~R10)",
+      "source": "AX 자체 개발",
+      "license": "연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Process.json",
+      "records": 2019,
+      "sizeKB": 2482,
+      "description": "JAO Process 인스턴스 — PCF→JAO 변환 프로세스",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Task.json",
+      "records": 18977,
+      "sizeKB": 11823,
+      "description": "JAO Task 인스턴스 — NCS 능력단위 + O*NET 과업 통합",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Concept.json",
+      "records": 1711,
+      "sizeKB": 1159,
+      "description": "JAO Concept 인스턴스 — NCS 분류 + O*NET 직업 (SKOS 계층)",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Agent.json",
+      "records": 10,
+      "sizeKB": 18,
+      "description": "JAO Agent 인스턴스 — 직무 에이전트 페르소나 10종",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Action.json",
+      "records": 51,
+      "sizeKB": 43,
+      "description": "JAO Action 인스턴스 — 에이전트 실행 행동 (입출력·전제조건·위험도)",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Tool.json",
+      "records": 93,
+      "sizeKB": 50,
+      "description": "JAO Tool 인스턴스 — 업무 도구 카탈로그",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Artifact.json",
+      "records": 42,
+      "sizeKB": 24,
+      "description": "JAO Artifact 인스턴스 — 업무 산출물 템플릿",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Regulation.json",
+      "records": 1371,
+      "sizeKB": 1022,
+      "description": "JAO Regulation 인스턴스 — 한국 법령 (국가법령 API 자동 매핑 포함)",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Policy.json",
+      "records": 1,
+      "sizeKB": 1,
+      "description": "JAO Policy 인스턴스 — 규제→가드레일 변환 예시",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Metric.json",
+      "records": 3284,
+      "sizeKB": 3409,
+      "description": "JAO Metric 인스턴스 — PCF 성과지표",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "04_jao\\instances\\Document.json",
+      "records": 163,
+      "sizeKB": 161,
+      "description": "JAO Document 인스턴스 — 수집 가이드라인 문서 메타",
+      "source": "AX 변환·검증 (R1~R10 통과)",
+      "license": "NCS/법령=공공, PCF 유래=⚠APQC, 그 외=연구 공유 가능"
+    },
+    {
+      "path": "05_mappings\\mapping_edges_all.json",
+      "records": 5055,
+      "sizeKB": 3333,
+      "description": "크로스 매핑 전체 — NCS↔PCF↔O*NET (TF-IDF) + 직무↔법령 governedBy (국가법령 API). 자동 생성·검수 전, confidence 포함",
+      "source": "AX 자동 매핑",
+      "license": "연구 공유 가능"
+    },
+    {
+      "path": "05_mappings\\graph_edges_all.json",
+      "records": 27962,
+      "sizeKB": 3684,
+      "description": "전체 그래프 엣지 (partOf·broader·requires 등 구조 관계 포함) — 지식그래프 직접 로드용",
+      "source": "AX",
+      "license": "연구 공유 가능"
+    },
+    {
+      "path": "06_suju_focus\\ncs_suju_units.json",
+      "records": 51,
+      "sizeKB": 19,
+      "description": "수주 관련 NCS 능력단위 선별 (일반영업 8단계 사이클 + IT기술영업 수주전략 등)",
+      "source": "NCS",
+      "license": "공공데이터"
+    },
+    {
+      "path": "06_suju_focus\\pcf_3.0_market_and_sell.json",
+      "records": 213,
+      "sizeKB": 173,
+      "description": "PCF 3.0 Market & Sell 선별 (수주 도메인 해당 영역)",
+      "source": "APQC PCF",
+      "license": "⚠ APQC"
+    },
+    {
+      "path": "06_suju_focus\\jao_sales_agent_example.json",
+      "records": 6,
+      "sizeKB": 8,
+      "description": "B2B 영업 Agent + Actions 인스턴스 (H2 실증 베이스라인)",
+      "source": "AX agent-studio",
+      "license": "연구 공유 가능"
+    }
+  ]
+}

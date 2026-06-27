@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-06-27T15:58:14.799153+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "evaluation_chunks": 120,
+  "silver_reference_nodes": 169,
+  "silver_reference_edges": 861,
+  "silver_reference_evidence": 293,
+  "conditions": [
+    "B0_plain_llm_proxy",
+    "B1_predicate_constrained_proxy",
+    "B2_current_project_baseline",
+    "B4_taxonomy_rag_proxy",
+    "B5_procedural_prompt_proxy",
+    "P_cape_kg_silver",
+    "P_minus_CQ_proxy",
+    "P_minus_Evidence_proxy",
+    "P_minus_Procedural_schema_proxy",
+    "P_minus_Validator_proxy",
+    "P_minus_Standard_bridge_proxy"
+  ],
+  "main_results_file": "experiments/cape_kg_eacl_20260627/04_evaluation/main_results.csv",
+  "final_report": "experiments/cape_kg_eacl_20260627/07_reports/final_eacl_experiment_report.md",
+  "llm_smoke_raw_file": "experiments/cape_kg_eacl_20260627/45_llm_tool_extractions_raw.jsonl",
+  "llm_smoke_valid_file": "experiments/cape_kg_eacl_20260627/46_llm_tool_extractions_valid.jsonl",
+  "claim_status": "silver_proxy_only_pending_human_gold_and_actual_llm_baselines"
+}

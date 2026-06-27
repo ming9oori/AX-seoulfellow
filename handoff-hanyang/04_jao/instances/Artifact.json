@@ -1,0 +1,1328 @@
+[
+  {
+    "$id": "jao://Artifact/art/api-spec",
+    "id": "api-spec",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "API 명세 (OpenAPI)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#api-spec",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "엔지니어링",
+    "sections": [
+      "엔드포인트",
+      "스키마",
+      "인증",
+      "에러 코드",
+      "예제",
+      "버전"
+    ],
+    "cycle": "per-api",
+    "aiAssistable": "high",
+    "reviewer": "tech-lead",
+    "owner": "engineering"
+  },
+  {
+    "$id": "jao://Artifact/art/architecture-doc",
+    "id": "architecture-doc",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "아키텍처 문서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#architecture-doc",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "엔지니어링",
+    "sections": [
+      "컨텍스트",
+      "요구사항",
+      "구성요소",
+      "데이터 모델",
+      "API",
+      "보안",
+      "확장성"
+    ],
+    "cycle": "per-system",
+    "aiAssistable": "medium",
+    "reviewer": "tech-lead",
+    "owner": "engineering"
+  },
+  {
+    "$id": "jao://Artifact/art/audit-report",
+    "id": "audit-report",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "감사 보고서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#audit-report",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "감사",
+    "sections": [
+      "감사 범위",
+      "의견",
+      "발견 사항",
+      "권고",
+      "경영진 응답"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "low",
+    "reviewer": "audit-committee",
+    "owner": "audit"
+  },
+  {
+    "$id": "jao://Artifact/art/bcp",
+    "id": "bcp",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "사업연속성계획 (BCP)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#bcp",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "리스크",
+    "sections": [
+      "범위",
+      "핵심 프로세스",
+      "RTO/RPO",
+      "복구 전략",
+      "비상 조직",
+      "훈련"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "medium",
+    "reviewer": "executive",
+    "owner": "risk"
+  },
+  {
+    "$id": "jao://Artifact/art/brd",
+    "id": "brd",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "BRD (비즈니스 요구사항 문서)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#brd",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "제품",
+    "sections": [
+      "비즈니스 컨텍스트",
+      "목표",
+      "범위",
+      "요구사항",
+      "위험",
+      "ROI"
+    ],
+    "cycle": "per-project",
+    "aiAssistable": "high",
+    "reviewer": "executive",
+    "owner": "product"
+  },
+  {
+    "$id": "jao://Artifact/art/budget",
+    "id": "budget",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "예산안"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#budget",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "부서별 예산",
+      "항목별 예산",
+      "CAPEX",
+      "월별 분배",
+      "민감도 분석"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "high",
+    "reviewer": "cfo",
+    "owner": "finance"
+  },
+  {
+    "$id": "jao://Artifact/art/business-plan",
+    "id": "business-plan",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "사업계획서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#business-plan",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "전략",
+    "sections": [
+      "요약",
+      "시장 분석",
+      "경쟁 분석",
+      "사업 모델",
+      "마케팅 전략",
+      "운영 계획",
+      "재무 계획",
+      "위험 분석"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "high",
+    "reviewer": "executive",
+    "owner": "strategy"
+  },
+  {
+    "$id": "jao://Artifact/art/campaign-brief",
+    "id": "campaign-brief",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "캠페인 브리프"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#campaign-brief",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "마케팅",
+    "sections": [
+      "배경",
+      "목표",
+      "타깃",
+      "메시지",
+      "채널",
+      "KPI",
+      "일정"
+    ],
+    "cycle": "per-campaign",
+    "aiAssistable": "high",
+    "reviewer": "marketing-mgr",
+    "owner": "marketing"
+  },
+  {
+    "$id": "jao://Artifact/art/content-calendar",
+    "id": "content-calendar",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "콘텐츠 캘린더"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#content-calendar",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "마케팅",
+    "sections": [
+      "채널",
+      "주제",
+      "발행일",
+      "담당자",
+      "성과"
+    ],
+    "cycle": "monthly",
+    "aiAssistable": "high",
+    "reviewer": "marketing-mgr",
+    "owner": "marketing"
+  },
+  {
+    "$id": "jao://Artifact/art/customer-complaint",
+    "id": "customer-complaint",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "고객 클레임 처리 보고서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#customer-complaint",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "CS",
+    "sections": [
+      "접수",
+      "원인 분석",
+      "조치",
+      "고객 응대",
+      "재발 방지"
+    ],
+    "cycle": "per-claim",
+    "aiAssistable": "high",
+    "reviewer": "cs-mgr",
+    "owner": "customer-service"
+  },
+  {
+    "$id": "jao://Artifact/art/design-spec",
+    "id": "design-spec",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "디자인 명세서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#design-spec",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "제품",
+    "sections": [
+      "UX 흐름",
+      "와이어프레임",
+      "컴포넌트",
+      "디자인 시스템",
+      "접근성",
+      "사용성"
+    ],
+    "cycle": "per-feature",
+    "aiAssistable": "medium",
+    "reviewer": "product",
+    "owner": "design"
+  },
+  {
+    "$id": "jao://Artifact/art/employment-contract",
+    "id": "employment-contract",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "근로계약서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#employment-contract",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "HR",
+    "sections": [
+      "당사자",
+      "계약기간",
+      "근로시간",
+      "임금",
+      "휴가",
+      "해지"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "medium",
+    "reviewer": "legal",
+    "owner": "hr"
+  },
+  {
+    "$id": "jao://Artifact/art/expense-report",
+    "id": "expense-report",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "비용보고서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#expense-report",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "일자",
+      "항목",
+      "금액",
+      "증빙",
+      "승인"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "manager",
+    "owner": "all"
+  },
+  {
+    "$id": "jao://Artifact/art/financial-statement",
+    "id": "financial-statement",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "재무제표"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#financial-statement",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "재무상태표",
+      "손익계산서",
+      "현금흐름표",
+      "자본변동표",
+      "주석"
+    ],
+    "cycle": "quarterly",
+    "aiAssistable": "medium",
+    "reviewer": "cfo",
+    "owner": "finance"
+  },
+  {
+    "$id": "jao://Artifact/art/incident-postmortem",
+    "id": "incident-postmortem",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "인시던트 사후분석"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#incident-postmortem",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "엔지니어링",
+    "sections": [
+      "요약",
+      "영향",
+      "타임라인",
+      "근본원인",
+      "조치",
+      "교훈"
+    ],
+    "cycle": "on-incident",
+    "aiAssistable": "high",
+    "reviewer": "engineering",
+    "owner": "sre"
+  },
+  {
+    "$id": "jao://Artifact/art/invoice",
+    "id": "invoice",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "세금계산서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#invoice",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "공급자",
+      "공급받는자",
+      "공급가액",
+      "세액",
+      "품목"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "-",
+    "owner": "finance"
+  },
+  {
+    "$id": "jao://Artifact/art/job-description",
+    "id": "job-description",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "직무기술서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#job-description",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "HR",
+    "sections": [
+      "직무 개요",
+      "주요 책임",
+      "요구 역량 KSA",
+      "자격 요건",
+      "우대사항"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "hr-mgr",
+    "owner": "hr"
+  },
+  {
+    "$id": "jao://Artifact/art/marketing-plan",
+    "id": "marketing-plan",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "마케팅 계획"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#marketing-plan",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "마케팅",
+    "sections": [
+      "타깃",
+      "포지셔닝",
+      "채널 믹스",
+      "캠페인",
+      "KPI",
+      "예산"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "high",
+    "reviewer": "cmo",
+    "owner": "marketing"
+  },
+  {
+    "$id": "jao://Artifact/art/meeting-minutes",
+    "id": "meeting-minutes",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "회의록"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#meeting-minutes",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "운영",
+    "sections": [
+      "일시·참석",
+      "의제",
+      "논의",
+      "결정",
+      "액션 아이템"
+    ],
+    "cycle": "per-meeting",
+    "aiAssistable": "high",
+    "reviewer": "chair",
+    "owner": "all"
+  },
+  {
+    "$id": "jao://Artifact/art/monthly-closing",
+    "id": "monthly-closing",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "월결산 보고서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#monthly-closing",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "월 손익",
+      "BS 변동",
+      "주요 KPI",
+      "이상 항목"
+    ],
+    "cycle": "monthly",
+    "aiAssistable": "high",
+    "reviewer": "finance-mgr",
+    "owner": "finance"
+  },
+  {
+    "$id": "jao://Artifact/art/nda",
+    "id": "nda",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "비밀유지계약 (NDA)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#nda",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "법무",
+    "sections": [
+      "당사자",
+      "비밀 정보",
+      "사용 목적",
+      "기간",
+      "위반 시 책임"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "legal",
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Artifact/art/offer-letter",
+    "id": "offer-letter",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "오퍼레터"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#offer-letter",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "HR",
+    "sections": [
+      "인사말",
+      "포지션",
+      "조건(연봉·복리)",
+      "입사일",
+      "유효기간"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "hr-mgr",
+    "owner": "hr"
+  },
+  {
+    "$id": "jao://Artifact/art/okr-doc",
+    "id": "okr-doc",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "OKR 문서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#okr-doc",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "전략",
+    "sections": [
+      "Objective",
+      "Key Result 3~5개",
+      "담당자",
+      "주기"
+    ],
+    "cycle": "quarterly",
+    "aiAssistable": "high",
+    "reviewer": "executive",
+    "owner": "strategy"
+  },
+  {
+    "$id": "jao://Artifact/art/performance-review",
+    "id": "performance-review",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "성과평가 리포트"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#performance-review",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "HR",
+    "sections": [
+      "목표 달성",
+      "역량 평가",
+      "동료 평가",
+      "발전 영역",
+      "승급·보상"
+    ],
+    "cycle": "semi-annual",
+    "aiAssistable": "high",
+    "reviewer": "manager",
+    "owner": "hr"
+  },
+  {
+    "$id": "jao://Artifact/art/po",
+    "id": "po",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "구매 주문서 (PO)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#po",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "구매",
+    "sections": [
+      "발주번호",
+      "공급사",
+      "품목·수량",
+      "단가",
+      "납기",
+      "결제 조건"
+    ],
+    "cycle": "on-demand",
+    "aiAssistable": "high",
+    "reviewer": "-",
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Artifact/art/prd",
+    "id": "prd",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "PRD (제품 요구사항 문서)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#prd",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "제품",
+    "sections": [
+      "문제 정의",
+      "목표 사용자",
+      "사용자 스토리",
+      "기능 요구사항",
+      "비기능 요구사항",
+      "성공 지표"
+    ],
+    "cycle": "per-feature",
+    "aiAssistable": "high",
+    "reviewer": "engineering",
+    "owner": "product"
+  },
+  {
+    "$id": "jao://Artifact/art/privacy-policy",
+    "id": "privacy-policy",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "개인정보처리방침"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#privacy-policy",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "법무",
+    "sections": [
+      "수집 항목",
+      "이용 목적",
+      "보관 기간",
+      "제3자 제공",
+      "권리",
+      "문의처"
+    ],
+    "cycle": "per-update",
+    "aiAssistable": "medium",
+    "reviewer": "legal",
+    "owner": "legal"
+  },
+  {
+    "$id": "jao://Artifact/art/product-roadmap",
+    "id": "product-roadmap",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "제품 로드맵"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#product-roadmap",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "제품",
+    "sections": [
+      "분기별 테마",
+      "기능",
+      "우선순위",
+      "의존성",
+      "KPI"
+    ],
+    "cycle": "quarterly",
+    "aiAssistable": "high",
+    "reviewer": "cpo",
+    "owner": "product"
+  },
+  {
+    "$id": "jao://Artifact/art/proposal-rfp",
+    "id": "proposal-rfp",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "제안서/RFP 응답"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#proposal-rfp",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "영업",
+    "sections": [
+      "회사 소개",
+      "이해 사항",
+      "솔루션",
+      "구현 계획",
+      "가격",
+      "사례",
+      "팀"
+    ],
+    "cycle": "per-rfp",
+    "aiAssistable": "high",
+    "reviewer": "sales-mgr",
+    "owner": "sales"
+  },
+  {
+    "$id": "jao://Artifact/art/qbr",
+    "id": "qbr",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "분기 비즈니스 리뷰 (QBR)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#qbr",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "전략",
+    "sections": [
+      "분기 성과",
+      "KPI",
+      "주요 이니셔티브",
+      "위험",
+      "다음 분기 계획"
+    ],
+    "cycle": "quarterly",
+    "aiAssistable": "high",
+    "reviewer": "executive",
+    "owner": "executive"
+  },
+  {
+    "$id": "jao://Artifact/art/rfq",
+    "id": "rfq",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "견적요청서 (RFQ)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#rfq",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "구매",
+    "sections": [
+      "요구사항",
+      "사양",
+      "수량",
+      "납기",
+      "평가기준",
+      "제출 양식"
+    ],
+    "cycle": "per-purchase",
+    "aiAssistable": "high",
+    "reviewer": "procurement-mgr",
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Artifact/art/risk-register",
+    "id": "risk-register",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "리스크 등록부"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#risk-register",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "리스크",
+    "sections": [
+      "리스크 ID",
+      "설명",
+      "가능성",
+      "영향",
+      "대응",
+      "담당자"
+    ],
+    "cycle": "quarterly",
+    "aiAssistable": "medium",
+    "reviewer": "cro",
+    "owner": "risk"
+  },
+  {
+    "$id": "jao://Artifact/art/runbook",
+    "id": "runbook",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "운영 런북"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#runbook",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "엔지니어링",
+    "sections": [
+      "증상",
+      "진단",
+      "조치",
+      "검증",
+      "에스컬레이션"
+    ],
+    "cycle": "per-system",
+    "aiAssistable": "high",
+    "reviewer": "sre-lead",
+    "owner": "sre"
+  },
+  {
+    "$id": "jao://Artifact/art/sales-contract",
+    "id": "sales-contract",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "매매계약서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#sales-contract",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "영업",
+    "sections": [
+      "당사자",
+      "계약 대상",
+      "대금",
+      "납기",
+      "품질 보증",
+      "위약",
+      "분쟁 해결"
+    ],
+    "cycle": "per-deal",
+    "aiAssistable": "medium",
+    "reviewer": "legal",
+    "owner": "sales"
+  },
+  {
+    "$id": "jao://Artifact/art/sales-deck",
+    "id": "sales-deck",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "세일즈 덱"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#sales-deck",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "영업",
+    "sections": [
+      "고객 문제",
+      "솔루션",
+      "차별점",
+      "고객 사례",
+      "ROI",
+      "가격"
+    ],
+    "cycle": "per-deal",
+    "aiAssistable": "high",
+    "reviewer": "sales-mgr",
+    "owner": "sales"
+  },
+  {
+    "$id": "jao://Artifact/art/sla",
+    "id": "sla",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "서비스 수준 협약 (SLA)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#sla",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "운영",
+    "sections": [
+      "서비스 범위",
+      "KPI(가용성·성능·응답)",
+      "측정 방법",
+      "페널티",
+      "에스컬레이션"
+    ],
+    "cycle": "per-contract",
+    "aiAssistable": "medium",
+    "reviewer": "legal",
+    "owner": "operations"
+  },
+  {
+    "$id": "jao://Artifact/art/sop",
+    "id": "sop",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "표준운영절차서 (SOP)"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#sop",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "운영",
+    "sections": [
+      "목적",
+      "범위",
+      "책임",
+      "절차",
+      "품질 통제",
+      "기록"
+    ],
+    "cycle": "per-process",
+    "aiAssistable": "high",
+    "reviewer": "qa",
+    "owner": "operations"
+  },
+  {
+    "$id": "jao://Artifact/art/tax-return",
+    "id": "tax-return",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "법인세 신고"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#tax-return",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "재무",
+    "sections": [
+      "과세표준",
+      "세액 계산",
+      "감면",
+      "조정명세서"
+    ],
+    "cycle": "annual",
+    "aiAssistable": "medium",
+    "reviewer": "tax-mgr",
+    "owner": "finance"
+  },
+  {
+    "$id": "jao://Artifact/art/user-research",
+    "id": "user-research",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "사용자 리서치 보고서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#user-research",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "제품",
+    "sections": [
+      "연구 질문",
+      "방법론",
+      "페르소나",
+      "주요 발견",
+      "권장 사항"
+    ],
+    "cycle": "per-study",
+    "aiAssistable": "high",
+    "reviewer": "product",
+    "owner": "product"
+  },
+  {
+    "$id": "jao://Artifact/art/vendor-contract",
+    "id": "vendor-contract",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "공급계약서"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#vendor-contract",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "구매",
+    "sections": [
+      "당사자",
+      "공급 품목",
+      "가격",
+      "납기",
+      "품질",
+      "위약",
+      "계약기간"
+    ],
+    "cycle": "per-deal",
+    "aiAssistable": "medium",
+    "reviewer": "legal",
+    "owner": "procurement"
+  },
+  {
+    "$id": "jao://Artifact/art/warranty-claim",
+    "id": "warranty-claim",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "보증 클레임 처리"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#warranty-claim",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "CS",
+    "sections": [
+      "청구자",
+      "제품",
+      "결함",
+      "조치",
+      "비용 부담"
+    ],
+    "cycle": "per-claim",
+    "aiAssistable": "high",
+    "reviewer": "qa",
+    "owner": "customer-service"
+  },
+  {
+    "$id": "jao://Artifact/art/weekly-report",
+    "id": "weekly-report",
+    "class": "Artifact",
+    "namespace": "art",
+    "version": "1.0.0",
+    "status": "draft",
+    "label": {
+      "ko": "주간 보고"
+    },
+    "createdAt": "2026-05-25T14:15:29Z",
+    "updatedAt": "2026-05-25T14:15:29Z",
+    "source": {
+      "type": "manual",
+      "ref": "agent-studio/data/artifacts.json#weekly-report",
+      "license": "internal"
+    },
+    "confidence": 0.9,
+    "category": "운영",
+    "sections": [
+      "완료",
+      "진행 중",
+      "계획",
+      "이슈",
+      "지원 요청"
+    ],
+    "cycle": "weekly",
+    "aiAssistable": "high",
+    "reviewer": "manager",
+    "owner": "all"
+  }
+]
