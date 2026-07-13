@@ -482,10 +482,11 @@ def consolidate(mentions: list[dict], aliases: list[dict]) -> tuple[list[dict], 
         for token in norm.split():
             if len(token) >= 2:
                 keys.add(f"T:{token}")
-        for key in keys:
+        for key in sorted(keys):
             blocks[key].append(norm)
     compared: set[tuple[str, str]] = set()
-    for values in blocks.values():
+    for key in sorted(blocks):
+        values = blocks[key]
         if len(values) > 120:
             continue
         for i, left in enumerate(values):
