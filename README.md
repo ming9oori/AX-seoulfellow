@@ -126,6 +126,20 @@ handoff-hanyang/수주제안/자이제_1.xlsx
 - [nodes.csv](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/neo4j/nodes.csv)
 - [edges.csv](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/neo4j/edges.csv)
 
+### 방법 A: Neo4j Desktop Query UI
+
+Neo4j `5.26+`에서는 동적 라벨과 관계 타입을 사용해 UI만으로 적재할 수 있다.
+
+1. `nodes.csv`, `edges.csv`를 Desktop instance의 `import` 폴더에 넣는다.
+2. **Tools → Query**를 연다.
+3. [UI LOAD CSV 스크립트](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/neo4j/load_csv_import_neo4j_5_26.cypher)를 위에서부터 한 문장씩 실행한다.
+
+핵심 문법은 `SET n:$(split(row[':LABEL'], ';'))`과 `MERGE (source)-[r:$(row[':TYPE'])]->(target)`이다. Aura에서는 로컬 `file:///` 대신 Aura가 접근할 수 있는 HTTPS URL 또는 Data Importer를 사용한다.
+
+공식 문서: [동적 MERGE](https://neo4j.com/docs/cypher-manual/current/clauses/merge/), [LOAD CSV 파일 위치](https://neo4j.com/docs/getting-started/data-import/csv-files/)
+
+### 방법 B: 터미널 일괄 적재
+
 Neo4j Community 4.4 기준 적재 예시:
 
 ```bash

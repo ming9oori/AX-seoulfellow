@@ -278,6 +278,7 @@ EG-MOI 5-stage pilot on the complete user-specified `자이제_1.xlsx` workbook.
 - PROV-O: `rdf/provenance.prov.ttl`
 - SHACL report: `rdf/validation_report.txt`
 - Neo4j import: `neo4j/nodes.csv`, `neo4j/edges.csv`
+- Neo4j 5.26+ Query UI import: `neo4j/load_csv_import_neo4j_5_26.cypher`
 - Neo4j runtime validation: `neo4j/runtime_validation.json`
 
 `{overall}` means that the pipeline, provenance, constraints, serialization, and live Neo4j import passed. It does not claim semantic accuracy.
