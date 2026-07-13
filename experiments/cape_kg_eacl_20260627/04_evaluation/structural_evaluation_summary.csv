@@ -1,0 +1,11 @@
+﻿metric,value
+ontology_conformance_rate,1.0
+domain_range_violation_count,0
+evidence_missing_edge_count,0
+procedural_consistency_rate,0.995283
+precedence_cycle_count,0
+gateway_without_branch_count,4
+gateway_without_guard_count,0
+artifact_flow_direction_violation_count,0
+cq_answerability_rate,1.0
+answerable_cq_count,12

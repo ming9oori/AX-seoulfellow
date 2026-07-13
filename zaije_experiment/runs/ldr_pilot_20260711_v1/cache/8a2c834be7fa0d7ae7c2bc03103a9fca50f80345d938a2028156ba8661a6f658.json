@@ -1,0 +1,146 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "380681ea77ebb78b7616e9911344f4626ad7b02548152bb33899de3fac7060dd",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Draft Proposal",
+                "quote": "• 제안서 초안",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "• 텍스트, 그래픽 제작<br>• 제안서 업데이트 미팅",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "produces",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-289",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "e5622905553a9af3ef989622e36dfacb10534073e25c3335477f762c56118d67",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "B/D는 고객에게 적절한 솔루션을 제안하고 고객이 이를 구매하여 궁극적으로 경영에 도움(매출 향상이나 비용 절감)이 되도록 해야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "requires",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-329",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "de4fe8fc1d80889626c4e3ffe445ac93c87a5a892525264fb84fc594d9942bd8",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "이를 위해서는 고객의 구매 프로세스와 일치하는 판매 프로세스가 있어야 하고, 전사 차원의 조직적 대응이 필요하다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "requires",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-340",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "77babab9f043935c45d0544e732bf216685073e18b6408fd309d35d62321f7a0",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "RFP가 발행된 이후에 우리가 고객에게 영향을 끼칠 수 있는 기회는 제안서 또는 프레젠테이션 같은 공식적 소통의 기회뿐이다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "describes",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-349",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "0a15671ebd3c6ce8104a4a5ddbd3757da0c34c99a16dede09bb428eba9f3997e",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "만약에 자동차나 보험을 구매하듯이 평소에 잘 아는 사람을 통해서 미사일이나 레이더를 구매한다면 어떻게 될까?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "poses",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-361",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b03_8a2c834be7fa.json",
+  "response_id": "resp_0ada24d0275f9b6d006a528d37daec819a96b7152b80ebf4bc",
+  "usage": {
+    "input_tokens": 3117,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 918,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4035
+  }
+}

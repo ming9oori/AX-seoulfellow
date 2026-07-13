@@ -1,0 +1,21 @@
+{
+  "parsed": {
+    "anchor_id": "zaije:evidence/xlsx-row-906_A01",
+    "claimhood": "CLAIM_BEARING",
+    "evidence_support": "SUPPORTED"
+  },
+  "raw_response_path": "raw_responses/primary_claim_C02_r1_24_c56a7c7c36fc.json",
+  "response_id": "resp_05016f8ecb7440e4006a531ee5a4a0819abcede668cf7f32b5",
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 406
+  }
+}

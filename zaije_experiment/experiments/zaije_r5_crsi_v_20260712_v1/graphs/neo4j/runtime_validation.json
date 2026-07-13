@@ -1,0 +1,57 @@
+{
+  "H5_F_pass": true,
+  "concept_mention_path_coverage": 1.0,
+  "concept_mentioned": 139,
+  "concept_total": 139,
+  "constraints": [
+    {
+      "name": "r5_uid_unique",
+      "type": "UNIQUENESS"
+    }
+  ],
+  "database": "neo4j",
+  "expected_node_count": 4767,
+  "expected_relationship_count": 10738,
+  "indexes": [
+    {
+      "name": "index_343aff4e",
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_f7700477",
+      "state": "ONLINE"
+    },
+    {
+      "name": "r5_system_id",
+      "state": "ONLINE"
+    },
+    {
+      "name": "r5_type",
+      "state": "ONLINE"
+    },
+    {
+      "name": "r5_uid_unique",
+      "state": "ONLINE"
+    }
+  ],
+  "neo4j_version": "4.4.43",
+  "node_count": 4767,
+  "node_coverage": 1.0,
+  "provenance_property_coverage": 1.0,
+  "registry_relation_count": 249,
+  "relationship_count": 10738,
+  "relationship_coverage": 1.0,
+  "required_six_non_empty": 6,
+  "rule_anchor_path_coverage": 1.0,
+  "rule_total": 45,
+  "rule_traced": 45,
+  "runtime": "LOCAL_COMMUNITY_SERVER",
+  "view_result_counts": {
+    "01_ontology_overview": 249,
+    "02_work_process_map": 55,
+    "03_rule_condition_map": 94,
+    "04_concept_resolution_map": 343,
+    "05_template_field_map": 7,
+    "06_evidence_trace": 819
+  }
+}

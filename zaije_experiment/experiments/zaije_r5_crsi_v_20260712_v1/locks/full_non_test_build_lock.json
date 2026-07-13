@@ -1,0 +1,10 @@
+{
+  "edges_sha256": "04d902daae66c85cf70f0a4f6e078f3245deb581f1b43ff2fa7691dc26c138ea",
+  "membership_count": 953,
+  "membership_sha256": "03e623e2dc1d7feb7b2004994bda86d1451aa8a8a48829c4cd54f491d75b99d4",
+  "nodes_sha256": "60d28e68db36a4f69b11b208963fb8ca6529a324c4a457d6d57f5b0cfb6490bf",
+  "performance_claim_use": false,
+  "reason": "B2 failed DEV token-efficiency gate and had no confirmatory gray candidates.",
+  "selected_system": "R5-B1",
+  "test_access": 0
+}

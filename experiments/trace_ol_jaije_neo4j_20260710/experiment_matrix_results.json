@@ -1,0 +1,27 @@
+[
+  {
+    "id": "B0_RULE_ONLY",
+    "reason": "전량 규칙 후보 생성·자동 승인/기각 완료",
+    "status": "EXECUTED"
+  },
+  {
+    "id": "B1_LOCAL_EMBEDDING",
+    "reason": "설계 설정에서 local embedding 비활성",
+    "status": "NOT_EXECUTED"
+  },
+  {
+    "id": "B2_FULL_ADJ",
+    "reason": "OPENAI_API_KEY와 human gold 없음",
+    "status": "BLOCKED"
+  },
+  {
+    "id": "P1_SELECTIVE",
+    "reason": "30건 요청 동결; 실제 API 호출 없음",
+    "status": "ROUTING_ONLY"
+  },
+  {
+    "id": "P2_DISTILLED",
+    "reason": "teacher 판정이 없어 증류 규칙 0건; B0 승인 결과만 projection",
+    "status": "PARTIAL"
+  }
+]

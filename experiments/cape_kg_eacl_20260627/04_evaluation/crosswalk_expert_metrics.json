@@ -1,0 +1,25 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.739093+00:00",
+  "review_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+  "metrics": {
+    "candidate_rows": 220,
+    "source_task_count": 22,
+    "completed_rows": 0,
+    "pending_rows": 220,
+    "complete_source_groups": 0,
+    "sources_with_positive": 0,
+    "expert_accept_rate": "pending_crosswalk_expert_review",
+    "hit_at_1": "pending_crosswalk_expert_review",
+    "hit_at_3": "pending_crosswalk_expert_review",
+    "hit_at_5": "pending_crosswalk_expert_review",
+    "precision_at_10": "pending_crosswalk_expert_review",
+    "mrr": "pending_crosswalk_expert_review",
+    "ndcg_at_10": "pending_crosswalk_expert_review",
+    "utility_grade_mean": "pending_crosswalk_expert_review",
+    "explanation_quality_score_mean": "pending_crosswalk_expert_review",
+    "explanation_quality_score_count": 0,
+    "claim_status": "pending_crosswalk_expert_review"
+  },
+  "claim_status": "pending_crosswalk_expert_review",
+  "report": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_evaluation_report.md"
+}

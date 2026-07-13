@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795234,
+  "created_at": 1783795206,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_08fff830a48d2b17006a528e065cb481988b0892aae4386546",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-1197\",\"bundle_hash\":\"3cf117b5ad1f515668d466c061f7a3f282c3c6a292618384a2fd0cf9dd0f6673\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"따라서 사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.\",\"claim_family\":\"DECISIONAL\",\"claim_type\":\"DECISION_TRIGGER\",\"arguments\":[{\"role\":\"condition\",\"quote\":\"사업 초기(A시점)\" ,\"normalized_label\":\"early project phase\"},{\"role\":\"condition\",\"quote\":\"제안서 제출 시점이 가까웠을 때(B시점)\",\"normalized_label\":\"proposal submission late phase\"},{\"role\":\"effect_positive\",\"quote\":\"입찰 참여 결정(Bid)을 할 수 있다\",\"normalized_label\":\"bid participation decision\"},{\"role\":\"effect_negative\",\"quote\":\"입찰 불참여(No bid) 결정을 해야 하는 경우도 많다\",\"normalized_label\":\"bid non-participation decision\"}],\"predicate\":\"입찰 참여 여부 결정은 극복 가능한 점수에 따라 달라진다\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"사업 초기(A시점)와 제안서 제출 시점이 가까웠을 때(B시점)\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-1260\",\"bundle_hash\":\"88b8830926a9eb97030606d8ae2273319f332f65486b85a80e9d4c09c69c43e3\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c2\",\"claim_quote\":\"대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우에는 특별한 결격사유가 없는 한 경쟁자 우위에 있다고 봐야 한다.\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"NECESSARY_CONDITION\",\"arguments\":[{\"role\":\"condition\",\"quote\":\"사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우\",\"normalized_label\":\"prior research or first phase project completion\"},{\"role\":\"exception\",\"quote\":\"특별한 결격사유가 없는 한\",\"normalized_label\":\"no special disqualification\"}],\"predicate\":\"경쟁자 우위에 있다고 봐야 한다\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우\",\"exception_quote\":\"특별한 결격사유가 없는 한\",\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-1273\",\"bundle_hash\":\"3836670822f283845b8edddc9a781bc334b90575dccebf133054464047832497\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c3\",\"claim_quote\":\"접근 전략: 다양한 평가위원의 관심에 골고루 균형감 있게 접근한다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"1등 전략\",\"normalized_label\":\"first place strategy\"},{\"role\":\"goal\",\"quote\":\"다양한 평가위원의 관심에 골고루 균형감 있게 접근한다\",\"normalized_label\":\"balanced approach to diverse evaluators' interests\"}],\"predicate\":\"접근 전략은 균형감 있게 다양한 평가위원 관심에 접근하는 것이다\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c4\",\"claim_quote\":\"사업 전략\\n1. 작전 운용을 위한 요구성능 충족\\n2. 신기술 도입\\n3. 총소요비용의 15% 절감\\n4. 국산화 95% 달성 및 5억 달러 수출 전략\\n5. 양산화 기간 12개월 단축\\n6. 유사 무기체계 자원 80% 재활용을 통한 그린국방 실현\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"ACTIVITY_OUTPUT\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"1등 전략\",\"normalized_label\":\"first place strategy\"}],\"predicate\":\"1등 전략의 사업 전략은 위 6가지 목표를 포함한다\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-1279\",\"bundle_hash\":\"464882b29dc4100a8382a4b7e88924476b557f6ddfadcc91bf70f5dfe9f9088f\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c5\",\"claim_quote\":\"1등(A사) 교통정보 정확도: 획기적 개선\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"EVALUATION_OBSERVATION\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"1등(A사)\",\"normalized_label\":\"first place company A\"},{\"role\":\"feature\",\"quote\":\"교통정보 정확도\",\"normalized_label\":\"traffic information accuracy\"}],\"predicate\":\"1등(A사)의 교통정보 정확도는 획기적으로 개선되었다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c6\",\"claim_quote\":\"2등(B사) 교통정보 정확도: 28% 향상\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"EVALUATION_OBSERVATION\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"2등(B사)\",\"normalized_label\":\"second place company B\"},{\"role\":\"feature\",\"quote\":\"교통정보 정확도\",\"normalized_label\":\"traffic information accuracy\"}],\"predicate\":\"2등(B사)의 교통정보 정확도는 28% 향상되었다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c7\",\"claim_quote\":\"1등(A사) 차량 속도: 교통체증 해소 예상\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"EVALUATION_OBSERVATION\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"1등(A사)\",\"normalized_label\":\"first place company A\"},{\"role\":\"feature\",\"quote\":\"차량 속도\",\"normalized_label\":\"vehicle speed\"}],\"predicate\":\"1등(A사)의 차량 속도는 교통체증 해소가 예상된다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c8\",\"claim_quote\":\"2등(B사) 차량 속도: 시뮬레이션 결과 12.8% 개선 예측\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"EVALUATION_OBSERVATION\",\"arguments\":[{\"role\":\"agent\",\"quote\":\"2등(B사)\",\"normalized_label\":\"second place company B\"},{\"role\":\"feature\",\"quote\":\"차량 속도\",\"normalized_label\":\"vehicle speed\"}],\"predicate\":\"2등(B사)의 차량 속도는 시뮬레이션 결과 12.8% 개선이 예측된다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"시뮬레이션 결과\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-1309\",\"bundle_hash\":\"dc555d140cd0ef6cc5188027a898d538cc26841b568a78ee617460cac16a93d1\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c9\",\"claim_quote\":\"가격이나 디자인이 중요하시면 G자동차를 구매하는 것이 정답이고, 안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.\",\"claim_family\":\"DECISIONAL\",\"claim_type\":\"DECISION_TRIGGER\",\"arguments\":[{\"role\":\"condition\",\"quote\":\"가격이나 디자인이 중요하시면\",\"normalized_label\":\"if price or design is important\"},{\"role\":\"condition\",\"quote\":\"안전성을 중요시한다면\",\"normalized_label\":\"if safety is important\"},{\"role\":\"effect_positive\",\"quote\":\"G자동차를 구매하는 것이 정답이다\",\"normalized_label\":\"purchase G car\"},{\"role\":\"effect_positive\",\"quote\":\"저희 차를 구매하는 것이 좋다\",\"normalized_label\":\"purchase our car\"}],\"predicate\":\"구매 결정은 중요시하는 요소에 따라 달라진다\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"가격이나 디자인 중요 vs 안전성 중요\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_08fff830a48d2b17006a528e06f7dc819895bf43dd64e31a63",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_b_r1",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3160,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2121,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5281
+  },
+  "user": null
+}

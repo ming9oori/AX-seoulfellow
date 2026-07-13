@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0fd47a164249bfc4006a50c934b2708198b13568af073e5c1b",
+  "usage": {
+    "input_tokens": 3498,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2752,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6250
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1089",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1090",
+              "text": "이 강점이 고객의 주요 이슈 해결에 직접적으로 연관되어 있다는 것을 보여준다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1095",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1095",
+              "text": "2. 약점의 최소화 방법",
+              "start": 0,
+              "end": 15
+            },
+            "claim_family": "PROCEDURAL",
+            "claim_type": "ProcessOrder",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1107",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1107",
+              "text": "약점을 극복한 사례",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1111",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1111",
+              "text": "우선 5년 전에 있었던 그 사고 이야기를 첫 페이지부터 공개했다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1114",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1114",
+              "text": "여러분도 한 번 생각해 보라.",
+              "start": 0,
+              "end": 15
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1115",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1115",
+              "text": "폭발이 있어서 많은 투자를 했고, 이제 검증된 기술을 확보한 회사와 폭발사고도 없었고, 투자도 없고, 검증된 기술도 없는 회사가 있다면 누구를 더 선호하겠는가?",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "DISCOURSE",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1133",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1133",
+              "text": "전술개발의 효과성을 검증하라",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1140",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1140",
+              "text": "전략 구현은 경쟁자가 ‘완전히 같은 표현(Exactly Same Word)’을 할 수 없을 때까지 구체화해야 한다.",
+              "start": 0,
+              "end": 60
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1155",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1155",
+              "text": "어떤 솔루션이든 사람은 항상 차별화된 포인트이다(2부 수주영업에 나오는 H제약회사 회장의 사례를 참고하시라).",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1171",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1171",
+              "text": "고객의 부정적 인식이 실제 우리 솔루션의 문제에서 비롯되었다면 우리는 이 솔루션을 고객에 맞게 최적화하고, 고객이 오해한 것이라면 고객의 인식을 교정해야 한다.",
+              "start": 0,
+              "end": 130
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

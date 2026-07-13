@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_0ed5afc418c1b1d1006a5251d66644819ab8b1691cb57347b5",
+  "usage": {
+    "input_tokens": 2415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1050,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3465
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1132",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1132",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1132",
+              "text": "우리는 ①구체적이고 이미 결정된 생산규모 확장 계획과 ②국내외에서 회사의 질적, 양적 성장을 논의함으로써 충분한 생산능력을 가진 경쟁자의 강점을 최소화할 것이다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1224",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1224",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1224",
+              "text": "트럭 운전사는 보통 10시 이후에 여관에 투숙해서 새벽에 나가는데 그러기에는 100달러가 넘는 대도시의 투숙료가 너무 비쌌다.",
+              "start": 0,
+              "end": 85
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1253",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1253",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1253",
+              "text": "둘째, 우리의 유용하고 체계적인 지식은 고객의 신뢰를 얻게 된다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1301",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1301",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1301",
+              "text": "정공법은 경쟁자가 제기한 이슈에 대해 경쟁자가 아닌 우리에게 경쟁 우위가 있음을 알리는 방법을 말한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1311",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1311",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1311",
+              "text": "정공법과 역공법 중 어떤 방법을 선택할 것인가는 고객의 이슈를 얼마나 정확히 이해했는가에 달려 있다.",
+              "start": 0,
+              "end": 78
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

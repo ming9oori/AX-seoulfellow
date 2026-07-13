@@ -1,0 +1,46 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.700071+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "source_candidates_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_candidates.csv",
+  "output_dir": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review",
+  "review_items": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+  "review_sheet": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_sheet.csv",
+  "protocol": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_protocol.md",
+  "expected_reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl",
+  "candidate_rows": 220,
+  "source_task_count": 22,
+  "rows_per_source_min": 10,
+  "rows_per_source_max": 10,
+  "rank_counts": {
+    "1": 22,
+    "2": 22,
+    "3": 22,
+    "4": 22,
+    "5": 22,
+    "6": 22,
+    "7": 22,
+    "8": 22,
+    "9": 22,
+    "10": 22
+  },
+  "decision_values": [
+    "accepted",
+    "rejected",
+    "unsure"
+  ],
+  "utility_grade_values": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "explanation_quality_score_values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "claim_status": "pending_crosswalk_expert_review",
+  "import_command": "python3 scripts/import_cape_crosswalk_review.py --experiment-dir experiments/cape_kg_eacl_20260627 --reviewed-file experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl"
+}

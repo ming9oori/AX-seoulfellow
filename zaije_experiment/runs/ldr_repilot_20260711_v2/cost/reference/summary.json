@@ -1,0 +1,40 @@
+{
+  "attempts": 25,
+  "by_model": {
+    "gpt-4.1-2025-04-14": {
+      "estimated_cost_usd": 0.121522,
+      "input_tokens": 36601,
+      "output_tokens": 6040,
+      "requests": 5
+    },
+    "gpt-4.1-mini-2025-04-14": {
+      "estimated_cost_usd": 0.029618,
+      "input_tokens": 29768,
+      "output_tokens": 11069,
+      "requests": 8
+    },
+    "gpt-4o-2024-08-06": {
+      "estimated_cost_usd": 0.073475,
+      "input_tokens": 20022,
+      "output_tokens": 2342,
+      "requests": 4
+    },
+    "gpt-4o-mini-2024-07-18": {
+      "estimated_cost_usd": 0.011322,
+      "input_tokens": 29560,
+      "output_tokens": 11480,
+      "requests": 8
+    }
+  },
+  "cache_hits": 0,
+  "estimated_cost_usd": 0.235937,
+  "failed_attempts": 0,
+  "hard_caps": {
+    "calls": 80,
+    "input_tokens": 600000,
+    "output_tokens": 250000
+  },
+  "input_tokens": 115951,
+  "output_tokens": 30931,
+  "real_calls": 25
+}

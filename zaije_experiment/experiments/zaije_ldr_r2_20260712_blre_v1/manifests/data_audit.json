@@ -1,0 +1,42 @@
+{
+  "bakeoff_strata": {
+    "CONDITIONAL_EXCEPTION": 2,
+    "DEFINITION_CAUSAL_EVALUATIVE": 2,
+    "LIST_MULTILINE": 4,
+    "NORMATIVE_DEONTIC": 4,
+    "QUESTION_CAPTION_DISCOURSE": 4,
+    "SIMPLE_GENERAL_PROSE": 4,
+    "TABLE_TEMPLATE": 4
+  },
+  "experiment_id": "zaije_ldr_r2_20260712_blre_v1",
+  "fresh_candidate_pool": 213,
+  "fresh_strata": {
+    "CONDITIONAL_EXCEPTION": 10,
+    "DEFINITION_CAUSAL_EVALUATIVE": 14,
+    "LIST_MULTILINE": 8,
+    "NEGATION_QUANTITY_HIGH_RISK": 4,
+    "NORMATIVE_DEONTIC": 5,
+    "QUESTION_CAPTION_DISCOURSE": 4,
+    "SIMPLE_GENERAL_PROSE": 14,
+    "TABLE_TEMPLATE": 1
+  },
+  "raw_text_difference_from_phase0_view": 8,
+  "strata_counts": {
+    "CONDITIONAL_EXCEPTION": 84,
+    "DEFINITION_CAUSAL_EVALUATIVE": 195,
+    "LIST_MULTILINE": 102,
+    "NEGATION_QUANTITY_HIGH_RISK": 97,
+    "NORMATIVE_DEONTIC": 65,
+    "QUESTION_CAPTION_DISCOURSE": 130,
+    "SIMPLE_GENERAL_PROSE": 637,
+    "TABLE_TEMPLATE": 56
+  },
+  "structure_counts": {
+    "CAPTION": 29,
+    "LIST": 91,
+    "MULTILINE": 11,
+    "PROSE": 1135,
+    "QUESTION": 44,
+    "TABLE": 56
+  }
+}

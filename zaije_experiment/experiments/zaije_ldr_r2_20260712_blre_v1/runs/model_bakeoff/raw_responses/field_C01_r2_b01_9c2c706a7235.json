@@ -1,0 +1,204 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783828031,
+  "created_at": 1783828025,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0dac5e62136a87e3006a530e392bf0819886f5c596c1bc79ed",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-mini-2024-07-18",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-90_C01\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"DESCRIPTIVE\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-106_C02\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"DESCRIPTIVE\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-208_C02\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"PROCEDURAL\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-283_C01\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"PROCEDURAL\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-329_C02\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"CAUSAL_EVALUATIVE\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-340_C02\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"NORMATIVE\",\"deontic_force\":\"REQUIREMENT\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-349_C01\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"DESCRIPTIVE\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"},{\"claim_unit_id\":\"DEV_zaije:evidence/xlsx-row-350_C01\",\"configuration_id\":\"C01\",\"repeat_id\":2,\"semantic_mode\":\"DEFINITIONAL\",\"deontic_force\":\"NONE\",\"polarity\":\"POSITIVE\",\"conditionality\":\"NONE\",\"epistemic_status\":\"ASSERTED\",\"promotion\":\"DO_NOT_PROMOTE\"}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0dac5e62136a87e3006a530e39a6e081989997801383ed8803",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "field_c01_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "claim_unit_id": {
+                  "type": "string"
+                },
+                "conditionality": {
+                  "enum": [
+                    "NONE",
+                    "EXPLICIT_CONDITION",
+                    "IMPLICIT_CONTEXT",
+                    "EXCEPTION",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "configuration_id": {
+                  "enum": [
+                    "C01"
+                  ],
+                  "type": "string"
+                },
+                "deontic_force": {
+                  "enum": [
+                    "NONE",
+                    "REQUIREMENT",
+                    "RECOMMENDATION",
+                    "PROHIBITION",
+                    "PERMISSION_OR_ABILITY",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "epistemic_status": {
+                  "enum": [
+                    "ASSERTED",
+                    "REPORTED_OR_ATTRIBUTED",
+                    "HYPOTHETICAL",
+                    "QUESTIONED_OR_CHALLENGED",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "polarity": {
+                  "enum": [
+                    "POSITIVE",
+                    "NEGATIVE",
+                    "MIXED",
+                    "NOT_APPLICABLE",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "promotion": {
+                  "enum": [
+                    "GENERAL_RULE",
+                    "DOMAIN_ASSERTION",
+                    "EXAMPLE_INSTANCE",
+                    "TEMPLATE_SCHEMA",
+                    "DISCOURSE_ONLY",
+                    "DO_NOT_PROMOTE",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "repeat_id": {
+                  "enum": [
+                    2
+                  ],
+                  "type": "integer"
+                },
+                "semantic_mode": {
+                  "enum": [
+                    "DESCRIPTIVE",
+                    "DEFINITIONAL",
+                    "NORMATIVE",
+                    "PROCEDURAL",
+                    "CAUSAL_EVALUATIVE",
+                    "META_DISCOURSE",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                }
+              },
+              "required": [
+                "claim_unit_id",
+                "configuration_id",
+                "repeat_id",
+                "semantic_mode",
+                "deontic_force",
+                "polarity",
+                "conditionality",
+                "epistemic_status",
+                "promotion"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 1463,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 563,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2026
+  },
+  "user": null
+}

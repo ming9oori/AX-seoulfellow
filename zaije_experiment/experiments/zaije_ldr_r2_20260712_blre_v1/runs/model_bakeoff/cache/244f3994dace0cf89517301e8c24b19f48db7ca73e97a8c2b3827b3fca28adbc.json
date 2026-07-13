@@ -1,0 +1,108 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-896_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-898_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "CAUSAL_EVALUATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-906_C03",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1008_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "QUESTIONED_OR_CHALLENGED",
+        "polarity": "POSITIVE",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 1,
+        "semantic_mode": "META_DISCOURSE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1045_C04",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1061_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "REQUIREMENT",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "NORMATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1138_C03",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1279_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C01",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/field_C01_r1_b03_244f3994dace.json",
+  "response_id": "resp_05046a220a9d4a01006a530e32afa08199b05af7dc03b750f5",
+  "usage": {
+    "input_tokens": 1497,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 567,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2064
+  }
+}

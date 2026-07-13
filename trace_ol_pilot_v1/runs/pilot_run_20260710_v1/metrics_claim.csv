@@ -1,0 +1,6 @@
+system,claim_precision,claim_recall,claim_f1,family_macro_f1,fine_type_macro_f1,modality_macro_f1,promotion_macro_f1,graph_f1,critical_error_rate,bootstrap_95_ci
+E0_direct_triple,1.0,0.6452,0.7843,0.2745,0.125,0.0833,0.0,0.0,0.9,"{'lower': 0.6364, 'median': 0.7843, 'upper': 0.8966}"
+E1_full_llm,1.0,0.871,0.931,0.4447,0.7465,0.4544,0.1373,0.0,0.4074,"{'lower': 0.8571, 'median': 0.931, 'upper': 0.9836}"
+E2_no_llm,0.6,0.5806,0.5902,0.2611,0.3095,0.5424,0.0476,0.0,0.5556,"{'lower': 0.4127, 'median': 0.5902, 'upper': 0.7667}"
+E4_selective_distill,0.6,0.5806,0.5902,0.2611,0.3095,0.5424,0.0476,0.0,0.5556,"{'lower': 0.4127, 'median': 0.5902, 'upper': 0.7667}"
+E2_flat_ablation_subset,0.5455,0.5,0.5217,0.1667,0.1667,0.1667,0.0,0.0,0.6667,"{'lower': 0.2308, 'median': 0.5217, 'upper': 0.8182}"

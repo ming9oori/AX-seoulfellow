@@ -1,0 +1,530 @@
+{
+  "procedural_edge_count": 844,
+  "task_count": 22,
+  "procedure_step_count": 99,
+  "decision_gateway_count": 4,
+  "precedence_cycle_count": 0,
+  "gateway_without_branch_count": 4,
+  "gateway_without_guard_count": 0,
+  "artifact_flow_direction_violation_count": 0,
+  "task_or_step_without_artifact_io_count": 99,
+  "procedural_consistency_issue_count": 4,
+  "procedural_consistency_rate": 0.995283,
+  "issues": [
+    {
+      "severity": "warning",
+      "issue_type": "gateway_without_branch",
+      "node_id": "L2_DG_DG_BID_NO_BID"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "gateway_without_branch",
+      "node_id": "L2_DG_DG_PURSUIT"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "gateway_without_branch",
+      "node_id": "L2_DG_DG_BID_VALIDATION"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "gateway_without_branch",
+      "node_id": "L2_DG_DG_APPROVAL"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OPPORTUNITY_ASSESSMENT-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OPPORTUNITY_ASSESSMENT-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OPPORTUNITY_ASSESSMENT-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OPPORTUNITY_ASSESSMENT-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CAPTURE_PLANNING-06"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_NO_BID_DECISION-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_NO_BID_DECISION-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_NO_BID_DECISION-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_NO_BID_DECISION-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_VALIDATION-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_VALIDATION-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_VALIDATION-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-BID_VALIDATION-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPETITOR_ANALYSIS-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPETITOR_ANALYSIS-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPETITOR_ANALYSIS-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPETITOR_ANALYSIS-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-06"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_PLANNING-07"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_TEAM_FORMATION-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_TEAM_FORMATION-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_TEAM_FORMATION-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_TEAM_FORMATION-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-KICKOFF_MEETING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-KICKOFF_MEETING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-KICKOFF_MEETING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-KICKOFF_MEETING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SOLUTION_DEFINITION-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SOLUTION_DEFINITION-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SOLUTION_DEFINITION-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SOLUTION_DEFINITION-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PMP_DEVELOPMENT-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PMP_DEVELOPMENT-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PMP_DEVELOPMENT-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PMP_DEVELOPMENT-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PMP_DEVELOPMENT-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OUTLINE_DEVELOPMENT-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OUTLINE_DEVELOPMENT-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OUTLINE_DEVELOPMENT-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-OUTLINE_DEVELOPMENT-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SECTION_PLANNING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SECTION_PLANNING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SECTION_PLANNING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SECTION_PLANNING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-SECTION_PLANNING-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_WRITING-06"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-05"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PROPOSAL_REVIEW-06"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-RED_TEAM_REVIEW-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-RED_TEAM_REVIEW-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-RED_TEAM_REVIEW-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-RED_TEAM_REVIEW-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PRICE_STRATEGY-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PRICE_STRATEGY-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PRICE_STRATEGY-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PRICE_STRATEGY-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PT_STRATEGY-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PT_STRATEGY-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PT_STRATEGY-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-PT_STRATEGY-04"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPLIANCE_CHECK-01"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPLIANCE_CHECK-02"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPLIANCE_CHECK-03"
+    },
+    {
+      "severity": "warning",
+      "issue_type": "task_or_step_without_artifact_io",
+      "node_id": "STEP-COMPLIANCE_CHECK-04"
+    }
+  ]
+}

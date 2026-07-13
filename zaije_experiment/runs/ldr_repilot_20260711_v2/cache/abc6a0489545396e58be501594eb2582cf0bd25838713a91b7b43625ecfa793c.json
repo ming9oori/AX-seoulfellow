@@ -1,0 +1,261 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "1f0ed76bd133e23f2b171336d6c66d5b47d90d3c1da796b44cea4368c8921e5e",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Evaluation of our organization and competitors",
+                "quote": "우리 조직과 경쟁사에 대한 평가",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "•우리 조직과 경쟁사에 대한 평가가 정확한가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is accurate",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1008",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "7f676612b94e407afd32770231c92b6bdbc7e63d2734c6d00063946ffadf3718",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Example competitor comparison table for OOwon electronic litigation computer equipment Ocha introduction project",
+                "quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "OTHER",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is provided",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Our company strength",
+                "quote": "자사(강점)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Experience in many public institution projects, infrastructure specialist company and distributor capabilities shorten delivery schedule",
+                "quote": "다수 공공기관 사업수행경험, 인프라전문기업 및 총판사 역량으로 납품일정 단축",
+                "role": "value"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "자사(강점): 다수 공공기관 사업수행경험, 인프라전문기업 및 총판사 역량으로 납품일정 단축",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "OTHER",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "has strength",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "단납기 사업에 대응 필요",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Our company strength",
+                "quote": "자사(강점)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Experience in many court projects such as judicial information OOcha, judicial DR construction, system maintenance information acquisition (N company request)",
+                "quote": "사법정보OO차, 사법DR 구축 등 다수법원 사업수행, 시스템유지보수 정보입수(N사 요청)",
+                "role": "value"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "자사(강점): 사법정보OO차, 사법DR 구축 등 다수법원 사업수행, 시스템유지보수 정보입수(N사 요청)",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": "시스템 증설 등으로 OO원 전자소송시스템 이해 필요",
+            "discourse_status": "OTHER",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "has strength",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Our company strength",
+                "quote": "자사(강점)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Experience in opening large-scale public new systems such as National Tax Service",
+                "quote": "국세청 등 대규모 공공 신규시스템 오픈 경험 활용",
+                "role": "value"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c4",
+            "claim_quote": "자사(강점): 국세청 등 대규모 공공 신규시스템 오픈 경험 활용",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": "신규시스템 오픈 지원 필요",
+            "discourse_status": "OTHER",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "has strength",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1045",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "264603f0bb7925581efff6681df849e6125bc6fe41b8a7603c09856ec35f3b2f",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution optimization",
+                "quote": "솔루션 최적화",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Modify solution to satisfy customer needs",
+                "quote": "수정하여 고객의 니즈를 만족시키는 것",
+                "role": "action"
+              },
+              {
+                "normalized_label": "Additional cost is required",
+                "quote": "반드시 추가 비용이 들어간다",
+                "role": "value"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "• 솔루션 최적화: 솔루션을 수정하여 고객의 니즈를 만족시키는 것이므로 반드시 추가 비용이 들어간다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must require",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1173",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "155ac77804cfdd549866b41ea67606e5693fd2135fce5a38d80374d597f098fa",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Number 6 'Green Defense'",
+                "quote": "6번 ‘그린국방’",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "예를 들어 다음 <예시 1>의 6번 ‘그린국방’의 경우를 생각해 보자.",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is example",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1270",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "9bae01b1c60d1b0382b739c6752d7cc86bf67c92b088dc4bf94a03d067721396",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Proposals that address 'Green Defense' and those that do not",
+                "quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서 중 어디에 높은 점수를 주겠는가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "would receive higher score",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1272",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r2_b04_abc6a0489545.json",
+  "response_id": "resp_0d1c57e635e2c56f006a52913413d8819b94ae3a86564f3d86",
+  "usage": {
+    "input_tokens": 4625,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1703,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6328
+  }
+}

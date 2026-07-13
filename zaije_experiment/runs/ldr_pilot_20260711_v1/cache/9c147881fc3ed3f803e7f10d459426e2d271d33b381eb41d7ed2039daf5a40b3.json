@@ -1,0 +1,151 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "3cf117b5ad1f515668d466c061f7a3f282c3c6a292618384a2fd0cf9dd0f6673",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "입찰 참여 결정",
+                "quote": "사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "입찰 불참여 결정",
+                "quote": "제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+                "role": "condition"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+            "claim_type": "CONDITIONAL_RULE",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "입찰 참여 결정",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1197",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "88b8830926a9eb97030606d8ae2273319f332f65486b85a80e9d4c09c69c43e3",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우에는 특별한 결격사유가 없는 한 경쟁자 우위에 있다고 봐야 한다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "경쟁자 우위",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1260",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "3836670822f283845b8edddc9a781bc334b90575dccebf133054464047832497",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "접근 전략: 다양한 평가위원의 관심에 골고루 균형감 있게 접근한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "접근 전략",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1273",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "464882b29dc4100a8382a4b7e88924476b557f6ddfadcc91bf70f5dfe9f9088f",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "2등(B사)은 1등(A사)보다 더 급진적이고, 자신의 발목을 잡을 수도 있는 전략(계량화된 수치)을 제시하고 있다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "전략 제시",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1279",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "dc555d140cd0ef6cc5188027a898d538cc26841b568a78ee617460cac16a93d1",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "REBUTTAL",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "구매 추천",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1309",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r1_b08_9c147881fc3e.json",
+  "response_id": "resp_080af88de476116a006a528d0c1f788198a5e4285a7f75b9a5",
+  "usage": {
+    "input_tokens": 3164,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1060,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4224
+  }
+}

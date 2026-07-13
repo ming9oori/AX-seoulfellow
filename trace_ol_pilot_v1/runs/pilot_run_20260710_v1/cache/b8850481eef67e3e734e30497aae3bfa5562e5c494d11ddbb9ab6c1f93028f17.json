@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0c693af0ab406bce006a50c4a324d0819b8430b14d329500bd",
+  "usage": {
+    "input_tokens": 3361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2881,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6242
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r746",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r746",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r746",
+              "text": "우선 고객에게 우리의 솔루션이 적절하지 못한 경우이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r749",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r749",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r749",
+              "text": "더 중요한 것은 고객이 옳지 않은 경우이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r750",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r750",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r750",
+              "text": "‘옳지 않은 고객’과 일을 계속하려면 ‘옳지 않은 방법’으로 해야 한다(우리 사회에서는 이를 ‘갑을관계’라고 부른다).",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r752",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r752",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r752",
+              "text": "만약 불법적인 한 번의 커미션(Commission)으로 큰 오더를 수주했다고 치자.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r761",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r761",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r761",
+              "text": "영업대표는 반드시 글이나 말로 자신의 아이디어, 서비스, 제품을 고객이 수용하도록 설득할 수 있어야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r766",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r766",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r766",
+              "text": "•모든 의사결정에는 이성과 감성이 혼재되어 있다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r767",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r767",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r767",
+              "text": "사람들은 의외로 감정적으로 구매를 결정한 후에 이를 논리적으로 포장하는 경우가 많다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r815",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r815",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r815",
+              "text": "이런 배경에도 불구하고 최근 앞에서 말한 대형 SI 회사는 다음과 같은 사실을 통해서 제안전략의 중요성을 이해하게 되었다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r818",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r818",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r818",
+              "text": "예를 들면 고객이 그 하드웨어에 어떤 소프트웨어를 사용할지 예측하여 예상되는 문제점과 대안을 제시할 수 있다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r837",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r837",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r837",
+              "text": "대부분의 제안서 작성자는 자신의 의도(전략)를 먼저 결정하고 제안서를 쓰는 것이 아니라 기존의 제안서를 짜깁기하면서 제안서를 완성한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

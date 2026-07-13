@@ -1,0 +1,484 @@
+{
+  "run_id": "trace-ol-lf-reuse-v2.1-20260710",
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "splits": {
+    "seed": 20260721,
+    "counts": {
+      "FRESH_TEST_V21_LOCKED": 60,
+      "VALIDATION_V21": 60
+    },
+    "family_counts": {
+      "VALIDATION_V21": {
+        "normative": 8,
+        "definition": 10,
+        "descriptive": 8,
+        "evaluation": 8,
+        "discourse": 10,
+        "conditional": 8,
+        "procedure": 8
+      },
+      "FRESH_TEST_V21_LOCKED": {
+        "descriptive": 8,
+        "conditional": 8,
+        "discourse": 10,
+        "definition": 10,
+        "procedure": 8,
+        "evaluation": 8,
+        "normative": 8
+      }
+    },
+    "excluded_evidence_count": 390,
+    "excluded_evidence_overlap": 0,
+    "validation_test_group_overlap": {},
+    "scope_note": "Evidence-disjoint v2.1 splits; rules are document-local and may share section families with prior development data."
+  },
+  "validation_reference": {
+    "targets": 60,
+    "tier_counts": {
+      "Silver-A": 23,
+      "Challenge": 18,
+      "Silver-B": 19
+    },
+    "resolved": 42,
+    "resolved_rate": 0.7,
+    "ab_agreement_rate": 0.3833,
+    "span_issues": 8
+  },
+  "test_reference": {
+    "targets": 60,
+    "tier_counts": {
+      "Silver-A": 20,
+      "Challenge": 30,
+      "Silver-B": 10
+    },
+    "resolved": 30,
+    "resolved_rate": 0.5,
+    "ab_agreement_rate": 0.3333,
+    "span_issues": 12
+  },
+  "rules": {
+    "candidates": 74,
+    "active_before_selection": 9,
+    "active": 6,
+    "resolved_test_units": 30,
+    "applied_on_resolved": 16,
+    "correct_on_resolved": 14,
+    "test_rule_precision": 0.875,
+    "test_rule_coverage": 0.5333
+  },
+  "metrics": {
+    "E2_base": {
+      "claim_precision": 0.8,
+      "claim_recall": 0.9231,
+      "claim_f1": 0.8571,
+      "claim_tp": 24,
+      "claim_fp": 6,
+      "claim_fn": 2,
+      "family_macro_f1": 0.1183,
+      "fine_type_macro_f1": 0.3929,
+      "modality_macro_f1": 0.4386,
+      "promotion_macro_f1": 0.0476,
+      "graph_f1": 0.0,
+      "critical_errors": {
+        "modality_confusion": 14,
+        "condition_dropped": 3,
+        "total": 17
+      },
+      "critical_error_rate": 0.7083,
+      "evaluated_reference_units": 30,
+      "matched_claims": 24,
+      "unit_scores": {
+        "ev:jaije:clean_sentences:r72": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r99": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r103": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r114": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r117": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r133": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r148": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r201": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r268": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r277": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r313": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r317": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r320": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r321": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r372": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r394": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r398": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r405": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r417": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r418": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r424": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r447": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r484": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r628": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r719": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r778": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r820": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r874": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1125": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1290": [
+          1,
+          0,
+          0
+        ]
+      },
+      "bootstrap_95_ci": {
+        "lower": 0.72,
+        "median": 0.8571,
+        "upper": 0.9655
+      }
+    },
+    "E2_plus_LF": {
+      "claim_precision": 0.8667,
+      "claim_recall": 1.0,
+      "claim_f1": 0.9286,
+      "claim_tp": 26,
+      "claim_fp": 4,
+      "claim_fn": 0,
+      "family_macro_f1": 0.17,
+      "fine_type_macro_f1": 0.3838,
+      "modality_macro_f1": 0.4159,
+      "promotion_macro_f1": 0.0538,
+      "graph_f1": 0.0,
+      "critical_errors": {
+        "modality_confusion": 16,
+        "condition_dropped": 3,
+        "total": 19
+      },
+      "critical_error_rate": 0.7308,
+      "evaluated_reference_units": 30,
+      "matched_claims": 26,
+      "unit_scores": {
+        "ev:jaije:clean_sentences:r72": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r99": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r103": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r114": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r117": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r133": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r148": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r201": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r268": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r277": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r313": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r317": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r320": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r321": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r372": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r394": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r398": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r405": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r417": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r418": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r424": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r447": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r484": [
+          0,
+          1,
+          0
+        ],
+        "ev:jaije:clean_sentences:r628": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r719": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r778": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r820": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r874": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1125": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1290": [
+          1,
+          0,
+          0
+        ]
+      },
+      "bootstrap_95_ci": {
+        "lower": 0.8462,
+        "median": 0.9286,
+        "upper": 0.9831
+      }
+    }
+  },
+  "llm_savings": {
+    "before_candidates": 16,
+    "after_candidates": 13,
+    "candidate_reduction": 0.1875
+  },
+  "api": {
+    "actual_api_calls": 43,
+    "cache_hits": 43,
+    "input_tokens": 124026,
+    "output_tokens": 77566,
+    "estimated_cost_usd": 0.065144,
+    "strong_model_calls": 0,
+    "failed_truncated_calls": 0,
+    "strong_model_cost_share": 0.0,
+    "hard_caps": {
+      "calls": 80,
+      "input_tokens": 600000,
+      "output_tokens": 250000,
+      "strong_calls": 8
+    }
+  },
+  "success_gates": {
+    "gates": {
+      "active_lf_at_least_1": true,
+      "fresh_test_rule_precision_ge_0_85": true,
+      "fresh_test_rule_coverage_ge_0_15": true,
+      "claim_f1_not_worse": true,
+      "critical_error_rate_not_worse": false,
+      "llm_candidate_reduction_ge_0_20": false,
+      "no_prior_evidence_overlap": true,
+      "no_validation_test_group_leakage": true
+    },
+    "passed": 6,
+    "total": 8,
+    "status": "REVISE"
+  },
+  "request_total_cost": {
+    "aborted_v2": {
+      "api_calls": 35,
+      "input_tokens": 102424,
+      "output_tokens": 65491,
+      "estimated_cost_usd": 0.054658
+    },
+    "completed_v2_1": {
+      "api_calls": 43,
+      "input_tokens": 124026,
+      "output_tokens": 77566,
+      "estimated_cost_usd": 0.065144
+    },
+    "request_total": {
+      "api_calls": 78,
+      "input_tokens": 226450,
+      "output_tokens": 143057,
+      "estimated_cost_usd": 0.119802
+    }
+  },
+  "development_source": "v2 induction teacher annotations; v2 validation and retired test are excluded"
+}

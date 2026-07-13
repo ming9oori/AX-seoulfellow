@@ -1,0 +1,90 @@
+{
+  "response_id": "resp_0d1aea38c470b21f006a50cc19eaa481999c5e1410254a1d87",
+  "usage": {
+    "input_tokens": 3719,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 348,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4067
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r235",
+        "triples": []
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r237",
+        "triples": [
+          {
+            "subject": "제안서 기획",
+            "predicate": "단계",
+            "object": "3",
+            "source_span": "단계 3: 제안서 기획(Proposal Planning)"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r236",
+        "triples": [
+          {
+            "subject": "수주영업",
+            "predicate": "단계",
+            "object": "2",
+            "source_span": "단계 2: 수주영업(Capture Planning)"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r243",
+        "triples": [
+          {
+            "subject": "수주전략 수립",
+            "predicate": "단계",
+            "object": "3",
+            "source_span": "단계 3: 수주전략 수립"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r461",
+        "triples": [
+          {
+            "subject": "영업 정보",
+            "predicate": "정의",
+            "object": "특정 기회의 정보 정리",
+            "source_span": "정의"
+          },
+          {
+            "subject": "고객 정보",
+            "predicate": "정의",
+            "object": "특정 고객의 정보 정리",
+            "source_span": "정의"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r489",
+        "triples": [
+          {
+            "subject": "Capture Plan",
+            "predicate": "예상 솔루션",
+            "object": "PC Doc TM",
+            "source_span": "PC Doc TM"
+          },
+          {
+            "subject": "Capture Plan",
+            "predicate": "예상 솔루션",
+            "object": "3개의 제휴 조직과의 연계",
+            "source_span": "3개의 제휴 조직과의 연계"
+          }
+        ]
+      }
+    ]
+  }
+}

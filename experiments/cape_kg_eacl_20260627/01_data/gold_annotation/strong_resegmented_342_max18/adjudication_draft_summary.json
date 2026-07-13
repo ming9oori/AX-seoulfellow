@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-06-28T14:47:09.028274+00:00",
+  "annotator_a": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+  "annotator_b": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+  "template_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl",
+  "package": "strong_resegmented_342_max18",
+  "total_chunks": 342,
+  "completed_pair_chunks": 0,
+  "pending_pair_chunks": 342,
+  "auto_adjudicated_chunks": 0,
+  "needs_adjudication_chunks": 0,
+  "agreed_gold_nodes_in_draft": 0,
+  "agreed_gold_edges_in_draft": 0,
+  "status_counts": {
+    "pending_two_annotator_input": 342
+  },
+  "disagreement_counts": {},
+  "claim_status": "draft_not_final_human_gold",
+  "output_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_draft.jsonl",
+  "summary_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_draft_summary.json",
+  "report_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_draft_report.md"
+}

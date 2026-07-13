@@ -1,0 +1,10 @@
+required_configurations: 1
+qualification_sample: DEV_EXPOSED_24
+qualification_repeats: 2
+fresh_repeats: 3
+one_item_per_request: true
+candidate_order_exposure: false
+candidates:
+  C02: gpt-4.1-mini-2025-04-14
+  C03: gpt-4o-2024-08-06
+  C04: gpt-4.1-2025-04-14

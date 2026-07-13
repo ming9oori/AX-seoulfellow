@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<defs><marker id="arrow_db432238" markerWidth="9" markerHeight="9" refX="8" refY="3.5" orient="auto"><path d="M0,0 L0,7 L9,3.5 z" fill="#7451A6"/></marker></defs>
+<text x="40" y="48" font-family="sans-serif" font-size="30" font-weight="700" fill="#102A43">1. Induced Schema</text>
+<text x="40" y="80" font-family="sans-serif" font-size="16" fill="#52606D">Live Neo4j result | total 8 | query returned 8 paths | displayed 8</text>
+<text x="40" y="108" font-family="sans-serif" font-size="14" fill="#52606D">Node color = induced schema · Arrow color = relationship type</text>
+<rect x="40" y="125" width="20" height="20" rx="4" fill="#58BFA3" stroke="#607080"/>
+<text x="68" y="140" font-family="sans-serif" font-size="14" fill="#334E68">Agent</text>
+<rect x="190" y="125" width="20" height="20" rx="4" fill="#E8935B" stroke="#607080"/>
+<text x="218" y="140" font-family="sans-serif" font-size="14" fill="#334E68">Context</text>
+<rect x="340" y="125" width="20" height="20" rx="4" fill="#F5D267" stroke="#607080"/>
+<text x="368" y="140" font-family="sans-serif" font-size="14" fill="#334E68">CustomerRequirement</text>
+<rect x="561" y="125" width="20" height="20" rx="4" fill="#8996A3" stroke="#607080"/>
+<text x="589" y="140" font-family="sans-serif" font-size="14" fill="#334E68">DomainConcept</text>
+<rect x="728" y="125" width="20" height="20" rx="4" fill="#ECA0BD" stroke="#607080"/>
+<text x="756" y="140" font-family="sans-serif" font-size="14" fill="#334E68">EvaluationMeasure</text>
+<rect x="931" y="125" width="20" height="20" rx="4" fill="#D96C8C" stroke="#607080"/>
+<text x="959" y="140" font-family="sans-serif" font-size="14" fill="#334E68">Measure</text>
+<rect x="1081" y="125" width="20" height="20" rx="4" fill="#C3A6E8" stroke="#607080"/>
+<text x="1109" y="140" font-family="sans-serif" font-size="14" fill="#334E68">ProposalArtifact</text>
+<rect x="1275" y="125" width="20" height="20" rx="4" fill="#F4AD82" stroke="#607080"/>
+<text x="1303" y="140" font-family="sans-serif" font-size="14" fill="#334E68">ProposalContext</text>
+<rect x="40" y="155" width="20" height="20" rx="4" fill="#B9C2CC" stroke="#607080"/>
+<text x="68" y="170" font-family="sans-serif" font-size="14" fill="#334E68">ProposalDomainConcept</text>
+<rect x="279" y="155" width="20" height="20" rx="4" fill="#63C7B2" stroke="#607080"/>
+<text x="307" y="170" font-family="sans-serif" font-size="14" fill="#334E68">ProposalOrganization</text>
+<rect x="509" y="155" width="20" height="20" rx="4" fill="#A8D5A2" stroke="#607080"/>
+<text x="537" y="170" font-family="sans-serif" font-size="14" fill="#334E68">ProposalRole</text>
+<rect x="667" y="155" width="20" height="20" rx="4" fill="#9CC9F2" stroke="#607080"/>
+<text x="695" y="170" font-family="sans-serif" font-size="14" fill="#334E68">ProposalWorkUnit</text>
+<rect x="861" y="155" width="20" height="20" rx="4" fill="#9D7CCC" stroke="#607080"/>
+<text x="889" y="170" font-family="sans-serif" font-size="14" fill="#334E68">Resource</text>
+<rect x="1011" y="155" width="20" height="20" rx="4" fill="#6EA8E5" stroke="#607080"/>
+<text x="1039" y="170" font-family="sans-serif" font-size="14" fill="#334E68">WorkUnit</text>
+<circle cx="750.0" cy="253.0" r="58.0" fill="#58BFA3" fill-opacity="0.09" stroke="#58BFA3" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="750.0" y="219.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">Agent</text>
+<circle cx="971.3" cy="278.0" r="58.0" fill="#E8935B" fill-opacity="0.09" stroke="#E8935B" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="971.3" y="244.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">Context</text>
+<circle cx="1148.7" cy="347.9" r="58.0" fill="#F5D267" fill-opacity="0.09" stroke="#F5D267" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1148.7" y="313.9" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">CustomerRequirement</text>
+<circle cx="1247.2" cy="448.9" r="58.0" fill="#8996A3" fill-opacity="0.09" stroke="#8996A3" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1247.2" y="414.9" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">DomainConcept</text>
+<circle cx="1247.2" cy="561.1" r="58.0" fill="#ECA0BD" fill-opacity="0.09" stroke="#ECA0BD" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1247.2" y="527.1" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">EvaluationMeasure</text>
+<circle cx="1148.7" cy="662.1" r="58.0" fill="#D96C8C" fill-opacity="0.09" stroke="#D96C8C" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="1148.7" y="628.1" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">Measure</text>
+<circle cx="971.3" cy="732.0" r="58.0" fill="#C3A6E8" fill-opacity="0.09" stroke="#C3A6E8" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="971.3" y="698.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalArtifact</text>
+<circle cx="750.0" cy="757.0" r="58.0" fill="#F4AD82" fill-opacity="0.09" stroke="#F4AD82" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="750.0" y="723.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalContext</text>
+<circle cx="528.7" cy="732.0" r="58.0" fill="#B9C2CC" fill-opacity="0.09" stroke="#B9C2CC" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="528.7" y="698.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalDomainConcept</text>
+<circle cx="351.3" cy="662.1" r="58.0" fill="#63C7B2" fill-opacity="0.09" stroke="#63C7B2" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="351.3" y="628.1" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalOrganization</text>
+<circle cx="252.8" cy="561.1" r="58.0" fill="#A8D5A2" fill-opacity="0.09" stroke="#A8D5A2" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="252.8" y="527.1" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalRole</text>
+<circle cx="252.8" cy="448.9" r="58.0" fill="#9CC9F2" fill-opacity="0.09" stroke="#9CC9F2" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="252.8" y="414.9" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">ProposalWorkUnit</text>
+<circle cx="351.3" cy="347.9" r="58.0" fill="#9D7CCC" fill-opacity="0.09" stroke="#9D7CCC" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="351.3" y="313.9" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">Resource</text>
+<circle cx="528.7" cy="278.0" r="58.0" fill="#6EA8E5" fill-opacity="0.09" stroke="#6EA8E5" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="528.7" y="244.0" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="700" fill="#334E68">WorkUnit</text>
+<line x1="1109.7" y1="347.9" x2="396.3" y2="347.9" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="753.0" y="342.9" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="1220.0" y1="589.0" x2="1180.1" y2="629.9" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="1200.1" y="604.4" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="938.1" y1="711.5" x2="389.5" y2="371.6" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="663.8" y="536.5" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="766.4" y1="721.6" x2="952.4" y2="318.8" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="859.4" y="515.2" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="565.0" y1="717.7" x2="1205.3" y2="465.4" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="885.2" y="586.6" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="378.5" y1="634.2" x2="718.6" y2="285.2" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="548.5" y="454.7" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="285.9" y1="540.5" x2="711.7" y2="276.7" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="498.8" y="403.6" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<line x1="285.9" y1="428.4" x2="490.5" y2="301.7" stroke="#7451A6" stroke-width="2.1" stroke-opacity="0.72" marker-end="url(#arrow_db432238)"/>
+<text x="388.2" y="360.0" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#7451A6">SUBCLASS_OF</text>
+<circle cx="750.0" cy="253.0" r="37" fill="#58BFA3" stroke="#425466" stroke-width="1.7"/>
+<text x="750.0" y="256.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">Agent</text>
+<text x="750.0" y="304.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Agent</text>
+<circle cx="971.3" cy="278.0" r="37" fill="#E8935B" stroke="#425466" stroke-width="1.7"/>
+<text x="971.3" y="281.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">Context</text>
+<text x="971.3" y="329.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Context</text>
+<circle cx="1247.2" cy="448.9" r="37" fill="#8996A3" stroke="#425466" stroke-width="1.7"/>
+<text x="1247.2" y="451.9" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">DomainConcept</text>
+<text x="1247.2" y="499.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">DomainConcept</text>
+<circle cx="1148.7" cy="662.1" r="37" fill="#D96C8C" stroke="#425466" stroke-width="1.7"/>
+<text x="1148.7" y="665.1" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">Measure</text>
+<text x="1148.7" y="713.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Measure</text>
+<circle cx="351.3" cy="347.9" r="37" fill="#9D7CCC" stroke="#425466" stroke-width="1.7"/>
+<text x="351.3" y="350.9" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">Resource</text>
+<text x="351.3" y="398.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Resource</text>
+<circle cx="528.7" cy="278.0" r="37" fill="#6EA8E5" stroke="#425466" stroke-width="1.7"/>
+<text x="528.7" y="281.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">WorkUnit</text>
+<text x="528.7" y="329.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1148.7" cy="347.9" r="37" fill="#F5D267" stroke="#425466" stroke-width="1.7"/>
+<text x="1148.7" y="350.9" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">CustomerRequiremen...</text>
+<text x="1148.7" y="398.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">CustomerRequirement</text>
+<circle cx="1247.2" cy="561.1" r="37" fill="#ECA0BD" stroke="#425466" stroke-width="1.7"/>
+<text x="1247.2" y="564.1" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">EvaluationMeasure</text>
+<text x="1247.2" y="612.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">EvaluationMeasure</text>
+<circle cx="971.3" cy="732.0" r="37" fill="#C3A6E8" stroke="#425466" stroke-width="1.7"/>
+<text x="971.3" y="735.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalArtifact</text>
+<text x="971.3" y="783.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalArtifact</text>
+<circle cx="750.0" cy="757.0" r="37" fill="#F4AD82" stroke="#425466" stroke-width="1.7"/>
+<text x="750.0" y="760.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalContext</text>
+<text x="750.0" y="808.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalContext</text>
+<circle cx="528.7" cy="732.0" r="37" fill="#B9C2CC" stroke="#425466" stroke-width="1.7"/>
+<text x="528.7" y="735.0" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalDomainConc...</text>
+<text x="528.7" y="783.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalDomainConcept</text>
+<circle cx="351.3" cy="662.1" r="37" fill="#63C7B2" stroke="#425466" stroke-width="1.7"/>
+<text x="351.3" y="665.1" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalOrganizati...</text>
+<text x="351.3" y="713.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalOrganization</text>
+<circle cx="252.8" cy="561.1" r="37" fill="#A8D5A2" stroke="#425466" stroke-width="1.7"/>
+<text x="252.8" y="564.1" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalRole</text>
+<text x="252.8" y="612.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalRole</text>
+<circle cx="252.8" cy="448.9" r="37" fill="#9CC9F2" stroke="#425466" stroke-width="1.7"/>
+<text x="252.8" y="451.9" text-anchor="middle" font-family="sans-serif" font-size="9" font-weight="700" fill="#102A43">ProposalWorkUnit</text>
+<text x="252.8" y="499.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ProposalWorkUnit</text>
+</svg>

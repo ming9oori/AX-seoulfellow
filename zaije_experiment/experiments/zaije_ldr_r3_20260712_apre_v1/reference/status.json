@@ -1,0 +1,17 @@
+{
+  "argument_reference_status": "NOT_RUN",
+  "boundary_reference": {
+    "hard_drop": 6,
+    "hard_keep": 64,
+    "soft": 0,
+    "unstable": 0
+  },
+  "experiment_id": "zaije_ldr_r3_20260712_apre_v1",
+  "failed_gate": "R3-4",
+  "field_reference_status": "REJECTED_BY_FALSIFICATION_GATE",
+  "fresh_evidence_exposed": 60,
+  "last_completed_gate": "R3-3",
+  "ontology_and_e0_e5_status": "NOT_RUN",
+  "overall_status": "BOUNDARY_REFERENCE_ONLY",
+  "test_access": 0
+}

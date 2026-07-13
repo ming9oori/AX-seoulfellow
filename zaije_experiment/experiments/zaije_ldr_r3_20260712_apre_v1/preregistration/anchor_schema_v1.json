@@ -1,0 +1,56 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "anchor_id": {
+      "type": "string"
+    },
+    "context_relations": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "context_span_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "end_char": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "evidence_id": {
+      "type": "string"
+    },
+    "generation_rule": {
+      "type": "string"
+    },
+    "source_hash": {
+      "type": "string"
+    },
+    "start_char": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "structure_type": {
+      "type": "string"
+    },
+    "text_by_program": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "anchor_id",
+    "evidence_id",
+    "start_char",
+    "end_char",
+    "text_by_program",
+    "structure_type",
+    "context_span_ids",
+    "context_relations",
+    "generation_rule",
+    "source_hash"
+  ],
+  "type": "object"
+}

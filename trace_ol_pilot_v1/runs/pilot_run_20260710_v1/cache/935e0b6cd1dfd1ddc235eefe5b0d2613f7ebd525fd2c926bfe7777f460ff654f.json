@@ -1,0 +1,291 @@
+{
+  "response_id": "resp_0538de8f257cca80006a50ca4ca754819b927e0a21e41aa029",
+  "usage": {
+    "input_tokens": 2410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2197,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4607
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1324",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1325",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1324",
+              "text": "리스크 분석을 위한 기준 제시",
+              "start": 0,
+              "end": 15
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1325",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1325",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1325",
+              "text": "리스크별 발생 확률 기준",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1326",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1326",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1326",
+              "text": "리스크별 사업 영향 분석 기준",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1327",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1327",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1327",
+              "text": "리스크별 위험등급 분석 기준",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1328",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1329",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1328",
+              "text": "본 사업의 리스크 요소 식별",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1329",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1329",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1329",
+              "text": "분야별 리스크 요소 식별 및 세부 리스크 내용 분석",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1330",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1331",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1330",
+              "text": "식별된 리스크 요소의 수준 분석",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1331",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1331",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1331",
+              "text": "리스크 분석 기준을 활용한 리스크별 세부 분석",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

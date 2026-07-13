@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_08af308be2b988fc006a5255002730819b9843d9e8da75fb80",
+  "usage": {
+    "input_tokens": 2133,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1045,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3178
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r87",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r87",
+        "annotator": {
+          "role": "C",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r87",
+              "text": "대체로 과거에 4박 5일 정도 하던 평가가 2박 3일 또는 1박 2일로 축소 진행되는 경우가 많다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r295",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r295",
+        "annotator": {
+          "role": "C",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r295",
+              "text": "단계 2: 내용 개발\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 페이지별 내용 구체화<br>• 목업(Mock up) 개발 | • 목업(Mock up) |",
+              "start": 0,
+              "end": 118
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r314",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r314",
+        "annotator": {
+          "role": "C",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r314",
+              "text": "평가자 공략법",
+              "start": 0,
+              "end": 8
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r527",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r527",
+        "annotator": {
+          "role": "C",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r527",
+              "text": "이 때 가장 많이 나오는 질문은 “고객조직의 발주처는 평가위원회에 참여하지 않습니다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r531",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r531",
+        "annotator": {
+          "role": "C",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r531",
+              "text": "그 이유는 필자가 조달청, KOTRA, 지적공사 등의 평가위원회에 참여하면서 경험한 평가위원의 심리상태 때문이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

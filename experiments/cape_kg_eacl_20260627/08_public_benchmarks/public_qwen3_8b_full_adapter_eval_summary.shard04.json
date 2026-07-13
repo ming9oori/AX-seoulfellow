@@ -1,0 +1,36 @@
+{
+  "cuda_visible_devices": "4",
+  "errors": {
+    "PAGED:missing_edge_endpoint": 2,
+    "PAGED:parse_error": 5,
+    "PAGED:root_not_object": 5,
+    "Text2KGBench:parse_error": 1,
+    "Text2KGBench:root_not_object": 1,
+    "Text2KGBench:unknown_relation": 1
+  },
+  "files": {
+    "raw": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_full_adapter_eval_raw.shard04.jsonl",
+    "report": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_full_adapter_eval_report.shard04.md",
+    "results": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_full_adapter_eval_results.shard04.jsonl",
+    "valid": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_full_adapter_eval_valid.shard04.jsonl"
+  },
+  "generated_at_utc": "2026-06-27T23:24:39.069697+00:00",
+  "is_shard": true,
+  "model": "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+  "num_shards": 8,
+  "paged": {
+    "mean_edge_predicate_f1": 0.3351,
+    "mean_node_label_f1": 0.229
+  },
+  "paged_items": 12,
+  "quantization": "4bit",
+  "raw_rows": 37,
+  "result_rows": 37,
+  "shard_index": 4,
+  "text2kg": {
+    "mean_relation_f1": 0.516,
+    "mean_triple_exact_f1": 0.2027
+  },
+  "text2kg_items": 25,
+  "valid_rows": 37
+}

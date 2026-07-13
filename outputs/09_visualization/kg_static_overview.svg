@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540">
 <rect width="960" height="540" fill="#fbfbf8"/>
 <text x="40" y="52" font-size="26" font-family="Arial" fill="#1d2935">AX-EPAK KG Static Overview</text>
-<text x="40" y="88" font-size="15" font-family="Arial" fill="#475467">Nodes: 9589 | Edges: 10499 | Generated: 2026-06-27</text>
+<text x="40" y="88" font-size="15" font-family="Arial" fill="#475467">Nodes: 9630 | Edges: 10540 | Generated: 2026-06-27</text>
 <rect x="40" y="119" width="380.0" height="18" fill="#4f7cac"/>
 <text x="470" y="135" font-size="13" font-family="Arial" fill="#1d2935">NCSCompetencyUnit: 3450</text>
 <rect x="40" y="147" width="362.7" height="18" fill="#4f7cac"/>
@@ -16,16 +16,16 @@
 <text x="470" y="275" font-size="13" font-family="Arial" fill="#1d2935">ProcedureStep: 99</text>
 <rect x="40" y="287" width="28.8" height="18" fill="#4f7cac"/>
 <text x="470" y="303" font-size="13" font-family="Arial" fill="#1d2935">NCSMiddleClass: 84</text>
-<rect x="40" y="315" width="22.5" height="18" fill="#4f7cac"/>
-<text x="470" y="331" font-size="13" font-family="Arial" fill="#1d2935">NCSLargeClass: 24</text>
-<rect x="40" y="343" width="22.3" height="18" fill="#4f7cac"/>
-<text x="470" y="359" font-size="13" font-family="Arial" fill="#1d2935">DomainTask: 22</text>
-<rect x="40" y="371" width="21.5" height="18" fill="#4f7cac"/>
-<text x="470" y="387" font-size="13" font-family="Arial" fill="#1d2935">Artifact: 14</text>
-<rect x="40" y="399" width="21.4" height="18" fill="#4f7cac"/>
-<text x="470" y="415" font-size="13" font-family="Arial" fill="#1d2935">GuardCondition: 13</text>
-<rect x="40" y="427" width="21.0" height="18" fill="#4f7cac"/>
-<text x="470" y="443" font-size="13" font-family="Arial" fill="#1d2935">Role: 10</text>
+<rect x="40" y="315" width="24.3" height="18" fill="#4f7cac"/>
+<text x="470" y="331" font-size="13" font-family="Arial" fill="#1d2935">ReviewCheckpoint: 41</text>
+<rect x="40" y="343" width="22.5" height="18" fill="#4f7cac"/>
+<text x="470" y="359" font-size="13" font-family="Arial" fill="#1d2935">NCSLargeClass: 24</text>
+<rect x="40" y="371" width="22.3" height="18" fill="#4f7cac"/>
+<text x="470" y="387" font-size="13" font-family="Arial" fill="#1d2935">DomainTask: 22</text>
+<rect x="40" y="399" width="21.5" height="18" fill="#4f7cac"/>
+<text x="470" y="415" font-size="13" font-family="Arial" fill="#1d2935">Artifact: 14</text>
+<rect x="40" y="427" width="21.4" height="18" fill="#4f7cac"/>
+<text x="470" y="443" font-size="13" font-family="Arial" fill="#1d2935">GuardCondition: 13</text>
 <rect x="610" y="119" width="280.0" height="18" fill="#d58a5a"/>
 <text x="610" y="151" font-size="12" font-family="Arial" fill="#1d2935">HAS_COMPETENCY_UNIT: 3450</text>
 <rect x="610" y="155" width="267.5" height="18" fill="#d58a5a"/>
@@ -39,9 +39,9 @@
 <rect x="610" y="299" width="29.0" height="18" fill="#d58a5a"/>
 <text x="610" y="331" font-size="12" font-family="Arial" fill="#1d2935">PERFORMED_BY: 120</text>
 <rect x="610" y="335" width="28.3" height="18" fill="#d58a5a"/>
-<text x="610" y="367" font-size="12" font-family="Arial" fill="#1d2935">CANDIDATE_REQUIRES_CAPABILITY: 110</text>
+<text x="610" y="367" font-size="12" font-family="Arial" fill="#1d2935">REQUIRES_CAPABILITY: 110</text>
 <rect x="610" y="371" width="28.3" height="18" fill="#d58a5a"/>
-<text x="610" y="403" font-size="12" font-family="Arial" fill="#1d2935">CANDIDATE_PROCESS_CONTEXT: 110</text>
+<text x="610" y="403" font-size="12" font-family="Arial" fill="#1d2935">PROCESS_CONTEXT: 110</text>
 <rect x="610" y="407" width="27.5" height="18" fill="#d58a5a"/>
 <text x="610" y="439" font-size="12" font-family="Arial" fill="#1d2935">HAS_STEP: 99</text>
 <rect x="610" y="443" width="25.8" height="18" fill="#d58a5a"/>

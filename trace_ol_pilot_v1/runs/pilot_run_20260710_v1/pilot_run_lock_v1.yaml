@@ -1,0 +1,44 @@
+run:
+  id: "trace-ol-pilot-v1-20260710"
+  seed: 20260710
+  input_file: "/home/minjoo/AX_서울펠로우/handoff-hanyang/수주제안/자이제_1.xlsx"
+  input_sha256: "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f"
+  sheet: "clean_sentences"
+  output_dir: "runs/pilot_run_20260710_v1"
+
+models:
+  annotator_A: "gpt-4o-mini-2024-07-18"
+  annotator_B: "gpt-4o-mini-2024-07-18"
+  annotator_C: "gpt-4o-mini-2024-07-18"
+  adjudicator_D: "gpt-4o-2024-08-06"
+  system_E0: "gpt-4o-mini-2024-07-18"
+  system_E1: "gpt-4o-mini-2024-07-18"
+  system_E3: "gpt-4o-mini-2024-07-18"
+  system_E4: "gpt-4o-mini-2024-07-18"
+  independence_note: "A/B use the same snapshot with separate prompts and calls; report as pseudo-independent runs."
+
+pricing_usd_per_million_tokens:
+  gpt-4o-mini-2024-07-18:
+    input: 0.15
+    cached_input: 0.075
+    output: 0.60
+  gpt-4o-2024-08-06:
+    input: 2.50
+    cached_input: 1.25
+    output: 10.00
+
+api_limits:
+  max_total_calls: 80
+  max_input_tokens: 600000
+  max_output_tokens: 250000
+  max_strong_model_calls: 8
+  temperature: 0
+  max_concurrency: 1
+
+locked_contracts:
+  schema: "schemas/atomic_work_claim_schema_v0.2.json"
+  reference_version: "TRACE-LLM-Silver-v0.1"
+  sample: "180 = targeted stratified 150 + deterministic random 30"
+  split: "CAL 60 / B1 60 / B2_LOCKED 60"
+  b1_subsplit: "B1a 40 / B1b 20"
+  b2_policy: "No prompt, rule, threshold, or schema changes after B2 system outputs are created."

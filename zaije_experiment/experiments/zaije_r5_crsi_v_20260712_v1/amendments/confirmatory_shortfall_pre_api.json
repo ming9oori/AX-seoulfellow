@@ -1,0 +1,9 @@
+{
+  "action": "Include every remaining fresh VALIDATION leakage group; do not substitute INDUCTION or TEST.",
+  "available_evidence": 8,
+  "claim_limit": "Confirmatory estimates are exploratory-small-n and cannot support precise population performance claims.",
+  "reason": "Only eight Evidence bundles in seven previously unexposed VALIDATION leakage groups remain after R1-R4 exposure exclusion.",
+  "shortfall": 72,
+  "target_evidence": 80,
+  "timing": "PRE_API"
+}

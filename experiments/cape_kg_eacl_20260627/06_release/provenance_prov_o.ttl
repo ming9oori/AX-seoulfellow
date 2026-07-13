@@ -1,0 +1,4145 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cape: <https://example.org/cape-kg#> .
+
+cape:pipeline_agent
+  a prov:SoftwareAgent ;
+  rdfs:label "CAPE-KG executable pipeline" .
+
+cape:human_review_process
+  a prov:Agent ;
+  rdfs:label "CAPE-KG human review process" .
+
+cape:model_2d7817a7cb6283b1
+  a prov:SoftwareAgent ;
+  rdfs:label "meta-llama/Llama-2-13b-chat-hf" ;
+  cape:modelPath "/home/minjoo/.cache/huggingface/hub/models--meta-llama--Llama-2-13b-chat-hf/snapshots/a2cb7a712bb6e5e736ca7f8cd98167f81a0b5bd8" .
+
+cape:model_7946b02a60e633a7
+  a prov:SoftwareAgent ;
+  rdfs:label "Qwen/Qwen3-8B" ;
+  cape:modelPath "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218" .
+
+cape:model_b974583dfa35a84f
+  a prov:SoftwareAgent ;
+  rdfs:label "Qwen/Qwen3-32B-AWQ" ;
+  cape:modelPath "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8" .
+
+cape:model_fc007053485e3fa9
+  a prov:SoftwareAgent ;
+  rdfs:label "Qwen/Qwen3-14B" ;
+  cape:modelPath "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18" .
+
+cape:experiment_activity
+  a prov:Activity ;
+  rdfs:label "CAPE-KG pre-human experiment package" ;
+  dcterms:created "2026-06-29T18:56:42.293489+00:00"^^xsd:dateTime ;
+  cape:experimentDir "experiments/cape_kg_eacl_20260627" ;
+  cape:outputsDir "outputs" ;
+  cape:claimStatus "provenance_manifest_ready_not_human_gold_evidence" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  prov:used cape:file_a47c09d2150b63ac ;
+  prov:used cape:file_4c33bbdd11cac3de ;
+  prov:used cape:file_bd6299beffce6361 ;
+  prov:used cape:file_e738366760f820ab ;
+  prov:used cape:file_767476d326f00551 ;
+  prov:used cape:file_f238704a3ef41111 ;
+  prov:used cape:file_534d96458a6fee17 ;
+  prov:used cape:file_72c6989e4e4c5981 ;
+  prov:used cape:file_a6db3a4a392f0b40 ;
+  prov:used cape:file_dd7f3a79e9f4c9aa ;
+  prov:used cape:file_0bddd8c75e537804 ;
+  prov:used cape:file_e063a91f3d9b6826 ;
+  prov:used cape:file_c458530648fb5a19 ;
+  prov:used cape:file_c1e6d3b98d232db0 ;
+  prov:used cape:file_2d50d433504d1c27 ;
+  prov:used cape:file_9367c33982ad31d0 ;
+  prov:used cape:file_1321421120515196 ;
+  prov:used cape:file_a3ccb3c018189522 ;
+  prov:used cape:file_b7fc5d564adc8130 ;
+  prov:used cape:file_584d6dd1fd75db9d ;
+  prov:used cape:file_31af03eea3056c25 ;
+  prov:used cape:file_59ffecd06b31df4e ;
+  prov:used cape:file_cf839a550c71b98c ;
+  prov:used cape:file_834c47cc62adc9da .
+
+cape:file_534d96458a6fee17
+  a prov:Entity ;
+  rdfs:label "evaluation_chunks.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "evaluation_chunks" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "495269"^^xsd:integer ;
+  cape:sha256 "64d884bfaecea042b3aedd055a1ab3abc06bd7dd7ff3a0d60505f92164509fed" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "120"^^xsd:integer .
+
+cape:file_e59774f2744e7230
+  a prov:Entity ;
+  rdfs:label "annotation_expansion_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3903"^^xsd:integer ;
+  cape:sha256 "b37670deaa78485006ed426093904b4c9395274e78974499d105fb5f3390f8ef" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b6afeba4c528c369
+  a prov:Entity ;
+  rdfs:label "annotation_expansion_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2513"^^xsd:integer ;
+  cape:sha256 "f22b3e7659c3c2a368022f245ac0c8d0caf1771df54443d7ac5844b21e0ace5d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_01eb04fe23c5f1d4
+  a prov:Entity ;
+  rdfs:label "annotation_manifest_sync_report.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_manifest_sync_report.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "645"^^xsd:integer ;
+  cape:sha256 "2b4d501e5933e558f6157b60eb616a209242fb576980c404faf49cd10e2cdd3e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a4697d3aa558cf2e
+  a prov:Entity ;
+  rdfs:label "annotation_package_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_package_manifest.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3677"^^xsd:integer ;
+  cape:sha256 "907f0f706c30bc334d87052a54799cd01c51acc89fc491ecaea9c1ba2e3968ad" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_38b8661ceb2ed566
+  a prov:Entity ;
+  rdfs:label "adjudication.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "716895"^^xsd:integer ;
+  cape:sha256 "a47fea5d2a279bccfe032baefe27a7b9f99264d23b474d44f9de7ea849cd70c5" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_0375e0288a3bcb8d
+  a prov:Entity ;
+  rdfs:label "adjudication_draft.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_draft.jsonl" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "718605"^^xsd:integer ;
+  cape:sha256 "3a8853539b762e303902352729222ceb9e979892784e7e43ce532c9e6d85cb6b" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_245784465a1668a8
+  a prov:Entity ;
+  rdfs:label "annotator_A.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3886436"^^xsd:integer ;
+  cape:sha256 "1069470ba4f6bfab96afdff40f0fb72097020a108e34c1ee70a53ebc23e2db81" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_b60fb5b8111da343
+  a prov:Entity ;
+  rdfs:label "annotator_B.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3886436"^^xsd:integer ;
+  cape:sha256 "5086bbfaac7282cdbbceb45e45638476495b5baea6e5775f77abec78132e5de2" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_983c7bab4560a288
+  a prov:Entity ;
+  rdfs:label "strong_review_preview.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "39502"^^xsd:integer ;
+  cape:sha256 "9f4afbb42aab61b59848785ca583a8fe7fc7d2c54a2a07f3d44ef5c171db3b66" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_c35c5fd291020745
+  a prov:Entity ;
+  rdfs:label "strong_review_preview.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "9536"^^xsd:integer ;
+  cape:sha256 "c9dd603c693e091f7362121f367fec17cfd05dc63379e04edca620e670914cc3" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3016db35ee86beb6
+  a prov:Entity ;
+  rdfs:label "tracking_sheet.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "83783"^^xsd:integer ;
+  cape:sha256 "c405e132a6fe2ac0ce495bfa00739409ee51e0314fc507aebd0404c4de50e124" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "342"^^xsd:integer .
+
+cape:file_04e7a5cbb5abb5de
+  a prov:Entity ;
+  rdfs:label "mapping_review_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_manifest.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1619"^^xsd:integer ;
+  cape:sha256 "14747fa1007491668b4906ccf53399b428c436561e0d9b5e1db5493f58e653bb" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b7fc5d564adc8130
+  a prov:Entity ;
+  rdfs:label "cape_schema.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3523"^^xsd:integer ;
+  cape:sha256 "55ce9947e4240e781c52f25f0e6f6142aa7b1572eca9d4e50ae3c9cb7296b0d6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_584d6dd1fd75db9d
+  a prov:Entity ;
+  rdfs:label "cape_shapes.shacl.ttl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "340"^^xsd:integer ;
+  cape:sha256 "155d51f83766139a766627418d17e65aad34e44073ddde3b3807e19767c5cac1" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a6db3a4a392f0b40
+  a prov:Entity ;
+  rdfs:label "B0_plain_llm_triple_extraction.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B0_plain_llm_triple_extraction.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "75"^^xsd:integer ;
+  cape:sha256 "ad219b0e42adf3e2ccfa342ae38dce49fb74dbd7ae0fbdf5a59598f4a24b031f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_dd7f3a79e9f4c9aa
+  a prov:Entity ;
+  rdfs:label "B1_predicate_constrained_llm.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B1_predicate_constrained_llm.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "96"^^xsd:integer ;
+  cape:sha256 "a453b6587e8b3e03e2839874cc1fff8f6e1a249a83ec59ede8453f3a16a41651" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0bddd8c75e537804
+  a prov:Entity ;
+  rdfs:label "B2_current_project_baseline.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B2_current_project_baseline.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "77"^^xsd:integer ;
+  cape:sha256 "9a639be66c6b2a3727078108143f4e65ccb22ed69a2c5d29b891ac19a452cf4a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e063a91f3d9b6826
+  a prov:Entity ;
+  rdfs:label "B3_edc_style_baseline.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "111"^^xsd:integer ;
+  cape:sha256 "d272d5d4a9463b5cbc8225a7f754e715675787a5e347d15903c9d5ad0b020ee2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c458530648fb5a19
+  a prov:Entity ;
+  rdfs:label "B4_taxonomy_rag_baseline.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "96"^^xsd:integer ;
+  cape:sha256 "158bb086cd403a70c995049d0dd43573f94dc904e63ff179c093c95a40cf30fd" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c1e6d3b98d232db0
+  a prov:Entity ;
+  rdfs:label "B5_procedural_prompt_baseline.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "104"^^xsd:integer ;
+  cape:sha256 "7b435cf341de2b892b8221641ff14049d6d895d4d9b6303397805406f63c71b3" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2d50d433504d1c27
+  a prov:Entity ;
+  rdfs:label "B6_sac_kg_verifier_pruner_baseline.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "182"^^xsd:integer ;
+  cape:sha256 "8ae83e345b52d39328da78a6a7cfbf65d5945fe7a061daf6adedfa6a793ab88a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_9367c33982ad31d0
+  a prov:Entity ;
+  rdfs:label "P_cape_kg.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "206"^^xsd:integer ;
+  cape:sha256 "55511f96c5c8440216baa973ff4b8fb80d5d952ec7f4d91bc91c75a9c6496e71" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1321421120515196
+  a prov:Entity ;
+  rdfs:label "P_minus_Schema_retrieval.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "148"^^xsd:integer ;
+  cape:sha256 "87f8d1d5403a9d32da879ea76f073fc066c13369e086f788428c3dafb2edfbf0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a3ccb3c018189522
+  a prov:Entity ;
+  rdfs:label "strict_json_contract.txt" ;
+  cape:path "experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "prompt" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "664"^^xsd:integer ;
+  cape:sha256 "699c4aa6927dc3bccf72a9906e2aa8a40a7e5e2493d18ebcb4f000251bdfd783" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b7bb6f95b3369415
+  a prov:Entity ;
+  rdfs:label "active_review_ablation_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "11236"^^xsd:integer ;
+  cape:sha256 "8724e0346622a5190c111f4228c4fe496d0c559def3207f2c6d9e9191158458b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3dd0f92a6d24cbb5
+  a prov:Entity ;
+  rdfs:label "active_review_efficiency_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12827"^^xsd:integer ;
+  cape:sha256 "2fdd5afdd7de3f8a04163789e694f6e4fcd5a5e1bf4581f1fa71f767fc7b06b6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1d7882b51077defc
+  a prov:Entity ;
+  rdfs:label "active_review_human_effort_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6348"^^xsd:integer ;
+  cape:sha256 "f59b516797ccd39e14750d90a72ae7778f0bb295147cd9c1f7ffc1198b5c629c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0fa5e559f9b7e96c
+  a prov:Entity ;
+  rdfs:label "active_review_pool_overlap_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1650"^^xsd:integer ;
+  cape:sha256 "e2bb1224e40eb442013719549350854a65f59020ab295582ff36690c9c80984d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_98667109450d6586
+  a prov:Entity ;
+  rdfs:label "active_review_pool_overlap_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1861"^^xsd:integer ;
+  cape:sha256 "71f89ea3925dfa2a7134b6e0ddbe6e29f73cef132fb5d34901c97bc7290fee84" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_98be059884c9962a
+  a prov:Entity ;
+  rdfs:label "actual_llm_silver_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15122"^^xsd:integer ;
+  cape:sha256 "cca895a4eca0ac1228519a6bbb43ff0afab0652fc94d3d57fac2c80d4e798e17" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b2695f5265ed70b3
+  a prov:Entity ;
+  rdfs:label "cq_query_sample_answers.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/cq_query_sample_answers.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13328"^^xsd:integer ;
+  cape:sha256 "cbbd214f2c7e949dc4385d72a9c0c29dd54a7c08ac62b733b4d5c097f4db99f5" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "60"^^xsd:integer .
+
+cape:file_a93cad7d6c87df12
+  a prov:Entity ;
+  rdfs:label "evidence_span_granularity_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1822"^^xsd:integer ;
+  cape:sha256 "2e854b162a5b1209e1b552b0357e08a6a51e801e846647242eb66bd635bbc841" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_afc917fd37df9861
+  a prov:Entity ;
+  rdfs:label "human_gold_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1509"^^xsd:integer ;
+  cape:sha256 "31129f425670a3765fb454c69168b60f6bb56c1dd0c37cd4fa2f94bae7f4b843" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_7bfc9eb29ac04cbb
+  a prov:Entity ;
+  rdfs:label "human_gold_span_iou_components.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "162"^^xsd:integer ;
+  cape:sha256 "c3b89a2e8acdf01971e920b6aa89d8dfd0d979743dadb89872a465d2be3f93ae" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "0"^^xsd:integer .
+
+cape:file_e8960104d328cea2
+  a prov:Entity ;
+  rdfs:label "human_gold_span_iou_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1405"^^xsd:integer ;
+  cape:sha256 "667e354614b77b2b1e5a04b78e6581d60e4204598641a98e23887c1a0f2943cb" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e11cd1600237d2e3
+  a prov:Entity ;
+  rdfs:label "human_gold_span_iou_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1371"^^xsd:integer ;
+  cape:sha256 "999e58808c777c1516ce6791ad7a1b2874cc61341d1f7329264f39f6dc928ec0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4c22a5de131d2ada
+  a prov:Entity ;
+  rdfs:label "mapping_downstream_arm_diagnostics.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_diagnostics.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2135"^^xsd:integer ;
+  cape:sha256 "81b48990c6917789c367bf7c346b54d7a2fb8a0bc4bd817c637ffc4845c0d67c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "8"^^xsd:integer .
+
+cape:file_3247c39197a018d6
+  a prov:Entity ;
+  rdfs:label "mapping_downstream_arm_rerank_details.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_details.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "73343"^^xsd:integer ;
+  cape:sha256 "5345d2dab3d4b9a782dad421030b626590cd0504185a4dad54e62e8c31fb2a13" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "176"^^xsd:integer .
+
+cape:file_f09b1a22d0f5a12a
+  a prov:Entity ;
+  rdfs:label "mapping_downstream_arm_rerank_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_summary.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1744"^^xsd:integer ;
+  cape:sha256 "05ac6560264fc76ca1187fc6806f5d7900e86bc18f659c8296e75c3e562acb06" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a9dbcdecdf4cc119
+  a prov:Entity ;
+  rdfs:label "mapping_downstream_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2824"^^xsd:integer ;
+  cape:sha256 "170cce208ddb5c3fb90c01f594680325f2e8d821d93494357205fd232edc0675" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0d1bd8df1f4dfc38
+  a prov:Entity ;
+  rdfs:label "mapping_downstream_results.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_results.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "300"^^xsd:integer ;
+  cape:sha256 "c48a1d282a02256ba41b81277db57ee5ff71df4353a0f603664ccb414f8e9de8" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "2"^^xsd:integer .
+
+cape:file_ba9c3fbb904bc1ca
+  a prov:Entity ;
+  rdfs:label "mapping_expert_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1675"^^xsd:integer ;
+  cape:sha256 "6a9ccffe47e2fbc7b487a9e953f7047bcb9498a972003df0ed9ec2a31d4d711f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_bed18442cfe9d8bc
+  a prov:Entity ;
+  rdfs:label "ncs_pcf_crosswalk_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "893"^^xsd:integer ;
+  cape:sha256 "e825d1374d51aaf28676f68da6a8aa11bf46955f924ad4f4d14af3c7f85c6c9a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_06b4578c99e1b02a
+  a prov:Entity ;
+  rdfs:label "qwen3_14b_core_silver_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/qwen3_14b_core_silver_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4435"^^xsd:integer ;
+  cape:sha256 "c0bff27fa96037195fe56b50ee0da74eb74af86633aaa10e0c87a6577df91c5f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f10dbd134aefe69b
+  a prov:Entity ;
+  rdfs:label "qwen3_32b_awq_core_silver_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/qwen3_32b_awq_core_silver_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4398"^^xsd:integer ;
+  cape:sha256 "a9d4545a9235e3b6b6c7110229a8903d041683d23eefcfa529ed595f45a901e7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_72ec5f0083d05242
+  a prov:Entity ;
+  rdfs:label "structural_evaluation_metrics.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "22053"^^xsd:integer ;
+  cape:sha256 "108afa8861661de058bbe013879143773d19f9695a5ef4dccdeb7b81050fc14d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a7f2048968cf3c76
+  a prov:Entity ;
+  rdfs:label "active_review_human_effort_briefing.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "98684"^^xsd:integer ;
+  cape:sha256 "70fdd580c16a171e2a245d0b0c1fbebb470a0414fa6def4e3cb2dcc0de0c78f8" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "204"^^xsd:integer .
+
+cape:file_a03bad076803a136
+  a prov:Entity ;
+  rdfs:label "annotation_batch_review_preview_summary.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/annotation_batch_review_preview_summary.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1817"^^xsd:integer ;
+  cape:sha256 "eed0f6bb2bae6a8e8d37776c5be9f91dae7843fae44e533298200924d9d2a95b" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "5"^^xsd:integer .
+
+cape:file_869216b991bf4236
+  a prov:Entity ;
+  rdfs:label "gold_sampling_coverage_by_chapter.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_coverage_by_chapter.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "357"^^xsd:integer ;
+  cape:sha256 "0ac26ad9bdfc13abd5f387c797e8cc442409d751113a970ee9e75535a4336b84" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "6"^^xsd:integer .
+
+cape:file_7aeef081eab8f81a
+  a prov:Entity ;
+  rdfs:label "gold_sampling_priority100_selected_chunks.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12535"^^xsd:integer ;
+  cape:sha256 "eea150440fbcb890e9fac0860a25616873fe014aeb8ff66556dc76541fc6b4e7" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "100"^^xsd:integer .
+
+cape:file_ac7bffdd618de1f5
+  a prov:Entity ;
+  rdfs:label "human_gate_required_returns.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_gate_required_returns.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "7485"^^xsd:integer ;
+  cape:sha256 "a4f43d62e763076e3bb38d56e0107f42ad5b16e812dba6a8ffb6cfd256294671" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "14"^^xsd:integer .
+
+cape:file_8f9d88e5330b2a3b
+  a prov:Entity ;
+  rdfs:label "human_review_first_batch_execution_card.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "10518"^^xsd:integer ;
+  cape:sha256 "4ad1d0d81e48747db680e0752285dafa2662a4b30e7472c21745ce169d9a6d70" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0900ca6e431b25e7
+  a prov:Entity ;
+  rdfs:label "human_review_first_batch_execution_card_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "5593"^^xsd:integer ;
+  cape:sha256 "3e3368b49319b8e927414b772bcb98a8908eea719d01d99a8cccc0dfd1c30b9a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_70fb7019dd17f6d8
+  a prov:Entity ;
+  rdfs:label "human_review_gate_dependency_matrix.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_gate_dependency_matrix.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13358"^^xsd:integer ;
+  cape:sha256 "2cd042ebdd177d73043d68e2013337736461ec278aeddcadf0b9ee30be962266" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "7"^^xsd:integer .
+
+cape:file_55dca9cd0283b260
+  a prov:Entity ;
+  rdfs:label "human_review_master_return_files.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8192"^^xsd:integer ;
+  cape:sha256 "6a39e87aaba4d95a2c9789042cda56835e71ae3a70b887954abcabe5cd018d71" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_b6cc057f7b511626
+  a prov:Entity ;
+  rdfs:label "human_review_minimum_gate_launch_tasks.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_minimum_gate_launch_tasks.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8698"^^xsd:integer ;
+  cape:sha256 "7f93e4dd1d6fd600d6bdb86755f6c3dbc93d6bb825aa3f51ffd86e207f813cd2" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "18"^^xsd:integer .
+
+cape:file_674fd9ecca9a887f
+  a prov:Entity ;
+  rdfs:label "human_review_packet_integrity_issues.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_packet_integrity_issues.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "53"^^xsd:integer ;
+  cape:sha256 "8341fb3e032e5c01a7b796fcbba212c2eb733082b29ee49673cfac60ceab145e" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "0"^^xsd:integer .
+
+cape:file_6aabb0ead94c961c
+  a prov:Entity ;
+  rdfs:label "human_review_role_quickstart_cards.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4609"^^xsd:integer ;
+  cape:sha256 "1f62291f0f031ef36f255d6d758b102c816566921bda692aeb2948e61132f062" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "9"^^xsd:integer .
+
+cape:file_5b156db60b0c5d5a
+  a prov:Entity ;
+  rdfs:label "human_review_role_quickstart_cards.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "28002"^^xsd:integer ;
+  cape:sha256 "996684bd5ca2096b0a6af6cdb51358ec8c5a766d2d4d6f9dbefc09248983eaeb" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ac8d7a97b59f9f21
+  a prov:Entity ;
+  rdfs:label "human_review_role_quickstart_cards_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards_ko.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "19591"^^xsd:integer ;
+  cape:sha256 "7a9b942fb762bd70ed17301209e574d133f803f20e57800b9e1c94e602493091" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0210040f1f6272bd
+  a prov:Entity ;
+  rdfs:label "human_review_status_next_actions.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/human_review_status_next_actions.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3578"^^xsd:integer ;
+  cape:sha256 "b77bbbd3a90950bcfcf343802fa5d86c2df385ce5d8727610dbc97342acbd7b9" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "9"^^xsd:integer .
+
+cape:file_7ec19d19d8de9f94
+  a prov:Entity ;
+  rdfs:label "mapping_review_group_briefing_top20.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/mapping_review_group_briefing_top20.csv" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "56828"^^xsd:integer ;
+  cape:sha256 "50507d5e9c1518e24e273e4f195a475aa7683423ea8430d7d939f292ff661e5b" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "100"^^xsd:integer .
+
+cape:file_15e81a82dddfb3a5
+  a prov:Entity ;
+  rdfs:label "strong_resegmented_review_preview_summary.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/05_review/strong_resegmented_review_preview_summary.csv" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "623"^^xsd:integer ;
+  cape:sha256 "12f895f7adc572a78b64c9042b030d830abffd467df101e911b0cd349a2600f6" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "1"^^xsd:integer .
+
+cape:file_8e67274e76fedf17
+  a prov:Entity ;
+  rdfs:label "active_review_human_effort_briefing.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.json" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1880"^^xsd:integer ;
+  cape:sha256 "2260a071c5744088e83c8d064d077aae738c15cf524b66745c33645b243bbb89" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e7d98e4b4042c758
+  a prov:Entity ;
+  rdfs:label "active_review_human_effort_briefing.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15523"^^xsd:integer ;
+  cape:sha256 "87b884c8bb3e24ff53244cae1e72c277e55b810b3fc6276bd0d713838dcf2d8f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_7c36863ba91d2993
+  a prov:Entity ;
+  rdfs:label "annotation_batch_review_preview_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.json" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4684"^^xsd:integer ;
+  cape:sha256 "c7ceef1a68d0df28910fae64552626b89dc9b2f870286407f73147bd8fc2c9e5" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1eb4135bccf09710
+  a prov:Entity ;
+  rdfs:label "annotation_batch_review_preview_summary.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.md" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2121"^^xsd:integer ;
+  cape:sha256 "17a90830fd6e93c47f8b1242e5422101e6189ad42b8c2c8303d155c190481675" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8c4f781bcaa1eb09
+  a prov:Entity ;
+  rdfs:label "anonymized_submission_prep.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.json" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "85790"^^xsd:integer ;
+  cape:sha256 "4d071c39568cd9b3cedb66ea7bda52dffaa14520f75e0156a174115c499a6870" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c71184cb19b52d43
+  a prov:Entity ;
+  rdfs:label "anonymized_submission_prep.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17046"^^xsd:integer ;
+  cape:sha256 "5139227f553a9ddeed9a21b9e01ef3f4ad02d5263e43320887ae870963364d5e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_92f2d200ae6f361c
+  a prov:Entity ;
+  rdfs:label "anonymized_submission_risk_scan.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_risk_scan.csv" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "57075"^^xsd:integer ;
+  cape:sha256 "f30387c79748adb3610148c468d95c77a3bfb7609fd29d761ee89d052c8a888c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "200"^^xsd:integer .
+
+cape:file_15dd5bed8209888c
+  a prov:Entity ;
+  rdfs:label "arr_submission_policy_checklist.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13239"^^xsd:integer ;
+  cape:sha256 "e272fd2b3890703630c2e00d3ad32c553e8070c11a02f15ed6a046c4ff743bc6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_d462ad539936bc2b
+  a prov:Entity ;
+  rdfs:label "arr_submission_policy_checklist.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12933"^^xsd:integer ;
+  cape:sha256 "569b07617cc6d866403bb9ba5790474319dba44044f8d879839defb823a6fca2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4ce1cf6e169a910d
+  a prov:Entity ;
+  rdfs:label "claim_gate_report.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "16096"^^xsd:integer ;
+  cape:sha256 "3235308a11ef4581ddc12715eaf96c0d8154a3f417f923cefd2683cdf4a1bc8f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c2d5ab85340caf12
+  a prov:Entity ;
+  rdfs:label "claim_language_guardrails.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "24674"^^xsd:integer ;
+  cape:sha256 "0057536408fcce5f75ecfd47db9a099e1cd9b239d612a403d9dc646d6571f4a6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b49293e6c572dc35
+  a prov:Entity ;
+  rdfs:label "claim_language_guardrails.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "19281"^^xsd:integer ;
+  cape:sha256 "14ab147ab22300ab1c61308a8304d2e48d6709ae6b3b68d6fc28b640b60c44d4" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_62ee09efef5c45d1
+  a prov:Entity ;
+  rdfs:label "claimable_main_table.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8484"^^xsd:integer ;
+  cape:sha256 "005f17132e2ea81a48be93da5af34dfa47a6c038ae84bbdc8d6d8b85711a6480" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3a76b90550be0853
+  a prov:Entity ;
+  rdfs:label "cq_query_pack.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "53053"^^xsd:integer ;
+  cape:sha256 "09d1505bcfaeb4c8a7f9f1fd52277f9d6c90415cfdc2819b747a3b182ba3c22b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2e4903d595bd03d7
+  a prov:Entity ;
+  rdfs:label "cq_query_pack.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "29675"^^xsd:integer ;
+  cape:sha256 "689fe8135194c4093d436f398fdf681d8c4868eb6b0e4a40e95879d23c877518" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_d01b6c0e26d97929
+  a prov:Entity ;
+  rdfs:label "data_release_ethics_statement.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6315"^^xsd:integer ;
+  cape:sha256 "67f9a35aff5c1da5d7a0adde3da01dc002df6343157c7ed2aa9b0bdddac39788" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f90000cee6545382
+  a prov:Entity ;
+  rdfs:label "eacl_plan_compliance_matrix.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "58018"^^xsd:integer ;
+  cape:sha256 "31ee4a6416fb8cf0b91ec0c378fddef36fe08cc6aa281b83bb8e152e6fc3ef3d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4dcc815141c23180
+  a prov:Entity ;
+  rdfs:label "eacl_plan_compliance_matrix.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "34933"^^xsd:integer ;
+  cape:sha256 "3ea4df34bf5fa194afc6cdd634047e5c220f4826241c3324746afa3ac08886ef" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_63d4471911e8274b
+  a prov:Entity ;
+  rdfs:label "eacl_submission_package_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "27348"^^xsd:integer ;
+  cape:sha256 "a377356905b86e14f691191c87c143c9aaec5506e49fd30bbb833d2c57f0aceb" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_15b6c971db1a24f8
+  a prov:Entity ;
+  rdfs:label "eacl_submission_package_manifest.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14120"^^xsd:integer ;
+  cape:sha256 "c0e8fec276c6a96c19b3dd81c9bfd174ba71ccf5898ac04b7973d54d47f8fb73" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_6b79613f000accd9
+  a prov:Entity ;
+  rdfs:label "evaluation_protocol_lock.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "27469"^^xsd:integer ;
+  cape:sha256 "34bf7f8304cc435ec72d8df96b5a05c8ee037dae2a1a6deb6708a52e3f359852" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3ebe8761ae024f64
+  a prov:Entity ;
+  rdfs:label "evaluation_protocol_lock.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "19847"^^xsd:integer ;
+  cape:sha256 "4ef3b2166e4e7ae303c9d858fcef6169b010c20a6a1ee0f2ed14aa3fae77391e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_749f1fe00690d052
+  a prov:Entity ;
+  rdfs:label "experiment_reproduction_card.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "25386"^^xsd:integer ;
+  cape:sha256 "5ecec8fb6c90e324d71f8e5602f6b19705f230bbe8a330a4e312361827095542" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_fe87b20288d4a6ee
+  a prov:Entity ;
+  rdfs:label "experiment_reproduction_card.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13855"^^xsd:integer ;
+  cape:sha256 "aeef4e27c54994085265554fbeded68cb733d4ee7147fb2491b7d3ee60613cc8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4565eb76d39f8b9c
+  a prov:Entity ;
+  rdfs:label "experiment_reproduction_conditions.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6136"^^xsd:integer ;
+  cape:sha256 "a7b960ef88f2fa95e6e153b513bdae503364c6d3dce3ea315a67dcb008128f52" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "14"^^xsd:integer .
+
+cape:file_ad70f5d4ad7f73aa
+  a prov:Entity ;
+  rdfs:label "external_resource_license_report.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.csv" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3710"^^xsd:integer ;
+  cape:sha256 "a84177fb479d33459377209aa2891f1dd7a63102ac3376a7a4b34ec1d98f82e4" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "6"^^xsd:integer .
+
+cape:file_2c16a459a52c6cc0
+  a prov:Entity ;
+  rdfs:label "external_resource_license_report.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6818"^^xsd:integer ;
+  cape:sha256 "4f8ee8f339ab869fbb817e7006ba7d81be2d25652c9e698e49dbb28d5a4311a7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_155bbcf8439def45
+  a prov:Entity ;
+  rdfs:label "external_resource_license_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2807"^^xsd:integer ;
+  cape:sha256 "45631c20380f7a6a1c3c86265f346c6186c022a813294326d137c845e1c435dd" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ce6b314f4b1de441
+  a prov:Entity ;
+  rdfs:label "gold_sampling_coverage_report.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "67903"^^xsd:integer ;
+  cape:sha256 "1488ac713aa247007f12efda9e5a0017dbcc1bd0477f6aae655229bf6f3639ab" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4e308a95cf6e9280
+  a prov:Entity ;
+  rdfs:label "gold_sampling_coverage_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4889"^^xsd:integer ;
+  cape:sha256 "5ecb9186f3545c37de4aa24a10063185355699f9e9d88d383486c723f6f94b4e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_861909c0b2189c19
+  a prov:Entity ;
+  rdfs:label "human_gate_action_plan.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "117002"^^xsd:integer ;
+  cape:sha256 "27b18e20dfb144415322715a22329193e728d6f2bdc93e43daaaed4f727a846b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_076d93230b735ab9
+  a prov:Entity ;
+  rdfs:label "human_gate_action_plan.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "18799"^^xsd:integer ;
+  cape:sha256 "52ab0fa8be977a6914e015fdf768544e336e5a273dcedac7c7d4ba1396d460d7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f25ff36780cfbc68
+  a prov:Entity ;
+  rdfs:label "human_return_apply_last_run.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_last_run.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1417"^^xsd:integer ;
+  cape:sha256 "2d58bd21606df677f577f96c8ec0a75b7b8acb8fa7816dcb624b2de856a19d13" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_055032b8e66ee138
+  a prov:Entity ;
+  rdfs:label "human_return_apply_last_run.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_last_run.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1721"^^xsd:integer ;
+  cape:sha256 "ee1820c7d53e6c59f63b937408250b1a1b3a75b7a84dc5db3fd83e97b8a6174c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_fde53778a60f901f
+  a prov:Entity ;
+  rdfs:label "human_return_apply_refusal_last_run.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_refusal_last_run.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1227"^^xsd:integer ;
+  cape:sha256 "07c3c8a18cf5712ec95092e14167f030ae79c6be213d71280b9e025090a7e9f6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_207161a5aa07151f
+  a prov:Entity ;
+  rdfs:label "human_return_apply_refusal_last_run.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_refusal_last_run.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1146"^^xsd:integer ;
+  cape:sha256 "b67aa0a366246c9200457183542f5bde00b62b2028ce1859f1e1b0fc1e143c04" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_58cd05906f605ca9
+  a prov:Entity ;
+  rdfs:label "README_strong_resegmented_review_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_strong_resegmented_review_ko.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "7314"^^xsd:integer ;
+  cape:sha256 "c3f760ce4bf9f68d07f6e21979448313e251f75993238d5ddbe5aa00ec25f452" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e3db7da032dc1265
+  a prov:Entity ;
+  rdfs:label "cape_active_review_human_effort.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_active_review_human_effort.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:active_review_effort" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "136671"^^xsd:integer ;
+  cape:sha256 "179c683580de5cd72acaeddd68c5fc882e6609bf3c1a8568c5474007da4bf5f1" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2c756608f8940de8
+  a prov:Entity ;
+  rdfs:label "cape_crosswalk_expert_review_ncs_pcf.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_crosswalk_expert_review_ncs_pcf.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:crosswalk_expert" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "120421"^^xsd:integer ;
+  cape:sha256 "36296fd089d95cab4ad3d6e4ecc1a514d2aeb2e31313b9e61a04d4854eade749" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a9158ff944f436ad
+  a prov:Entity ;
+  rdfs:label "cape_human_gold_adjudicator_full120.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_adjudicator_full120.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:adjudicator" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "284553"^^xsd:integer ;
+  cape:sha256 "718e5dfb9954cfa0b510d318f64a976ecda027d14f190bb0e7f22b21fffd3be6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_38b5d48f987cc99e
+  a prov:Entity ;
+  rdfs:label "cape_human_gold_annotator_A_priority100.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_A_priority100.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:annotator_A" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "431579"^^xsd:integer ;
+  cape:sha256 "28d47a6f9b479c054ddbc886fe15f365b8389f6183a34ce7a2170d894704c87e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c6bcb8625421cc31
+  a prov:Entity ;
+  rdfs:label "cape_human_gold_annotator_B_priority100.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_B_priority100.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:annotator_B" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "431580"^^xsd:integer ;
+  cape:sha256 "8ddd97bd64f4d2e0e381abb09ebd0cd46bfa3430a77a8dcc382a9001bb43da85" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_761122cf35e203f7
+  a prov:Entity ;
+  rdfs:label "cape_human_gold_coordinator_priority100.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_coordinator_priority100.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:coordinator" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "679139"^^xsd:integer ;
+  cape:sha256 "26d98f4b8f1a663d940a9287ec4cb17c50004b5cb6b547054c6e522d219b9eca" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_11802cb6ccd6b61b
+  a prov:Entity ;
+  rdfs:label "cape_human_gold_strong_resegmented_342.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_strong_resegmented_342.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:strong_resegmented_review" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1155271"^^xsd:integer ;
+  cape:sha256 "7f5449d1df34fc4ac8c58eb058c4f5b52bcaaab5215cc98dba160841585446e0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3366071685c80845
+  a prov:Entity ;
+  rdfs:label "cape_mapping_expert_review_top20_groups.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_mapping_expert_review_top20_groups.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:mapping_expert" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "148030"^^xsd:integer ;
+  cape:sha256 "838ace64502a71c04b4e9866230d1ab455307aefdd23a7a5b7fc5e0ea96a4329" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a81e66761de24705
+  a prov:Entity ;
+  rdfs:label "cape_structural_review_optional.tar.gz" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_structural_review_optional.tar.gz" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_bundle:structural_reviewer" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "87208"^^xsd:integer ;
+  cape:sha256 "6018d90a8ed5f5a9384cfc9a335553d79000e0512b8edbe45006da15878ab3d3" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_6a9455868cbbc65b
+  a prov:Entity ;
+  rdfs:label "human_review_handoff_checksums.sha256" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1587"^^xsd:integer ;
+  cape:sha256 "4f479bdfd74b3d31feeaefb833d2c47f85625b8979f9f5c3d7c9f046c508aef4" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1884555c3d0b1a47
+  a prov:Entity ;
+  rdfs:label "human_review_handoff_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_manifest.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "16713"^^xsd:integer ;
+  cape:sha256 "614c91d01d0fb4bb86c99ff245a22c07603767af6a70fddc94bcb5502f6c8959" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c19737291c5b74d9
+  a prov:Entity ;
+  rdfs:label "human_review_handoff_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_report.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3374"^^xsd:integer ;
+  cape:sha256 "af63954463605603905be87a450135e48d825623451944b205fac139bd8b2f04" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_17d0820f52072c83
+  a prov:Entity ;
+  rdfs:label "strong_resegmented_review_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/strong_resegmented_review_manifest.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2070"^^xsd:integer ;
+  cape:sha256 "57b59461cc48862fe750804c0fd3beb83dd81b9751a6317a847babad14b0a406" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ce5901576bfd4af7
+  a prov:Entity ;
+  rdfs:label "human_review_launch_checklist_ko.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.json" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "26208"^^xsd:integer ;
+  cape:sha256 "bbfddba80cfaaf012f4387b6bd1b5f2f8640767261edb098c1c081f2db33fad9" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_9b83a8536ce7dd74
+  a prov:Entity ;
+  rdfs:label "human_review_launch_checklist_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12049"^^xsd:integer ;
+  cape:sha256 "7307cda43cdb7bd53060a37dc9f1d7049d934d0f428342adcc8dfdde35f12e1f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2e3a4da628afebb0
+  a prov:Entity ;
+  rdfs:label "human_review_master_checklist_ko.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "38205"^^xsd:integer ;
+  cape:sha256 "928244780a5e513981c5012861c7d33662dd6b3dba52f13263836caad9b177c7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a62d1373359d5075
+  a prov:Entity ;
+  rdfs:label "human_review_master_checklist_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15446"^^xsd:integer ;
+  cape:sha256 "f333cbc4c9c62b759739c9902d89cd1777596129723a73ba4f4c291284174e1d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_9eee05401e95ad32
+  a prov:Entity ;
+  rdfs:label "human_review_packet_integrity.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14261"^^xsd:integer ;
+  cape:sha256 "af5ebe34e75434d9615be4acbda8e83390e6572fb82bb769fd8cfa2f8f5e69f5" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_14590d9134b25bd9
+  a prov:Entity ;
+  rdfs:label "human_review_packet_integrity.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2505"^^xsd:integer ;
+  cape:sha256 "73b9747b9cdfb3163ff7563287b84f1203e60f6930a00522f996ba223a29c014" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_48a5c7f5014a332c
+  a prov:Entity ;
+  rdfs:label "human_review_return_preflight.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "11795"^^xsd:integer ;
+  cape:sha256 "e2f072df41a0c54834d90f42e5ab927559c4dc5033ca4719edc8150a14009e2f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_7a3994c15179b0de
+  a prov:Entity ;
+  rdfs:label "human_review_status_dashboard_ko.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.json" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "36382"^^xsd:integer ;
+  cape:sha256 "932f484c4ed8812f826bd4ae756bcb8708fc0d308b50787e05b39dc1445780e2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_46607b209505b6cd
+  a prov:Entity ;
+  rdfs:label "human_review_status_dashboard_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12146"^^xsd:integer ;
+  cape:sha256 "dabc3c39c6fe7347853c89a9948694d402d6c626e31ae985ac61e8660a99115b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b4c41fb5ab386b59
+  a prov:Entity ;
+  rdfs:label "latest_release_bundle_index.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.json" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "5114"^^xsd:integer ;
+  cape:sha256 "b77341f5ae984238b43d3c056a1fb1f265d78046def3443469832d2f5dc1a020" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f6a01435040a91e8
+  a prov:Entity ;
+  rdfs:label "latest_release_bundle_index.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2061"^^xsd:integer ;
+  cape:sha256 "bf678ea7de283f052e50d0bd96592287165ef879d9e6bd96d6cc5efab7814f2a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_6c4ce561a3a4cb5a
+  a prov:Entity ;
+  rdfs:label "mapping_review_group_briefing.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/mapping_review_group_briefing.json" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "119714"^^xsd:integer ;
+  cape:sha256 "2a416554886de80e01b82b7bfc1658cb3f2e2181e85da2bd0577ddd88eef764b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c06a2eed6f7aeb7c
+  a prov:Entity ;
+  rdfs:label "mapping_review_group_briefing.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/mapping_review_group_briefing.md" ;
+  cape:fileGroup "evaluation_files,human_review_files" ;
+  cape:fileRole "evaluation_or_gate,human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "29653"^^xsd:integer ;
+  cape:sha256 "bd33d8c3f776cab1bb315b3f8f079c56d53ce504f6e5ef2cc2ba54a2140954df" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3c7115d1d05de5ab
+  a prov:Entity ;
+  rdfs:label "method_novelty_positioning.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12832"^^xsd:integer ;
+  cape:sha256 "0c45a6e355b613ae0363ab1c1a8f4e99f5b3ba2a29842bf678ee83d42792ad1c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4af35da7f6c267ca
+  a prov:Entity ;
+  rdfs:label "method_novelty_positioning.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "10144"^^xsd:integer ;
+  cape:sha256 "081913cbee628a3840db92b803aece687eaf06dfc9a524dae8fc55d2a0a21888" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0adbccb45c9eac5b
+  a prov:Entity ;
+  rdfs:label "neo4j_evidence_query_pack.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "10917"^^xsd:integer ;
+  cape:sha256 "5d637e5f4fa307ce7b0281536726254b5e2c5e43d9e763a5f0c593f3c1f8e54c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8725cc2dc0d21797
+  a prov:Entity ;
+  rdfs:label "neo4j_evidence_query_pack.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8410"^^xsd:integer ;
+  cape:sha256 "3d38ba2840047667e1bb32cbb7d2ad0ec6f7324ae991e3b9457f6504a9536faf" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e9a89786949b8784
+  a prov:Entity ;
+  rdfs:label "paper_readiness_checklist.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3104"^^xsd:integer ;
+  cape:sha256 "ba82c7a2aac3f761225d5d13b1afbb23f8d3c7d877e9105479b7a7b2eb0a60a0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_13694048598d36bc
+  a prov:Entity ;
+  rdfs:label "paper_readiness_checklist.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3974"^^xsd:integer ;
+  cape:sha256 "3f78e4a5615f950418834e1b93573f6a9b1b682829ae632a27654c33de1b26f8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_7e24aea24e048b50
+  a prov:Entity ;
+  rdfs:label "paper_section_source_map.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "20915"^^xsd:integer ;
+  cape:sha256 "d55f7832be8c9ca2f78a6176de62531ab7567f5d82652ad8a504e9270ff0e004" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0c4c586cfc55e128
+  a prov:Entity ;
+  rdfs:label "paper_section_source_map.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "9141"^^xsd:integer ;
+  cape:sha256 "8cc9c9e325d44358d76c7cef7880011797ef4d3e392aba4c07c3f1d4a4da859f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_cf54697417e9432f
+  a prov:Entity ;
+  rdfs:label "paper_table_blueprint.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14900"^^xsd:integer ;
+  cape:sha256 "8b36482f74381a4ba95002b0020601008fa13600965ae08e7c6b4e5cce49b52e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b4d496ac40774c20
+  a prov:Entity ;
+  rdfs:label "paper_table_blueprint.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12030"^^xsd:integer ;
+  cape:sha256 "84185da33879db815699066f819ff5f72ef5b107f0a372d26e9808c24940faa7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8e3a3612fa7c046a
+  a prov:Entity ;
+  rdfs:label "paper_tables.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14924"^^xsd:integer ;
+  cape:sha256 "c6574059d5f4f492a4fc0c3a1e9121255b8445e34477c6b96d04823d099b9b1d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a75f2d9abef1879c
+  a prov:Entity ;
+  rdfs:label "post_annotation_refresh_last_run.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/post_annotation_refresh_last_run.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1670"^^xsd:integer ;
+  cape:sha256 "9849e0da76559c067ae7b356f1d71bbc3813cd15aeee70577993bc962554582f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f66621490f8b8636
+  a prov:Entity ;
+  rdfs:label "post_human_scoring_readiness.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "41215"^^xsd:integer ;
+  cape:sha256 "4e34cb0af389697bc1f3421416e33d298b60ceb48e9946888c13e76740226020" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_5cf702031f9ca692
+  a prov:Entity ;
+  rdfs:label "post_human_scoring_readiness.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "7034"^^xsd:integer ;
+  cape:sha256 "a8a492a18583b24fde1c576b0cf2f0070856c450778b26adf927b2b45b229dc7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4b82104da2973baf
+  a prov:Entity ;
+  rdfs:label "pre_human_handoff_validation.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "79600"^^xsd:integer ;
+  cape:sha256 "0d58dda654e32bac9caa4bfed615dfb4c2340bd1faca536470836e1ad6732eda" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8393086616f9a1e7
+  a prov:Entity ;
+  rdfs:label "prompt_node_edge_traceability.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "24271"^^xsd:integer ;
+  cape:sha256 "1737fed8390648670ba3327b4194679d6c397a82f77d40561101908ee1637ca6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0a4a2c59fd2dd1aa
+  a prov:Entity ;
+  rdfs:label "prompt_node_edge_traceability.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13157"^^xsd:integer ;
+  cape:sha256 "c50cc61a6878e69da790753b7063fb69a3bef325ecb63ac09a12257a39309b0a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e691afa5f5f0356c
+  a prov:Entity ;
+  rdfs:label "public_external_release_review_queue.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.csv" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "36"^^xsd:integer ;
+  cape:sha256 "73c63625458ed28a6bf27a71548deb1d7b6abb64b5c76bed20e8b22448b482ce" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "0"^^xsd:integer .
+
+cape:file_fd62e51aba2f6b93
+  a prov:Entity ;
+  rdfs:label "public_external_release_review_queue.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1112"^^xsd:integer ;
+  cape:sha256 "dae577a6200841bc61846c30108f94767b26bf678348c9c008cbfefe2fa414f2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1da7a61e1f8cc576
+  a prov:Entity ;
+  rdfs:label "public_reproducibility_manifest.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.csv" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17173"^^xsd:integer ;
+  cape:sha256 "2da1e869f1c2d4e71e1a797505b55785bf0065ebfa63b4672b89b17489888b5e" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "102"^^xsd:integer .
+
+cape:file_092859a766b760f6
+  a prov:Entity ;
+  rdfs:label "public_reproducibility_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "36569"^^xsd:integer ;
+  cape:sha256 "59251605fedcc76b9d2405d670260f2c1acba0125a99733fd4d9baabb2647db8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8e9bb597989a8cf0
+  a prov:Entity ;
+  rdfs:label "public_reproducibility_manifest.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "19910"^^xsd:integer ;
+  cape:sha256 "02477a7fe458cd5d00761cde9aa6599f54deaa2bc54dbbc0576fc20097a18b57" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_47411e4b7eacc39a
+  a prov:Entity ;
+  rdfs:label "README.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "969"^^xsd:integer ;
+  cape:sha256 "da67b80596de9bc272df8bfcae2b020d43622c5b7c5ecb36483e4f842f751c1a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_256fdd2b7bf3c75c
+  a prov:Entity ;
+  rdfs:label "synthetic_evaluation_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1126"^^xsd:integer ;
+  cape:sha256 "b6bb240cdd930626333a90be4a5d6ac72eadf1b503deee23671cbaa23651e829" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_6a8f9c6ad8dcdaec
+  a prov:Entity ;
+  rdfs:label "qwen3_model_scaling_report.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "11209"^^xsd:integer ;
+  cape:sha256 "4d154fbf91984b1ab665091de9ccc08775151337b7d31ba54f822c16f4e2d149" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_191370a25c05fc53
+  a prov:Entity ;
+  rdfs:label "qwen3_model_scaling_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4752"^^xsd:integer ;
+  cape:sha256 "a0659a6269d112c6085674bcd7efcc5f812d244413efd046bde0ee7d1505e9a8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8e5f0356e9cc9b3e
+  a prov:Entity ;
+  rdfs:label "release_bundle_safety_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2110"^^xsd:integer ;
+  cape:sha256 "3aa50a1f3ac6efb29b42463f4948c759f4b93e8a458194c7277a424751b9f974" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_37f654f195b2b663
+  a prov:Entity ;
+  rdfs:label "reproducibility_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json" ;
+  cape:fileGroup "release_files" ;
+  cape:fileRole "release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "400028"^^xsd:integer ;
+  cape:sha256 "4b5c0925536c2887da09c50ec956e983d9d0a1470feb89a61097d1d1138a649f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e61eda4ff472e7a0
+  a prov:Entity ;
+  rdfs:label "responsible_nlp_checklist_items.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_items.csv" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8934"^^xsd:integer ;
+  cape:sha256 "bd40871ee013d8eb243621de3016351e5c10782853cfad00f0e18129fc20b43c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "10"^^xsd:integer .
+
+cape:file_aaad391896a8c6bd
+  a prov:Entity ;
+  rdfs:label "responsible_nlp_checklist_prep.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.json" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17320"^^xsd:integer ;
+  cape:sha256 "5a5cc928fed2961bbfa94f756088147bc4b2ca12a27e61395bc179bcbb6ca254" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_82699a93052c993d
+  a prov:Entity ;
+  rdfs:label "responsible_nlp_checklist_prep.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.md" ;
+  cape:fileGroup "evaluation_files,release_files" ;
+  cape:fileRole "evaluation_or_gate,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14584"^^xsd:integer ;
+  cape:sha256 "011812f14a9f0a3ce4992c4bdb094383d219ccbd2689cb0e56d8cafed096d4e6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a546e74d0f9c9114
+  a prov:Entity ;
+  rdfs:label "reviewer_response_prep.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "16864"^^xsd:integer ;
+  cape:sha256 "acb2c81fd51d0a3acf55c5d1947689da1b453f5409d19340c69db50c7d1aac4c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ed1191b0238ecec2
+  a prov:Entity ;
+  rdfs:label "reviewer_response_prep.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14814"^^xsd:integer ;
+  cape:sha256 "59ca1834b986ba6c1f531afec8979220443b7b226622443e5981000266833c26" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_04381670fb167d25
+  a prov:Entity ;
+  rdfs:label "reviewer_risk_register.csv" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.csv" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "5689"^^xsd:integer ;
+  cape:sha256 "03e4756533aa3a7fbd963da297c493a030f11d2aba589f2752f3f574970425df" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "13"^^xsd:integer .
+
+cape:file_363aa06e51455233
+  a prov:Entity ;
+  rdfs:label "reviewer_risk_register.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "23051"^^xsd:integer ;
+  cape:sha256 "b5bdf22b085c418283397c3a09d3e60e33956a022557ef50c367e2563efa85dc" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_95c449cac296ae22
+  a prov:Entity ;
+  rdfs:label "reviewer_risk_register.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17456"^^xsd:integer ;
+  cape:sha256 "ce789584bafd3f8706c0e02f9a812bd47914f11f9d2ab115251fddcfc094bdec" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2c25f3bfb6affbc5
+  a prov:Entity ;
+  rdfs:label "rq_evidence_matrix.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15840"^^xsd:integer ;
+  cape:sha256 "448492bbd2543ab4f6b55b6f9beb1d64780c0cbc92884f1a8947acdebd6b5b27" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3fa40639ddd4cfb8
+  a prov:Entity ;
+  rdfs:label "rq_evidence_matrix.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "14252"^^xsd:integer ;
+  cape:sha256 "6db2ca0b9dd31a3aa6a459e5c49ce81b39a7b69fd83f355541e1dc931cf79144" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ee8a9993f27ac8c0
+  a prov:Entity ;
+  rdfs:label "strong_resegmented_review_preview_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2043"^^xsd:integer ;
+  cape:sha256 "ca46f617ace5397065184880523a279bd68634bfd5319ec34c7b73ec821f9ada" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e4791f5bce436664
+  a prov:Entity ;
+  rdfs:label "strong_resegmented_review_preview_summary.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.md" ;
+  cape:fileGroup "human_review_files,release_files" ;
+  cape:fileRole "human_review_handoff,release_or_reproducibility" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1370"^^xsd:integer ;
+  cape:sha256 "7ba613e106ff044e00aaa21e6aa60780ffe6fe34bd41817f948fa6b5d7c643f2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_117f689d7a46238b
+  a prov:Entity ;
+  rdfs:label "strong_return_apply_last_run.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_last_run.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1539"^^xsd:integer ;
+  cape:sha256 "9531b67a024c052b694d4add9a3cb3d9cf71a40575f0bb7b7e51cda0204d9c34" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c59602124f629238
+  a prov:Entity ;
+  rdfs:label "strong_return_apply_last_run.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_last_run.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1429"^^xsd:integer ;
+  cape:sha256 "f675661ce2587a4d0625b664a6fc629893fc15fd0e09b2f2cc507a3ffa0c4494" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3fdb9e143496225e
+  a prov:Entity ;
+  rdfs:label "strong_return_apply_refusal_last_run.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_refusal_last_run.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "891"^^xsd:integer ;
+  cape:sha256 "af249055a99a9a7274f44fb8738b20206985c68334638489e11a30072e256dcc" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_21f36c4d7bceceb7
+  a prov:Entity ;
+  rdfs:label "strong_return_apply_refusal_last_run.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_refusal_last_run.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "877"^^xsd:integer ;
+  cape:sha256 "b70696b38cbf6c94770a8c6d6407a143f9726586675ce7b8fc707a2c5c7b8ca0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0f5f6ca4ed6422d6
+  a prov:Entity ;
+  rdfs:label "strong_review_return_preflight.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3102"^^xsd:integer ;
+  cape:sha256 "ef1cf1864b7b0cdb95445d08caa38c1c0380495db67ae11f370536f322156dd8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_040918254fe8a163
+  a prov:Entity ;
+  rdfs:label "strong_review_return_preflight.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.md" ;
+  cape:fileGroup "human_review_files" ;
+  cape:fileRole "human_review_handoff" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2116"^^xsd:integer ;
+  cape:sha256 "1ed1726b2196e18776cbffcb884a30990eb3a89de7f6e3d692814a6a18a90664" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_eb238535007424b2
+  a prov:Entity ;
+  rdfs:label "submission_completion_audit_ko.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "38758"^^xsd:integer ;
+  cape:sha256 "f4bd7dd4346fde404f1fd8793e0747e7d5e233eae5cc360e9af12fdb6b1ab886" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_668f68128af4e0a8
+  a prov:Entity ;
+  rdfs:label "submission_completion_audit_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "25787"^^xsd:integer ;
+  cape:sha256 "5728bb200061b41ed9234ac4ff9781e7691b986dcbf6aff03daae135b25e18c4" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4595dfe902e82465
+  a prov:Entity ;
+  rdfs:label "submission_readiness_audit.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "44897"^^xsd:integer ;
+  cape:sha256 "650cb93e9a0e86eb8d75ed5fd2dcdf1c92dadbcb228fd3602fdb427a3bfad282" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_dc1b7915eee02337
+  a prov:Entity ;
+  rdfs:label "submission_readiness_audit.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6172"^^xsd:integer ;
+  cape:sha256 "73e86e7b544861343752bcdf7431ccf7a001e632e75f494e87c16b08c236d1b2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_309454ddaf3f4006
+  a prov:Entity ;
+  rdfs:label "submission_timeline_action_board.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "20171"^^xsd:integer ;
+  cape:sha256 "0c3e6c5d503cd2bcdb5a4b82ac11c7717633c9d44ec6e1ff47f952671507e4b8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ca8e1858f09a9335
+  a prov:Entity ;
+  rdfs:label "submission_timeline_action_board.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6133"^^xsd:integer ;
+  cape:sha256 "5b6f1ee217f5dbf76cdc3b5557f16deda1528e3872f1c2c79b589cb31762a571" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c5c30ac79e234705
+  a prov:Entity ;
+  rdfs:label "README_current_reports_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/README_current_reports_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13075"^^xsd:integer ;
+  cape:sha256 "ec6b2523d8c54298375cc06cf829b4c0b2e1b77dd97f0c5c2203b11d377bc84b" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_81e99900580ecbc9
+  a prov:Entity ;
+  rdfs:label "eacl_paper_draft.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "21410"^^xsd:integer ;
+  cape:sha256 "79a365bfe2cfee372f1fda4504c6f8872d4b87545b609dc8b08149ba066d34e2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_1d0272cab54c2671
+  a prov:Entity ;
+  rdfs:label "professor_report_core_brief_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_brief_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "18761"^^xsd:integer ;
+  cape:sha256 "fb3143466ba8e7595bd2023a2f28b15a597733736a0b0c64067624385fdcc7f1" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b2528db9506df053
+  a prov:Entity ;
+  rdfs:label "professor_report_core_briefing_prompt_cq_node_edge_current_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_briefing_prompt_cq_node_edge_current_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "22956"^^xsd:integer ;
+  cape:sha256 "c072178f55bf771e15212ab19be36863b7fa3d4a569efac791b5d582eb3846ee" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_09027d2566ea3a00
+  a prov:Entity ;
+  rdfs:label "professor_report_core_contents_separate_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_contents_separate_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "23857"^^xsd:integer ;
+  cape:sha256 "fa44b4604753b88f532d684dab268b95d1144e8deed22b824a7db5a4e2c25a38" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ae77223c246fc61b
+  a prov:Entity ;
+  rdfs:label "professor_report_core_essentials_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_essentials_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15244"^^xsd:integer ;
+  cape:sha256 "7c1ae403e697a634623174a3df0df047b9835ca4fb1226bab8c039bb7fe351a6" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_05737c278062e692
+  a prov:Entity ;
+  rdfs:label "professor_report_core_essentials_prompt_cq_node_edge_separate_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_essentials_prompt_cq_node_edge_separate_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "23487"^^xsd:integer ;
+  cape:sha256 "32b93fba808c3461b410004baeed9236ba65b1d6b356ea87125ed3f0c1502acf" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_d41f26182c4a5296
+  a prov:Entity ;
+  rdfs:label "professor_report_core_essentials_separate_from_slides_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_essentials_separate_from_slides_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "20370"^^xsd:integer ;
+  cape:sha256 "38a338530e635d462dd8834dcd8799ddcd2f256aaa5303af187cc3fadef61ef9" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_39f66520b5bb5c1a
+  a prov:Entity ;
+  rdfs:label "professor_report_core_separate_summary_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_separate_summary_prompt_cq_node_edge_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "24350"^^xsd:integer ;
+  cape:sha256 "840d018f8d7fb69e164445ead7ad6e0ebc2ce9fc00d6258185e6c84954145af5" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_739dc242f5ffe620
+  a prov:Entity ;
+  rdfs:label "professor_report_core_summary_current_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "20172"^^xsd:integer ;
+  cape:sha256 "ac7b1a63eee2f27016e3e79f0bc8ef79767466ece5aac12190b217ae1777b9c2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2396b4be1120db41
+  a prov:Entity ;
+  rdfs:label "professor_report_core_summary_current_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17526"^^xsd:integer ;
+  cape:sha256 "d68b4ec3f573e0b09f3633ed2307990c271e1c04937cdac70cb9cdb6c7f5dec0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_c192458ad261d1ee
+  a prov:Entity ;
+  rdfs:label "professor_report_core_summary_separate_from_slides_latest_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_separate_from_slides_latest_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "22425"^^xsd:integer ;
+  cape:sha256 "7dd77f1a73e0e3b7842c4cb54a025c7c8014f1a3e96fd1445de8716ac3da7fed" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_7e3341ca558d75d3
+  a prov:Entity ;
+  rdfs:label "professor_report_core_summary_separate_from_slides_sync4_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_separate_from_slides_sync4_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "16905"^^xsd:integer ;
+  cape:sha256 "d3698730dece1ed8136e6cbb2baf0714a79d20b2463285e9c2f0597d19fb6916" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_20248768a0e09695
+  a prov:Entity ;
+  rdfs:label "professor_report_key_content_only_prompt_cq_node_edge_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_key_content_only_prompt_cq_node_edge_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "19149"^^xsd:integer ;
+  cape:sha256 "009b332e9a26ae1e0ba0d9148faf8b1f89d38c9b697f8589fcfa9503385c5f92" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_398db34401916425
+  a prov:Entity ;
+  rdfs:label "professor_report_key_summary_separate_from_slides_20260629_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_key_summary_separate_from_slides_20260629_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "21842"^^xsd:integer ;
+  cape:sha256 "48ee170aae930dacd5a684c814b20a66917e9e9bcc8f80ccefee49cf96782d13" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a61c43a3f6ded1b9
+  a prov:Entity ;
+  rdfs:label "professor_report_slide_contents_current_20260628_ko.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/07_reports/professor_report_slide_contents_current_20260628_ko.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "61204"^^xsd:integer ;
+  cape:sha256 "26a10ec851ebba108576682318d92a205715a4234af4b7afb3a3fcbb2ab485d2" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_62ab30c2d075770a
+  a prov:Entity ;
+  rdfs:label "public_benchmark_adapter_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_adapter_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1857"^^xsd:integer ;
+  cape:sha256 "2aa5dea3308838f0d82f6e99838f599a137f0203af1d563809fd33dabf8bab55" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_b233a35da310780d
+  a prov:Entity ;
+  rdfs:label "public_benchmark_crosscheck_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1379"^^xsd:integer ;
+  cape:sha256 "534fec4e256509b8490df4b12877c24b553d5c66607fc261760dd166d2284541" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_848489a028a45d44
+  a prov:Entity ;
+  rdfs:label "public_benchmark_crosscheck_summary.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3839"^^xsd:integer ;
+  cape:sha256 "de5b64ae0cb6ca0b9783ba1ba53fcc4015d6ddb0781952664fb73931a79288eb" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_72c6989e4e4c5981
+  a prov:Entity ;
+  rdfs:label "public_benchmark_manifest.json" ;
+  cape:path "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_manifest.json" ;
+  cape:fileGroup "source_files,evaluation_files" ;
+  cape:fileRole "public_benchmark_manifest,evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17745"^^xsd:integer ;
+  cape:sha256 "11cbc2bf1a70f87b4fe2c960fd331503a05dadc0e14c68ab4fd2ef87b5d7c2e0" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_049d12609a3ce51e
+  a prov:Entity ;
+  rdfs:label "45_llama2_13b_chat_tool_extractions_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/45_llama2_13b_chat_tool_extractions_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "28328"^^xsd:integer ;
+  cape:sha256 "59ecab3ad663e495e8dcfdf256a1da0569890d59c8a38e9cb61aad928e5f291b" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "10"^^xsd:integer .
+
+cape:file_6761bf55a4d0c0e7
+  a prov:Entity ;
+  rdfs:label "45_llm_tool_extractions_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/45_llm_tool_extractions_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "393488"^^xsd:integer ;
+  cape:sha256 "88ebd48eedcf7e3edb221a1397aad3cc12e2ca4a7bc2f15d8ef75e0ec60c316e" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "120"^^xsd:integer .
+
+cape:file_ebb1d331ec7e8492
+  a prov:Entity ;
+  rdfs:label "46_llama2_13b_chat_tool_extractions_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/46_llama2_13b_chat_tool_extractions_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "7536"^^xsd:integer ;
+  cape:sha256 "af3521b75101e32d2a5c5fa2beefacc72d102d037d2270e98fa756caf9dfc8fc" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "10"^^xsd:integer .
+
+cape:file_8b8cac427273d6e9
+  a prov:Entity ;
+  rdfs:label "46_llm_tool_extractions_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/46_llm_tool_extractions_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "77192"^^xsd:integer ;
+  cape:sha256 "31afec6f6892d13507fa9b006c5159a898db20b4bf7e25a4c75c2d5b0217d37e" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "120"^^xsd:integer .
+
+cape:file_9f67fb9539685fa1
+  a prov:Entity ;
+  rdfs:label "47_llama2_13b_chat_tool_extractions_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/47_llama2_13b_chat_tool_extractions_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "974"^^xsd:integer ;
+  cape:sha256 "a1e4e82ea1f30010f39b4af4eea893b67174ad521a8b166e1afeb0a1555fa284" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_29e93f18e2b0d269
+  a prov:Entity ;
+  rdfs:label "48_qwen3_14b_core_conditions_120_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_14b_core_conditions_120_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1899043"^^xsd:integer ;
+  cape:sha256 "af469ec084d962abe63dcdc2e3bcd776e58dd409bc13d63475796f89c253d6b5" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "480"^^xsd:integer .
+
+cape:file_79870a2ea3146cbc
+  a prov:Entity ;
+  rdfs:label "48_qwen3_14b_core_conditions_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_14b_core_conditions_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "38682"^^xsd:integer ;
+  cape:sha256 "07f04096f3e53f197a375bb460656dc3b0d86a6b7ef39477579a796700d753d2" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_26256bdcb3ca408e
+  a prov:Entity ;
+  rdfs:label "48_qwen3_32b_awq_core_120_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_32b_awq_core_120_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1859330"^^xsd:integer ;
+  cape:sha256 "f3da9cf13600860075a8742a9c1a1887120a515e02846efbb24f23091d968f4c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "480"^^xsd:integer .
+
+cape:file_31f0c30582da362b
+  a prov:Entity ;
+  rdfs:label "48_qwen3_32b_awq_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_32b_awq_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "23121"^^xsd:integer ;
+  cape:sha256 "f60006f19373d9acb513bb97f39743ddf49b96d8a25fa9f023703112d3455c0f" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "8"^^xsd:integer .
+
+cape:file_6fae08e7ad82d5b4
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_b2_b4_condition_baselines_120_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_b2_b4_condition_baselines_120_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "940370"^^xsd:integer ;
+  cape:sha256 "d0dafcae37b954f26963e90a8cd3444a478aa58558263e09951ae626099b1736" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "240"^^xsd:integer .
+
+cape:file_bd3c00ad50f2b9df
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_b2_b4_condition_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_b2_b4_condition_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "26728"^^xsd:integer ;
+  cape:sha256 "0b1ec68dd962c784a6ce654c29eb7662649b7962642598d145a8699ab95135ec" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "10"^^xsd:integer .
+
+cape:file_5be1dab695d1ee4c
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_cape_ablation_120_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_cape_ablation_120_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2929352"^^xsd:integer ;
+  cape:sha256 "20b1123940fd706de608768791cccf3658bc6246f0abe3dc3c63334119ee685b" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "720"^^xsd:integer .
+
+cape:file_ecbe5edb9fc735b7
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_cape_ablation_smoke_limited_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_cape_ablation_smoke_limited_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "41667"^^xsd:integer ;
+  cape:sha256 "d2f1bea8bcea13cbd5b1ffedbab7ec3feb2a887a93293c9f5ff4018ba4e77087" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_3f7d4d7178e1858f
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_cape_ablation_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_cape_ablation_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "34990"^^xsd:integer ;
+  cape:sha256 "175585a08232f7be28720e1a2f3a9de09145292b448a6ea3a297c7b316a9c8d2" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_07d29e2adbac0274
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_condition_baselines_120_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_condition_baselines_120_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1359985"^^xsd:integer ;
+  cape:sha256 "3c579b7a05f2e44a8fbd36595ac11e2cd41c75daa99f77bda43e4c7b4465ba4c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_09074e11e77d1610
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_condition_baselines_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_condition_baselines_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "64590"^^xsd:integer ;
+  cape:sha256 "6c7ca36662b5a721b3c983e3c05e8a6a2800c667a81ac1cf5ef522506779e4dd" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "30"^^xsd:integer .
+
+cape:file_597cc7f9928bb23b
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_edc_schema_ablation_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_edc_schema_ablation_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1025919"^^xsd:integer ;
+  cape:sha256 "f16acf6d327c61178a29e3d17a7dc02dc49ae44e03f7b11cf473ef44ad097c9f" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "240"^^xsd:integer .
+
+cape:file_f7f55d54358aa70f
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_edc_schema_ablation_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_edc_schema_ablation_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "13284"^^xsd:integer ;
+  cape:sha256 "936d95a95f378b5448622aea13c1c5336106a7e22d89dac2e83b8216c692b5fd" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "4"^^xsd:integer .
+
+cape:file_c1d04462af57cd18
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_1200_full_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_1200_full_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8307150"^^xsd:integer ;
+  cape:sha256 "8f0afe8b048404b4b06d3ec71365764f3255a45e4f4e089ece56ce2387acbd85" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "1560"^^xsd:integer .
+
+cape:file_eeaffdbdf888f8a5
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_contract_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_contract_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "68455"^^xsd:integer ;
+  cape:sha256 "8128c219804b23c84f5030171f63716a6720b0d5d2cad5b4ffe67ef1ecc5c899" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_1beec428e0b50293
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_nothink_1200_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_nothink_1200_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "39633"^^xsd:integer ;
+  cape:sha256 "c2ed9ce3699591536ad7a838502331be0139e5b8c40f00abe29fc8f997d8632d" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "8"^^xsd:integer .
+
+cape:file_813dd3c24ea6e11a
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_nothink_smoke_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_nothink_smoke_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "68318"^^xsd:integer ;
+  cape:sha256 "65c5c64449e69e93c90a36c5adecfd9ecb219b87be68da58d0cb8ff4a36e263a" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_1b8ad2f2ec014bf8
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_warn_top3_full_1200_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_full_1200_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2085051"^^xsd:integer ;
+  cape:sha256 "baddfe09aa38eecef260002734e6ca70c94392da19e4c1e577ca0761bfb50453" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_e488ccccd30c19a0
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_warn_top3_full_2400_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_full_2400_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2956948"^^xsd:integer ;
+  cape:sha256 "3f377d353062a9c2f90908ae1cf118eb60e3eb99330b0e721984c84158ea9ab1" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_0caaac7dbaecb324
+  a prov:Entity ;
+  rdfs:label "48_qwen3_8b_strict_json_warn_top3_smoke_1200_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_smoke_1200_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "44244"^^xsd:integer ;
+  cape:sha256 "c3c6d674eca3d933a41b3082dfcafaa9ab8c1997e87cfa4abee05a831b2ca11c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_32302cae9c8cb004
+  a prov:Entity ;
+  rdfs:label "48_sac_kg_verifier_pruner_baseline_raw.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/48_sac_kg_verifier_pruner_baseline_raw.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_raw_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "481267"^^xsd:integer ;
+  cape:sha256 "11a17f3ffe0c87e87ae40b9b4f2099cb491213f7c376c86290ccd2ce45a3f00f" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "120"^^xsd:integer .
+
+cape:file_1b553d9e02d9f499
+  a prov:Entity ;
+  rdfs:label "49_qwen3_14b_core_conditions_120_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_14b_core_conditions_120_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "611457"^^xsd:integer ;
+  cape:sha256 "d831225e535835c8f44f77df98b6126e757963ec2f7bb462911f996849b04e61" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "480"^^xsd:integer .
+
+cape:file_a004ab46893b5ece
+  a prov:Entity ;
+  rdfs:label "49_qwen3_14b_core_conditions_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_14b_core_conditions_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "12966"^^xsd:integer ;
+  cape:sha256 "8e619498e871a48181a3a898b1160f21d8564ef395942b2b103ea0a3e8001768" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_4ea2044da6e0647f
+  a prov:Entity ;
+  rdfs:label "49_qwen3_32b_awq_core_120_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_32b_awq_core_120_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "598007"^^xsd:integer ;
+  cape:sha256 "92d3e17c4847c4a063839b62e22d9f86b35fd60ca1f812d6b929138f34e091f1" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "480"^^xsd:integer .
+
+cape:file_cbfcb18edeb30bab
+  a prov:Entity ;
+  rdfs:label "49_qwen3_32b_awq_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_32b_awq_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8559"^^xsd:integer ;
+  cape:sha256 "71f87a93a72b08b5a5999fe4b7124cd370bd2e31e9ae3bf9fc697ca9484c4781" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "8"^^xsd:integer .
+
+cape:file_46e54318280f78aa
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_b2_b4_condition_baselines_120_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_b2_b4_condition_baselines_120_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "275348"^^xsd:integer ;
+  cape:sha256 "4ef7a39dfb8a1a0e6871d436ca12b8d3c8fd395e67fb81ffb38621e451b9a39c" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "240"^^xsd:integer .
+
+cape:file_6b2d38da63e8d3bf
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_b2_b4_condition_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_b2_b4_condition_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "5782"^^xsd:integer ;
+  cape:sha256 "8fc85bd50b03a805b706fdb6ca9c8a7db5a0bb45f30f52f7d582d8810ad06a4e" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "10"^^xsd:integer .
+
+cape:file_71830e7b8c68291a
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_cape_ablation_120_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_120_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1021348"^^xsd:integer ;
+  cape:sha256 "13a28e13e268ea99e8ffc60361c18f914af2520e70381e3220ce3a59f42940ae" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "720"^^xsd:integer .
+
+cape:file_b03f1de59e853fe8
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_cape_ablation_smoke_limited_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_smoke_limited_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "8494"^^xsd:integer ;
+  cape:sha256 "cd81979c7b3b66ea32f07550cdb1b44198c6d2eaf1d80a756401681ecc612001" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_635254e438e60206
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_cape_ablation_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4312"^^xsd:integer ;
+  cape:sha256 "6fcb317b71e7b39420d32ee28b807a4f567c14cbacfbef6b91898d869e282ec0" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_7d393ddd9872d541
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_condition_baselines_120_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_condition_baselines_120_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "481286"^^xsd:integer ;
+  cape:sha256 "9f2c442bfc12a28d77cc6bf62144cbaa0966bf9c8a02a69aa89b5add98bbbfcf" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_42ea73adf98553b7
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_condition_baselines_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_condition_baselines_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "17003"^^xsd:integer ;
+  cape:sha256 "d8f4f215412605fd4eb03b061d59a7e0c5ed3bcbe87cc08f982603f69ddb553a" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "30"^^xsd:integer .
+
+cape:file_20cd83b660047e77
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_edc_schema_ablation_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_edc_schema_ablation_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3861"^^xsd:integer ;
+  cape:sha256 "8526eab38623f4a326f9687eb2e2a1e311f38dbb23c7056012cb0145132c9885" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "4"^^xsd:integer .
+
+cape:file_85bb598834a80890
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_edc_schema_ablation_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_edc_schema_ablation_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "261060"^^xsd:integer ;
+  cape:sha256 "d4c96d98fc4f6c103d5dff91ad7c7a9e3b85bff460754884f5849497c16a0460" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "240"^^xsd:integer .
+
+cape:file_a61d0e9648ef31d2
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_1200_full_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2917290"^^xsd:integer ;
+  cape:sha256 "186ee95887d4549824784684d6321c2e47f812cd19bec67f497dfe6049ae4091" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "1560"^^xsd:integer .
+
+cape:file_ec70ff41ef40425a
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_contract_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_contract_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "25199"^^xsd:integer ;
+  cape:sha256 "fd5730f25211f89ec6c8c842cf2a85e4122725baba8886511264c3694d8391f4" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_118ad413e814d689
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_nothink_1200_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_nothink_1200_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15470"^^xsd:integer ;
+  cape:sha256 "f3a1e6c1f435fa12ab8501dff65ae5d13d80d58f9f6aba4b2d7511da44430ed8" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "8"^^xsd:integer .
+
+cape:file_4ae0ae53741ee723
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_nothink_smoke_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_nothink_smoke_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "24939"^^xsd:integer ;
+  cape:sha256 "f60eea428644448e4ae0919455558258209f50f4d1a79215406d170f9e7faf19" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "16"^^xsd:integer .
+
+cape:file_4d332f8d3255e5cd
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_warn_top3_full_1200_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_full_1200_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "712455"^^xsd:integer ;
+  cape:sha256 "ff9bd6a3f787419ea9f011a7ce82ac22bf50dd647ef0bc618ffe1d78f85f1a10" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_a5f58f526ea788c1
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_warn_top3_full_2400_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_full_2400_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1077251"^^xsd:integer ;
+  cape:sha256 "2be44f0be488b62fd4c5c471dac2b49bbf30b0970338bbe093fef765244daf9d" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "360"^^xsd:integer .
+
+cape:file_4794f8547126997c
+  a prov:Entity ;
+  rdfs:label "49_qwen3_8b_strict_json_warn_top3_smoke_1200_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_smoke_1200_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15511"^^xsd:integer ;
+  cape:sha256 "ef3ee4f202b35deff237f972b53e7cafeef086e28da60f69f7d73de84477b4c8" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "12"^^xsd:integer .
+
+cape:file_d8656ec3040923e8
+  a prov:Entity ;
+  rdfs:label "49_sac_kg_verifier_pruner_baseline_valid.jsonl" ;
+  cape:path "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_validated_output" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "425795"^^xsd:integer ;
+  cape:sha256 "0df95f557a3b511b09df7e4ca8fdced8756d6933bb38bc207adefaa24a8eb087" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "120"^^xsd:integer .
+
+cape:file_b7b9fee90fa5222e
+  a prov:Entity ;
+  rdfs:label "50_qwen3_14b_core_conditions_120_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_14b_core_conditions_120_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6290"^^xsd:integer ;
+  cape:sha256 "ed5354b6013822b7122e502cc80fd94d8dbe8ad4db824a7019e9c6a8ca0f5c21" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2c40ffdbbe3c777a
+  a prov:Entity ;
+  rdfs:label "50_qwen3_14b_core_conditions_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_14b_core_conditions_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1262"^^xsd:integer ;
+  cape:sha256 "a445fe7b8f3ef48b2fa241bf3ff1b684ebf7b7bf70b116e55be8c1bd6139d0ec" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_042e591ebc1fb975
+  a prov:Entity ;
+  rdfs:label "50_qwen3_32b_awq_core_120_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_32b_awq_core_120_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "6328"^^xsd:integer ;
+  cape:sha256 "88b659b8b8b3504fa8d81e9d397ae4787b79f4730f4480306dc162edf6288411" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_89ae47f75cff78a9
+  a prov:Entity ;
+  rdfs:label "50_qwen3_32b_awq_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_32b_awq_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "930"^^xsd:integer ;
+  cape:sha256 "c10bbd00f832b2a0d28381f614316b07f5b3d001eea6ddae370c0af61fae100c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_89b81c58f5d580f7
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_b2_b4_condition_baselines_120_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_b2_b4_condition_baselines_120_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "842"^^xsd:integer ;
+  cape:sha256 "ab113982757a3c132a211aed6a627a5bc5e80666c0fff9b21ae4434b5854d456" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_527a1fa3e40e66cc
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_b2_b4_condition_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_b2_b4_condition_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "867"^^xsd:integer ;
+  cape:sha256 "ff57961b75c08340255f9fe53ac55bcfb144858d445740da2a480ceee9b9465a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_876b33b10be65520
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_cape_ablation_120_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_cape_ablation_120_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1681"^^xsd:integer ;
+  cape:sha256 "42fbfc5e3c8f8778bdfe7dfce2d8567e0376cccd263f201db79cf8449bc8bd79" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4360c34e4d8bfb42
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_cape_ablation_smoke_limited_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_cape_ablation_smoke_limited_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1416"^^xsd:integer ;
+  cape:sha256 "cd95e87672c95192af126e6ac0446ad628fafef9e0ea02d47a0c4b87868c252e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ae353b41024cbd3b
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_cape_ablation_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_cape_ablation_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1392"^^xsd:integer ;
+  cape:sha256 "0dbc1415c10f5ad766ac82af988e3bd1c7f4749a66bac60a243ada3ac1711524" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_3096053b51f3a7a6
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_condition_baselines_120_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_condition_baselines_120_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1038"^^xsd:integer ;
+  cape:sha256 "516377a7750a5539a481533f1d2e18ef8e6c0da4da64fb41b56f620951e88135" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4d0a79c1055e6029
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_condition_baselines_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_condition_baselines_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "937"^^xsd:integer ;
+  cape:sha256 "f90eb83eb8bd58c0d89864349e82d3f9e631e9bcd63e3704879f4e17c78e1c7a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_f9df8cdc188434d9
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_edc_schema_ablation_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_edc_schema_ablation_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "815"^^xsd:integer ;
+  cape:sha256 "47841330ac7f391fdf485fc51c7e0ee7e02775b60f24de764dbddbd657965b68" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_ecfff24f8d50ad8a
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_edc_schema_ablation_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_edc_schema_ablation_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "943"^^xsd:integer ;
+  cape:sha256 "afa48774efb5e953211a1297535d6a1d1694d77ac0be78b5366af23c82a9f798" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a192ffdb4b2677e6
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_1200_full_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_1200_full_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "25126"^^xsd:integer ;
+  cape:sha256 "2fc2fb613fff6fb3cd160d6ff646f3e9f1de234cd4445fdceb39d694a33a5534" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_642bc2aeee9a89f4
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_contract_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_contract_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1301"^^xsd:integer ;
+  cape:sha256 "474307a4b630464885a2f5a6ecb971fd37fea4dde6ad01f67757aba6ee659b69" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_68b82e7e0321e081
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_nothink_1200_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_nothink_1200_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1309"^^xsd:integer ;
+  cape:sha256 "d01ccd01c0ce2bb8963e4cc810061d0dcf31b073a04567c3b6883cfd3baf0f3c" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_fe0e897f9e66dc29
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_nothink_smoke_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_nothink_smoke_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1298"^^xsd:integer ;
+  cape:sha256 "e6eb515126a851a6c4dd95bb906ecd37c6dada81c2a10de350c5067eef52faf7" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_2eb3d3580a96b126
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_warn_top3_full_1200_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_full_1200_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "10450"^^xsd:integer ;
+  cape:sha256 "1d3d0380e6a56634bfdc503c5593635f1275ab66e143f34875fd5fa7dd5d51fe" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_026609a95cb823a0
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_warn_top3_full_2400_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_full_2400_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "10438"^^xsd:integer ;
+  cape:sha256 "7718857667f6157f3615208f524245b37f228e4c58615ad113751e92679b730e" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_d1661b01ef1c8102
+  a prov:Entity ;
+  rdfs:label "50_qwen3_8b_strict_json_warn_top3_smoke_1200_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_smoke_1200_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1159"^^xsd:integer ;
+  cape:sha256 "87978b35dbfbc0418663ae7090590acb275949f7955500a8e06b0a3485b59e7f" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_66fa6793a8778434
+  a prov:Entity ;
+  rdfs:label "50_sac_kg_verifier_pruner_baseline_quality_report.md" ;
+  cape:path "experiments/cape_kg_eacl_20260627/50_sac_kg_verifier_pruner_baseline_quality_report.md" ;
+  cape:fileGroup "llm_run_files" ;
+  cape:fileRole "llm_quality_report" ;
+  cape:required "false"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "827"^^xsd:integer ;
+  cape:sha256 "a516fecdce160ec6d80cb94fab1435c278ecab303fec4bae45f5b7b9d92df60d" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_a47c09d2150b63ac
+  a prov:Entity ;
+  rdfs:label "data_manifest.json" ;
+  cape:path "outputs/00_manifest/data_manifest.json" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "data_manifest" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "16391"^^xsd:integer ;
+  cape:sha256 "11bf7594c0df6fa2d60f4201a3951f41fb3f4e7381a14fcfa54754c73bec2428" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_767476d326f00551
+  a prov:Entity ;
+  rdfs:label "layer1_ncs_nodes.jsonl" ;
+  cape:path "outputs/01_layer1/layer1_ncs_nodes.jsonl" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "layer1_ncs_nodes" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2692452"^^xsd:integer ;
+  cape:sha256 "bffe3bba938e54626b8eb715292f6ec85a78772667cdc20dc827ff9f45d8a3e3" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "4109"^^xsd:integer .
+
+cape:file_f238704a3ef41111
+  a prov:Entity ;
+  rdfs:label "layer1_pcf_nodes.jsonl" ;
+  cape:path "outputs/01_layer1/layer1_pcf_nodes.jsonl" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "layer1_pcf_nodes" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3610251"^^xsd:integer ;
+  cape:sha256 "b3b6f0c8528daa2b20980ed9756796a3a67e71c45ef6dc3340dd8b7c0a8777c8" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "5301"^^xsd:integer .
+
+cape:file_4c33bbdd11cac3de
+  a prov:Entity ;
+  rdfs:label "document_structure_reviewed.json" ;
+  cape:path "outputs/02_ocr/document_structure_reviewed.json" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "ocr_structure" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "161394"^^xsd:integer ;
+  cape:sha256 "455c1c0c9376872643fc6d59ad972b04a9a0bce08577a5d476b823939ebd4f6a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_e738366760f820ab
+  a prov:Entity ;
+  rdfs:label "layer2_chunks.jsonl" ;
+  cape:path "outputs/02_ocr/layer2_chunks.jsonl" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "layer2_chunks" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1006690"^^xsd:integer ;
+  cape:sha256 "5686d68a8ccf8dca4abc3b99b84de63716be96e8ec40927f9407a290f52fb968" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "214"^^xsd:integer .
+
+cape:file_bd6299beffce6361
+  a prov:Entity ;
+  rdfs:label "ocr_sentences_clean.jsonl" ;
+  cape:path "outputs/02_ocr/ocr_sentences_clean.jsonl" ;
+  cape:fileGroup "source_files" ;
+  cape:fileRole "evidence_sentence_anchors" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "3198719"^^xsd:integer ;
+  cape:sha256 "20911538dcbdad8e200d90fa72cadf9259670ed333b831d1a2c4aef3e4c4214d" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "5009"^^xsd:integer .
+
+cape:file_cf839a550c71b98c
+  a prov:Entity ;
+  rdfs:label "allowed_predicates.json" ;
+  cape:path "outputs/03_schema/allowed_predicates.json" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "506"^^xsd:integer ;
+  cape:sha256 "f1f89380f24c7cabb4546a74ed947fc849f5790f91cb043d87eb542d5d14f5e8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_834c47cc62adc9da
+  a prov:Entity ;
+  rdfs:label "competency_questions.json" ;
+  cape:path "outputs/03_schema/competency_questions.json" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2303"^^xsd:integer ;
+  cape:sha256 "5d5ad4935c2c558adedb5629f2a5901553d2add58f139f3be1c04124e6be55c1" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_59ffecd06b31df4e
+  a prov:Entity ;
+  rdfs:label "domain_range_constraints.json" ;
+  cape:path "outputs/03_schema/domain_range_constraints.json" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2691"^^xsd:integer ;
+  cape:sha256 "eb260124a4feebeff02aab4d381242161457ae9cf810c066af0a1bb08a201293" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_31af03eea3056c25
+  a prov:Entity ;
+  rdfs:label "layer2_schema.json" ;
+  cape:path "outputs/03_schema/layer2_schema.json" ;
+  cape:fileGroup "prompt_and_schema_files" ;
+  cape:fileRole "schema_or_cq" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1164"^^xsd:integer ;
+  cape:sha256 "4d222ece9cec3f3ccf1cb6eee352447153538fe7e0f17968a47df39e1de94863" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4b8fa1350811e0d2
+  a prov:Entity ;
+  rdfs:label "manifest.json" ;
+  cape:path "outputs/11_neo4j_import/manifest.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1475"^^xsd:integer ;
+  cape:sha256 "6ad94a04ddb2928cd96b479c826506a4d76797e07b2c0663c347e56af536b405" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_0fbde14431df3a0c
+  a prov:Entity ;
+  rdfs:label "neo4j_csv_validation_report.json" ;
+  cape:path "outputs/11_neo4j_import/neo4j_csv_validation_report.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15647"^^xsd:integer ;
+  cape:sha256 "2ca33d5033a262565d1f1db70bd932f8c0b4205cfa117e4e611e359db106e256" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_d046afac1df395d9
+  a prov:Entity ;
+  rdfs:label "manifest.json" ;
+  cape:path "outputs/11_neo4j_import_flat/manifest.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1479"^^xsd:integer ;
+  cape:sha256 "845ed71bdce549f040e0a95607b0d7c9e7e1bea9c8159f816f6fc21037f9f4da" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_41f99384b2eda1c3
+  a prov:Entity ;
+  rdfs:label "neo4j_csv_validation_report.json" ;
+  cape:path "outputs/11_neo4j_import_flat/neo4j_csv_validation_report.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "15499"^^xsd:integer ;
+  cape:sha256 "0031af04ce44c640294497b437bee8219ce280843f11c7c25e15c4a406c7bab8" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_5e82d4faeca78182
+  a prov:Entity ;
+  rdfs:label "neo4j_evidence_queries.cypher" ;
+  cape:path "outputs/11_neo4j_import_flat/neo4j_evidence_queries.cypher" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "4954"^^xsd:integer ;
+  cape:sha256 "26c2c4dd0eba2e3d852207fd6855f6791981cee38cfd875c818085759d387895" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_5307d86f7f57b0d4
+  a prov:Entity ;
+  rdfs:label "evidence_anchor_nodes.jsonl" ;
+  cape:path "outputs/13_evidence_graph/evidence_anchor_nodes.jsonl" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "225323"^^xsd:integer ;
+  cape:sha256 "fcceee05ca64281027c0d4c691b6b62af86a88061ee2a17260b4b1e0656401d6" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "451"^^xsd:integer .
+
+cape:file_110dcc72b649c2c1
+  a prov:Entity ;
+  rdfs:label "evidence_graph_projection_report.md" ;
+  cape:path "outputs/13_evidence_graph/evidence_graph_projection_report.md" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1638"^^xsd:integer ;
+  cape:sha256 "e7dbc0835a8c7505a249be614dfc9b983c14982dcb3405f815bd4877e4841115" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_4cd25a5c9d65aff5
+  a prov:Entity ;
+  rdfs:label "evidence_graph_projection_summary.json" ;
+  cape:path "outputs/13_evidence_graph/evidence_graph_projection_summary.json" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "1603"^^xsd:integer ;
+  cape:sha256 "861843745a481b47c8cf3a3dc71acbfb78fe0dad393a6e1ee743f88ecaee2e4a" ;
+  prov:wasAttributedTo cape:pipeline_agent .
+
+cape:file_8dedd3cc816c03e2
+  a prov:Entity ;
+  rdfs:label "evidenced_by_edges.jsonl" ;
+  cape:path "outputs/13_evidence_graph/evidenced_by_edges.jsonl" ;
+  cape:fileGroup "evaluation_files" ;
+  cape:fileRole "evaluation_or_gate" ;
+  cape:required "true"^^xsd:boolean ;
+  cape:exists "true"^^xsd:boolean ;
+  cape:byteSize "2227213"^^xsd:integer ;
+  cape:sha256 "bf6102dce0b95c0ffdb4c11b369c49ef96e7e47307338ae3b334a5a3a21f5888" ;
+  prov:wasAttributedTo cape:pipeline_agent ;
+  cape:recordCount "3915"^^xsd:integer .
+
+cape:activity_80d0ae92a8276aca
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "llama2_13b_chat_tool_extractions" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "llama2_13b_chat_tool_extractions" ;
+  cape:rawRows "10"^^xsd:integer ;
+  cape:validRows "10"^^xsd:integer ;
+  cape:parseErrorRows "2"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--meta-llama--Llama-2-13b-chat-hf/snapshots/a2cb7a712bb6e5e736ca7f8cd98167f81a0b5bd8\": 10}" ;
+  prov:startedAtTime "2026-06-27T16:22:08.366013+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T16:25:44.902708+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_2d7817a7cb6283b1 ;
+  prov:generated cape:file_049d12609a3ce51e ;
+  prov:generated cape:file_ebb1d331ec7e8492 ;
+  prov:generated cape:file_9f67fb9539685fa1 .
+
+cape:activity_65bc14da69d69e2d
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "llm_tool_extractions" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "llm_tool_extractions" ;
+  cape:rawRows "120"^^xsd:integer ;
+  cape:validRows "120"^^xsd:integer ;
+  cape:parseErrorRows "61"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{}" ;
+  cape:modelsJson "{}" ;
+  prov:startedAtTime "2026-06-27T16:01:22.049177+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T16:09:39.827985+00:00"^^xsd:dateTime ;
+  prov:generated cape:file_6761bf55a4d0c0e7 ;
+  prov:generated cape:file_8b8cac427273d6e9 .
+
+cape:activity_48ab7fbdb217783e
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_14b_core_conditions_120" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_14b_core_conditions_120" ;
+  cape:rawRows "480"^^xsd:integer ;
+  cape:validRows "480"^^xsd:integer ;
+  cape:parseErrorRows "358"^^xsd:integer ;
+  cape:repairedRows "358"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 240, \"B1_predicate_constrained\": 240, \"B2_current_project\": 240, \"P_cape_kg_actual\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18\": 480}" ;
+  prov:startedAtTime "2026-06-27T21:36:38.651430+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T22:59:56.293210+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_fc007053485e3fa9 ;
+  prov:generated cape:file_29e93f18e2b0d269 ;
+  prov:generated cape:file_1b553d9e02d9f499 ;
+  prov:generated cape:file_b7b9fee90fa5222e .
+
+cape:activity_95ebf5ba0196d4a4
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_14b_core_conditions_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_14b_core_conditions_smoke" ;
+  cape:rawRows "16"^^xsd:integer ;
+  cape:validRows "16"^^xsd:integer ;
+  cape:parseErrorRows "6"^^xsd:integer ;
+  cape:repairedRows "6"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 8, \"B1_predicate_constrained\": 8, \"B2_current_project\": 8, \"P_cape_kg_actual\": 8}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-14B/snapshots/40c069824f4251a91eefaf281ebe4c544efd3e18\": 16}" ;
+  prov:startedAtTime "2026-06-27T21:29:26.960160+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T21:35:28.237642+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_fc007053485e3fa9 ;
+  prov:generated cape:file_79870a2ea3146cbc ;
+  prov:generated cape:file_a004ab46893b5ece ;
+  prov:generated cape:file_2c40ffdbbe3c777a .
+
+cape:activity_47fb8c81b99666df
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_32b_awq_core_120" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_32b_awq_core_120" ;
+  cape:rawRows "480"^^xsd:integer ;
+  cape:validRows "480"^^xsd:integer ;
+  cape:parseErrorRows "335"^^xsd:integer ;
+  cape:repairedRows "335"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 240, \"B1_predicate_constrained\": 240, \"B2_current_project\": 240, \"P_cape_kg_actual\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8\": 480}" ;
+  prov:startedAtTime "2026-06-28T06:04:33.794262+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T08:33:04.269031+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_b974583dfa35a84f ;
+  prov:generated cape:file_26256bdcb3ca408e ;
+  prov:generated cape:file_4ea2044da6e0647f ;
+  prov:generated cape:file_042e591ebc1fb975 .
+
+cape:activity_4166da504b08072c
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_32b_awq_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_32b_awq_smoke" ;
+  cape:rawRows "8"^^xsd:integer ;
+  cape:validRows "8"^^xsd:integer ;
+  cape:parseErrorRows "4"^^xsd:integer ;
+  cape:repairedRows "4"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 8, \"P_cape_kg_actual\": 8}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8\": 8}" ;
+  prov:startedAtTime "2026-06-28T05:56:42.316984+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T06:02:48.217242+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_b974583dfa35a84f ;
+  prov:generated cape:file_31f0c30582da362b ;
+  prov:generated cape:file_cbfcb18edeb30bab ;
+  prov:generated cape:file_89ae47f75cff78a9 .
+
+cape:activity_26ae92aa5ffe62ac
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_b2_b4_condition_baselines_120" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_b2_b4_condition_baselines_120" ;
+  cape:rawRows "240"^^xsd:integer ;
+  cape:validRows "240"^^xsd:integer ;
+  cape:parseErrorRows "199"^^xsd:integer ;
+  cape:repairedRows "199"^^xsd:integer ;
+  cape:conditionsJson "{\"B2_current_project\": 240, \"B4_taxonomy_rag\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 240}" ;
+  prov:startedAtTime "2026-06-27T17:14:43.968677+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T17:30:09.104724+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_6fae08e7ad82d5b4 ;
+  prov:generated cape:file_46e54318280f78aa ;
+  prov:generated cape:file_89b81c58f5d580f7 .
+
+cape:activity_5e034e35f0af8bc5
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_b2_b4_condition_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_b2_b4_condition_smoke" ;
+  cape:rawRows "10"^^xsd:integer ;
+  cape:validRows "10"^^xsd:integer ;
+  cape:parseErrorRows "4"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"B2_current_project\": 10, \"B4_taxonomy_rag\": 10}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 10}" ;
+  prov:startedAtTime "2026-06-27T17:09:54.900799+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T17:13:15.929049+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_bd3c00ad50f2b9df ;
+  prov:generated cape:file_6b2d38da63e8d3bf ;
+  prov:generated cape:file_527a1fa3e40e66cc .
+
+cape:activity_872ee881a76e168f
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_cape_ablation_120" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_cape_ablation_120" ;
+  cape:rawRows "720"^^xsd:integer ;
+  cape:validRows "720"^^xsd:integer ;
+  cape:parseErrorRows "609"^^xsd:integer ;
+  cape:repairedRows "609"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 240, \"P_minus_CQ\": 240, \"P_minus_Evidence\": 240, \"P_minus_Procedural_schema\": 240, \"P_minus_Standard_bridge\": 240, \"P_minus_Validator\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 720}" ;
+  prov:startedAtTime "2026-06-27T18:09:22.385735+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T18:59:43.946134+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_5be1dab695d1ee4c ;
+  prov:generated cape:file_71830e7b8c68291a ;
+  prov:generated cape:file_876b33b10be65520 .
+
+cape:activity_dda50c1e8961ef3e
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_cape_ablation_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_cape_ablation_smoke" ;
+  cape:rawRows "12"^^xsd:integer ;
+  cape:validRows "12"^^xsd:integer ;
+  cape:parseErrorRows "10"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 4, \"P_minus_CQ\": 4, \"P_minus_Evidence\": 4, \"P_minus_Procedural_schema\": 4, \"P_minus_Standard_bridge\": 4, \"P_minus_Validator\": 4}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 12}" ;
+  prov:startedAtTime "2026-06-27T17:53:41.249018+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T17:59:20.095345+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_3f7d4d7178e1858f ;
+  prov:generated cape:file_635254e438e60206 ;
+  prov:generated cape:file_ae353b41024cbd3b .
+
+cape:activity_074363f097b98193
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_cape_ablation_smoke_limited" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_cape_ablation_smoke_limited" ;
+  cape:rawRows "12"^^xsd:integer ;
+  cape:validRows "12"^^xsd:integer ;
+  cape:parseErrorRows "7"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 4, \"P_minus_CQ\": 4, \"P_minus_Evidence\": 4, \"P_minus_Procedural_schema\": 4, \"P_minus_Standard_bridge\": 4, \"P_minus_Validator\": 4}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 12}" ;
+  prov:startedAtTime "2026-06-27T18:00:39.521532+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T18:06:42.343756+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_ecbe5edb9fc735b7 ;
+  prov:generated cape:file_b03f1de59e853fe8 ;
+  prov:generated cape:file_4360c34e4d8bfb42 .
+
+cape:activity_e3a48aa951eb12a8
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_condition_baselines" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_condition_baselines" ;
+  cape:rawRows "30"^^xsd:integer ;
+  cape:validRows "30"^^xsd:integer ;
+  cape:parseErrorRows "8"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 20, \"B1_predicate_constrained\": 20, \"B5_procedural_prompt\": 20}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 30}" ;
+  prov:startedAtTime "2026-06-27T16:31:40.417988+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T16:40:13.463867+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_09074e11e77d1610 ;
+  prov:generated cape:file_42ea73adf98553b7 ;
+  prov:generated cape:file_4d0a79c1055e6029 .
+
+cape:activity_c79ece82457af3dc
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_condition_baselines_120" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_condition_baselines_120" ;
+  cape:rawRows "360"^^xsd:integer ;
+  cape:validRows "360"^^xsd:integer ;
+  cape:parseErrorRows "222"^^xsd:integer ;
+  cape:repairedRows "222"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 240, \"B1_predicate_constrained\": 240, \"B5_procedural_prompt\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 360}" ;
+  prov:startedAtTime "2026-06-27T16:43:16.657543+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T17:03:56.324073+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_07d29e2adbac0274 ;
+  prov:generated cape:file_7d393ddd9872d541 ;
+  prov:generated cape:file_3096053b51f3a7a6 .
+
+cape:activity_07829997d225ecaf
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_edc_schema_ablation" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_edc_schema_ablation" ;
+  cape:rawRows "240"^^xsd:integer ;
+  cape:validRows "240"^^xsd:integer ;
+  cape:parseErrorRows "208"^^xsd:integer ;
+  cape:repairedRows "207"^^xsd:integer ;
+  cape:conditionsJson "{\"B3_edc_style\": 240, \"P_minus_Schema_retrieval\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 240}" ;
+  prov:startedAtTime "2026-06-27T20:15:38.871841+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T20:30:34.310377+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_597cc7f9928bb23b ;
+  prov:generated cape:file_85bb598834a80890 ;
+  prov:generated cape:file_f9df8cdc188434d9 .
+
+cape:activity_5e21b77a26271d91
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_edc_schema_ablation_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_edc_schema_ablation_smoke" ;
+  cape:rawRows "4"^^xsd:integer ;
+  cape:validRows "4"^^xsd:integer ;
+  cape:parseErrorRows "2"^^xsd:integer ;
+  cape:repairedRows "2"^^xsd:integer ;
+  cape:conditionsJson "{\"B3_edc_style\": 4, \"P_minus_Schema_retrieval\": 4}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 4}" ;
+  prov:startedAtTime "2026-06-27T20:13:27.884372+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-27T20:14:30.687287+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_f7f55d54358aa70f ;
+  prov:generated cape:file_20cd83b660047e77 ;
+  prov:generated cape:file_ecfff24f8d50ad8a .
+
+cape:activity_4fb6e371f06e0e40
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_1200_full" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_1200_full" ;
+  cape:rawRows "1560"^^xsd:integer ;
+  cape:validRows "1560"^^xsd:integer ;
+  cape:parseErrorRows "569"^^xsd:integer ;
+  cape:repairedRows "569"^^xsd:integer ;
+  cape:conditionsJson "{\"B0_plain_llm\": 240, \"B1_predicate_constrained\": 240, \"B2_current_project\": 240, \"B3_edc_style\": 240, \"B4_taxonomy_rag\": 240, \"B5_procedural_prompt\": 240, \"P_cape_kg_actual\": 240, \"P_minus_CQ\": 240, \"P_minus_Evidence\": 240, \"P_minus_Procedural_schema\": 240, \"P_minus_Schema_retrieval\": 240, \"P_minus_Standard_bridge\": 240, \"P_minus_Validator\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 1560}" ;
+  prov:startedAtTime "2026-06-28T01:18:51.748760+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T03:50:40.545287+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_c1d04462af57cd18 ;
+  prov:generated cape:file_a61d0e9648ef31d2 ;
+  prov:generated cape:file_a192ffdb4b2677e6 .
+
+cape:activity_cfabd231405df4ca
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_contract_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_contract_smoke" ;
+  cape:rawRows "16"^^xsd:integer ;
+  cape:validRows "16"^^xsd:integer ;
+  cape:parseErrorRows "15"^^xsd:integer ;
+  cape:repairedRows "15"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 8, \"P_minus_CQ\": 8, \"P_minus_Schema_retrieval\": 8, \"P_minus_Validator\": 8}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 16}" ;
+  prov:startedAtTime "2026-06-28T00:18:41.262757+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T00:26:28.054563+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_eeaffdbdf888f8a5 ;
+  prov:generated cape:file_ec70ff41ef40425a ;
+  prov:generated cape:file_642bc2aeee9a89f4 .
+
+cape:activity_ca1b7081eb042bef
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_nothink_1200_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_nothink_1200_smoke" ;
+  cape:rawRows "8"^^xsd:integer ;
+  cape:validRows "8"^^xsd:integer ;
+  cape:parseErrorRows "0"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 4, \"P_minus_CQ\": 4, \"P_minus_Schema_retrieval\": 4, \"P_minus_Validator\": 4}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 8}" ;
+  prov:startedAtTime "2026-06-28T01:09:02.118725+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T01:13:12.948480+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_1beec428e0b50293 ;
+  prov:generated cape:file_118ad413e814d689 ;
+  prov:generated cape:file_68b82e7e0321e081 .
+
+cape:activity_5b6f35bb96b6651c
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_nothink_smoke" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_nothink_smoke" ;
+  cape:rawRows "16"^^xsd:integer ;
+  cape:validRows "16"^^xsd:integer ;
+  cape:parseErrorRows "16"^^xsd:integer ;
+  cape:repairedRows "16"^^xsd:integer ;
+  cape:conditionsJson "{\"P_cape_kg_actual\": 8, \"P_minus_CQ\": 8, \"P_minus_Schema_retrieval\": 8, \"P_minus_Validator\": 8}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 16}" ;
+  prov:startedAtTime "2026-06-28T00:58:58.207977+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T01:06:45.526697+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_813dd3c24ea6e11a ;
+  prov:generated cape:file_4ae0ae53741ee723 ;
+  prov:generated cape:file_fe0e897f9e66dc29 .
+
+cape:activity_5aa9fbc04f749254
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_warn_top3_full_1200" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_warn_top3_full_1200" ;
+  cape:rawRows "360"^^xsd:integer ;
+  cape:validRows "360"^^xsd:integer ;
+  cape:parseErrorRows "215"^^xsd:integer ;
+  cape:repairedRows "215"^^xsd:integer ;
+  cape:conditionsJson "{\"B2_current_project\": 240, \"B4_taxonomy_rag\": 240, \"B5_procedural_prompt\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 360}" ;
+  prov:startedAtTime "2026-06-28T04:11:38.332825+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T04:48:24.484717+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_1b8ad2f2ec014bf8 ;
+  prov:generated cape:file_4d332f8d3255e5cd ;
+  prov:generated cape:file_2eb3d3580a96b126 .
+
+cape:activity_c7151f07ef80e057
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_warn_top3_full_2400" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_warn_top3_full_2400" ;
+  cape:rawRows "360"^^xsd:integer ;
+  cape:validRows "360"^^xsd:integer ;
+  cape:parseErrorRows "92"^^xsd:integer ;
+  cape:repairedRows "92"^^xsd:integer ;
+  cape:conditionsJson "{\"B2_current_project\": 240, \"B4_taxonomy_rag\": 240, \"B5_procedural_prompt\": 240}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 360}" ;
+  prov:startedAtTime "2026-06-28T10:01:54.128504+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T10:59:27.327085+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_e488ccccd30c19a0 ;
+  prov:generated cape:file_a5f58f526ea788c1 ;
+  prov:generated cape:file_026609a95cb823a0 .
+
+cape:activity_57f0f7e187cdad7b
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "qwen3_8b_strict_json_warn_top3_smoke_1200" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "qwen3_8b_strict_json_warn_top3_smoke_1200" ;
+  cape:rawRows "12"^^xsd:integer ;
+  cape:validRows "12"^^xsd:integer ;
+  cape:parseErrorRows "0"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"B2_current_project\": 8, \"B4_taxonomy_rag\": 8, \"B5_procedural_prompt\": 8}" ;
+  cape:modelsJson "{\"/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218\": 12}" ;
+  prov:startedAtTime "2026-06-28T03:54:03.531549+00:00"^^xsd:dateTime ;
+  prov:endedAtTime "2026-06-28T03:58:39.685580+00:00"^^xsd:dateTime ;
+  prov:wasAssociatedWith cape:model_7946b02a60e633a7 ;
+  prov:generated cape:file_0caaac7dbaecb324 ;
+  prov:generated cape:file_4794f8547126997c ;
+  prov:generated cape:file_d1661b01ef1c8102 .
+
+cape:activity_2e157653025e98a3
+  a prov:Activity ;
+  a cape:LLMExtractionRun ;
+  rdfs:label "sac_kg_verifier_pruner_baseline" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:logicalRun "sac_kg_verifier_pruner_baseline" ;
+  cape:rawRows "120"^^xsd:integer ;
+  cape:validRows "120"^^xsd:integer ;
+  cape:parseErrorRows "0"^^xsd:integer ;
+  cape:repairedRows "0"^^xsd:integer ;
+  cape:conditionsJson "{\"B6_sac_kg_verifier_pruner\": 240}" ;
+  cape:modelsJson "{}" ;
+  prov:generated cape:file_32302cae9c8cb004 ;
+  prov:generated cape:file_d8656ec3040923e8 ;
+  prov:generated cape:file_66fa6793a8778434 .
+
+cape:human_review_handoff_activity
+  a prov:Activity ;
+  rdfs:label "CAPE-KG human review handoff preparation" ;
+  prov:wasAssociatedWith cape:human_review_process ;
+  cape:claimStatus "handoff_ready_pending_human_review" ;
+  prov:generated cape:file_a4697d3aa558cf2e ;
+  prov:generated cape:file_01eb04fe23c5f1d4 ;
+  prov:generated cape:file_e59774f2744e7230 ;
+  prov:generated cape:file_b6afeba4c528c369 ;
+  prov:generated cape:file_7c36863ba91d2993 ;
+  prov:generated cape:file_1eb4135bccf09710 ;
+  prov:generated cape:file_a03bad076803a136 ;
+  prov:generated cape:file_ce6b314f4b1de441 ;
+  prov:generated cape:file_4e308a95cf6e9280 ;
+  prov:generated cape:file_869216b991bf4236 ;
+  prov:generated cape:file_7aeef081eab8f81a ;
+  prov:generated cape:file_ee8a9993f27ac8c0 ;
+  prov:generated cape:file_e4791f5bce436664 ;
+  prov:generated cape:file_15e81a82dddfb3a5 ;
+  prov:generated cape:file_983c7bab4560a288 ;
+  prov:generated cape:file_c35c5fd291020745 ;
+  prov:generated cape:file_48a5c7f5014a332c ;
+  prov:generated cape:file_0f5f6ca4ed6422d6 ;
+  prov:generated cape:file_040918254fe8a163 ;
+  prov:generated cape:file_117f689d7a46238b ;
+  prov:generated cape:file_c59602124f629238 ;
+  prov:generated cape:file_3fdb9e143496225e ;
+  prov:generated cape:file_21f36c4d7bceceb7 ;
+  prov:generated cape:file_f25ff36780cfbc68 ;
+  prov:generated cape:file_055032b8e66ee138 ;
+  prov:generated cape:file_fde53778a60f901f ;
+  prov:generated cape:file_207161a5aa07151f ;
+  prov:generated cape:file_a75f2d9abef1879c ;
+  prov:generated cape:file_861909c0b2189c19 ;
+  prov:generated cape:file_076d93230b735ab9 ;
+  prov:generated cape:file_2e3a4da628afebb0 ;
+  prov:generated cape:file_a62d1373359d5075 ;
+  prov:generated cape:file_8f9d88e5330b2a3b ;
+  prov:generated cape:file_0900ca6e431b25e7 ;
+  prov:generated cape:file_5b156db60b0c5d5a ;
+  prov:generated cape:file_ac8d7a97b59f9f21 ;
+  prov:generated cape:file_6aabb0ead94c961c ;
+  prov:generated cape:file_7a3994c15179b0de ;
+  prov:generated cape:file_46607b209505b6cd ;
+  prov:generated cape:file_ce5901576bfd4af7 ;
+  prov:generated cape:file_9b83a8536ce7dd74 ;
+  prov:generated cape:file_9eee05401e95ad32 ;
+  prov:generated cape:file_14590d9134b25bd9 ;
+  prov:generated cape:file_8e67274e76fedf17 ;
+  prov:generated cape:file_e7d98e4b4042c758 ;
+  prov:generated cape:file_ac7bffdd618de1f5 ;
+  prov:generated cape:file_70fb7019dd17f6d8 ;
+  prov:generated cape:file_55dca9cd0283b260 ;
+  prov:generated cape:file_674fd9ecca9a887f ;
+  prov:generated cape:file_0210040f1f6272bd ;
+  prov:generated cape:file_b6cc057f7b511626 ;
+  prov:generated cape:file_a7f2048968cf3c76 ;
+  prov:generated cape:file_04e7a5cbb5abb5de ;
+  prov:generated cape:file_6c4ce561a3a4cb5a ;
+  prov:generated cape:file_c06a2eed6f7aeb7c ;
+  prov:generated cape:file_7ec19d19d8de9f94 ;
+  prov:generated cape:file_1884555c3d0b1a47 ;
+  prov:generated cape:file_c19737291c5b74d9 ;
+  prov:generated cape:file_6a9455868cbbc65b ;
+  prov:generated cape:file_58cd05906f605ca9 ;
+  prov:generated cape:file_17d0820f52072c83 ;
+  prov:generated cape:file_245784465a1668a8 ;
+  prov:generated cape:file_b60fb5b8111da343 ;
+  prov:generated cape:file_38b8661ceb2ed566 ;
+  prov:generated cape:file_0375e0288a3bcb8d ;
+  prov:generated cape:file_3016db35ee86beb6 ;
+  prov:generated cape:file_e3db7da032dc1265 ;
+  prov:generated cape:file_a9158ff944f436ad ;
+  prov:generated cape:file_38b5d48f987cc99e ;
+  prov:generated cape:file_c6bcb8625421cc31 ;
+  prov:generated cape:file_761122cf35e203f7 ;
+  prov:generated cape:file_2c756608f8940de8 ;
+  prov:generated cape:file_3366071685c80845 ;
+  prov:generated cape:file_11802cb6ccd6b61b ;
+  prov:generated cape:file_a81e66761de24705 .
+
+cape:release_bundle_activity
+  a prov:Activity ;
+  rdfs:label "CAPE-KG release and reproducibility bundle preparation" ;
+  prov:wasAssociatedWith cape:pipeline_agent ;
+  cape:claimStatus "release_bundles_ready_not_submission_complete" ;
+  prov:generated cape:file_37f654f195b2b663 ;
+  prov:generated cape:file_092859a766b760f6 ;
+  prov:generated cape:file_8e9bb597989a8cf0 ;
+  prov:generated cape:file_1da7a61e1f8cc576 ;
+  prov:generated cape:file_8c4f781bcaa1eb09 ;
+  prov:generated cape:file_c71184cb19b52d43 ;
+  prov:generated cape:file_92f2d200ae6f361c ;
+  prov:generated cape:file_aaad391896a8c6bd ;
+  prov:generated cape:file_82699a93052c993d ;
+  prov:generated cape:file_e61eda4ff472e7a0 ;
+  prov:generated cape:file_749f1fe00690d052 ;
+  prov:generated cape:file_fe87b20288d4a6ee ;
+  prov:generated cape:file_4565eb76d39f8b9c ;
+  prov:generated cape:file_d01b6c0e26d97929 ;
+  prov:generated cape:file_2c16a459a52c6cc0 ;
+  prov:generated cape:file_ad70f5d4ad7f73aa ;
+  prov:generated cape:file_155bbcf8439def45 ;
+  prov:generated cape:file_6b79613f000accd9 ;
+  prov:generated cape:file_3ebe8761ae024f64 ;
+  prov:generated cape:file_b4c41fb5ab386b59 ;
+  prov:generated cape:file_f6a01435040a91e8 ;
+  prov:generated cape:file_7c36863ba91d2993 ;
+  prov:generated cape:file_1eb4135bccf09710 ;
+  prov:generated cape:file_ce6b314f4b1de441 ;
+  prov:generated cape:file_4e308a95cf6e9280 ;
+  prov:generated cape:file_ee8a9993f27ac8c0 ;
+  prov:generated cape:file_e4791f5bce436664 ;
+  prov:generated cape:file_7a3994c15179b0de ;
+  prov:generated cape:file_46607b209505b6cd ;
+  prov:generated cape:file_ce5901576bfd4af7 ;
+  prov:generated cape:file_9b83a8536ce7dd74 ;
+  prov:generated cape:file_8e5f0356e9cc9b3e ;
+  prov:generated cape:file_e691afa5f5f0356c ;
+  prov:generated cape:file_fd62e51aba2f6b93 ;
+  prov:generated cape:file_47411e4b7eacc39a ;
+  prov:generated cape:file_256fdd2b7bf3c75c .
+
+cape:file_425acf50feaa445b
+  a prov:Entity ;
+  rdfs:label "CAPE-KG PROV-O Turtle export" ;
+  cape:path "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl" ;
+  cape:fileRole "prov_o_turtle_export" ;
+  prov:wasGeneratedBy cape:experiment_activity ;
+  prov:wasAttributedTo cape:pipeline_agent .

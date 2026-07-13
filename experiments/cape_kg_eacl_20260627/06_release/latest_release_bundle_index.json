@@ -1,0 +1,61 @@
+{
+  "generated_at_utc": "2026-06-29T19:07:57.601712+00:00",
+  "claim_status": "latest_release_bundle_index_ready_not_submission_complete",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "stamp": "return_preflight_sync02_20260629",
+  "current": {
+    "internal_bundle": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync02_20260629.tar.gz",
+      "bytes": 43666956,
+      "sha256": "cfa7764221cbc9aae54c0833d0a74740f46b676bb86f5aa925ab8e533aa3c4b0"
+    },
+    "public_safe_bundle": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz",
+      "bytes": 1532248,
+      "sha256": "92045dee721c3da3ce3caefa92a8b0c7aead9cbff86459ce3e2fc56d54b2df0a"
+    },
+    "release_manifest": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json",
+    "release_checksums": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+    "safety_report": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+    "internal_file_count": 1704,
+    "public_safe_file_count": 383,
+    "public_safe_excluded_file_count": 87
+  },
+  "verification_commands": {
+    "release_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+    "pre_human_validation": "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs",
+    "handoff_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256"
+  },
+  "superseded_bundle_counts": {
+    "internal_repro": 261,
+    "public_safe_skeleton": 261
+  },
+  "recent_superseded_internal_repro": [
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_related_work_traceability_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_report_index_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_manifest_split_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync01_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_review_checkpoint_projection_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_revised_plan_completion_audit_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_schema_plan_alignment_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_schema_retrieval_coverage_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_timeline_breakdown_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_visualization_predicate_sync_20260629.tar.gz"
+  ],
+  "recent_superseded_public_safe_skeleton": [
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_related_work_traceability_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_report_index_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_manifest_split_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync01_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_review_checkpoint_projection_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_revised_plan_completion_audit_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_schema_plan_alignment_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_schema_retrieval_coverage_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_timeline_breakdown_sync_20260629.tar.gz",
+    "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_visualization_predicate_sync_20260629.tar.gz"
+  ],
+  "public_release_note": "Use the public-safe skeleton bundle for external artifact sharing. The internal reproducibility bundle may contain source-derived text and review work files.",
+  "completion_note": "These bundles are release/reproducibility artifacts only. Submission-level performance claims remain pending human-gold annotation, IAA, adjudication, proposed human-gold scoring, mapping expert review, NCS-PCF crosswalk expert review, and active-review effort collection."
+}

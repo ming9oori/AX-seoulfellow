@@ -1,0 +1,411 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:48.142442+00:00",
+  "source_plan": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "claim_scope": "pre_human_gold_rq_evidence_matrix",
+  "summary": {
+    "rq_count": 4,
+    "claim_ready_count": 0,
+    "automatic_or_candidate_ready_count": 4,
+    "human_or_expert_pending_count": 4,
+    "missing_required_evidence_files": 0,
+    "readiness_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "paper_readiness_minimum_items": 11,
+    "paper_readiness_strong_items": 7
+  },
+  "research_questions": [
+    {
+      "rq_id": "RQ1",
+      "title": "Evidence-grounded procedural KG extraction",
+      "question": "한국어 장문 업무 문서에서 Task, ProcedureStep, DecisionGateway, GuardCondition, ArtifactFlow를 추출할 때 evidence-span grounding을 강제하면 unsupported triple과 hallucination을 줄일 수 있는가?",
+      "plan_metrics": [
+        "Node F1",
+        "Edge F1",
+        "Evidence Exact Match",
+        "Evidence IoU",
+        "Unsupported Edge Rate"
+      ],
+      "current_status": "automatic_diagnostic_ready_human_gold_pending",
+      "claim_ready": false,
+      "claim_scope": "Final extraction quality claims require adjudicated human-gold nodes, edges, and evidence spans.",
+      "current_values": {
+        "final_layer2_nodes": 220,
+        "final_layer2_edges": 947,
+        "evidence_missing_edge_count": 0,
+        "dangling_edge_count": 0,
+        "component_span_claim_status": "automatic_component_span_diagnostic_not_human_gold",
+        "component_count": 2841,
+        "exact_component_span_rate": 0.261176,
+        "predicate_full_sentence_proxy_rate": 1.0,
+        "proposed_silver_edge_f1": 0.001786,
+        "proposed_silver_evidence_f1": 0.065527,
+        "human_gold_completed_chunks": 0,
+        "human_gold_items": 0
+      },
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "role": "silver/proxy extraction diagnostics",
+          "required": true,
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_evaluation_report.md",
+          "role": "silver/proxy extraction report",
+          "required": true,
+          "exists": true,
+          "bytes": 3152
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+          "role": "component span diagnostic",
+          "required": true,
+          "exists": true,
+          "bytes": 1822
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "role": "component span report",
+          "required": true,
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "outputs/06_triples/layer2_triples_component_spans.jsonl",
+          "role": "component span handoff",
+          "required": true,
+          "exists": true,
+          "bytes": 2684961
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "role": "human-gold scoring placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "role": "human-gold completion state",
+          "required": true,
+          "exists": true,
+          "bytes": 848
+        }
+      ],
+      "remaining_for_final_claim": [
+        "Complete two-annotator labeling and adjudication for at least 100 chunks.",
+        "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items.",
+        "Import completed annotator A/B files and recompute IAA.",
+        "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+      ]
+    },
+    {
+      "rq_id": "RQ2",
+      "title": "CQ-anchored schema control",
+      "question": "Competency Question을 schema selection, LLM extraction, validation, evaluation의 anchor로 사용할 때 ontology conformance와 CQ answerability가 향상되는가?",
+      "plan_metrics": [
+        "Ontology Conformance",
+        "Procedural Consistency",
+        "CQ Answerability",
+        "Ablation: P - CQ",
+        "Ablation: P - Schema retrieval",
+        "Ablation: P - Validator"
+      ],
+      "current_status": "structural_diagnostic_ready_human_gold_pending",
+      "claim_ready": false,
+      "claim_scope": "Structural conformance can be reported as an automatic diagnostic; final quality improvements require human-gold scoring.",
+      "current_values": {
+        "cq_count": 12,
+        "ontology_conformance_rate": 1.0,
+        "domain_range_violation_count": 0,
+        "procedural_consistency_rate": 0.995283,
+        "procedural_consistency_issue_count": 4,
+        "cq_answerability_rate": 1.0,
+        "ablation_conditions_available": [
+          "P_minus_CQ",
+          "P_minus_Procedural_schema",
+          "P_minus_Schema_retrieval",
+          "P_minus_Validator"
+        ]
+      },
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+          "role": "experiment CQ inventory",
+          "required": true,
+          "exists": true,
+          "bytes": 2101
+        },
+        {
+          "path": "outputs/03_schema/competency_questions.json",
+          "role": "internal build CQ inventory",
+          "required": true,
+          "exists": true,
+          "bytes": 2303
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "role": "combined structural metrics",
+          "required": true,
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+          "role": "ontology conformance metrics",
+          "required": true,
+          "exists": true,
+          "bytes": 983
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+          "role": "procedural consistency metrics",
+          "required": true,
+          "exists": true,
+          "bytes": 15185
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+          "role": "CQ answerability metrics",
+          "required": true,
+          "exists": true,
+          "bytes": 3876
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_by_condition.csv",
+          "role": "CQ answerability by LLM condition",
+          "required": true,
+          "exists": true,
+          "bytes": 12836
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+          "role": "prompt/CQ/node-edge traceability",
+          "required": true,
+          "exists": true,
+          "bytes": 24271
+        }
+      ],
+      "remaining_for_final_claim": [
+        "Complete two-annotator labeling and adjudication for at least 100 chunks.",
+        "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items.",
+        "Import completed annotator A/B files and recompute IAA.",
+        "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+      ]
+    },
+    {
+      "rq_id": "RQ3",
+      "title": "Standard taxonomy bridge",
+      "question": "Layer2 procedural KG가 NCS/PCF 표준 taxonomy mapping의 downstream 성능을 향상시키는가?",
+      "plan_metrics": [
+        "NCS/PCF Mapping P@K",
+        "P@1",
+        "P@5",
+        "MRR",
+        "nDCG@10",
+        "Expert accept rate",
+        "Explanation quality score"
+      ],
+      "current_status": "candidate_pipeline_ready_expert_review_pending",
+      "claim_ready": false,
+      "claim_scope": "Candidate generation and rerank diagnostics are ready; downstream mapping performance claims require expert review.",
+      "current_values": {
+        "ncs_mapping_candidates": 110,
+        "pcf_mapping_candidates": 110,
+        "mapping_completed_rows": 0,
+        "mapping_pending_rows": 220,
+        "mapping_claim_status": "pending_or_partial_expert_review",
+        "crosswalk_candidate_rows": 220,
+        "crosswalk_source_task_count": 22,
+        "crosswalk_completed_rows": 0,
+        "crosswalk_pending_rows": 220,
+        "crosswalk_claim_status": "pending_crosswalk_expert_review"
+      },
+      "evidence_files": [
+        {
+          "path": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+          "role": "Layer2-to-NCS mapping candidates",
+          "required": true,
+          "exists": true,
+          "bytes": 82404
+        },
+        {
+          "path": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+          "role": "Layer2-to-PCF mapping candidates",
+          "required": true,
+          "exists": true,
+          "bytes": 81856
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_results.csv",
+          "role": "mapping downstream arm diagnostics",
+          "required": true,
+          "exists": true,
+          "bytes": 300
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_summary.json",
+          "role": "mapping rerank summary",
+          "required": true,
+          "exists": true,
+          "bytes": 1744
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "role": "Layer2-bridged crosswalk candidates",
+          "required": true,
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "role": "expert-review metric placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "role": "NCS-PCF crosswalk expert-review metric placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json",
+          "role": "NCS-PCF crosswalk expert-review manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 1538
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+          "role": "expert review progress",
+          "required": true,
+          "exists": true,
+          "bytes": 19472
+        }
+      ],
+      "remaining_for_final_claim": [
+        "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims.",
+        "Complete NCS-PCF crosswalk expert review and recompute accept-rate, Hit@K, P@10, MRR, nDCG@10, utility, and explanation-quality metrics."
+      ]
+    },
+    {
+      "rq_id": "RQ4",
+      "title": "Human review efficiency",
+      "question": "Evidence verifier와 active review queue가 전문가 검수 비용을 줄이면서 KG 품질을 높이는가?",
+      "plan_metrics": [
+        "Active Review Efficiency",
+        "Corrected high-impact errors per hour",
+        "Precision@K",
+        "Recall@K",
+        "Lift vs random review",
+        "Ablation: P - Active review"
+      ],
+      "current_status": "review_queue_ready_human_effort_pending",
+      "claim_ready": false,
+      "claim_scope": "Silver/proxy prioritization and human-effort templates are ready; review-cost claims require completed human timing/correction returns.",
+      "current_values": {
+        "active_review_claim_status": "silver_proxy_not_human_review_efficiency",
+        "candidate_count": 275,
+        "silver_proxy_high_impact_error_count": 173,
+        "human_effort_claim_status": "ready_for_human_effort_collection",
+        "human_effort_reviewed_file_present": false,
+        "human_effort_pooled_rows": 204,
+        "human_effort_arm_counts": {
+          "active_priority": 100,
+          "uncertainty_only": 100,
+          "random_control": 100
+        },
+        "human_effort_briefing_claim_status": "review_navigation_only_pending_human_effort",
+        "human_effort_briefing_rows": 204
+      },
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "role": "silver/proxy active review diagnostic",
+          "required": true,
+          "exists": true,
+          "bytes": 12827
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "role": "silver/proxy active review report",
+          "required": true,
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "role": "active-review ablation diagnostic",
+          "required": true,
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "role": "human-effort collection state",
+          "required": true,
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "role": "human-effort report",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.json",
+          "role": "human-effort briefing summary",
+          "required": true,
+          "exists": true,
+          "bytes": 1880
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+          "role": "human-effort briefing",
+          "required": true,
+          "exists": true,
+          "bytes": 15523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.csv",
+          "role": "active review queue",
+          "required": true,
+          "exists": true,
+          "bytes": 62786
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "role": "human-effort return template",
+          "required": true,
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv",
+          "role": "human-effort review navigation CSV",
+          "required": true,
+          "exists": true,
+          "bytes": 98684
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "role": "human-effort protocol",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        }
+      ],
+      "remaining_for_final_claim": [
+        "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+      ]
+    }
+  ],
+  "missing_required_evidence_files": []
+}

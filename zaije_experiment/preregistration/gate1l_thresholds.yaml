@@ -1,0 +1,30 @@
+format_grounding:
+  accepted_json_schema_validity_min: 1.00
+  accepted_claim_exact_quote_validity_min: 1.00
+  evidence_bundle_consistency_min: 1.00
+  provenance_completeness_min: 1.00
+  raw_api_failure_rate_max: 0.02
+agreement:
+  claim_span_pairwise_f1_min: 0.80
+  argument_span_pairwise_f1_min: 0.78
+  claim_family_alpha_min: 0.67
+  claim_type_alpha_min: 0.67
+  modality_alpha_min: 0.75
+  polarity_alpha_min: 0.80
+  promotion_alpha_min: 0.75
+  critical_field_ims_min: 0.90
+  position_swap_consistency_min: 0.90
+risk_coverage:
+  high_risk_verifier_entailed_min: 0.95
+  example_to_rule_contamination_max: 0.02
+  adjudicator_added_claim_ratio_max: 0.05
+  unresolved_underdetermined_max: 0.15
+  high_risk_unresolved_max: 0.10
+  quarantine_rate_max: 0.05
+alignment:
+  quote_overlap_weight: 0.45
+  family_type_weight: 0.20
+  predicate_weight: 0.10
+  argument_overlap_weight: 0.10
+  critical_fields_weight: 0.15
+  match_threshold: 0.55

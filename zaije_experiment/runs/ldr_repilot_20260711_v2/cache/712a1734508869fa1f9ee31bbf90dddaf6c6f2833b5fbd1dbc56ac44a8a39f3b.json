@@ -1,0 +1,125 @@
+{
+  "parsed": {
+    "verifications": [
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-697",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c2",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-761",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-898",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c4",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-95",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-956",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c5",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/verifier_b04_712a17345088.json",
+  "response_id": "resp_008112073196f01f006a5291806acc819ba50affe2ca36d6f4",
+  "usage": {
+    "input_tokens": 4535,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 575,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5110
+  }
+}

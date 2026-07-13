@@ -1,0 +1,104 @@
+{
+  "parsed": {
+    "verifications": [
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-526",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-590",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-663",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-699",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/verifier_b06_372c64130cc2.json",
+  "response_id": "resp_044bd0ecd5080941006a528f4d9e84819aba3f8172b60abefa",
+  "usage": {
+    "input_tokens": 3828,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 463,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4291
+  }
+}

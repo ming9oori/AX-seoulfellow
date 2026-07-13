@@ -1,0 +1,140 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "de8a12f36441028a73541328c418495c31ea128a8f45eaec1d3ab6e24c24bf61",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "“제안서를 잘 써야 입찰에 성공한다”라는 말이 반드시 맞는 말은 아니다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "MISCONCEPTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "NEGATIVE",
+            "predicate": "is not necessarily true",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-7",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "9c901e9e931520ef8498ccee18683a643d4dc2af08764c37cde3bc4294c7431a",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "claim_1",
+            "claim_quote": "그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "is essential to find",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-21",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "f3aae8078ba9186870c7f8c4b42c1c00caeb473e5b6ed5e3b04d73a5337b33ae",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "어떻게 우리 회사의 제안 성공률을 높일 수 있을까?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is a question about",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-30",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "0a27d3064c1eb96d86b556a563d494186bdc4e3937840cbbc3572bfe9906e8ce",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사가 종료되었음을 (또는 종료되어야 함을) 말해주는 사건이기 때문이다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "indicates that",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-70",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "59e8ba4933651b1e392ab968c39300f0f78b73b5702d9664607da1587bb5b38b",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "- 9~10시: 평가위원 도착 및 오리엔테이션\n- 10~12시: 제안 평가- 12~1시: 점심 \n- 1~3시: 제안 프레젠테이션\n- 3~5시: 점수 제출 및 검증몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업도 평가기간이 점점 짧아지고 있다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "describes the schedule of",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-86",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r1_b01_e6f7cf24ab3b.json",
+  "response_id": "resp_03c4d95cb4bb11f0006a528c69a624819a88d6acf53b0b958f",
+  "usage": {
+    "input_tokens": 2889,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1039,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3928
+  }
+}

@@ -18,12 +18,12 @@ Input OCR workbook: `handoff-hanyang/자이제_ocr_preprocessed.xlsx`
 
 ## Main Counts
 
-- Layer2 nodes: 179
-- Layer2 edges: 906
+- Layer2 nodes: 220
+- Layer2 edges: 947
 - Evidence anchors: 5009
 - NCS mapping candidates: 110
 - PCF mapping candidates: 110
-- Review sample rows: 108
+- Review sample rows: 118
 
 ## Limitation
 

@@ -1,0 +1,10 @@
+{
+  "data/r3_pilot_60_imported_unexposed.jsonl": "3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17",
+  "locks/imported_fresh60_lock.json": "52868e41d3acbfbad605ad0e85ceb9f9d4f1bd6acd5e1fa8cb9b9e6acdba8f71",
+  "preregistration/data_import_policy.yaml": "fc987f4c96e3a211f1f4ea290333fa1b45e1b8064cc749dac02c674480c7ca1a",
+  "preregistration/downstream_overlap_policy.yaml": "f930679f3f78619d4905daf5a04e46602e885aec491c4dd94fac693062f2e332",
+  "preregistration/falsifier_model_policy.yaml": "e4a785d3e3201aa082193bab53c53217a276d2f9d9c09703682b40cc7f694570",
+  "preregistration/gate_thresholds_r3.yaml": "098638053ad40b90d2539f3e247cf28e87ff3c41840f1ae872577f32e5912fd7",
+  "preregistration/pointwise_api_policy.yaml": "81cda9b48bef587e5030dcad304038c0b42da233766b4a0ba7630f0cbc639d87",
+  "preregistration/primary_model_policy.yaml": "6743e99775762f7baadce2d4e1a98cb7b05a02f9dae24d1d4131007e33c7f4e6"
+}

@@ -1,0 +1,332 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.501369+00:00",
+  "claim_status": "contribution_claim_traceability_ready_pending_human_gold_and_expert_returns",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "claim_status": "contribution_claim_traceability_ready_pending_human_gold_and_expert_returns",
+    "contribution_count": 3,
+    "setup_claimable_count": 3,
+    "final_performance_claim_ready_count": 0,
+    "blocked_final_claim_count": 3,
+    "missing_evidence_file_count": 0,
+    "linked_rq_count": 4,
+    "known_rq_count": 4,
+    "known_metric_count": 10,
+    "linked_reviewer_question_count": 7,
+    "known_reviewer_question_count": 7,
+    "plan_completion_proven": false,
+    "claim_gate_overall_status": "FAIL"
+  },
+  "claim_boundary": {
+    "safe_to_use_pre_human": true,
+    "safe_scope": "Use for contribution framing, paper outline, reviewer-risk planning, and reproducibility description.",
+    "not_claimable_until": "Final performance, benchmark reliability, taxonomy-alignment utility, and active-review efficiency remain pending human-gold, IAA, adjudication, mapping/crosswalk expert review, and human-effort returns.",
+    "final_performance_claim_ready": false
+  },
+  "contribution_rows": [
+    {
+      "contribution_id": "C1_task_definition_and_evidence_grounding",
+      "title": "Evidence-grounded procedural KG construction task",
+      "plan_sentence_en": "We formulate evidence-grounded procedural KG construction from long enterprise documents as a constrained information extraction task, requiring typed nodes, relations, and character-level evidence anchors.",
+      "plan_sentence_ko": "한국어 장문 업무 문서에서 절차형 KG 구축 문제를 typed node/relation과 evidence grounding이 필요한 constrained information extraction task로 정의한다.",
+      "linked_rqs": [
+        "RQ1",
+        "RQ2"
+      ],
+      "linked_metrics": [
+        "Node F1",
+        "Edge F1",
+        "Evidence Exact Match",
+        "Evidence IoU",
+        "Unsupported Edge Rate",
+        "Ontology Conformance",
+        "Procedural Consistency",
+        "CQ Answerability"
+      ],
+      "linked_modules": [
+        "M1",
+        "M2",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8"
+      ],
+      "reviewer_questions": [
+        "Q01_domain_application",
+        "Q04_why_korean_enterprise_documents",
+        "Q06_subjective_evaluation"
+      ],
+      "evidence_files": [
+        {
+          "role": "revised plan contribution statement",
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "role": "RQ-to-evidence matrix",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "role": "metric traceability audit",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md",
+          "exists": true,
+          "bytes": 4507
+        },
+        {
+          "role": "prompt/node/edge traceability",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        },
+        {
+          "role": "evidence span diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "role": "structural diagnostic report",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "role": "final Layer 2 node artifacts",
+          "path": "outputs/07_layer2_graph/layer2_nodes.jsonl",
+          "exists": true,
+          "bytes": 94237
+        },
+        {
+          "role": "final Layer 2 edge artifacts",
+          "path": "outputs/07_layer2_graph/layer2_edges.jsonl",
+          "exists": true,
+          "bytes": 331827
+        }
+      ],
+      "missing_evidence_files": [],
+      "setup_claimable_now": true,
+      "final_performance_claim_ready": false,
+      "current_claim_boundary": "Task formulation, schema, KG artifacts, and automatic diagnostics are claimable; final extraction quality is not.",
+      "safe_pre_human_wording_ko": "현재는 장문 한국어 업무 문서를 evidence-grounded procedural IE task로 정의하고, 이를 위한 schema, KG 산출물, 자동 진단 지표를 준비했다고 말할 수 있다.",
+      "safe_pre_human_wording_en": "At the pre-human stage, it is safe to claim the task formulation, schema, KG artifacts, and automatic diagnostics.",
+      "forbidden_pre_human_claim": "CAPE-KG improves final node/edge/evidence F1 over baselines.",
+      "remaining_gates": [
+        "min.gold_chunks",
+        "min.gold_items",
+        "min.iaa",
+        "min.proposed"
+      ]
+    },
+    {
+      "contribution_id": "C2_cape_kg_framework",
+      "title": "CAPE-KG framework",
+      "plan_sentence_en": "We propose CAPE-KG, a competency-question anchored extraction framework that combines schema retrieval, constrained generation, evidence-span verification, ontology validation, and procedural consistency checking.",
+      "plan_sentence_ko": "CQ 기반 schema retrieval, constrained generation, evidence-span verification, ontology validation, procedural consistency checking을 결합한 CAPE-KG 프레임워크를 제안한다.",
+      "linked_rqs": [
+        "RQ1",
+        "RQ2",
+        "RQ4"
+      ],
+      "linked_metrics": [
+        "Ontology Conformance",
+        "Procedural Consistency",
+        "CQ Answerability",
+        "Active Review Efficiency",
+        "Ablation: P - CQ",
+        "Ablation: P - Evidence",
+        "Ablation: P - Validator",
+        "Ablation: P - Active review"
+      ],
+      "linked_modules": [
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M8",
+        "M9",
+        "M10"
+      ],
+      "reviewer_questions": [
+        "Q03_existing_ontology_guided_extraction",
+        "Q05_prompt_engineering",
+        "Q06_subjective_evaluation"
+      ],
+      "evidence_files": [
+        {
+          "role": "M1-M11 module coverage",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "role": "method novelty positioning",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "role": "schema retrieval coverage",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.md",
+          "exists": true,
+          "bytes": 5476
+        },
+        {
+          "role": "strict JSON diagnostics",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+          "exists": true,
+          "bytes": 8741
+        },
+        {
+          "role": "locked evaluation protocol",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+          "exists": true,
+          "bytes": 19847
+        },
+        {
+          "role": "claim language guardrails",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+          "exists": true,
+          "bytes": 19281
+        },
+        {
+          "role": "active-review diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "role": "human-effort collection protocol",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        }
+      ],
+      "missing_evidence_files": [],
+      "setup_claimable_now": true,
+      "final_performance_claim_ready": false,
+      "current_claim_boundary": "Integrated framework implementation and diagnostic coverage are claimable; module-level improvements remain human-gold gated.",
+      "safe_pre_human_wording_ko": "현재는 CAPE-KG의 구성 모듈과 검증/진단 체계가 구현되어 있음을 claim할 수 있지만, 각 모듈이 최종 성능을 개선한다는 주장은 human-gold 이후로 보류해야 한다.",
+      "safe_pre_human_wording_en": "It is safe to claim that the integrated framework and diagnostic scaffolds are implemented; final module gains remain gated.",
+      "forbidden_pre_human_claim": "Each CAPE-KG module independently improves final quality.",
+      "remaining_gates": [
+        "min.gold_chunks",
+        "min.gold_items",
+        "min.iaa",
+        "min.proposed",
+        "strong.active_review"
+      ]
+    },
+    {
+      "contribution_id": "C3_benchmark_and_standard_taxonomy_alignment",
+      "title": "Korean bid/proposal benchmark and standard taxonomy alignment",
+      "plan_sentence_en": "We introduce a Korean bid/proposal work-domain benchmark and evaluate whether the resulting procedural KG improves standard taxonomy alignment to capability and process reference layers.",
+      "plan_sentence_ko": "수주·제안 업무 benchmark를 구축하고, 추출된 절차형 KG가 NCS/PCF 표준 taxonomy alignment를 개선하는지 평가한다.",
+      "linked_rqs": [
+        "RQ3"
+      ],
+      "linked_metrics": [
+        "NCS/PCF Mapping P@K",
+        "P@1",
+        "P@5",
+        "MRR",
+        "nDCG@10",
+        "Expert accept rate",
+        "Explanation quality score"
+      ],
+      "linked_modules": [
+        "M1",
+        "M5",
+        "M9",
+        "M11"
+      ],
+      "reviewer_questions": [
+        "Q02_reproducibility_private_data",
+        "Q04_why_korean_enterprise_documents",
+        "Q07_ncs_pcf_nlp_contribution"
+      ],
+      "evidence_files": [
+        {
+          "role": "gold sampling coverage report",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "role": "public-safe reproducibility manifest",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "role": "public-safe synthetic examples",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        },
+        {
+          "role": "public benchmark cross-check",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "role": "Layer2-to-NCS mapping candidates",
+          "path": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+          "exists": true,
+          "bytes": 82404
+        },
+        {
+          "role": "Layer2-to-PCF mapping candidates",
+          "path": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+          "exists": true,
+          "bytes": 81856
+        },
+        {
+          "role": "NCS-PCF crosswalk candidates",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "role": "mapping review progress",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        }
+      ],
+      "missing_evidence_files": [],
+      "setup_claimable_now": true,
+      "final_performance_claim_ready": false,
+      "current_claim_boundary": "Benchmark/release scaffolds and mapping candidates are claimable; benchmark reliability and taxonomy utility require human/expert returns.",
+      "safe_pre_human_wording_ko": "현재는 benchmark 구축 및 공개 가능 재현 패키지, NCS/PCF 후보 생성까지 준비되었다고 말할 수 있다. benchmark 신뢰도와 taxonomy alignment 개선 주장은 사람 검수와 expert review 이후에만 가능하다.",
+      "safe_pre_human_wording_en": "It is safe to claim benchmark/release scaffolds and mapping candidates; reliability and alignment utility remain expert/human gated.",
+      "forbidden_pre_human_claim": "The benchmark is fully validated or the KG improves NCS/PCF alignment.",
+      "remaining_gates": [
+        "min.gold_chunks",
+        "min.gold_items",
+        "min.iaa",
+        "min.proposed",
+        "strong.mapping_downstream",
+        "crosswalk.expert_review",
+        "external_rights_review_for_raw_source_text"
+      ]
+    }
+  ],
+  "missing_evidence_files": [],
+  "source_artifacts": {
+    "revised_plan": "AX_EACL_submission_review_revised_plan.md",
+    "revised_plan_completion_audit": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.json",
+    "claim_gate_report": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+    "rq_evidence_matrix": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.json",
+    "metric_traceability_audit": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.json",
+    "reviewer_response_prep": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.json"
+  }
+}

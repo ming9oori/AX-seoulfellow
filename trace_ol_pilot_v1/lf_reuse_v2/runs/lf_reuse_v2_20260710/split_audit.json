@@ -1,0 +1,40 @@
+{
+  "seed": 20260711,
+  "counts": {
+    "FRESH_TEST_LOCKED": 60,
+    "INDUCTION": 90,
+    "VALIDATION": 60
+  },
+  "family_counts": {
+    "INDUCTION": {
+      "definition": 10,
+      "descriptive": 20,
+      "procedure": 12,
+      "conditional": 12,
+      "evaluation": 12,
+      "discourse": 12,
+      "normative": 12
+    },
+    "VALIDATION": {
+      "normative": 8,
+      "conditional": 7,
+      "discourse": 10,
+      "descriptive": 11,
+      "definition": 8,
+      "procedure": 8,
+      "evaluation": 8
+    },
+    "FRESH_TEST_LOCKED": {
+      "procedure": 8,
+      "descriptive": 11,
+      "definition": 8,
+      "normative": 7,
+      "evaluation": 8,
+      "discourse": 10,
+      "conditional": 8
+    }
+  },
+  "excluded_v1_evidence": 180,
+  "v1_overlap": 0,
+  "group_overlap": {}
+}

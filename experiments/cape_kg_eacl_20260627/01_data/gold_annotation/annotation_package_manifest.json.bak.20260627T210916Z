@@ -1,0 +1,65 @@
+{
+  "generated_at_utc": "2026-06-27T17:49:50.940414+00:00",
+  "status": "ready_for_two_human_annotators_pending_labels",
+  "source_template": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation_template.jsonl",
+  "output_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation",
+  "annotators": [
+    "A",
+    "B"
+  ],
+  "packages": {
+    "pilot_30": {
+      "chunk_count": 30,
+      "annotator_files": {
+        "A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_A.jsonl",
+        "B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_B.jsonl"
+      },
+      "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/adjudication.jsonl",
+      "adjudication_draft_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/adjudication_draft.jsonl",
+      "adjudication_draft_summary": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/adjudication_draft_summary.json",
+      "adjudication_draft_report": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/adjudication_draft_report.md",
+      "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/tracking_sheet.csv",
+      "candidate_edges_total": 2360,
+      "candidate_edges_min": 2,
+      "candidate_edges_max": 345,
+      "chapter_distribution": {
+        "CH01": 9,
+        "CH02": 3,
+        "CH03": 4,
+        "CH04": 12,
+        "CH05": 1,
+        "CH06": 1
+      }
+    },
+    "full_120": {
+      "chunk_count": 120,
+      "annotator_files": {
+        "A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+        "B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl"
+      },
+      "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl",
+      "adjudication_draft_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+      "adjudication_draft_summary": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft_summary.json",
+      "adjudication_draft_report": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft_report.md",
+      "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/tracking_sheet.csv",
+      "candidate_edges_total": 2675,
+      "candidate_edges_min": 0,
+      "candidate_edges_max": 345,
+      "chapter_distribution": {
+        "CH01": 20,
+        "CH02": 20,
+        "CH03": 20,
+        "CH04": 20,
+        "CH05": 20,
+        "CH06": 20
+      }
+    }
+  },
+  "protocol": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/adjudication_protocol.md",
+  "annotation_schema": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_schema.json",
+  "annotation_workbench": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_workbench.html",
+  "annotator_import_command_template": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file {target_annotator_jsonl} --reviewed-file {exported_annotator_jsonl}",
+  "adjudication_import_command_template": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file {target_adjudication_jsonl} --reviewed-file {exported_adjudication_jsonl}",
+  "master_tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/gold_annotation_master_tracking_sheet.csv",
+  "claim_status": "not_gold_until_human_completed_and_adjudicated"
+}

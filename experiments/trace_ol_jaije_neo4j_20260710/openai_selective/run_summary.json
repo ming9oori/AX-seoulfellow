@@ -1,0 +1,42 @@
+{
+  "api_key_persisted": false,
+  "counts": {
+    "accepted_claims_total": 66,
+    "adopted_distilled_rules": 0,
+    "api_calls": 90,
+    "api_errors": 0,
+    "completed_responses": 90,
+    "cq_passed": 12,
+    "cq_total": 12,
+    "distilled_rule_candidates": 13,
+    "graph_nodes": 5065,
+    "graph_relationships": 7373,
+    "local_contract_guardrail_rejections": 15,
+    "majority_rejections": 1,
+    "regression_passed": 6,
+    "regression_total": 6,
+    "remaining_needs_review": 6,
+    "repeats": 3,
+    "schema_parsed_responses": 90,
+    "selected_candidates": 30,
+    "unanimous_promotions": 23,
+    "valid_structured_responses": 75
+  },
+  "critical_validation_failures": 0,
+  "model": "gpt-4o-mini-2024-07-18",
+  "output_dir": "/home/minjoo/AX_서울펠로우/experiments/trace_ol_jaije_neo4j_20260710/openai_selective",
+  "run_id": "run:20260710T010000Z:P1_OPENAI:a9482ce",
+  "status": "PASS_WITH_GUARDRAIL_REJECTIONS",
+  "usage": {
+    "cached_input_tokens": 7808,
+    "estimated_cost_usd": 0.0232116,
+    "input_tokens": 105204,
+    "output_tokens": 13361,
+    "pricing_snapshot": {
+      "cached_input_usd_per_million": 0.075,
+      "input_usd_per_million": 0.15,
+      "output_usd_per_million": 0.6,
+      "source": "https://developers.openai.com/api/docs/models/gpt-4o-mini"
+    }
+  }
+}

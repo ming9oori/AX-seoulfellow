@@ -1,0 +1,797 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:33.286920+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "source_claim_gate_report": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+  "strict_json_gate_status": "PASS",
+  "strict_json_gate_evidence": "all full conditions <= 50% strict parse/generation errors",
+  "revalidated_output_recovery_status": "PASS",
+  "revalidated_output_recovery_evidence": "all full conditions <= 5% unrepaired after conservative partial-JSON recovery",
+  "conditions_with_full_runs": 14,
+  "conditions_over_strict_json_warning_threshold": 0,
+  "conditions_over_unrepaired_error_threshold": 0,
+  "top_strict_json_reprompt_conditions": [],
+  "strict_json_contract_prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt",
+  "priority_queue_file": "experiments/cape_kg_eacl_20260627/05_review/strict_json_reprompt_priority.csv",
+  "combined_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B0_plain_llm,P_cape_kg_actual --output-prefix qwen3_8b_strict_json_contract_smoke --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+  "gate_selected_run_prefixes": [
+    "qwen3_8b_strict_json_1200_full",
+    "qwen3_8b_strict_json_warn_top3_full_2400",
+    "sac_kg_verifier_pruner_baseline"
+  ],
+  "gate_selected_strict_json_run_prefixes": [
+    "qwen3_8b_strict_json_1200_full",
+    "qwen3_8b_strict_json_warn_top3_full_2400"
+  ],
+  "gate_selected_strict_json_contract_runs": [
+    {
+      "run_prefix": "qwen3_8b_strict_json_1200_full",
+      "gate_selected": true,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_1200_full_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_1200_full_quality_report.md",
+      "raw_rows": 1560,
+      "strict_error_rows": 569,
+      "partial_json_repaired_rows": 569,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B0_plain_llm": {
+          "raw_rows": 120,
+          "strict_error_rows": 16,
+          "partial_json_repaired_rows": 16,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.133333,
+          "partial_json_repaired_rate": 0.133333,
+          "unrepaired_error_rate": 0.0
+        },
+        "B1_predicate_constrained": {
+          "raw_rows": 120,
+          "strict_error_rows": 17,
+          "partial_json_repaired_rows": 17,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.141667,
+          "partial_json_repaired_rate": 0.141667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B2_current_project": {
+          "raw_rows": 120,
+          "strict_error_rows": 63,
+          "partial_json_repaired_rows": 63,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.525,
+          "partial_json_repaired_rate": 0.525,
+          "unrepaired_error_rate": 0.0
+        },
+        "B3_edc_style": {
+          "raw_rows": 120,
+          "strict_error_rows": 59,
+          "partial_json_repaired_rows": 59,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.491667,
+          "partial_json_repaired_rate": 0.491667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_cape_kg_actual": {
+          "raw_rows": 120,
+          "strict_error_rows": 43,
+          "partial_json_repaired_rows": 43,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.358333,
+          "partial_json_repaired_rate": 0.358333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_CQ": {
+          "raw_rows": 120,
+          "strict_error_rows": 48,
+          "partial_json_repaired_rows": 48,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.4,
+          "partial_json_repaired_rate": 0.4,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Evidence": {
+          "raw_rows": 120,
+          "strict_error_rows": 39,
+          "partial_json_repaired_rows": 39,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.325,
+          "partial_json_repaired_rate": 0.325,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Procedural_schema": {
+          "raw_rows": 120,
+          "strict_error_rows": 42,
+          "partial_json_repaired_rows": 42,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.35,
+          "partial_json_repaired_rate": 0.35,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Schema_retrieval": {
+          "raw_rows": 120,
+          "strict_error_rows": 31,
+          "partial_json_repaired_rows": 31,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.258333,
+          "partial_json_repaired_rate": 0.258333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Standard_bridge": {
+          "raw_rows": 120,
+          "strict_error_rows": 16,
+          "partial_json_repaired_rows": 16,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.133333,
+          "partial_json_repaired_rate": 0.133333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Validator": {
+          "raw_rows": 120,
+          "strict_error_rows": 43,
+          "partial_json_repaired_rows": 43,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.358333,
+          "partial_json_repaired_rate": 0.358333,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_warn_top3_full_2400",
+      "gate_selected": true,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_full_2400_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_full_2400_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_full_2400_quality_report.md",
+      "raw_rows": 360,
+      "strict_error_rows": 92,
+      "partial_json_repaired_rows": 92,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B2_current_project": {
+          "raw_rows": 120,
+          "strict_error_rows": 18,
+          "partial_json_repaired_rows": 18,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.15,
+          "partial_json_repaired_rate": 0.15,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 120,
+          "strict_error_rows": 35,
+          "partial_json_repaired_rows": 35,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.291667,
+          "partial_json_repaired_rate": 0.291667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 120,
+          "strict_error_rows": 39,
+          "partial_json_repaired_rows": 39,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.325,
+          "partial_json_repaired_rate": 0.325,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    }
+  ],
+  "gate_selected_strict_json_error_rows_file": "experiments/cape_kg_eacl_20260627/05_review/strict_json_gate_selected_error_rows.csv",
+  "gate_selected_strict_json_error_row_count": 661,
+  "gate_selected_strict_json_error_class_counts": {
+    "invalid_numeric_literal": 1,
+    "json_parse_error": 1,
+    "malformed_json_delimiter": 2,
+    "truncated_or_non_json_suffix": 657
+  },
+  "strict_json_contract_runs": [
+    {
+      "run_prefix": "qwen3_8b_strict_json_1200_full",
+      "gate_selected": true,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_1200_full_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_1200_full_quality_report.md",
+      "raw_rows": 1560,
+      "strict_error_rows": 569,
+      "partial_json_repaired_rows": 569,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B0_plain_llm": {
+          "raw_rows": 120,
+          "strict_error_rows": 16,
+          "partial_json_repaired_rows": 16,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.133333,
+          "partial_json_repaired_rate": 0.133333,
+          "unrepaired_error_rate": 0.0
+        },
+        "B1_predicate_constrained": {
+          "raw_rows": 120,
+          "strict_error_rows": 17,
+          "partial_json_repaired_rows": 17,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.141667,
+          "partial_json_repaired_rate": 0.141667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B2_current_project": {
+          "raw_rows": 120,
+          "strict_error_rows": 63,
+          "partial_json_repaired_rows": 63,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.525,
+          "partial_json_repaired_rate": 0.525,
+          "unrepaired_error_rate": 0.0
+        },
+        "B3_edc_style": {
+          "raw_rows": 120,
+          "strict_error_rows": 59,
+          "partial_json_repaired_rows": 59,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.491667,
+          "partial_json_repaired_rate": 0.491667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_cape_kg_actual": {
+          "raw_rows": 120,
+          "strict_error_rows": 43,
+          "partial_json_repaired_rows": 43,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.358333,
+          "partial_json_repaired_rate": 0.358333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_CQ": {
+          "raw_rows": 120,
+          "strict_error_rows": 48,
+          "partial_json_repaired_rows": 48,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.4,
+          "partial_json_repaired_rate": 0.4,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Evidence": {
+          "raw_rows": 120,
+          "strict_error_rows": 39,
+          "partial_json_repaired_rows": 39,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.325,
+          "partial_json_repaired_rate": 0.325,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Procedural_schema": {
+          "raw_rows": 120,
+          "strict_error_rows": 42,
+          "partial_json_repaired_rows": 42,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.35,
+          "partial_json_repaired_rate": 0.35,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Schema_retrieval": {
+          "raw_rows": 120,
+          "strict_error_rows": 31,
+          "partial_json_repaired_rows": 31,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.258333,
+          "partial_json_repaired_rate": 0.258333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Standard_bridge": {
+          "raw_rows": 120,
+          "strict_error_rows": 16,
+          "partial_json_repaired_rows": 16,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.133333,
+          "partial_json_repaired_rate": 0.133333,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Validator": {
+          "raw_rows": 120,
+          "strict_error_rows": 43,
+          "partial_json_repaired_rows": 43,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.358333,
+          "partial_json_repaired_rate": 0.358333,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_contract_smoke",
+      "gate_selected": false,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_contract_smoke_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_contract_smoke_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_contract_smoke_quality_report.md",
+      "raw_rows": 16,
+      "strict_error_rows": 15,
+      "partial_json_repaired_rows": 15,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "P_cape_kg_actual": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_CQ": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Schema_retrieval": {
+          "raw_rows": 4,
+          "strict_error_rows": 3,
+          "partial_json_repaired_rows": 3,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.75,
+          "partial_json_repaired_rate": 0.75,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Validator": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_nothink_1200_smoke",
+      "gate_selected": false,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_nothink_1200_smoke_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_nothink_1200_smoke_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_nothink_1200_smoke_quality_report.md",
+      "raw_rows": 8,
+      "strict_error_rows": 0,
+      "partial_json_repaired_rows": 0,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "P_cape_kg_actual": {
+          "raw_rows": 2,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_CQ": {
+          "raw_rows": 2,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Schema_retrieval": {
+          "raw_rows": 2,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Validator": {
+          "raw_rows": 2,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_nothink_smoke",
+      "gate_selected": false,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_nothink_smoke_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_nothink_smoke_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_nothink_smoke_quality_report.md",
+      "raw_rows": 16,
+      "strict_error_rows": 16,
+      "partial_json_repaired_rows": 16,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "P_cape_kg_actual": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_CQ": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Schema_retrieval": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "P_minus_Validator": {
+          "raw_rows": 4,
+          "strict_error_rows": 4,
+          "partial_json_repaired_rows": 4,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 1.0,
+          "partial_json_repaired_rate": 1.0,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_warn_top3_full_1200",
+      "gate_selected": false,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_full_1200_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_full_1200_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_full_1200_quality_report.md",
+      "raw_rows": 360,
+      "strict_error_rows": 215,
+      "partial_json_repaired_rows": 215,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B2_current_project": {
+          "raw_rows": 120,
+          "strict_error_rows": 63,
+          "partial_json_repaired_rows": 63,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.525,
+          "partial_json_repaired_rate": 0.525,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 120,
+          "strict_error_rows": 76,
+          "partial_json_repaired_rows": 76,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.633333,
+          "partial_json_repaired_rate": 0.633333,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_warn_top3_full_2400",
+      "gate_selected": true,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_full_2400_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_full_2400_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_full_2400_quality_report.md",
+      "raw_rows": 360,
+      "strict_error_rows": 92,
+      "partial_json_repaired_rows": 92,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B2_current_project": {
+          "raw_rows": 120,
+          "strict_error_rows": 18,
+          "partial_json_repaired_rows": 18,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.15,
+          "partial_json_repaired_rate": 0.15,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 120,
+          "strict_error_rows": 35,
+          "partial_json_repaired_rows": 35,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.291667,
+          "partial_json_repaired_rate": 0.291667,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 120,
+          "strict_error_rows": 39,
+          "partial_json_repaired_rows": 39,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.325,
+          "partial_json_repaired_rate": 0.325,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    },
+    {
+      "run_prefix": "qwen3_8b_strict_json_warn_top3_smoke_1200",
+      "gate_selected": false,
+      "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_8b_strict_json_warn_top3_smoke_1200_raw.jsonl",
+      "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_warn_top3_smoke_1200_valid.jsonl",
+      "report_file": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_strict_json_warn_top3_smoke_1200_quality_report.md",
+      "raw_rows": 12,
+      "strict_error_rows": 0,
+      "partial_json_repaired_rows": 0,
+      "unrepaired_error_rows": 0,
+      "conditions": {
+        "B2_current_project": {
+          "raw_rows": 4,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "B4_taxonomy_rag": {
+          "raw_rows": 4,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        },
+        "B5_procedural_prompt": {
+          "raw_rows": 4,
+          "strict_error_rows": 0,
+          "partial_json_repaired_rows": 0,
+          "unrepaired_error_rows": 0,
+          "strict_error_rate": 0.0,
+          "partial_json_repaired_rate": 0.0,
+          "unrepaired_error_rate": 0.0
+        }
+      }
+    }
+  ],
+  "strict_json_error_rows_file": "experiments/cape_kg_eacl_20260627/05_review/strict_json_error_rows.csv",
+  "strict_json_error_row_count": 907,
+  "strict_json_error_class_counts": {
+    "invalid_numeric_literal": 1,
+    "json_parse_error": 1,
+    "malformed_json_delimiter": 3,
+    "truncated_or_non_json_suffix": 902
+  },
+  "condition_rows": [
+    {
+      "condition": "B3_edc_style",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 59,
+      "strict_error_rate": 0.491667,
+      "partial_json_repaired_rows": 59,
+      "partial_json_repaired_rate": 0.491667,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B3_edc_style --output-prefix qwen3_8b_strict_json_contract_smoke_B3_edc_style --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 1
+    },
+    {
+      "condition": "P_minus_CQ",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 48,
+      "strict_error_rate": 0.4,
+      "partial_json_repaired_rows": 48,
+      "partial_json_repaired_rate": 0.4,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_CQ --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_CQ --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 2
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 43,
+      "strict_error_rate": 0.358333,
+      "partial_json_repaired_rows": 43,
+      "partial_json_repaired_rate": 0.358333,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_cape_kg_actual --output-prefix qwen3_8b_strict_json_contract_smoke_P_cape_kg_actual --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 3
+    },
+    {
+      "condition": "P_minus_Validator",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 43,
+      "strict_error_rate": 0.358333,
+      "partial_json_repaired_rows": 43,
+      "partial_json_repaired_rate": 0.358333,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_Validator --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_Validator --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 4
+    },
+    {
+      "condition": "P_minus_Procedural_schema",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 42,
+      "strict_error_rate": 0.35,
+      "partial_json_repaired_rows": 42,
+      "partial_json_repaired_rate": 0.35,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_Procedural_schema --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_Procedural_schema --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 5
+    },
+    {
+      "condition": "B5_procedural_prompt",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 39,
+      "strict_error_rate": 0.325,
+      "partial_json_repaired_rows": 39,
+      "partial_json_repaired_rate": 0.325,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B5_procedural_prompt --output-prefix qwen3_8b_strict_json_contract_smoke_B5_procedural_prompt --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 6
+    },
+    {
+      "condition": "P_minus_Evidence",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 39,
+      "strict_error_rate": 0.325,
+      "partial_json_repaired_rows": 39,
+      "partial_json_repaired_rate": 0.325,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_Evidence --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_Evidence --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 7
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 35,
+      "strict_error_rate": 0.291667,
+      "partial_json_repaired_rows": 35,
+      "partial_json_repaired_rate": 0.291667,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B4_taxonomy_rag --output-prefix qwen3_8b_strict_json_contract_smoke_B4_taxonomy_rag --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 8
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 31,
+      "strict_error_rate": 0.258333,
+      "partial_json_repaired_rows": 31,
+      "partial_json_repaired_rate": 0.258333,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_Schema_retrieval --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_Schema_retrieval --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 9
+    },
+    {
+      "condition": "B2_current_project",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 18,
+      "strict_error_rate": 0.15,
+      "partial_json_repaired_rows": 18,
+      "partial_json_repaired_rate": 0.15,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B2_current_project --output-prefix qwen3_8b_strict_json_contract_smoke_B2_current_project --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 10
+    },
+    {
+      "condition": "B1_predicate_constrained",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 17,
+      "strict_error_rate": 0.141667,
+      "partial_json_repaired_rows": 17,
+      "partial_json_repaired_rate": 0.141667,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B1_predicate_constrained --output-prefix qwen3_8b_strict_json_contract_smoke_B1_predicate_constrained --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 11
+    },
+    {
+      "condition": "B0_plain_llm",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 16,
+      "strict_error_rate": 0.133333,
+      "partial_json_repaired_rows": 16,
+      "partial_json_repaired_rate": 0.133333,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B0_plain_llm --output-prefix qwen3_8b_strict_json_contract_smoke_B0_plain_llm --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 12
+    },
+    {
+      "condition": "P_minus_Standard_bridge",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 16,
+      "strict_error_rate": 0.133333,
+      "partial_json_repaired_rows": 16,
+      "partial_json_repaired_rate": 0.133333,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions P_minus_Standard_bridge --output-prefix qwen3_8b_strict_json_contract_smoke_P_minus_Standard_bridge --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 13
+    },
+    {
+      "condition": "B6_sac_kg_verifier_pruner",
+      "max_raw_rows_single_run": 120,
+      "strict_error_rows": 0,
+      "strict_error_rate": 0.0,
+      "partial_json_repaired_rows": 0,
+      "partial_json_repaired_rate": 0.0,
+      "unrepaired_error_rows": 0,
+      "unrepaired_error_rate": 0.0,
+      "mitigation": "monitor only",
+      "recommended_smoke_command": "CUDA_VISIBLE_DEVICES=0 /home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/run_cape_llm_condition_baselines.py --output-dir experiments/cape_kg_eacl_20260627 --chunk-file 01_data/evaluation_chunks.jsonl --conditions B6_sac_kg_verifier_pruner --output-prefix qwen3_8b_strict_json_contract_smoke_B6_sac_kg_verifier_pruner --max-chunks 4 --max-new-tokens 1200 --max-prompt-chars 3600 --strict-json-contract",
+      "priority_rank": 14
+    }
+  ],
+  "interpretation": "Existing generated outputs are not changed by this diagnostic. High strict JSON error rates indicate that many rows required conservative partial-JSON recovery, while the unrepaired recovery gate tracks whether usable validated outputs remain after repair."
+}

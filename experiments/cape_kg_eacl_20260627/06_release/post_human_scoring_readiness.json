@@ -1,0 +1,814 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.656720+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "overall_status": "PASS",
+  "claim_status": "post_human_scoring_readiness_ready_pending_human_returns",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "metric_count": 10,
+    "claimable_metric_count": 0,
+    "pending_metric_count": 10,
+    "return_summary": {
+      "tracked_return_files": 14,
+      "present_return_files": 0,
+      "minimum_return_files": 11,
+      "minimum_present_return_files": 0,
+      "task_type_counts": {
+        "active_review_human_effort": 1,
+        "crosswalk_expert_review": 1,
+        "human_gold_adjudication": 1,
+        "human_gold_annotation": 10,
+        "mapping_expert_review": 1
+      },
+      "task_type_present_counts": {}
+    },
+    "readiness_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "claim_gate_overall_status": "FAIL",
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_counts": {
+      "PASS": 91,
+      "WARN": 1
+    },
+    "pre_human_validation_check_count": 92,
+    "pre_human_validation_claim_status": "pre_human_handoff_ready_not_submission_complete"
+  },
+  "missing_outputs_or_evidence": [],
+  "command_environment": {
+    "primary_command_style": "portable_python3",
+    "pinned_python": "/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python",
+    "pinned_python_exists": true
+  },
+  "global_commands": {
+    "validate_returns": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_apply_returns": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_returns_and_refresh": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "validate_pre_human_or_post_refresh": "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+  },
+  "portable_commands": {
+    "validate_returns": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_apply_returns": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_returns_and_refresh": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "validate_pre_human_or_post_refresh": "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+  },
+  "pinned_commands": {
+    "validate_returns": "/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_apply_returns": "PYTHON_BIN=/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python LLM_PYTHON=/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_returns_and_refresh": "PYTHON_BIN=/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python LLM_PYTHON=/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "validate_pre_human_or_post_refresh": "/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+  },
+  "metrics": [
+    {
+      "metric_id": "M01_node_f1",
+      "metric_name": "Node F1",
+      "paper_claim": "Predicted node type/label quality against adjudicated human gold.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+          "exists": true,
+          "bytes": 772
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+          "exists": true,
+          "bytes": 877
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        }
+      ],
+      "notes": "Claimable only after 100+ chunks, 500+ items, IAA, and adjudication are available."
+    },
+    {
+      "metric_id": "M02_edge_f1",
+      "metric_name": "Edge F1",
+      "paper_claim": "Predicted typed source-target edges against adjudicated human gold.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+          "exists": true,
+          "bytes": 772
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+          "exists": true,
+          "bytes": 877
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        }
+      ],
+      "notes": "This is the main extraction result and remains non-claimable while adjudication is absent."
+    },
+    {
+      "metric_id": "M03_evidence_exact_iou",
+      "metric_name": "Evidence Exact Match / IoU",
+      "paper_claim": "Character/span grounding quality for predicted evidence anchors.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "exists": true,
+          "bytes": 1405
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv",
+          "exists": true,
+          "bytes": 162
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "exists": true,
+          "bytes": 1405
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+          "exists": true,
+          "bytes": 1822
+        }
+      ],
+      "notes": "Current span-granularity diagnostics are silver/proxy; adjudicated spans are required for paper claims."
+    },
+    {
+      "metric_id": "M04_unsupported_edge_rate",
+      "metric_name": "Unsupported Edge Rate",
+      "paper_claim": "Rate of predicted edges rejected as unsupported by adjudicated evidence.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+          "exists": true,
+          "bytes": 772
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+          "exists": true,
+          "bytes": 877
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_grounding_report.md",
+          "exists": true,
+          "bytes": 1594
+        }
+      ],
+      "notes": "Unsupported-edge claims require adjudicator decisions, not only automatic evidence-anchor presence."
+    },
+    {
+      "metric_id": "M05_ontology_conformance",
+      "metric_name": "Ontology Conformance",
+      "paper_claim": "Domain/range/schema conformance after scoring against human-gold chunks.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+          "exists": true,
+          "bytes": 983
+        }
+      ],
+      "notes": "Current full-KG structural conformance is claimable as a diagnostic; human-gold condition comparison is pending."
+    },
+    {
+      "metric_id": "M06_procedural_consistency",
+      "metric_name": "Procedural Consistency",
+      "paper_claim": "Cycle/gateway/artifact-flow consistency for predicted procedural KG.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+          "exists": true,
+          "bytes": 15185
+        }
+      ],
+      "notes": "Can be reported now only as a structural diagnostic; final condition comparison needs human-gold scoring."
+    },
+    {
+      "metric_id": "M07_cq_answerability",
+      "metric_name": "CQ Answerability",
+      "paper_claim": "Whether graph queries can answer the planned competency questions.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "human_gold_annotation",
+        "human_gold_adjudication"
+      ],
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 11,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json",
+          "exists": true,
+          "bytes": 53053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+          "exists": true,
+          "bytes": 3876
+        }
+      ],
+      "notes": "CQ8 now has structural KG support through projected ReviewCheckpoint links; correctness of answers still requires human-gold review."
+    },
+    {
+      "metric_id": "M08_mapping_pk_mrr_ndcg",
+      "metric_name": "NCS/PCF Mapping P@K / MRR / nDCG",
+      "paper_claim": "Expert-confirmed downstream alignment quality for Layer2-to-NCS/PCF candidates.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "mapping_expert_review"
+      ],
+      "required_gate_ids": [
+        "mapping.expert_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 0,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_evaluation_report.md",
+          "exists": true,
+          "bytes": 992
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+          "exists": true,
+          "bytes": 19472
+        }
+      ],
+      "notes": "Optional/strong claim. It does not satisfy minimum human-gold extraction gates."
+    },
+    {
+      "metric_id": "M09_crosswalk_accept_utility",
+      "metric_name": "NCS-PCF Crosswalk Accept Rate / Utility",
+      "paper_claim": "Expert-confirmed utility of Layer2-bridged NCS-PCF crosswalk candidates.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "crosswalk_expert_review"
+      ],
+      "required_gate_ids": [
+        "crosswalk.expert_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 0,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_evaluation_report.md",
+          "exists": true,
+          "bytes": 1119
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "exists": true,
+          "bytes": 893
+        }
+      ],
+      "notes": "Optional/strong claim for standard-taxonomy bridge utility."
+    },
+    {
+      "metric_id": "M10_active_review_efficiency",
+      "metric_name": "Active Review Efficiency",
+      "paper_claim": "Corrected high-impact errors per reviewer effort/time.",
+      "claimable_now": false,
+      "claim_status": "pending_human_returns",
+      "required_human_or_expert_inputs": [
+        "active_review_human_effort"
+      ],
+      "required_gate_ids": [
+        "strong.active_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "minimum_expected_return_files": 0,
+      "minimum_present_return_files": 0,
+      "reviewed_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv"
+      ],
+      "scoring_outputs": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "exists": true,
+          "bytes": 12827
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "scoring_commands": [
+        "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+        "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+        "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+      ],
+      "current_evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "exists": true,
+          "bytes": 12827
+        }
+      ],
+      "notes": "Requires reviewed effort/timing CSV and should be interpreted with adjudication outcomes."
+    }
+  ],
+  "claim_policy": [
+    "This artifact is a scoring readiness map, not human-gold evidence.",
+    "Metrics with pending_human_returns must not be used as final paper performance claims.",
+    "Run dry-run validation before APPLY_IMPORTS=1 whenever reviewed return files are added.",
+    "Regenerate paper tables, claim gate, provenance, and release bundles after applying returns."
+  ]
+}

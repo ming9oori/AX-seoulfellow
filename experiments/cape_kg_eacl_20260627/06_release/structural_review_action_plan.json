@@ -1,0 +1,86 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:37.048612+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "claim_status": "optional_structural_review_ready_pending_human_review",
+  "summary": {
+    "generated_at_utc": "2026-06-29T18:55:37.008168+00:00",
+    "experiment_dir": "experiments/cape_kg_eacl_20260627",
+    "outputs_dir": "outputs",
+    "claim_status": "structural_gap_worklist_pending_human_review",
+    "review_checkpoint_candidate_count": 45,
+    "gateway_branch_gap_count": 4,
+    "structural_cq_answerability_rate": 1.0,
+    "procedural_consistency_rate": 0.995283,
+    "human_gate_effect": "does_not_change_minimum_11_file_paper_gate",
+    "outputs": {
+      "review_checkpoint_candidates_csv": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+      "gateway_branch_gaps_csv": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+      "summary_json": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_summary.json",
+      "report_md": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md"
+    }
+  },
+  "optional_return_files": [
+    {
+      "task_type": "structural_review_checkpoint_candidates",
+      "owner": "structural_reviewer",
+      "expected_rows": 45,
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.reviewed.csv",
+      "present": "no",
+      "status": "ready_for_optional_review",
+      "allowed_decisions": "accept_review_checkpoint;keep_current_type;merge_with_existing_review;reject_candidate;needs_discussion",
+      "next_action": "Fill human_decision and human_notes, then save with the exact reviewed_file name."
+    },
+    {
+      "task_type": "structural_gateway_branch_gaps",
+      "owner": "structural_reviewer",
+      "expected_rows": 4,
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.reviewed.csv",
+      "present": "no",
+      "status": "ready_for_optional_review",
+      "allowed_decisions": "add_branches_to;keep_gateway_without_branch;split_gateway;reject_gateway;needs_discussion",
+      "next_action": "Fill human_decision and human_notes; add branch target notes only when source evidence supports the outcome."
+    }
+  ],
+  "input_csv_fields": {
+    "structural_review_checkpoint_candidates": [
+      "gap_type",
+      "node_id",
+      "label",
+      "current_type",
+      "parent_task_id",
+      "incoming_predicates",
+      "outgoing_predicates",
+      "evidence_anchor_count",
+      "evidence_preview",
+      "matched_review_terms",
+      "recommended_action",
+      "human_decision",
+      "human_notes"
+    ],
+    "structural_gateway_branch_gaps": [
+      "gap_type",
+      "gateway_id",
+      "gateway_label",
+      "guard_condition_edges",
+      "guard_condition_ids",
+      "guard_condition_labels",
+      "incoming_task_count",
+      "incoming_task_ids",
+      "incoming_task_labels",
+      "candidate_branch_target_ids",
+      "candidate_branch_target_labels",
+      "evidence_anchor_count",
+      "evidence_preview",
+      "recommended_action",
+      "human_decision",
+      "human_notes"
+    ]
+  },
+  "outputs": {
+    "plan_json": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.json",
+    "plan_md": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+    "optional_returns_csv": "experiments/cape_kg_eacl_20260627/05_review/structural_review_optional_returns.csv"
+  }
+}

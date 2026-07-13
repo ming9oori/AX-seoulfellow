@@ -1,0 +1,289 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "3cf117b5ad1f515668d466c061f7a3f282c3c6a292618384a2fd0cf9dd0f6673",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "사업 초기(A시점)",
+                "quote": "사업 초기(A시점)에는 20점도 극복할 수 있으므로",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "제안서 제출 시점이 가까웠을 때(B시점)",
+                "quote": "제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로",
+                "role": "condition"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "따라서 사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+            "claim_type": "DECISION_TRIGGER",
+            "condition_quote": "사업 초기(A시점)에는 20점도 극복할 수 있으므로",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MAY",
+            "polarity": "POSITIVE",
+            "predicate": "입찰 참여 결정(Bid) 또는 입찰 불참여(No bid) 결정",
+            "promotion_target": "RULE",
+            "scope_quote": "따라서 사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1197",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "88b8830926a9eb97030606d8ae2273319f332f65486b85a80e9d4c09c69c43e3",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "사전에 연구과제 수행 또는 1차 사업 수행",
+                "quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "특별한 결격사유 없음",
+                "quote": "특별한 결격사유가 없는 한",
+                "role": "exception"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c2",
+            "claim_quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우에는 특별한 결격사유가 없는 한 경쟁자 우위에 있다고 봐야 한다.",
+            "claim_type": "NECESSARY_CONDITION",
+            "condition_quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": "특별한 결격사유가 없는 한",
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "경쟁자 우위에 있다고 봐야 한다",
+            "promotion_target": "RULE",
+            "scope_quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우에는 특별한 결격사유가 없는 한 경쟁자 우위에 있다고 봐야 한다.",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1260",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "3836670822f283845b8edddc9a781bc334b90575dccebf133054464047832497",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "평가위원 관심",
+                "quote": "다양한 평가위원의 관심",
+                "role": "scope"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c3",
+            "claim_quote": "접근 전략: 다양한 평가위원의 관심에 골고루 균형감 있게 접근한다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "균형감 있게 접근한다",
+            "promotion_target": "RULE",
+            "scope_quote": "다양한 평가위원의 관심에 골고루 균형감 있게 접근한다.",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c4",
+            "claim_quote": "사업 전략\n1. 작전 운용을 위한 요구성능 충족\n2. 신기술 도입\n3. 총소요비용의 15% 절감\n4. 국산화 95% 달성 및 5억 달러 수출 전략\n5. 양산화 기간 12개월 단축\n6. 유사 무기체계 자원 80% 재활용을 통한 그린국방 실현",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "사업 전략으로 위 6가지를 수행한다",
+            "promotion_target": "RULE",
+            "scope_quote": "사업 전략\n1. 작전 운용을 위한 요구성능 충족\n2. 신기술 도입\n3. 총소요비용의 15% 절감\n4. 국산화 95% 달성 및 5억 달러 수출 전략\n5. 양산화 기간 12개월 단축\n6. 유사 무기체계 자원 80% 재활용을 통한 그린국방 실현",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1273",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "464882b29dc4100a8382a4b7e88924476b557f6ddfadcc91bf70f5dfe9f9088f",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "1등(A사) 교통정보 정확도",
+                "quote": "1등(A사) 교통정보 정확도",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c5",
+            "claim_quote": "1등(A사) 교통정보 정확도: 획기적 개선",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "획기적 개선",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "1등(A사) 교통정보 정확도: 획기적 개선",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "2등(B사) 교통정보 정확도",
+                "quote": "2등(B사) 교통정보 정확도",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c6",
+            "claim_quote": "2등(B사) 교통정보 정확도: 28% 향상",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "28% 향상",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "2등(B사) 교통정보 정확도: 28% 향상",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "1등(A사) 차량 속도",
+                "quote": "1등(A사) 차량 속도",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c7",
+            "claim_quote": "1등(A사) 차량 속도: 교통체증 해소 예상",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "교통체증 해소 예상",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "1등(A사) 차량 속도: 교통체증 해소 예상",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "2등(B사) 차량 속도",
+                "quote": "2등(B사) 차량 속도",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c8",
+            "claim_quote": "2등(B사) 차량 속도: 시뮬레이션 결과 12.8% 개선 예측",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "시뮬레이션 결과 12.8% 개선 예측",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "2등(B사) 차량 속도: 시뮬레이션 결과 12.8% 개선 예측",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1279",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "dc555d140cd0ef6cc5188027a898d538cc26841b568a78ee617460cac16a93d1",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "벤츠 엔진 사용 자동차",
+                "quote": "벤츠 엔진을 사용하고 있는 자동차",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c9",
+            "claim_quote": "저희 회사 제품이 벤츠 엔진을 사용하고 있는 것은 아시죠? 네, 벤츠 엔진은 엔진 자체도 좋지만 자동차 구조가 정면 충돌 시 밑으로 엔진이 주저앉게 설계되어 있습니다. 따라서 정면충돌 시 사망률이 75%나 낮은, 안전성이 탁월한 차입니다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": "정면 충돌 시",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "정면충돌 시 사망률이 75%나 낮은, 안전성이 탁월하다",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "정면충돌 시 사망률이 75%나 낮은, 안전성이 탁월한 차입니다.",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "가격이나 디자인 중요시",
+                "quote": "가격이나 디자인이 중요하시면",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "안전성 중요시",
+                "quote": "안전성을 중요시한다면",
+                "role": "condition"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c10",
+            "claim_quote": "가격이나 디자인이 중요하시면 G자동차를 구매하는 것이 정답이고, 안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.",
+            "claim_type": "DECISION_TRIGGER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MAY",
+            "polarity": "POSITIVE",
+            "predicate": "G자동차 구매 또는 저희 차 구매",
+            "promotion_target": "RULE",
+            "scope_quote": "가격이나 디자인이 중요하시면 G자동차를 구매하는 것이 정답이고, 안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1309",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r2_b08_36748fd67443.json",
+  "response_id": "resp_01ce8f1be05a6d30006a528ea9b62881988b8b6613a84c3259",
+  "usage": {
+    "input_tokens": 3160,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2466,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5626
+  }
+}

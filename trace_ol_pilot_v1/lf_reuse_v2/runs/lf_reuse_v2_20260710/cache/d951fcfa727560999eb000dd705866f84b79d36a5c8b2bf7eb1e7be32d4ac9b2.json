@@ -1,0 +1,291 @@
+{
+  "response_id": "resp_0fd880bc94e53834006a510ffb07708198bf718b849aa5bdc4",
+  "usage": {
+    "input_tokens": 2731,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1628,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4359
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1125",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1126",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1125",
+              "text": "이 제안서는 경쟁자를 고스팅한 사례를 보여주고 있다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1126",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1126",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1126",
+              "text": "이 사례에서 실제 강조하고자 하는 것은 헬멧이 아니다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Prohibition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1151",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1151",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1151",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1173",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1173",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1173",
+              "text": "• 솔루션 최적화: 솔루션을 수정하여 고객의 니즈를 만족시키는 것이므로 반드시 추가 비용이 들어간다.",
+              "start": 0,
+              "end": 60
+            },
+            "claim_family": "PROCEDURAL",
+            "claim_type": "ProcessOrder",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1183",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1183",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1183",
+              "text": "따라서 공격적인 제안을 한다는 것은 우리의 수익을 줄여 가면서까지 ‘솔루션 최적화’를 적극적으로 한다는 뜻이며, 제안 작업을 할 때 리더십이 해야 할 중요한 결정은 어느 수준까지 우리의 수익을 줄여 가면서 솔루션을 최적화할 것인가 하는 점이다.",
+              "start": 0,
+              "end": 150
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1187",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1187",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1187",
+              "text": "공격적 제안의 사례군사업 중에 ‘탐색연구’ 분야의 사업이 있다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1189",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1189",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1189",
+              "text": "따라서 방위산업체들은 이 탐색연구를 수주하기 위해서 엄청난 경쟁을 한다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1191",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1191",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1191",
+              "text": "고객은 설계도를 원하는데 업체들은 실제 몇백억 원을 들여서 진짜 시제품을 만드는 경우도 종종 있을 정도이다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

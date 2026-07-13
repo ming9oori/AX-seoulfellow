@@ -1,0 +1,61 @@
+{
+  "accepted_claim_exact_quote_validity": 0.85,
+  "accepted_json_schema_validity": 1.0,
+  "adjudicator_added_claim_ratio": 0.0,
+  "argument_span_pairwise_f1": 0.323220536756126,
+  "claim_family_alpha": -0.060564031437817745,
+  "claim_span_pairwise_f1": 0.6297297297297297,
+  "claim_type_alpha": -0.011389521640091216,
+  "critical_field_ims": 0.6206439393939394,
+  "diagnostics": {
+    "A_B_IMA": {
+      "argument_span_pairwise_f1": 0.323220536756126,
+      "claim_family_alpha": -0.060564031437817745,
+      "claim_set_f1": 0.425531914893617,
+      "claim_span_pairwise_f1": 0.6297297297297297,
+      "claim_type_alpha": -0.011389521640091216,
+      "critical_field_exact_agreement": 0.21621621621621623,
+      "modality_alpha": -0.1871657754010696,
+      "polarity_alpha": -0.5317630264097075,
+      "promotion_alpha": -0.06577052328372535
+    },
+    "A_IMS": {
+      "argument_span_pairwise_f1": 0.7859751643535428,
+      "claim_family_alpha": 0.7379466817923993,
+      "claim_set_f1": 0.9,
+      "claim_span_pairwise_f1": 0.8418907905460473,
+      "claim_type_alpha": 0.7128874388254487,
+      "critical_field_exact_agreement": 0.7954545454545454,
+      "modality_alpha": 0.6595012897678418,
+      "polarity_alpha": 0.16806722689075637,
+      "promotion_alpha": 0.6878378378378378
+    },
+    "B_IMS": {
+      "argument_span_pairwise_f1": 0.6427221172022685,
+      "claim_family_alpha": 0.346494213750851,
+      "claim_set_f1": 0.6956521739130435,
+      "claim_span_pairwise_f1": 0.762192490289167,
+      "claim_type_alpha": 0.2710997442455243,
+      "critical_field_exact_agreement": 0.44583333333333336,
+      "modality_alpha": 0.06250000000000022,
+      "polarity_alpha": -0.060070671378091856,
+      "promotion_alpha": 0.22077922077922085
+    },
+    "adjudicated_bundles": 20,
+    "disagreement_bundles": 20,
+    "high_risk_claims": 12,
+    "swap_audits": 2
+  },
+  "evidence_bundle_consistency": 0.8625,
+  "example_to_rule_contamination": 0.0,
+  "high_risk_unresolved": 0.4166666666666667,
+  "high_risk_verifier_entailed": 0.5833333333333334,
+  "modality_alpha": -0.1871657754010696,
+  "polarity_alpha": -0.5317630264097075,
+  "position_swap_consistency": 0.5,
+  "promotion_alpha": -0.06577052328372535,
+  "provenance_completeness": 1.0,
+  "quarantine_rate": 0.3,
+  "raw_api_failure_rate": 0.0,
+  "unresolved_underdetermined": 0.3
+}

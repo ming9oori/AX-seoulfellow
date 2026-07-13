@@ -1,0 +1,41 @@
+{
+  "response_id": "resp_0c4cb25c11c4d0cc006a50cc2186648199a006230946ba5b74",
+  "usage": {
+    "input_tokens": 852,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 306,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1158
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1327",
+        "triples": [
+          {
+            "subject": "리스크별 위험등급 분석 기준",
+            "predicate": "has",
+            "object": "영향 분석 기준",
+            "source_span": "•리스크별 위험등급 분석 기준\n\n|  |  | 영향 |  |\n| --- | --- | --- | --- |\n| 확률 | 상 | 중 | 하 |\n| 상 | HIGH | HIGH | MEDIUM |\n| 중 | HIGH | MEDIUM | LOW |\n| 하 | MEDIUM | LOW | LOW |"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1331",
+        "triples": [
+          {
+            "subject": "리스크 분석 기준",
+            "predicate": "utilizes",
+            "object": "리스크별 세부 분석",
+            "source_span": "• 리스크 분석 기준을 활용한 리스크별 세부 분석\n\n| 확률 | 세부 설명 | 영향 | 발생 확률 | 위험도 |\n| --- | --- | --- | --- | --- |\n| 일정 지연 | 제안사와 IPT, 제안사와 협력 업체 간 일체감 부족 및 이질감 발생 | 중 | 상 | H |\n| 비용 증대 | 기술요소 변경에 따른 비용 및 투입 인력 변경 | 상 | 하 | M |\n| 비용 증대 | 추가 요구사항 및 구축 범위 변경에 따른 비용 증가 | 상 | 상 | H |"
+          }
+        ]
+      }
+    ]
+  }
+}

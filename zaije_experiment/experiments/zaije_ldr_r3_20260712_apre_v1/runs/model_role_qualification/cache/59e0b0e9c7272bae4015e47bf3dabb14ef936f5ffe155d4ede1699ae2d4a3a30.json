@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "SUPPORTED",
+    "proposal_id": "FAL::C03::r2::SUPPORTED::05"
+  },
+  "raw_response_path": "raw_responses/falsifier_C03_r2_SUPPORTED_05_59e0b0e9c727.json",
+  "response_id": "resp_0b93e7a0caf7034a006a53225b4d64819aa91550a8524834ab",
+  "usage": {
+    "input_tokens": 326,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 22,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 348
+  }
+}

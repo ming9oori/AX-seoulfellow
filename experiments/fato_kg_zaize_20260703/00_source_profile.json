@@ -1,0 +1,57 @@
+{
+  "generated_at_utc": "2026-07-03T06:13:35+00:00",
+  "source_file": "자이제_1.xlsx",
+  "methodology_file": "layer2_fato_kg_methodology_eacl.md",
+  "sheet": "clean_sentences",
+  "physical_rows": 2366,
+  "valid_sentence_rows": 1366,
+  "chapter_count": 3,
+  "section_count_including_missing": 52,
+  "section_count_with_metadata": 51,
+  "page_min": 19,
+  "page_max": 178,
+  "missing_structure_metadata_sentences": 3,
+  "chapter_profile": [
+    {
+      "chapter_no": "1",
+      "chapter_title": "입찰과 제안",
+      "sentence_rows": 310,
+      "section_count": 18,
+      "page_min": 19,
+      "page_max": 56
+    },
+    {
+      "chapter_no": "2",
+      "chapter_title": "수주영업",
+      "sentence_rows": 486,
+      "section_count": 18,
+      "page_min": 57,
+      "page_max": 118
+    },
+    {
+      "chapter_no": "3",
+      "chapter_title": "제안서 전략",
+      "sentence_rows": 567,
+      "section_count": 15,
+      "page_min": 119,
+      "page_max": 178
+    },
+    {
+      "chapter_no": "",
+      "chapter_title": "",
+      "sentence_rows": 3,
+      "section_count": 1,
+      "page_min": null,
+      "page_max": null
+    }
+  ],
+  "evidence_modality_counts": {
+    "prose": 1100,
+    "definition": 29,
+    "figure_caption": 32,
+    "table": 15,
+    "list": 143,
+    "example": 47
+  },
+  "claim_status": "source_profile_ready_not_human_gold"
+}

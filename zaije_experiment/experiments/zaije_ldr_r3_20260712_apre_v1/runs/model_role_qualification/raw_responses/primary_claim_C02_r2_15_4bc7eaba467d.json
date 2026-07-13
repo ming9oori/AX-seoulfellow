@@ -1,0 +1,125 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783832419,
+  "created_at": 1783832418,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0bf214e48ab5399f006a531f629cd88199a522aaeaf3cbda80",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 300,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"anchor_id\":\"zaije:evidence/xlsx-row-551_A02\",\"claimhood\":\"CLAIM_BEARING\",\"evidence_support\":\"SUPPORTED\"}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0bf214e48ab5399f006a531f62fc008199aec2cdc72ed71968",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "r3_claimhood_v1",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "anchor_id": {
+            "type": "string"
+          },
+          "claimhood": {
+            "enum": [
+              "CLAIM_BEARING",
+              "NON_CLAIM",
+              "UNDERDETERMINED"
+            ],
+            "type": "string"
+          },
+          "evidence_support": {
+            "enum": [
+              "SUPPORTED",
+              "CONTRADICTED",
+              "UNDERDETERMINED"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "anchor_id",
+          "claimhood",
+          "evidence_support"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 491,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "user": null
+}

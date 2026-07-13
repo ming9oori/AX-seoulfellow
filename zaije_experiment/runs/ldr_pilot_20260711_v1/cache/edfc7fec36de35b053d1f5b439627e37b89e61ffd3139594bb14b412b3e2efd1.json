@@ -1,0 +1,156 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "47f3a81ef8f472693ecb871471e79aa32f91c1c92a2a6efcea4ca342c0ef08c1",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "부가가치가 높은 시장(High-end Market)을 의미한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-408",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "220e05c8e3d27dfc6cdfc6514669664c5da20ed341dbefe76d2c494a9c36f253",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "7. 제안 전략 수립예시",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-477",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "7cad31f185f0215610674c76286be961d05ad976489ee6f7ffa9161b5fba8df0",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "예시 1. Capture Plan (8/8) - 자사의 예상 솔루션",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-489",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "faa390eb316aefe8dcd27691308c9cc0d8dc4af31c2a3bb1fa150c1ad26aecb4",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "가치제안이란 고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것을 보여주는 것이다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "2",
+            "claim_quote": "Winner(V-C) > Loser(V-C)",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-497",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "cc92d9a8c0b50d7764a5f7d5827aecff1b146efca361da4c8ff76b691af65106",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "쉬플리 컨설팅은 고객조직의 의사결정자와 영향자를 정의하면서 시작한다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-526",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b04_edfc7fec36de.json",
+  "response_id": "resp_05fb0e027f649207006a528d46121c8198bf9cfe1c83ef7d86",
+  "usage": {
+    "input_tokens": 3029,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 930,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3959
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795068,
+  "created_at": 1783795042,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0f63d5a1da9ed713006a528d62e2c0819a98d41c95aaa785d4",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-mini-2024-07-18",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-760\",\"bundle_hash\":\"cd0e884fbcad8ce5357289061d87f34c66f776735e7242a9fecb1588ee15c164\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"고객에게 설득력이 높은 제안은 논리적으로 설득적일(Logically Persuasive) 뿐만 아니라 감성적으로 신뢰를 확보(Emotionally Credible)하는 것을 말한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"definition\",\"quote\":\"고객에게 설득력이 높은 제안은 논리적으로 설득적일(Logically Persuasive) 뿐만 아니라 감성적으로 신뢰를 확보(Emotionally Credible)하는 것을 말한다.\",\"normalized_label\":\"Logically Persuasive and Emotionally Credible Proposal\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-834\",\"bundle_hash\":\"c776e49558679e2d347d3069a698af6630348b8071e6ac45a8e77130d3a105aa\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"잘못 강조된 화려한 제안서는 제안자가 강조하고자 하는 핵심 메시지를 흐리고, 평가자로 하여금 반감을 사게 하는 경우가 있음을 직시해야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"obligation\",\"quote\":\"잘못 강조된 화려한 제안서는 제안자가 강조하고자 하는 핵심 메시지를 흐리고, 평가자로 하여금 반감을 사게 하는 경우가 있음을 직시해야 한다.\",\"normalized_label\":\"Recognize the issues with overly emphasized proposals.\"}],\"predicate\":\"must\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-896\",\"bundle_hash\":\"42c8c63325982ac09a05cd324e1dfb7fc53b298efe234c7d787f6460be6259cf\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"•동기(Motivation): 고객이 비전을 달성하기 위해서 스스로 창출한 이슈\\n•문제(Problems): 현재 비즈니스 수행을 위해 극복해야 할 장애요인\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"definition\",\"quote\":\"•동기(Motivation): 고객이 비전을 달성하기 위해서 스스로 창출한 이슈\\n•문제(Problems): 현재 비즈니스 수행을 위해 극복해야 할 장애요인\",\"normalized_label\":\"Motivation and Problems\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-906\",\"bundle_hash\":\"e272427dc56688154db5cf15f8a8d06ab6874518aafa787e4f6a100a0dab9482\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"예를 들면 개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk) 등이 그것이다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"EXAMPLE\",\"arguments\":[{\"role\":\"example\",\"quote\":\"예를 들면 개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk) 등이 그것이다.\",\"normalized_label\":\"Examples of issues that are not openly discussed.\"}],\"predicate\":\"include\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"EXAMPLE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-952\",\"bundle_hash\":\"437c94dabddce6aee8277079ae8427a94ffdb1f0bc6928757a271b6cf2ee5fd3\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"예를 들면 방위사업청에서 장갑차를 구매할 때 실제 전장에서 겪는 병사들의 어려움(계단의 높이, 장갑차 안의 실내 온도) 등을 모르고 단지 기술적 요건만을 체크하지만, 현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)은 평가자를 설득하고, 더 높은 정성적 점수(Qualified Evaluation)를 받는다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"EXAMPLE\",\"arguments\":[{\"role\":\"example\",\"quote\":\"예를 들면 방위사업청에서 장갑차를 구매할 때 실제 전장에서 겪는 병사들의 어려움(계단의 높이, 장갑차 안의 실내 온도) 등을 모르고 단지 기술적 요건만을 체크하지만, 현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)은 평가자를 설득하고, 더 높은 정성적 점수(Qualified Evaluation)를 받는다.\",\"normalized_label\":\"Example of using field feedback to improve proposals.\"}],\"predicate\":\"demonstrates\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"EXAMPLE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0f63d5a1da9ed713006a528d666004819a823f4a5417826b5c",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_a_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2793,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1383,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4176
+  },
+  "user": null
+}

@@ -1,0 +1,16 @@
+{
+  "canonical_graph_system": "R4-B1",
+  "confirmatory_evidence_count": 80,
+  "experiment_id": "zaije_r4_ceoc_20260712_v1",
+  "hypotheses": {
+    "H4_A_conservative_safety": "SUPPORTED",
+    "H4_B_selective_llm_coverage": "NOT_SUPPORTED",
+    "H4_C_selective_llm_cost_efficiency": "NOT_SUPPORTED",
+    "H4_D_structural_usefulness": "SUPPORTED",
+    "H4_E_neo4j_projection": "SUPPORTED"
+  },
+  "operational_graph_includes_llm_candidates": false,
+  "overall_status": "DETERMINISTIC_CORE_ONLY_PASS",
+  "r3_semantic_fields_used_as_facts": false,
+  "test_access": 0
+}

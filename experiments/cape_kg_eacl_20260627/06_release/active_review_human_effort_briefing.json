@@ -1,0 +1,62 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:22.746612+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "condition": "P_cape_kg_actual",
+  "claim_status": "review_navigation_only_pending_human_effort",
+  "pooled_rows": 204,
+  "briefing_rows": 204,
+  "briefing_csv": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv",
+  "briefing_md": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+  "expected_reviewed_csv": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+  "summary_by_membership_bucket": [
+    {
+      "membership_bucket": "active_and_random_only",
+      "rows": 17,
+      "silver_error_rows": 17,
+      "silver_high_impact_rows": 8,
+      "evidence_focus_rows": 8
+    },
+    {
+      "membership_bucket": "active_and_uncertainty_only",
+      "rows": 35,
+      "silver_error_rows": 35,
+      "silver_high_impact_rows": 24,
+      "evidence_focus_rows": 23
+    },
+    {
+      "membership_bucket": "active_only",
+      "rows": 35,
+      "silver_error_rows": 35,
+      "silver_high_impact_rows": 18,
+      "evidence_focus_rows": 18
+    },
+    {
+      "membership_bucket": "all_three",
+      "rows": 13,
+      "silver_error_rows": 13,
+      "silver_high_impact_rows": 8,
+      "evidence_focus_rows": 7
+    },
+    {
+      "membership_bucket": "random_only",
+      "rows": 52,
+      "silver_error_rows": 51,
+      "silver_high_impact_rows": 32,
+      "evidence_focus_rows": 32
+    },
+    {
+      "membership_bucket": "uncertainty_and_random_only",
+      "rows": 18,
+      "silver_error_rows": 18,
+      "silver_high_impact_rows": 15,
+      "evidence_focus_rows": 15
+    },
+    {
+      "membership_bucket": "uncertainty_only",
+      "rows": 34,
+      "silver_error_rows": 34,
+      "silver_high_impact_rows": 25,
+      "evidence_focus_rows": 24
+    }
+  ]
+}

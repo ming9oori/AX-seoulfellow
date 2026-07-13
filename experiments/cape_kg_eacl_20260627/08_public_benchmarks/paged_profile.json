@@ -1,0 +1,45 @@
+{
+  "adapter_status": "gold_graph_reformatted_for_cape_external_subset_no_model_run",
+  "adapter_subset_file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/paged_cape_adapter_subset.jsonl",
+  "adapter_subset_items": 100,
+  "benchmark": "PAGED",
+  "git_revision": "c0cf4e8552afc6aa0e6ef00e5de01beac0100a05",
+  "local_repo": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/PAGED",
+  "paper_url": "https://aclanthology.org/2024.acl-long.583/",
+  "source_url": "https://github.com/WitcherLeo/PAGED",
+  "splits": {
+    "dev": {
+      "associations": 640,
+      "avg_paragraph_chars": 812.43,
+      "data_nodes": 516,
+      "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/PAGED/dataset/procedural_graph_extraction/dev.json",
+      "items": 543,
+      "message_flows": 0,
+      "sequence_flows": 7224,
+      "step_nodes": 7153,
+      "text_nodes": 124
+    },
+    "test": {
+      "associations": 1441,
+      "avg_paragraph_chars": 839.68,
+      "data_nodes": 1192,
+      "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/PAGED/dataset/procedural_graph_extraction/test.json",
+      "items": 1154,
+      "message_flows": 0,
+      "sequence_flows": 16388,
+      "step_nodes": 15892,
+      "text_nodes": 249
+    },
+    "train": {
+      "associations": 2188,
+      "avg_paragraph_chars": 823.05,
+      "data_nodes": 1792,
+      "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/PAGED/dataset/procedural_graph_extraction/train.json",
+      "items": 1697,
+      "message_flows": 4,
+      "sequence_flows": 23424,
+      "step_nodes": 22993,
+      "text_nodes": 396
+    }
+  }
+}

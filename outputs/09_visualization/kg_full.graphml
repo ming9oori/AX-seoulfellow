@@ -9486,7 +9486,9 @@
 <node id="L2_GUARD_8096638c38aa"><data key="label">검토이경제: 낙찰자 추천나존중: 이사회 승인을 얻어서 의사 결정경쟁사 빅 4, 아웃소싱(주), 완소병원 자체 솔루션1</data><data key="type">GuardCondition</data></node>
 <node id="L2_TASK_COMPLIANCE_CHECK"><data key="label">충실도 점검</data><data key="type">DomainTask</data></node>
 <node id="STEP-OPPORTUNITY_ASSESSMENT-01"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-OPPORTUNITY_ASSESSMENT-01"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-OPPORTUNITY_ASSESSMENT-02"><data key="label">제안전략 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-OPPORTUNITY_ASSESSMENT-02"><data key="label">제안전략 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-OPPORTUNITY_ASSESSMENT-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-OPPORTUNITY_ASSESSMENT-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-CAPTURE_PLANNING-01"><data key="label">고객 정보 수집</data><data key="type">ProcedureStep</data></node>
@@ -9496,26 +9498,36 @@
 <node id="STEP-CAPTURE_PLANNING-05"><data key="label">수주전략 수립</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-CAPTURE_PLANNING-06"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-BID_NO_BID_DECISION-01"><data key="label">기회 확인</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-BID_NO_BID_DECISION-01"><data key="label">기회 확인 checkpoint</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-BID_NO_BID_DECISION-02"><data key="label">참여 가능성 평가</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-BID_NO_BID_DECISION-03"><data key="label">경쟁 가능성 평가</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-BID_NO_BID_DECISION-04"><data key="label">참여 여부 결정</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-BID_VALIDATION-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-BID_VALIDATION-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-BID_VALIDATION-02"><data key="label">제안전략 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-BID_VALIDATION-02"><data key="label">제안전략 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-BID_VALIDATION-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-BID_VALIDATION-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-CUSTOMER_NEEDS_ANALYSIS-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-CUSTOMER_NEEDS_ANALYSIS-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-CUSTOMER_NEEDS_ANALYSIS-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-CUSTOMER_NEEDS_ANALYSIS-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-COMPETITOR_ANALYSIS-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-COMPETITOR_ANALYSIS-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-COMPETITOR_ANALYSIS-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-COMPETITOR_ANALYSIS-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-COMPETITOR_ANALYSIS-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-COMPETITOR_ANALYSIS-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-WIN_STRATEGY_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-WIN_STRATEGY_DEVELOPMENT-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-WIN_STRATEGY_DEVELOPMENT-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-WIN_STRATEGY_DEVELOPMENT-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_PLANNING-01"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_PLANNING-01"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_PLANNING-02"><data key="label">제안팀 구성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_PLANNING-03"><data key="label">킥오프 미팅</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_PLANNING-04"><data key="label">제안전략 구체화</data><data key="type">ProcedureStep</data></node>
@@ -9523,65 +9535,94 @@
 <node id="STEP-PROPOSAL_PLANNING-06"><data key="label">목차 개발</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_PLANNING-07"><data key="label">섹션기획서 준비</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_TEAM_FORMATION-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_TEAM_FORMATION-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_TEAM_FORMATION-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_TEAM_FORMATION-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_TEAM_FORMATION-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_TEAM_FORMATION-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-KICKOFF_MEETING-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-KICKOFF_MEETING-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-KICKOFF_MEETING-02"><data key="label">제안전략 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-KICKOFF_MEETING-02"><data key="label">제안전략 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-KICKOFF_MEETING-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-KICKOFF_MEETING-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SOLUTION_DEFINITION-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-SOLUTION_DEFINITION-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-SOLUTION_DEFINITION-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-SOLUTION_DEFINITION-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-SOLUTION_DEFINITION-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SOLUTION_DEFINITION-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PMP_DEVELOPMENT-01"><data key="label">제안 일정 수립</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PMP_DEVELOPMENT-02"><data key="label">역할과 책임 정의</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PMP_DEVELOPMENT-03"><data key="label">WBS 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PMP_DEVELOPMENT-04"><data key="label">리뷰 방법 정의</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PMP_DEVELOPMENT-04"><data key="label">리뷰 방법 정의</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PMP_DEVELOPMENT-05"><data key="label">제안계획서 배포</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-OUTLINE_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-OUTLINE_DEVELOPMENT-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-OUTLINE_DEVELOPMENT-02"><data key="label">제안전략 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-OUTLINE_DEVELOPMENT-02"><data key="label">제안전략 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-OUTLINE_DEVELOPMENT-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-OUTLINE_DEVELOPMENT-04"><data key="label">제안전략 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SECTION_PLANNING-01"><data key="label">요구조건 확인</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-SECTION_PLANNING-01"><data key="label">요구조건 확인 checkpoint</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-SECTION_PLANNING-02"><data key="label">섹션 전략 정의</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SECTION_PLANNING-03"><data key="label">주제문 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SECTION_PLANNING-04"><data key="label">증거자료 배치</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-SECTION_PLANNING-05"><data key="label">스토리보드 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_WRITING-01"><data key="label">섹션기획서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_WRITING-01"><data key="label">섹션기획서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_WRITING-02"><data key="label">초안 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_WRITING-03"><data key="label">주제문 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_WRITING-04"><data key="label">그래픽 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_WRITING-05"><data key="label">리뷰 의견 반영</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_WRITING-05"><data key="label">리뷰 의견 반영</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_WRITING-06"><data key="label">최종본 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-EXECUTIVE_SUMMARY_WRITING-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-EXECUTIVE_SUMMARY_WRITING-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-EXECUTIVE_SUMMARY_WRITING-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-EXECUTIVE_SUMMARY_WRITING-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PROPOSAL_REVIEW-01"><data key="label">리뷰 기준 수립</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_REVIEW-01"><data key="label">리뷰 기준 수립</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_REVIEW-02"><data key="label">핑크팀 리뷰</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_REVIEW-02"><data key="label">핑크팀 리뷰</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_REVIEW-03"><data key="label">레드팀 리뷰</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_REVIEW-03"><data key="label">레드팀 리뷰</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_REVIEW-04"><data key="label">충실도 점검</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_REVIEW-04"><data key="label">충실도 점검 checkpoint</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_REVIEW-05"><data key="label">품질 점검</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PROPOSAL_REVIEW-05"><data key="label">품질 점검 checkpoint</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PROPOSAL_REVIEW-06"><data key="label">수정사항 반영</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-RED_TEAM_REVIEW-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-RED_TEAM_REVIEW-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-RED_TEAM_REVIEW-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-RED_TEAM_REVIEW-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-RED_TEAM_REVIEW-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-RED_TEAM_REVIEW-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PRICE_STRATEGY-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PRICE_STRATEGY-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PRICE_STRATEGY-02"><data key="label">제안전략 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PRICE_STRATEGY-02"><data key="label">제안전략 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PRICE_STRATEGY-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PRICE_STRATEGY-04"><data key="label">제안전략 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PT_STRATEGY-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PT_STRATEGY-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PT_STRATEGY-02"><data key="label">Proposal Management Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-PT_STRATEGY-02"><data key="label">Proposal Management Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-PT_STRATEGY-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-PT_STRATEGY-04"><data key="label">제안서 목차 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-COMPLIANCE_CHECK-01"><data key="label">제안 요청서 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-COMPLIANCE_CHECK-01"><data key="label">제안 요청서 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-COMPLIANCE_CHECK-02"><data key="label">Capture Plan 검토</data><data key="type">ProcedureStep</data></node>
+<node id="REVIEW-STEP-COMPLIANCE_CHECK-02"><data key="label">Capture Plan 검토</data><data key="type">ReviewCheckpoint</data></node>
 <node id="STEP-COMPLIANCE_CHECK-03"><data key="label">제안 요청서 작성</data><data key="type">ProcedureStep</data></node>
 <node id="STEP-COMPLIANCE_CHECK-04"><data key="label">Capture Plan 작성</data><data key="type">ProcedureStep</data></node>
 <node id="L2_ARTIFACT_FLOW_dc0c9cf53698"><data key="label">Capture Plan -&gt; 제안서 기획</data><data key="type">ArtifactFlow</data></node>
@@ -19679,7 +19720,9 @@
 <edge id="EDGE-3e92a3bc4b5b300b" source="L2_TASK_COMPLIANCE_CHECK" target="L2_DG_DG_BID_VALIDATION"><data key="predicate">HAS_DECISION_GATEWAY</data></edge>
 <edge id="EDGE-8810eec4b739fa6e" source="L2_TASK_COMPLIANCE_CHECK" target="L2_DG_DG_APPROVAL"><data key="predicate">HAS_DECISION_GATEWAY</data></edge>
 <edge id="EDGE-2ea7b6844813b69d" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="STEP-OPPORTUNITY_ASSESSMENT-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-e60bd43abb66dde1" source="STEP-OPPORTUNITY_ASSESSMENT-01" target="REVIEW-STEP-OPPORTUNITY_ASSESSMENT-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-cae313125103de8e" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="STEP-OPPORTUNITY_ASSESSMENT-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-32f49e5de246dadf" source="STEP-OPPORTUNITY_ASSESSMENT-02" target="REVIEW-STEP-OPPORTUNITY_ASSESSMENT-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-d74557fac4835dda" source="STEP-OPPORTUNITY_ASSESSMENT-01" target="STEP-OPPORTUNITY_ASSESSMENT-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-614f999dc447e519" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="STEP-OPPORTUNITY_ASSESSMENT-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-cb261f05b340edff" source="STEP-OPPORTUNITY_ASSESSMENT-02" target="STEP-OPPORTUNITY_ASSESSMENT-03"><data key="predicate">PRECEDES</data></edge>
@@ -19697,6 +19740,7 @@
 <edge id="EDGE-3bdb385a46d24769" source="L2_TASK_CAPTURE_PLANNING" target="STEP-CAPTURE_PLANNING-06"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-f66880937383cb52" source="STEP-CAPTURE_PLANNING-05" target="STEP-CAPTURE_PLANNING-06"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-3e2146d4d58d8896" source="L2_TASK_BID_NO_BID_DECISION" target="STEP-BID_NO_BID_DECISION-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-54618c5b9e88998d" source="STEP-BID_NO_BID_DECISION-01" target="REVIEW-STEP-BID_NO_BID_DECISION-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-bd23d6c0ef614f42" source="L2_TASK_BID_NO_BID_DECISION" target="STEP-BID_NO_BID_DECISION-02"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-8211e9cd4a744165" source="STEP-BID_NO_BID_DECISION-01" target="STEP-BID_NO_BID_DECISION-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-5f3da1be14684b8c" source="L2_TASK_BID_NO_BID_DECISION" target="STEP-BID_NO_BID_DECISION-03"><data key="predicate">HAS_STEP</data></edge>
@@ -19704,34 +19748,43 @@
 <edge id="EDGE-fdb7f02c2622da95" source="L2_TASK_BID_NO_BID_DECISION" target="STEP-BID_NO_BID_DECISION-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-57654e17a8d12d1a" source="STEP-BID_NO_BID_DECISION-03" target="STEP-BID_NO_BID_DECISION-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-a6ea2e612db682c7" source="L2_TASK_BID_VALIDATION" target="STEP-BID_VALIDATION-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-eb04081d5cc5f120" source="STEP-BID_VALIDATION-01" target="REVIEW-STEP-BID_VALIDATION-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-ef8b548b93e401b5" source="L2_TASK_BID_VALIDATION" target="STEP-BID_VALIDATION-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-a13c90062fb21faa" source="STEP-BID_VALIDATION-02" target="REVIEW-STEP-BID_VALIDATION-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-5e1a873edc70f903" source="STEP-BID_VALIDATION-01" target="STEP-BID_VALIDATION-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-412c999c020d804e" source="L2_TASK_BID_VALIDATION" target="STEP-BID_VALIDATION-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-2c1f32ee8ade9022" source="STEP-BID_VALIDATION-02" target="STEP-BID_VALIDATION-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-cd1cbf57da0a834d" source="L2_TASK_BID_VALIDATION" target="STEP-BID_VALIDATION-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-b11a167f6fb68ed6" source="STEP-BID_VALIDATION-03" target="STEP-BID_VALIDATION-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-fda6c53cc3c0cbac" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="STEP-CUSTOMER_NEEDS_ANALYSIS-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-5bb37e7cceac6a56" source="STEP-CUSTOMER_NEEDS_ANALYSIS-01" target="REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-70c7665bd1d3d5cd" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="STEP-CUSTOMER_NEEDS_ANALYSIS-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-ed30bca4067ac190" source="STEP-CUSTOMER_NEEDS_ANALYSIS-02" target="REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-4f683ed0b47f8263" source="STEP-CUSTOMER_NEEDS_ANALYSIS-01" target="STEP-CUSTOMER_NEEDS_ANALYSIS-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-f29594f0a3c41585" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="STEP-CUSTOMER_NEEDS_ANALYSIS-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-c33806165a7b76aa" source="STEP-CUSTOMER_NEEDS_ANALYSIS-02" target="STEP-CUSTOMER_NEEDS_ANALYSIS-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-c0436975a49f1599" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="STEP-CUSTOMER_NEEDS_ANALYSIS-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-632e31766f56680c" source="STEP-CUSTOMER_NEEDS_ANALYSIS-03" target="STEP-CUSTOMER_NEEDS_ANALYSIS-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-2bd70a702c0ca617" source="L2_TASK_COMPETITOR_ANALYSIS" target="STEP-COMPETITOR_ANALYSIS-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-54db9b7d037ff9bc" source="STEP-COMPETITOR_ANALYSIS-01" target="REVIEW-STEP-COMPETITOR_ANALYSIS-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-97543b57361d121d" source="L2_TASK_COMPETITOR_ANALYSIS" target="STEP-COMPETITOR_ANALYSIS-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-54bd3c783f7e8429" source="STEP-COMPETITOR_ANALYSIS-02" target="REVIEW-STEP-COMPETITOR_ANALYSIS-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-62f66ce2a0316e4d" source="STEP-COMPETITOR_ANALYSIS-01" target="STEP-COMPETITOR_ANALYSIS-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-71c2489f9228b178" source="L2_TASK_COMPETITOR_ANALYSIS" target="STEP-COMPETITOR_ANALYSIS-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-325ef7faac0dff7e" source="STEP-COMPETITOR_ANALYSIS-02" target="STEP-COMPETITOR_ANALYSIS-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-a3e101a1cda51769" source="L2_TASK_COMPETITOR_ANALYSIS" target="STEP-COMPETITOR_ANALYSIS-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-358dca6e34eb8780" source="STEP-COMPETITOR_ANALYSIS-03" target="STEP-COMPETITOR_ANALYSIS-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-b327722360476344" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="STEP-WIN_STRATEGY_DEVELOPMENT-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-8d3bd96479e4ed1c" source="STEP-WIN_STRATEGY_DEVELOPMENT-01" target="REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-967a77f964e3ad29" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="STEP-WIN_STRATEGY_DEVELOPMENT-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-381979a208ff6008" source="STEP-WIN_STRATEGY_DEVELOPMENT-02" target="REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-99416745c0967f1b" source="STEP-WIN_STRATEGY_DEVELOPMENT-01" target="STEP-WIN_STRATEGY_DEVELOPMENT-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-5c25e4540b20495a" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="STEP-WIN_STRATEGY_DEVELOPMENT-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-385314b6082d9ac7" source="STEP-WIN_STRATEGY_DEVELOPMENT-02" target="STEP-WIN_STRATEGY_DEVELOPMENT-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-4c9a0e91308b203b" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="STEP-WIN_STRATEGY_DEVELOPMENT-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-553e4981966480f1" source="STEP-WIN_STRATEGY_DEVELOPMENT-03" target="STEP-WIN_STRATEGY_DEVELOPMENT-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-6b38b1a7f3e188db" source="L2_TASK_PROPOSAL_PLANNING" target="STEP-PROPOSAL_PLANNING-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-229428bd3fe578c4" source="STEP-PROPOSAL_PLANNING-01" target="REVIEW-STEP-PROPOSAL_PLANNING-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-5d48bb1427ba7ab8" source="L2_TASK_PROPOSAL_PLANNING" target="STEP-PROPOSAL_PLANNING-02"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-dfb04354f886bd7b" source="STEP-PROPOSAL_PLANNING-01" target="STEP-PROPOSAL_PLANNING-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-83e76f96bc1d372b" source="L2_TASK_PROPOSAL_PLANNING" target="STEP-PROPOSAL_PLANNING-03"><data key="predicate">HAS_STEP</data></edge>
@@ -19745,28 +19798,36 @@
 <edge id="EDGE-2fe9a0757779ba9f" source="L2_TASK_PROPOSAL_PLANNING" target="STEP-PROPOSAL_PLANNING-07"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-259d9e093b0d305b" source="STEP-PROPOSAL_PLANNING-06" target="STEP-PROPOSAL_PLANNING-07"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-437ae01c8eb9a492" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="STEP-PROPOSAL_TEAM_FORMATION-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-c6b25fcb5d93a295" source="STEP-PROPOSAL_TEAM_FORMATION-01" target="REVIEW-STEP-PROPOSAL_TEAM_FORMATION-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-f6cd676177fef70d" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="STEP-PROPOSAL_TEAM_FORMATION-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-740478576cc49fa1" source="STEP-PROPOSAL_TEAM_FORMATION-02" target="REVIEW-STEP-PROPOSAL_TEAM_FORMATION-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-41ee64cb668b1676" source="STEP-PROPOSAL_TEAM_FORMATION-01" target="STEP-PROPOSAL_TEAM_FORMATION-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-aaf66c2e687ea62c" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="STEP-PROPOSAL_TEAM_FORMATION-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-4124b8297ae55d2f" source="STEP-PROPOSAL_TEAM_FORMATION-02" target="STEP-PROPOSAL_TEAM_FORMATION-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-b358b33bfeb4286c" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="STEP-PROPOSAL_TEAM_FORMATION-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-f52035fcf8da5831" source="STEP-PROPOSAL_TEAM_FORMATION-03" target="STEP-PROPOSAL_TEAM_FORMATION-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-dd4580c24c5f955e" source="L2_TASK_KICKOFF_MEETING" target="STEP-KICKOFF_MEETING-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-ab788f4f5dc2d187" source="STEP-KICKOFF_MEETING-01" target="REVIEW-STEP-KICKOFF_MEETING-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-f13ed572f4a945ff" source="L2_TASK_KICKOFF_MEETING" target="STEP-KICKOFF_MEETING-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-3d946e8a2cf97e15" source="STEP-KICKOFF_MEETING-02" target="REVIEW-STEP-KICKOFF_MEETING-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-4e088cc6dff74762" source="STEP-KICKOFF_MEETING-01" target="STEP-KICKOFF_MEETING-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-4c3e02500fc28837" source="L2_TASK_KICKOFF_MEETING" target="STEP-KICKOFF_MEETING-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-64210da9717de056" source="STEP-KICKOFF_MEETING-02" target="STEP-KICKOFF_MEETING-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-45d4f30901fe62ec" source="L2_TASK_KICKOFF_MEETING" target="STEP-KICKOFF_MEETING-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-cb4ad777bc3a4a4e" source="STEP-KICKOFF_MEETING-03" target="STEP-KICKOFF_MEETING-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-082433f6541b7a7a" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-dffee26d5ade7b61" source="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01" target="REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-f1bc3a1e2630b641" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-8681a8c4a90b2dd3" source="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02" target="REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-dacdbdf56bd1c39b" source="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-74f5f25b3006b0b6" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-d34ada1f9358cd78" source="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-effbaf95a61521fe" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-06780ae2adb89b7b" source="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03" target="STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-0bc3c3f35e04ff25" source="L2_TASK_SOLUTION_DEFINITION" target="STEP-SOLUTION_DEFINITION-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-c4b31a4d23315739" source="STEP-SOLUTION_DEFINITION-01" target="REVIEW-STEP-SOLUTION_DEFINITION-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-41061c90f7f249d8" source="L2_TASK_SOLUTION_DEFINITION" target="STEP-SOLUTION_DEFINITION-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-5004e06b60a38670" source="STEP-SOLUTION_DEFINITION-02" target="REVIEW-STEP-SOLUTION_DEFINITION-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-9fa83a1e32ef652f" source="STEP-SOLUTION_DEFINITION-01" target="STEP-SOLUTION_DEFINITION-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-71d07d53e2319504" source="L2_TASK_SOLUTION_DEFINITION" target="STEP-SOLUTION_DEFINITION-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-12ad9885aa621dd1" source="STEP-SOLUTION_DEFINITION-02" target="STEP-SOLUTION_DEFINITION-03"><data key="predicate">PRECEDES</data></edge>
@@ -19778,17 +19839,21 @@
 <edge id="EDGE-07cc753940978197" source="L2_TASK_PMP_DEVELOPMENT" target="STEP-PMP_DEVELOPMENT-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-be4f06b634019ed4" source="STEP-PMP_DEVELOPMENT-02" target="STEP-PMP_DEVELOPMENT-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-66ecafa2a60fb14d" source="L2_TASK_PMP_DEVELOPMENT" target="STEP-PMP_DEVELOPMENT-04"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-e69fc4702ae8a840" source="STEP-PMP_DEVELOPMENT-04" target="REVIEW-STEP-PMP_DEVELOPMENT-04"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-4733e1bc28b56c8b" source="STEP-PMP_DEVELOPMENT-03" target="STEP-PMP_DEVELOPMENT-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-f8afa45f6b88915e" source="L2_TASK_PMP_DEVELOPMENT" target="STEP-PMP_DEVELOPMENT-05"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-be7a8cfbf77a02d3" source="STEP-PMP_DEVELOPMENT-04" target="STEP-PMP_DEVELOPMENT-05"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-0fb3e96427b74b4d" source="L2_TASK_OUTLINE_DEVELOPMENT" target="STEP-OUTLINE_DEVELOPMENT-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-9cc4515e717e0b21" source="STEP-OUTLINE_DEVELOPMENT-01" target="REVIEW-STEP-OUTLINE_DEVELOPMENT-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-9cb53261f65d3f1f" source="L2_TASK_OUTLINE_DEVELOPMENT" target="STEP-OUTLINE_DEVELOPMENT-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-529b9e84621d6eed" source="STEP-OUTLINE_DEVELOPMENT-02" target="REVIEW-STEP-OUTLINE_DEVELOPMENT-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-a3a85e4ca7b75301" source="STEP-OUTLINE_DEVELOPMENT-01" target="STEP-OUTLINE_DEVELOPMENT-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-14aceb1ccfde3bcc" source="L2_TASK_OUTLINE_DEVELOPMENT" target="STEP-OUTLINE_DEVELOPMENT-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-9c79a7f57f3b5547" source="STEP-OUTLINE_DEVELOPMENT-02" target="STEP-OUTLINE_DEVELOPMENT-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-3e8f592432bfa48e" source="L2_TASK_OUTLINE_DEVELOPMENT" target="STEP-OUTLINE_DEVELOPMENT-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-e0276beae1ff3785" source="STEP-OUTLINE_DEVELOPMENT-03" target="STEP-OUTLINE_DEVELOPMENT-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-819a2dfc6e90ab54" source="L2_TASK_SECTION_PLANNING" target="STEP-SECTION_PLANNING-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-d95aea882a18a185" source="STEP-SECTION_PLANNING-01" target="REVIEW-STEP-SECTION_PLANNING-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-80a80abc5ef47d82" source="L2_TASK_SECTION_PLANNING" target="STEP-SECTION_PLANNING-02"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-d87cef0b5290ad29" source="STEP-SECTION_PLANNING-01" target="STEP-SECTION_PLANNING-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-89793219d8c97cb9" source="L2_TASK_SECTION_PLANNING" target="STEP-SECTION_PLANNING-03"><data key="predicate">HAS_STEP</data></edge>
@@ -19798,6 +19863,7 @@
 <edge id="EDGE-7748c883c33c9b82" source="L2_TASK_SECTION_PLANNING" target="STEP-SECTION_PLANNING-05"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-b31db50e743673bc" source="STEP-SECTION_PLANNING-04" target="STEP-SECTION_PLANNING-05"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-40bc448a4e2da671" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-c538edc144f522e2" source="STEP-PROPOSAL_WRITING-01" target="REVIEW-STEP-PROPOSAL_WRITING-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-4c722923c88a73e2" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-02"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-0342a58e34d18c98" source="STEP-PROPOSAL_WRITING-01" target="STEP-PROPOSAL_WRITING-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-f71c8559c9545d85" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-03"><data key="predicate">HAS_STEP</data></edge>
@@ -19805,50 +19871,66 @@
 <edge id="EDGE-0dd23f5facc46c2d" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-1d56ea2ba627075a" source="STEP-PROPOSAL_WRITING-03" target="STEP-PROPOSAL_WRITING-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-6fcbe51e746ade5a" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-05"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-8a7e3b7d55eac2a9" source="STEP-PROPOSAL_WRITING-05" target="REVIEW-STEP-PROPOSAL_WRITING-05"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-7e5752e2397c2ed3" source="STEP-PROPOSAL_WRITING-04" target="STEP-PROPOSAL_WRITING-05"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-df7c70c5e13dc865" source="L2_TASK_PROPOSAL_WRITING" target="STEP-PROPOSAL_WRITING-06"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-366413fe092eaedd" source="STEP-PROPOSAL_WRITING-05" target="STEP-PROPOSAL_WRITING-06"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-73f6a142131daf1b" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="STEP-EXECUTIVE_SUMMARY_WRITING-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-4d1734ef935e0736" source="STEP-EXECUTIVE_SUMMARY_WRITING-01" target="REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-f414d2f665249760" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="STEP-EXECUTIVE_SUMMARY_WRITING-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-a7a109e8e02ed122" source="STEP-EXECUTIVE_SUMMARY_WRITING-02" target="REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-be80c0758c9f8521" source="STEP-EXECUTIVE_SUMMARY_WRITING-01" target="STEP-EXECUTIVE_SUMMARY_WRITING-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-51f011ac18f33565" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="STEP-EXECUTIVE_SUMMARY_WRITING-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-ce11bb7e2e31747d" source="STEP-EXECUTIVE_SUMMARY_WRITING-02" target="STEP-EXECUTIVE_SUMMARY_WRITING-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-58c36958d013bac9" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="STEP-EXECUTIVE_SUMMARY_WRITING-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-f6fe9d834745cd48" source="STEP-EXECUTIVE_SUMMARY_WRITING-03" target="STEP-EXECUTIVE_SUMMARY_WRITING-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-08dcf35cc5e2619d" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-48f21b4d52d4788b" source="STEP-PROPOSAL_REVIEW-01" target="REVIEW-STEP-PROPOSAL_REVIEW-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-e27d243a88bb3d2e" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-a992649440ae2319" source="STEP-PROPOSAL_REVIEW-02" target="REVIEW-STEP-PROPOSAL_REVIEW-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-24453a89128f835f" source="STEP-PROPOSAL_REVIEW-01" target="STEP-PROPOSAL_REVIEW-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-aebb60c21af12524" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-03"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-193c354b986b6cb5" source="STEP-PROPOSAL_REVIEW-03" target="REVIEW-STEP-PROPOSAL_REVIEW-03"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-c9509cf1ce0dbe5a" source="STEP-PROPOSAL_REVIEW-02" target="STEP-PROPOSAL_REVIEW-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-fc9527fbba9e3c1c" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-04"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-cc97b28abcb71d6f" source="STEP-PROPOSAL_REVIEW-04" target="REVIEW-STEP-PROPOSAL_REVIEW-04"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-d376b4ddf4216153" source="STEP-PROPOSAL_REVIEW-03" target="STEP-PROPOSAL_REVIEW-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-21135aa200a1bbf2" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-05"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-0c564f6f73ce5425" source="STEP-PROPOSAL_REVIEW-05" target="REVIEW-STEP-PROPOSAL_REVIEW-05"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-55e0c07e05d4b7c8" source="STEP-PROPOSAL_REVIEW-04" target="STEP-PROPOSAL_REVIEW-05"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-88a4d50b784d4db8" source="L2_TASK_PROPOSAL_REVIEW" target="STEP-PROPOSAL_REVIEW-06"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-4e4663ed5b4f319c" source="STEP-PROPOSAL_REVIEW-05" target="STEP-PROPOSAL_REVIEW-06"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-9003ef16130d8bcd" source="L2_TASK_RED_TEAM_REVIEW" target="STEP-RED_TEAM_REVIEW-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-3ff392fd22b87ad1" source="STEP-RED_TEAM_REVIEW-01" target="REVIEW-STEP-RED_TEAM_REVIEW-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-fcb719f63bda87a0" source="L2_TASK_RED_TEAM_REVIEW" target="STEP-RED_TEAM_REVIEW-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-5c987c9e824c5ba2" source="STEP-RED_TEAM_REVIEW-02" target="REVIEW-STEP-RED_TEAM_REVIEW-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-8659cd1814024e64" source="STEP-RED_TEAM_REVIEW-01" target="STEP-RED_TEAM_REVIEW-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-b80dabb8714ecf1f" source="L2_TASK_RED_TEAM_REVIEW" target="STEP-RED_TEAM_REVIEW-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-2ff15c959a8eaa90" source="STEP-RED_TEAM_REVIEW-02" target="STEP-RED_TEAM_REVIEW-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-3f71a87ccaff58c9" source="L2_TASK_RED_TEAM_REVIEW" target="STEP-RED_TEAM_REVIEW-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-612b2557c1356eb7" source="STEP-RED_TEAM_REVIEW-03" target="STEP-RED_TEAM_REVIEW-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-7cbc59bfc3d3893c" source="L2_TASK_PRICE_STRATEGY" target="STEP-PRICE_STRATEGY-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-cd3098958c5ed1fa" source="STEP-PRICE_STRATEGY-01" target="REVIEW-STEP-PRICE_STRATEGY-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-ed65e11402b616d4" source="L2_TASK_PRICE_STRATEGY" target="STEP-PRICE_STRATEGY-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-0d0fee0c8e35590c" source="STEP-PRICE_STRATEGY-02" target="REVIEW-STEP-PRICE_STRATEGY-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-97cd31d811ed9890" source="STEP-PRICE_STRATEGY-01" target="STEP-PRICE_STRATEGY-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-5d2cc1126174022b" source="L2_TASK_PRICE_STRATEGY" target="STEP-PRICE_STRATEGY-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-cd3831305da05f4e" source="STEP-PRICE_STRATEGY-02" target="STEP-PRICE_STRATEGY-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-66a1974256d4d21d" source="L2_TASK_PRICE_STRATEGY" target="STEP-PRICE_STRATEGY-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-bf724f6ab6a91a8f" source="STEP-PRICE_STRATEGY-03" target="STEP-PRICE_STRATEGY-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-bb0e95971e55463d" source="L2_TASK_PT_STRATEGY" target="STEP-PT_STRATEGY-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-9ebe37121dd655f6" source="STEP-PT_STRATEGY-01" target="REVIEW-STEP-PT_STRATEGY-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-e8cf04ccaf0e55f0" source="L2_TASK_PT_STRATEGY" target="STEP-PT_STRATEGY-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-ed31f4fe75132bba" source="STEP-PT_STRATEGY-02" target="REVIEW-STEP-PT_STRATEGY-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-ade35380a8dd6c19" source="STEP-PT_STRATEGY-01" target="STEP-PT_STRATEGY-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-8b006490e0805071" source="L2_TASK_PT_STRATEGY" target="STEP-PT_STRATEGY-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-aac57e19afe41f58" source="STEP-PT_STRATEGY-02" target="STEP-PT_STRATEGY-03"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-4f935f10ddc0848a" source="L2_TASK_PT_STRATEGY" target="STEP-PT_STRATEGY-04"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-659f7b356d814b78" source="STEP-PT_STRATEGY-03" target="STEP-PT_STRATEGY-04"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-f87588b6850f54f8" source="L2_TASK_COMPLIANCE_CHECK" target="STEP-COMPLIANCE_CHECK-01"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-e025870e36f35df5" source="STEP-COMPLIANCE_CHECK-01" target="REVIEW-STEP-COMPLIANCE_CHECK-01"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-17ba2283e1ae497f" source="L2_TASK_COMPLIANCE_CHECK" target="STEP-COMPLIANCE_CHECK-02"><data key="predicate">HAS_STEP</data></edge>
+<edge id="EDGE-7bd21b636639e390" source="STEP-COMPLIANCE_CHECK-02" target="REVIEW-STEP-COMPLIANCE_CHECK-02"><data key="predicate">HAS_REVIEW_CHECKPOINT</data></edge>
 <edge id="EDGE-d42c1f22ba8d9581" source="STEP-COMPLIANCE_CHECK-01" target="STEP-COMPLIANCE_CHECK-02"><data key="predicate">PRECEDES</data></edge>
 <edge id="EDGE-b44af4e00431f7b3" source="L2_TASK_COMPLIANCE_CHECK" target="STEP-COMPLIANCE_CHECK-03"><data key="predicate">HAS_STEP</data></edge>
 <edge id="EDGE-1b64140a5f30ab27" source="STEP-COMPLIANCE_CHECK-02" target="STEP-COMPLIANCE_CHECK-03"><data key="predicate">PRECEDES</data></edge>
@@ -19872,225 +19954,225 @@
 <edge id="EDGE-fff645657995efc5" source="L2_ARTIFACT_ARTIFACT_COMPLIANCE_CHECKLIST" target="L2_TASK_PROPOSAL_REVIEW"><data key="predicate">USED_AS_INPUT_FOR</data></edge>
 <edge id="EDGE-f99977fe8b9c503d" source="L2_ARTIFACT_ARTIFACT_EXEC_SUMMARY" target="L2_TASK_PROPOSAL_REVIEW"><data key="predicate">FEEDS_INTO</data></edge>
 <edge id="EDGE-fe9586235292c3ab" source="L2_ARTIFACT_ARTIFACT_EXEC_SUMMARY" target="L2_TASK_PROPOSAL_REVIEW"><data key="predicate">USED_AS_INPUT_FOR</data></edge>
-<edge id="MAP-7c8bda01000dcab4" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508030106_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-60e59e4ffc065488" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-418a736365666100" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508060102_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6e603164498a8fe4" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1203020110_23v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-b937500164ea962e" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1903060114_23v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-83fc3edde0e57a8b" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-acf7ff2b0c8714fa" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:2002040114_22v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-96e636985d817bd5" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508060101_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-a10f39a02881c749" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-4d5525846a54a0f2" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508040104_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-1049923744a6c0a9" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040106_23v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c6cec2bf8e0af489" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040105_23v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-49d84896ae30b158" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040104_23v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c2730a08a06eb3f1" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401010109_14v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-569a3c3afd642ac3" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1508040112_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-be43a239d4f143fd" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508060105_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-05475b0a77654550" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508030103_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-47ecb11c5c0f1aa3" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508040112_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e0ec86f069c1850f" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508060104_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6d61fe0b6c104cc1" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508050105_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c15c718587c53e21" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1506050103_18v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-69c637d3ba948579" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:0302020106_16v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e90ae02b795254d2" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1601030101_16v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-b8a2dfd842398a9f" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1003020115_16v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-810cf9d897615da2" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1301020109_22v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7de0577c58ebe56c" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-07a40e8b6a7b4c58" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1902020104_16v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-d930511b3da3f07b" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1001010111_20v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-77d17abb65d25e7f" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1002010104_20v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-05dca1cfb9168bb7" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1705030101_21v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-ef899b139d1c5a19" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7599aad534833cc6" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2002040114_22v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6cce92b391ab38ad" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001010101_19v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e565a6e6df089ac3" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001010104_19v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-82394272e78d5ce7" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:0201030116_21v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-441046408fd500d3" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-903289dec545c040" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-368c628db02527fe" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c8d19d1efead18ad" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020114_24v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6643de90ddad9a03" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020111_24v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-98a8092f9f9970b9" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-82947f07e89f516a" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-f4a315edbfef055b" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:2002040114_22v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-5e50ad9a83ce7212" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508040107_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-64647c0faf3ea101" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508060104_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-cf0461534579dc3c" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508050103_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7b3fe033ac46c7c7" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-90d511ddc4bfb059" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:2001050106_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-f7678f8e40864c7d" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508040112_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-34ddab8ea2fa3e4e" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508010102_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-ee28082b10377fdb" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c5918e7c2ec698b2" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1001010105_20v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-651eb45fa0ecef1d" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1802030105_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-bff602249dd7e235" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1903060114_23v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-595d5b6455aafe0b" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-deccc630f5852170" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-60ebb1b9d091c37f" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:2002040114_22v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-b0391279d6f70dea" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-d1046fec16a1d3c0" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508040104_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-ca74425b1d45a5b8" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508060105_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-dc7f6a0a579165ed" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-35c151154f9ed0bb" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-4f7e6159ec9d751b" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508040104_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e59ff4aadd4df931" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-8fa7d890dc7563a1" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508050105_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-30eab946b88bac21" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-82fe995e15d5c0d9" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e790c3defe2e2974" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:1508040104_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-2d6a3718e5e8d753" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:0302010109_14v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6f77c8a6c30ac5b3" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-9f35ff755cea9167" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-746352d514095b13" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-0d32d0e94e6bb571" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0803010110_16v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-89a3c25342bcc5c7" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0201020111_24v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-5c20473764747bc9" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:1401020108_25v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-9d450e79152f742f" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6379e6dd4b4b240e" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-fdbba84482bbd551" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508050103_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c510d5bd285aba7b" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-22c817af4909857b" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508030114_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-a1808935aee2a3e4" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:2001050105_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-1e3c261d655048b0" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1508010104_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7ce62e552f75bed0" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1508040107_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-a124401ecfcfc248" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:2002040114_22v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-4f58a5d2c18da4fe" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1903060132_23v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-36ad226ea15322c1" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-eff8a894aca16c77" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:0302010109_14v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-28cf59b29db61672" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:2001050106_25v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-424af88294648a3b" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-8b9be5ff72e75489" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:1001010105_20v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-8e5f2409d28e3bf7" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:2305060106_15v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7e33865ac89a9050" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:1508060110_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-44edf5db7d3a0220" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:1508060104_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-03d4e8c79dbdab6d" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:0302010109_14v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-b757cecde8830389" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:1508060102_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-da7fc490671131a3" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-26aa508ba2551c02" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1802030104_14v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-6c508928f3ee6ed6" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:0201020111_24v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-a885517f2b0a9671" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1506030118_20v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-af3a2114640e7048" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1508060105_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-36f29fb64d09e670" source="L2_TASK_PT_STRATEGY" target="ncs:CU:0802010106_20v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-57ada4b6a151969c" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1403010105_16v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-9e69f17162d9a7f4" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1508030103_17v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-b93e4ccf687b03c1" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1405010111_23v4"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-2ef97ddc8a82089d" source="L2_TASK_PT_STRATEGY" target="ncs:CU:0201020115_24v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-7ab2ae7581dfb210" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1903060132_23v5"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-eb53aee65c62fe20" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1407010102_19v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-9a8306c8b022f167" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1508060102_15v3"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-c042a6196fe19659" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1703000103_21v1"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e3c8db1dc01f2df3" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1407040108_16v2"><data key="predicate">CANDIDATE_REQUIRES_CAPABILITY</data></edge>
-<edge id="MAP-e2ce98c23880cf4b" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:18116"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-3755551d86c1f42c" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:20011"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-23bd091ea3b786dd" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:11773"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b96ec14fcf3cd9f6" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:16937"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-38f3f1e260f7dfba" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:20119"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-282ff03f06248649" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:10881"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-67c806434a5ae8c8" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:20888"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-45cdeaa5898bb8cb" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:11222"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f76e9e744a4f38e6" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:19243"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-5d5274432bf92ddb" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:19946"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-580f132db4c750fc" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:10957"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-745dd339d7384b04" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:11790"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c7ed7bed4e4ffa41" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:20018"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-fbcfdd48fcd78baa" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:20103"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-feb57e9eb0244a71" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:10038"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-8a205d20f60e8248" source="L2_TASK_BID_VALIDATION" target="pcf:E:20814"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c63be1aa7c451471" source="L2_TASK_BID_VALIDATION" target="pcf:E:20072"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-e41ca06686714167" source="L2_TASK_BID_VALIDATION" target="pcf:E:19998"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-5da087235505e778" source="L2_TASK_BID_VALIDATION" target="pcf:E:20661"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-92a038b27fdac094" source="L2_TASK_BID_VALIDATION" target="pcf:E:20810"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b75cd76c4c7d2ac4" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:20070"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-58c8a7458924890a" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:20609"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-783d33e4cb76840b" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19963"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-259e61bdc994006b" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19947"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-986aca730ca1b96a" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19946"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-dba6ee44147d7b0a" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:10111"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-44b438eeff630b25" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:10021"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-7c725224a0a2e196" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:19945"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-90172917c08cffd1" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:11783"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-5b7a345b46b0c7f4" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:13169"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-11e390d62a4c1457" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:10952"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-daa1cb39784e5eda" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20092"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-e0184d1b2de5d165" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20873"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-3aef5f4964b2be0c" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:21700"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b6f2f9cb619fd2b0" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20889"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c9d0df4c0d6d01d0" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11468"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-ca20e87c56ea9a1e" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11790"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c86c9021acc3d8e6" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:20018"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-0b2eb4dcc6f7bd12" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11781"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-07d4c564810dfc66" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:19243"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-05b35b08b4d8e79e" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:11142"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b5953de60c723345" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:20062"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-cf18f9703a786d2b" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:10051"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-605c603c145de6e4" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:20627"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d9a31d5028f38bb3" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:11468"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-dd590a6d4f5cab93" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:10464"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f62a59d7ece0e79f" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:10191"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b2b77dd9bc78c60b" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:20012"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f6f0fad49452a07d" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:11779"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-4486cf3d363237d3" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:11168"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-cb2e867528d61f38" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:10952"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-4c819fe30a9609bf" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20092"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f4cb06f8ec0594a6" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20873"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-a7b895fc7380aac7" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:21707"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c0722c09b9bd2063" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20657"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-15ba7bbba917c9de" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20627"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-17573d7c1a030a43" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20071"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d278a251843bf1c1" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20076"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-187a0c0675813021" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20797"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-773b3f5ec51e10f5" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20072"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-e83ed8e9f64cdb4b" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:10516"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-8206b5d757926289" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:11779"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-6400a4af767cc85f" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:10191"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-8de2b754b06b34c5" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:16448"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-231ce53a10fb40d4" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:16824"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-6b12e6a5a1d077b2" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10516"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-31fb034540da1daf" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:11779"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b96afc70ba955a88" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10191"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-60810e43f4975993" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10051"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-9a4d5ba1a9b1aa08" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:11781"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d6ca8d70eac7193f" source="L2_TASK_SECTION_PLANNING" target="pcf:E:16824"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-b0dee58d5490fd8f" source="L2_TASK_SECTION_PLANNING" target="pcf:E:11428"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c9035d5fae598922" source="L2_TASK_SECTION_PLANNING" target="pcf:E:10487"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-3a28c95e0c3a50ba" source="L2_TASK_SECTION_PLANNING" target="pcf:E:21706"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-833bf2312106c4b8" source="L2_TASK_SECTION_PLANNING" target="pcf:E:20786"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-dcdf7e8f8e052d51" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:11790"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-7e6d30d23babaae7" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:20663"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-5bd71f7aebe3f1f8" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:18116"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-a68a9b3be080fc04" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:11779"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-75929b0b56f7a721" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:20018"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-49b485b3159c82cd" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:17489"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d13485d2d36803e8" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20862"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-c6ed6a4f179795b7" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20627"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-cf99bccfe9220c01" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20703"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-1f2d419e8de42897" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20062"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-9fa5a0c2e0193da5" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:20018"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-a7690321a2b488fe" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11790"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-2e94e814ba9df67d" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11779"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-a4c8ab71709f32ac" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11781"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-15df7ab312748f1d" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:20663"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-8105fdbbb78a9ce8" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:11142"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-24c5561da4162df4" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:20016"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-4cb8a3c7d659c6ea" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:10511"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f7bb0b3c56c5e3d2" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:10207"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-41dd04557eedfd22" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:20063"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-911b9f4023a3c432" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:19999"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-8cf4ed197f642b8a" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:11494"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-afec089063b8977f" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10123"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-7ce7c409d06a6d41" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10952"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-21b9fef775f545cc" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10125"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d82bee50915ef018" source="L2_TASK_PT_STRATEGY" target="pcf:E:10952"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-7bfff0f0b12b32cf" source="L2_TASK_PT_STRATEGY" target="pcf:E:20092"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-40ae0272d90632f9" source="L2_TASK_PT_STRATEGY" target="pcf:E:20873"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-4fe235202d585d6b" source="L2_TASK_PT_STRATEGY" target="pcf:E:20889"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-f4e9b7bc86408ee1" source="L2_TASK_PT_STRATEGY" target="pcf:E:19220"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-d9df729d162f621b" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:11781"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-235b6413adb99b3e" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:10935"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-0334185c7c79edbd" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:16811"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-1572b6ceb12fbc43" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:20842"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
-<edge id="MAP-034e50dd676ed958" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:16463"><data key="predicate">CANDIDATE_PROCESS_CONTEXT</data></edge>
+<edge id="MAP-7c8bda01000dcab4" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508030106_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-60e59e4ffc065488" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6e603164498a8fe4" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1203020110_23v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-418a736365666100" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1508060102_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-b937500164ea962e" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="ncs:CU:1903060114_23v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-83fc3edde0e57a8b" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-acf7ff2b0c8714fa" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:2002040114_22v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-96e636985d817bd5" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508060101_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-a10f39a02881c749" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-4d5525846a54a0f2" source="L2_TASK_CAPTURE_PLANNING" target="ncs:CU:1508040104_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-1049923744a6c0a9" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040106_23v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c6cec2bf8e0af489" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040105_23v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-49d84896ae30b158" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401040104_23v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c2730a08a06eb3f1" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1401010109_14v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-569a3c3afd642ac3" source="L2_TASK_BID_NO_BID_DECISION" target="ncs:CU:1508040112_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-be43a239d4f143fd" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508060105_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-05475b0a77654550" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508030103_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-47ecb11c5c0f1aa3" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508040112_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e0ec86f069c1850f" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508060104_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6d61fe0b6c104cc1" source="L2_TASK_BID_VALIDATION" target="ncs:CU:1508050105_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c15c718587c53e21" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1506050103_18v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-69c637d3ba948579" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:0302020106_16v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e90ae02b795254d2" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1601030101_16v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-b8a2dfd842398a9f" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1003020115_16v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-810cf9d897615da2" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="ncs:CU:1301020109_22v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7de0577c58ebe56c" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-07a40e8b6a7b4c58" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1902020104_16v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-d930511b3da3f07b" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1001010111_20v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-77d17abb65d25e7f" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1002010104_20v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-05dca1cfb9168bb7" source="L2_TASK_COMPETITOR_ANALYSIS" target="ncs:CU:1705030101_21v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-ef899b139d1c5a19" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7599aad534833cc6" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2002040114_22v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6cce92b391ab38ad" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001010101_19v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e565a6e6df089ac3" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:2001010104_19v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-82394272e78d5ce7" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="ncs:CU:0201030116_21v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-441046408fd500d3" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-903289dec545c040" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-368c628db02527fe" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c8d19d1efead18ad" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020114_24v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6643de90ddad9a03" source="L2_TASK_PROPOSAL_PLANNING" target="ncs:CU:0201020111_24v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-98a8092f9f9970b9" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-82947f07e89f516a" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-f4a315edbfef055b" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:2002040114_22v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-5e50ad9a83ce7212" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508040107_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-64647c0faf3ea101" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="ncs:CU:1508060104_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-cf0461534579dc3c" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508050103_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7b3fe033ac46c7c7" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-90d511ddc4bfb059" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-f7678f8e40864c7d" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508040112_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-34ddab8ea2fa3e4e" source="L2_TASK_KICKOFF_MEETING" target="ncs:CU:1508010102_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-ee28082b10377fdb" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c5918e7c2ec698b2" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1001010105_20v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-651eb45fa0ecef1d" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1802030105_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-595d5b6455aafe0b" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-bff602249dd7e235" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="ncs:CU:1903060114_23v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-deccc630f5852170" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-60ebb1b9d091c37f" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:2002040114_22v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-b0391279d6f70dea" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-d1046fec16a1d3c0" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508040104_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-ca74425b1d45a5b8" source="L2_TASK_SOLUTION_DEFINITION" target="ncs:CU:1508060105_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-dc7f6a0a579165ed" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-35c151154f9ed0bb" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-4f7e6159ec9d751b" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508040104_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e59ff4aadd4df931" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-8fa7d890dc7563a1" source="L2_TASK_PMP_DEVELOPMENT" target="ncs:CU:1508050105_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-30eab946b88bac21" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-82fe995e15d5c0d9" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e790c3defe2e2974" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:1508040104_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-2d6a3718e5e8d753" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:0302010109_14v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6f77c8a6c30ac5b3" source="L2_TASK_OUTLINE_DEVELOPMENT" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-9f35ff755cea9167" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-746352d514095b13" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-0d32d0e94e6bb571" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0803010110_16v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-89a3c25342bcc5c7" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:0201020111_24v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-32cfb1026da0f547" source="L2_TASK_SECTION_PLANNING" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-9d450e79152f742f" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6379e6dd4b4b240e" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-fdbba84482bbd551" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508050103_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c510d5bd285aba7b" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-22c817af4909857b" source="L2_TASK_PROPOSAL_WRITING" target="ncs:CU:1508030114_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-a1808935aee2a3e4" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:2001050105_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-1e3c261d655048b0" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1508010104_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7ce62e552f75bed0" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1508040107_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-a124401ecfcfc248" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:2002040114_22v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-4f58a5d2c18da4fe" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="ncs:CU:1903060132_23v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-36ad226ea15322c1" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-eff8a894aca16c77" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:0302010109_14v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-28cf59b29db61672" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-424af88294648a3b" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-8b9be5ff72e75489" source="L2_TASK_PROPOSAL_REVIEW" target="ncs:CU:1001010105_20v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-8e5f2409d28e3bf7" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:2305060106_15v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7e33865ac89a9050" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:1508060110_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-44edf5db7d3a0220" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:1508060104_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-03d4e8c79dbdab6d" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:0302010109_14v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-8552620f2298132f" source="L2_TASK_RED_TEAM_REVIEW" target="ncs:CU:2001010103_19v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-da7fc490671131a3" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-26aa508ba2551c02" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1802030104_14v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-6c508928f3ee6ed6" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:0201020111_24v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-a885517f2b0a9671" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1506030118_20v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-af3a2114640e7048" source="L2_TASK_PRICE_STRATEGY" target="ncs:CU:1508060105_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-36f29fb64d09e670" source="L2_TASK_PT_STRATEGY" target="ncs:CU:0802010106_20v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-57ada4b6a151969c" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1403010105_16v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-b93e4ccf687b03c1" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1405010111_23v4"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-9e69f17162d9a7f4" source="L2_TASK_PT_STRATEGY" target="ncs:CU:1508030103_17v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-2ef97ddc8a82089d" source="L2_TASK_PT_STRATEGY" target="ncs:CU:0201020115_24v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-7ab2ae7581dfb210" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1903060132_23v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-eb53aee65c62fe20" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1407010102_19v2"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-9a8306c8b022f167" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1508060102_15v3"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-c042a6196fe19659" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:1703000103_21v1"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-5a110516fe24b4f6" source="L2_TASK_COMPLIANCE_CHECK" target="ncs:CU:2001050106_25v5"><data key="predicate">REQUIRES_CAPABILITY</data></edge>
+<edge id="MAP-e2ce98c23880cf4b" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:18116"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-3755551d86c1f42c" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:20011"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-23bd091ea3b786dd" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:11773"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b96ec14fcf3cd9f6" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:16937"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-38f3f1e260f7dfba" source="L2_TASK_OPPORTUNITY_ASSESSMENT" target="pcf:E:20119"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-282ff03f06248649" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:10881"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-67c806434a5ae8c8" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:20888"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-45cdeaa5898bb8cb" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:11222"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f76e9e744a4f38e6" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:19243"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-5d5274432bf92ddb" source="L2_TASK_CAPTURE_PLANNING" target="pcf:E:19946"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-580f132db4c750fc" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:10957"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-745dd339d7384b04" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:11790"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c7ed7bed4e4ffa41" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:20018"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-fbcfdd48fcd78baa" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:20103"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-feb57e9eb0244a71" source="L2_TASK_BID_NO_BID_DECISION" target="pcf:E:10038"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-8a205d20f60e8248" source="L2_TASK_BID_VALIDATION" target="pcf:E:20814"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c63be1aa7c451471" source="L2_TASK_BID_VALIDATION" target="pcf:E:20072"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-e41ca06686714167" source="L2_TASK_BID_VALIDATION" target="pcf:E:19998"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-5da087235505e778" source="L2_TASK_BID_VALIDATION" target="pcf:E:20661"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-92a038b27fdac094" source="L2_TASK_BID_VALIDATION" target="pcf:E:20810"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b75cd76c4c7d2ac4" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:20070"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-58c8a7458924890a" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:20609"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-783d33e4cb76840b" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19963"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-259e61bdc994006b" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19947"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-986aca730ca1b96a" source="L2_TASK_CUSTOMER_NEEDS_ANALYSIS" target="pcf:E:19946"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-dba6ee44147d7b0a" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:10111"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-44b438eeff630b25" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:10021"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-7c725224a0a2e196" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:19945"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-90172917c08cffd1" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:11783"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-5b7a345b46b0c7f4" source="L2_TASK_COMPETITOR_ANALYSIS" target="pcf:E:13169"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-11e390d62a4c1457" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:10952"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-daa1cb39784e5eda" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20092"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-e0184d1b2de5d165" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20873"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-3aef5f4964b2be0c" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:21700"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b6f2f9cb619fd2b0" source="L2_TASK_WIN_STRATEGY_DEVELOPMENT" target="pcf:E:20889"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c9d0df4c0d6d01d0" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11468"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-ca20e87c56ea9a1e" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11790"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c86c9021acc3d8e6" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:20018"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-0b2eb4dcc6f7bd12" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:11781"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-07d4c564810dfc66" source="L2_TASK_PROPOSAL_PLANNING" target="pcf:E:19243"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-05b35b08b4d8e79e" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:11142"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b5953de60c723345" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:20062"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-cf18f9703a786d2b" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:10051"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-605c603c145de6e4" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:20627"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d9a31d5028f38bb3" source="L2_TASK_PROPOSAL_TEAM_FORMATION" target="pcf:E:11468"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-dd590a6d4f5cab93" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:10464"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f62a59d7ece0e79f" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:10191"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b2b77dd9bc78c60b" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:20012"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f6f0fad49452a07d" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:11779"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-4486cf3d363237d3" source="L2_TASK_KICKOFF_MEETING" target="pcf:E:11168"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-cb2e867528d61f38" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:10952"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-4c819fe30a9609bf" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20092"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f4cb06f8ec0594a6" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20873"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-a7b895fc7380aac7" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:21707"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c0722c09b9bd2063" source="L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT" target="pcf:E:20657"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-15ba7bbba917c9de" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20627"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-17573d7c1a030a43" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20071"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d278a251843bf1c1" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20076"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-187a0c0675813021" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20797"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-773b3f5ec51e10f5" source="L2_TASK_SOLUTION_DEFINITION" target="pcf:E:20072"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-e83ed8e9f64cdb4b" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:10516"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-8206b5d757926289" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:11779"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-6400a4af767cc85f" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:10191"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-8de2b754b06b34c5" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:16448"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-231ce53a10fb40d4" source="L2_TASK_PMP_DEVELOPMENT" target="pcf:E:16824"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-6b12e6a5a1d077b2" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10516"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-31fb034540da1daf" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:11779"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b96afc70ba955a88" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10191"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-60810e43f4975993" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:10051"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-9a4d5ba1a9b1aa08" source="L2_TASK_OUTLINE_DEVELOPMENT" target="pcf:E:11781"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d6ca8d70eac7193f" source="L2_TASK_SECTION_PLANNING" target="pcf:E:16824"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-b0dee58d5490fd8f" source="L2_TASK_SECTION_PLANNING" target="pcf:E:11428"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c9035d5fae598922" source="L2_TASK_SECTION_PLANNING" target="pcf:E:10487"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-3a28c95e0c3a50ba" source="L2_TASK_SECTION_PLANNING" target="pcf:E:21706"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-833bf2312106c4b8" source="L2_TASK_SECTION_PLANNING" target="pcf:E:20786"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-dcdf7e8f8e052d51" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:11790"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-7e6d30d23babaae7" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:20663"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-5bd71f7aebe3f1f8" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:18116"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-a68a9b3be080fc04" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:11779"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-75929b0b56f7a721" source="L2_TASK_PROPOSAL_WRITING" target="pcf:E:20018"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-49b485b3159c82cd" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:17489"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d13485d2d36803e8" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20862"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-c6ed6a4f179795b7" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20627"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-cf99bccfe9220c01" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20703"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-1f2d419e8de42897" source="L2_TASK_EXECUTIVE_SUMMARY_WRITING" target="pcf:E:20062"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-9fa5a0c2e0193da5" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:20018"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-a7690321a2b488fe" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11790"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-2e94e814ba9df67d" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11779"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-a4c8ab71709f32ac" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:11781"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-15df7ab312748f1d" source="L2_TASK_PROPOSAL_REVIEW" target="pcf:E:20663"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-8105fdbbb78a9ce8" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:11142"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-24c5561da4162df4" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:20016"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-4cb8a3c7d659c6ea" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:10511"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f7bb0b3c56c5e3d2" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:10207"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-41dd04557eedfd22" source="L2_TASK_RED_TEAM_REVIEW" target="pcf:E:20063"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-911b9f4023a3c432" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:19999"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-8cf4ed197f642b8a" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:11494"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-afec089063b8977f" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10123"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-7ce7c409d06a6d41" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10952"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-21b9fef775f545cc" source="L2_TASK_PRICE_STRATEGY" target="pcf:E:10125"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d82bee50915ef018" source="L2_TASK_PT_STRATEGY" target="pcf:E:10952"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-7bfff0f0b12b32cf" source="L2_TASK_PT_STRATEGY" target="pcf:E:20092"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-40ae0272d90632f9" source="L2_TASK_PT_STRATEGY" target="pcf:E:20873"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-4fe235202d585d6b" source="L2_TASK_PT_STRATEGY" target="pcf:E:20889"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-f4e9b7bc86408ee1" source="L2_TASK_PT_STRATEGY" target="pcf:E:19220"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-d9df729d162f621b" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:11781"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-235b6413adb99b3e" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:10935"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-0334185c7c79edbd" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:16811"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-1572b6ceb12fbc43" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:20842"><data key="predicate">PROCESS_CONTEXT</data></edge>
+<edge id="MAP-034e50dd676ed958" source="L2_TASK_COMPLIANCE_CHECK" target="pcf:E:16463"><data key="predicate">PROCESS_CONTEXT</data></edge>
 </graph>
 </graphml>

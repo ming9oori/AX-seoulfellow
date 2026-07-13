@@ -1,0 +1,35 @@
+{
+  "cost": {
+    "batch_discount_not_assumed": true,
+    "cached_input_tokens": 0,
+    "input_tokens": 90263,
+    "output_tokens": 7462,
+    "request_count": 230,
+    "standard_price_upper_bound_usd": 0.240222
+  },
+  "envelope_counts": {
+    "BOUNDARY_HARD_DROP": 6,
+    "BOUNDARY_HARD_KEEP": 64
+  },
+  "fresh_anchor_count": 70,
+  "fresh_api_exposure": 60,
+  "fresh_api_request_count": 230,
+  "metrics": {
+    "anchor_id_validity": 1.0,
+    "boundary_unstable_rate": 0,
+    "candidate_list_order_exposure": 0,
+    "exact_duplicate_consistency": 1.0,
+    "hard_plus_soft_claimhood_coverage": 1,
+    "mismatch_negative_control_false_keep": 0,
+    "positive_anchor_pairwise_f1": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "positive_anchor_pairwise_f1_median": 1.0,
+    "schema_validity": 1.0,
+    "whole_anchor_three_repeat_exact_agreement": 1
+  },
+  "status": "PASS",
+  "test_access": 0
+}

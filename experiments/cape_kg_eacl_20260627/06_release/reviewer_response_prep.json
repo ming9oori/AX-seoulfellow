@@ -1,0 +1,373 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.737369+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "reviewer_response_prep_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "response_count": 7,
+    "missing_evidence_files": 0,
+    "status_counts": {
+      "candidate_pipeline_ready_expert_review_pending": 1,
+      "claimable_setup_human_quality_pending": 1,
+      "mitigated_public_safe_release_rights_review_required": 1,
+      "mitigated_setup_final_performance_pending": 1,
+      "mitigated_with_constraints_and_diagnostics": 1,
+      "partially_mitigated_final_gain_pending": 1,
+      "scaffold_ready_human_metrics_pending": 1
+    },
+    "concern_counts": {
+      "dataset_motivation": 1,
+      "downstream_scope": 1,
+      "evaluation_rigor": 1,
+      "method_rigor": 1,
+      "novelty": 1,
+      "reproducibility": 1,
+      "task_framing": 1
+    },
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "claim_gate_optional_failures": 2,
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "reviewer_risk_register_status": null,
+    "safe_to_use_as_submission": false,
+    "submission_ready": false
+  },
+  "responses": [
+    {
+      "response_id": "Q01_domain_application",
+      "reviewer_question": "단순 domain application 아닌가?",
+      "concern_class": "task_framing",
+      "status": "mitigated_setup_final_performance_pending",
+      "paper_sections": [
+        "Introduction",
+        "Task Definition",
+        "Method"
+      ],
+      "short_answer_ko": "논문은 수주·제안 KG 구축 사례가 아니라, 장문 한국어 업무 문서에서 evidence-grounded procedural KG를 추출하는 constrained IE task로 정의한다. 현재 RQ1-RQ4, M1-M11, CQ/query pack, paper section source map이 이 framing을 뒷받침한다.",
+      "short_answer_en": "The paper should be framed as constrained evidence-grounded procedural KG extraction from long Korean enterprise documents, not as a one-off bid/proposal KG case. RQ1-RQ4, M1-M11, the CQ/query pack, and the section source map currently support that framing.",
+      "safe_claim_boundary": "Task definition, method modules, and structural diagnostics are safe to discuss now.",
+      "must_not_claim": "Do not claim final target-corpus superiority until human-gold scoring is complete.",
+      "remaining_gate": "human-gold annotation, IAA, adjudication, and proposed-method scoring",
+      "evidence_files": [
+        {
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md",
+          "exists": true,
+          "bytes": 9141
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q02_reproducibility_private_data",
+      "reviewer_question": "데이터가 공개되지 않으면 재현성이 낮지 않은가?",
+      "concern_class": "reproducibility",
+      "status": "mitigated_public_safe_release_rights_review_required",
+      "paper_sections": [
+        "Dataset and Annotation",
+        "Release and Reproducibility",
+        "Ethics"
+      ],
+      "short_answer_ko": "raw OCR/source text는 권리 검토 전 공개하지 않는다. 대신 schema, prompts, evaluation scripts, provenance, public-safe synthetic examples, public benchmark adapters, release bundle manifest를 공개 가능한 재현성 package로 제시한다.",
+      "short_answer_en": "Raw OCR/source text should not be released before rights clearance. Reproducibility is mitigated through schemas, prompts, evaluation scripts, provenance, public-safe synthetic examples, public benchmark adapters, and release-bundle manifests.",
+      "safe_claim_boundary": "Public-safe reproducibility scaffolding is claimable as setup evidence.",
+      "must_not_claim": "Do not state that private source text can be redistributed or that rights review is complete.",
+      "remaining_gate": "external rights review before public source-text release",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q03_existing_ontology_guided_extraction",
+      "reviewer_question": "ontology-guided extraction은 이미 많지 않은가?",
+      "concern_class": "novelty",
+      "status": "partially_mitigated_final_gain_pending",
+      "paper_sections": [
+        "Related Work",
+        "Method",
+        "Ablation"
+      ],
+      "short_answer_ko": "차별점은 ontology guidance 자체가 아니라 CQ-anchored schema retrieval, procedural node/edge schema, component evidence spans, validators, active-review queue, NCS/PCF standard bridge를 하나의 평가 가능한 pipeline으로 묶는 데 있다.",
+      "short_answer_en": "The novelty claim should not be generic ontology guidance. It should focus on combining CQ-anchored schema retrieval, procedural node/edge schemas, component evidence spans, validators, active-review queues, and NCS/PCF standard bridging in an evaluable pipeline.",
+      "safe_claim_boundary": "Method composition and artifact coverage are safe to claim.",
+      "must_not_claim": "Do not claim that each module independently improves final quality until ablations are scored against human gold.",
+      "remaining_gate": "human-gold ablation scoring",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q04_why_korean_enterprise_documents",
+      "reviewer_question": "왜 Korean enterprise document인가?",
+      "concern_class": "dataset_motivation",
+      "status": "claimable_setup_human_quality_pending",
+      "paper_sections": [
+        "Dataset and Annotation",
+        "Analysis"
+      ],
+      "short_answer_ko": "이 데이터는 OCR noise, 장문 절차, 한국어/영어 alias 혼합, task-artifact-role-flow가 얽힌 업무 문서라는 IE challenge를 제공한다. 현재 5,009 sentence OCR evidence index와 120 evaluation chunks, 100 priority review chunks가 준비되어 있다.",
+      "short_answer_en": "The corpus is motivated as an IE challenge with OCR noise, long procedural context, mixed Korean/English aliases, and intertwined task-artifact-role-flow structures. The current setup includes 5,009 OCR evidence sentences, 120 evaluation chunks, and 100 priority review chunks.",
+      "safe_claim_boundary": "Dataset challenge and sampling setup are safe to describe.",
+      "must_not_claim": "Do not claim benchmark quality or annotation reliability until annotation and IAA are complete.",
+      "remaining_gate": "two-annotator labels, adjudication, and IAA",
+      "evidence_files": [
+        {
+          "path": "outputs/06_triples/evidence_anchors.jsonl",
+          "exists": true,
+          "bytes": 1676699
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl",
+          "exists": true,
+          "bytes": 495269
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_report.md",
+          "exists": true,
+          "bytes": 1384
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+          "exists": true,
+          "bytes": 2505
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q05_prompt_engineering",
+      "reviewer_question": "LLM prompt engineering 아닌가?",
+      "concern_class": "method_rigor",
+      "status": "mitigated_with_constraints_and_diagnostics",
+      "paper_sections": [
+        "Method",
+        "Experiments",
+        "Reproducibility"
+      ],
+      "short_answer_ko": "CAPE-KG는 prompt만이 아니라 strict JSON contract, schema retrieval, constrained predicate set, component evidence spans, ontology/SHACL validation, procedural diagnostics, provenance lock으로 통제된다.",
+      "short_answer_en": "CAPE-KG is controlled by more than prompts: strict JSON contracts, schema retrieval, constrained predicates, component evidence spans, ontology/SHACL validation, procedural diagnostics, and provenance locks constrain the pipeline.",
+      "safe_claim_boundary": "Engineering controls, validators, and provenance are safe setup claims.",
+      "must_not_claim": "Do not equate strict JSON or SHACL pass rates with final semantic correctness.",
+      "remaining_gate": "human-gold semantic correctness evaluation",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt",
+          "exists": true,
+          "bytes": 664
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+          "exists": true,
+          "bytes": 8741
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+          "exists": true,
+          "bytes": 19847
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q06_subjective_evaluation",
+      "reviewer_question": "평가가 subjective하지 않은가?",
+      "concern_class": "evaluation_rigor",
+      "status": "scaffold_ready_human_metrics_pending",
+      "paper_sections": [
+        "Experiments",
+        "Main Results",
+        "Analysis"
+      ],
+      "short_answer_ko": "평가는 node/edge F1, evidence EM/IoU, unsupported edge rate, ontology conformance, procedural consistency, CQ answerability, mapping P@K/MRR/nDCG로 정량화되도록 준비되어 있다. 현재 final human-gold 값은 pending이다.",
+      "short_answer_en": "The evaluation is designed around quantitative metrics: node/edge F1, evidence EM/IoU, unsupported edge rate, ontology conformance, procedural consistency, CQ answerability, and mapping P@K/MRR/nDCG. Final human-gold values remain pending.",
+      "safe_claim_boundary": "Metric definitions and scorer readiness are safe to describe.",
+      "must_not_claim": "Do not report silver/proxy diagnostics as main human-gold performance.",
+      "remaining_gate": "completed human-gold labels and scorer refresh",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": []
+    },
+    {
+      "response_id": "Q07_ncs_pcf_nlp_contribution",
+      "reviewer_question": "NCS/PCF mapping이 NLP contribution인가?",
+      "concern_class": "downstream_scope",
+      "status": "candidate_pipeline_ready_expert_review_pending",
+      "paper_sections": [
+        "Downstream Evaluation",
+        "Analysis"
+      ],
+      "short_answer_ko": "NCS/PCF는 핵심 NLP contribution이 아니라 downstream standard-taxonomy alignment task로 제한한다. core contribution은 evidence-grounded procedural IE이고, NCS/PCF mapping은 KG가 표준 taxonomy alignment에 유용한지 검증하는 후속 평가다.",
+      "short_answer_en": "NCS/PCF mapping should be scoped as a downstream standard-taxonomy alignment task, not the core NLP contribution. The core contribution is evidence-grounded procedural IE; mapping evaluates whether the resulting KG helps standard-taxonomy alignment.",
+      "safe_claim_boundary": "Candidate generation and downstream task framing are safe to discuss.",
+      "must_not_claim": "Do not claim P@K, MRR, nDCG, accept-rate, or utility until expert review is complete.",
+      "remaining_gate": "mapping and crosswalk expert review",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        }
+      ],
+      "missing_evidence_files": []
+    }
+  ],
+  "missing_evidence_files": []
+}

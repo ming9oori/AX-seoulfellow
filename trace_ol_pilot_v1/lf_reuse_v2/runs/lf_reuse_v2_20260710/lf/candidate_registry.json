@@ -1,0 +1,29 @@
+[
+  {
+    "rule_id": "lf:v2:d52143e03b00adc7dcee6359",
+    "feature": "tok:평가자는",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "DescriptiveFact",
+      "modality": "NONE",
+      "polarity": "POSITIVE",
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "induction_support": 3,
+    "induction_correct": 3,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  }
+]

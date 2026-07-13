@@ -1,0 +1,7 @@
+required_configurations: 1
+must_differ_from_primary_snapshot: true
+comparison_mode: pointwise
+candidates:
+  C01: gpt-4o-mini-2024-07-18
+  C03: gpt-4o-2024-08-06
+  C04: gpt-4.1-2025-04-14

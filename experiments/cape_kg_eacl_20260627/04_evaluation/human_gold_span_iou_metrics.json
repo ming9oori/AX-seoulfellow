@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:21.327174+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "summary": {
+    "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl",
+    "candidate_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation_template.jsonl",
+    "candidate_rows": 120,
+    "candidate_edge_count": 1444,
+    "candidate_component_span_count": 4332,
+    "completed_adjudicated_chunks": 0,
+    "status_counts": {
+      "pending_two_annotator_input": 120
+    },
+    "gold_edge_count": 0,
+    "gold_component_span_count": 0,
+    "matched_edge_count": 0,
+    "matched_component_span_count": 0,
+    "component_counts": {},
+    "span_exact_match_rate": null,
+    "mean_span_iou": null,
+    "component_exact_match_rate": {
+      "subject": null,
+      "predicate": null,
+      "object": null
+    },
+    "component_mean_iou": {
+      "subject": null,
+      "predicate": null,
+      "object": null
+    },
+    "claim_status": "pending_human_adjudication"
+  },
+  "component_rows": [],
+  "component_row_count": 0,
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+    "csv": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv",
+    "md": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md"
+  }
+}

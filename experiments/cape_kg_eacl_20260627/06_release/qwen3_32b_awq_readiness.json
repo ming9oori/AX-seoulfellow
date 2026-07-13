@@ -1,0 +1,130 @@
+{
+  "generated_at_utc": "2026-06-29T15:31:56.571803+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "repo_id": "Qwen/Qwen3-32B-AWQ",
+  "environment": {
+    "disk_path": "/home",
+    "disk_total_gib": 1691.93,
+    "disk_used_gib": 1581.385,
+    "disk_free_gib": 24.529,
+    "python_env": "/home/minjoo/tdpo2_aaai2027/.venv_tdpo2/bin/python",
+    "modules": {
+      "torch": false,
+      "transformers": true,
+      "accelerate": false,
+      "bitsandbytes": false,
+      "autoawq": false,
+      "autoawq_importable": false,
+      "vllm": false,
+      "sglang": false,
+      "transformers_awq_quantizer": false
+    },
+    "autoawq_import_error": "not_installed",
+    "torch": {},
+    "transformers": {
+      "version": "4.36.1"
+    }
+  },
+  "awq_model": {
+    "repo_id": "Qwen/Qwen3-32B-AWQ",
+    "sha": "0499c3ac83fdef8810b907a23894ba91e95eddd8",
+    "file_count": 14,
+    "safetensors_count": 4,
+    "safetensors_gib": 17.998,
+    "selected_download_gib": 18.013,
+    "largest_files": [
+      {
+        "file": "model-00002-of-00004.safetensors",
+        "gib": 4.655
+      },
+      {
+        "file": "model-00001-of-00004.safetensors",
+        "gib": 4.625
+      },
+      {
+        "file": "model-00003-of-00004.safetensors",
+        "gib": 4.61
+      },
+      {
+        "file": "model-00004-of-00004.safetensors",
+        "gib": 4.108
+      },
+      {
+        "file": "tokenizer.json",
+        "gib": 0.011
+      }
+    ],
+    "source": "https://huggingface.co/Qwen/Qwen3-32B-AWQ"
+  },
+  "standard_model": {
+    "repo_id": "Qwen/Qwen3-32B",
+    "sha": "9216db5781bf21249d130ec9da846c4624c16137",
+    "file_count": 27,
+    "safetensors_count": 17,
+    "safetensors_gib": 61.024,
+    "selected_download_gib": 61.039,
+    "largest_files": [
+      {
+        "file": "model-00001-of-00017.safetensors",
+        "gib": 3.685
+      },
+      {
+        "file": "model-00004-of-00017.safetensors",
+        "gib": 3.633
+      },
+      {
+        "file": "model-00005-of-00017.safetensors",
+        "gib": 3.633
+      },
+      {
+        "file": "model-00006-of-00017.safetensors",
+        "gib": 3.633
+      },
+      {
+        "file": "model-00007-of-00017.safetensors",
+        "gib": 3.633
+      }
+    ],
+    "source": "https://huggingface.co/Qwen/Qwen3-32B"
+  },
+  "cached_awq_snapshots": [
+    {
+      "path": "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8",
+      "safetensors_count": 4,
+      "safetensors_gib": 17.998
+    }
+  ],
+  "complete_cached_awq_snapshots": [
+    {
+      "path": "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-32B-AWQ/snapshots/0499c3ac83fdef8810b907a23894ba91e95eddd8",
+      "safetensors_count": 4,
+      "safetensors_gib": 17.998
+    }
+  ],
+  "partial_cached_awq_snapshots": [],
+  "cached_standard_snapshots": [],
+  "complete_cached_standard_snapshots": [],
+  "partial_cached_standard_snapshots": [],
+  "min_headroom_gib": 10.0,
+  "can_download_awq": false,
+  "can_transformers_native_awq": false,
+  "can_vllm_awq": false,
+  "can_sglang_awq": false,
+  "download_requested": false,
+  "download_path": null,
+  "download_error": null,
+  "qwen3_32b_awq_core_run": {
+    "raw_file": "experiments/cape_kg_eacl_20260627/48_qwen3_32b_awq_core_120_raw.jsonl",
+    "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_32b_awq_core_120_valid.jsonl",
+    "quality_report": "experiments/cape_kg_eacl_20260627/50_qwen3_32b_awq_core_120_quality_report.md",
+    "silver_report": "experiments/cape_kg_eacl_20260627/04_evaluation/qwen3_32b_awq_core_silver_evaluation_report.md",
+    "silver_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/qwen3_32b_awq_core_silver_metrics.json",
+    "raw_rows": 480,
+    "valid_rows": 480,
+    "expected_rows": 480,
+    "complete": true
+  },
+  "status": "core_run_complete",
+  "recommended_next_action": "Qwen3-32B-AWQ core 120-chunk run is complete; use human-gold scoring before paper claims.",
+  "claim_status": "model_readiness_only_not_a_paper_result"
+}

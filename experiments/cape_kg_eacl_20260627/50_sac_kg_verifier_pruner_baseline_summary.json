@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-06-27T23:33:17.877526+00:00",
+  "condition": "B6_sac_kg_verifier_pruner",
+  "chunks": 120,
+  "raw_rows": 120,
+  "valid_rows": 120,
+  "accepted_nodes": 2281,
+  "accepted_edges": 361,
+  "accepted_mappings": 107,
+  "counters": {
+    "edge_pruned_domain_range": 454,
+    "input_candidate_rows": 600,
+    "accepted_nodes": 2281,
+    "accepted_edges": 361,
+    "accepted_mappings": 107,
+    "edge_pruned_self_loop": 4
+  },
+  "source_valid_files": [
+    "49_qwen3_8b_cape_ablation_120_valid.jsonl",
+    "49_qwen3_8b_b2_b4_condition_baselines_120_valid.jsonl",
+    "49_qwen3_8b_edc_schema_ablation_valid.jsonl"
+  ],
+  "raw_file": "experiments/cape_kg_eacl_20260627/48_sac_kg_verifier_pruner_baseline_raw.jsonl",
+  "valid_file": "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl",
+  "report_file": "experiments/cape_kg_eacl_20260627/50_sac_kg_verifier_pruner_baseline_quality_report.md"
+}

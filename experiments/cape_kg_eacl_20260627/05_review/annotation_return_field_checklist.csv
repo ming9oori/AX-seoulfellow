@@ -1,0 +1,33 @@
+scope,field,edit_policy,required_when_completed,allowed_values,validator_effect,notes
+top_level,annotation_status,reviewer_editable,yes,"completed, in_progress, needs_adjudication, pending_human_annotation",completed/needs_adjudication만 완료로 집계된다.,검수 상태. 완료 행은 completed 또는 needs_adjudication으로 둔다.
+top_level,annotator_id,reviewer_editable,conditional,,import 시 원본 row에 반영되는 editable field다.,검수자 식별자. A/B 독립 검수 구분을 위해 비워두지 않는다.
+top_level,chapter_id,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,chunk_id,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,chunk_text,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,comments,reviewer_editable,conditional,,needs_adjudication row에서는 비어 있으면 error다.,"불확실성, adjudication 필요 사유, 특이사항."
+top_level,gold_edges,reviewer_editable,conditional,,completed row에서 accept된 candidate 또는 추가 edge 근거를 검사한다.,accept한 candidate edge 및 추가로 발견한 명시적 edge 목록.
+top_level,gold_nodes,reviewer_editable,conditional,,import 시 원본 row에 반영되는 editable field다.,원문에서 명시적으로 지지되는 최종 node 목록.
+top_level,instructions,immutable_or_context,conditional,,검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.,
+top_level,missing_but_supported_notes,reviewer_editable,conditional,,import 시 원본 row에 반영되는 editable field다.,candidate에는 없지만 원문상 지지되는 누락 항목 메모.
+top_level,package,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,page_end,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,page_start,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,rejected_candidate_reference_ids,reviewer_editable,conditional,,completed row의 미처리 candidate edge를 막기 위해 사용된다.,reject한 silver candidate의 reference_id 목록.
+top_level,section_id,immutable_or_context,conditional,,import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.,
+top_level,silver_candidate_edge_count,immutable_or_context,conditional,,검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.,
+top_level,silver_candidate_edges,immutable_or_context,conditional,,검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.,
+top_level,time_minutes,reviewer_editable,conditional,,import 시 원본 row에 반영되는 editable field다.,해당 row 검수 소요 시간.
+gold_nodes[],node_id,reviewer_editable_nested,when_node_added,,validate_node()가 schema/type/evidence shape를 검사한다.,원문에서 직접 지지되는 node만 추가한다.
+gold_nodes[],type,reviewer_editable_nested,when_node_added,,validate_node()가 schema/type/evidence shape를 검사한다.,원문에서 직접 지지되는 node만 추가한다.
+gold_nodes[],label,reviewer_editable_nested,when_node_added,,validate_node()가 schema/type/evidence shape를 검사한다.,원문에서 직접 지지되는 node만 추가한다.
+gold_nodes[],evidence,reviewer_editable_nested,when_node_added,,validate_node()가 schema/type/evidence shape를 검사한다.,원문에서 직접 지지되는 node만 추가한다.
+gold_edges[],source_id,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],source_label,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],source_type,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],predicate,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],target_id,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],target_label,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],target_type,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],evidence_anchor_ids,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],evidence_spans,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.
+gold_edges[],decision,reviewer_editable_nested,when_edge_accepted_or_added,,validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.,candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다.

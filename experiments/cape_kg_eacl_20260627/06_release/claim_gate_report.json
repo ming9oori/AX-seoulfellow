@@ -1,0 +1,414 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:32.465632+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "FAIL",
+  "required_failure_count": 4,
+  "optional_failure_count": 2,
+  "warning_count": 0,
+  "gates": [
+    {
+      "gate_id": "data.eval_chunks",
+      "description": "Evaluation subset has at least 100 chunks",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": "120 chunks in experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl"
+    },
+    {
+      "gate_id": "gold.completed_chunks",
+      "description": "Adjudicated human-gold chunks >= 100",
+      "required": true,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "0 completed chunks, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.item_count",
+      "description": "Human-gold node/edge/evidence items >= 500",
+      "required": true,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "0 items, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.iaa",
+      "description": "Two-annotator agreement computed for >= 100 chunks",
+      "required": true,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "max_completed_pair_chunks=0, summaries=2"
+    },
+    {
+      "gate_id": "llm.baselines",
+      "description": "Actual full B0/B1/B2 LLM baseline generations exist",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": {
+        "B0_plain_llm": 120,
+        "B1_predicate_constrained": 120,
+        "B2_current_project": 120
+      }
+    },
+    {
+      "gate_id": "llm.proposed_generation",
+      "description": "Actual full CAPE-KG proposed generation exists",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": {
+        "P_cape_kg_actual": 120
+      }
+    },
+    {
+      "gate_id": "llm.proposed_human_gold_score",
+      "description": "CAPE-KG proposed result is scored against adjudicated human gold",
+      "required": true,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "human_gold_scored_conditions=[]"
+    },
+    {
+      "gate_id": "llm.ablations",
+      "description": "Actual full ablation runs >= 3",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": "6 full ablations: ['P_minus_CQ', 'P_minus_Evidence', 'P_minus_Procedural_schema', 'P_minus_Schema_retrieval', 'P_minus_Standard_bridge', 'P_minus_Validator']"
+    },
+    {
+      "gate_id": "llm.revalidated_output_recovery",
+      "description": "Full actual LLM conditions have unrepaired parse/generation error rate <= 5%",
+      "required": false,
+      "severity": "warn",
+      "status": "PASS",
+      "evidence": "all full conditions <= 5% unrepaired after conservative partial-JSON recovery"
+    },
+    {
+      "gate_id": "llm.strict_json_rate",
+      "description": "Full actual LLM conditions have strict JSON parse/generation error rate <= 50%",
+      "required": false,
+      "severity": "warn",
+      "status": "PASS",
+      "evidence": "all full conditions <= 50% strict parse/generation errors"
+    },
+    {
+      "gate_id": "external.public_subset",
+      "description": "Public benchmark subset model evaluation exists",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": "PAGED items=100, Text2KG items=200, summaries=4"
+    },
+    {
+      "gate_id": "mapping.expert_review",
+      "description": "NCS/PCF mapping downstream metrics are expert-review claimable",
+      "required": false,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "complete_source_groups=0, pending_rows=220, file=experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json, progress_file=experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json, progress_pending_groups=44"
+    },
+    {
+      "gate_id": "crosswalk.expert_review",
+      "description": "Layer2-bridged NCS-PCF crosswalk metrics are expert-review claimable",
+      "required": false,
+      "severity": "fail",
+      "status": "FAIL",
+      "evidence": "completed_rows=0, pending_rows=220, complete_source_groups=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json, manifest_file=experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json, candidate_rows=220"
+    },
+    {
+      "gate_id": "analysis.error_analysis",
+      "description": "Structured error analysis includes claim scope, diagnostics, taxonomy, and human-gold follow-up",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": {
+        "markdown": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        "json": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+          "exists": true,
+          "bytes": 34951
+        },
+        "required_sections": [
+          "## Claim Scope",
+          "## Actual LLM Silver/Proxy Diagnostics",
+          "## Proxy Scaffold Error Summary",
+          "## Error Taxonomy",
+          "## Human-Gold Follow-Up"
+        ],
+        "missing_sections": [],
+        "taxonomy_family_count": 8,
+        "ready_for_minimum_accept": true,
+        "claim_scope": "silver_proxy_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "gate_id": "release.artifacts",
+      "description": "Schema, prompts, evaluation, error analysis, limitations, and reproducibility artifacts exist",
+      "required": true,
+      "severity": "fail",
+      "status": "PASS",
+      "evidence": "all required release files exist"
+    }
+  ],
+  "condition_counts": {
+    "B0_plain_llm": {
+      "raw_rows": 498,
+      "valid_rows": 498,
+      "parse_or_generation_error_rows": 207,
+      "partial_json_repaired_rows": 206,
+      "unrepaired_parse_or_generation_error_rows": 1,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 16,
+      "partial_json_repaired_rows_at_max_run": 16,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "B1_predicate_constrained": {
+      "raw_rows": 494,
+      "valid_rows": 494,
+      "parse_or_generation_error_rows": 220,
+      "partial_json_repaired_rows": 218,
+      "unrepaired_parse_or_generation_error_rows": 2,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 17,
+      "partial_json_repaired_rows_at_max_run": 17,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "B2_current_project": {
+      "raw_rows": 733,
+      "valid_rows": 733,
+      "parse_or_generation_error_rows": 447,
+      "partial_json_repaired_rows": 445,
+      "unrepaired_parse_or_generation_error_rows": 2,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 18,
+      "partial_json_repaired_rows_at_max_run": 18,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_warn_top3_full_2400"
+    },
+    "P_cape_kg_actual": {
+      "raw_rows": 502,
+      "valid_rows": 502,
+      "parse_or_generation_error_rows": 401,
+      "partial_json_repaired_rows": 398,
+      "unrepaired_parse_or_generation_error_rows": 3,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 43,
+      "partial_json_repaired_rows_at_max_run": 43,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "B4_taxonomy_rag": {
+      "raw_rows": 489,
+      "valid_rows": 489,
+      "parse_or_generation_error_rows": 291,
+      "partial_json_repaired_rows": 289,
+      "unrepaired_parse_or_generation_error_rows": 2,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 35,
+      "partial_json_repaired_rows_at_max_run": 35,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_warn_top3_full_2400"
+    },
+    "P_minus_CQ": {
+      "raw_rows": 254,
+      "valid_rows": 254,
+      "parse_or_generation_error_rows": 177,
+      "partial_json_repaired_rows": 173,
+      "unrepaired_parse_or_generation_error_rows": 4,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 48,
+      "partial_json_repaired_rows_at_max_run": 48,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "P_minus_Evidence": {
+      "raw_rows": 244,
+      "valid_rows": 244,
+      "parse_or_generation_error_rows": 145,
+      "partial_json_repaired_rows": 142,
+      "unrepaired_parse_or_generation_error_rows": 3,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 39,
+      "partial_json_repaired_rows_at_max_run": 39,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "P_minus_Procedural_schema": {
+      "raw_rows": 244,
+      "valid_rows": 244,
+      "parse_or_generation_error_rows": 153,
+      "partial_json_repaired_rows": 149,
+      "unrepaired_parse_or_generation_error_rows": 4,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 42,
+      "partial_json_repaired_rows_at_max_run": 42,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "P_minus_Standard_bridge": {
+      "raw_rows": 244,
+      "valid_rows": 244,
+      "parse_or_generation_error_rows": 75,
+      "partial_json_repaired_rows": 75,
+      "unrepaired_parse_or_generation_error_rows": 0,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 16,
+      "partial_json_repaired_rows_at_max_run": 16,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "P_minus_Validator": {
+      "raw_rows": 254,
+      "valid_rows": 254,
+      "parse_or_generation_error_rows": 164,
+      "partial_json_repaired_rows": 161,
+      "unrepaired_parse_or_generation_error_rows": 3,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 43,
+      "partial_json_repaired_rows_at_max_run": 43,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "B5_procedural_prompt": {
+      "raw_rows": 494,
+      "valid_rows": 494,
+      "parse_or_generation_error_rows": 292,
+      "partial_json_repaired_rows": 287,
+      "unrepaired_parse_or_generation_error_rows": 5,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 39,
+      "partial_json_repaired_rows_at_max_run": 39,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_warn_top3_full_2400"
+    },
+    "B3_edc_style": {
+      "raw_rows": 242,
+      "valid_rows": 242,
+      "parse_or_generation_error_rows": 158,
+      "partial_json_repaired_rows": 157,
+      "unrepaired_parse_or_generation_error_rows": 1,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 59,
+      "partial_json_repaired_rows_at_max_run": 59,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "P_minus_Schema_retrieval": {
+      "raw_rows": 252,
+      "valid_rows": 252,
+      "parse_or_generation_error_rows": 149,
+      "partial_json_repaired_rows": 149,
+      "unrepaired_parse_or_generation_error_rows": 0,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 31,
+      "partial_json_repaired_rows_at_max_run": 31,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "qwen3_8b_strict_json_1200_full"
+    },
+    "B6_sac_kg_verifier_pruner": {
+      "raw_rows": 120,
+      "valid_rows": 120,
+      "parse_or_generation_error_rows": 0,
+      "partial_json_repaired_rows": 0,
+      "unrepaired_parse_or_generation_error_rows": 0,
+      "max_raw_rows_single_run": 120,
+      "parse_or_generation_error_rows_at_max_run": 0,
+      "partial_json_repaired_rows_at_max_run": 0,
+      "unrepaired_parse_or_generation_error_rows_at_max_run": 0,
+      "selected_max_run_prefix": "sac_kg_verifier_pruner_baseline"
+    }
+  },
+  "human_gold_validation": {
+    "generated_at_utc": "2026-06-29T18:55:21.194944+00:00",
+    "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl",
+    "total_rows": 120,
+    "unique_chunks": 120,
+    "completed_adjudicated_chunks": 0,
+    "pending_or_incomplete_chunks": 120,
+    "status_counts": {
+      "pending_two_annotator_input": 120
+    },
+    "explicit_gold_nodes": 0,
+    "derived_gold_node_instances": 0,
+    "adjudicated_gold_edges": 0,
+    "adjudicated_gold_evidence_links": 0,
+    "gold_item_count_for_readiness": 0,
+    "validation_error_count": 0,
+    "validation_warning_count": 0,
+    "issue_counts": {},
+    "issues": [],
+    "issue_count_truncated": 0,
+    "paper_ready_minimums": {
+      "completed_chunks_ge_100": false,
+      "gold_items_ge_500": false,
+      "no_validation_errors": true
+    },
+    "claim_status": "pending_human_adjudication"
+  },
+  "mapping_expert_metrics": [
+    {
+      "standard": "NCS",
+      "candidate_rows": 110,
+      "source_task_count": 22,
+      "completed_rows": 0,
+      "pending_rows": 110,
+      "complete_source_groups": 0,
+      "sources_with_positive": 0,
+      "expert_accept_rate": "pending_expert_review",
+      "hit_at_1": "pending_expert_review",
+      "hit_at_3": "pending_expert_review",
+      "hit_at_5": "pending_expert_review",
+      "precision_at_5": "pending_expert_review",
+      "mrr": "pending_expert_review",
+      "ndcg_at_10": "pending_expert_review",
+      "explanation_quality_score_mean": "pending_expert_review",
+      "explanation_quality_score_count": 0,
+      "claim_status": "pending_expert_review"
+    },
+    {
+      "standard": "PCF",
+      "candidate_rows": 110,
+      "source_task_count": 22,
+      "completed_rows": 0,
+      "pending_rows": 110,
+      "complete_source_groups": 0,
+      "sources_with_positive": 0,
+      "expert_accept_rate": "pending_expert_review",
+      "hit_at_1": "pending_expert_review",
+      "hit_at_3": "pending_expert_review",
+      "hit_at_5": "pending_expert_review",
+      "precision_at_5": "pending_expert_review",
+      "mrr": "pending_expert_review",
+      "ndcg_at_10": "pending_expert_review",
+      "explanation_quality_score_mean": "pending_expert_review",
+      "explanation_quality_score_count": 0,
+      "claim_status": "pending_expert_review"
+    }
+  ],
+  "crosswalk_expert_metrics": {
+    "candidate_rows": 220,
+    "source_task_count": 22,
+    "completed_rows": 0,
+    "pending_rows": 220,
+    "complete_source_groups": 0,
+    "sources_with_positive": 0,
+    "expert_accept_rate": "pending_crosswalk_expert_review",
+    "hit_at_1": "pending_crosswalk_expert_review",
+    "hit_at_3": "pending_crosswalk_expert_review",
+    "hit_at_5": "pending_crosswalk_expert_review",
+    "precision_at_10": "pending_crosswalk_expert_review",
+    "mrr": "pending_crosswalk_expert_review",
+    "ndcg_at_10": "pending_crosswalk_expert_review",
+    "utility_grade_mean": "pending_crosswalk_expert_review",
+    "explanation_quality_score_mean": "pending_crosswalk_expert_review",
+    "explanation_quality_score_count": 0,
+    "claim_status": "pending_crosswalk_expert_review"
+  }
+}

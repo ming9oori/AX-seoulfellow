@@ -1,0 +1,724 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:34.133786+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "runtime_prompt_builder": "scripts/run_cape_llm_condition_baselines.py",
+  "final_kg_builder": "scripts/build_ax_epak_internal_kg.py",
+  "runtime_prompt_constraints": [
+    "Return ONLY one valid JSON object; no markdown and no explanation.",
+    "Each item must use evidence_anchor_ids from the current chunk sentence_ids.",
+    "Do not use outside knowledge.",
+    "Keep Korean labels when the source text is Korean.",
+    "Schema-constrained conditions receive allowed node types and allowed edge predicates.",
+    "CAPE conditions impose hard limits of at most 5 nodes, 5 edges, and 3 mappings per chunk.",
+    "Strict JSON runs prepend a JSON-only contract and /no_think instruction for Qwen-style chat models."
+  ],
+  "prompt_inventory": [
+    {
+      "condition": "B0_plain_llm",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B0_plain_llm_triple_extraction.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Extract subject-predicate-object triples from the chunk. Return JSON only.",
+      "prompt_intent": "Schema 없이 subject-predicate-object triple을 직접 추출한다.",
+      "expected_output_keys": [
+        "triples"
+      ]
+    },
+    {
+      "condition": "B1_predicate_constrained",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B1_predicate_constrained_llm.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Extract triples using only the allowed predicates. Return JSON only with evidence sentence ids.",
+      "prompt_intent": "CAPE-KG 허용 predicate만 사용해 edge 후보를 추출한다.",
+      "expected_output_keys": [
+        "edges"
+      ]
+    },
+    {
+      "condition": "B2_current_project",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B2_current_project_baseline.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Extract Task Frames, then triples, then post-process into the Layer2 schema.",
+      "prompt_intent": "Task frame을 먼저 추론한 뒤 Layer 2 schema의 node/edge로 후처리한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "condition": "B3_edc_style",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Extract, define, and canonicalize open-schema KG items, then emit CAPE-compatible nodes and edges for scoring.",
+      "prompt_intent": "Open-schema item을 추출, 정의, canonicalize한 뒤 CAPE-compatible node/edge로 변환한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Retrieve NCS/PCF/task taxonomy snippets, then extract schema-constrained triples with evidence.",
+      "prompt_intent": "NCS/PCF/task taxonomy snippet을 retrieval context로 제공하고 KG 후보와 mapping 후보를 추출한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "B5_procedural_prompt",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Extract actions, actors, gateways, guard conditions, artifact flows, and temporal/logical dependencies.",
+      "prompt_intent": "Action, actor, gateway, guard condition, artifact flow, dependency를 절차형으로 추출한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "condition": "B6_sac_kg_verifier_pruner",
+      "family": "baseline",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Use existing generator candidates, then apply schema/evidence verification and pruning in the style of SAC-KG. This is a deterministic approximation, not a full SAC-KG reproduction.",
+      "prompt_intent": "기존 generator 후보에 schema/evidence verifier와 pruning을 적용하는 SAC-KG-style approximation이다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "family": "proposed",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Use CQ-linked schema retrieval, procedural frame extraction, evidence-span constrained relation extraction, span verification, ontology validation, procedural consistency checks, and active review scoring.",
+      "prompt_intent": "CQ anchoring, evidence grounding, procedural schema, validator, NCS/PCF bridge를 결합한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "P_minus_CQ",
+      "family": "ablation",
+      "prompt_file": "",
+      "prompt_file_exists": false,
+      "prompt_text": "",
+      "prompt_intent": "제안 방법론에서 competency-question anchoring을 제거한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "P_minus_Evidence",
+      "family": "ablation",
+      "prompt_file": "",
+      "prompt_file_exists": false,
+      "prompt_text": "",
+      "prompt_intent": "제안 방법론에서 evidence anchor 요구를 약화한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "P_minus_Procedural_schema",
+      "family": "ablation",
+      "prompt_file": "",
+      "prompt_file_exists": false,
+      "prompt_text": "",
+      "prompt_intent": "절차형 schema 대신 flat non-procedural schema를 사용한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "P_minus_Validator",
+      "family": "ablation",
+      "prompt_file": "",
+      "prompt_file_exists": false,
+      "prompt_text": "",
+      "prompt_intent": "Post-hoc validator rejection 없이 모델의 schema 선택을 더 허용한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    },
+    {
+      "condition": "P_minus_Standard_bridge",
+      "family": "ablation",
+      "prompt_file": "",
+      "prompt_file_exists": false,
+      "prompt_text": "",
+      "prompt_intent": "NCS/PCF taxonomy bridge 출력을 제거한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges"
+      ]
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "family": "ablation",
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt",
+      "prompt_file_exists": true,
+      "prompt_text": "Run CAPE-KG without chunk-specific schema/taxonomy retrieval; keep CQ, evidence grounding, procedural schema, validation, and mapping output shape.",
+      "prompt_intent": "Chunk-specific CQ/schema/taxonomy retrieval을 제거하고 full schema 목록만 사용한다.",
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ]
+    }
+  ],
+  "competency_questions": {
+    "generation_method": [
+      "CQ는 LLM이 자동 생성한 것이 아니라 연구자가 정의한 KG 요구사항입니다.",
+      "수주/제안 업무 절차를 task, step, input, output, role, decision, guard, artifact flow, evidence, NCS/PCF mapping 질문으로 분해했습니다.",
+      "각 CQ를 target predicate 또는 required KG element에 연결해 schema, LLM prompt, validation, CQ answerability evaluation에 재사용했습니다."
+    ],
+    "source_files": {
+      "experiment_cq_file": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+      "build_cq_file": "outputs/03_schema/competency_questions.json",
+      "build_schema_code": "scripts/build_ax_epak_internal_kg.py",
+      "experiment_schema_code": "scripts/build_cape_kg_eacl_experiment.py",
+      "runtime_prompt_code": "scripts/run_cape_llm_condition_baselines.py"
+    },
+    "experiment_cqs": [
+      {
+        "cq_id": "CQ1",
+        "question": "수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?",
+        "target_predicates": [
+          "HAS_STEP",
+          "PRECEDES"
+        ]
+      },
+      {
+        "cq_id": "CQ2",
+        "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+        "target_predicates": [
+          "USES_INPUT"
+        ]
+      },
+      {
+        "cq_id": "CQ3",
+        "question": "각 Task는 어떤 산출물을 생성하는가?",
+        "target_predicates": [
+          "PRODUCES"
+        ]
+      },
+      {
+        "cq_id": "CQ4",
+        "question": "각 Task는 누가 수행하거나 책임지는가?",
+        "target_predicates": [
+          "PERFORMED_BY"
+        ]
+      },
+      {
+        "cq_id": "CQ5",
+        "question": "어떤 의사결정 지점이 존재하는가?",
+        "target_predicates": [
+          "HAS_DECISION_GATEWAY"
+        ]
+      },
+      {
+        "cq_id": "CQ6",
+        "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+        "target_predicates": [
+          "HAS_GUARD_CONDITION"
+        ]
+      },
+      {
+        "cq_id": "CQ7",
+        "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+        "target_predicates": [
+          "FEEDS_INTO",
+          "USED_AS_INPUT_FOR"
+        ]
+      },
+      {
+        "cq_id": "CQ8",
+        "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+        "target_predicates": [
+          "HAS_REVIEW_CHECKPOINT"
+        ]
+      },
+      {
+        "cq_id": "CQ9",
+        "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+        "target_predicates": [
+          "HAS_PRINCIPLE"
+        ]
+      },
+      {
+        "cq_id": "CQ10",
+        "question": "각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?",
+        "target_predicates": [
+          "EVIDENCED_BY"
+        ]
+      },
+      {
+        "cq_id": "CQ11",
+        "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+        "target_predicates": [
+          "REQUIRES_CAPABILITY",
+          "CANDIDATE_ALIGNS_WITH"
+        ]
+      },
+      {
+        "cq_id": "CQ12",
+        "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+        "target_predicates": [
+          "PROCESS_CONTEXT",
+          "CANDIDATE_ALIGNS_WITH"
+        ]
+      }
+    ],
+    "build_cqs": [
+      {
+        "cq_id": "CQ1",
+        "question": "수주·제안 업무는 어떤 주요 Task로 구성되는가?",
+        "required_kg_elements": [
+          "DomainTask",
+          "HAS_SUBTASK",
+          "PRECEDES"
+        ]
+      },
+      {
+        "cq_id": "CQ2",
+        "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+        "required_kg_elements": [
+          "USES_INPUT",
+          "Artifact",
+          "Concept"
+        ]
+      },
+      {
+        "cq_id": "CQ3",
+        "question": "각 Task는 어떤 산출물을 생성하는가?",
+        "required_kg_elements": [
+          "PRODUCES",
+          "Artifact"
+        ]
+      },
+      {
+        "cq_id": "CQ4",
+        "question": "각 Task는 누가 수행하거나 책임지는가?",
+        "required_kg_elements": [
+          "PERFORMED_BY",
+          "Role"
+        ]
+      },
+      {
+        "cq_id": "CQ5",
+        "question": "어떤 의사결정 지점이 존재하는가?",
+        "required_kg_elements": [
+          "DecisionGateway",
+          "HAS_DECISION_GATEWAY"
+        ]
+      },
+      {
+        "cq_id": "CQ6",
+        "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+        "required_kg_elements": [
+          "GuardCondition",
+          "HAS_GUARD_CONDITION"
+        ]
+      },
+      {
+        "cq_id": "CQ7",
+        "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+        "required_kg_elements": [
+          "ArtifactFlow",
+          "FEEDS_INTO",
+          "USED_AS_INPUT_FOR"
+        ]
+      },
+      {
+        "cq_id": "CQ8",
+        "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+        "required_kg_elements": [
+          "ReviewCheckpoint",
+          "HAS_REVIEW_CHECKPOINT"
+        ]
+      },
+      {
+        "cq_id": "CQ9",
+        "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+        "required_kg_elements": [
+          "Principle",
+          "HAS_PRINCIPLE"
+        ]
+      },
+      {
+        "cq_id": "CQ10",
+        "question": "각 지식 항목은 원문 어느 chunk/page에 근거가 있는가?",
+        "required_kg_elements": [
+          "EvidenceAnchor",
+          "EVIDENCED_BY"
+        ]
+      },
+      {
+        "cq_id": "CQ11",
+        "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+        "required_kg_elements": [
+          "CANDIDATE_REQUIRES_CAPABILITY"
+        ]
+      },
+      {
+        "cq_id": "CQ12",
+        "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+        "required_kg_elements": [
+          "CANDIDATE_PROCESS_CONTEXT"
+        ]
+      }
+    ]
+  },
+  "llm_condition_outputs": {
+    "valid_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+    "valid_files": [
+      "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl"
+    ],
+    "valid_file_state": {
+      "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "exists": true,
+      "bytes": 2917290
+    },
+    "valid_file_states": [
+      {
+        "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+        "exists": true,
+        "bytes": 2917290
+      },
+      {
+        "path": "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl",
+        "exists": true,
+        "bytes": 425795
+      }
+    ],
+    "total_rows": 1680,
+    "conditions": [
+      {
+        "condition": "B0_plain_llm",
+        "family": "baseline",
+        "expected_output_keys": [
+          "triples"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 1037,
+        "nodes": 0,
+        "edges": 0,
+        "mappings": 0
+      },
+      {
+        "condition": "B1_predicate_constrained",
+        "family": "baseline",
+        "expected_output_keys": [
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 0,
+        "edges": 805,
+        "mappings": 0
+      },
+      {
+        "condition": "B2_current_project",
+        "family": "baseline",
+        "expected_output_keys": [
+          "nodes",
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 867,
+        "edges": 334,
+        "mappings": 0
+      },
+      {
+        "condition": "B3_edc_style",
+        "family": "baseline",
+        "expected_output_keys": [
+          "nodes",
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 769,
+        "edges": 263,
+        "mappings": 0
+      },
+      {
+        "condition": "B4_taxonomy_rag",
+        "family": "baseline",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 719,
+        "edges": 323,
+        "mappings": 126
+      },
+      {
+        "condition": "B5_procedural_prompt",
+        "family": "baseline",
+        "expected_output_keys": [
+          "nodes",
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 1307,
+        "edges": 302,
+        "mappings": 0
+      },
+      {
+        "condition": "B6_sac_kg_verifier_pruner",
+        "family": "baseline",
+        "expected_output_keys": [
+          "nodes",
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 2281,
+        "edges": 361,
+        "mappings": 107
+      },
+      {
+        "condition": "P_cape_kg_actual",
+        "family": "proposed",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 576,
+        "edges": 373,
+        "mappings": 227
+      },
+      {
+        "condition": "P_minus_CQ",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 586,
+        "edges": 391,
+        "mappings": 233
+      },
+      {
+        "condition": "P_minus_Evidence",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 574,
+        "edges": 383,
+        "mappings": 227
+      },
+      {
+        "condition": "P_minus_Procedural_schema",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 558,
+        "edges": 353,
+        "mappings": 212
+      },
+      {
+        "condition": "P_minus_Schema_retrieval",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 568,
+        "edges": 417,
+        "mappings": 216
+      },
+      {
+        "condition": "P_minus_Standard_bridge",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 577,
+        "edges": 405,
+        "mappings": 0
+      },
+      {
+        "condition": "P_minus_Validator",
+        "family": "ablation",
+        "expected_output_keys": [
+          "nodes",
+          "edges",
+          "mappings"
+        ],
+        "source_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+        ],
+        "valid_rows": 120,
+        "triples": 0,
+        "nodes": 570,
+        "edges": 375,
+        "mappings": 229
+      }
+    ]
+  },
+  "final_kg": {
+    "source_files": {
+      "canonical_task_catalog": "outputs/04_task_frames/canonical_task_catalog.json",
+      "procedure_structures_clean": "outputs/05_procedure/procedure_structures_clean.jsonl",
+      "layer2_triples_schema_valid": "outputs/06_triples/layer2_triples_schema_valid.jsonl",
+      "layer2_nodes": "outputs/07_layer2_graph/layer2_nodes.jsonl",
+      "layer2_edges": "outputs/07_layer2_graph/layer2_edges.jsonl"
+    },
+    "counts": {
+      "canonical_tasks": 22,
+      "procedure_structures": 22,
+      "procedure_steps_total": 99,
+      "schema_valid_triples": 947,
+      "final_nodes": 220,
+      "final_edges": 947,
+      "nodes_with_evidence": 220,
+      "edges_with_evidence": 947,
+      "edges_with_source_triple_ids": 947,
+      "dangling_edges": 0
+    },
+    "node_type_counts": {
+      "ProcedureStep": 99,
+      "ReviewCheckpoint": 41,
+      "DomainTask": 22,
+      "Artifact": 14,
+      "GuardCondition": 13,
+      "Role": 10,
+      "ArtifactFlow": 9,
+      "Principle": 5,
+      "DecisionGateway": 4,
+      "Risk": 3
+    },
+    "edge_predicate_counts": {
+      "PRODUCES": 220,
+      "USES_INPUT": 201,
+      "PERFORMED_BY": 120,
+      "HAS_STEP": 99,
+      "PRECEDES": 77,
+      "HAS_PRINCIPLE": 64,
+      "HAS_DECISION_GATEWAY": 54,
+      "HAS_REVIEW_CHECKPOINT": 41,
+      "HAS_RISK": 39,
+      "HAS_GUARD_CONDITION": 14,
+      "FEEDS_INTO": 9,
+      "USED_AS_INPUT_FOR": 9
+    },
+    "node_generation_rules": {
+      "DomainTask": "TASK_SEEDS의 label/alias/keyword로 OCR sentence evidence를 검색해 생성",
+      "ProcedureStep": "task별 procedure template 또는 입력/산출물 기반 step 추론으로 생성",
+      "ReviewCheckpoint": "검토/리뷰/점검/승인/확인 신호가 있는 ProcedureStep에서 별도 checkpoint node로 투영",
+      "Artifact": "task evidence 안의 입력물/산출물 용어 매칭으로 생성",
+      "Role": "수행자/책임 주체 용어 매칭으로 생성",
+      "DecisionGateway": "의사결정 관련 용어 매칭으로 생성",
+      "GuardCondition": "의사결정 evidence에서 조건/가능성/경쟁/자원 등 조건 표현을 정규식으로 추출",
+      "Principle": "원칙/품질 기준 용어 매칭으로 생성",
+      "Risk": "위험/불리함/실패 가능성 용어 매칭으로 생성",
+      "ArtifactFlow": "특정 산출물이 다음 task 입력으로 쓰이는 규칙에서 생성"
+    },
+    "edge_generation_rules": {
+      "PRODUCES": "task/step의 outputs slot을 Artifact node로 연결",
+      "USES_INPUT": "task/step의 inputs slot을 Artifact 또는 Concept node로 연결",
+      "PERFORMED_BY": "task/step의 roles slot을 Role node로 연결",
+      "HAS_STEP": "DomainTask를 해당 ProcedureStep 목록에 연결",
+      "HAS_REVIEW_CHECKPOINT": "검토/리뷰/점검/승인/확인 신호가 있는 ProcedureStep을 ReviewCheckpoint node로 연결",
+      "PRECEDES": "같은 task 안에서 step order 기준으로 순서 연결",
+      "HAS_PRINCIPLE": "task/step의 principles slot을 Principle node로 연결",
+      "HAS_DECISION_GATEWAY": "task/step에서 발견된 의사결정 node를 연결",
+      "HAS_RISK": "task/step의 risks slot을 Risk node로 연결",
+      "HAS_GUARD_CONDITION": "DecisionGateway에서 추출된 조건 node를 연결",
+      "FEEDS_INTO": "Artifact가 다음 task로 흘러가는 규칙을 연결",
+      "USED_AS_INPUT_FOR": "Artifact가 다음 task 입력으로 사용되는 규칙을 연결"
+    }
+  },
+  "claim_status": "traceability_ready_not_human_gold_performance_evidence"
+}

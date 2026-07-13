@@ -1,0 +1,411 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:22.871714+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "schema_path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_schema.json",
+  "claim_status": "annotation_return_field_guide_ready_pending_human_returns",
+  "annotation_schema_summary": {
+    "required_chunk_fields": [
+      "chunk_id",
+      "chunk_text",
+      "gold_nodes",
+      "gold_edges",
+      "annotation_status"
+    ],
+    "gold_node_fields": [
+      "node_id",
+      "type",
+      "label",
+      "evidence"
+    ],
+    "gold_edge_fields": [
+      "source_id",
+      "source_label",
+      "source_type",
+      "predicate",
+      "target_id",
+      "target_label",
+      "target_type",
+      "evidence_anchor_ids",
+      "evidence_spans",
+      "decision"
+    ],
+    "completed_status_values": [
+      "completed",
+      "needs_adjudication"
+    ]
+  },
+  "editable_fields": [
+    "annotation_status",
+    "annotator_id",
+    "gold_nodes",
+    "gold_edges",
+    "rejected_candidate_reference_ids",
+    "missing_but_supported_notes",
+    "comments",
+    "time_minutes"
+  ],
+  "immutable_fields": [
+    "chunk_id",
+    "chunk_text",
+    "chapter_id",
+    "section_id",
+    "page_start",
+    "page_end",
+    "package"
+  ],
+  "completed_status_values": [
+    "completed",
+    "needs_adjudication"
+  ],
+  "allowed_annotation_statuses": [
+    "completed",
+    "in_progress",
+    "needs_adjudication",
+    "pending_human_annotation"
+  ],
+  "field_inventory": {
+    "sample_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+    "top_level_fields": [
+      "annotation_status",
+      "annotator_id",
+      "chapter_id",
+      "chunk_id",
+      "chunk_text",
+      "comments",
+      "gold_edges",
+      "gold_nodes",
+      "instructions",
+      "missing_but_supported_notes",
+      "package",
+      "page_end",
+      "page_start",
+      "rejected_candidate_reference_ids",
+      "section_id",
+      "silver_candidate_edge_count",
+      "silver_candidate_edges",
+      "time_minutes"
+    ],
+    "silver_candidate_edge_fields": [
+      "component_evidence_spans",
+      "evidence_anchor_ids",
+      "predicate",
+      "primary_evidence",
+      "reference_id",
+      "source_id",
+      "source_label",
+      "source_type",
+      "target_id",
+      "target_label",
+      "target_type"
+    ],
+    "component_evidence_span_fields": [
+      "claim_status",
+      "component",
+      "label",
+      "page",
+      "predicate",
+      "sentence_id",
+      "sentence_span_end",
+      "sentence_span_start",
+      "span_exact",
+      "span_method",
+      "text"
+    ],
+    "sample_row_count_checked": 1
+  },
+  "field_rows": [
+    {
+      "scope": "top_level",
+      "field": "annotation_status",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "yes",
+      "allowed_values": "completed, in_progress, needs_adjudication, pending_human_annotation",
+      "validator_effect": "completed/needs_adjudication만 완료로 집계된다.",
+      "notes": "검수 상태. 완료 행은 completed 또는 needs_adjudication으로 둔다."
+    },
+    {
+      "scope": "top_level",
+      "field": "annotator_id",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import 시 원본 row에 반영되는 editable field다.",
+      "notes": "검수자 식별자. A/B 독립 검수 구분을 위해 비워두지 않는다."
+    },
+    {
+      "scope": "top_level",
+      "field": "chapter_id",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "chunk_id",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "chunk_text",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "comments",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "needs_adjudication row에서는 비어 있으면 error다.",
+      "notes": "불확실성, adjudication 필요 사유, 특이사항."
+    },
+    {
+      "scope": "top_level",
+      "field": "gold_edges",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "completed row에서 accept된 candidate 또는 추가 edge 근거를 검사한다.",
+      "notes": "accept한 candidate edge 및 추가로 발견한 명시적 edge 목록."
+    },
+    {
+      "scope": "top_level",
+      "field": "gold_nodes",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import 시 원본 row에 반영되는 editable field다.",
+      "notes": "원문에서 명시적으로 지지되는 최종 node 목록."
+    },
+    {
+      "scope": "top_level",
+      "field": "instructions",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "missing_but_supported_notes",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import 시 원본 row에 반영되는 editable field다.",
+      "notes": "candidate에는 없지만 원문상 지지되는 누락 항목 메모."
+    },
+    {
+      "scope": "top_level",
+      "field": "package",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "page_end",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "page_start",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "rejected_candidate_reference_ids",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "completed row의 미처리 candidate edge를 막기 위해 사용된다.",
+      "notes": "reject한 silver candidate의 reference_id 목록."
+    },
+    {
+      "scope": "top_level",
+      "field": "section_id",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import preflight가 원본과 달라지면 immutable_field_changed error를 낸다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "silver_candidate_edge_count",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "silver_candidate_edges",
+      "edit_policy": "immutable_or_context",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "검수 참고 또는 provenance 필드이며 import merge 대상은 아니다.",
+      "notes": ""
+    },
+    {
+      "scope": "top_level",
+      "field": "time_minutes",
+      "edit_policy": "reviewer_editable",
+      "required_when_completed": "conditional",
+      "allowed_values": "",
+      "validator_effect": "import 시 원본 row에 반영되는 editable field다.",
+      "notes": "해당 row 검수 소요 시간."
+    },
+    {
+      "scope": "gold_nodes[]",
+      "field": "node_id",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_node_added",
+      "allowed_values": "",
+      "validator_effect": "validate_node()가 schema/type/evidence shape를 검사한다.",
+      "notes": "원문에서 직접 지지되는 node만 추가한다."
+    },
+    {
+      "scope": "gold_nodes[]",
+      "field": "type",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_node_added",
+      "allowed_values": "",
+      "validator_effect": "validate_node()가 schema/type/evidence shape를 검사한다.",
+      "notes": "원문에서 직접 지지되는 node만 추가한다."
+    },
+    {
+      "scope": "gold_nodes[]",
+      "field": "label",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_node_added",
+      "allowed_values": "",
+      "validator_effect": "validate_node()가 schema/type/evidence shape를 검사한다.",
+      "notes": "원문에서 직접 지지되는 node만 추가한다."
+    },
+    {
+      "scope": "gold_nodes[]",
+      "field": "evidence",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_node_added",
+      "allowed_values": "",
+      "validator_effect": "validate_node()가 schema/type/evidence shape를 검사한다.",
+      "notes": "원문에서 직접 지지되는 node만 추가한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "source_id",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "source_label",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "source_type",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "predicate",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "target_id",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "target_label",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "target_type",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "evidence_anchor_ids",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "evidence_spans",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    },
+    {
+      "scope": "gold_edges[]",
+      "field": "decision",
+      "edit_policy": "reviewer_editable_nested",
+      "required_when_completed": "when_edge_accepted_or_added",
+      "allowed_values": "",
+      "validator_effect": "validate_edge()와 candidate coverage preflight가 edge shape/evidence를 검사한다.",
+      "notes": "candidate를 accept할 때는 reference_id 또는 candidate_reference_id를 보존한다."
+    }
+  ],
+  "validation_commands": {
+    "preflight": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh"
+  }
+}

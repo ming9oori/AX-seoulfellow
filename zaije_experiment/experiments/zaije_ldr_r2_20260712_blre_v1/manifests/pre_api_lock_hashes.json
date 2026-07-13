@@ -1,0 +1,10 @@
+{
+  "data/dev_exposed_60.jsonl": "a2809997f1f494aaeab459656cff17ff2c7673e0ccaa90f991b56bfe2a7bcd87",
+  "data/model_bakeoff_24.jsonl": "dc4e9ff81672f9e8c28dfefac7a7265aa110040407091b6f8164a154f7c19008",
+  "data/r2_pilot_60.jsonl": "3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17",
+  "data/r2_pilot_lock.json": "e336dadf9b6bb24a2514d8c4a1fcbaf3d3ea4f2b880cf8e08cbd95e3763ef50e",
+  "preregistration/gate_thresholds.yaml": "c42910f020b915b9fb30a7252f70d327957d77743f54257dcc3f09c8685657dd",
+  "preregistration/model_bakeoff_policy.yaml": "11f6e2e5afc3551b66917eea504da92f0f80b57c068f7f1e491130832f194459",
+  "preregistration/preregister.yaml": "89ad1baa9cc4de2a65777c5e9ddb76234cdefec46ff236d6727a6a2d5ad9c402",
+  "preregistration/sampling_amendment_pre_api.md": "8cb44720995bafa602435106e1b00c36a1f1e5e9b3af0fae252cc974ef73752f"
+}

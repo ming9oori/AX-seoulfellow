@@ -1,0 +1,317 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795824,
+  "created_at": 1783795802,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0f260fe602b4ff85006a52905ab798819aae40e92aaf00d850",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-mini-2024-07-18",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-40\",\"bundle_hash\":\"07da5b0bf0fccf0b378e655b440099371635029afc91777fac688d3fdbe9a7e4\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"고객이 인지하는 가치가 솔루션 선택의 기준이 된다는 사실을 이해하라.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"고객\",\"normalized_label\":\"customer\"},{\"role\":\"action\",\"quote\":\"이해하라\",\"normalized_label\":\"understand\"},{\"role\":\"object\",\"quote\":\"가치가 솔루션 선택의 기준이 된다는 사실\",\"normalized_label\":\"the fact that the value is the criterion for solution selection\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"2\",\"claim_quote\":\"고객이 인지하는 가치가 솔루션 선택의 기준이 된다는 사실을 이해하라.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"고객\",\"normalized_label\":\"customer\"},{\"role\":\"action\",\"quote\":\"이해하라\",\"normalized_label\":\"understand\"},{\"role\":\"object\",\"quote\":\"가치가 솔루션 선택의 기준이 된다는 사실\",\"normalized_label\":\"the fact that the value is the criterion for solution selection\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-95\",\"bundle_hash\":\"a08af25ca99da8960ae747ac0b64576e8e127f116cc66f661cbaaa14eb19e86d\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"집단주의는 개인주의(Individualism)의 상대적인 말로 개인보다는 집단의 가치와 관계를 더 중요하게 생각하는 문화적 성향을 말한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"집단주의\",\"normalized_label\":\"collectivism\"},{\"role\":\"action\",\"quote\":\"말한다\",\"normalized_label\":\"means\"},{\"role\":\"object\",\"quote\":\"문화적 성향\",\"normalized_label\":\"cultural tendency\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-209\",\"bundle_hash\":\"3e0e7d4944e0f02d5803d80616b4785328b6acefd03517749a0941c162f36272\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"구성원에게 단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"구성원\",\"normalized_label\":\"members\"},{\"role\":\"action\",\"quote\":\"있어야 한다\",\"normalized_label\":\"must have\"},{\"role\":\"object\",\"quote\":\"단계별 도구를 사용할 수 있는 역량\",\"normalized_label\":\"the capability to use step-by-step tools\"}],\"predicate\":\"must have\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-244\",\"bundle_hash\":\"8b59be02029538c8258cd02374cc2644cba5f093089eccebac17e686c47ec300\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"고객의 니즈 분석 및 요구조건 개발 작업 지원\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"고객의 니즈\",\"normalized_label\":\"customer needs\"},{\"role\":\"action\",\"quote\":\"지원\",\"normalized_label\":\"support\"},{\"role\":\"object\",\"quote\":\"요구조건 개발 작업\",\"normalized_label\":\"requirements development work\"}],\"predicate\":\"support\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"PROCEDURE_EDGE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-280\",\"bundle_hash\":\"572c9f8bbcd0707149a1ab66ae2d6867744854790307246c5db0c8f314dc5b0f\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"작업분류체계(WBS) 정의, 프로그램 개발 일정 수립\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"작업분류체계(WBS)\",\"normalized_label\":\"work breakdown structure (WBS)\"},{\"role\":\"action\",\"quote\":\"정의\",\"normalized_label\":\"define\"},{\"role\":\"object\",\"quote\":\"프로그램 개발 일정\",\"normalized_label\":\"program development schedule\"}],\"predicate\":\"define\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"PROCEDURE_EDGE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0f260fe602b4ff85006a52905ba08c819aa56665c7a372968f",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_a_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "enum": [
+                                "subject",
+                                "action",
+                                "object",
+                                "input",
+                                "output",
+                                "actor",
+                                "criterion",
+                                "value",
+                                "condition",
+                                "exception",
+                                "scope",
+                                "source"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3567,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1307,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4874
+  },
+  "user": null
+}

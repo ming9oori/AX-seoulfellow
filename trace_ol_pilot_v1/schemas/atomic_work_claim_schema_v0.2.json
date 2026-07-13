@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/trace-ol/atomic-work-claim-v0.2.schema.json",
+  "title": "TRACE-OL Evidence Annotation v0.2",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "evidence_id",
+    "annotator",
+    "claims"
+  ],
+  "properties": {
+    "evidence_id": {"type": "string", "minLength": 1},
+    "bundle_id": {"type": ["string", "null"]},
+    "annotator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "model_id", "prompt_version", "schema_version"],
+      "properties": {
+        "role": {"type": "string"},
+        "model_id": {"type": "string"},
+        "prompt_version": {"type": "string"},
+        "schema_version": {"const": "atomic-claim-v0.2"}
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/claim"},
+      "maxItems": 12
+    }
+  },
+  "$defs": {
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_id", "text", "start", "end"],
+      "properties": {
+        "evidence_id": {"type": "string"},
+        "text": {"type": "string"},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0}
+      }
+    },
+    "argument": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "implicit", "kernel_type"],
+      "properties": {
+        "role": {"type": "string"},
+        "span": {
+          "anyOf": [
+            {"$ref": "#/$defs/span"},
+            {"type": "null"}
+          ]
+        },
+        "implicit": {"type": "boolean"},
+        "restored_from_context": {"type": "boolean", "default": false},
+        "context_evidence_id": {"type": ["string", "null"]},
+        "kernel_type": {
+          "type": "string",
+          "enum": [
+            "Process", "Stage", "Task", "Activity", "Role", "Artifact",
+            "Tool", "Decision", "Condition", "Rule", "Risk", "Goal",
+            "Metric", "Formula", "EvaluationObservation", "Concept", "Unknown"
+          ]
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "claim_id",
+        "source_span",
+        "claim_family",
+        "claim_type",
+        "arguments",
+        "predicate_normalized",
+        "modality",
+        "polarity",
+        "conditions",
+        "exceptions",
+        "promotion_target",
+        "decision",
+        "uncertainty_code"
+      ],
+      "properties": {
+        "claim_id": {"type": "string", "minLength": 1},
+        "source_span": {"$ref": "#/$defs/span"},
+        "claim_family": {
+          "type": "string",
+          "enum": ["FACTUAL", "NORMATIVE", "CONDITIONAL", "PROCEDURAL", "EVALUATIVE", "DISCOURSE", "UNCLEAR"]
+        },
+        "claim_type": {
+          "type": "string",
+          "enum": [
+            "Definition", "DescriptiveFact", "Obligation", "Prohibition", "Recommendation",
+            "NecessaryCondition", "ConditionalRule", "Exception", "ProcessOrder", "ActivityOutput",
+            "DecisionTrigger", "PurposeCause", "ComparisonFormula", "EvaluationObservation",
+            "Example", "CounterExample", "Question", "Quotation", "OtherUnclear"
+          ]
+        },
+        "arguments": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/argument"},
+          "maxItems": 12
+        },
+        "predicate_normalized": {"type": ["string", "null"], "maxLength": 120},
+        "modality": {
+          "type": "string",
+          "enum": ["MUST", "MUST_NOT", "SHOULD", "MAY", "DESCRIPTIVE", "NONE"]
+        },
+        "polarity": {"type": "string", "enum": ["POSITIVE", "NEGATIVE", "NONE"]},
+        "conditions": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/span"},
+          "maxItems": 8
+        },
+        "exceptions": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/span"},
+          "maxItems": 8
+        },
+        "scope_span": {
+          "anyOf": [
+            {"$ref": "#/$defs/span"},
+            {"type": "null"}
+          ]
+        },
+        "purpose_span": {
+          "anyOf": [
+            {"$ref": "#/$defs/span"},
+            {"type": "null"}
+          ]
+        },
+        "promotion_target": {
+          "type": "string",
+          "enum": ["FACT_ASSERTION", "TBOX_AXIOM", "PROCESS_EDGE", "RULE_NODE", "EVALUATION_NODE", "LEXICAL_ONLY", "NONE", "NEEDS_REVIEW"]
+        },
+        "decision": {"type": "string", "enum": ["ACCEPT", "REJECT", "ABSTAIN", "NEEDS_REVIEW"]},
+        "uncertainty_code": {
+          "type": "string",
+          "enum": [
+            "NONE", "MISSING_SUBJECT", "COREFERENCE", "CLAIM_BOUNDARY", "MODALITY_SCOPE",
+            "NEGATION_SCOPE", "CONDITION_SCOPE", "EXAMPLE_VS_FACT", "SENSE_AMBIGUITY",
+            "PROMOTION_AMBIGUITY", "INSUFFICIENT_EVIDENCE", "OTHER"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,142 @@
+schema_id: L2_CORE_SCHEMA_0.1
+scope: domain_task_ontology
+excluded_scope:
+  - layer1_standard_reference_mapping
+  - ncs_mapping
+  - pcf_mapping
+node_types:
+  DomainOntology:
+    required: [id, name, domain, schema_version]
+  Book:
+    required: [id, title, source_file]
+  Chapter:
+    required: [id, chapter_no, title]
+  Section:
+    required: [id, section_no, title, page_start, page_end]
+  SourceChunk:
+    required: [id, chunk_id, text, hash, chunk_type]
+  EvidenceSpan:
+    required: [id, chunk_id, text_span, page, section_no]
+  DomainProcess:
+    required: [id, name_ko, definition, evidence_refs]
+  DomainTask:
+    required: [id, name_ko, definition, evidence_refs]
+  Step:
+    required: [id, name_ko, order, parent_task_id, evidence_refs]
+  Artifact:
+    required: [id, name_ko, artifact_type, evidence_refs]
+  InformationObject:
+    required: [id, name_ko, info_type, evidence_refs]
+  DecisionPoint:
+    required: [id, name_ko, evidence_refs]
+  Role:
+    required: [id, name_ko, role_type, evidence_refs]
+  Stakeholder:
+    required: [id, name_ko, stakeholder_type, evidence_refs]
+  Principle:
+    required: [id, statement, scope, evidence_refs]
+  StrategyPattern:
+    required: [id, name_ko, usage_condition, evidence_refs]
+  Risk:
+    required: [id, name_ko, risk_type, evidence_refs]
+  Metric:
+    required: [id, name_ko, unit, evidence_refs]
+  ReviewType:
+    required: [id, name_ko, review_stage, evidence_refs]
+  DecisionOutcome:
+    required: [id, name_ko, outcome_type, evidence_refs]
+  Condition:
+    required: [id, statement, scope, evidence_refs]
+  AliasTerm:
+    required: [id, term, canonical_id, language]
+edge_types:
+  HAS_CHAPTER:
+    domain: [Book]
+    range: [Chapter]
+  HAS_SECTION:
+    domain: [Chapter]
+    range: [Section]
+  HAS_CHUNK:
+    domain: [Section]
+    range: [SourceChunk]
+  HAS_PROCESS:
+    domain: [DomainOntology]
+    range: [DomainProcess]
+  HAS_TASK:
+    domain: [DomainProcess]
+    range: [DomainTask]
+  HAS_SUBTASK:
+    domain: [DomainTask]
+    range: [DomainTask, Step]
+  CONTAINS:
+    domain: [Artifact, InformationObject]
+    range: [InformationObject]
+  PART_OF:
+    domain: [InformationObject, Artifact]
+    range: [InformationObject, Artifact]
+  DISCOVERS:
+    domain: [DomainTask]
+    range: [InformationObject]
+  PRECEDES:
+    domain: [DomainTask, Step]
+    range: [DomainTask, Step]
+  USES_INPUT:
+    domain: [DomainTask, Step]
+    range: [Artifact, InformationObject, StrategyPattern]
+  USED_AS_INPUT_FOR:
+    domain: [Artifact, InformationObject, StrategyPattern]
+    range: [DomainTask]
+  PRODUCES:
+    domain: [DomainTask, Step]
+    range: [Artifact, InformationObject, StrategyPattern]
+  PERFORMED_BY:
+    domain: [DomainTask, Step]
+    range: [Role]
+  TARGETS_STAKEHOLDER:
+    domain: [DomainTask, StrategyPattern]
+    range: [Stakeholder]
+  ANALYZES:
+    domain: [DomainTask, Step]
+    range: [InformationObject, Stakeholder, Risk]
+  DEVELOPS:
+    domain: [DomainTask, Step]
+    range: [Artifact, StrategyPattern]
+  REFINES_INTO:
+    domain: [Artifact, StrategyPattern]
+    range: [Artifact, StrategyPattern]
+  DECIDES:
+    domain: [DecisionPoint, Role]
+    range: [DecisionOutcome]
+  HAS_DECISION_POINT:
+    domain: [DomainTask, DomainProcess]
+    range: [DecisionPoint]
+  EVALUATES:
+    domain: [DomainTask, Step, Role]
+    range: [Artifact, StrategyPattern, Metric]
+  HAS_REVIEW:
+    domain: [DomainTask, Artifact]
+    range: [ReviewType]
+  HAS_PRINCIPLE:
+    domain: [DomainTask, StrategyPattern]
+    range: [Principle]
+  MITIGATES:
+    domain: [DomainTask, StrategyPattern]
+    range: [Risk]
+  INCREASES_RISK:
+    domain: [Condition]
+    range: [Risk]
+  MAY_RESULT_IN:
+    domain: [DomainTask, StrategyPattern]
+    range: [InformationObject, Artifact, Metric]
+  ALIAS_OF:
+    domain: [AliasTerm]
+    range: [Any]
+  EVIDENCED_BY:
+    domain: [Any]
+    range: [EvidenceSpan]
+edge_required_properties:
+  - evidence_refs
+  - confidence
+  - relation_scope
+  - extraction_run_id
+  - review_status

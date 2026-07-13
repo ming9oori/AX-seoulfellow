@@ -1,0 +1,40 @@
+r0:
+  offset_round_trip: 1.00
+  candidate_id_uniqueness: 1.00
+  structure_preservation: 1.00
+  missing_candidate_rate_max: 0.05
+  candidate_count_median_max: 12
+  candidate_count_p95_max: 25
+r1:
+  configuration_boundary_repeat_f1_median_min: 0.90
+  configuration_boundary_repeat_f1_min: 0.85
+  panel_selected_set_f1_min: 0.90
+  hard_soft_boundary_coverage_min: 0.90
+  boundary_unstable_max: 0.10
+  boundary_missing_max: 0.05
+  candidate_order_consistency_min: 0.95
+r2:
+  field_schema_validity: 1.00
+  semantic_mode_ims_min: 0.85
+  critical_field_ims_min: 0.90
+  jsd_mean_max: 0.10
+  jsd_p90_max: 0.25
+  hard_soft_critical_coverage_min: 0.90
+  unstable_critical_max: 0.08
+  deterministic_controls_min: 0.95
+  label_order_consistency_min: 0.95
+r3:
+  mention_id_validity: 1.00
+  argument_exact_grounding: 1.00
+  missing_mention_rate_max: 0.10
+  core_role_ims_min: 0.85
+  condition_quantity_stability_min: 0.90
+  unsupported_implicit_max: 0.05
+r4:
+  exact_grounding: 1.00
+  hard_claim_coverage_min: 0.50
+  hard_soft_usable_coverage_min: 0.85
+  quarantined_evidence_max: 0.10
+  high_risk_supported_soft_min: 0.90
+  provenance_completeness: 1.00
+  resolver_determinism: 1.00

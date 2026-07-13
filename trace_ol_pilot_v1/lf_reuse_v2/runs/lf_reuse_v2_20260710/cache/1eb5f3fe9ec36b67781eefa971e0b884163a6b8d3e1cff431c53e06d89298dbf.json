@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0e36ee168e72447d006a510fab72748199be036161bec4d0e6",
+  "usage": {
+    "input_tokens": 3154,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1929,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5083
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r696",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r697",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r697",
+              "text": "• 연관(Association): 상품의 특징을 이미 고객이 좋아하고 있는 것과 연결시키는 것을 말한다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r698",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r699",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r699",
+              "text": "• 결합(Composition): 말하기와 글쓰기를 할 때 특정 메시지를 강조하기 위하여 아래 요소를 사용하는 것을 말한다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r709",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r710",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r710",
+              "text": "다음은 고객에 따라 다른 언어를 선택한 예이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Example",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r710",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r711",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r711",
+              "text": "• 엔지니어 고객에게 보내는 이메일귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r726",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r727",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r727",
+              "text": "이 사례에서 보듯이 필자의 구매 결정은 오감을 결합(Composition)한 결과이다.",
+              "start": 0,
+              "end": 50
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r741",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r742",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r742",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r764",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r765",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r765",
+              "text": "•사람들은 알면서도 비이성적인 결정을 하는 경우가 있다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r802",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r803",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r803",
+              "text": "이기는 전략은 우리의 일반적인 강점(Advantage)을 강조하는 것이 아니라 고객의 니즈를 파악하여 경쟁자보다 더 좋고, 많은 효용(Benefit)을 제공하는 것을 말한다.",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r803",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r804",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r804",
+              "text": "형식보다 내용을 먼저 결정하라",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r829",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r830",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r830",
+              "text": "둘째로 형식은 내용을 잘 지원해야 한다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

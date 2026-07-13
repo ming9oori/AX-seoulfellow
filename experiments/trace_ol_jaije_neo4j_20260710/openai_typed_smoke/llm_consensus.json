@@ -1,0 +1,16 @@
+[
+  {
+    "candidate_id": "claim:05e6cce4eeaa9f7fa9c93e7aa3d58f88",
+    "decision_counts": {
+      "accept": 1
+    },
+    "decisions": [
+      "accept"
+    ],
+    "expected_repeats": 1,
+    "final_claim_id": "claim:05e6cce4eeaa9f7fa9c93e7aa3d58f88",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 1
+  }
+]

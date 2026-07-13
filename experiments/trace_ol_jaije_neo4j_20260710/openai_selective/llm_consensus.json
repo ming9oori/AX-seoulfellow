@@ -1,0 +1,452 @@
+[
+  {
+    "candidate_id": "claim:025edf918ad6db7d0f54a6061c8f80dd",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:903436c43827a4f8f701cab492302820",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:025fa8a070027cb3b149541f5a4f7e66",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:025fa8a070027cb3b149541f5a4f7e66",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:080c67e2652c65e5532bab83a0ed3e97",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:080c67e2652c65e5532bab83a0ed3e97",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:0a62b839a6d8b9f5c2beb3e1128e40d3",
+    "decision_counts": {
+      "reject": 3
+    },
+    "decisions": [
+      "reject",
+      "reject",
+      "reject"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:0a62b839a6d8b9f5c2beb3e1128e40d3",
+    "reason": "openai_majority_reject",
+    "status": "Rejected",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:0b271ecad992d5e718695dd1b6ba8189",
+    "decision_counts": {},
+    "decisions": [],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:0b271ecad992d5e718695dd1b6ba8189",
+    "reason": "llm_repeat_incomplete_or_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 0
+  },
+  {
+    "candidate_id": "claim:17e946da26b26ccd8142f9d9f1c08bc9",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:50bddcdeb549b6003c2ca0b131ebcdb9",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:22aaf6a44b08d28c8d275e87cee555fd",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:22aaf6a44b08d28c8d275e87cee555fd",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:26d1e56910a161ce886a9acf19f8c5c8",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:e3f103a3426b374dbc1cfd27a60f19fb",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:4b4d0d95f66fbd07c4e43cbd7c3fd86d",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:4b4d0d95f66fbd07c4e43cbd7c3fd86d",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:50f688cf128486a3144b44f8e57b444a",
+    "decision_counts": {},
+    "decisions": [],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:50f688cf128486a3144b44f8e57b444a",
+    "reason": "llm_repeat_incomplete_or_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 0
+  },
+  {
+    "candidate_id": "claim:5da492bf364f3782adf75b0fe56674cf",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:b92e3eff33a8dbd366c4f6de8b186887",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:6e78c53fa5ca99ff2c852e4dcb1c03b8",
+    "decision_counts": {},
+    "decisions": [],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:6e78c53fa5ca99ff2c852e4dcb1c03b8",
+    "reason": "llm_repeat_incomplete_or_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 0
+  },
+  {
+    "candidate_id": "claim:71168477095ac42007323e502c7be282",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:cd73a9857426a8f31b7ddb77277bac06",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:793b935434acaa6e30706dc84ea253b8",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:793b935434acaa6e30706dc84ea253b8",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:80af500610a2eeb41502a2eacdf9a2af",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:5e7335c2c7434940482d34b2b3e119fd",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:83398345bcc31ceb43944f51739c628e",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:83398345bcc31ceb43944f51739c628e",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:86552fd501980395295cfa88ce3c8e98",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:86552fd501980395295cfa88ce3c8e98",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:8b2799db734f4143ab614272816d9231",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:6d1ac27de2197fb333a0293f47a8180d",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:8e582122c75ca6589798ebce0660a619",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:8e582122c75ca6589798ebce0660a619",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:9063a39c42b29ec46435fda0622cd31d",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:9063a39c42b29ec46435fda0622cd31d",
+    "reason": "openai_unanimous_accept_but_semantic_revision_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:9f5f8b3b6403635b0ebf40fefd6bdfd7",
+    "decision_counts": {},
+    "decisions": [],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:9f5f8b3b6403635b0ebf40fefd6bdfd7",
+    "reason": "llm_repeat_incomplete_or_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 0
+  },
+  {
+    "candidate_id": "claim:a3d85919df23bb04607364e9c52c7c65",
+    "decision_counts": {},
+    "decisions": [],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:a3d85919df23bb04607364e9c52c7c65",
+    "reason": "llm_repeat_incomplete_or_disagreed",
+    "status": "NeedsReview",
+    "valid_repeats": 0
+  },
+  {
+    "candidate_id": "claim:a706734046ec1d347960a2bb534fd314",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:a706734046ec1d347960a2bb534fd314",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:a89790f4d822e9aa4e2b33027d1818e1",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:a89790f4d822e9aa4e2b33027d1818e1",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:b37291bcba30894e482b7733e1485705",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:b37291bcba30894e482b7733e1485705",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:c073136683fbc343688f2e8a612116de",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:c073136683fbc343688f2e8a612116de",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:d1825d4bb16f42539d1d26e69ca107ab",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:d1825d4bb16f42539d1d26e69ca107ab",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:d6f55a64d819045cb553bba8101b2d96",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:555bced81a103fbb2caecb14de5971d3",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:db75403d12a3f484b1632635d0c8a824",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:db75403d12a3f484b1632635d0c8a824",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  },
+  {
+    "candidate_id": "claim:de339668b561c00bd51cc0e18f7ed3ec",
+    "decision_counts": {
+      "accept": 3
+    },
+    "decisions": [
+      "accept",
+      "accept",
+      "accept"
+    ],
+    "expected_repeats": 3,
+    "final_claim_id": "claim:de339668b561c00bd51cc0e18f7ed3ec",
+    "reason": "openai_unanimous_accept_or_revise",
+    "status": "Accepted",
+    "valid_repeats": 3
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795237,
+  "created_at": 1783795235,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_02f2895a4028b28f006a528e233f08819a87462d2fbb92fcb9",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-7\",\"bundle_hash\":\"de8a12f36441028a73541328c418495c31ea128a8f45eaec1d3ab6e24c24bf61\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"왜 그럴까?\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"QUESTION\",\"arguments\":[],\"predicate\":\"의문 제기\",\"modality\":\"UNSPECIFIED\",\"polarity\":\"UNSPECIFIED\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"QUESTION\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null}] }",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_02f2895a4028b28f006a528e23c960819a8ba9c6c29e11d0a7",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_b_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2885,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3048
+  },
+  "user": null
+}

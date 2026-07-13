@@ -1,0 +1,445 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.540068+00:00",
+  "claim_status": "related_work_baseline_traceability_ready_not_official_reproduction",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "claim_status": "related_work_baseline_traceability_ready_not_official_reproduction",
+    "reference_count": 9,
+    "missing_evidence_file_count": 0,
+    "direct_llm_condition_count": 5,
+    "public_adapter_reference_count": 2,
+    "standard_reference_count": 2,
+    "official_reproduction_claim_count": 0,
+    "public_benchmark_claim_status": "public_adapter_model_runs_diagnostic_not_official_leaderboard",
+    "strong_public_cross_run_present": true,
+    "max_single_run_paged_items": 100,
+    "max_single_run_text2kg_items": 200
+  },
+  "claim_boundary": {
+    "safe_scope": "Use for Related Work, baseline motivation, public-adapter scope, validation standards, and reproducibility framing.",
+    "not_claimable": "This artifact does not prove official reproductions, benchmark leaderboard standing, target-corpus final performance, or human/expert-reviewed utility.",
+    "human_or_expert_gated": true
+  },
+  "related_work_rows": [
+    {
+      "reference_id": "RW01_sac_kg",
+      "reference_name": "SAC-KG: generator / verifier / pruner style domain KG construction",
+      "source_url": "https://aclanthology.org/2024.acl-long.238/",
+      "plan_role": "Motivates verifier/pruner-style KG construction baseline.",
+      "local_coverage_type": "deterministic_approximation_baseline",
+      "local_conditions": [
+        "B6_sac_kg_verifier_pruner"
+      ],
+      "metric_summary": "rows=120; nodes=2281; edges=361; mappings=107; predicate_f1=0.0774; evidence_f1=0.1008",
+      "evidence_files": [
+        {
+          "role": "B6 prompt",
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt",
+          "exists": true,
+          "bytes": 182
+        },
+        {
+          "role": "B6 silver/proxy metric row",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "role": "novelty-positioning caveat",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as an approximate verifier/pruner baseline family in setup and ablation discussion.",
+      "not_claimable": "Do not claim a full SAC-KG reproduction or direct leaderboard comparison.",
+      "related_sections": [
+        "Related Work",
+        "Experiments: Baselines",
+        "Limitations"
+      ]
+    },
+    {
+      "reference_id": "RW02_edc",
+      "reference_name": "Extract, Define, Canonicalize (EDC)",
+      "source_url": "https://aclanthology.org/2024.emnlp-main.548/",
+      "plan_role": "Motivates open-schema extraction and canonicalization comparison.",
+      "local_coverage_type": "style_baseline",
+      "local_conditions": [
+        "B3_edc_style"
+      ],
+      "metric_summary": "rows=120; nodes=566; edges=53; mappings=0; predicate_f1=0.0119; evidence_f1=0.0311",
+      "evidence_files": [
+        {
+          "role": "B3 prompt",
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt",
+          "exists": true,
+          "bytes": 111
+        },
+        {
+          "role": "B3 silver/proxy metric row",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "role": "canonicalization diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.md",
+          "exists": true,
+          "bytes": 4439
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as an EDC-style baseline family for open-schema/canonicalization contrast.",
+      "not_claimable": "Do not claim an exact implementation of the original EDC system.",
+      "related_sections": [
+        "Related Work",
+        "Experiments: Baselines",
+        "Analysis"
+      ]
+    },
+    {
+      "reference_id": "RW03_taxonomy_driven_kg",
+      "reference_name": "Taxonomy-driven KG construction / Taxonomy-RAG",
+      "source_url": "https://aclanthology.org/2025.findings-acl.223/",
+      "plan_role": "Motivates taxonomy-retrieval baseline and standard-taxonomy bridge framing.",
+      "local_coverage_type": "style_baseline_and_downstream_bridge",
+      "local_conditions": [
+        "B4_taxonomy_rag",
+        "P_minus_Standard_bridge"
+      ],
+      "metric_summary": "rows=120; nodes=674; edges=128; mappings=41; predicate_f1=0.0105; evidence_f1=0.0641",
+      "evidence_files": [
+        {
+          "role": "B4 prompt",
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt",
+          "exists": true,
+          "bytes": 96
+        },
+        {
+          "role": "B4 silver/proxy metric row",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "role": "Layer2-to-NCS candidates",
+          "path": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+          "exists": true,
+          "bytes": 82404
+        },
+        {
+          "role": "Layer2-to-PCF candidates",
+          "path": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+          "exists": true,
+          "bytes": 81856
+        },
+        {
+          "role": "mapping downstream diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as taxonomy-retrieval and downstream bridge context.",
+      "not_claimable": "Do not claim mapping utility before expert labels are returned.",
+      "related_sections": [
+        "Related Work",
+        "Method: Standard bridge",
+        "Downstream Evaluation"
+      ]
+    },
+    {
+      "reference_id": "RW04_text2kgbench",
+      "reference_name": "Text2KGBench ontology-driven KG generation benchmark",
+      "source_url": "https://ar5iv.labs.arxiv.org/html/2308.02357",
+      "plan_role": "Motivates ontology-conformance and hallucination-oriented public sanity checks.",
+      "local_coverage_type": "public_adapter_diagnostic",
+      "local_conditions": [
+        "public_qwen3_8b_full_adapter_eval"
+      ],
+      "metric_summary": "",
+      "evidence_files": [
+        {
+          "role": "Text2KGBench CAPE adapter subset",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/text2kgbench_cape_adapter_subset.jsonl",
+          "exists": true,
+          "bytes": 244992
+        },
+        {
+          "role": "Text2KGBench local profile",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/text2kgbench_profile.json",
+          "exists": true,
+          "bytes": 10712
+        },
+        {
+          "role": "public cross-check summary",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "role": "public cross-check report",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as auxiliary public benchmark evidence: max Text2KG n=200; best relation F1=0.6015.",
+      "not_claimable": "Do not treat adapter diagnostics as official Text2KGBench leaderboard results or target-corpus final evidence.",
+      "related_sections": [
+        "Related Work",
+        "Experiments: Public benchmark adapters",
+        "Limitations"
+      ]
+    },
+    {
+      "reference_id": "RW05_textminex",
+      "reference_name": "TextMineX ontology-guided LLM pipeline",
+      "source_url": "https://aclanthology.org/2026.findings-eacl.130.pdf",
+      "plan_role": "Motivates ontology conformance and source-text faithfulness positioning.",
+      "local_coverage_type": "conceptual_positioning_with_local_validators",
+      "local_conditions": [
+        "M5_evidence_grounding",
+        "M7_ontology_validation"
+      ],
+      "metric_summary": "",
+      "evidence_files": [
+        {
+          "role": "evidence-span diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "role": "ontology/procedural structural diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "role": "SHACL-style validation report",
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        },
+        {
+          "role": "metric-to-output traceability",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md",
+          "exists": true,
+          "bytes": 4507
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as related-work motivation for faithfulness and ontology-guided extraction.",
+      "not_claimable": "Do not claim TextMineX reproduction or direct comparison.",
+      "related_sections": [
+        "Related Work",
+        "Method: Validation",
+        "Faithfulness Evaluation"
+      ]
+    },
+    {
+      "reference_id": "RW06_paged",
+      "reference_name": "PAGED procedural graph extraction benchmark",
+      "source_url": "https://aclanthology.org/2024.acl-long.583/",
+      "plan_role": "Motivates procedural graph extraction and public procedural sanity checks.",
+      "local_coverage_type": "public_adapter_and_procedural_prompt_baseline",
+      "local_conditions": [
+        "B5_procedural_prompt",
+        "public_qwen3_8b_full_adapter_eval"
+      ],
+      "metric_summary": "rows=120; nodes=957; edges=119; mappings=0; predicate_f1=0.0096; evidence_f1=0.0603",
+      "evidence_files": [
+        {
+          "role": "B5 prompt",
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt",
+          "exists": true,
+          "bytes": 104
+        },
+        {
+          "role": "B5 silver/proxy metric row",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "role": "PAGED CAPE adapter subset",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/paged_cape_adapter_subset.jsonl",
+          "exists": true,
+          "bytes": 608999
+        },
+        {
+          "role": "PAGED local profile",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/paged_profile.json",
+          "exists": true,
+          "bytes": 1648
+        },
+        {
+          "role": "public cross-check summary",
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as procedural graph extraction context: max PAGED n=100; best edge F1=0.4233.",
+      "not_claimable": "Do not treat adapter diagnostics as official PAGED leaderboard results or target-corpus final evidence.",
+      "related_sections": [
+        "Related Work",
+        "Experiments: Public benchmark adapters",
+        "Analysis"
+      ]
+    },
+    {
+      "reference_id": "RW07_multi_agent_procedural_feedback",
+      "reference_name": "Multi-agent procedural graph extraction with structural feedback",
+      "source_url": "https://aclanthology.org/2026.findings-eacl.158.pdf",
+      "plan_role": "Motivates procedural feedback, structural constraints, and review queues.",
+      "local_coverage_type": "conceptual_positioning_with_structural_feedback_artifacts",
+      "local_conditions": [
+        "M8_procedural_consistency_validator",
+        "M10_active_review_queue"
+      ],
+      "metric_summary": "",
+      "evidence_files": [
+        {
+          "role": "procedural consistency report",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "role": "structural-review action plan",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "exists": true,
+          "bytes": 3565
+        },
+        {
+          "role": "active-review diagnostic",
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "role": "human-effort protocol",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use as motivation for structural feedback and active review scaffolding.",
+      "not_claimable": "Do not claim a multi-agent reproduction or human-effort gains before returned timing/correction data.",
+      "related_sections": [
+        "Related Work",
+        "Method: Active review",
+        "Analysis"
+      ]
+    },
+    {
+      "reference_id": "RW08_shacl",
+      "reference_name": "W3C SHACL",
+      "source_url": "https://www.w3.org/TR/shacl/",
+      "plan_role": "Provides standards context for shape/domain-range validation.",
+      "local_coverage_type": "standard_validation_artifact",
+      "local_conditions": [
+        "M7_ontology_shacl_validator"
+      ],
+      "metric_summary": "",
+      "evidence_files": [
+        {
+          "role": "schema SHACL-style shapes",
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl",
+          "exists": true,
+          "bytes": 340
+        },
+        {
+          "role": "runtime shapes",
+          "path": "outputs/12_rdf/cape_kg_runtime_shapes.shacl.ttl",
+          "exists": true,
+          "bytes": 6142
+        },
+        {
+          "role": "validation summary",
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+          "exists": true,
+          "bytes": 1561
+        },
+        {
+          "role": "validation report",
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use to document validation design and reproducibility.",
+      "not_claimable": "Do not equate SHACL pass rates with final semantic correctness.",
+      "related_sections": [
+        "Method: Validation",
+        "Reproducibility",
+        "Limitations"
+      ]
+    },
+    {
+      "reference_id": "RW09_prov_o",
+      "reference_name": "W3C PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "plan_role": "Provides standards context for provenance of prompts, runs, chunks, and outputs.",
+      "local_coverage_type": "standard_provenance_artifact",
+      "local_conditions": [
+        "provenance_manifest",
+        "provenance_prov_o_export"
+      ],
+      "metric_summary": "",
+      "evidence_files": [
+        {
+          "role": "provenance manifest",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "role": "provenance manifest JSON",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+          "exists": true,
+          "bytes": 100278
+        },
+        {
+          "role": "PROV-O TTL export",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+          "exists": true,
+          "bytes": 183362
+        },
+        {
+          "role": "PROV-O export report",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_report.md",
+          "exists": true,
+          "bytes": 1486
+        }
+      ],
+      "missing_evidence_files": [],
+      "safe_use": "Use to document reproducibility and run provenance.",
+      "not_claimable": "Do not claim that provenance alone resolves private-corpus release rights.",
+      "related_sections": [
+        "Reproducibility",
+        "Ethics",
+        "Limitations"
+      ]
+    }
+  ],
+  "missing_evidence_files": [],
+  "source_artifacts": {
+    "revised_plan": "AX_EACL_submission_review_revised_plan.md",
+    "method_novelty_positioning": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json",
+    "public_benchmark_crosscheck": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+    "actual_llm_silver_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+    "external_resource_license_report": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json"
+  }
+}

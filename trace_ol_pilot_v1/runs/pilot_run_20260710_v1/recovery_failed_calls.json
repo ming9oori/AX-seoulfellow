@@ -1,0 +1,18 @@
+[
+  {
+    "phase": "reference_B_batch_04",
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "estimated_input_tokens": 3400,
+    "observed_output_tokens": 12000,
+    "estimated_cost_usd": 0.00771,
+    "reason": "strict JSON output was truncated at the original 12000-token per-call limit"
+  },
+  {
+    "phase": "reference_B_batch_04_retry_1",
+    "model_id": "gpt-4o-mini-2024-07-18",
+    "estimated_input_tokens": 3400,
+    "observed_output_tokens": 12000,
+    "estimated_cost_usd": 0.00771,
+    "reason": "the single permitted retry was also truncated at the original 12000-token per-call limit"
+  }
+]

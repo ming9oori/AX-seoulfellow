@@ -1,0 +1,32 @@
+[
+  {
+    "expectation": "Stage/Decision 순서와 근거",
+    "id": "REG-218",
+    "passed": true
+  },
+  {
+    "expectation": "Capture Plan 2개 sense 분리",
+    "id": "REG-245",
+    "passed": true
+  },
+  {
+    "expectation": "Formula/Variable/Constraint 구조",
+    "id": "REG-497",
+    "passed": true
+  },
+  {
+    "expectation": "현재 입력의 observed 메타데이터 원문 보존; 설계 기준의 null 기대와 데이터 버전 차이 기록",
+    "id": "REG-916-1140",
+    "passed": true
+  },
+  {
+    "expectation": "BCM 표 헤더·행·점수 복원",
+    "id": "REG-983",
+    "passed": true
+  },
+  {
+    "expectation": "Risk/Mitigation/Rule 구분과 안티패턴 극성",
+    "id": "REG-1315-1335",
+    "passed": true
+  }
+]

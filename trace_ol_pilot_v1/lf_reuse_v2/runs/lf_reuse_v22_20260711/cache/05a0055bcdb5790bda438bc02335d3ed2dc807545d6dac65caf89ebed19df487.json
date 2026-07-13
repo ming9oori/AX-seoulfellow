@@ -1,0 +1,223 @@
+{
+  "response_id": "resp_0eff64e3c77e479c006a5252d1c9f0819b9a921b6929a4323d",
+  "usage": {
+    "input_tokens": 3355,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1658,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5013
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r992",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r992",
+              "text": "각각의 경쟁사에 해당하는 열을 하나씩 추가하라.",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r994",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r994",
+              "text": "열의 합계를 내라.",
+              "start": 0,
+              "end": 8
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r995",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r995",
+              "text": "마지막 열의 핵심 차별화요소에는 고객이 각각의 이슈를 평가하는 데 주요 원인이 된 긍정적, 부정적 핵심 차별화요소를 기록하라.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r996",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r996",
+              "text": "컨설팅을 할 때 이 단계에서 고객으로부터 가장 많이 나오는 질문은 ‘우리가 찾은 고객의 핵심 이슈(Hot Button)는 고객이 제시한 제안 요청서(RFP) 의 평가표와 같은 항목 아닌가’이다.",
+              "start": 0,
+              "end": 90
+            },
+            "claim_family": "DISCOURSE",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1010",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1010",
+              "text": "고객의 인식을 더 많이 알아야 하는가?",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "DISCOURSE",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1047",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1047",
+              "text": "경쟁사 비교표 예시 - OO강 사업본부 자전거부스시스템사업",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

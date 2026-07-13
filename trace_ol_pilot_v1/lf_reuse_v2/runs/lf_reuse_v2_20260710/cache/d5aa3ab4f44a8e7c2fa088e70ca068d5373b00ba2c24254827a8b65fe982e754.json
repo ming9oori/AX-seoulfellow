@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_07b4d79f3dbefa29006a5111c75790819bbd8b5b5cbfda4b0f",
+  "usage": {
+    "input_tokens": 3262,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2872,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6134
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r175",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r175",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r175",
+              "text": "수주 여부를 결정하는 것이 오로지 가격이라면 그 회사에는 영업조직이 필요없고 견적팀만 있으면 된다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r176",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r176",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r176",
+              "text": "가격이 결정적인 패인(敗因)이라는 말은 자신의 솔루션을 차별화하는 데 실패한 매니저의 변명인 경우가 99%이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r177",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r177",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r177",
+              "text": "솔루션 차별화에 실패하면 남아있는 것이 가격 말고 무엇이 있겠는가?",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r178",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r178",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r178",
+              "text": "본질적으로 시장이 그런 것이 아니라 자신의 회사가 가격 외에는 경쟁력이 없다는 점을 깨달아야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r211",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r211",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r211",
+              "text": "제안 성공률을 높이려면 세 가지 분야에서 프로세스가 정의되고, 도구가 개발되고, 구성원이 훈련되어야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r226",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r226",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r226",
+              "text": "왜냐하면 RFP 때문이다.",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r250",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r250",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r250",
+              "text": "제안서 작성 프로세스는 리더십의 리뷰를 핵심단계(Milestone)로 정해서 일정 관리를 해야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r258",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r258",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r258",
+              "text": "두 번째, 전략과 고객의 요구조건 리스트(Complinance Checklist)가 완성되면 이것을 섹션별로 구현해야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r262",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r262",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r262",
+              "text": "특히 제안서 짜깁기에 익숙한 조직과 개인은 이 ‘계획 세우기’ 단계에 많은 부담감을 느낀다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r270",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r270",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r270",
+              "text": "쉬플리의 컨설팅은 이 리뷰단계를 중심으로 해서 전개된다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

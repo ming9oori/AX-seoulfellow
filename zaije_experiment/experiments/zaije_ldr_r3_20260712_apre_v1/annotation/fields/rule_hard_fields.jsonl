@@ -1,0 +1,9 @@
+{"anchor_id":"zaije:evidence/xlsx-row-1202_A01","consensus":"SUPPORTED","field":"SPECIFIC_EXAMPLE_INSTANCE","rule":"EXPLICIT_SPECIFIC_EXAMPLE_INSTANCE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-1202_A01","consensus":"SUPPORTED","field":"IS_EXAMPLE","rule":"EXPLICIT_IS_EXAMPLE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-1356_A01","consensus":"SUPPORTED","field":"SPECIFIC_EXAMPLE_INSTANCE","rule":"EXPLICIT_SPECIFIC_EXAMPLE_INSTANCE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-1356_A01","consensus":"SUPPORTED","field":"IS_EXAMPLE","rule":"EXPLICIT_IS_EXAMPLE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-727_A01","consensus":"SUPPORTED","field":"SPECIFIC_EXAMPLE_INSTANCE","rule":"EXPLICIT_SPECIFIC_EXAMPLE_INSTANCE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-727_A01","consensus":"SUPPORTED","field":"IS_EXAMPLE","rule":"EXPLICIT_IS_EXAMPLE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-810_A01","consensus":"SUPPORTED","field":"IS_TEMPLATE_SCHEMA","rule":"EXPLICIT_IS_TEMPLATE_SCHEMA_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-818_A01","consensus":"SUPPORTED","field":"SPECIFIC_EXAMPLE_INSTANCE","rule":"EXPLICIT_SPECIFIC_EXAMPLE_INSTANCE_CUE_V1","status":"RULE_HARD"}
+{"anchor_id":"zaije:evidence/xlsx-row-818_A01","consensus":"SUPPORTED","field":"IS_EXAMPLE","rule":"EXPLICIT_IS_EXAMPLE_CUE_V1","status":"RULE_HARD"}

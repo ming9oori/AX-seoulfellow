@@ -1,0 +1,276 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<text x="40" y="50" font-family="sans-serif" font-size="26" font-weight="700" fill="#102A43">B0 Surface Fragmentation</text>
+<text x="40" y="78" font-family="sans-serif" font-size="13" fill="#52606D">R5-B1 | nodes 67 | relationships 35</text>
+<line x1="501.2" y1="473.7" x2="772.3" y2="283.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="636.8" y="378.4" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="993.7" y1="444.9" x2="600.7" y2="291.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="797.2" y="368.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="353.3" y1="537.1" x2="978.0" y2="238.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="665.7" y="387.8" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="527.8" y1="511.6" x2="458.1" y2="303.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="493.0" y="407.5" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="874.5" y1="596.2" x2="490.2" y2="432.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="682.4" y="514.2" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="568.0" y1="542.6" x2="586.0" y2="164.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="577.0" y="353.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="790.5" y1="561.4" x2="983.4" y2="366.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="886.9" y="463.7" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="560.6" y1="612.2" x2="405.3" y2="415.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="482.9" y="513.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="895.1" y1="659.8" x2="410.2" y2="248.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="652.6" y="453.9" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="410.2" y1="602.0" x2="514.5" y2="259.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="462.4" y="430.9" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="675.4" y1="575.2" x2="748.2" y2="215.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="711.8" y="395.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="839.5" y1="538.0" x2="323.8" y2="386.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="581.6" y="462.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="586.0" y1="686.0" x2="691.1" y2="151.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="638.5" y="418.7" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="443.4" y1="529.8" x2="949.5" y2="311.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="696.4" y="420.7" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="1039.0" y1="548.6" x2="420.7" y2="356.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="729.9" y="452.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="1073.3" y1="476.0" x2="585.5" y2="229.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="829.4" y="352.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="691.1" y1="698.5" x2="665.5" y2="214.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="678.3" y="456.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="1039.0" y1="548.6" x2="827.1" y2="233.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="933.0" y="391.0" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="978.0" y1="611.5" x2="895.1" y2="190.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="936.6" y="400.9" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="796.9" y1="689.6" x2="517.3" y2="350.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="657.1" y="520.0" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="413.1" y1="474.3" x2="895.4" y2="369.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="654.2" y="422.0" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="910.0" y1="425.0" x2="1039.0" y2="301.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="974.5" y="363.2" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="734.3" y1="574.2" x2="553.3" y2="316.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="643.8" y="445.5" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="901.7" y1="467.0" x2="896.0" y2="266.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="898.9" y="366.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="877.6" y1="505.7" x2="824.2" y2="303.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="850.9" y="404.4" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="974.5" y1="502.8" x2="656.0" y2="277.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="815.3" y="390.0" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="638.2" y1="632.7" x2="495.7" y2="389.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="567.0" y="511.3" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="675.4" y1="575.2" x2="489.8" y2="197.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="582.6" y="386.1" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="720.7" y1="636.9" x2="1073.3" y2="374.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="897.0" y="505.4" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="489.8" y1="652.9" x2="714.8" y2="274.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="602.3" y="463.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="801.6" y1="624.4" x2="866.4" y2="332.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="834.0" y="478.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="933.7" y1="554.6" x2="323.8" y2="463.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="628.7" y="509.0" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="493.9" y1="576.9" x2="796.9" y2="160.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="645.4" y="368.7" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="790.5" y1="561.4" x2="353.3" y2="312.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="571.9" y="437.2" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<line x1="618.5" y1="564.3" x2="909.1" y2="410.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="763.8" y="487.6" font-family="sans-serif" font-size="8" fill="#52606D">REL_ALIAS_OF</text>
+<circle cx="910.0" cy="425.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="910.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Hot Button</text>
+<text x="910.0" y="469.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="993.7" cy="444.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="993.7" y="448.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Proposal Management Pl...</text>
+<text x="993.7" y="488.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1073.3" cy="476.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1073.3" y="480.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Capture Plan</text>
+<text x="1073.3" y="520.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="901.7" cy="467.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="901.7" y="471.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Capability</text>
+<text x="901.7" y="511.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="974.5" cy="502.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="974.5" y="506.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Bid/No Bid Decision</text>
+<text x="974.5" y="546.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1039.0" cy="548.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1039.0" y="552.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Discriminator</text>
+<text x="1039.0" y="592.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="877.6" cy="505.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="877.6" y="509.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Motivation</text>
+<text x="877.6" y="549.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="933.7" cy="554.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="933.7" y="558.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Executive Summary</text>
+<text x="933.7" y="598.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="978.0" cy="611.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="978.0" y="615.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Responsiveness</text>
+<text x="978.0" y="655.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="839.5" cy="538.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="839.5" y="542.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Bias</text>
+<text x="839.5" y="582.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="874.5" cy="596.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="874.5" y="600.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Experience</text>
+<text x="874.5" y="640.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="895.1" cy="659.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="895.1" y="663.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Q&amp;A</text>
+<text x="895.1" y="703.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="790.5" cy="561.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="790.5" y="565.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Proposal Planning</text>
+<text x="790.5" y="605.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="801.6" cy="624.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="801.6" y="628.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">needs</text>
+<text x="801.6" y="668.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="796.9" cy="689.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="796.9" y="693.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Blue Team Review</text>
+<text x="796.9" y="733.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="734.3" cy="574.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="734.3" y="578.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">BCM</text>
+<text x="734.3" y="618.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="720.7" cy="636.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="720.7" y="640.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Collectivism</text>
+<text x="720.7" y="680.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="691.1" cy="698.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="691.1" y="702.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Position</text>
+<text x="691.1" y="742.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="675.4" cy="575.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="675.4" y="579.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Bid Validation Decisio...</text>
+<text x="675.4" y="619.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="638.2" cy="632.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="638.2" y="636.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">No bid</text>
+<text x="638.2" y="676.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="586.0" cy="686.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="586.0" y="690.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Indirect Association</text>
+<text x="586.0" y="730.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="618.5" cy="564.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="618.5" y="568.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Weapon</text>
+<text x="618.5" y="608.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="560.6" cy="612.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="560.6" y="616.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Complinance Checklist</text>
+<text x="560.6" y="656.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="489.8" cy="652.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="489.8" y="656.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Best Practice</text>
+<text x="489.8" y="696.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="568.0" cy="542.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="568.0" y="546.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Silver Bullet</text>
+<text x="568.0" y="586.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="493.9" cy="576.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="493.9" y="580.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">The Best Solution</text>
+<text x="493.9" y="620.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="410.2" cy="602.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="410.2" y="606.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Recognition</text>
+<text x="410.2" y="646.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="527.8" cy="511.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="527.8" y="515.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Long Term Positioning</text>
+<text x="527.8" y="555.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="443.4" cy="529.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="443.4" y="533.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Opportunity Planning</text>
+<text x="443.4" y="573.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="353.3" cy="537.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="353.3" y="541.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Problems</text>
+<text x="353.3" y="581.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="501.2" cy="473.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="501.2" y="477.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Unstated Requirements</text>
+<text x="501.2" y="517.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="413.1" cy="474.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="413.1" y="478.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Positioning</text>
+<text x="413.1" y="518.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="323.8" cy="463.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="323.8" y="467.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">수주전략 업데이트 및 제안 요약</text>
+<text x="323.8" y="507.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="490.2" cy="432.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="490.2" y="436.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경험</text>
+<text x="490.2" y="476.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="405.3" cy="415.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="405.3" y="419.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략과 고객의 요구조건 리스트</text>
+<text x="405.3" y="459.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="323.8" cy="386.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="323.8" y="390.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">예를 들면 개인적인 편견</text>
+<text x="323.8" y="430.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="495.7" cy="389.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="495.7" y="393.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">더 많은 사업을 적극적으로 포기</text>
+<text x="495.7" y="433.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="420.7" cy="356.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="420.7" y="360.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">두 번째 목적은 핵심 이슈 분석을 통해 ...</text>
+<text x="420.7" y="400.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="353.3" cy="312.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="353.3" y="316.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서 기획</text>
+<text x="353.3" y="356.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="517.3" cy="350.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="517.3" y="354.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략 리뷰</text>
+<text x="517.3" y="394.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="458.1" cy="303.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="458.1" y="307.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">서 수주하는 제안에는 제안서 작성 전에 ...</text>
+<text x="458.1" y="347.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="410.2" cy="248.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="410.2" y="252.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">질의응답</text>
+<text x="410.2" y="292.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="553.3" cy="316.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="553.3" y="320.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁사 비교표</text>
+<text x="553.3" y="360.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="514.5" cy="259.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="514.5" y="263.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 인식</text>
+<text x="514.5" y="303.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="489.8" cy="197.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="489.8" y="201.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안 참여 타당성 검증</text>
+<text x="489.8" y="241.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="600.7" cy="291.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="600.7" y="295.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안관리 계획</text>
+<text x="600.7" y="335.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="585.5" cy="229.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="585.5" y="233.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">영업 정보</text>
+<text x="585.5" y="273.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="586.0" cy="164.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="586.0" y="168.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경우가 있다 하더라도 이를 최소화하거나 ...</text>
+<text x="586.0" y="208.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="656.0" cy="277.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="656.0" y="281.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">첫 번째는 제안참여 의사결정</text>
+<text x="656.0" y="321.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="665.5" cy="214.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="665.5" y="218.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁사 비교표는 위치</text>
+<text x="665.5" y="258.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="691.1" cy="151.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="691.1" y="155.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">간접적 연관</text>
+<text x="691.1" y="195.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="714.8" cy="274.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="714.8" y="278.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁자의 강점을 최소화하는 방법은 그 산...</text>
+<text x="714.8" y="318.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="748.2" cy="215.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="748.2" y="219.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">대한 최종 의사결정을 해야 하는데 이를 ...</text>
+<text x="748.2" y="259.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="796.9" cy="160.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="796.9" y="164.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">최고의 솔루션</text>
+<text x="796.9" y="204.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="772.3" cy="283.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="772.3" y="287.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 이슈 중에는 고객이 공식적으로 말...</text>
+<text x="772.3" y="327.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="827.1" cy="233.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="827.1" y="237.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략 개발의 전 단계로 우리에게 유리한 ...</text>
+<text x="827.1" y="277.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="895.1" cy="190.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="895.1" y="194.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">반응도</text>
+<text x="895.1" y="234.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="824.2" cy="303.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="824.2" y="307.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">동기</text>
+<text x="824.2" y="347.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="896.0" cy="266.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="896.0" y="270.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">구성원에게 단계별 도구를 사용할 수 있는...</text>
+<text x="896.0" y="310.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="978.0" cy="238.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="978.0" y="242.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">문제</text>
+<text x="978.0" y="282.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="866.4" cy="332.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="866.4" y="336.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">필요</text>
+<text x="866.4" y="376.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="949.5" cy="311.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="949.5" y="315.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">과 프로젝트 수주를 위한 계획수립</text>
+<text x="949.5" y="355.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1039.0" cy="301.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1039.0" y="305.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">과 핵심 이슈</text>
+<text x="1039.0" y="345.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="895.4" cy="369.6" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="895.4" y="373.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁사 비교표는 포지셔닝</text>
+<text x="895.4" y="413.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="983.4" cy="366.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="983.4" y="370.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안에 참여하기로 하면 그 시점부터 제안...</text>
+<text x="983.4" y="410.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1073.3" cy="374.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1073.3" y="378.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">한국은 지구촌 최고의 집단주의</text>
+<text x="1073.3" y="418.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="909.1" cy="410.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="909.1" y="414.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">평가자의 무기</text>
+<text x="909.1" y="454.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+</svg>

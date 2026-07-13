@@ -1,0 +1,28 @@
+[
+  {
+    "package_id": "lfpkg:v22:question",
+    "pattern": "\\?|？",
+    "name": "explicit_question",
+    "prediction": {
+      "claim_type": "Question",
+      "modality": "NONE",
+      "polarity": "NONE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 5,
+    "validation_correct": 5,
+    "validation_precision": 1.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r206",
+      "ev:jaije:clean_sentences:r662",
+      "ev:jaije:clean_sentences:r854",
+      "ev:jaije:clean_sentences:r991",
+      "ev:jaije:clean_sentences:r1010"
+    ],
+    "status": "ACTIVE",
+    "scope": "document_local"
+  }
+]

@@ -1,0 +1,199 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1006",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "claim_1",
+            "claim_quote": "•전반적으로 점수가 올바르게 평가되었는가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge claim_family and modality: 'ASSESSMENT' and 'DESCRIPTIVE' from X are better supported by the context as this is an evaluative question, not a procedural step. Predicate 'is' from X is more neutral and appropriate for a question."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-1046",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "고객의 TCO 고려 - 5년간 유지비용 최소화(가격)",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_2",
+            "claim_quote": "제품의 레퍼런스(유통 분야) - 검증되어 안정적으로 사용할 수 있는 제품(서버, 네트워크)",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_3",
+            "claim_quote": "안정적인 사업관리 - 그랜드 오픈 후 2개월(안정화)까지 안정적인 지원",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_4",
+            "claim_quote": "향후 발전방향의 제시 - 향후 사업의 방향",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only Y provides claims directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "proportion of people by country who chose 'A. 진실을 말한다'",
+                "quote": "‘A. 진실을 말한다’를 선택한 사람의 국가별 비율",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "이 질문에 ‘A. 진실을 말한다’를 선택한 사람의 국가별 비율은 다음 페이지의 그림과 같았다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is illustrated by",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge: X's discourse_status 'CASE_INSTANCE' is more precise, but Y's argument structure is supported and should be included. Predicate from X is closer to the evidence."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-1061",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "제안 전략이란 반드시 이 네 가지 목적 중 하나 이상을 달성하는 것이다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only X provides a claim, and it is directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-1138",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "claim_1",
+            "claim_quote": "핵심 단어의 선명성\n- 최적화된 운영매뉴얼 교육 제공(×) \n- 30분 내 조립할 수 있는 운영매뉴얼 1박 2일 교육 프로그램 제시(○)",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only Y provides a claim, and it is directly supported by the evidence."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b01_062104f92b72.json",
+  "response_id": "resp_0917a405438dc42d006a528eda6a3c819ba44cfa8361f29826",
+  "usage": {
+    "input_tokens": 5702,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1181,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6883
+  }
+}

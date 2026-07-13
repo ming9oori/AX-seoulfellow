@@ -1,0 +1,722 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:40.449314+00:00",
+  "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "method_module": {
+    "module_id": "M9",
+    "name": "Alias/canonicalization module",
+    "purpose": "Maintain canonical task labels, aliases, and comparable node labels."
+  },
+  "claim_boundary": {
+    "diagnostic_only": true,
+    "human_gold_node_matching_required": true,
+    "collision_review_required": true,
+    "safe_interpretation": "This report documents automatic alias/canonicalization coverage and collision queues.",
+    "not_claimable_until": "Final node canonicalization quality, precision, recall, and merge/split correctness require human-gold node matching and adjudicated review."
+  },
+  "input_files": {
+    "layer2_nodes": "outputs/07_layer2_graph/layer2_nodes.jsonl",
+    "layer2_edges": "outputs/07_layer2_graph/layer2_edges.jsonl",
+    "alias_dictionary": "outputs/07_layer2_graph/layer2_alias_dictionary.json",
+    "layer2_graph_quality_report": "outputs/07_layer2_graph/layer2_graph_quality_report.md",
+    "canonical_task_catalog": "outputs/04_task_frames/canonical_task_catalog.json",
+    "b3_edc_schema_ablation_valid": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_edc_schema_ablation_valid.jsonl"
+  },
+  "output_files": {
+    "collision_groups_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/alias_canonicalization_collision_groups.csv",
+    "json": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.md"
+  },
+  "summary": {
+    "layer2_node_count": 220,
+    "layer2_edge_count": 947,
+    "canonical_task_count": 22,
+    "alias_entry_count": 122,
+    "collision_alias_count": 13,
+    "ambiguous_collision_alias_count": 6,
+    "duplicate_reference_only_group_count": 7,
+    "graph_quality_alias_collision_count": 13,
+    "duplicate_alias_reference_count": 8,
+    "nodes_with_aliases": 44,
+    "node_alias_coverage_rate": 0.2,
+    "human_gold_node_matching_required": true,
+    "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+  },
+  "node_alias_summary": {
+    "layer2_node_count": 220,
+    "nodes_with_aliases": 44,
+    "nodes_without_aliases": 176,
+    "node_alias_coverage_rate": 0.2,
+    "raw_node_alias_total": 136,
+    "unique_node_alias_total": 128,
+    "duplicate_alias_within_node_total": 8,
+    "duplicate_label_group_count": 21,
+    "duplicate_label_groups_sample": [
+      {
+        "normalized_label": "capture plan 검토",
+        "node_ids": [
+          "REVIEW-STEP-COMPETITOR_ANALYSIS-02",
+          "REVIEW-STEP-COMPLIANCE_CHECK-02",
+          "REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-02",
+          "REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-02",
+          "REVIEW-STEP-OPPORTUNITY_ASSESSMENT-01",
+          "REVIEW-STEP-PROPOSAL_PLANNING-01",
+          "REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02",
+          "REVIEW-STEP-PROPOSAL_TEAM_FORMATION-02",
+          "REVIEW-STEP-RED_TEAM_REVIEW-02",
+          "REVIEW-STEP-SOLUTION_DEFINITION-02",
+          "REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-02",
+          "STEP-COMPETITOR_ANALYSIS-02",
+          "STEP-COMPLIANCE_CHECK-02",
+          "STEP-CUSTOMER_NEEDS_ANALYSIS-02",
+          "STEP-EXECUTIVE_SUMMARY_WRITING-02",
+          "STEP-OPPORTUNITY_ASSESSMENT-01",
+          "STEP-PROPOSAL_PLANNING-01",
+          "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02",
+          "STEP-PROPOSAL_TEAM_FORMATION-02",
+          "STEP-RED_TEAM_REVIEW-02",
+          "STEP-SOLUTION_DEFINITION-02",
+          "STEP-WIN_STRATEGY_DEVELOPMENT-02"
+        ]
+      },
+      {
+        "normalized_label": "capture plan 작성",
+        "node_ids": [
+          "STEP-BID_VALIDATION-04",
+          "STEP-CAPTURE_PLANNING-06",
+          "STEP-COMPETITOR_ANALYSIS-04",
+          "STEP-COMPLIANCE_CHECK-04",
+          "STEP-CUSTOMER_NEEDS_ANALYSIS-04",
+          "STEP-EXECUTIVE_SUMMARY_WRITING-04",
+          "STEP-KICKOFF_MEETING-04",
+          "STEP-OPPORTUNITY_ASSESSMENT-04",
+          "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04",
+          "STEP-PROPOSAL_TEAM_FORMATION-04",
+          "STEP-RED_TEAM_REVIEW-04",
+          "STEP-SOLUTION_DEFINITION-04",
+          "STEP-WIN_STRATEGY_DEVELOPMENT-04"
+        ]
+      },
+      {
+        "normalized_label": "proposal management plan 검토",
+        "node_ids": [
+          "REVIEW-STEP-PT_STRATEGY-02",
+          "STEP-PT_STRATEGY-02"
+        ]
+      },
+      {
+        "normalized_label": "경쟁사 분석",
+        "node_ids": [
+          "L2_TASK_COMPETITOR_ANALYSIS",
+          "STEP-CAPTURE_PLANNING-03"
+        ]
+      },
+      {
+        "normalized_label": "고객 니즈 분석",
+        "node_ids": [
+          "L2_TASK_CUSTOMER_NEEDS_ANALYSIS",
+          "STEP-CAPTURE_PLANNING-02"
+        ]
+      },
+      {
+        "normalized_label": "레드팀 리뷰",
+        "node_ids": [
+          "L2_TASK_RED_TEAM_REVIEW",
+          "REVIEW-STEP-PROPOSAL_REVIEW-03",
+          "STEP-PROPOSAL_REVIEW-03"
+        ]
+      },
+      {
+        "normalized_label": "리뷰 기준 수립",
+        "node_ids": [
+          "REVIEW-STEP-PROPOSAL_REVIEW-01",
+          "STEP-PROPOSAL_REVIEW-01"
+        ]
+      },
+      {
+        "normalized_label": "리뷰 방법 정의",
+        "node_ids": [
+          "REVIEW-STEP-PMP_DEVELOPMENT-04",
+          "STEP-PMP_DEVELOPMENT-04"
+        ]
+      },
+      {
+        "normalized_label": "리뷰 의견 반영",
+        "node_ids": [
+          "REVIEW-STEP-PROPOSAL_WRITING-05",
+          "STEP-PROPOSAL_WRITING-05"
+        ]
+      },
+      {
+        "normalized_label": "목차 개발",
+        "node_ids": [
+          "L2_TASK_OUTLINE_DEVELOPMENT",
+          "STEP-PROPOSAL_PLANNING-06"
+        ]
+      },
+      {
+        "normalized_label": "섹션기획서 검토",
+        "node_ids": [
+          "REVIEW-STEP-PROPOSAL_WRITING-01",
+          "STEP-PROPOSAL_WRITING-01"
+        ]
+      },
+      {
+        "normalized_label": "수주전략 수립",
+        "node_ids": [
+          "L2_TASK_WIN_STRATEGY_DEVELOPMENT",
+          "STEP-CAPTURE_PLANNING-05"
+        ]
+      },
+      {
+        "normalized_label": "제안 요청서 검토",
+        "node_ids": [
+          "REVIEW-STEP-BID_VALIDATION-01",
+          "REVIEW-STEP-COMPETITOR_ANALYSIS-01",
+          "REVIEW-STEP-COMPLIANCE_CHECK-01",
+          "REVIEW-STEP-CUSTOMER_NEEDS_ANALYSIS-01",
+          "REVIEW-STEP-EXECUTIVE_SUMMARY_WRITING-01",
+          "REVIEW-STEP-KICKOFF_MEETING-01",
+          "REVIEW-STEP-OUTLINE_DEVELOPMENT-01",
+          "REVIEW-STEP-PRICE_STRATEGY-01",
+          "REVIEW-STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01",
+          "REVIEW-STEP-PROPOSAL_TEAM_FORMATION-01",
+          "REVIEW-STEP-PT_STRATEGY-01",
+          "REVIEW-STEP-RED_TEAM_REVIEW-01",
+          "REVIEW-STEP-SOLUTION_DEFINITION-01",
+          "REVIEW-STEP-WIN_STRATEGY_DEVELOPMENT-01",
+          "STEP-BID_VALIDATION-01",
+          "STEP-COMPETITOR_ANALYSIS-01",
+          "STEP-COMPLIANCE_CHECK-01",
+          "STEP-CUSTOMER_NEEDS_ANALYSIS-01",
+          "STEP-EXECUTIVE_SUMMARY_WRITING-01",
+          "STEP-KICKOFF_MEETING-01",
+          "STEP-OUTLINE_DEVELOPMENT-01",
+          "STEP-PRICE_STRATEGY-01",
+          "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01",
+          "STEP-PROPOSAL_TEAM_FORMATION-01",
+          "STEP-PT_STRATEGY-01",
+          "STEP-RED_TEAM_REVIEW-01",
+          "STEP-SOLUTION_DEFINITION-01",
+          "STEP-WIN_STRATEGY_DEVELOPMENT-01"
+        ]
+      },
+      {
+        "normalized_label": "제안 요청서 작성",
+        "node_ids": [
+          "STEP-BID_VALIDATION-03",
+          "STEP-COMPETITOR_ANALYSIS-03",
+          "STEP-COMPLIANCE_CHECK-03",
+          "STEP-CUSTOMER_NEEDS_ANALYSIS-03",
+          "STEP-EXECUTIVE_SUMMARY_WRITING-03",
+          "STEP-KICKOFF_MEETING-03",
+          "STEP-OPPORTUNITY_ASSESSMENT-03",
+          "STEP-OUTLINE_DEVELOPMENT-03",
+          "STEP-PRICE_STRATEGY-03",
+          "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03",
+          "STEP-PROPOSAL_TEAM_FORMATION-03",
+          "STEP-PT_STRATEGY-03",
+          "STEP-RED_TEAM_REVIEW-03",
+          "STEP-SOLUTION_DEFINITION-03",
+          "STEP-WIN_STRATEGY_DEVELOPMENT-03"
+        ]
+      },
+      {
+        "normalized_label": "제안전략 검토",
+        "node_ids": [
+          "REVIEW-STEP-BID_VALIDATION-02",
+          "REVIEW-STEP-KICKOFF_MEETING-02",
+          "REVIEW-STEP-OPPORTUNITY_ASSESSMENT-02",
+          "REVIEW-STEP-OUTLINE_DEVELOPMENT-02",
+          "REVIEW-STEP-PRICE_STRATEGY-02",
+          "STEP-BID_VALIDATION-02",
+          "STEP-KICKOFF_MEETING-02",
+          "STEP-OPPORTUNITY_ASSESSMENT-02",
+          "STEP-OUTLINE_DEVELOPMENT-02",
+          "STEP-PRICE_STRATEGY-02"
+        ]
+      },
+      {
+        "normalized_label": "제안전략 작성",
+        "node_ids": [
+          "STEP-OUTLINE_DEVELOPMENT-04",
+          "STEP-PRICE_STRATEGY-04"
+        ]
+      },
+      {
+        "normalized_label": "제안팀 구성",
+        "node_ids": [
+          "L2_TASK_PROPOSAL_TEAM_FORMATION",
+          "STEP-PROPOSAL_PLANNING-02"
+        ]
+      },
+      {
+        "normalized_label": "주제문 작성",
+        "node_ids": [
+          "STEP-PROPOSAL_WRITING-03",
+          "STEP-SECTION_PLANNING-03"
+        ]
+      },
+      {
+        "normalized_label": "충실도 점검",
+        "node_ids": [
+          "L2_TASK_COMPLIANCE_CHECK",
+          "STEP-PROPOSAL_REVIEW-04"
+        ]
+      },
+      {
+        "normalized_label": "킥오프 미팅",
+        "node_ids": [
+          "L2_TASK_KICKOFF_MEETING",
+          "STEP-PROPOSAL_PLANNING-03"
+        ]
+      }
+    ],
+    "nodes_with_aliases_sample": [
+      {
+        "node_id": "L2_PRINCIPLE_954881e92ce7",
+        "node_type": "Principle",
+        "label": "품질",
+        "raw_alias_count": 5,
+        "unique_normalized_alias_count": 5,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_TASK_SECTION_PLANNING",
+        "node_type": "DomainTask",
+        "label": "섹션기획서 작성",
+        "raw_alias_count": 5,
+        "unique_normalized_alias_count": 5,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_DG_DG_BID_NO_BID",
+        "node_type": "DecisionGateway",
+        "label": "Bid/No Bid Decision",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_PRINCIPLE_ad76810528c8",
+        "node_type": "Principle",
+        "label": "고객 중심",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_RISK_00b0a368ea1c",
+        "node_type": "Risk",
+        "label": "약점",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_RISK_7be151cca22c",
+        "node_type": "Risk",
+        "label": "No Bid 조건",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_TASK_BID_NO_BID_DECISION",
+        "node_type": "DomainTask",
+        "label": "제안참여 의사결정",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 1
+      },
+      {
+        "node_id": "L2_TASK_BID_VALIDATION",
+        "node_type": "DomainTask",
+        "label": "입찰타당성 검증",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 1
+      },
+      {
+        "node_id": "L2_TASK_CAPTURE_PLANNING",
+        "node_type": "DomainTask",
+        "label": "수주영업",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 1
+      },
+      {
+        "node_id": "L2_TASK_PMP_DEVELOPMENT",
+        "node_type": "DomainTask",
+        "label": "제안계획 수립",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_TASK_PROPOSAL_WRITING",
+        "node_type": "DomainTask",
+        "label": "제안서 작성",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 1
+      },
+      {
+        "node_id": "L2_TASK_WIN_STRATEGY_DEVELOPMENT",
+        "node_type": "DomainTask",
+        "label": "수주전략 수립",
+        "raw_alias_count": 4,
+        "unique_normalized_alias_count": 4,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_DG_DG_APPROVAL",
+        "node_type": "DecisionGateway",
+        "label": "승인",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_DG_DG_BID_VALIDATION",
+        "node_type": "DecisionGateway",
+        "label": "입찰타당성 결정",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_PRINCIPLE_369cb1468674",
+        "node_type": "Principle",
+        "label": "차별화",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_PRINCIPLE_8b66ec04365c",
+        "node_type": "Principle",
+        "label": "근거 기반",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_PRINCIPLE_bc6d31b3b7e5",
+        "node_type": "Principle",
+        "label": "충실도",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_RISK_e232d58b4a8e",
+        "node_type": "Risk",
+        "label": "요구조건 누락",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_ROLE_6f23fc00fb1f",
+        "node_type": "Role",
+        "label": "제안 PM",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      },
+      {
+        "node_id": "L2_ROLE_a58673ab1d25",
+        "node_type": "Role",
+        "label": "고객",
+        "raw_alias_count": 3,
+        "unique_normalized_alias_count": 3,
+        "duplicate_alias_within_node_count": 0
+      }
+    ]
+  },
+  "alias_dictionary_summary": {
+    "alias_entry_count": 122,
+    "raw_alias_reference_count": 136,
+    "unique_alias_reference_count": 128,
+    "duplicate_alias_reference_count": 8,
+    "collision_alias_count": 13,
+    "ambiguous_collision_alias_count": 6,
+    "duplicate_reference_only_group_count": 7,
+    "collision_kind_counts": {
+      "cross_type_collision": 6,
+      "duplicate_reference_only": 7
+    },
+    "missing_node_reference_count": 0
+  },
+  "canonical_task_summary": {
+    "catalog_review_status": "auto_catalog_pending_human_review",
+    "canonical_task_count": 22,
+    "canonical_tasks_with_aliases": 22,
+    "canonical_task_alias_coverage_rate": 1.0,
+    "raw_canonical_task_alias_total": 51,
+    "unique_canonical_task_alias_total": 51,
+    "duplicate_canonical_task_alias_total": 0,
+    "canonical_task_ids_missing_from_layer2_nodes": [],
+    "canonical_task_type_counts": {
+      "DomainTask": 22
+    }
+  },
+  "b3_edc_style_baseline_summary": {
+    "source_file": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_edc_schema_ablation_valid.jsonl",
+    "row_count": 240,
+    "conditions": [
+      "B3_edc_style",
+      "P_minus_Schema_retrieval"
+    ],
+    "condition_rows": [
+      {
+        "condition": "B3_edc_style",
+        "rows": 120,
+        "nodes": 566,
+        "edges": 53,
+        "mappings": 0,
+        "triples": 0
+      },
+      {
+        "condition": "P_minus_Schema_retrieval",
+        "rows": 120,
+        "nodes": 566,
+        "edges": 308,
+        "mappings": 25,
+        "triples": 0
+      }
+    ]
+  },
+  "collision_groups": [
+    {
+      "alias": "bid validation decision",
+      "normalized_alias": "bid validation decision",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 3,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_DG_DG_BID_VALIDATION,L2_TASK_BID_VALIDATION",
+      "node_types": "DecisionGateway,DomainTask",
+      "labels": "입찰타당성 결정 || 입찰타당성 검증",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "bid/no bid decision",
+      "normalized_alias": "bid/no bid decision",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_BID_NO_BID_DECISION",
+      "node_types": "DomainTask",
+      "labels": "제안참여 의사결정",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "capture planning",
+      "normalized_alias": "capture planning",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_CAPTURE_PLANNING",
+      "node_types": "DomainTask",
+      "labels": "수주영업",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "kickoff meeting",
+      "normalized_alias": "kickoff meeting",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_KICKOFF_MEETING",
+      "node_types": "DomainTask",
+      "labels": "킥오프 미팅",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "opportunity assessment",
+      "normalized_alias": "opportunity assessment",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+      "node_types": "DomainTask",
+      "labels": "기회분석",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "proposal planning",
+      "normalized_alias": "proposal planning",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_PROPOSAL_PLANNING",
+      "node_types": "DomainTask",
+      "labels": "제안서 기획",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "proposal writing",
+      "normalized_alias": "proposal writing",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_PROPOSAL_WRITING",
+      "node_types": "DomainTask",
+      "labels": "제안서 작성",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "red team review",
+      "normalized_alias": "red team review",
+      "collision_kind": "duplicate_reference_only",
+      "target_count": 1,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_RED_TEAM_REVIEW",
+      "node_types": "DomainTask",
+      "labels": "레드팀 리뷰",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "영업참여 결정",
+      "normalized_alias": "영업참여 결정",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 0,
+      "node_ids": "L2_DG_DG_PURSUIT,L2_TASK_BID_NO_BID_DECISION",
+      "node_types": "DecisionGateway,DomainTask",
+      "labels": "Pursuit Decision || 제안참여 의사결정",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "요구조건",
+      "normalized_alias": "요구조건",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 0,
+      "node_ids": "L2_PRINCIPLE_bc6d31b3b7e5,L2_RISK_e232d58b4a8e",
+      "node_types": "Principle,Risk",
+      "labels": "충실도 || 요구조건 누락",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "입찰타당성 결정",
+      "normalized_alias": "입찰타당성 결정",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 0,
+      "node_ids": "L2_DG_DG_BID_VALIDATION,L2_TASK_BID_VALIDATION",
+      "node_types": "DecisionGateway,DomainTask",
+      "labels": "입찰타당성 결정 || 입찰타당성 검증",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "참여결정",
+      "normalized_alias": "참여결정",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 0,
+      "node_ids": "L2_DG_DG_BID_NO_BID,L2_TASK_BID_NO_BID_DECISION",
+      "node_types": "DecisionGateway,DomainTask",
+      "labels": "Bid/No Bid Decision || 제안참여 의사결정",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    },
+    {
+      "alias": "참여타당성 검증",
+      "normalized_alias": "참여타당성 검증",
+      "collision_kind": "cross_type_collision",
+      "target_count": 2,
+      "raw_reference_count": 2,
+      "duplicate_reference_count": 0,
+      "node_ids": "L2_DG_DG_BID_VALIDATION,L2_TASK_BID_VALIDATION",
+      "node_types": "DecisionGateway,DomainTask",
+      "labels": "입찰타당성 결정 || 입찰타당성 검증",
+      "review_status": "pending_human_node_matching_review",
+      "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+    }
+  ],
+  "duplicate_reference_sample": [
+    {
+      "alias": "bid validation decision",
+      "raw_reference_count": 3,
+      "unique_reference_count": 2,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_DG_DG_BID_VALIDATION,L2_TASK_BID_VALIDATION"
+    },
+    {
+      "alias": "bid/no bid decision",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_BID_NO_BID_DECISION"
+    },
+    {
+      "alias": "capture planning",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_CAPTURE_PLANNING"
+    },
+    {
+      "alias": "kickoff meeting",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_KICKOFF_MEETING"
+    },
+    {
+      "alias": "opportunity assessment",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_OPPORTUNITY_ASSESSMENT"
+    },
+    {
+      "alias": "proposal planning",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_PROPOSAL_PLANNING"
+    },
+    {
+      "alias": "proposal writing",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_PROPOSAL_WRITING"
+    },
+    {
+      "alias": "red team review",
+      "raw_reference_count": 2,
+      "unique_reference_count": 1,
+      "duplicate_reference_count": 1,
+      "node_ids": "L2_TASK_RED_TEAM_REVIEW"
+    }
+  ],
+  "missing_reference_sample": []
+}

@@ -1,0 +1,62 @@
+version: "1.0"
+status: LOCK_PENDING_HUMAN_PILOT
+relations:
+  taxonomy:
+    - subClassOf
+    - partOf
+    - hasPart
+    - instanceOf
+  procedure:
+    - hasStep
+    - precedes
+    - follows
+    - triggers
+    - hasMilestone
+  input_output:
+    - requiresInput
+    - producesOutput
+    - transforms
+    - documents
+  responsibility:
+    - performedBy
+    - approvedBy
+    - reviewedBy
+    - evaluatedBy
+  goal_requirement:
+    - hasGoal
+    - satisfies
+    - addresses
+    - prioritizes
+  method:
+    - uses
+    - appliesMethod
+    - implementedBy
+  decision:
+    - hasCriterion
+    - comparesWith
+    - selects
+    - rejects
+  rule:
+    - hasCondition
+    - hasException
+    - requires
+    - recommends
+    - prohibits
+  causal_risk:
+    - causes
+    - increases
+    - decreases
+    - mitigates
+    - introducesRisk
+  semantic_provenance:
+    - aliasOf
+    - definedBy
+    - supports
+    - contradicts
+    - evidencedBy
+promotion_requirements:
+  minimum_distinct_evidence_groups: 2
+  require_stable_domain_range: true
+  require_validation_precision: true
+  require_structural_utility: true
+  reject_duplicate_or_hub_abuse: true

@@ -1,0 +1,8 @@
+experiment_id: zaije_ldr_r3_20260712_apre_v1
+parent_experiment_id: zaije_ldr_r2_20260712_blre_v1
+fresh_pilot_source: imported_unexposed_r2_lock
+fresh_pilot_count: 60
+membership_sha256: 3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17
+membership_change_allowed: false
+prior_api_exposure: 0
+test_access_allowed: false

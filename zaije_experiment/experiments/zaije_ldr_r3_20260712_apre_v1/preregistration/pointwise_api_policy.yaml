@@ -1,0 +1,9 @@
+one_item_per_request: true
+cache_replay: false
+fresh_transport: batch_api
+dev_transport: synchronous_responses_api
+same_id_repilot: false
+retry_reasons: [transport_failure, rate_limit, truncated, refusal, incomplete]
+fresh_request_cap: 3000
+fresh_input_token_cap: 10000000
+fresh_output_token_cap: 1000000

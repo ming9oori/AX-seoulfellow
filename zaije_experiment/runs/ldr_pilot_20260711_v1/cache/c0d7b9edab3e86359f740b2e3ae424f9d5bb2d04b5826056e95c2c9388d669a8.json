@@ -1,0 +1,199 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-7",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "“제안서를 잘 써야 입찰에 성공한다”라는 말이 반드시 맞는 말은 아니다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "MISCONCEPTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "NEGATIVE",
+            "predicate": "is not necessarily true",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only Y provides a claim, which is directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-70",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "70-year collusion history between conglomerates and power starting after liberation under Syngman Rhee regime",
+                "quote": "광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사",
+                "role": "event"
+              },
+              {
+                "normalized_label": "An event indicating the end or need to end of the collusion history",
+                "quote": "종료되었음을 (또는 종료되어야 함을) 말해주는 사건",
+                "role": "event"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "claim_1",
+            "claim_quote": "광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사가 종료되었음을 (또는 종료되어야 함을) 말해주는 사건이기 때문이다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "말해주는",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "이 사건",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge: Y provides more detailed argument structure and claim family/type, but all fields are supported by the evidence. Polarity is supported as positive by the context."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-711",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Engineer Customer",
+                "quote": "엔지니어 고객",
+                "role": "RECIPIENT"
+              },
+              {
+                "normalized_label": "Analysis Result Indicating Need for System Reengineering",
+                "quote": "귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다",
+                "role": "CONTENT"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "엔지니어 고객에게 보내는 이메일귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다.",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is output of",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "엔지니어 고객에게 보내는 이메일",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge: X provides a more complete procedural claim with arguments, all directly supported by the evidence. Y's quotation is included as part of X's argument."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-760",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Persuasive Proposal to Customer",
+                "quote": "고객에게 설득력이 높은 제안",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Logical Persuasiveness",
+                "quote": "논리적으로 설득적일(Logically Persuasive)",
+                "role": "attribute1"
+              },
+              {
+                "normalized_label": "Emotional Credibility",
+                "quote": "감성적으로 신뢰를 확보(Emotionally Credible)",
+                "role": "attribute2"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "고객에게 설득력이 높은 제안은 논리적으로 설득적일(Logically Persuasive) 뿐만 아니라 감성적으로 신뢰를 확보(Emotionally Credible)하는 것을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge: Y provides argument structure, X provides correct predicate and promotion target. All fields are supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-834",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Overemphasized flashy proposal",
+                "quote": "잘못 강조된 화려한 제안서",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Obscures key message",
+                "quote": "제안자가 강조하고자 하는 핵심 메시지를 흐리고",
+                "role": "effect1"
+              },
+              {
+                "normalized_label": "Causes evaluator resentment",
+                "quote": "평가자로 하여금 반감을 사게 하는 경우가 있음을",
+                "role": "effect2"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "잘못 강조된 화려한 제안서는 제안자가 강조하고자 하는 핵심 메시지를 흐리고, 평가자로 하여금 반감을 사게 하는 경우가 있음을 직시해야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Merge: X provides the correct claim family/type/modality, Y provides detailed argument structure. All fields are supported by the evidence."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b07_c0d7b9edab3e.json",
+  "response_id": "resp_03bec61f04ba64bb006a528f11396c81989870482cd5585276",
+  "usage": {
+    "input_tokens": 5112,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1237,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6349
+  }
+}

@@ -1,0 +1,23 @@
+secret_source: environment
+store_api_key: false
+store_authorization_header: false
+store_raw_responses: true
+use_structured_outputs: true
+pilot_batch_size: 5
+max_transport_retries: 2
+retry_on_label_disagreement: false
+request_timeout_seconds: 240
+cache_enabled: true
+hard_caps:
+  total_real_calls: 80
+  input_tokens: 600000
+  output_tokens: 250000
+logging:
+  request_id: true
+  response_id: true
+  model_snapshot: true
+  prompt_hash: true
+  schema_hash: true
+  token_usage: true
+  retry_history: true
+  raw_response_path: true

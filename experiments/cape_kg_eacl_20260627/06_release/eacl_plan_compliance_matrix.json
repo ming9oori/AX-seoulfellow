@@ -1,0 +1,1104 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.301091+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "plan_file_evidence": {
+    "path": "AX_EACL_submission_review_revised_plan.md",
+    "exists": true,
+    "bytes": 29461
+  },
+  "summary": {
+    "claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "claim_gate_optional_failures": 2,
+    "claim_gate_warnings": 0,
+    "pre_human_handoff_status": "PASS",
+    "pre_human_handoff_checks": 92,
+    "pre_human_handoff_status_counts": {
+      "PASS": 91,
+      "WARN": 1
+    },
+    "strict_json_gate_status": "PASS",
+    "strict_json_warning_conditions": 0,
+    "provenance_claim_status": "provenance_manifest_ready_not_human_gold_evidence",
+    "prov_o_claim_status": "prov_o_export_ready_not_human_gold_evidence",
+    "rdf_shacl_claim_status": "rdf_shacl_style_validation_pass_not_human_gold",
+    "rdf_shacl_overall_status": "PASS",
+    "minimum_and_strong_status_counts": {
+      "pending_human": 5,
+      "pass": 11,
+      "partial": 4
+    },
+    "method_module_state_counts": {
+      "automatic_artifact_ready": 3,
+      "automatic_artifact_ready_human_claim_pending": 8
+    },
+    "claim_gate_status_counts": {
+      "PASS": 9,
+      "FAIL": 6
+    },
+    "minimum_paper_gate_return_file_count": 11,
+    "minimum_paper_gate_return_file_present_count": 0,
+    "optional_strong_return_file_count": 3,
+    "optional_strong_return_file_present_count": 0,
+    "tracked_human_return_file_count": 14,
+    "tracked_human_return_file_present_count": 0,
+    "master_minimum_return_file_count": 11,
+    "master_minimum_return_file_present_count": 0,
+    "master_optional_claim_return_file_count": 3,
+    "master_optional_claim_return_file_present_count": 0,
+    "master_optional_structural_return_file_count": 2,
+    "master_optional_structural_return_file_present_count": 0,
+    "master_required_claim_return_file_count": 14,
+    "master_required_claim_return_file_present_count": 0,
+    "master_return_file_count": 16,
+    "master_return_file_present_count": 0,
+    "required_human_return_file_count": 14,
+    "minimum_human_blocker_count": 4,
+    "strong_or_optional_human_blocker_count": 4,
+    "human_blocker_count": 8,
+    "completion_status": "not_complete_pending_human_gold_iaa_adjudication_and_expert_review",
+    "submission_ready": false
+  },
+  "checklist_rows": [
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_chunks",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_items",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.iaa",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_pilot_30/iaa_summary.json",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_sampling_ready",
+      "requirement": "Priority-100 gold subset sampling ready",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json, experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md, experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv",
+      "next_step": "No additional automatic step required; priority-100 sampling covers 1371/1436 full-120 candidate edges (0.9547), active-review coverage=0.9670, high-impact coverage=1.0000. Human annotation/adjudication still required."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.baselines",
+      "requirement": "B0/B1/B2 actual LLM baselines completed",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json, experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "next_step": "No additional automatic step required; keep baseline artifacts synchronized."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.proposed",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.ablations",
+      "requirement": "3+ actual ablations completed",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json, experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_120_valid.jsonl",
+      "next_step": "No additional automatic step required; ablation coverage satisfies the minimum gate."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.error_analysis",
+      "requirement": "Structured error analysis table and taxonomy",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md, experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+      "next_step": "No additional automatic step required; update only if new diagnostics change."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_subset",
+      "requirement": "Public benchmark or public subset experiment",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+      "next_step": "No additional automatic step required; public subset evidence is present."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.release_plan",
+      "requirement": "Code, prompt, schema, and reproducibility release package",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json, experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json, experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+      "next_step": "No additional automatic step required; regenerate only after source artifacts change."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.limitations",
+      "requirement": "Limitations section",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/limitations.md",
+      "next_step": "No additional automatic step required; keep limitations synchronized with future human results."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_synthetic_examples",
+      "requirement": "Public-safe synthetic examples for reproducibility mitigation",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md, experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json",
+      "next_step": "No additional automatic step required; synthetic public-safe examples are ready."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_chunks",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_items",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.public_cross",
+      "requirement": "PAGED/Text2KGBench cross experiment",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+      "next_step": "No additional automatic step required; cross-check includes PAGED >= 100 and Text2KG >= 200 in a single run."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.edc_taxonomy_baselines",
+      "requirement": "EDC/SAC-KG/Taxonomy-RAG family baselines or reproductions",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_edc_schema_ablation_quality_report.md, experiments/cape_kg_eacl_20260627/50_sac_kg_verifier_pruner_baseline_quality_report.md",
+      "next_step": "No additional automatic step required; B3/B4/B6 family baseline artifacts are present."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.mapping_downstream",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md, experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv, experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.active_review",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.visualization",
+      "requirement": "Visualization/demo provided",
+      "status": "pass",
+      "claimable": true,
+      "automation_state": "automatic_artifact_ready",
+      "evidence": "outputs/09_visualization/kg_viewer.html",
+      "next_step": "No additional automatic step required; keep the viewer synchronized with future graph updates."
+    },
+    {
+      "scope": "method_modules",
+      "id": "method.m1_m11",
+      "requirement": "CAPE-KG M1-M11 modules represented by executable artifacts",
+      "status": "partial",
+      "claimable": true,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json, experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md, experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+      "next_step": "All executable module artifacts are present; human-review and human-gold scoring evidence remains required for final paper claims."
+    }
+  ],
+  "method_module_rows": [
+    {
+      "module": "M1",
+      "name": "Document structure recovery",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 5,
+      "missing_required": 0,
+      "human_dependent": false,
+      "automation_state": "automatic_artifact_ready",
+      "remaining_for_claim": "No additional automatic step required; source-text release still requires rights review."
+    },
+    {
+      "module": "M2",
+      "name": "CQ generation and selection",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 7,
+      "missing_required": 0,
+      "human_dependent": false,
+      "automation_state": "automatic_artifact_ready",
+      "remaining_for_claim": "Human-gold CQ answerability must be recomputed after adjudication."
+    },
+    {
+      "module": "M3",
+      "name": "CQ-linked schema retrieval",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 8,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Final claim requires human-gold comparison of P vs. schema-retrieval ablation."
+    },
+    {
+      "module": "M4",
+      "name": "Procedural frame extraction",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 6,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Human review should verify task/step correctness before final claims."
+    },
+    {
+      "module": "M5",
+      "name": "Evidence-span constrained triple extraction",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 28,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Component-level span diagnostics are present; character/span exactness must still be validated against adjudicated human gold."
+    },
+    {
+      "module": "M6",
+      "name": "Span verifier",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 15,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Current verifier evidence is silver/proxy; human-gold evidence metrics are pending."
+    },
+    {
+      "module": "M7",
+      "name": "Ontology/SHACL validator",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 10,
+      "missing_required": 0,
+      "human_dependent": false,
+      "automation_state": "automatic_artifact_ready",
+      "remaining_for_claim": "No additional automatic step required; final conformance table should use human-gold predictions."
+    },
+    {
+      "module": "M8",
+      "name": "Procedural consistency validator",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 19,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Human-gold procedural consistency should be recomputed after adjudication."
+    },
+    {
+      "module": "M9",
+      "name": "Alias/canonicalization module",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 7,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Final node canonicalization quality requires human-gold node matching."
+    },
+    {
+      "module": "M10",
+      "name": "Active review queue",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 18,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "Active-review ablation is represented with silver/proxy diagnostics; final efficiency claim requires human adjudication outcomes and reviewer effort/timing."
+    },
+    {
+      "module": "M11",
+      "name": "NCS/PCF mapping evaluator",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 13,
+      "missing_required": 0,
+      "human_dependent": true,
+      "automation_state": "automatic_artifact_ready_human_claim_pending",
+      "remaining_for_claim": "P@K/MRR/nDCG@10, explanation-quality, crosswalk accept-rate, and utility claims require completed expert review."
+    }
+  ],
+  "claim_gate_rows": [
+    {
+      "gate_id": "data.eval_chunks",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": "120 chunks in experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl"
+    },
+    {
+      "gate_id": "gold.completed_chunks",
+      "status": "FAIL",
+      "required": true,
+      "severity": "fail",
+      "evidence": "0 completed chunks, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.item_count",
+      "status": "FAIL",
+      "required": true,
+      "severity": "fail",
+      "evidence": "0 items, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.iaa",
+      "status": "FAIL",
+      "required": true,
+      "severity": "fail",
+      "evidence": "max_completed_pair_chunks=0, summaries=2"
+    },
+    {
+      "gate_id": "llm.baselines",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": {
+        "B0_plain_llm": 120,
+        "B1_predicate_constrained": 120,
+        "B2_current_project": 120
+      }
+    },
+    {
+      "gate_id": "llm.proposed_generation",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": {
+        "P_cape_kg_actual": 120
+      }
+    },
+    {
+      "gate_id": "llm.proposed_human_gold_score",
+      "status": "FAIL",
+      "required": true,
+      "severity": "fail",
+      "evidence": "human_gold_scored_conditions=[]"
+    },
+    {
+      "gate_id": "llm.ablations",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": "6 full ablations: ['P_minus_CQ', 'P_minus_Evidence', 'P_minus_Procedural_schema', 'P_minus_Schema_retrieval', 'P_minus_Standard_bridge', 'P_minus_Validator']"
+    },
+    {
+      "gate_id": "llm.revalidated_output_recovery",
+      "status": "PASS",
+      "required": false,
+      "severity": "warn",
+      "evidence": "all full conditions <= 5% unrepaired after conservative partial-JSON recovery"
+    },
+    {
+      "gate_id": "llm.strict_json_rate",
+      "status": "PASS",
+      "required": false,
+      "severity": "warn",
+      "evidence": "all full conditions <= 50% strict parse/generation errors"
+    },
+    {
+      "gate_id": "external.public_subset",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": "PAGED items=100, Text2KG items=200, summaries=4"
+    },
+    {
+      "gate_id": "mapping.expert_review",
+      "status": "FAIL",
+      "required": false,
+      "severity": "fail",
+      "evidence": "complete_source_groups=0, pending_rows=220, file=experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json, progress_file=experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json, progress_pending_groups=44"
+    },
+    {
+      "gate_id": "crosswalk.expert_review",
+      "status": "FAIL",
+      "required": false,
+      "severity": "fail",
+      "evidence": "completed_rows=0, pending_rows=220, complete_source_groups=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json, manifest_file=experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json, candidate_rows=220"
+    },
+    {
+      "gate_id": "analysis.error_analysis",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": {
+        "markdown": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        "json": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+          "exists": true,
+          "bytes": 34951
+        },
+        "required_sections": [
+          "## Claim Scope",
+          "## Actual LLM Silver/Proxy Diagnostics",
+          "## Proxy Scaffold Error Summary",
+          "## Error Taxonomy",
+          "## Human-Gold Follow-Up"
+        ],
+        "missing_sections": [],
+        "taxonomy_family_count": 8,
+        "ready_for_minimum_accept": true,
+        "claim_scope": "silver_proxy_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "gate_id": "release.artifacts",
+      "status": "PASS",
+      "required": true,
+      "severity": "fail",
+      "evidence": "all required release files exist"
+    }
+  ],
+  "human_blockers": [
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_chunks",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_items",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.iaa",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_pilot_30/iaa_summary.json",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.proposed",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_chunks",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_items",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.mapping_downstream",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md, experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv, experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.active_review",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    }
+  ],
+  "minimum_human_blockers": [
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_chunks",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_items",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.iaa",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_pilot_30/iaa_summary.json",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.proposed",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv, experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    }
+  ],
+  "strong_or_optional_human_blockers": [
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_chunks",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_items",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "automation_state": "requires_human_review",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json, experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.mapping_downstream",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md, experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv, experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.active_review",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": false,
+      "automation_state": "automatic_scaffold_ready_human_evidence_pending",
+      "evidence": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md, experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    }
+  ],
+  "required_human_returns": [
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_adjudication",
+      "owner": "adjudicator",
+      "batch_or_group": "full_120_adjudication",
+      "expected_rows": "120",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Resolve adjudication_draft rows, save adjudication_edited.jsonl, then run preflight/import."
+    },
+    {
+      "required_for_minimum": "no",
+      "task_type": "mapping_expert_review",
+      "owner": "mapping_expert",
+      "batch_or_group": "top20_groups_top5_rows",
+      "expected_rows": "100",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Review Top-5 candidates for the 20 priority groups (100 rows), export mapping_review_items.reviewed.jsonl, then run preflight/import."
+    },
+    {
+      "required_for_minimum": "no",
+      "task_type": "crosswalk_expert_review",
+      "owner": "crosswalk_expert",
+      "batch_or_group": "ncs_pcf_crosswalk_candidates",
+      "expected_rows": "220",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl",
+      "target_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Review NCS-PCF crosswalk candidates, export crosswalk_review_items.reviewed.jsonl, then run preflight/import."
+    },
+    {
+      "required_for_minimum": "no",
+      "task_type": "active_review_human_effort",
+      "owner": "active_reviewer",
+      "batch_or_group": "pooled_active_uncertainty_random",
+      "expected_rows": "204",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+      "target_file": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "next_action": "Fill reviewer_id, review_seconds, decision, corrected_error, and high_impact_correction in the active-review effort CSV, then run preflight/refresh."
+    }
+  ],
+  "master_human_returns": [
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_adjudication",
+      "owner": "adjudicator",
+      "batch_or_group": "full_120_adjudication",
+      "expected_rows": "120",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "최종 adjudicated human-gold와 proposed human-gold scoring에 필요",
+      "next_action": "Resolve adjudication_draft rows, save adjudication_edited.jsonl, then run preflight/import."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "no",
+      "task_type": "mapping_expert_review",
+      "owner": "mapping_expert",
+      "batch_or_group": "top20_groups_top5_rows",
+      "expected_rows": "100",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "NCS/PCF mapping P@K, MRR, nDCG, accept-rate claim에 필요",
+      "next_action": "Review Top-5 candidates for the 20 priority groups (100 rows), export mapping_review_items.reviewed.jsonl, then run preflight/import."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "no",
+      "task_type": "crosswalk_expert_review",
+      "owner": "crosswalk_expert",
+      "batch_or_group": "ncs_pcf_crosswalk_candidates",
+      "expected_rows": "220",
+      "input_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "NCS-PCF crosswalk accept-rate, utility, ranking claim에 필요",
+      "next_action": "Review NCS-PCF crosswalk candidates, export crosswalk_review_items.reviewed.jsonl, then run preflight/import."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "no",
+      "task_type": "active_review_human_effort",
+      "owner": "active_reviewer",
+      "batch_or_group": "pooled_active_uncertainty_random",
+      "expected_rows": "204",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "active review efficiency와 사람 검수 비용 claim에 필요",
+      "next_action": "Fill reviewer_id, review_seconds, decision, corrected_error, and high_impact_correction in the active-review effort CSV, then run preflight/refresh."
+    },
+    {
+      "requiredness": "optional_structural",
+      "required_for_minimum": "no",
+      "task_type": "structural_review_checkpoint_candidates",
+      "owner": "structural_reviewer",
+      "batch_or_group": "structural_gap_worklist",
+      "expected_rows": "45",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.reviewed.csv",
+      "present": "no",
+      "status": "ready_for_optional_review",
+      "why_it_matters": "ReviewCheckpoint 후보 45개를 구조적으로 정제하기 위한 선택 검수",
+      "next_action": "Fill human_decision and human_notes, then save with the exact reviewed_file name."
+    },
+    {
+      "requiredness": "optional_structural",
+      "required_for_minimum": "no",
+      "task_type": "structural_gateway_branch_gaps",
+      "owner": "structural_reviewer",
+      "batch_or_group": "structural_gap_worklist",
+      "expected_rows": "4",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.reviewed.csv",
+      "present": "no",
+      "status": "ready_for_optional_review",
+      "why_it_matters": "DecisionGateway branch gap 4개를 검토하기 위한 선택 검수",
+      "next_action": "Fill human_decision and human_notes; add branch target notes only when source evidence supports the outcome."
+    }
+  ],
+  "source_artifacts": {
+    "submission_readiness_audit": "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.json",
+    "claim_gate_report": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+    "method_module_coverage": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+    "requirements_matrix": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.json",
+    "submission_completion_audit": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.json",
+    "paper_readiness_checklist": "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.json",
+    "human_gate_required_returns": "experiments/cape_kg_eacl_20260627/05_review/human_gate_required_returns.csv",
+    "human_review_master_return_files": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+    "pre_human_handoff_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+    "provenance_manifest": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+    "provenance_prov_o_summary": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_summary.json",
+    "rdf_shacl_validation": "outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+    "release_bundle_checksums": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256"
+  }
+}

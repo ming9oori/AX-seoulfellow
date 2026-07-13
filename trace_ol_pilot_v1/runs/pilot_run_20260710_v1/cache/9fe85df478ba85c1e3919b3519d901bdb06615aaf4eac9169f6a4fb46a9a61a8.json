@@ -1,0 +1,129 @@
+{
+  "response_id": "resp_0d4a7537520ec9c5006a50cbeb41d0819ab5712fea23d7f96d",
+  "usage": {
+    "input_tokens": 2787,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 785,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3572
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r141",
+        "triples": [
+          {
+            "subject": "오해",
+            "predicate": "떨어뜨리다",
+            "object": "회사 입찰 제안 역량",
+            "source_span": "그런데 이런 오해는 회사의 입찰 제안 역량을 떨어뜨리고, 잘못된 문화를 형성하여 회사의 사업 수주 경쟁력에 치명적인 영향을 끼칠 수 있다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r142",
+        "triples": [
+          {
+            "subject": "잘못된 인식과 부족한 지식",
+            "predicate": "그르치다",
+            "object": "사업",
+            "source_span": "특히 해외 사업의 경우, 제안의 잘못된 인식과 부족한 지식은 사업을 결정적으로 그르칠 수 있음을 명심해야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r200",
+        "triples": [
+          {
+            "subject": "제안 프로세스",
+            "predicate": "있다",
+            "object": "표준화한 문서",
+            "source_span": "기업 조직 내에 제안 프로세스가 있다고 말하기 위해서는 첫째, 프로세스를 표준화한 문서가 있어야 하고 둘째, 정의된 단계마다 그 활동을 위한 구체적인 방법론이 있어야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r207",
+        "triples": [
+          {
+            "subject": "프로세스",
+            "predicate": "있다",
+            "object": "표준화한 문서",
+            "source_span": "•첫째, 프로세스를 표준화한 문서(Documentation)가 있어야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r209",
+        "triples": [
+          {
+            "subject": "제안 프로세스",
+            "predicate": "있다",
+            "object": "단계별 도구를 사용할 수 있는 역량",
+            "source_span": "• 셋째, 구성원에게 단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r240",
+        "triples": [
+          {
+            "subject": "수주영업 및 수주전략 수립 프로세스",
+            "predicate": "있다",
+            "object": "세부 내용",
+            "source_span": "수주영업 및 수주전략 수립 프로세스의 세부 내용은 다음과 같다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r245",
+        "triples": [
+          {
+            "subject": "Capture Plan",
+            "predicate": "통용되다",
+            "object": "영업 정보와 이를 관리하는 쉬플리 도구",
+            "source_span": "Capture Plan은 특정 사업 기회에 대한 영업 정보와 이를 관리하는 쉬플리 도구라는 두 가지 의미로 통용된다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r247",
+        "triples": [
+          {
+            "subject": "경쟁사 분석",
+            "predicate": "이루어져야 한다",
+            "object": "이기는 전략",
+            "source_span": "경쟁사 비교표(BCM:Bidder Comparison Matrix):이기는 전략을 개발하기 위해서는 경쟁자 분석이 이루어져야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r248",
+        "triples": [
+          {
+            "subject": "입찰 참여 의사 결정",
+            "predicate": "있다",
+            "object": "단계 6",
+            "source_span": "단계 6: 입찰 참여 의사 결정"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r254",
+        "triples": [
+          {
+            "subject": "제안전략",
+            "predicate": "구체화하다",
+            "object": "수주전략",
+            "source_span": "따라서 제안전략은 수주전략과 일관되면서 수주전략을 구체화한 것이다."
+          }
+        ]
+      }
+    ]
+  }
+}

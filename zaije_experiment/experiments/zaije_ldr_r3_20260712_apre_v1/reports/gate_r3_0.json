@@ -1,0 +1,9 @@
+{
+  "dev_evidence_overlap": 0,
+  "dev_leakage_group_overlap": 0,
+  "imported_fresh60_hash_match": true,
+  "membership_count": 60,
+  "prior_api_exposure": 0,
+  "status": "PASS",
+  "test_access": 0
+}

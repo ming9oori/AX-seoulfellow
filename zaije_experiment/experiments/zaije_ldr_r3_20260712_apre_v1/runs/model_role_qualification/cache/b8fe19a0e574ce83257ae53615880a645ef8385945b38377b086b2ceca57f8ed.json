@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "SUPPORTED",
+    "proposal_id": "zaije:evidence/xlsx-row-1138_A03::SPECIFIC_EXAMPLE_INSTANCE"
+  },
+  "raw_response_path": "raw_responses/primary_facet_C04_r2_SPECIFIC_EXAMPLE_INSTANCE_05_b8fe19a0e574.json",
+  "response_id": "resp_0f4cdf42d3de0b89006a5321daf3b0819bab027aac343e3a92",
+  "usage": {
+    "input_tokens": 329,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 28,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 357
+  }
+}

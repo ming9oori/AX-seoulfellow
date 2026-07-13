@@ -1,0 +1,37 @@
+[
+  {
+    "file": "01_schema.svg",
+    "node_count": 51,
+    "non_empty": true,
+    "relationship_count": 45,
+    "sha256": "2034b33ed9baff5c88410c9309e68531d16a122a34be9a8f64ae472af17bf0ab"
+  },
+  {
+    "file": "02_operations.svg",
+    "node_count": 102,
+    "non_empty": true,
+    "relationship_count": 60,
+    "sha256": "81abbba6252c51a4fa74a9298f788c385fc53c003f9b2c556e5f9c50c662c0b7"
+  },
+  {
+    "file": "03_consolidation.svg",
+    "node_count": 118,
+    "non_empty": true,
+    "relationship_count": 60,
+    "sha256": "5b3b7579e9e6c3b569baa4fb14687fc26b8c8b916621de16bc825f69e3b0d25f"
+  },
+  {
+    "file": "04_evidence_trace.svg",
+    "node_count": 117,
+    "non_empty": true,
+    "relationship_count": 60,
+    "sha256": "9ebcd24b8483e1ffcd74e19a8119ef974bdc67a1d239440f655266eb753b16b0"
+  },
+  {
+    "file": "05_provenance.svg",
+    "node_count": 61,
+    "non_empty": true,
+    "relationship_count": 60,
+    "sha256": "93835c679ecf9d67ed16e799907f62d8d89b1ec277889e45d9eff84f8059e49d"
+  }
+]

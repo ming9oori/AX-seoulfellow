@@ -1,0 +1,266 @@
+{
+  "adapter_status": "gold_triples_reformatted_for_cape_external_subset_no_model_run",
+  "adapter_subset_file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/text2kgbench_cape_adapter_subset.jsonl",
+  "adapter_subset_items": 200,
+  "benchmark": "Text2KGBench",
+  "datasets": {
+    "dbpedia_webnlg": {
+      "local_dir": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg",
+      "ontologies": 19,
+      "ontology_profiles": [
+        {
+          "concepts": 10,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/10_comicscharacter_ontology.json",
+          "ontology_id": "ont_10_comicscharacter",
+          "relations": 18,
+          "title": "ComicsCharacter Ontology"
+        },
+        {
+          "concepts": 20,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/11_meanoftransportation_ontology.json",
+          "ontology_id": "ont_11_meanoftransportation",
+          "relations": 68,
+          "title": "MeanOfTransportation Ontology"
+        },
+        {
+          "concepts": 14,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/12_monument_ontology.json",
+          "ontology_id": "ont_12_monument",
+          "relations": 26,
+          "title": "Monument Ontology"
+        },
+        {
+          "concepts": 12,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/13_food_ontology.json",
+          "ontology_id": "ont_13_food",
+          "relations": 24,
+          "title": "Food Ontology"
+        },
+        {
+          "concepts": 10,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/14_writtenwork_ontology.json",
+          "ontology_id": "ont_14_writtenwork",
+          "relations": 44,
+          "title": "WrittenWork Ontology"
+        },
+        {
+          "concepts": 14,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/15_sportsteam_ontology.json",
+          "ontology_id": "ont_15_sportsteam",
+          "relations": 24,
+          "title": "SportsTeam Ontology"
+        },
+        {
+          "concepts": 11,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/16_city_ontology.json",
+          "ontology_id": "ont_16_city",
+          "relations": 23,
+          "title": "City Ontology"
+        },
+        {
+          "concepts": 20,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/17_artist_ontology.json",
+          "ontology_id": "ont_17_artist",
+          "relations": 39,
+          "title": "Artist Ontology"
+        },
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/18_scientist_ontology.json",
+          "ontology_id": "ont_18_scientist",
+          "relations": 47,
+          "title": "Scientist Ontology"
+        },
+        {
+          "concepts": 18,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/19_film_ontology.json",
+          "ontology_id": "ont_19_film",
+          "relations": 44,
+          "title": "Film Ontology"
+        },
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/1_university_ontology.json",
+          "ontology_id": "ont_1_university",
+          "relations": 46,
+          "title": "University Ontology"
+        },
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/2_musicalwork_ontology.json",
+          "ontology_id": "ont_2_musicalwork",
+          "relations": 35,
+          "title": "MusicalWork Ontology"
+        },
+        {
+          "concepts": 14,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/3_airport_ontology.json",
+          "ontology_id": "ont_3_airport",
+          "relations": 39,
+          "title": "Airport Ontology"
+        },
+        {
+          "concepts": 14,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/4_building_ontology.json",
+          "ontology_id": "ont_4_building",
+          "relations": 38,
+          "title": "Building Ontology"
+        },
+        {
+          "concepts": 17,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/5_athlete_ontology.json",
+          "ontology_id": "ont_5_athlete",
+          "relations": 37,
+          "title": "Athlete Ontology"
+        },
+        {
+          "concepts": 19,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/6_politician_ontology.json",
+          "ontology_id": "ont_6_politician",
+          "relations": 40,
+          "title": "Politician Ontology"
+        },
+        {
+          "concepts": 10,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/7_company_ontology.json",
+          "ontology_id": "ont_7_company",
+          "relations": 28,
+          "title": "Company Ontology"
+        },
+        {
+          "concepts": 8,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/8_celestialbody_ontology.json",
+          "ontology_id": "ont_8_celestialbody",
+          "relations": 27,
+          "title": "CelestialBody Ontology"
+        },
+        {
+          "concepts": 16,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/dbpedia_webnlg/ontologies/9_astronaut_ontology.json",
+          "ontology_id": "ont_9_astronaut",
+          "relations": 38,
+          "title": "Astronaut Ontology"
+        }
+      ],
+      "split_counts": {
+        "ground_truth": {
+          "files": 19,
+          "rows": 2014,
+          "triples": 6259
+        },
+        "test": {
+          "files": 19,
+          "rows": 2014,
+          "triples": 0
+        },
+        "train": {
+          "files": 19,
+          "rows": 2846,
+          "triples": 8623
+        }
+      }
+    },
+    "wikidata_tekgen": {
+      "local_dir": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen",
+      "ontologies": 10,
+      "ontology_profiles": [
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/10_culture_ontology.json",
+          "ontology_id": "ont_10_culture",
+          "relations": 8,
+          "title": "Culture Ontology"
+        },
+        {
+          "concepts": 12,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/1_movie_ontology.json",
+          "ontology_id": "ont_1_movie",
+          "relations": 15,
+          "title": "Movie Ontology"
+        },
+        {
+          "concepts": 13,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/2_music_ontology.json",
+          "ontology_id": "ont_2_music",
+          "relations": 13,
+          "title": "Music Ontology"
+        },
+        {
+          "concepts": 20,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/3_sport_ontology.json",
+          "ontology_id": "ont_3_sport",
+          "relations": 11,
+          "title": "Sports Ontology"
+        },
+        {
+          "concepts": 20,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/4_book_ontology.json",
+          "ontology_id": "ont_4_book",
+          "relations": 12,
+          "title": "Book Ontology"
+        },
+        {
+          "concepts": 13,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/5_military_ontology.json",
+          "ontology_id": "ont_5_military",
+          "relations": 9,
+          "title": "Military Ontology"
+        },
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/6_computer_ontology.json",
+          "ontology_id": "ont_6_computer",
+          "relations": 4,
+          "title": "Computer Ontology"
+        },
+        {
+          "concepts": 15,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/7_space_ontology.json",
+          "ontology_id": "ont_7_space",
+          "relations": 7,
+          "title": "Space Ontology"
+        },
+        {
+          "concepts": 13,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/8_politics_ontology.json",
+          "ontology_id": "ont_8_politics",
+          "relations": 9,
+          "title": "Politics Ontology"
+        },
+        {
+          "concepts": 14,
+          "file": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench/data/wikidata_tekgen/ontologies/9_nature_ontology.json",
+          "ontology_id": "ont_9_nature",
+          "relations": 13,
+          "title": "Nature Ontology"
+        }
+      ],
+      "split_counts": {
+        "ground_truth": {
+          "files": 10,
+          "rows": 4062,
+          "triples": 7232
+        },
+        "test": {
+          "files": 10,
+          "rows": 4062,
+          "triples": 0
+        },
+        "train": {
+          "files": 10,
+          "rows": 5335,
+          "triples": 0
+        },
+        "validation": {
+          "files": 10,
+          "rows": 3993,
+          "triples": 0
+        }
+      }
+    }
+  },
+  "git_revision": "50a3d255371b8817cdff70fd88459ac82b339cfe",
+  "local_repo": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/repos/Text2KGBench",
+  "paper_url": "https://doi.org/10.1007/978-3-031-47243-5_14",
+  "source_url": "https://github.com/cenguix/Text2KGBench"
+}

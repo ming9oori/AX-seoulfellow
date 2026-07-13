@@ -1,0 +1,121 @@
+{
+  "response_id": "resp_0078579959b331d9006a51129620d88199b3535e7e1e947301",
+  "usage": {
+    "input_tokens": 1138,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 804,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1942
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1344",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1344",
+              "text": "품질과 비교 평가를 위한 표준 질문지를 개발하라.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1343",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1343",
+              "text": "그 회사의 과거 고객의 평가를 체크하라.",
+              "start": 0,
+              "end": 25
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1345",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1345",
+              "text": "6개월마다 고객 설문을 시행하여 결과를 반영하라.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

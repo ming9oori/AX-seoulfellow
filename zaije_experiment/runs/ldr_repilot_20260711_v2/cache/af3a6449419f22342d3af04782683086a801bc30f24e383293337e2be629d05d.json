@@ -1,0 +1,252 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "07da5b0bf0fccf0b378e655b440099371635029afc91777fac688d3fdbe9a7e4",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "customer",
+                "quote": "고객",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "understand",
+                "quote": "이해하라",
+                "role": "action"
+              },
+              {
+                "normalized_label": "the fact that the value is the criterion for solution selection",
+                "quote": "가치가 솔루션 선택의 기준이 된다는 사실",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "고객이 인지하는 가치가 솔루션 선택의 기준이 된다는 사실을 이해하라.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "customer",
+                "quote": "고객",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "understand",
+                "quote": "이해하라",
+                "role": "action"
+              },
+              {
+                "normalized_label": "the fact that the value is the criterion for solution selection",
+                "quote": "가치가 솔루션 선택의 기준이 된다는 사실",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "2",
+            "claim_quote": "고객이 인지하는 가치가 솔루션 선택의 기준이 된다는 사실을 이해하라.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-40",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "a08af25ca99da8960ae747ac0b64576e8e127f116cc66f661cbaaa14eb19e86d",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "collectivism",
+                "quote": "집단주의",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "means",
+                "quote": "말한다",
+                "role": "action"
+              },
+              {
+                "normalized_label": "cultural tendency",
+                "quote": "문화적 성향",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "집단주의는 개인주의(Individualism)의 상대적인 말로 개인보다는 집단의 가치와 관계를 더 중요하게 생각하는 문화적 성향을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-95",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "3e0e7d4944e0f02d5803d80616b4785328b6acefd03517749a0941c162f36272",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "members",
+                "quote": "구성원",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "must have",
+                "quote": "있어야 한다",
+                "role": "action"
+              },
+              {
+                "normalized_label": "the capability to use step-by-step tools",
+                "quote": "단계별 도구를 사용할 수 있는 역량",
+                "role": "object"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "구성원에게 단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must have",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-209",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "8b59be02029538c8258cd02374cc2644cba5f093089eccebac17e686c47ec300",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "customer needs",
+                "quote": "고객의 니즈",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "support",
+                "quote": "지원",
+                "role": "action"
+              },
+              {
+                "normalized_label": "requirements development work",
+                "quote": "요구조건 개발 작업",
+                "role": "object"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "고객의 니즈 분석 및 요구조건 개발 작업 지원",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "support",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-244",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "572c9f8bbcd0707149a1ab66ae2d6867744854790307246c5db0c8f314dc5b0f",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "work breakdown structure (WBS)",
+                "quote": "작업분류체계(WBS)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "define",
+                "quote": "정의",
+                "role": "action"
+              },
+              {
+                "normalized_label": "program development schedule",
+                "quote": "프로그램 개발 일정",
+                "role": "object"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "작업분류체계(WBS) 정의, 프로그램 개발 일정 수립",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "define",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-280",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b01_af3a6449419f.json",
+  "response_id": "resp_0f260fe602b4ff85006a52905ab798819aae40e92aaf00d850",
+  "usage": {
+    "input_tokens": 3567,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1307,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4874
+  }
+}

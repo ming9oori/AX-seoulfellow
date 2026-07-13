@@ -1,0 +1,30 @@
+{
+  "b2_budget_fraction": 0.4,
+  "b4_max_output_tokens": 1800,
+  "dev_b2_safe_yield": 104,
+  "dev_b3_safe_yield": 128,
+  "dev_repeat_agreement": 1.0,
+  "experiment_id": "zaije_r5_crsi_v_20260712_v1",
+  "file_hashes": {
+    "experiments/zaije_r5_crsi_v_20260712_v1/locks/confirmatory_membership_lock.json": "77195d19cd17fceed265b22c85c4713c49403f0aab648b2ba626387ad6031b90",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/cq_split_lock.json": "70f0f40cc91cec17366c464d08f0c1c2a2f6de4c738a1132dfda64126a254453",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/prompts/closed_choice_v1.txt": "248cb1f868cc5c0cbe6f677eb85e5983ac01ae2d7514e29f20aa0c82bd35df9d",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/prompts/direct_baseline_v1.txt": "e2b96a510da48d0b2f69d907def6ed58e819dcf91cd66f39dd5d7a47d221c81f",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/relation_registry.yaml": "99452555323b75816aeb0006f1604aa40a6b93e33d9db14d783271ea456eb405",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/schemas/concept_pair.json": "ea4ae5ceda0d1a604b6ec9e482ea42fb106cf990ffd8dd8e15fbab9de01b2c78",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/schemas/direct_baseline.json": "319bfe95b950e05212122bb5ad74cb9978089a0c580561ab6175e78e87407498",
+    "experiments/zaije_r5_crsi_v_20260712_v1/preregistration/type_compatibility.yaml": "446fa874fae7be174db86e2a660f08ed5bdd075cc8b3ae780b19312ce81e4f42",
+    "src/r5_crsi.py": "e0e46ca7c771d1cf10b9f3d705135c71743d7ad10c8fbfa330cc11f2799e4da0"
+  },
+  "key_stored": false,
+  "membership_change_allowed": false,
+  "model": "gpt-4.1-2025-04-14",
+  "prompt_change_allowed": false,
+  "relation_registry_locked": true,
+  "repeat_fraction": 0.2,
+  "temperature": 0,
+  "test_access": 0,
+  "threshold_change_allowed": false,
+  "timing": "POST_DEV_PRE_CONFIRMATORY_API",
+  "type_matrix_locked": true
+}

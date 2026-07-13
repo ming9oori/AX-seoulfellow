@@ -1,0 +1,244 @@
+{
+  "b2_budget_fraction": 0.4,
+  "candidate_count": 105,
+  "cq": {
+    "R5-B1": {
+      "answerability": 1.0,
+      "provenance_precision": 1.0,
+      "questions": [
+        {
+          "answerable": true,
+          "cq_id": "CQ5_1_CONCEPT_ALIAS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_2_PROCESS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_3_RULE_CONSTRAINT"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_4_TEMPLATE_FIELD"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_5_EVIDENCE_TRACE"
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B2": {
+      "answerability": 1.0,
+      "provenance_precision": 1.0,
+      "questions": [
+        {
+          "answerable": true,
+          "cq_id": "CQ5_1_CONCEPT_ALIAS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_2_PROCESS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_3_RULE_CONSTRAINT"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_4_TEMPLATE_FIELD"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_5_EVIDENCE_TRACE"
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B3": {
+      "answerability": 1.0,
+      "provenance_precision": 1.0,
+      "questions": [
+        {
+          "answerable": true,
+          "cq_id": "CQ5_1_CONCEPT_ALIAS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_2_PROCESS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_3_RULE_CONSTRAINT"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_4_TEMPLATE_FIELD"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_5_EVIDENCE_TRACE"
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B4": {
+      "answerability": 0.6,
+      "provenance_precision": 1.0,
+      "questions": [
+        {
+          "answerable": true,
+          "cq_id": "CQ5_1_CONCEPT_ALIAS"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_2_PROCESS"
+        },
+        {
+          "answerable": false,
+          "cq_id": "CQ5_3_RULE_CONSTRAINT"
+        },
+        {
+          "answerable": false,
+          "cq_id": "CQ5_4_TEMPLATE_FIELD"
+        },
+        {
+          "answerable": true,
+          "cq_id": "CQ5_5_EVIDENCE_TRACE"
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    }
+  },
+  "decision_counts": {
+    "DIFFERENT_CONCEPT": 22,
+    "HAS_CONDITION": 3,
+    "HAS_QUANTITY_CONSTRAINT": 25,
+    "PRECEDES": 11,
+    "RELATED_NOT_SAME": 3,
+    "SAME_CONCEPT": 1,
+    "UNDERDETERMINED": 40
+  },
+  "repeat_agreement": 1.0,
+  "repeat_count": 21,
+  "selected_count": 42,
+  "split": "dev",
+  "systems": {
+    "R5-B1": {
+      "canonical_concept_count": 33,
+      "critical_domain_range_violation": 0,
+      "critical_shacl_violation": 0,
+      "explicit_alias_recall": 1.0,
+      "explicit_alias_recovered": 32,
+      "explicit_alias_total": 32,
+      "fragmentation_reduction": 34,
+      "hard_negative_merge_violation": 0,
+      "merge_provenance_completeness": 1.0,
+      "node_count": 1079,
+      "orphan_promoted_relation": 0,
+      "partonomy_taxonomy_conflation": 0,
+      "promoted_provenance_completeness": 1.0,
+      "relation_evidence_coverage": 1.0,
+      "relationship_count": 2528,
+      "safe_ontology_yield": 88,
+      "surface_mention_count": 65,
+      "system_id": "R5-B1",
+      "taxonomy_cycle": 0,
+      "unique_node_uids": true,
+      "unique_relationship_uids": true,
+      "unsupported_label_rate": 0.0
+    },
+    "R5-B2": {
+      "canonical_concept_count": 33,
+      "critical_domain_range_violation": 0,
+      "critical_shacl_violation": 0,
+      "explicit_alias_recall": 1.0,
+      "explicit_alias_recovered": 32,
+      "explicit_alias_total": 32,
+      "fragmentation_reduction": 34,
+      "hard_negative_merge_violation": 0,
+      "llm_repeat_agreement": 1.0,
+      "merge_provenance_completeness": 1.0,
+      "node_count": 1079,
+      "orphan_promoted_relation": 0,
+      "partonomy_taxonomy_conflation": 0,
+      "promoted_provenance_completeness": 1.0,
+      "relation_evidence_coverage": 1.0,
+      "relationship_count": 2544,
+      "safe_ontology_yield": 104,
+      "surface_mention_count": 65,
+      "system_id": "R5-B2",
+      "taxonomy_cycle": 0,
+      "unique_node_uids": true,
+      "unique_relationship_uids": true,
+      "unsupported_label_rate": 0.0
+    },
+    "R5-B3": {
+      "canonical_concept_count": 32,
+      "critical_domain_range_violation": 0,
+      "critical_shacl_violation": 0,
+      "explicit_alias_recall": 1.0,
+      "explicit_alias_recovered": 32,
+      "explicit_alias_total": 32,
+      "fragmentation_reduction": 35,
+      "hard_negative_merge_violation": 0,
+      "merge_provenance_completeness": 1.0,
+      "node_count": 1078,
+      "orphan_promoted_relation": 0,
+      "partonomy_taxonomy_conflation": 0,
+      "promoted_provenance_completeness": 1.0,
+      "relation_evidence_coverage": 1.0,
+      "relationship_count": 2568,
+      "safe_ontology_yield": 128,
+      "surface_mention_count": 65,
+      "system_id": "R5-B3",
+      "taxonomy_cycle": 0,
+      "unique_node_uids": true,
+      "unique_relationship_uids": true,
+      "unsupported_label_rate": 0.0
+    },
+    "R5-B4": {
+      "adapter_unsupported_count": 58,
+      "canonical_concept_count": 78,
+      "critical_domain_range_violation": 82,
+      "critical_shacl_violation": 82,
+      "explicit_alias_recall": 0.0625,
+      "explicit_alias_recovered": 2,
+      "explicit_alias_total": 32,
+      "fragmentation_reduction": 0,
+      "hard_negative_merge_violation": 0,
+      "merge_provenance_completeness": 1.0,
+      "node_count": 752,
+      "orphan_promoted_relation": 0,
+      "partonomy_taxonomy_conflation": 0,
+      "promoted_provenance_completeness": 1.0,
+      "relation_evidence_coverage": 1.0,
+      "relationship_count": 772,
+      "safe_ontology_yield": 140,
+      "surface_mention_count": 0,
+      "system_id": "R5-B4",
+      "taxonomy_cycle": 0,
+      "unique_node_uids": true,
+      "unique_relationship_uids": true,
+      "unsupported_label_rate": 0.12083333333333333
+    }
+  },
+  "usage": {
+    "R5-B2": {
+      "input_tokens": 33188,
+      "output_tokens": 1519,
+      "total_tokens": 34707
+    },
+    "R5-B3": {
+      "input_tokens": 59849,
+      "output_tokens": 2952,
+      "total_tokens": 62801
+    },
+    "R5-B4": {
+      "input_tokens": 58036,
+      "output_tokens": 28164,
+      "total_tokens": 86200
+    }
+  }
+}

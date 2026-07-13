@@ -1,0 +1,37 @@
+{
+  "answer_provenance_precision": 1.0,
+  "answers": [
+    {
+      "abstained": true,
+      "answers": [],
+      "cq_id": "CQT1",
+      "type": "EXPLICIT_DEFINITION"
+    },
+    {
+      "abstained": true,
+      "answers": [],
+      "cq_id": "CQT2",
+      "type": "TEMPLATE_FIELD"
+    },
+    {
+      "abstained": true,
+      "answers": [],
+      "cq_id": "CQT3",
+      "type": "EXPLICIT_SEQUENCE"
+    },
+    {
+      "abstained": true,
+      "answers": [],
+      "cq_id": "CQT4",
+      "type": "QUANTITY_CONSTRAINT"
+    },
+    {
+      "abstained": true,
+      "answers": [],
+      "cq_id": "CQT5",
+      "type": "EXPLICIT_RULE"
+    }
+  ],
+  "cq_evidence_answerability": 0.0,
+  "unsupported_answer_rate": 0.0
+}

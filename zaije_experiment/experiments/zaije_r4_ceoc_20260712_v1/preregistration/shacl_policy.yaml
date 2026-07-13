@@ -1,0 +1,12 @@
+critical_shapes:
+  - promoted_assertion_requires_evidence
+  - explicit_deontic_rule_requires_cue
+  - cue_requires_exact_span
+  - quantity_requires_value_or_range
+  - promoted_relation_requires_subject_object
+  - example_not_rulebox
+  - reported_view_not_rulebox
+  - quarantined_not_operational
+  - neo4j_edge_references_rdf_assertion
+critical_violation_max: 0
+overall_violation_rate_max: 0.01

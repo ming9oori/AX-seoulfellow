@@ -1,0 +1,428 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:33.552414+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "paper_table_blueprint_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "table_count": 9,
+    "final_claim_allowed_now_count": 2,
+    "pending_human_or_expert_table_count": 4,
+    "diagnostic_or_setup_table_count": 5,
+    "missing_evidence_files": 0,
+    "status_counts": {
+      "auxiliary_claimable_not_main_private_result": 1,
+      "claimable_setup_rights_review_required": 1,
+      "diagnostic_only_until_human_gold": 1,
+      "pending_expert_review": 2,
+      "pending_human_effort": 1,
+      "pending_human_gold": 1,
+      "setup_claimable_human_gold_pending": 1,
+      "structural_diagnostic_ready": 1
+    },
+    "current_use_counts": {
+      "auxiliary_or_appendix": 1,
+      "candidate_generation_only": 2,
+      "diagnostic_or_appendix_until_gold": 1,
+      "main_setup_or_appendix": 1,
+      "main_structural_diagnostic_with_claim_safety": 1,
+      "main_table_setup_only": 1,
+      "placeholder_only": 1,
+      "pool_design_only": 1
+    },
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "claim_gate_optional_failures": 2,
+    "post_human_scoring_claim_status": "post_human_scoring_readiness_ready_pending_human_returns"
+  },
+  "tables": [
+    {
+      "table_id": "T01_dataset_annotation_status",
+      "paper_location": "main: Dataset and Annotation",
+      "title": "Dataset, annotation, and review-gate status",
+      "rq": "Dataset",
+      "current_status": "setup_claimable_human_gold_pending",
+      "current_use": "main_table_setup_only",
+      "target_metrics": [
+        "evaluation chunks",
+        "priority gold subset",
+        "adjudicated chunks",
+        "gold items",
+        "return files"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+          "exists": true,
+          "bytes": 12146
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "human-gold annotation and adjudication",
+      "final_claim_allowed": false,
+      "caption_stub": "Dataset and annotation status for the Korean bid/proposal procedural KG extraction benchmark."
+    },
+    {
+      "table_id": "T02_main_extraction_human_gold",
+      "paper_location": "main: Main Results",
+      "title": "Human-gold extraction performance",
+      "rq": "RQ1",
+      "current_status": "pending_human_gold",
+      "current_use": "placeholder_only",
+      "target_metrics": [
+        "Node F1",
+        "Edge F1",
+        "Evidence EM",
+        "Evidence IoU",
+        "Unsupported Edge Rate"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "exists": true,
+          "bytes": 1405
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "gold.completed_chunks, gold.item_count, gold.iaa, llm.proposed_human_gold_score",
+      "final_claim_allowed": false,
+      "caption_stub": "Main extraction results against adjudicated human-gold nodes, edges, and evidence spans."
+    },
+    {
+      "table_id": "T03_cq_schema_ablation",
+      "paper_location": "main: Ablation Studies",
+      "title": "CAPE-KG module ablations",
+      "rq": "RQ2",
+      "current_status": "diagnostic_only_until_human_gold",
+      "current_use": "diagnostic_or_appendix_until_gold",
+      "target_metrics": [
+        "P - CQ",
+        "P - Schema retrieval",
+        "P - Procedural schema",
+        "P - Validator",
+        "Ontology conformance",
+        "CQ answerability"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_by_condition.csv",
+          "exists": true,
+          "bytes": 12836
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "human-gold scoring for ablation conditions",
+      "final_claim_allowed": false,
+      "caption_stub": "Ablation results for CQ anchoring, schema retrieval, procedural schema constraints, and validators."
+    },
+    {
+      "table_id": "T04_structural_cq_diagnostics",
+      "paper_location": "main or appendix: Structural Analysis",
+      "title": "Ontology, procedural consistency, and CQ answerability diagnostics",
+      "rq": "RQ2",
+      "current_status": "structural_diagnostic_ready",
+      "current_use": "main_structural_diagnostic_with_claim_safety",
+      "target_metrics": [
+        "Ontology conformance",
+        "Procedural consistency",
+        "Cycle count",
+        "Gateway branch gaps",
+        "CQ answerability"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+          "exists": true,
+          "bytes": 983
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+          "exists": true,
+          "bytes": 15185
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+          "exists": true,
+          "bytes": 3876
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "human confirmation for semantic correctness claims",
+      "final_claim_allowed": false,
+      "caption_stub": "Automatic structural diagnostics for the constructed Layer 2 procedural KG."
+    },
+    {
+      "table_id": "T05_public_benchmark_adapter",
+      "paper_location": "appendix or auxiliary main: Public Benchmark",
+      "title": "Public benchmark adapter diagnostics",
+      "rq": "External validity",
+      "current_status": "auxiliary_claimable_not_main_private_result",
+      "current_use": "auxiliary_or_appendix",
+      "target_metrics": [
+        "PAGED node/edge F1",
+        "Text2KG relation/triple F1",
+        "run size"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "none before human return; keep auxiliary scope",
+      "final_claim_allowed": true,
+      "caption_stub": "Auxiliary public-benchmark adapter diagnostics; not a substitute for target-corpus human-gold results."
+    },
+    {
+      "table_id": "T06_mapping_downstream",
+      "paper_location": "main or appendix: Downstream Mapping",
+      "title": "Layer2-to-NCS/PCF mapping utility",
+      "rq": "RQ3",
+      "current_status": "pending_expert_review",
+      "current_use": "candidate_generation_only",
+      "target_metrics": [
+        "P@1",
+        "P@5",
+        "MRR",
+        "nDCG@10",
+        "expert accept rate",
+        "explanation quality"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "mapping.expert_review",
+      "final_claim_allowed": false,
+      "caption_stub": "Expert-reviewed downstream standard-taxonomy alignment performance."
+    },
+    {
+      "table_id": "T07_crosswalk_downstream",
+      "paper_location": "appendix or downstream analysis",
+      "title": "Layer2-bridged NCS-PCF crosswalk utility",
+      "rq": "RQ3",
+      "current_status": "pending_expert_review",
+      "current_use": "candidate_generation_only",
+      "target_metrics": [
+        "accept rate",
+        "Hit@K",
+        "P@10",
+        "MRR",
+        "nDCG@10",
+        "utility",
+        "explanation quality"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "crosswalk.expert_review",
+      "final_claim_allowed": false,
+      "caption_stub": "Expert-reviewed utility of Layer2-bridged NCS-PCF crosswalk candidates."
+    },
+    {
+      "table_id": "T08_active_review_efficiency",
+      "paper_location": "appendix or analysis: Human-in-the-loop",
+      "title": "Active-review efficiency",
+      "rq": "RQ4",
+      "current_status": "pending_human_effort",
+      "current_use": "pool_design_only",
+      "target_metrics": [
+        "review seconds",
+        "corrections",
+        "high-impact corrections",
+        "precision@k",
+        "lift vs random"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json",
+          "exists": true,
+          "bytes": 1861
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "active-review human effort return and adjudicated outcomes",
+      "final_claim_allowed": false,
+      "caption_stub": "Human-effort efficiency of active-review prioritization compared with control queues."
+    },
+    {
+      "table_id": "T09_reproducibility_release",
+      "paper_location": "main: Reproducibility / appendix",
+      "title": "Reproducibility and release artifacts",
+      "rq": "Reproducibility",
+      "current_status": "claimable_setup_rights_review_required",
+      "current_use": "main_setup_or_appendix",
+      "target_metrics": [
+        "schema",
+        "prompts",
+        "code",
+        "public-safe bundle",
+        "PROV-O",
+        "RDF/SHACL",
+        "synthetic examples"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_report.md",
+          "exists": true,
+          "bytes": 1486
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        }
+      ],
+      "missing_evidence_files": [],
+      "promotion_gate": "rights review before source-text release",
+      "final_claim_allowed": true,
+      "caption_stub": "Release and reproducibility artifacts supporting a public-safe replication path."
+    }
+  ],
+  "missing_evidence_files": []
+}

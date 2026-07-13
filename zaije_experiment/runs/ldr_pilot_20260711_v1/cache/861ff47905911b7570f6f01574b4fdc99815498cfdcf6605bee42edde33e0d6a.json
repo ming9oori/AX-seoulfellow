@@ -1,0 +1,371 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1309",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "if price or design is important",
+                "quote": "가격이나 디자인이 중요하시면",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "if safety is important",
+                "quote": "안전성을 중요시한다면",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "purchase G car",
+                "quote": "G자동차를 구매하는 것이 정답이다",
+                "role": "effect_positive"
+              },
+              {
+                "normalized_label": "purchase our car",
+                "quote": "저희 차를 구매하는 것이 좋다",
+                "role": "effect_positive"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c9",
+            "claim_quote": "가격이나 디자인이 중요하시면 G자동차를 구매하는 것이 정답이고, 안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.",
+            "claim_type": "DECISION_TRIGGER",
+            "condition_quote": "가격이나 디자인 중요 vs 안전성 중요",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "구매 결정은 중요시하는 요소에 따라 달라진다",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "REBUTTAL",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "구매 추천",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both claims are directly supported by the evidence. X provides a more complete conditional structure, while Y isolates a specific recommendation. Both are justified."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-208",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must include",
+            "promotion_target": "RULE",
+            "scope_quote": "기업에 필요한 프로세스",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "specific action methodology (Tool) at each step",
+                "quote": "각 단계에서의 구체적인 행동 방법론(Tool)",
+                "role": "condition"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.",
+            "claim_type": "NECESSARY_CONDITION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must exist",
+            "promotion_target": "RULE",
+            "scope_quote": "기업에 필요한 프로세스",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both claims are supported by the evidence. X frames it as a process order, Y as a necessary condition with an explicit argument. Both are justified and can be merged."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-21",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "claim_1",
+            "claim_quote": "그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "is essential to find",
+            "promotion_target": "RULE",
+            "scope_quote": "수주하는 제안",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Long Term Positioning and Opportunity Planning",
+                "quote": "고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "Effort and process to find unstated customer needs",
+                "quote": "빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스",
+                "role": "activity_output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "필수이다",
+            "promotion_target": "RULE",
+            "scope_quote": "수주하는 제안",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both claims are supported by the evidence. X provides a general process order, Y adds explicit activities and outputs. Both are justified and can be merged."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-243",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "develop and review draft order-winning strategy",
+                "quote": "수주전략 초안 개발 / 리뷰",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "apply execution plan of order-winning strategy",
+                "quote": "수주전략의 실행계획 적용",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "update order-winning strategy and design draft proposal summary (Executive Summary)",
+                "quote": "수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c3",
+            "claim_quote": "단계 3: 수주전략 수립\n\n• 수주전략 초안 개발 / 리뷰\n(리뷰된 수주전략을 Capture Plan에 포함)\n• 수주전략의 실행계획 적용\n• 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "are steps in",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 3: 수주전략 수립",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "reviewed order-winning strategy",
+                "quote": "리뷰된 수주전략",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "Capture Plan",
+                "quote": "Capture Plan",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c4",
+            "claim_quote": "리뷰된 수주전략을 Capture Plan에 포함",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "is included in",
+            "promotion_target": "RULE",
+            "scope_quote": "수주전략 초안 개발 / 리뷰",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "update order-winning strategy and design draft proposal summary (Executive Summary)",
+                "quote": "수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c5",
+            "claim_quote": "• 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "produces",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 3: 수주전략 수립",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "단계 3: 수주전략 수립\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 수주전략 초안 개발 / 리뷰<br>(리뷰된 수주전략을 Capture Plan에 포함)<br>• 수주전략의 실행계획 적용<br>• 수주전략 업데이트 및 제안 요약(Executive Summary)<br>초안 설계 | • Capture Plan 초안<br><br>• Executive Summary<br>초안 |",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "involves",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y provides more granular claims and arguments, all supported by the evidence. X's general process order is also supported. All can be merged."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-283",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "prepare section planning document and provide author information",
+                "quote": "섹션기획서 준비, 작성자 정보제공 내용 준비",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "prepare requirements response table and commercial content",
+                "quote": "요구조건 응답표 작성, 상용 콘텐츠 준비",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "proposal kickoff meeting",
+                "quote": "제안서 킥오프 미팅",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "review section planning document",
+                "quote": "섹션기획서 리뷰",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c6",
+            "claim_quote": "단계 6: 섹션기획서 준비 및 작성\n\n• 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이 작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과 핵심 정보를 제공해야 함\n• 요구조건 응답표 작성, 상용 콘텐츠 준비\n• 제안서 킥오프 미팅\n• 섹션기획서 리뷰",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "are steps in",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 6: 섹션기획서 준비 및 작성",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "preparation and writing of section planning document",
+                "quote": "섹션기획서 준비 및 작성",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c7",
+            "claim_quote": "• 섹션기획서",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "produces",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 6: 섹션기획서 준비 및 작성",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "단계 6: 섹션기획서 준비 및 작성\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이<br>작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과<br>핵심 정보를 제공해야 함<br>• 요구조건 응답표 작성, 상용 콘텐츠 준비<br>• 제안서 킥오프 미팅<br>• 섹션기획서 리뷰 | • 섹션기획서 |",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "requires",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both candidates are supported by the evidence. X provides detailed activities and outputs, Y provides a summary process order. All can be merged."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b03_861ff4790591.json",
+  "response_id": "resp_083aece1368f6675006a528eebf84c819b94453e2aec1509dc",
+  "usage": {
+    "input_tokens": 7243,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2629,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9872
+  }
+}

@@ -1,0 +1,400 @@
+{
+  "generated_at_utc": "2026-06-29T06:55:45.936885+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "human_review_packet_integrity_ready_pending_human_returns",
+  "summary": {
+    "integrity_error_count": 0,
+    "integrity_warning_count": 0,
+    "minimum_annotation_input_files": 10,
+    "minimum_annotation_chunks": 100,
+    "minimum_annotation_candidate_edges": 1371,
+    "mapping_review_rows": 220,
+    "mapping_review_source_standard_groups": 44,
+    "crosswalk_review_rows": 220,
+    "crosswalk_review_source_tasks": 22,
+    "active_review_effort_rows": 204,
+    "optional_strong_review_units": 342,
+    "optional_strong_source_chunks": 214,
+    "optional_strong_candidate_edges": 2048,
+    "required_reviewed_files_expected": 14,
+    "required_reviewed_files_present": 0,
+    "handoff_bundle_count": 9,
+    "missing_handoff_bundle_count": 0
+  },
+  "components": {
+    "minimum_annotation_batches": {
+      "assignment_summary": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+        "exists": true,
+        "bytes": 22737
+      },
+      "batch_count": 5,
+      "expected_batch_count": 5,
+      "annotation_input_files": 10,
+      "missing_required_input_files": 0,
+      "reviewed_files_expected": 10,
+      "reviewed_files_present": 0,
+      "assigned_unique_chunks": 100,
+      "assigned_chunks_expected": 100,
+      "candidate_edges_total": 1371,
+      "candidate_edges_total_B": 1371,
+      "candidate_edges_expected": 1371,
+      "chunk_pair_mismatch_count": 0,
+      "field_issue_count": 0,
+      "rows_by_annotator": {
+        "A": 100,
+        "B": 100
+      },
+      "unique_chunks_by_annotator": {
+        "A": 100,
+        "B": 100
+      },
+      "status_counts_by_annotator": {
+        "A": {
+          "pending_human_annotation": 100
+        },
+        "B": {
+          "pending_human_annotation": 100
+        }
+      },
+      "batches": [
+        {
+          "batch_id": "full_120_priority_batch_001",
+          "expected_chunks": 20,
+          "candidate_edges_expected": 811,
+          "A_rows": 20,
+          "B_rows": 20,
+          "A_candidate_edges": 811,
+          "B_candidate_edges": 811,
+          "A_reviewed_present": false,
+          "B_reviewed_present": false,
+          "chunk_ids_match": true
+        },
+        {
+          "batch_id": "full_120_priority_batch_002",
+          "expected_chunks": 20,
+          "candidate_edges_expected": 180,
+          "A_rows": 20,
+          "B_rows": 20,
+          "A_candidate_edges": 180,
+          "B_candidate_edges": 180,
+          "A_reviewed_present": false,
+          "B_reviewed_present": false,
+          "chunk_ids_match": true
+        },
+        {
+          "batch_id": "full_120_priority_batch_003",
+          "expected_chunks": 20,
+          "candidate_edges_expected": 152,
+          "A_rows": 20,
+          "B_rows": 20,
+          "A_candidate_edges": 152,
+          "B_candidate_edges": 152,
+          "A_reviewed_present": false,
+          "B_reviewed_present": false,
+          "chunk_ids_match": true
+        },
+        {
+          "batch_id": "full_120_priority_batch_004",
+          "expected_chunks": 20,
+          "candidate_edges_expected": 91,
+          "A_rows": 20,
+          "B_rows": 20,
+          "A_candidate_edges": 91,
+          "B_candidate_edges": 91,
+          "A_reviewed_present": false,
+          "B_reviewed_present": false,
+          "chunk_ids_match": true
+        },
+        {
+          "batch_id": "full_120_priority_batch_005",
+          "expected_chunks": 20,
+          "candidate_edges_expected": 137,
+          "A_rows": 20,
+          "B_rows": 20,
+          "A_candidate_edges": 137,
+          "B_candidate_edges": 137,
+          "A_reviewed_present": false,
+          "B_reviewed_present": false,
+          "chunk_ids_match": true
+        }
+      ],
+      "claim_status": "input_batches_ready_pending_human_annotation"
+    },
+    "mapping_expert_review": {
+      "items_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+        "exists": true,
+        "bytes": 205773
+      },
+      "manifest_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_manifest.json",
+        "exists": true,
+        "bytes": 1619
+      },
+      "workbench_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_workbench.html",
+        "exists": true,
+        "bytes": 229193
+      },
+      "sheet_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_sheet.csv",
+        "exists": true,
+        "bytes": 68028
+      },
+      "candidate_rows": 220,
+      "unique_mapping_ids": 220,
+      "duplicate_mapping_ids": 0,
+      "standard_counts": {
+        "NCS": 110,
+        "PCF": 110
+      },
+      "source_standard_groups": 44,
+      "group_size_min": 5,
+      "group_size_max": 5,
+      "pending_rows": 220,
+      "completed_rows": 0,
+      "review_status_counts": {
+        "pending_expert_review": 220
+      },
+      "claim_status": "mapping_packet_ready_pending_expert_review"
+    },
+    "crosswalk_expert_review": {
+      "items_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+        "exists": true,
+        "bytes": 241995
+      },
+      "manifest_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json",
+        "exists": true,
+        "bytes": 1538
+      },
+      "protocol_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_protocol.md",
+        "exists": true,
+        "bytes": 1754
+      },
+      "sheet_file": {
+        "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_sheet.csv",
+        "exists": true,
+        "bytes": 130826
+      },
+      "candidate_rows": 220,
+      "unique_crosswalk_ids": 220,
+      "duplicate_crosswalk_ids": 0,
+      "source_tasks": 22,
+      "group_size_min": 10,
+      "group_size_max": 10,
+      "pending_rows": 220,
+      "completed_rows": 0,
+      "review_status_counts": {
+        "pending_expert_review": 220
+      },
+      "claim_status": "crosswalk_packet_ready_pending_expert_review"
+    },
+    "active_review_effort": {
+      "template_file": {
+        "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+        "exists": true,
+        "bytes": 47175
+      },
+      "briefing_csv": {
+        "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv",
+        "exists": true,
+        "bytes": 98684
+      },
+      "briefing_json": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.json",
+        "exists": true,
+        "bytes": 1880
+      },
+      "expected_reviewed_csv": {
+        "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+        "exists": false,
+        "bytes": 0
+      },
+      "template_rows": 204,
+      "briefing_rows": 204,
+      "unique_review_item_ids": 204,
+      "duplicate_review_item_ids": 0,
+      "human_response_rows_present": 0,
+      "claim_status": "active_effort_packet_ready_pending_human_review"
+    },
+    "optional_strong_review": {
+      "package_id": "strong_resegmented_342_max18",
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18",
+      "preview_summary": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json",
+        "exists": true,
+        "bytes": 2043
+      },
+      "return_preflight": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+        "exists": true,
+        "bytes": 3102
+      },
+      "input_files": {
+        "annotator_A": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+          "exists": true,
+          "bytes": 3851060
+        },
+        "annotator_B": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+          "exists": true,
+          "bytes": 3851060
+        },
+        "adjudication": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl",
+          "exists": true,
+          "bytes": 716895
+        },
+        "adjudication_draft": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_draft.jsonl",
+          "exists": true,
+          "bytes": 718605
+        },
+        "tracking_sheet": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv",
+          "exists": true,
+          "bytes": 83781
+        },
+        "preview_csv": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.csv",
+          "exists": true,
+          "bytes": 39453
+        },
+        "preview_md": {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.md",
+          "exists": true,
+          "bytes": 9480
+        }
+      },
+      "review_unit_count": 342,
+      "review_unit_count_B": 342,
+      "adjudication_rows": 342,
+      "source_chunk_count": 214,
+      "candidate_edges_total": 2048,
+      "expected_review_unit_count": 342,
+      "expected_source_chunk_count": 214,
+      "expected_candidate_edges_total": 2048,
+      "return_status": "pending_strong_human_returns",
+      "claim_status": "optional_strong_packet_ready_pending_human_review"
+    },
+    "return_file_manifest": {
+      "manifest_file": {
+        "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+        "exists": true,
+        "bytes": 8173
+      },
+      "rows": 16,
+      "required_return_files": 14,
+      "minimum_paper_gate_return_files": 11,
+      "optional_strong_return_files": 0,
+      "optional_structural_return_files": 2,
+      "input_files_missing": 0,
+      "reviewed_files_present": 0,
+      "present_field_yes": 0,
+      "status_counts": {
+        "missing_reviewed_file": 14,
+        "ready_for_optional_review": 2
+      },
+      "claim_status": "return_manifest_ready_pending_human_returns"
+    },
+    "handoff_bundles": {
+      "manifest_file": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_manifest.json",
+        "exists": true,
+        "bytes": 16713
+      },
+      "report_file": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_report.md",
+        "exists": true,
+        "bytes": 3374
+      },
+      "checksums_file": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+        "exists": true,
+        "bytes": 1587
+      },
+      "bundle_count": 9,
+      "missing_bundle_count": 0,
+      "assigned_chunks": 100,
+      "candidate_edges_total": 1371,
+      "claim_status": "handoff_ready_pending_human_review",
+      "bundles": [
+        {
+          "bundle": "active_review_effort",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_active_review_human_effort.tar.gz",
+          "exists": true,
+          "bytes": 116913,
+          "file_count": 35
+        },
+        {
+          "bundle": "adjudicator",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_adjudicator_full120.tar.gz",
+          "exists": true,
+          "bytes": 253455,
+          "file_count": 33
+        },
+        {
+          "bundle": "annotator_A",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_A_priority100.tar.gz",
+          "exists": true,
+          "bytes": 401057,
+          "file_count": 79
+        },
+        {
+          "bundle": "annotator_B",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_B_priority100.tar.gz",
+          "exists": true,
+          "bytes": 401060,
+          "file_count": 79
+        },
+        {
+          "bundle": "coordinator",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_coordinator_priority100.tar.gz",
+          "exists": true,
+          "bytes": 648647,
+          "file_count": 87
+        },
+        {
+          "bundle": "crosswalk_expert",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_crosswalk_expert_review_ncs_pcf.tar.gz",
+          "exists": true,
+          "bytes": 100513,
+          "file_count": 32
+        },
+        {
+          "bundle": "mapping_expert",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_mapping_expert_review_top20_groups.tar.gz",
+          "exists": true,
+          "bytes": 126627,
+          "file_count": 34
+        },
+        {
+          "bundle": "strong_resegmented_review",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_strong_resegmented_342.tar.gz",
+          "exists": true,
+          "bytes": 1121083,
+          "file_count": 48
+        },
+        {
+          "bundle": "structural_reviewer",
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_structural_review_optional.tar.gz",
+          "exists": true,
+          "bytes": 64998,
+          "file_count": 36
+        }
+      ]
+    }
+  },
+  "issues": [],
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+    "issue_csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_packet_integrity_issues.csv"
+  }
+}

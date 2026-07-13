@@ -2,9 +2,9 @@
 
 Generated: 2026-06-27
 
-- Raw triples: 906
-- Schema-valid triples: 906
-- Clean triples after SPO dedupe: 906
+- Raw triples: 947
+- Schema-valid triples: 947
+- Clean triples after SPO dedupe: 947
 - Schema violation count: 0
 - Allowed predicate violation count: 0
 - Accepted triple evidence rate: 1.000

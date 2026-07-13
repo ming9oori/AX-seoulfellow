@@ -1,0 +1,3 @@
+reference_model_overlap_primary_analysis: false
+report_sets: [NO_REFERENCE_MODEL_OVERLAP, SELF_OVERLAP_SENSITIVITY, HARD_ONLY, HARD_PLUS_SOFT]
+e0_e5_allowed_only_after: PROVISIONAL_REFERENCE_PASS

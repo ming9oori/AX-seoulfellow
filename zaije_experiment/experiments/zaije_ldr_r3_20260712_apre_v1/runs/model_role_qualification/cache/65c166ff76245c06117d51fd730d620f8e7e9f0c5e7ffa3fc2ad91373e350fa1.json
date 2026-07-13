@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "SUPPORTED",
+    "proposal_id": "zaije:evidence/xlsx-row-283_A01::IS_NORMATIVE"
+  },
+  "raw_response_path": "raw_responses/primary_facet_C04_r2_IS_NORMATIVE_08_65c166ff7624.json",
+  "response_id": "resp_0cb0cf3bb2209d37006a5321b5b2ac819b9beb5958ee4cc7bc",
+  "usage": {
+    "input_tokens": 472,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 26,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  }
+}

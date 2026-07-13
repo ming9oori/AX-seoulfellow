@@ -1,0 +1,173 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1045",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "short delivery project",
+                "quote": "단납기 사업",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "need to respond",
+                "quote": "대응 필요",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "단납기 사업에 대응 필요",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "electronic litigation system",
+                "quote": "OO원 전자소송시스템",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "need to understand",
+                "quote": "이해 필요",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "2",
+            "claim_quote": "시스템 증설 등으로 OO원 전자소송시스템 이해 필요",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "new system",
+                "quote": "신규시스템",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "need to support opening",
+                "quote": "오픈 지원 필요",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "3",
+            "claim_quote": "신규시스템 오픈 지원 필요",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Example competitor comparison table for OOwon electronic litigation computer equipment Oth introduction project",
+                "quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is an example",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "All X claims are directly supported by the table rows as obligations (필요), and Y's descriptive claim is also directly quoted from the table header. Both are fully supported and non-overlapping, so merging is appropriate."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-40",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution",
+                "quote": "S (Solution)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Customer perceived value",
+                "quote": "S′(고객이 인지하는 가치)",
+                "role": "object"
+              },
+              {
+                "normalized_label": "Communication",
+                "quote": "C (Communication)",
+                "role": "criterion"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "S (Solution) 예) 판매자의 솔루션*C (Communication) 예) 영업, 제안서, PT 등=S′(고객이 인지하는 가치)",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "equals product of",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim is a direct, contiguous quote from the table and expresses the definitional relationship shown in the evidence. Y's claims are not directly supported by the evidence in row 40, as they paraphrase or promote content from the next row (row 41), not the table itself."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_swap_b01_ba957f5c637a.json",
+  "response_id": "resp_0ceb013f173dfea9006a52916a02c48198b20ffb618a85dd87",
+  "usage": {
+    "input_tokens": 5333,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 876,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6209
+  }
+}

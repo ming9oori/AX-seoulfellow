@@ -1,0 +1,59 @@
+{
+  "batch_id": "full_120_priority_batch_005",
+  "package": "full_120",
+  "rank_start": 81,
+  "rank_end": 100,
+  "chunk_count": 20,
+  "chunk_ids": [
+    "JZ-CHUNK-0070",
+    "JZ-CHUNK-0068",
+    "JZ-CHUNK-0057",
+    "JZ-CHUNK-0036",
+    "JZ-CHUNK-0001",
+    "JZ-CHUNK-0060",
+    "JZ-CHUNK-0147",
+    "JZ-CHUNK-0011",
+    "JZ-CHUNK-0129",
+    "JZ-CHUNK-0146",
+    "JZ-CHUNK-0139",
+    "JZ-CHUNK-0055",
+    "JZ-CHUNK-0067",
+    "JZ-CHUNK-0133",
+    "JZ-CHUNK-0052",
+    "JZ-CHUNK-0131",
+    "JZ-CHUNK-0066",
+    "JZ-CHUNK-0062",
+    "JZ-CHUNK-0204",
+    "JZ-CHUNK-0200"
+  ],
+  "candidate_edges_total": 137,
+  "active_review_items_total": 33,
+  "high_impact_chunks": 8,
+  "annotator_files": {
+    "A": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+    "B": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl"
+  },
+  "reviewed_files": {
+    "A": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+    "B": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl"
+  },
+  "tracking_sheet": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/batch_tracking_sheet.csv",
+  "readme": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/README.md",
+  "preferred_wrapper_commands": {
+    "preflight": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "claim_status": "preferred_operational_path"
+  },
+  "import_commands": {
+    "A": {
+      "dry_run": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl --allow-partial",
+      "apply": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl --allow-partial --apply"
+    },
+    "B": {
+      "dry_run": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl --allow-partial",
+      "apply": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl --allow-partial --apply"
+    }
+  },
+  "import_commands_claim_status": "low_level_debug_only_prefer_wrapper"
+}

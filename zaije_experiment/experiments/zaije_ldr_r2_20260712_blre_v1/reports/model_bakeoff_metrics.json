@@ -1,0 +1,121 @@
+{
+  "cost": {
+    "attempts": 24,
+    "cache_hits": 24,
+    "estimated_cost_usd": 0.113002,
+    "failed_attempts": 0,
+    "input_tokens": 34712,
+    "output_tokens": 13692,
+    "real_calls": 24
+  },
+  "metrics": {
+    "C01": {
+      "boundary_repeat_f1": 0.4444444444444444,
+      "boundary_repeat_f1_evidence_median": 0.3333333333333333,
+      "candidate_id_validity": 0.625,
+      "critical_field_ims": 0.3333333333333333,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 1.0,
+        "epistemic_status": 1.0,
+        "polarity": 1.0,
+        "promotion": 0.3333333333333333,
+        "semantic_mode": 0.9166666666666666
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.041666666666666664,
+      "model_score": 0.7746527777777777,
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "normalized_token_cost": 1.0
+    },
+    "C02": {
+      "boundary_repeat_f1": 0.7152777777777778,
+      "boundary_repeat_f1_evidence_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "critical_field_ims": 0.9166666666666666,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 1.0,
+        "epistemic_status": 1.0,
+        "polarity": 0.9583333333333334,
+        "promotion": 0.9166666666666666,
+        "semantic_mode": 1.0
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8472197052901336,
+      "model_snapshot": "gpt-4.1-mini-2025-04-14",
+      "normalized_token_cost": 0.9930807248764415
+    },
+    "C03": {
+      "boundary_repeat_f1": 0.7777777777777778,
+      "boundary_repeat_f1_evidence_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "critical_field_ims": 0.75,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 0.9166666666666666,
+        "deontic_force": 1.0,
+        "epistemic_status": 0.9583333333333334,
+        "polarity": 0.75,
+        "promotion": 0.9583333333333334,
+        "semantic_mode": 0.9583333333333334
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8479242746659346,
+      "model_snapshot": "gpt-4o-2024-08-06",
+      "normalized_token_cost": 0.9981878088962108
+    },
+    "C04": {
+      "boundary_repeat_f1": 0.8888888888888888,
+      "boundary_repeat_f1_evidence_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "critical_field_ims": 0.8333333333333334,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 0.9166666666666666,
+        "epistemic_status": 1.0,
+        "polarity": 0.9583333333333334,
+        "promotion": 0.875,
+        "semantic_mode": 0.8333333333333334
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8688146393922754,
+      "model_snapshot": "gpt-4.1-2025-04-14",
+      "normalized_token_cost": 0.9958813838550247
+    }
+  },
+  "prompt_hashes": {
+    "boundary": "f063422d893d0a27e951af627d5bbee964c22bc906ccd6d8a3c25664cee52f44",
+    "field": "86cc07383c47b573ef52029000d92d7326c09a02aabadebc851547ee461bfffb"
+  },
+  "schema_hashes": {
+    "C01": {
+      "boundary_r1": "f5d2f6d307f0b6ee2c4c6955706f77a561a3ec0a31c2cf887700523a24ac551e",
+      "field_r1": "d9d001effedfa0661796f72e503e1b87932d73f2ab5d8d396345db58f2314a08"
+    },
+    "C02": {
+      "boundary_r1": "34678aa29f8993cfd628c35372d054261d05b50626a30f0fdb00795d460e3691",
+      "field_r1": "381994fa41a49bd071c1817a2ceaf782ca7baabdbb7afd73a67b83357181a77a"
+    },
+    "C03": {
+      "boundary_r1": "8b5928ea73f09dc65800a6977a133d37cf715f0a11c22eb51c24753370683d98",
+      "field_r1": "e4f4e66b1ad7d5aebab959d23a1e56139f521c7ce00c1b7c895b5d2636e519f2"
+    },
+    "C04": {
+      "boundary_r1": "92d6c043aa9f61c1df8a5926f473080d49717ffa5ec880c1dc9bc4456ee3534e",
+      "field_r1": "58bcbe5bbb2fc4ce7bfb732ba10b3c2d3fb56a9c8ee0a92c7ec440abd0f1acc3"
+    }
+  },
+  "selected_panel": [],
+  "status": "REVISE"
+}

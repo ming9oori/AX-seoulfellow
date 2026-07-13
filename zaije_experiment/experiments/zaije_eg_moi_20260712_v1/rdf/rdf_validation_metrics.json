@@ -1,0 +1,15 @@
+{
+  "all_rdf_files_parse": true,
+  "canonical_triple_count": 157272,
+  "prov_o_triple_count": 19892,
+  "serialized_parse_counts": {
+    "canonical.ttl": 157272,
+    "concepts.skos.ttl": 4354,
+    "provenance.prov.ttl": 19892,
+    "shapes.ttl": 33,
+    "validation_report.ttl": 2
+  },
+  "shacl_conforms": true,
+  "shape_triple_count": 35,
+  "skos_triple_count": 4354
+}

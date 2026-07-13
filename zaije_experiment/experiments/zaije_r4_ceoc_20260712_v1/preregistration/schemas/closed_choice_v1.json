@@ -1,0 +1,39 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "abstain": {
+      "type": "boolean"
+    },
+    "candidate_id": {
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "SUPPORTED",
+        "REJECTED",
+        "UNDERDETERMINED"
+      ],
+      "type": "string"
+    },
+    "reason_code": {
+      "enum": [
+        "EXACT_SUPPORT",
+        "STRUCTURAL_SUPPORT",
+        "SOURCE_MISMATCH",
+        "AMBIGUOUS"
+      ],
+      "type": "string"
+    },
+    "selected_option_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "decision",
+    "selected_option_id",
+    "reason_code",
+    "abstain"
+  ],
+  "type": "object"
+}

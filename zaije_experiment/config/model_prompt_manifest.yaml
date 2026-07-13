@@ -1,0 +1,10 @@
+status: NOT_LOCKED
+reason: Human PILOT and guideline lock must complete before model and prompt freeze.
+fairness_constraints:
+  e0_e1_same_model_snapshot: true
+  e0_e1_same_temperature: true
+  e0_e1_same_evidence_bundle: true
+  e3_e4_e5_same_arbiter: true
+  external_web_knowledge: forbidden
+  test_gold_for_tuning: forbidden
+planned_systems: [E0, E1, E2, E3, E4, E5]

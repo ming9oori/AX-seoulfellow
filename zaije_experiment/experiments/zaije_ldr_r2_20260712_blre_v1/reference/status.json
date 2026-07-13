@@ -1,0 +1,11 @@
+{
+  "experiment_id": "zaije_ldr_r2_20260712_blre_v1",
+  "status": "REVISE_BEFORE_R2_PILOT",
+  "model_panel_locked": false,
+  "eligible_configurations": ["C02"],
+  "fresh_r2_pilot_api_calls": 0,
+  "fresh_r2_pilot_reference_created": false,
+  "test_reference_created": false,
+  "e0_e5_started": false,
+  "human_validation_pending": true
+}

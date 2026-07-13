@@ -1,0 +1,25 @@
+{
+  "parsed": {
+    "audit_complete": true,
+    "broken_context_anchor_ids": [
+      "zaije:evidence/xlsx-row-70_A01"
+    ],
+    "evidence_id": "zaije:evidence/xlsx-row-70",
+    "missing_anchor_count": 0,
+    "over_merged_anchor_ids": []
+  },
+  "raw_response_path": "raw_responses/dev_segmenter_048_480f42a85dfc.json",
+  "response_id": "resp_0d6c9dd6044a41d1006a531d1d45d8819b9516aed7307e1255",
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 417
+  }
+}

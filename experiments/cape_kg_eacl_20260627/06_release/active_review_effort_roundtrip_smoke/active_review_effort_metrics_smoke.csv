@@ -1,0 +1,4 @@
+﻿arm,budget,assigned,reviewed,review_seconds,review_hours,corrected_errors,high_impact_corrections,corrections_per_hour,high_impact_corrections_per_hour,precision_corrected,claim_status
+active_priority,100,20,20,572.0,0.158889,6,1,37.762238,6.293706,0.3,human_effort_evaluated
+uncertainty_only,100,22,22,643.0,0.178611,8,2,44.790047,11.197512,0.363636,human_effort_evaluated
+random_control,100,15,15,420.0,0.116667,2,1,17.142857,8.571429,0.133333,human_effort_evaluated

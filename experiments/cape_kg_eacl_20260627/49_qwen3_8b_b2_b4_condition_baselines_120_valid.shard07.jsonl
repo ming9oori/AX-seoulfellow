@@ -1,0 +1,30 @@
+{"chunk_id": "JZ-CHUNK-0024", "condition": "B2_current_project", "edges": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-00437"], "object": "감춰진 요구사항", "object_type": "Artifact", "predicate": "PRODUCES", "subject": "캡처플랜", "subject_type": "Artifact"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-00437"], "object": "제안 요청서(RFP)", "object_type": "Artifact", "predicate": "USED_AS_INPUT_FOR", "subject": "캡처플랜", "subject_type": "Artifact"}], "mappings": [], "nodes": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-00436"], "label": "캡처플랜", "type": "Artifact"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-00437"], "label": "제안 요청서(RFP)", "type": "Artifact"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-00437"], "label": "감춰진 요구사항", "type": "Artifact"}], "triples": []}
+{"chunk_id": "JZ-CHUNK-0091", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0189", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0028", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0095", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0193", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0032", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0099", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0197", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0036", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0103", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0201", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0040", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0107", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0205", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0024", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0091", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0189", "condition": "B4_taxonomy_rag", "edges": [{"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "object": "프레젠테이션", "object_type": "Artifact", "predicate": "FEEDS_INTO", "subject": "PT 전략 개발", "subject_type": "DomainTask"}, {"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "object": "슬라이드 작성 순서", "object_type": "ProcedureStep", "predicate": "PRODUCES", "subject": "PT 전략 개발", "subject_type": "DomainTask"}], "mappings": [{"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "source_task": "PT 전략 개발", "standard": "NCS", "target_label": "프레젠테이션"}], "nodes": [{"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "label": "PT 전략 개발", "type": "DomainTask"}, {"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "label": "프레젠테이션", "type": "Artifact"}, {"confidence": 0.437, "evidence_anchor_ids": ["JS-03870", "JS-03871"], "label": "슬라이드 작성 순서", "type": "ProcedureStep"}], "triples": []}
+{"chunk_id": "JZ-CHUNK-0028", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0095", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0193", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0032", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0099", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0197", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0036", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0103", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0201", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0040", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0107", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0205", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}

@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "canonical_entities": 59,
+    "canonical_processes": 6,
+    "canonical_tasks": 15,
+    "llm_allowed_predicates": 23,
+    "node_types": 22,
+    "predicates": 28
+  },
+  "generated_at_utc": "2026-07-08T03:12:14+00:00",
+  "id_convention": {
+    "artifact": "L2_ARTIFACT_<UPPERCASE_ENGLISH_CANONICAL_LABEL>",
+    "information_object": "L2_INFO_<UPPERCASE_ENGLISH_CANONICAL_LABEL>",
+    "predicate": "UPPERCASE_VERB_OR_RELATION_PHRASE",
+    "process": "L2_PROCESS_<UPPERCASE_ENGLISH_PHASE_NAME>",
+    "task": "L2_TASK_<UPPERCASE_ENGLISH_TASK_NAME>"
+  },
+  "run_id": "RUN_2026_07_08_METHOD_V2_REPLAY_001",
+  "schema_construction_claim": "schema-constrained evidence-grounded KG construction with explicit schema derivation traceability",
+  "traceability_files": [
+    "25_node_type_traceability.csv",
+    "25_node_type_traceability.jsonl",
+    "26_canonical_inventory_traceability.csv",
+    "26_canonical_inventory_traceability.jsonl",
+    "27_predicate_schema_traceability.csv",
+    "27_predicate_schema_traceability.jsonl",
+    "28_methodology_schema_derivation.md"
+  ]
+}

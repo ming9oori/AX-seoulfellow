@@ -1,0 +1,258 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:35.483366+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "claim_status": "method_novelty_positioning_ready_final_gain_pending_human_gold",
+    "source_file_count": 8,
+    "missing_required_source_count": 0,
+    "missing_required_sources": [],
+    "method_modules": 11,
+    "missing_required_method_artifacts": 0,
+    "llm_condition_metric_count": 14,
+    "cq_count": 12,
+    "answerable_cq_count": 12,
+    "final_nodes": 220,
+    "final_edges": 947
+  },
+  "source_files": [
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+      "role": "M1-M11 module coverage",
+      "required": true,
+      "exists": true,
+      "bytes": 46695
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+      "role": "M1-M11 module coverage report",
+      "required": true,
+      "exists": true,
+      "bytes": 17555
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+      "role": "prompt/output traceability",
+      "required": true,
+      "exists": true,
+      "bytes": 24271
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+      "role": "prompt/output traceability report",
+      "required": true,
+      "exists": true,
+      "bytes": 13157
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json",
+      "role": "CQ query pack",
+      "required": true,
+      "exists": true,
+      "bytes": 53053
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+      "role": "silver/proxy baseline diagnostics",
+      "required": true,
+      "exists": true,
+      "bytes": 15122
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+      "role": "structural diagnostics",
+      "required": true,
+      "exists": true,
+      "bytes": 22053
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+      "role": "evidence span diagnostics",
+      "required": true,
+      "exists": true,
+      "bytes": 1822
+    }
+  ],
+  "prior_work_positioning": [
+    {
+      "family": "Plain LLM triple extraction / Text2KG-style extraction",
+      "representative_condition": "B0_plain_llm",
+      "what_it_covers": "Open subject-predicate-object extraction from each chunk.",
+      "what_cape_adds": "Typed task/procedure nodes, allowed predicates, evidence anchors, CQ-linked schema, and validators.",
+      "current_evidence": "valid rows=120; nodes=1674; edges=0; triples=837; mappings=0; predicate F1=0.0000; evidence F1=0.0239",
+      "claim_boundary": "Current values are silver/proxy diagnostics; final quality gains need adjudicated human-gold scoring."
+    },
+    {
+      "family": "Predicate-constrained LLM KG extraction",
+      "representative_condition": "B1_predicate_constrained",
+      "what_it_covers": "Relation extraction with an allowed predicate list.",
+      "what_cape_adds": "Node typing, procedural task frames, evidence span tracking, CQ answerability, and standard-taxonomy mapping.",
+      "current_evidence": "valid rows=120; nodes=0; edges=663; triples=0; mappings=0; predicate F1=0.1416; evidence F1=0.0291",
+      "claim_boundary": "Predicate control alone is diagnostic, not a final proposed-method claim."
+    },
+    {
+      "family": "Current project baseline / task-frame post-processing",
+      "representative_condition": "B2_current_project",
+      "what_it_covers": "Task-frame extraction followed by Layer 2 schema post-processing.",
+      "what_cape_adds": "Full CAPE pipeline adds CQ retrieval, evidence grounding, validators, ablations, and NCS/PCF bridge.",
+      "current_evidence": "valid rows=120; nodes=712; edges=82; triples=0; mappings=0; predicate F1=0.0068; evidence F1=0.0503",
+      "claim_boundary": "Useful as an internal baseline; final comparison requires human-gold metrics."
+    },
+    {
+      "family": "EDC-style open-schema extraction and canonicalization",
+      "representative_condition": "B3_edc_style",
+      "what_it_covers": "Extract, define, and canonicalize open-schema items before schema-compatible scoring.",
+      "what_cape_adds": "Procedural KG schema, CQ-linked query needs, evidence span checks, and release-time claim gates.",
+      "current_evidence": "valid rows=120; nodes=566; edges=53; triples=0; mappings=0; predicate F1=0.0119; evidence F1=0.0311",
+      "claim_boundary": "Baseline approximation is available; do not claim superiority until human-gold scoring."
+    },
+    {
+      "family": "Taxonomy-RAG / ontology-guided KG extraction",
+      "representative_condition": "B4_taxonomy_rag",
+      "what_it_covers": "Retrieval of taxonomy snippets before extracting schema-constrained nodes, edges, and mappings.",
+      "what_cape_adds": "CAPE treats NCS/PCF as downstream bridge evidence, connects it to procedural KG nodes, and tracks expert-review readiness.",
+      "current_evidence": "valid rows=120; nodes=674; edges=128; triples=0; mappings=41; predicate F1=0.0105; evidence F1=0.0641",
+      "claim_boundary": "Mapping utility requires expert labels before paper claims."
+    },
+    {
+      "family": "Procedural prompt / workflow extraction",
+      "representative_condition": "B5_procedural_prompt",
+      "what_it_covers": "Action, actor, gateway, guard condition, artifact flow, and dependency extraction.",
+      "what_cape_adds": "CQ anchoring, schema validation, evidence anchoring, structural diagnostics, and KG query package.",
+      "current_evidence": "valid rows=120; nodes=957; edges=119; triples=0; mappings=0; predicate F1=0.0096; evidence F1=0.0603",
+      "claim_boundary": "Procedural structure is built and diagnosable; correctness still needs human adjudication."
+    },
+    {
+      "family": "SAC-KG-style verifier/pruner",
+      "representative_condition": "B6_sac_kg_verifier_pruner",
+      "what_it_covers": "Generate candidate nodes/edges, then verify and prune using schema/evidence constraints.",
+      "what_cape_adds": "End-to-end CQ/procedural/mapping/release-gate pipeline rather than verifier/pruner alone.",
+      "current_evidence": "valid rows=120; nodes=2281; edges=361; triples=0; mappings=107; predicate F1=0.0774; evidence F1=0.1008",
+      "claim_boundary": "This is a deterministic approximation baseline, not a full reproduction of an external system."
+    },
+    {
+      "family": "CAPE-KG proposed method",
+      "representative_condition": "P_cape_kg_actual",
+      "what_it_covers": "CQ-linked schema retrieval, procedural extraction, evidence grounding, validation, and standard bridge.",
+      "what_cape_adds": "This is the proposed integrated method rather than a single extraction component.",
+      "current_evidence": "valid rows=120; nodes=549; edges=275; triples=0; mappings=52; predicate F1=0.0482; evidence F1=0.0655",
+      "claim_boundary": "Implemented and traceable now; final performance claim remains pending human-gold scoring."
+    }
+  ],
+  "module_to_novelty_map": [
+    {
+      "innovation_axis": "Competency-question anchored extraction",
+      "modules": [
+        "M2",
+        "M3"
+      ],
+      "implements": "CQs define what the KG must answer, then guide schema/predicate retrieval and CQ query-pack evaluation.",
+      "ablation_or_diagnostic": "P_minus_CQ and P_minus_Schema_retrieval isolate CQ anchoring and schema-retrieval effects.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+        "outputs/03_schema/competency_questions.json"
+      ],
+      "current_status": "12/12 CQs answerable by current KG query diagnostics."
+    },
+    {
+      "innovation_axis": "Evidence-grounded procedural KG construction",
+      "modules": [
+        "M4",
+        "M5",
+        "M6"
+      ],
+      "implements": "Task/procedure frames are converted into typed nodes and edges with evidence anchors and component-span diagnostics.",
+      "ablation_or_diagnostic": "P_minus_Evidence tests evidence grounding; evidence span granularity metrics diagnose span quality.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+        "outputs/06_triples/layer2_triples_component_spans.jsonl"
+      ],
+      "current_status": "final nodes=220; final edges=947; component span exact rate=0.2612"
+    },
+    {
+      "innovation_axis": "Ontology and procedural consistency validation",
+      "modules": [
+        "M7",
+        "M8"
+      ],
+      "implements": "Domain/range, predicate, dangling-edge, precedence, gateway, and artifact-flow checks are explicit release artifacts.",
+      "ablation_or_diagnostic": "P_minus_Validator and structural evaluation isolate validator/constraint contributions.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+        "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md"
+      ],
+      "current_status": "dangling edges=0; precedence cycles=0"
+    },
+    {
+      "innovation_axis": "Standard taxonomy bridge",
+      "modules": [
+        "M11"
+      ],
+      "implements": "Layer 2 procedural tasks are connected to NCS/PCF candidate mappings and NCS-PCF crosswalk candidates.",
+      "ablation_or_diagnostic": "P_minus_Standard_bridge removes the standard bridge output for ablation.",
+      "evidence_files": [
+        "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+        "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md"
+      ],
+      "current_status": "Candidate mappings exist; downstream utility and accept-rate claims require expert review."
+    },
+    {
+      "innovation_axis": "Active review and claim-safety gates",
+      "modules": [
+        "M10"
+      ],
+      "implements": "Risky chunks and likely high-impact errors are queued for human review, while release gates prevent overclaiming.",
+      "ablation_or_diagnostic": "Active-review ablation metrics and human-effort template separate automatic prioritization from human-time claims.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+        "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md"
+      ],
+      "current_status": "Automatic queue is ready; effort/time claims require returned human effort sheet."
+    }
+  ],
+  "claimable_now": [
+    {
+      "claim": "The CAPE-KG pipeline has implemented artifacts for M1-M11.",
+      "evidence": "modules=11; missing required artifacts=0",
+      "safe_scope": "Implementation and reproducibility setup claim."
+    },
+    {
+      "claim": "The current corpus has a built Layer 2 procedural KG.",
+      "evidence": "nodes=220; edges=947; edges with evidence=947",
+      "safe_scope": "Built KG artifact claim, not human-validated extraction-quality claim."
+    },
+    {
+      "claim": "Baseline/proposed/ablation conditions are traceable.",
+      "evidence": "condition metrics=14; prompt inventory=14",
+      "safe_scope": "Experimental setup and silver/proxy diagnostic claim."
+    },
+    {
+      "claim": "CQs are connected to concrete graph queries.",
+      "evidence": "CQs=12; answerable=12; rate=1.0000",
+      "safe_scope": "CQ query-package readiness, not final answer correctness."
+    }
+  ],
+  "not_claimable_yet": [
+    {
+      "claim": "CAPE-KG improves extraction quality over all baselines.",
+      "required_next_evidence": "Adjudicated human-gold labels, IAA, and human-gold metrics for proposed and baseline conditions."
+    },
+    {
+      "claim": "NCS/PCF mapping candidates are useful for downstream expert work.",
+      "required_next_evidence": "Expert-reviewed mapping/crosswalk labels and recomputed P@K, MRR, nDCG, accept rate, and utility scores."
+    },
+    {
+      "claim": "Active review reduces human effort in practice.",
+      "required_next_evidence": "Returned human effort sheet with time/correction outcomes and refreshed active-effort metrics."
+    },
+    {
+      "claim": "The package is submission complete.",
+      "required_next_evidence": "All minimum human-gold gates and proposed-method human-gold scoring must pass the claim gate."
+    }
+  ]
+}

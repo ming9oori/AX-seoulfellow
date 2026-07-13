@@ -1,0 +1,35 @@
+{
+  "anchor_offset_round_trip": 1.0,
+  "assertion_evidence_coverage": 1.0,
+  "critical_shacl_violation_count": 0,
+  "edge_count": 708,
+  "edge_type_counts": {
+    "GENERATED_BY": 146,
+    "HAS_ANCHOR": 146,
+    "HAS_CHAPTER": 3,
+    "HAS_CONTEXT": 166,
+    "HAS_EVIDENCE": 80,
+    "HAS_SECTION": 22,
+    "PRECEDES_IN_DOCUMENT": 145
+  },
+  "example_to_rule_direct_promotion": 0,
+  "generated_quote_rate": 0.0,
+  "invalid_edge_endpoint_count": 0,
+  "invalid_id_count": 0,
+  "mention_offset_round_trip": 1.0,
+  "node_count": 298,
+  "node_type_counts": {
+    "Anchor": 146,
+    "Chapter": 3,
+    "ContextSpan": 45,
+    "Document": 1,
+    "EvidenceBundle": 80,
+    "ExtractionRun": 1,
+    "Section": 22
+  },
+  "provenance_completeness": 1.0,
+  "rule_without_qualifying_evidence": 0,
+  "unique_edge_ids": true,
+  "unique_node_ids": true,
+  "violations": []
+}

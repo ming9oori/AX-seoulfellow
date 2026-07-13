@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "binary_hash_match": true,
+    "canonical_hash_match_amended_preregister": true,
+    "leakage_group_overlap_zero": true,
+    "split_manifest_locked": true,
+    "split_within_tolerance": true,
+    "stable_id_unique": true,
+    "test_gold_access_log_zero": true
+  },
+  "status": "PASS"
+}

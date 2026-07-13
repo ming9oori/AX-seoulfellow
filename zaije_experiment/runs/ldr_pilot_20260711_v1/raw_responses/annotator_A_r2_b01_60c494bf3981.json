@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783794983,
+  "created_at": 1783794972,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0e75efc4f902b283006a528d1c492481989ba6f63bf5a443f1",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-mini-2024-07-18",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-7\",\"bundle_hash\":\"de8a12f36441028a73541328c418495c31ea128a8f45eaec1d3ab6e24c24bf61\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[],\"no_claim_reason\":\"No propositions found in the target evidence.\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-21\",\"bundle_hash\":\"9c901e9e931520ef8498ccee18683a643d4dc2af08764c37cde3bc4294c7431a\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"supporting\",\"quote\":\"고객과의 관계수립(Long Term Positioning)\",\"normalized_label\":\"Long Term Positioning\"},{\"role\":\"supporting\",\"quote\":\"프로젝트 수주를 위한 계획수립(Opportunity Planning)\",\"normalized_label\":\"Opportunity Planning\"}],\"predicate\":\"is necessary for\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-30\",\"bundle_hash\":\"f3aae8078ba9186870c7f8c4b42c1c00caeb473e5b6ed5e3b04d73a5337b33ae\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[],\"no_claim_reason\":\"No propositions found in the target evidence.\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-70\",\"bundle_hash\":\"0a27d3064c1eb96d86b556a563d494186bdc4e3937840cbbc3572bfe9906e8ce\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사가 종료되었음을 (또는 종료되어야 함을) 말해주는 사건이기 때문이다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[],\"predicate\":\"indicates that\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-86\",\"bundle_hash\":\"59e8ba4933651b1e392ab968c39300f0f78b73b5702d9664607da1587bb5b38b\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업도 평가기간이 점점 짧아지고 있다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[],\"predicate\":\"is becoming shorter for\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0e75efc4f902b283006a528d1dbba8819881907019798dd8b2",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_a_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2889,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 819,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3708
+  },
+  "user": null
+}

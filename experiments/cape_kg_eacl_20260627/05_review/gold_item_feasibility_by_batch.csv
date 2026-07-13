@@ -1,0 +1,6 @@
+﻿batch_order,batch_id,chunk_count,candidate_edges,active_review_items,high_impact_chunks,cumulative_chunks,cumulative_candidate_edges,cumulative_active_review_items,cumulative_high_impact_chunks,candidate_edges_per_chunk,cumulative_candidate_edges_per_chunk,meets_500_candidate_proxy,meets_100_chunk_requirement,meets_minimum_chunk_and_candidate_proxy
+1,full_120_priority_batch_001,20,811,41,7,20,811,41,7,40.55,40.55,True,False,False
+2,full_120_priority_batch_002,20,180,72,16,40,991,113,23,9.0,24.775,True,False,False
+3,full_120_priority_batch_003,20,152,60,15,60,1143,173,38,7.6,19.05,True,False,False
+4,full_120_priority_batch_004,20,91,58,18,80,1234,231,56,4.55,15.425,True,False,False
+5,full_120_priority_batch_005,20,137,33,8,100,1371,264,64,6.85,13.71,True,True,True

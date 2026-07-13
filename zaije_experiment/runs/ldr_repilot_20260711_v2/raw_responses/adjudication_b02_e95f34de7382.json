@@ -1,0 +1,317 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783796054,
+  "created_at": 1783796045,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0416fa258034931d006a52914db6d8819996c71f75890aac35",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"adjudications\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-209\",\"decision\":\"ACCEPT_X\",\"final_claims\":[{\"claim_local_id\":\"c3\",\"claim_quote\":\"• 셋째, 구성원에게 단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"actor\",\"quote\":\"구성원\",\"normalized_label\":\"Member\"},{\"role\":\"action\",\"quote\":\"단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다\",\"normalized_label\":\"Have capability to use stepwise tools\"}],\"predicate\":\"must have\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"X uses the full, contiguous claim quote from the evidence, including the parenthetical '(Capability)', and preserves the locked family decision order and all required fields. Y omits the parenthetical and splits the claim into smaller argument spans, which is less faithful to the evidence.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-244\",\"decision\":\"ACCEPT_X\",\"final_claims\":[{\"claim_local_id\":\"c4\",\"claim_quote\":\"• 고객의 니즈 분석 및 요구조건 개발 작업 지원\\n• 고객과 함께 솔루션 정의\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"action\",\"quote\":\"고객의 니즈 분석 및 요구조건 개발 작업 지원\",\"normalized_label\":\"Support analysis of customer needs and development of requirements\"},{\"role\":\"action\",\"quote\":\"고객과 함께 솔루션 정의\",\"normalized_label\":\"Define solution with customer\"}],\"predicate\":\"includes steps\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"단계 4: 고객과 협력\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"PROCEDURE_EDGE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"X includes both activities listed in the evidence, matching the full scope of the step. Y only includes the first activity as a claim and splits the arguments, omitting the second activity as a separate claim. X better preserves the procedural structure and locked family order.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-280\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"c5\",\"claim_quote\":\"• 작업분류체계(WBS) 정의, 프로그램 개발 일정 수립,\\n구매 일정 구체화\\n• 협력업체와 업무 분장 및 금액 계약\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"action\",\"quote\":\"작업분류체계(WBS) 정의\",\"normalized_label\":\"Define Work Breakdown Structure (WBS)\"},{\"role\":\"action\",\"quote\":\"프로그램 개발 일정 수립\",\"normalized_label\":\"Establish program development schedule\"},{\"role\":\"action\",\"quote\":\"구매 일정 구체화\",\"normalized_label\":\"Specify procurement schedule\"},{\"role\":\"action\",\"quote\":\"협력업체와 업무 분장 및 금액 계약\",\"normalized_label\":\"Assign tasks and contract amounts with partners\"}],\"predicate\":\"includes steps\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"단계 3: 솔루션 결정\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"PROCEDURE_EDGE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Y includes all activities listed in the evidence, matching the full procedural step. X omits '구매 일정 구체화' and '협력업체와 업무 분장 및 금액 계약', which are present in the evidence. Y better preserves the locked family order and full scope.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-290\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"단계 4: 제안서 리뷰\\n\\n| 활동(Activity) | 결과물(Output) |\\n| --- | --- |\\n| • 제안서 리뷰(레드팀 리뷰)\\n• 레드팀 리뷰 의견 반영 | -\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"단계 4: 제안서 리뷰\",\"normalized_label\":\"단계 4: 제안서 리뷰\"},{\"role\":\"action\",\"quote\":\"제안서 리뷰(레드팀 리뷰)\",\"normalized_label\":\"제안서 리뷰\"},{\"role\":\"action\",\"quote\":\"레드팀 리뷰 의견 반영\",\"normalized_label\":\"레드팀 리뷰 의견 반영\"},{\"role\":\"output\",\"quote\":\"-\",\"normalized_label\":\"결과물 없음\"}],\"predicate\":\"includes activities\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"PROCEDURE_EDGE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Y's claim quote and arguments fully reflect the structure and content of the evidence, including both activities and the output. X splits the activities and output into separate claims, which is less faithful to the evidence's structure.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-350\",\"decision\":\"ACCEPT_X\",\"final_claims\":[{\"claim_local_id\":\"c2\",\"claim_quote\":\"그런 의미에서 RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간은 우리가 영향력을 행사할 수 없는 구간이라는 의미에서 리스크 갭(Risk Gap)이라고 부른다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간\",\"normalized_label\":\"RFP 이후부터 제안서 제출 구간\"},{\"role\":\"value\",\"quote\":\"우리가 영향력을 행사할 수 없는 구간\",\"normalized_label\":\"영향력 행사 불가 구간\"},{\"role\":\"object\",\"quote\":\"리스크 갭(Risk Gap)\",\"normalized_label\":\"리스크 갭\"}],\"predicate\":\"is defined as\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}],\"reason_codes\":[\"X's claim quote is a contiguous, full-sentence definition matching the evidence, and the claim family/type/discourse are correct. Y only extracts the naming phrase, omitting the definitional context and structure.\"]}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0416fa258034931d006a52914e3c6c819988f553200e661865",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_adjudications",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "adjudications": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "decision": {
+                  "enum": [
+                    "ACCEPT_X",
+                    "ACCEPT_Y",
+                    "MERGE_SUPPORTED_FIELDS",
+                    "REJECT_BOTH",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "final_claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "enum": [
+                                "subject",
+                                "action",
+                                "object",
+                                "input",
+                                "output",
+                                "actor",
+                                "criterion",
+                                "value",
+                                "condition",
+                                "exception",
+                                "scope",
+                                "source"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "reason_codes": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "decision",
+                "final_claims",
+                "reason_codes"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "adjudications"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 8717,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1408,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10125
+  },
+  "user": null
+}

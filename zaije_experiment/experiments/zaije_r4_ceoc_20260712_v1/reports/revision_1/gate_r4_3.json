@@ -1,0 +1,65 @@
+{
+  "b2_dev_critical_violation_increase": 0,
+  "candidate_id_validity": 1.0,
+  "confirmatory_api_exposure": 0,
+  "cost": {
+    "cached_input_tokens": 0,
+    "input_tokens": 192245,
+    "output_tokens": 18602,
+    "requests": 393
+  },
+  "deterministic_control_accuracy": 0.8,
+  "dev_budget_sweep": [
+    {
+      "accepted": 0,
+      "accepted_yield_ratio_to_b3": 0.0,
+      "budget": 0.0,
+      "selected": 0,
+      "token_ratio_proxy": 0.0
+    },
+    {
+      "accepted": 16,
+      "accepted_yield_ratio_to_b3": 0.05128205128205128,
+      "budget": 0.05,
+      "selected": 16,
+      "token_ratio_proxy": 0.051118210862619806
+    },
+    {
+      "accepted": 31,
+      "accepted_yield_ratio_to_b3": 0.09935897435897435,
+      "budget": 0.1,
+      "selected": 31,
+      "token_ratio_proxy": 0.09904153354632587
+    },
+    {
+      "accepted": 63,
+      "accepted_yield_ratio_to_b3": 0.20192307692307693,
+      "budget": 0.2,
+      "selected": 63,
+      "token_ratio_proxy": 0.2012779552715655
+    },
+    {
+      "accepted": 125,
+      "accepted_yield_ratio_to_b3": 0.40064102564102566,
+      "budget": 0.4,
+      "selected": 125,
+      "token_ratio_proxy": 0.3993610223642173
+    },
+    {
+      "accepted": 297,
+      "accepted_yield_ratio_to_b3": 0.9519230769230769,
+      "budget": 1.0,
+      "selected": 298,
+      "token_ratio_proxy": 0.952076677316294
+    }
+  ],
+  "model_snapshot": "gpt-4.1-2025-04-14",
+  "repeat_agreement": 0.975,
+  "selected_b2_budget": 0.2,
+  "source_mismatch_rejection": 0.6,
+  "status": "REVISE_BEFORE_CONFIRMATORY",
+  "structured_output_validity": 1.0,
+  "supported_control_recall": 1,
+  "test_access": 0,
+  "unsupported_free_generation": 0
+}

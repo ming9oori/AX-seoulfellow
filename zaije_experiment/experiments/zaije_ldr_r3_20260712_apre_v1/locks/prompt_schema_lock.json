@@ -1,0 +1,8 @@
+{
+  "preregistration/claimhood_schema_v1.json": "776afb1924584afaf2b69c8ec8fc1a50e2bf71255938461715d84ff3820ab6dd",
+  "preregistration/falsifier_schema_v1.json": "44fad87efb96bd56b98215ea91f31415958c3d38175890672f80bae2a92e01c2",
+  "preregistration/field_schema_v1.json": "6c3db04dbbefcafc39b5a391a0b64d62d19940ab18d299f7103f264a2a774c6d",
+  "preregistration/prompts/claimhood_v1.txt": "e803f5a957108e1e435f2064c1781f184254fc360d229bb14d3c635a55af8d8a",
+  "preregistration/prompts/facet_v1.txt": "0cddbd8df7cd396c08f95375cc8742a5985b21820285040bdaa1d2a9a3800725",
+  "preregistration/prompts/falsifier_v1.txt": "91595e7127fdb1f4c68f552390575e5605d8169a132f10ee549d9d8ef437f1a6"
+}

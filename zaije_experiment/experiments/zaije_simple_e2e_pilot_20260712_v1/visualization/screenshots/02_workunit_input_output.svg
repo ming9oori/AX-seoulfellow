@@ -1,0 +1,412 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<text x="40" y="50" font-family="sans-serif" font-size="26" font-weight="700" fill="#102A43">Automatic Input and Output</text>
+<text x="40" y="78" font-family="sans-serif" font-size="13" fill="#52606D">R5-B1 | nodes 99 | relationships 55</text>
+<line x1="595.0" y1="555.9" x2="416.8" y2="607.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="505.9" y="581.7" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="412.2" y1="471.8" x2="536.6" y2="601.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="474.4" y="536.8" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="387.0" y1="269.9" x2="498.5" y2="467.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="442.8" y="368.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="852.0" y1="529.3" x2="320.2" y2="416.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="586.1" y="472.8" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="939.6" y1="637.4" x2="855.5" y2="605.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="897.6" y="621.4" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="598.7" y1="688.7" x2="1043.1" y2="307.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="820.9" y="498.1" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="553.2" y1="172.6" x2="694.0" y2="151.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="623.6" y="162.0" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="926.0" y1="288.5" x2="835.6" y2="169.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="880.8" y="228.9" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="994.4" y1="438.5" x2="937.6" y2="550.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="966.0" y="494.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="534.9" y1="331.5" x2="491.0" y2="410.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="512.9" y="371.1" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="910.0" y1="425.0" x2="521.3" y2="256.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="715.7" y="340.5" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="631.3" y1="567.9" x2="1061.0" y2="510.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="846.2" y="539.1" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="553.2" y1="172.6" x2="895.0" y2="368.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="724.1" y="270.7" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="562.5" y1="310.7" x2="839.3" y2="237.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="700.9" y="274.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="939.6" y1="637.4" x2="855.5" y2="605.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="897.6" y="621.4" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="534.9" y1="518.5" x2="732.7" y2="213.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="633.8" y="366.2" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="457.0" y1="545.4" x2="710.0" y2="576.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="583.5" y="560.7" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="493.1" y1="576.4" x2="852.0" y2="320.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="672.5" y="448.5" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="957.8" y1="321.7" x2="480.1" y2="283.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="719.0" y="302.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="669.9" y1="697.7" x2="957.8" y2="224.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="813.9" y="460.9" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="562.5" y1="539.3" x2="433.4" y2="230.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="498.0" y="384.6" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="622.2" y1="157.2" x2="631.3" y2="282.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="626.7" y="219.7" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="787.6" y1="222.2" x2="422.8" y2="352.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="605.2" y="287.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="1067.8" y1="356.3" x2="695.3" y2="637.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="881.6" y="496.8" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="622.2" y1="157.2" x2="749.5" y2="278.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="685.8" y="217.6" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="742.1" y1="696.9" x2="433.4" y2="230.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="587.8" y="463.5" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="595.0" y1="294.1" x2="886.0" y2="260.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="740.5" y="277.1" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="622.2" y1="157.2" x2="985.5" y2="478.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="803.9" y="317.8" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="531.3" y1="670.1" x2="342.9" y2="518.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="437.1" y="594.4" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="1006.0" y1="262.8" x2="906.2" y2="396.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="956.1" y="329.6" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="513.3" y1="494.3" x2="879.5" y2="666.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="696.4" y="580.2" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="991.1" y1="600.9" x2="408.7" y2="391.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="699.9" y="496.2" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="812.8" y1="686.3" x2="329.3" y2="364.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="571.1" y="525.5" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="1032.1" y1="558.0" x2="1076.9" y2="459.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="1054.5" y="508.8" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="405.1" y1="431.7" x2="751.2" y2="634.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="578.2" y="533.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="324.8" y1="468.2" x2="429.7" y2="510.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="377.3" y="489.2" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="670.1" y1="275.3" x2="749.5" y2="571.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="709.8" y="423.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="469.9" y1="642.7" x2="1079.2" y2="407.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="774.6" y="525.2" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="876.7" y1="506.7" x2="491.0" y2="439.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="683.8" y="473.1" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="446.9" y1="315.9" x2="980.3" y2="358.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="713.6" y="337.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="586.0" y1="620.9" x2="569.0" y2="234.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="577.5" y="427.8" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="895.0" y1="481.2" x2="513.3" y2="355.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="704.2" y="418.5" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="622.2" y1="157.2" x2="966.4" y2="516.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="794.3" y="336.7" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="469.9" y1="642.7" x2="489.5" y2="197.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="479.7" y="420.0" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="787.2" y1="287.5" x2="498.5" y2="382.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="642.9" y="334.9" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="622.2" y1="157.2" x2="639.6" y2="632.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="630.9" y="395.0" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="876.7" y1="343.3" x2="670.1" y2="574.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="773.4" y="459.0" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="821.8" y1="301.8" x2="805.3" y2="623.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="813.5" y="462.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="906.2" y1="453.6" x2="676.6" y2="213.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="791.4" y="333.4" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="562.5" y1="539.3" x2="710.0" y2="274.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="636.2" y="406.6" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="787.2" y1="562.5" x2="766.0" y2="155.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="776.6" y="359.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="900.3" y1="192.5" x2="821.8" y2="548.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="861.1" y="370.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="553.2" y1="172.6" x2="992.6" y2="398.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="772.9" y="285.4" font-family="sans-serif" font-size="8" fill="#52606D">PRODUCES_OUTPUT</text>
+<line x1="351.9" y1="315.3" x2="374.0" y2="565.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="362.9" y="440.4" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<line x1="900.2" y1="581.0" x2="621.4" y2="220.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="760.8" y="400.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_INPUT</text>
+<circle cx="910.0" cy="425.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="910.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">1차 연습: 본인 혼자 Reading •...</text>
+<text x="910.0" y="469.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="994.4" cy="438.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="994.4" y="442.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">실제 경쟁사 비교표 분석</text>
+<text x="994.4" y="482.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1076.9" cy="459.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="1076.9" y="463.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">분석을 통해 핵심 차별화요소(Discri...</text>
+<text x="1076.9" y="503.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="906.2" cy="453.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="906.2" y="457.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제대로 인식하지 못한다면 커뮤니케이션 방...</text>
+<text x="906.2" y="497.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="985.5" cy="478.3" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="985.5" y="482.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">작성한 것</text>
+<text x="985.5" y="522.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="1061.0" cy="510.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="1061.0" y="514.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객조직</text>
+<text x="1061.0" y="554.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="895.0" cy="481.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="895.0" y="485.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">한편으로 제안서 작성</text>
+<text x="895.0" y="525.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="966.4" cy="516.3" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="966.4" y="520.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">and review technique</text>
+<text x="966.4" y="560.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="1032.1" cy="558.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1032.1" y="562.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">분석을 통해 핵심 차별화요소(Discri...</text>
+<text x="1032.1" y="602.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="876.7" cy="506.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="876.7" y="510.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 회사의 성과 평가</text>
+<text x="876.7" y="550.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="937.6" cy="550.9" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="937.6" y="554.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">실제 경쟁사 비교표</text>
+<text x="937.6" y="594.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="991.1" cy="600.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="991.1" y="604.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">요청할(혹은 요청한) 비행기 제공</text>
+<text x="991.1" y="644.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="852.0" cy="529.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="852.0" y="533.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">의사결정자 분석</text>
+<text x="852.0" y="573.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="900.2" cy="581.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="900.2" y="585.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">영향력이 전혀 없다면 그 조직 분석</text>
+<text x="900.2" y="625.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="939.6" cy="637.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="939.6" y="641.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략 개발</text>
+<text x="939.6" y="681.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="821.8" cy="548.2" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="821.8" y="552.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 이슈</text>
+<text x="821.8" y="592.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="855.5" cy="605.5" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="855.5" y="609.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략</text>
+<text x="855.5" y="649.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="879.5" cy="666.2" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="879.5" y="670.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">하고 통합하여 핵심 이슈</text>
+<text x="879.5" y="710.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="787.2" cy="562.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="787.2" y="566.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객에게 더 많은 가치 제공</text>
+<text x="787.2" y="606.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="805.3" cy="623.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="805.3" y="627.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객조직 정보</text>
+<text x="805.3" y="667.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="812.8" cy="686.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="812.8" y="690.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">평가위원회 분석</text>
+<text x="812.8" y="730.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="749.5" cy="571.9" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="749.5" y="575.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 과정</text>
+<text x="749.5" y="615.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="751.2" cy="634.2" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="751.2" y="638.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">서비스 품질인지</text>
+<text x="751.2" y="678.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="742.1" cy="696.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="742.1" y="700.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">솔루션 및 메시지 개발 • 목차(스토리라...</text>
+<text x="742.1" y="740.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="710.0" cy="576.0" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="710.0" y="580.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">변동한다면 이것을 기반으로 전략</text>
+<text x="710.0" y="620.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="695.3" cy="637.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="695.3" y="641.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">리스크 관리 전략</text>
+<text x="695.3" y="681.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="669.9" cy="697.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="669.9" y="701.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">섹션기획서 준비, 작성자 정보제공 내용 ...</text>
+<text x="669.9" y="741.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="670.1" cy="574.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="670.1" y="578.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">따라서 표의 숫자를 맹신하거나 계량적인 ...</text>
+<text x="670.1" y="618.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="639.6" cy="632.9" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="639.6" y="636.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">진행상황을 한눈에</text>
+<text x="639.6" y="676.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="598.7" cy="688.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="598.7" y="692.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">좌뇌의 영역이었다면 이제 본격적인 전략 ...</text>
+<text x="598.7" y="732.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="631.3" cy="567.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="631.3" y="571.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객조직 분석</text>
+<text x="631.3" y="611.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="586.0" cy="620.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="586.0" y="624.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서 작성</text>
+<text x="586.0" y="664.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="531.3" cy="670.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="531.3" y="674.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">동일한 가격과 품질의 종이이지만 이러한 ...</text>
+<text x="531.3" y="714.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="595.0" cy="555.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="595.0" y="559.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">또한 경쟁사비교표 작성</text>
+<text x="595.0" y="599.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="536.6" cy="601.8" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="536.6" y="605.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">솔루션의 본질적인 가치와는 상관이 없지만...</text>
+<text x="536.6" y="645.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="469.9" cy="642.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="469.9" y="646.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 니즈 분석 및 요구조건 개발 작업...</text>
+<text x="469.9" y="686.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="562.5" cy="539.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="562.5" y="543.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안관리 계획 완성 • 섹션기획서 리뷰(...</text>
+<text x="562.5" y="583.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="493.1" cy="576.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="493.1" y="580.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">높을수록 제안의 초점을 고객에게 맞추고 ...</text>
+<text x="493.1" y="620.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="416.8" cy="607.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="416.8" y="611.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">또한 경쟁사비교표</text>
+<text x="416.8" y="651.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="534.9" cy="518.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="534.9" y="522.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그런데도 고객조직의 의사결정자와 영향자 ...</text>
+<text x="534.9" y="562.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="457.0" cy="545.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="457.0" y="549.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">변동한다면 이것을 기반으로 전략 개발</text>
+<text x="457.0" y="589.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="374.0" cy="565.5" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="374.0" y="569.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">첨부한 자료</text>
+<text x="374.0" y="609.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="513.3" cy="494.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="513.3" y="498.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">하고 통합하여 핵심 이슈 도출</text>
+<text x="513.3" y="538.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="429.7" cy="510.2" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="429.7" y="514.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">미래</text>
+<text x="429.7" y="554.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="342.9" cy="518.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="342.9" y="522.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">동일한 가격과 품질의 종이이지만 이러한 ...</text>
+<text x="342.9" y="562.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="498.5" cy="467.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="498.5" y="471.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">참여하기로 한 기회에서 고객의 근원적인 ...</text>
+<text x="498.5" y="511.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="412.2" cy="471.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="412.2" y="475.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">솔루션의 본질적인 가치와는 상관이 없지만...</text>
+<text x="412.2" y="515.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="324.8" cy="468.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="324.8" y="472.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">미래 준비</text>
+<text x="324.8" y="512.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="491.0" cy="439.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="491.0" y="443.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 회사의 성과</text>
+<text x="491.0" y="483.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="405.1" cy="431.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="405.1" y="435.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">서비스 품질인지 평가</text>
+<text x="405.1" y="475.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="320.2" cy="416.3" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="320.2" y="420.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">의사결정자</text>
+<text x="320.2" y="460.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="491.0" cy="410.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="491.0" y="414.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">사업을 이해하고 전략</text>
+<text x="491.0" y="454.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="408.7" cy="391.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="408.7" y="395.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">요청할(혹은 요청한) 비행기</text>
+<text x="408.7" y="435.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="329.3" cy="364.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="329.3" y="368.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">평가위원회</text>
+<text x="329.3" y="408.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="498.5" cy="382.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="498.5" y="386.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그러나 계획을 세워 제안서</text>
+<text x="498.5" y="426.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="422.8" cy="352.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="422.8" y="356.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">부대 서비스</text>
+<text x="422.8" y="396.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="351.9" cy="315.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="351.9" y="319.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">첨부한 자료 검토</text>
+<text x="351.9" y="359.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="513.3" cy="355.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="513.3" y="359.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">한편으로 제안서</text>
+<text x="513.3" y="399.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="446.9" cy="315.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="446.9" y="319.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">가설이 이번 프로젝트에 일치하는지 검토</text>
+<text x="446.9" y="359.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="387.0" cy="269.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="387.0" y="273.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">참여하기로 한 기회에서 고객의 근원적인 ...</text>
+<text x="387.0" y="313.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="534.9" cy="331.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="534.9" y="335.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">사업을 이해하고 전략 수립</text>
+<text x="534.9" y="375.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="480.1" cy="283.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="480.1" y="287.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">것은 고객에게 차별화된 솔루션</text>
+<text x="480.1" y="327.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="433.4" cy="230.0" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="433.4" y="234.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">목차</text>
+<text x="433.4" y="274.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="562.5" cy="310.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="562.5" y="314.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">핵심 정보 제공</text>
+<text x="562.5" y="354.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="521.3" cy="256.0" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="521.3" y="260.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">리허설 횟수 체크 시트</text>
+<text x="521.3" y="300.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="489.5" cy="197.2" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="489.5" y="201.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Capture Plan</text>
+<text x="489.5" y="241.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="595.0" cy="294.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="595.0" y="298.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">어떻게 전략 수립</text>
+<text x="595.0" y="338.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="569.0" cy="234.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="569.0" y="238.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서</text>
+<text x="569.0" y="278.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="553.2" cy="172.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="553.2" y="176.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">수주전략 초안 개발 / 리뷰 (리뷰된 수...</text>
+<text x="553.2" y="216.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="631.3" cy="282.1" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="631.3" y="286.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">작업의 순서나</text>
+<text x="631.3" y="326.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="621.4" cy="220.3" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="621.4" y="224.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">영향력이 전혀 없다면 그 조직</text>
+<text x="621.4" y="264.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="622.2" cy="157.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="622.2" y="161.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">작업분류체계(WBS) 정의, 프로그램 개...</text>
+<text x="622.2" y="201.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="670.1" cy="275.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="670.1" y="279.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 과정 제공</text>
+<text x="670.1" y="319.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="676.6" cy="213.3" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="676.6" y="217.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제대로 인식하지 못한다면 커뮤니케이션 방...</text>
+<text x="676.6" y="257.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="694.0" cy="151.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="694.0" y="155.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">초안</text>
+<text x="694.0" y="195.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="710.0" cy="274.0" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="710.0" y="278.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안관리 계획 최종본</text>
+<text x="710.0" y="318.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="732.7" cy="213.9" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="732.7" y="217.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그런데도 고객조직의 의사결정자와 영향자</text>
+<text x="732.7" y="257.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="766.0" cy="155.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="766.0" y="159.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객에게 더 많은 가치</text>
+<text x="766.0" y="199.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="749.5" cy="278.1" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="749.5" y="282.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">WBS, PERT</text>
+<text x="749.5" y="322.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="787.6" cy="222.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="787.6" y="226.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">부대 서비스 제공</text>
+<text x="787.6" y="266.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="835.6" cy="169.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="835.6" y="173.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">예상 RFP</text>
+<text x="835.6" y="213.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="787.2" cy="287.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="787.2" y="291.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그러나 계획을 세워 제안서 작성</text>
+<text x="787.2" y="331.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="839.3" cy="237.8" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="839.3" y="241.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">핵심 정보</text>
+<text x="839.3" y="281.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="900.3" cy="192.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="900.3" y="196.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 이슈 분석</text>
+<text x="900.3" y="236.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="821.8" cy="301.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="821.8" y="305.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">핵심 이슈 도출</text>
+<text x="821.8" y="345.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="886.0" cy="260.1" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="886.0" y="264.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">어떻게 전략</text>
+<text x="886.0" y="304.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="957.8" cy="224.0" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="957.8" y="228.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">섹션기획서</text>
+<text x="957.8" y="268.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="852.0" cy="320.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="852.0" y="324.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">높을수록 제안의 초점을 고객에게 맞추고 ...</text>
+<text x="852.0" y="364.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="926.0" cy="288.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="926.0" y="292.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 니즈 및 요구조건 정의 • 고객과...</text>
+<text x="926.0" y="332.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1006.0" cy="262.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1006.0" y="266.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">품질과 비교 평가를 위한 표준 질문지 개...</text>
+<text x="1006.0" y="306.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="876.7" cy="343.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="876.7" y="347.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">따라서 표의 숫자를 맹신하거나 계량적인 ...</text>
+<text x="876.7" y="387.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="957.8" cy="321.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="957.8" y="325.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">것은 고객에게 차별화된 솔루션 제공</text>
+<text x="957.8" y="365.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1043.1" cy="307.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="1043.1" y="311.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">좌뇌의 영역이었다면 이제 본격적인 전략</text>
+<text x="1043.1" y="351.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="895.0" cy="368.8" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="895.0" y="372.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Executive Summary</text>
+<text x="895.0" y="412.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="980.3" cy="358.7" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="980.3" y="362.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">가설이 이번 프로젝트에 일치하는지</text>
+<text x="980.3" y="402.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="1067.8" cy="356.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1067.8" y="360.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">리스크 관리 전략 개발</text>
+<text x="1067.8" y="400.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="906.2" cy="396.4" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="906.2" y="400.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">품질과 비교 평가를 위한 표준 질문지</text>
+<text x="906.2" y="440.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">InformationObject</text>
+<circle cx="992.6" cy="398.1" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="992.6" y="402.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Capture Plan 초안</text>
+<text x="992.6" y="442.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+<circle cx="1079.2" cy="407.6" r="31" fill="#D9E2EC" stroke="#486581" stroke-width="1.5"/>
+<text x="1079.2" y="411.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">업데이트 버전</text>
+<text x="1079.2" y="451.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Artifact</text>
+</svg>

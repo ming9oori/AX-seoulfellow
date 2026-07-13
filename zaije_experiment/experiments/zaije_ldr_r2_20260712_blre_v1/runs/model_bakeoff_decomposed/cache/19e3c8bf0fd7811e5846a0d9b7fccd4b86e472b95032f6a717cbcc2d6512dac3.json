@@ -1,0 +1,92 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-90_C01",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-106_C02",
+        "configuration_id": "C02",
+        "promotion": "DISCOURSE_ONLY",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-208_C02",
+        "configuration_id": "C02",
+        "promotion": "GENERAL_RULE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-283_C01",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-329_C02",
+        "configuration_id": "C02",
+        "promotion": "GENERAL_RULE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-340_C02",
+        "configuration_id": "C02",
+        "promotion": "GENERAL_RULE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-349_C01",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-350_C01",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-361_C01",
+        "configuration_id": "C02",
+        "promotion": "DISCOURSE_ONLY",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-408_C01",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-551_C02",
+        "configuration_id": "C02",
+        "promotion": "GENERAL_RULE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-553_C03",
+        "configuration_id": "C02",
+        "promotion": "DO_NOT_PROMOTE",
+        "repeat_id": 2
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/F4_C02_r2_b01_19e3c8bf0fd7.json",
+  "response_id": "resp_0b70e900f5697bc6006a53123426a08198ac2e759e0d96b1a4",
+  "usage": {
+    "input_tokens": 1675,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 430,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2105
+  }
+}

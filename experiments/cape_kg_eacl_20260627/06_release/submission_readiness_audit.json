@@ -1,0 +1,1320 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:31.977060+00:00",
+  "source_plan": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "summary": {
+    "items": 20,
+    "status_counts": {
+      "pending_human": 5,
+      "pass": 11,
+      "partial": 4
+    },
+    "claimable_items": 12,
+    "minimum_accept_blocking_items": 4,
+    "strong_accept_human_blocking_items": 4,
+    "evaluation_chunks": 120,
+    "condition_max_rows": {
+      "B0_plain_llm": 120,
+      "B1_predicate_constrained": 120,
+      "B2_current_project": 120,
+      "P_cape_kg_actual": 120,
+      "B4_taxonomy_rag": 120,
+      "P_minus_CQ": 120,
+      "P_minus_Evidence": 120,
+      "P_minus_Procedural_schema": 120,
+      "P_minus_Standard_bridge": 120,
+      "P_minus_Validator": 120,
+      "B5_procedural_prompt": 120,
+      "B3_edc_style": 120,
+      "P_minus_Schema_retrieval": 120,
+      "B6_sac_kg_verifier_pruner": 120
+    },
+    "condition_parse_or_generation_error_rows_at_max_run": {
+      "B0_plain_llm": 68,
+      "B1_predicate_constrained": 75,
+      "B2_current_project": 102,
+      "P_cape_kg_actual": 113,
+      "B4_taxonomy_rag": 102,
+      "P_minus_CQ": 117,
+      "P_minus_Evidence": 103,
+      "P_minus_Procedural_schema": 107,
+      "P_minus_Standard_bridge": 59,
+      "P_minus_Validator": 110,
+      "B5_procedural_prompt": 96,
+      "B3_edc_style": 99,
+      "P_minus_Schema_retrieval": 109,
+      "B6_sac_kg_verifier_pruner": 0
+    }
+  },
+  "items": [
+    {
+      "id": "min.gold_chunks",
+      "category": "minimum_accept",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "completed_chunks": 0,
+          "validation_errors": 0
+        }
+      ],
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "id": "min.gold_items",
+      "category": "minimum_accept",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "gold_items": 0
+        }
+      ],
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "id": "min.iaa",
+      "category": "minimum_accept",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json",
+          "exists": true,
+          "bytes": 444
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_pilot_30/iaa_summary.json",
+          "exists": true,
+          "bytes": 442
+        },
+        {
+          "iaa_summary_count": 2,
+          "max_completed_pair_chunks": 0
+        }
+      ],
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "id": "min.gold_sampling_ready",
+      "category": "minimum_accept",
+      "requirement": "Priority-100 gold subset sampling ready",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json",
+          "exists": true,
+          "bytes": 67903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv",
+          "exists": true,
+          "bytes": 12535
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_coverage_by_chapter.csv",
+          "exists": true,
+          "bytes": 357
+        },
+        {
+          "selected_chunks": 100,
+          "priority_100_candidate_edges": 1371,
+          "full_120_candidate_edges": 1436,
+          "candidate_edge_coverage": 0.954735,
+          "active_review_chunk_coverage": 0.967033,
+          "high_impact_chunk_coverage": 1.0,
+          "claim_status": "gold_sampling_coverage_ready_pending_human_review"
+        }
+      ],
+      "next_step": "No additional automatic step required; priority-100 sampling covers 1371/1436 full-120 candidate edges (0.9547), active-review coverage=0.9670, high-impact coverage=1.0000. Human annotation/adjudication still required."
+    },
+    {
+      "id": "min.baselines",
+      "category": "minimum_accept",
+      "requirement": "B0/B1/B2 actual LLM baselines completed",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+          "exists": true,
+          "bytes": 2917290
+        },
+        {
+          "condition_max_rows": {
+            "B0_plain_llm": 120,
+            "B1_predicate_constrained": 120,
+            "B2_current_project": 120
+          }
+        }
+      ],
+      "next_step": "No additional automatic step required; keep baseline artifacts synchronized."
+    },
+    {
+      "id": "min.proposed",
+      "category": "minimum_accept",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+          "exists": true,
+          "bytes": 772
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+          "exists": true,
+          "bytes": 2917290
+        },
+        {
+          "P_cape_kg_actual_rows": 120,
+          "human_gold_scored_conditions": []
+        }
+      ],
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    },
+    {
+      "id": "min.ablations",
+      "category": "minimum_accept",
+      "requirement": "3+ actual ablations completed",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_120_valid.jsonl",
+          "exists": true,
+          "bytes": 1021348
+        },
+        {
+          "full_ablation_conditions": [
+            "P_minus_CQ",
+            "P_minus_Evidence",
+            "P_minus_Procedural_schema",
+            "P_minus_Schema_retrieval",
+            "P_minus_Standard_bridge",
+            "P_minus_Validator"
+          ]
+        }
+      ],
+      "next_step": "No additional automatic step required; ablation coverage satisfies the minimum gate."
+    },
+    {
+      "id": "min.error_analysis",
+      "category": "minimum_accept",
+      "requirement": "Structured error analysis table and taxonomy",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "markdown": {
+            "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+            "exists": true,
+            "bytes": 12148
+          },
+          "json": {
+            "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+            "exists": true,
+            "bytes": 34951
+          },
+          "required_sections": [
+            "## Claim Scope",
+            "## Actual LLM Silver/Proxy Diagnostics",
+            "## Proxy Scaffold Error Summary",
+            "## Error Taxonomy",
+            "## Human-Gold Follow-Up"
+          ],
+          "missing_sections": [],
+          "taxonomy_family_count": 8,
+          "ready_for_minimum_accept": true,
+          "claim_scope": "silver_proxy_diagnostic_not_human_gold"
+        }
+      ],
+      "next_step": "No additional automatic step required; update only if new diagnostics change."
+    },
+    {
+      "id": "min.public_subset",
+      "category": "minimum_accept",
+      "requirement": "Public benchmark or public subset experiment",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "paged_items": 100,
+          "text2kg_items": 200,
+          "summary_count": 4
+        }
+      ],
+      "next_step": "No additional automatic step required; public subset evidence is present."
+    },
+    {
+      "id": "min.release_plan",
+      "category": "minimum_accept",
+      "requirement": "Code, prompt, schema, and reproducibility release package",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+          "exists": true,
+          "bytes": 3523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+          "exists": true,
+          "bytes": 2101
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+          "exists": true,
+          "bytes": 206
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+          "exists": true,
+          "bytes": 1822
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/statistical_analysis_metrics.json",
+          "exists": true,
+          "bytes": 42431
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+          "exists": true,
+          "bytes": 34951
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_manifest_sync_report.json",
+          "exists": true,
+          "bytes": 645
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_manifest_sync_report.md",
+          "exists": true,
+          "bytes": 443
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "exists": true,
+          "bytes": 3903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+          "exists": true,
+          "bytes": 2513
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_annotation_priority_queue.csv",
+          "exists": true,
+          "bytes": 28819
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_next_100_worklist.csv",
+          "exists": true,
+          "bytes": 24993
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_batch_assignment_overview.csv",
+          "exists": true,
+          "bytes": 4333
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json",
+          "exists": true,
+          "bytes": 67903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv",
+          "exists": true,
+          "bytes": 12535
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_coverage_by_chapter.csv",
+          "exists": true,
+          "bytes": 357
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json",
+          "exists": true,
+          "bytes": 1861
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_report.md",
+          "exists": true,
+          "bytes": 1650
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_report.md",
+          "exists": true,
+          "bytes": 4011
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv",
+          "exists": true,
+          "bytes": 9069
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_next_20_groups.csv",
+          "exists": true,
+          "bytes": 4320
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_next_60_rows.csv",
+          "exists": true,
+          "bytes": 21226
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_progress_summary.json",
+          "exists": true,
+          "bytes": 41902
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_progress_report.md",
+          "exists": true,
+          "bytes": 4176
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+          "exists": true,
+          "bytes": 21447
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_report.md",
+          "exists": true,
+          "bytes": 2836
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_summary.json",
+          "exists": true,
+          "bytes": 3570
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_report.md",
+          "exists": true,
+          "bytes": 1384
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/annotation_qc_issues.csv",
+          "exists": true,
+          "bytes": 3688
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/annotation_completion_gate_worklist.csv",
+          "exists": true,
+          "bytes": 27270
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+          "exists": true,
+          "bytes": 117002
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+          "exists": true,
+          "bytes": 18799
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_gate_required_returns.csv",
+          "exists": true,
+          "bytes": 7485
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+          "exists": true,
+          "bytes": 19472
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+          "exists": true,
+          "bytes": 400028
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/limitations.md",
+          "exists": true,
+          "bytes": 1176
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_chunks.jsonl",
+          "exists": true,
+          "bytes": 616
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_gold.jsonl",
+          "exists": true,
+          "bytes": 3350
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_predictions.jsonl",
+          "exists": true,
+          "bytes": 2692
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json",
+          "exists": true,
+          "bytes": 1126
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/model_selection_and_scaling_plan.md",
+          "exists": true,
+          "bytes": 11313
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_32b_awq_readiness.json",
+          "exists": true,
+          "bytes": 4010
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_32b_awq_readiness.md",
+          "exists": true,
+          "bytes": 1916
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.json",
+          "exists": true,
+          "bytes": 34933
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+          "exists": true,
+          "bytes": 8741
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/strict_json_reprompt_priority.csv",
+          "exists": true,
+          "bytes": 6717
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/strict_json_gate_selected_error_rows.csv",
+          "exists": true,
+          "bytes": 591037
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt",
+          "exists": true,
+          "bytes": 664
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+          "exists": true,
+          "bytes": 46695
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json",
+          "exists": true,
+          "bytes": 37341
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+          "exists": true,
+          "bytes": 378
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        }
+      ],
+      "next_step": "No additional automatic step required; regenerate only after source artifacts change."
+    },
+    {
+      "id": "min.limitations",
+      "category": "minimum_accept",
+      "requirement": "Limitations section",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/limitations.md",
+          "exists": true,
+          "bytes": 1176
+        }
+      ],
+      "next_step": "No additional automatic step required; keep limitations synchronized with future human results."
+    },
+    {
+      "id": "min.public_synthetic_examples",
+      "category": "minimum_accept",
+      "requirement": "Public-safe synthetic examples for reproducibility mitigation",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json",
+          "exists": true,
+          "bytes": 1126
+        },
+        {
+          "synthetic_chunk_count": 2,
+          "validation_error_count": 0,
+          "source_text_policy": "synthetic_only_no_source_corpus_text"
+        }
+      ],
+      "next_step": "No additional automatic step required; synthetic public-safe examples are ready."
+    },
+    {
+      "id": "strong.gold_chunks",
+      "category": "strong_accept",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "completed_chunks": 0,
+          "target_min": 300
+        },
+        {
+          "all_available_chunks": 214,
+          "strong_resegmented_package": "strong_resegmented_342_max18",
+          "strong_resegmented_chunks": 342,
+          "strong_300_chunk_gap_after_resegmentation": 0,
+          "strong_resegmented_claim_status": "ready_pending_human_review"
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "exists": true,
+          "bytes": 3903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+          "exists": true,
+          "bytes": 2513
+        }
+      ],
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "id": "strong.gold_items",
+      "category": "strong_accept",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "gold_items": 0,
+          "target_min": 1500,
+          "validation_errors": 0,
+          "strong_resegmented_package": "strong_resegmented_342_max18",
+          "strong_resegmented_chunks": 342
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "exists": true,
+          "bytes": 3903
+        }
+      ],
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "id": "strong.public_cross",
+      "category": "strong_accept",
+      "requirement": "PAGED/Text2KGBench cross experiment",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "paged_items_total": 100,
+          "text2kg_items_total": 200,
+          "max_single_run_paged_items": 100,
+          "max_single_run_text2kg_items": 200
+        }
+      ],
+      "next_step": "No additional automatic step required; cross-check includes PAGED >= 100 and Text2KG >= 200 in a single run."
+    },
+    {
+      "id": "strong.edc_taxonomy_baselines",
+      "category": "strong_accept",
+      "requirement": "EDC/SAC-KG/Taxonomy-RAG family baselines or reproductions",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_edc_schema_ablation_quality_report.md",
+          "exists": true,
+          "bytes": 815
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/50_sac_kg_verifier_pruner_baseline_quality_report.md",
+          "exists": true,
+          "bytes": 827
+        },
+        {
+          "B3_edc_style_rows": 120,
+          "B4_taxonomy_rag_rows": 120,
+          "B6_sac_kg_verifier_pruner_rows": 120,
+          "B6_report_exists": true,
+          "note": "B6 is a deterministic SAC-KG-style verifier/pruner approximation, not a full SAC-KG reproduction."
+        }
+      ],
+      "next_step": "No additional automatic step required; B3/B4/B6 family baseline artifacts are present."
+    },
+    {
+      "id": "strong.mapping_downstream",
+      "category": "strong_accept",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "complete_source_groups": 0,
+          "pending_rows": 220,
+          "metrics_rows": 2
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv",
+          "exists": true,
+          "bytes": 9069
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "outputs/08_mapping/l2_ncs_pcf_crosswalk_candidates.jsonl",
+          "exists": true,
+          "bytes": 290609
+        }
+      ],
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "id": "strong.active_review",
+      "category": "strong_accept",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "exists": true,
+          "bytes": 12827
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_report.md",
+          "exists": true,
+          "bytes": 4011
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json",
+          "exists": true,
+          "bytes": 1861
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_report.md",
+          "exists": true,
+          "bytes": 1650
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        }
+      ],
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    },
+    {
+      "id": "strong.visualization",
+      "category": "strong_accept",
+      "requirement": "Visualization/demo provided",
+      "status": "pass",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "outputs/09_visualization/kg_viewer.html",
+          "exists": true,
+          "bytes": 6033408
+        }
+      ],
+      "next_step": "No additional automatic step required; keep the viewer synchronized with future graph updates."
+    },
+    {
+      "id": "method.m1_m11",
+      "category": "method_modules",
+      "requirement": "CAPE-KG M1-M11 modules represented by executable artifacts",
+      "status": "partial",
+      "claimable": true,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+          "exists": true,
+          "bytes": 46695
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "module_count": 11,
+          "modules_with_required_artifacts": 11,
+          "missing_required_artifact_count": 0,
+          "human_dependent_modules": [
+            "M3",
+            "M4",
+            "M5",
+            "M6",
+            "M8",
+            "M9",
+            "M10",
+            "M11"
+          ],
+          "coverage_claim_status": "all_m1_m11_artifacts_present_human_claims_pending"
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+          "exists": true,
+          "bytes": 2101
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+          "exists": true,
+          "bytes": 206
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+          "exists": true,
+          "bytes": 983
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_report.md",
+          "exists": true,
+          "bytes": 672
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+          "exists": true,
+          "bytes": 15185
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_report.md",
+          "exists": true,
+          "bytes": 865
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+          "exists": true,
+          "bytes": 3876
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_summary.json",
+          "exists": true,
+          "bytes": 916
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+          "exists": true,
+          "bytes": 8155
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+          "exists": true,
+          "bytes": 23258
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+          "exists": true,
+          "bytes": 12566
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_optional_returns.csv",
+          "exists": true,
+          "bytes": 1019
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "exists": true,
+          "bytes": 3565
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.md",
+          "exists": true,
+          "bytes": 1088
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.jsonl",
+          "exists": true,
+          "bytes": 174620
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_report.md",
+          "exists": true,
+          "bytes": 2836
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_next_20_groups.csv",
+          "exists": true,
+          "bytes": 4320
+        }
+      ],
+      "next_step": "All executable module artifacts are present; human-review and human-gold scoring evidence remains required for final paper claims."
+    }
+  ],
+  "blocking_items": [
+    {
+      "id": "min.gold_chunks",
+      "category": "minimum_accept",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "completed_chunks": 0,
+          "validation_errors": 0
+        }
+      ],
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "id": "min.gold_items",
+      "category": "minimum_accept",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "gold_items": 0
+        }
+      ],
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "id": "min.iaa",
+      "category": "minimum_accept",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json",
+          "exists": true,
+          "bytes": 444
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_pilot_30/iaa_summary.json",
+          "exists": true,
+          "bytes": 442
+        },
+        {
+          "iaa_summary_count": 2,
+          "max_completed_pair_chunks": 0
+        }
+      ],
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "id": "min.proposed",
+      "category": "minimum_accept",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+          "exists": true,
+          "bytes": 772
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+          "exists": true,
+          "bytes": 2917290
+        },
+        {
+          "P_cape_kg_actual_rows": 120,
+          "human_gold_scored_conditions": []
+        }
+      ],
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    }
+  ],
+  "strong_human_blocking_items": [
+    {
+      "id": "strong.gold_chunks",
+      "category": "strong_accept",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "completed_chunks": 0,
+          "target_min": 300
+        },
+        {
+          "all_available_chunks": 214,
+          "strong_resegmented_package": "strong_resegmented_342_max18",
+          "strong_resegmented_chunks": 342,
+          "strong_300_chunk_gap_after_resegmentation": 0,
+          "strong_resegmented_claim_status": "ready_pending_human_review"
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "exists": true,
+          "bytes": 3903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+          "exists": true,
+          "bytes": 2513
+        }
+      ],
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "id": "strong.gold_items",
+      "category": "strong_accept",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "gold_items": 0,
+          "target_min": 1500,
+          "validation_errors": 0,
+          "strong_resegmented_package": "strong_resegmented_342_max18",
+          "strong_resegmented_chunks": 342
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "exists": true,
+          "bytes": 3903
+        }
+      ],
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "id": "strong.mapping_downstream",
+      "category": "strong_accept",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "complete_source_groups": 0,
+          "pending_rows": 220,
+          "metrics_rows": 2
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_priority_queue.csv",
+          "exists": true,
+          "bytes": 9069
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "outputs/08_mapping/l2_ncs_pcf_crosswalk_candidates.jsonl",
+          "exists": true,
+          "bytes": 290609
+        }
+      ],
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "id": "strong.active_review",
+      "category": "strong_accept",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": false,
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "exists": true,
+          "bytes": 12827
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_report.md",
+          "exists": true,
+          "bytes": 4011
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json",
+          "exists": true,
+          "bytes": 1861
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_report.md",
+          "exists": true,
+          "bytes": 1650
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.json",
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        }
+      ],
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    }
+  ],
+  "claim_status": "pending_human_gold_iaa_and_human_gold_scoring"
+}

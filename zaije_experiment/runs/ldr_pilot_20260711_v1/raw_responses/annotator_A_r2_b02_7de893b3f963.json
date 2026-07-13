@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783794999,
+  "created_at": 1783794984,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_03c39d25928211bc006a528d284a3c819998458be8d082c494",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-mini-2024-07-18",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-90\",\"bundle_hash\":\"be18ededd25a83c7c4e873b8ab7c68666a0e78b62a72a882b00924193489962c\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"Shipley Tip\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[],\"predicate\":\"is a tip\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_GUIDANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-106\",\"bundle_hash\":\"3048bbba2c5a44d3fc8d9ac54400487fcb57a647e1384efb15d2e3f0a5c5555f\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"이 질문에 ‘A. 진실을 말한다’를 선택한 사람의 국가별 비율은 다음 페이지의 그림과 같았다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[],\"predicate\":\"is the percentage of countries\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-208\",\"bundle_hash\":\"707594395fe11158c6acdb6d6f90490d1a7795d2f7568372b46888014a829cd3\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"must have specific action methodologies\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-243\",\"bundle_hash\":\"275b66d8e8882d39487cecdf509b27f3f44a9bb39838a4e1b71137962dc97385\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"단계 3: 수주전략 수립\\n\\n| 활동(Activity) | 결과물(Output) |\\n| --- | --- |\\n| • 수주전략 초안 개발 / 리뷰<br>(리뷰된 수주전략을 Capture Plan에 포함)<br>• 수주전략의 실행계획 적용<br>• 수주전략 업데이트 및 제안 요약(Executive Summary)<br>초안 설계 | • Capture Plan 초안<br><br>• Executive Summary<br>초안 |\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"is the establishment of a bidding strategy\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"},{\"evidence_id\":\"zaije:evidence/xlsx-row-283\",\"bundle_hash\":\"a6136f89af83825cf174efbc5b4ff0058f7b5e8a962616a4177bd17ce9448ab5\",\"annotation_role\":\"DOMAIN_FIRST\",\"claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"단계 6: 섹션기획서 준비 및 작성\\n\\n| 활동(Activity) | 결과물(Output) |\\n| --- | --- |\\n| • 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이<br>작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과<br>핵심 정보를 제공해야 함<br>• 요구조건 응답표 작성, 상용 콘텐츠 준비<br>• 제안서 킥오프 미팅<br>• 섹션기획서 리뷰 | • 섹션기획서 |\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"is the preparation and writing of the section plan\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":\"\"}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_03c39d25928211bc006a528d28cefc8199ba2374b8449666bf",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_a_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2846,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1076,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3922
+  },
+  "user": null
+}

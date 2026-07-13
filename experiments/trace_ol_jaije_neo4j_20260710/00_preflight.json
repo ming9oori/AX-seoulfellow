@@ -1,0 +1,20 @@
+{
+  "actual_missing_context": 0,
+  "design_expected_input_sha256": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+  "design_expected_missing_context": 3,
+  "docker": {
+    "available": false,
+    "reason": "permission_denied_docker_socket"
+  },
+  "input_exists": true,
+  "input_hash_matches_design": false,
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "nonempty_source_rows": 1366,
+  "openai_api_key_available": false,
+  "output_writable": true,
+  "python": "3.13.13",
+  "python_supported_by_design": false,
+  "required_columns_valid": true,
+  "sheet": "clean_sentences",
+  "status": "BASELINE_DRIFT_AND_EXTERNAL_BLOCKERS"
+}

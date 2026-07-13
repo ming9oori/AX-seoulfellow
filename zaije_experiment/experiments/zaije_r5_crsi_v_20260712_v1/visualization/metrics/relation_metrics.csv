@@ -1,0 +1,5 @@
+metric,value
+relationship_count,10738
+relation_evidence_coverage,1.0
+domain_range_violation,0
+taxonomy_cycle,0

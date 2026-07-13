@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0b8f9dfe02cc6d2e006a510f595ed8819991696b18c705acff",
+  "usage": {
+    "input_tokens": 3147,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2884,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6031
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r3",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r3",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r3",
+              "text": "경쟁력 있는 제안 역량이란 차별화된 정보를 수집할 줄 아는 전문가 영업 역량, 고객의 정보를 이기는 전략으로 만들 수 있는 전략 개발 역량, 이를 고객과 소통할 줄 아는 제안서 역량, PT 역량을 의미한다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r4",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r4",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r4",
+              "text": "제안서를 잘 써야 입찰에 성공한다",
+              "start": 0,
+              "end": 25
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r6",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r6",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r6",
+              "text": "쉬플리의 조사에 따르면 고객의 제안 요청서(RFP: Request for Proposal)상의 요구조건을 100% 충족시킨 제안서라 하더라도 그 성공률은 100%가 아니라 52%라고 한다.",
+              "start": 0,
+              "end": 90
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r8",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r8",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r8",
+              "text": "아래 <그림 1>처럼 제안 요청서상 고객의 공식적인 요구조건은 실제 고객의 요구조건을 100% 모두 다루고 있지 않기 때문이다.",
+              "start": 0,
+              "end": 85
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r60",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r60",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r60",
+              "text": "그리고 그 이후에 터진 최순실 국정농단 사건은 우리 사회의 처참한 단면을 인정해야 하는 시간이었다.",
+              "start": 0,
+              "end": 70
+            },
+            "claim_family": "EVALUATIVE",
+            "claim_type": "EvaluationObservation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r69",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r69",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r69",
+              "text": "이것은 큰 의미가 있다.",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "EVALUATIVE",
+            "claim_type": "EvaluationObservation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r80",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r80",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r80",
+              "text": "그들은 투명한 거래를 위해서라면 무엇이든 포기할 의향이 있었다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r90",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r90",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r90",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r95",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r95",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r95",
+              "text": "집단주의는 개인주의(Individualism)의 상대적인 말로 개인보다는 집단의 가치와 관계를 더 중요하게 생각하는 문화적 성향을 말한다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r111",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r111",
+        "annotator": {
+          "role": "automatic",
+          "model_id": "claim-extractor-v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r111",
+              "text": "이유는 다음과 같다.",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

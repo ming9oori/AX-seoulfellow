@@ -1,0 +1,30 @@
+[
+  {
+    "file": "01_workunit_actor.svg",
+    "node_count": 80,
+    "non_empty": true,
+    "relationship_count": 45,
+    "sha256": "80ae162fcddefc3df65b8d15ef08207a2789c25fc58c9d0da5a2463657c1c171"
+  },
+  {
+    "file": "02_workunit_input_output.svg",
+    "node_count": 99,
+    "non_empty": true,
+    "relationship_count": 55,
+    "sha256": "44148a0ee7e317f93c763c85759d862b7e205d58f651de7cbdf7e986916d27f3"
+  },
+  {
+    "file": "03_process_sequence.svg",
+    "node_count": 82,
+    "non_empty": true,
+    "relationship_count": 45,
+    "sha256": "b3882bdd43186c891aa0705b36e3d85bf52839a88e7eb40d5c7d6a87f4634d02"
+  },
+  {
+    "file": "04_evidence_trace.svg",
+    "node_count": 106,
+    "non_empty": true,
+    "relationship_count": 55,
+    "sha256": "b54ddf39ee670689698cff0010d182815f3316267641680cfef962bf5d6aa6ab"
+  }
+]

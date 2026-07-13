@@ -84,6 +84,7 @@ ALLOWED_PREDICATES = [
     "HAS_DECISION_GATEWAY",
     "HAS_GUARD_CONDITION",
     "HAS_REVIEW",
+    "HAS_REVIEW_CHECKPOINT",
     "HAS_PRINCIPLE",
     "HAS_RISK",
     "FEEDS_INTO",
@@ -108,6 +109,7 @@ DOMAIN_RANGE = {
     "HAS_DECISION_GATEWAY": ({"DomainTask", "ProcedureStep"}, {"DecisionGateway"}),
     "HAS_GUARD_CONDITION": ({"DecisionGateway"}, {"GuardCondition"}),
     "HAS_REVIEW": ({"DomainTask", "ProcedureStep"}, {"ReviewCheckpoint"}),
+    "HAS_REVIEW_CHECKPOINT": ({"DomainTask", "ProcedureStep"}, {"ReviewCheckpoint"}),
     "HAS_PRINCIPLE": ({"DomainTask", "ProcedureStep"}, {"Principle"}),
     "HAS_RISK": ({"DomainTask", "ProcedureStep"}, {"Risk"}),
     "FEEDS_INTO": ({"Artifact"}, {"DomainTask", "ProcedureStep"}),
@@ -1312,7 +1314,7 @@ def build_schema():
         ("CQ5", "어떤 의사결정 지점이 존재하는가?", ["DecisionGateway", "HAS_DECISION_GATEWAY"]),
         ("CQ6", "의사결정에는 어떤 조건이나 판단 기준이 필요한가?", ["GuardCondition", "HAS_GUARD_CONDITION"]),
         ("CQ7", "산출물은 다음 업무에서 어떻게 사용되는가?", ["ArtifactFlow", "FEEDS_INTO", "USED_AS_INPUT_FOR"]),
-        ("CQ8", "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?", ["ReviewCheckpoint", "HAS_REVIEW"]),
+        ("CQ8", "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?", ["ReviewCheckpoint", "HAS_REVIEW_CHECKPOINT"]),
         ("CQ9", "각 업무에서 지켜야 할 원칙은 무엇인가?", ["Principle", "HAS_PRINCIPLE"]),
         ("CQ10", "각 지식 항목은 원문 어느 chunk/page에 근거가 있는가?", ["EvidenceAnchor", "EVIDENCED_BY"]),
         ("CQ11", "특정 업무는 어떤 NCS 능력단위와 관련되는가?", ["CANDIDATE_REQUIRES_CAPABILITY"]),
@@ -1523,6 +1525,22 @@ def first_evidence_for_label(sentences, label, fallback_ids):
     return fallback_ids[:1]
 
 
+REVIEW_CHECKPOINT_SIGNALS = (
+    "검토",
+    "리뷰",
+    "점검",
+    "확인",
+    "승인",
+    "review",
+    "checkpoint",
+)
+
+
+def is_review_checkpoint_label(label):
+    text = (label or "").lower()
+    return any(signal.lower() in text for signal in REVIEW_CHECKPOINT_SIGNALS)
+
+
 def build_procedure_and_triples(ocr, task_result):
     sentences = ocr["sentences"]
     frames = task_result["task_frames"]
@@ -1592,9 +1610,38 @@ def build_procedure_and_triples(ocr, task_result):
             steps.append(step)
             add_unique_node(nodes, node_record(step_id, label, "ProcedureStep", source="jaije_ocr", evidence_anchor_ids=evid, review_status="accepted_by_rule_pending_human_review", parent_task_id=frame["task_id"], order=order))
             add_unique_edge(edges, edge_record(frame["task_id"], "HAS_STEP", step_id, evid, 0.82))
+            if is_review_checkpoint_label(label):
+                checkpoint_id = f"REVIEW-{step_id}"
+                checkpoint_label = label if "리뷰" in label or "검토" in label else f"{label} checkpoint"
+                add_unique_node(
+                    nodes,
+                    node_record(
+                        checkpoint_id,
+                        checkpoint_label,
+                        "ReviewCheckpoint",
+                        source="jaije_ocr",
+                        evidence_anchor_ids=evid,
+                        review_status="accepted_by_rule_pending_human_review",
+                        parent_task_id=frame["task_id"],
+                        procedure_step_id=step_id,
+                        order=order,
+                    ),
+                )
+                add_unique_edge(edges, edge_record(step_id, "HAS_REVIEW_CHECKPOINT", checkpoint_id, evid, 0.76))
             if order > 1:
                 add_unique_edge(edges, edge_record(steps[order - 2]["step_id"], "PRECEDES", step_id, evid, 0.74))
-        procedures_raw.append({"procedure_id": f"PROC-{frame['task_id']}", "parent_task_id": frame["task_id"], "steps": steps, "decision_gateways": frame["decision_gateways"], "artifact_flows": []})
+        review_checkpoints = [
+            {
+                "checkpoint_id": f"REVIEW-{step['step_id']}",
+                "step_id": step["step_id"],
+                "label": step["label"] if "리뷰" in step["label"] or "검토" in step["label"] else f"{step['label']} checkpoint",
+                "order": step["order"],
+                "evidence_anchor_ids": step["evidence_anchor_ids"],
+            }
+            for step in steps
+            if is_review_checkpoint_label(step["label"])
+        ]
+        procedures_raw.append({"procedure_id": f"PROC-{frame['task_id']}", "parent_task_id": frame["task_id"], "steps": steps, "decision_gateways": frame["decision_gateways"], "review_checkpoints": review_checkpoints, "artifact_flows": []})
 
     artifact_flows = []
     for artifact_term, target_task in ARTIFACT_FLOW_RULES:
@@ -1644,7 +1691,7 @@ def build_procedure_and_triples(ocr, task_result):
 
     write_jsonl(PHASES["procedure"] / "procedure_structures_raw.jsonl", procedures_raw)
     write_jsonl(PHASES["procedure"] / "procedure_structures_clean.jsonl", procedures_raw)
-    write_jsonl(PHASES["procedure"] / "procedure_edges.jsonl", [e for e in layer2_edges if e["predicate"] in {"HAS_STEP", "PRECEDES", "HAS_DECISION_GATEWAY", "HAS_GUARD_CONDITION", "FEEDS_INTO", "USED_AS_INPUT_FOR"}])
+    write_jsonl(PHASES["procedure"] / "procedure_edges.jsonl", [e for e in layer2_edges if e["predicate"] in {"HAS_STEP", "PRECEDES", "HAS_DECISION_GATEWAY", "HAS_GUARD_CONDITION", "HAS_REVIEW_CHECKPOINT", "FEEDS_INTO", "USED_AS_INPUT_FOR"}])
     write_text(PHASES["procedure"] / "procedure_quality_report.md", procedure_report(procedures_raw, layer2_edges, nodes))
 
     evidence_anchors = list(evidence_text_lookup(ocr).values())
@@ -1978,7 +2025,7 @@ def build_visualization(layer1, layer2, mapping):
     for e in layer2["edges"]:
         edges.append(compact_edge(e, "Layer2"))
     for m in mapping["ncs"] + mapping["pcf"]:
-        pred = "CANDIDATE_REQUIRES_CAPABILITY" if m["target_type"] == "NCSCompetencyUnit" else "CANDIDATE_PROCESS_CONTEXT"
+        pred = "REQUIRES_CAPABILITY" if m["target_type"] == "NCSCompetencyUnit" else "PROCESS_CONTEXT"
         edges.append(
             {
                 "id": m["mapping_id"],
@@ -1998,7 +2045,26 @@ def build_visualization(layer1, layer2, mapping):
     write_neo4j(nodes, edges)
     write_static_svg(PHASES["visual"] / "kg_static_overview.svg", nodes, edges)
     write_viewer(PHASES["visual"] / "kg_viewer.html", graph)
-    write_text(PHASES["visual"] / "visualization_readme.md", "# Visualization Readme\n\nOpen `kg_viewer.html` in a browser. Use filters and search to inspect Layer1, Layer2, mapping, and evidence-linked edges.\n")
+    write_text(
+        PHASES["visual"] / "visualization_readme.md",
+        "# Visualization Readme\n\n"
+        "Open `kg_viewer.html` in a browser. Use filters and search to inspect Layer1, Layer2, mapping, and evidence-linked edges.\n\n"
+        "Mapping edges use the CAPE/EACL predicate names `REQUIRES_CAPABILITY` and `PROCESS_CONTEXT`.\n\n"
+        "## VS Code Remote SSH\n\n"
+        "From the repository root:\n\n"
+        "```bash\n"
+        "bash scripts/serve_kg_viewer.sh\n"
+        "```\n\n"
+        "Forward port `8765` in the VS Code Ports panel, then open:\n\n"
+        "```text\n"
+        "http://localhost:8765/outputs/09_visualization/kg_viewer.html\n"
+        "```\n\n"
+        "You can also use Command Palette -> `Simple Browser: Show` and enter the same URL.\n\n"
+        "## Other Visualization Files\n\n"
+        "- `kg_full.json`: full graph data for custom tools\n"
+        "- `kg_full.graphml`: importable into Gephi, yEd, Cytoscape, and other graph tools\n"
+        "- `kg_static_overview.svg`: static count overview\n",
+    )
     return graph
 
 
@@ -2212,7 +2278,7 @@ def build_evaluation(layer2, mapping, schema_result):
         "CQ5": ["HAS_DECISION_GATEWAY"],
         "CQ6": ["HAS_GUARD_CONDITION"],
         "CQ7": ["FEEDS_INTO", "USED_AS_INPUT_FOR"],
-        "CQ8": ["HAS_REVIEW"],
+        "CQ8": ["HAS_REVIEW_CHECKPOINT"],
         "CQ9": ["HAS_PRINCIPLE"],
         "CQ10": ["EVIDENCED_BY"],
         "CQ11": ["CANDIDATE_REQUIRES_CAPABILITY"],

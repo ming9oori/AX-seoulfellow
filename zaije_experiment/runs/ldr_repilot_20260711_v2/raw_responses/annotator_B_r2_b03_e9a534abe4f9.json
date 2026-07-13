@@ -1,0 +1,317 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783796019,
+  "created_at": 1783796002,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_06ad8b92788060b7006a52912253808198a1226715be0b7071",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-664\",\"bundle_hash\":\"8f10afd4c2986e2b41061edee4011266a404f0415021b50d1f8bf474489c846d\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"• 프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"QUESTION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"프로젝트\",\"normalized_label\":\"Project\"},{\"role\":\"condition\",\"quote\":\"각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)\",\"normalized_label\":\"Customer Interest Utility (Motivation, Core Issues)\"}],\"predicate\":\"진행되기 위해서\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-697\",\"bundle_hash\":\"6154030502d558e3da0fb28354c0db4c8d0f438a4c0520f4c8d1ba653ede63bb\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c2\",\"claim_quote\":\"• 연관(Association): 상품의 특징을 이미 고객이 좋아하고 있는 것과 연결시키는 것을 말한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"연관(Association)\",\"normalized_label\":\"Association\"},{\"role\":\"object\",\"quote\":\"상품의 특징을 이미 고객이 좋아하고 있는 것과 연결시키는 것\",\"normalized_label\":\"Connecting product features to what customer already likes\"}],\"predicate\":\"말한다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-761\",\"bundle_hash\":\"ec29b5b5bea1de6e2c1874b7bfd84cd8ccec982b92c3fa066bbfdf85f781cc66\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c3\",\"claim_quote\":\"영업대표는 반드시 글이나 말로 자신의 아이디어, 서비스, 제품을 고객이 수용하도록 설득할 수 있어야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"actor\",\"quote\":\"영업대표\",\"normalized_label\":\"Sales Representative\"},{\"role\":\"action\",\"quote\":\"설득할 수 있어야 한다\",\"normalized_label\":\"Must be able to persuade\"},{\"role\":\"object\",\"quote\":\"자신의 아이디어, 서비스, 제품을 고객이 수용하도록\",\"normalized_label\":\"Own ideas, services, products to be accepted by customer\"}],\"predicate\":\"설득할 수 있어야 한다\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-898\",\"bundle_hash\":\"36310c4fe5f4bec24c2aed6b9961af7da878bfadc10ed6a27d6aa596ca9b69da\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c4\",\"claim_quote\":\"예를 들어 고객이 어떤 문제가 있어서가 아니라 도전적이고 높은 목표를 달성하고 싶은데 통상적인 방법으로는 그 목표를 달성할 수 없어서 솔루션이 필요한 경우이다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"EXAMPLE\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"고객\",\"normalized_label\":\"Customer\"},{\"role\":\"condition\",\"quote\":\"도전적이고 높은 목표를 달성하고 싶은데 통상적인 방법으로는 그 목표를 달성할 수 없어서 솔루션이 필요한 경우\",\"normalized_label\":\"Needs solution because cannot achieve challenging high goals by usual methods\"}],\"predicate\":\"필요한 경우이다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"도전적이고 높은 목표를 달성하고 싶은데 통상적인 방법으로는 그 목표를 달성할 수 없어서 솔루션이 필요한 경우이다.\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"EXAMPLE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-956\",\"bundle_hash\":\"5aadbee86e6370fb2465d2be230130bfd60e9ce5ecd0b716679cab0b4481abad\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c5\",\"claim_quote\":\"예를 들면 최근에 은행을 상대로 IT 시스템을 구축하는 프로젝트를 할 때 최근의 이슈가 되고 있는 인공지능 (AI), 사물인터넷(IoT), 빅데이터 등을 다루는 것은 고객에게 차별화된 솔루션을 제공한다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"EXAMPLE\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"최근에 은행을 상대로 IT 시스템을 구축하는 프로젝트를 할 때\",\"normalized_label\":\"Recent IT system project for banks\"},{\"role\":\"object\",\"quote\":\"인공지능 (AI), 사물인터넷(IoT), 빅데이터 등을 다루는 것\",\"normalized_label\":\"Handling AI, IoT, Big Data\"},{\"role\":\"output\",\"quote\":\"고객에게 차별화된 솔루션\",\"normalized_label\":\"Differentiated solution for customer\"}],\"predicate\":\"제공한다\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"EXAMPLE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_06ad8b92788060b7006a529122db988198a073427c063de703",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_b_r2",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "enum": [
+                                "subject",
+                                "action",
+                                "object",
+                                "input",
+                                "output",
+                                "actor",
+                                "criterion",
+                                "value",
+                                "condition",
+                                "exception",
+                                "scope",
+                                "source"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3165,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1381,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4546
+  },
+  "user": null
+}

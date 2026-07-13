@@ -1,0 +1,309 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "47f3a81ef8f472693ecb871471e79aa32f91c1c92a2a6efcea4ca342c0ef08c1",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "High-end Market",
+                "quote": "부가가치가 높은 시장(High-end Market)",
+                "role": "defined_concept"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "부가가치가 높은 시장(High-end Market)을 의미한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "means",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-408",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "220e05c8e3d27dfc6cdfc6514669664c5da20ed341dbefe76d2c494a9c36f253",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "TEMPLATE_INSTRUCTION",
+            "claim_local_id": "c1",
+            "claim_quote": "7. 제안 전략 수립예시",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is example of",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-477",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "7cad31f185f0215610674c76286be961d05ad976489ee6f7ffa9161b5fba8df0",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "cost reduction solution",
+                "quote": "비용 절감을 위한 맞춤 솔루션",
+                "role": "effect"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "PC Doc TM은 모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는 비용 절감을 위한 맞춤 솔루션임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "enable focus on core business",
+                "quote": "고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는",
+                "role": "effect"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "PC Doc TM은 고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는 솔루션임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "3 partner organizations",
+                "quote": "3개의 제휴 조직",
+                "role": "supporting_organizations"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "PC Doc TM의 서비스 폭이 제한적이어서 문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "has_limited_service_scope_and_is_supported_by",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c4",
+            "claim_quote": "PC Doc TM은 기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는 솔루션으로 단기간에 모든 시스템을 통일시키는 것이 아님.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_solution_that_does_not_unify_all_systems_quickly",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "Wanso Hospital IT department",
+                "quote": "완소병원의 IT 부문",
+                "role": "operator"
+              },
+              {
+                "normalized_label": "Pink Panther",
+                "quote": "핑크팬더",
+                "role": "supporting_actor"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c5",
+            "claim_quote": "PC Doc TM의 성격이 소프트웨어이기 때문에 운영주체는 핑크팬더라기보다는 완소병원의 IT 부문임을 강조, 핑크팬더는 IT 부문이 완소병원 IT 시스템을 잘 운영할 수 있도록 도와주는 조력자임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_software_operated_by_and_supported_by",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-489",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "faa390eb316aefe8dcd27691308c9cc0d8dc4af31c2a3bb1fa150c1ad26aecb4",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Value Proposition",
+                "quote": "가치제안",
+                "role": "defined_concept"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "가치제안이란 고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것을 보여주는 것이다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Value Proposition",
+                "quote": "가치제안",
+                "role": "defined_concept"
+              },
+              {
+                "normalized_label": "Competitor",
+                "quote": "경쟁자",
+                "role": "comparison_target"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c2",
+            "claim_quote": "경쟁자에 비해서 우리가 제안하는 솔루션의 비용 대비 효용이 더 크다는 것을 보여주는 것이다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "shows_that_solution_value_minus_cost_is_greater_than_competitor",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": "대부분의 시장에서는 다음과 같이 바뀐다.",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-497",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "cc92d9a8c0b50d7764a5f7d5827aecff1b146efca361da4c8ff76b691af65106",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Shipley Consulting",
+                "quote": "쉬플리 컨설팅",
+                "role": "actor"
+              },
+              {
+                "normalized_label": "customer organization's decision makers and influencers",
+                "quote": "고객조직의 의사결정자와 영향자",
+                "role": "object"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "쉬플리 컨설팅은 고객조직의 의사결정자와 영향자를 정의하면서 시작한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "starts_by_defining",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-526",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r1_b04_f5a161bf0b37.json",
+  "response_id": "resp_029a9d92b661d9ff006a528dcd5160819a90c4c5ed3f0dfe02",
+  "usage": {
+    "input_tokens": 3025,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1960,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4985
+  }
+}

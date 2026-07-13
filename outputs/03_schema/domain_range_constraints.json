@@ -89,6 +89,16 @@
     ]
   },
   {
+    "predicate": "HAS_REVIEW_CHECKPOINT",
+    "subject_types": [
+      "DomainTask",
+      "ProcedureStep"
+    ],
+    "object_types": [
+      "ReviewCheckpoint"
+    ]
+  },
+  {
     "predicate": "HAS_PRINCIPLE",
     "subject_types": [
       "DomainTask",

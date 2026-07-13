@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_09a21254043b77a0006a51155aace48198ba14768fc8700118",
+  "usage": {
+    "input_tokens": 2174,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 990,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3164
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r594",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r594",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_v1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r594",
+              "text": "제안서 전체의 핵심 내용을 요약해서 알기 쉽게 제시하고 프레젠테이션과 Q&A를 통해서 통합적인 평가자의 신뢰감을 확보해야 한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r611",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r611",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_v1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r611",
+              "text": "3. 설명한 것처럼 평가위원회의 정규분포에서 벗어난다는 것은 위험한 일이다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r664",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r664",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_v1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r664",
+              "text": "• 프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1008",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1008",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_v1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1008",
+              "text": "•우리 조직과 경쟁사에 대한 평가가 정확한가?",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1009",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1009",
+        "annotator": {
+          "role": "A",
+          "model_id": "model_v1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1009",
+              "text": "• 고객의 입장을 충분히 고려했는가, 아니면 우리의 입장에서 평가했는가?",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

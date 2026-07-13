@@ -1,0 +1,41 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "confidence": {
+      "enum": [
+        "HIGH",
+        "MEDIUM",
+        "LOW"
+      ],
+      "type": "string"
+    },
+    "decision": {
+      "enum": [
+        "SAME_CONCEPT",
+        "RELATED_NOT_SAME",
+        "DIFFERENT_CONCEPT",
+        "UNDERDETERMINED"
+      ],
+      "type": "string"
+    },
+    "reason_code": {
+      "enum": [
+        "EXACT_MEANING",
+        "TYPE_ROLE_MATCH",
+        "CONTEXT_MATCH",
+        "RELATED_ONLY",
+        "TYPE_CONFLICT",
+        "INSUFFICIENT_EVIDENCE",
+        "REGISTERED_RELATION",
+        "NO_REGISTERED_RELATION"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "decision",
+    "confidence",
+    "reason_code"
+  ],
+  "type": "object"
+}

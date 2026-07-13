@@ -1,0 +1,1 @@
+{"adopted": false, "distinct_section_support": 1, "id": "lf:distilled:openai:001", "matched_cues": [], "predicate": "HAS_STAGE", "reason": "separate rule-validation precision and counterexamples unavailable", "source_claim_ids": ["claim:05e6cce4eeaa9f7fa9c93e7aa3d58f88"], "status": "NeedsRuleValidation", "support": 1}

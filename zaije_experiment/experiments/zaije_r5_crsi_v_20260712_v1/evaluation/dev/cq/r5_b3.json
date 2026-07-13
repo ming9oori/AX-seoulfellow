@@ -1,0 +1,27 @@
+{
+  "answerability": 1.0,
+  "provenance_precision": 1.0,
+  "questions": [
+    {
+      "answerable": true,
+      "cq_id": "CQ5_1_CONCEPT_ALIAS"
+    },
+    {
+      "answerable": true,
+      "cq_id": "CQ5_2_PROCESS"
+    },
+    {
+      "answerable": true,
+      "cq_id": "CQ5_3_RULE_CONSTRAINT"
+    },
+    {
+      "answerable": true,
+      "cq_id": "CQ5_4_TEMPLATE_FIELD"
+    },
+    {
+      "answerable": true,
+      "cq_id": "CQ5_5_EVIDENCE_TRACE"
+    }
+  ],
+  "unsupported_answer_rate": 0.0
+}

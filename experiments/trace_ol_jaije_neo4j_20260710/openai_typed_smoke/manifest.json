@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-07-10T01:50:00+00:00",
+  "design_file": "/home/minjoo/AX_서울펠로우/TRACE_OL_자이제_Neo4j_전체실험_설계서.md",
+  "design_sha256": "0025dfc19f47eaa63ad3b1eb629a8289024c30e664430b2823d7055d02caf81a",
+  "endpoint": "responses.create",
+  "input_file": "/home/minjoo/AX_서울펠로우/handoff-hanyang/수주제안/자이제_1.xlsx",
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "max_candidates": 1,
+  "model": "gpt-4o-mini-2024-07-18",
+  "prompt_hash": "780f41e5fcdcf5e474b5395b09af952c74967f37ebdabb4eba660e51f5bbd16a",
+  "queue_source": "typed_audit",
+  "repeats": 1,
+  "run_id": "run:20260710T015000Z:P1_TYPED_SMOKE:a9482ce",
+  "seed": 20260710
+}

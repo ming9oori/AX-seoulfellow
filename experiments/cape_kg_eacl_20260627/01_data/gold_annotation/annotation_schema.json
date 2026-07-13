@@ -1,0 +1,39 @@
+{
+  "annotation_file_type": "jsonl",
+  "required_chunk_fields": [
+    "chunk_id",
+    "chunk_text",
+    "gold_nodes",
+    "gold_edges",
+    "annotation_status"
+  ],
+  "gold_node_fields": [
+    "node_id",
+    "type",
+    "label",
+    "evidence"
+  ],
+  "gold_edge_fields": [
+    "source_id",
+    "source_label",
+    "source_type",
+    "predicate",
+    "target_id",
+    "target_label",
+    "target_type",
+    "evidence_anchor_ids",
+    "evidence_spans",
+    "decision"
+  ],
+  "completed_status_values": [
+    "completed",
+    "needs_adjudication"
+  ],
+  "paper_claim_requires": [
+    "100+ completed/adjudicated chunks",
+    "500+ adjudicated node/edge/evidence items",
+    "two annotators",
+    "IAA report",
+    "adjudicated gold file"
+  ]
+}

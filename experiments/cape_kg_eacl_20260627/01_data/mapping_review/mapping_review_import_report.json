@@ -1,0 +1,32 @@
+{
+  "generated_at_utc": "2026-06-27T20:04:34.382734+00:00",
+  "mode": "dry_run",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "target_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+  "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+  "allow_partial": false,
+  "original_rows": 220,
+  "reviewed_rows": 220,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "changed_rows": 0,
+    "completed_rows": 0,
+    "pending_rows": 220,
+    "decision_counts": {
+      "blank": 220
+    },
+    "grade_counts": {
+      "blank": 220
+    },
+    "status_counts_by_standard": {
+      "NCS": {
+        "pending_expert_review": 110
+      },
+      "PCF": {
+        "pending_expert_review": 110
+      }
+    }
+  },
+  "status": "validated_dry_run"
+}

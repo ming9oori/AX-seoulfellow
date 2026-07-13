@@ -1,0 +1,220 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "8f10afd4c2986e2b41061edee4011266a404f0415021b50d1f8bf474489c846d",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "project",
+                "quote": "프로젝트",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "to proceed",
+                "quote": "진행되기 위해서",
+                "role": "action"
+              },
+              {
+                "normalized_label": "utility (motivation, key issues) that customers show interest in at each stage",
+                "quote": "각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is about",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-664",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "6154030502d558e3da0fb28354c0db4c8d0f438a4c0520f4c8d1ba653ede63bb",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "association",
+                "quote": "연관(Association)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "to connect",
+                "quote": "연결시키는 것을 말한다",
+                "role": "action"
+              },
+              {
+                "normalized_label": "features of the product that customers already like",
+                "quote": "상품의 특징을 이미 고객이 좋아하고 있는 것과",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "연관(Association): 상품의 특징을 이미 고객이 좋아하고 있는 것과 연결시키는 것을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-697",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "ec29b5b5bea1de6e2c1874b7bfd84cd8ccec982b92c3fa066bbfdf85f781cc66",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "sales representative",
+                "quote": "영업대표",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "must be able to persuade",
+                "quote": "설득할 수 있어야 한다",
+                "role": "action"
+              },
+              {
+                "normalized_label": "for customers to accept",
+                "quote": "고객이 수용하도록",
+                "role": "object"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "영업대표는 반드시 글이나 말로 자신의 아이디어, 서비스, 제품을 고객이 수용하도록 설득할 수 있어야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-761",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "36310c4fe5f4bec24c2aed6b9961af7da878bfadc10ed6a27d6aa596ca9b69da",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "not because the customer has a problem",
+                "quote": "고객이 어떤 문제가 있어서가 아니라",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "wants to achieve",
+                "quote": "달성하고 싶은데",
+                "role": "action"
+              },
+              {
+                "normalized_label": "challenging and high goals",
+                "quote": "도전적이고 높은 목표",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "예를 들어 고객이 어떤 문제가 있어서가 아니라 도전적이고 높은 목표를 달성하고 싶은데 통상적인 방법으로는 그 목표를 달성할 수 없어서 솔루션이 필요한 경우이다.",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is an example of",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-898",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "5aadbee86e6370fb2465d2be230130bfd60e9ce5ecd0b716679cab0b4481abad",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "project to build IT systems",
+                "quote": "IT 시스템을 구축하는 프로젝트",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "dealing with",
+                "quote": "다루는 것은",
+                "role": "action"
+              },
+              {
+                "normalized_label": "AI, IoT, big data",
+                "quote": "인공지능 (AI), 사물인터넷(IoT), 빅데이터 등을",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "예를 들면 최근에 은행을 상대로 IT 시스템을 구축하는 프로젝트를 할 때 최근의 이슈가 되고 있는 인공지능 (AI), 사물인터넷(IoT), 빅데이터 등을 다루는 것은 고객에게 차별화된 솔루션을 제공한다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "provides",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-956",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r1_b03_fd228dc54479.json",
+  "response_id": "resp_07358ea9eba71fb2006a529027cfc081988e44fddefe0990f2",
+  "usage": {
+    "input_tokens": 3139,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1307,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4446
+  }
+}

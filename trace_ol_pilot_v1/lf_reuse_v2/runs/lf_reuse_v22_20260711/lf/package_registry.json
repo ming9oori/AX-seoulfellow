@@ -1,0 +1,160 @@
+[
+  {
+    "package_id": "lfpkg:v22:question",
+    "pattern": "\\?|？",
+    "name": "explicit_question",
+    "prediction": {
+      "claim_type": "Question",
+      "modality": "NONE",
+      "polarity": "NONE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 5,
+    "validation_correct": 5,
+    "validation_precision": 1.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r206",
+      "ev:jaije:clean_sentences:r662",
+      "ev:jaije:clean_sentences:r854",
+      "ev:jaije:clean_sentences:r991",
+      "ev:jaije:clean_sentences:r1010"
+    ],
+    "status": "ACTIVE",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:obligation",
+    "pattern": "해야\\s*(?:한다|합니다)|하여야\\s*(?:한다|합니다)",
+    "name": "explicit_obligation",
+    "prediction": {
+      "claim_family": "NORMATIVE",
+      "claim_type": "Obligation",
+      "modality": "MUST",
+      "polarity": "POSITIVE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:prohibition",
+    "pattern": "하지\\s*말아야|해서는\\s*안|금지(?:한다|된다)",
+    "name": "explicit_prohibition",
+    "prediction": {
+      "claim_family": "NORMATIVE",
+      "claim_type": "Prohibition",
+      "modality": "MUST_NOT",
+      "polarity": "NEGATIVE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:observational_case_none",
+    "pattern": "경우가|경우에는|경우도|경우는",
+    "name": "observational_case_none",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "DescriptiveFact",
+      "modality": "NONE",
+      "polarity": "POSITIVE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r166"
+    ],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:observational_case_descriptive",
+    "pattern": "경우가|경우에는|경우도|경우는",
+    "name": "observational_case_descriptive",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "DescriptiveFact",
+      "modality": "DESCRIPTIVE",
+      "polarity": "POSITIVE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r166"
+    ],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:example",
+    "pattern": "예를\\s*들어|예시(?:로|는|가)|Shipley\\s*Tip",
+    "name": "explicit_example",
+    "prediction": {
+      "claim_type": "Example",
+      "modality": "NONE",
+      "polarity": "NONE",
+      "promotion_target": "NONE"
+    },
+    "risk": "HIGH",
+    "validation_support": 2,
+    "validation_correct": 1,
+    "validation_precision": 0.5,
+    "min_validation_support": 2,
+    "min_validation_precision": 1.0,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r978",
+      "ev:jaije:clean_sentences:r991"
+    ],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  },
+  {
+    "package_id": "lfpkg:v22:definition",
+    "pattern": "이란|라고\\s*정의|의미한다",
+    "name": "explicit_definition",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "Definition",
+      "modality": "NONE",
+      "polarity": "POSITIVE",
+      "promotion_target": "NONE"
+    },
+    "risk": "STANDARD",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_support": 2,
+    "min_validation_precision": 0.9,
+    "validation_evidence_ids": [],
+    "status": "REJECTED_VALIDATION",
+    "scope": "document_local"
+  }
+]

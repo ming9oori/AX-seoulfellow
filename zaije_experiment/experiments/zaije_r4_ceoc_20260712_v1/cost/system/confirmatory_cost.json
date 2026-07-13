@@ -1,0 +1,25 @@
+{
+  "R4-B0": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "requests": 0
+  },
+  "R4-B1": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "requests": 0
+  },
+  "R4-B2": {
+    "cached_input_tokens": 0,
+    "input_tokens": 13718,
+    "output_tokens": 1353,
+    "requests": 29
+  },
+  "R4-B3": {
+    "cached_input_tokens": 0,
+    "input_tokens": 72084,
+    "output_tokens": 6876,
+    "requests": 146
+  },
+  "b2_token_ratio_to_b3": 0.19086879432624113
+}

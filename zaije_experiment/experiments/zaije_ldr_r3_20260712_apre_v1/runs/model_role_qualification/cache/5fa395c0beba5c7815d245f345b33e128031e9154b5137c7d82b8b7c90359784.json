@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "SUPPORTED",
+    "proposal_id": "zaije:evidence/xlsx-row-1045_A08::GENERALIZABLE_RULE"
+  },
+  "raw_response_path": "raw_responses/primary_facet_C03_r2_GENERALIZABLE_RULE_02_5fa395c0beba.json",
+  "response_id": "resp_0afebe7adf9d3aee006a5320c4ac58819ba2b96c9911b47788",
+  "usage": {
+    "input_tokens": 698,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 27,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 725
+  }
+}

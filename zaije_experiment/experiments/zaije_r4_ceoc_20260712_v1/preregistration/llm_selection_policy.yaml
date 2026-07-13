@@ -1,0 +1,11 @@
+closed_choice_only: true
+free_quote_generation: false
+free_concept_generation: false
+free_relation_generation: false
+model_candidates: [gpt-4.1-2025-04-14]
+budget_sweep: [0.0, 0.05, 0.10, 0.20, 0.40, 1.0]
+provisional_b2_budget: 0.20
+max_same_candidate_type: 0.35
+deterministic_exploration: 0.05
+dev_request_cap: 500
+confirmatory_request_cap: 1200

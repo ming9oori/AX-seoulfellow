@@ -1,0 +1,765 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.383241+00:00",
+  "claim_status": "revised_plan_section_status_ready_not_submission_complete",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "summary": {
+    "section_count": 14,
+    "section_evidence_missing_count": 0,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "claim_gate_optional_failure_count": 2,
+    "pre_human_handoff_status": "PASS",
+    "pre_human_handoff_checks": 92,
+    "pre_human_handoff_pass": 91,
+    "pre_human_handoff_warn": 1,
+    "pre_human_handoff_fail": 0,
+    "checklist_item_count": 20,
+    "completion_proven_item_count": 11,
+    "human_blocked_item_count": 9,
+    "minimum_human_blocker_count": 4,
+    "strong_or_optional_human_blocker_count": 4,
+    "method_module_count": 11,
+    "method_modules_missing_required": 0,
+    "minimum_return_files_required": 11,
+    "minimum_return_files_present": 0,
+    "required_return_files": 14,
+    "required_return_files_present": 0,
+    "master_return_files": 16,
+    "master_return_files_present": 0
+  },
+  "section_rows": [
+    {
+      "section_id": "S01",
+      "plan_section": "1. 결론 요약",
+      "current_status": "method_and_infrastructure_ready_claim_gated",
+      "what_is_done": "CAPE-KG task framing, Layer 1/Layer 2 KG construction, evidence grounding, baseline/ablation/release scaffolds are prepared.",
+      "key_numbers": "pre-human checks=92; claim gate=FAIL; method modules=11/11",
+      "claim_boundary": "최종 성능 claim은 human-gold annotation, IAA, adjudication, P_cape_kg_actual human-gold scoring 이후에만 가능하다.",
+      "next_action": "사람 검수 반환 전까지는 KG 구축 완료와 최종 성능 claim 미완료를 분리해 보고한다.",
+      "evidence_files": [
+        "AX_EACL_submission_review_revised_plan.md",
+        "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+        "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.md",
+        "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S02",
+      "plan_section": "2. EACL 제출 적합성 판단",
+      "current_status": "submission_policy_scaffold_ready_not_submission_ready",
+      "what_is_done": "ARR/EACL policy checklist, anonymization prep, responsible NLP prep, timeline board are present.",
+      "key_numbers": "submission_ready=False; minimum return files=0/11",
+      "claim_boundary": "제출 가능 판단은 최종 paper claim gate가 열린 뒤 다시 해야 한다.",
+      "next_action": "human return 이후 policy checklist와 anonymization scan을 다시 실행한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+        "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+        "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.md",
+        "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S03",
+      "plan_section": "3. Accept 가능성 판단",
+      "current_status": "risk_register_ready_with_open_human_gates",
+      "what_is_done": "Reviewer risk register and claim-language guardrails separate safe method claims from blocked performance claims.",
+      "key_numbers": "required gate failures=4; optional gate failures=2",
+      "claim_boundary": "최종 성능 claim은 human-gold annotation, IAA, adjudication, P_cape_kg_actual human-gold scoring 이후에만 가능하다.",
+      "next_action": "교수님 보고에서는 accept 가능성을 현재 결과가 아니라 남은 gate 기준으로 설명한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+        "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+        "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.md"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S04",
+      "plan_section": "4. 관련 연구 대비 포지셔닝",
+      "current_status": "positioning_and_baseline_traceability_ready",
+      "what_is_done": "Related-work baseline traceability maps EDC/SAC-KG/Taxonomy-RAG-style baselines to local artifacts.",
+      "key_numbers": "baseline family coverage includes B0-B6 plus CAPE-KG and ablations.",
+      "claim_boundary": "선행연구 대비 성능 우위는 human-gold score 이후에만 주장한다.",
+      "next_action": "논문 본문에는 차별점과 구현 범위를 분리해 쓴다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.md",
+        "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+        "experiments/cape_kg_eacl_20260627/06_release/ablation_coverage_report.md"
+      ],
+      "evidence_file_count": 3,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S05",
+      "plan_section": "5. 수정된 핵심 연구 질문",
+      "current_status": "rq_evidence_matrix_ready",
+      "what_is_done": "RQ1-RQ4 are linked to evidence files, metrics, and human/expert gates.",
+      "key_numbers": "RQ count=4; final claim-ready RQ count remains gated by human/expert evidence.",
+      "claim_boundary": "RQ별 final answer는 adjudicated human-gold와 expert review 이후 확정한다.",
+      "next_action": "발표에서는 RQ를 task/evidence/mapping/review-efficiency 네 축으로 설명한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+        "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md",
+        "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md"
+      ],
+      "evidence_file_count": 3,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S06",
+      "plan_section": "6. 수정된 방법론: CAPE-KG",
+      "current_status": "m1_m11_artifacts_present_human_claim_pending",
+      "what_is_done": "M1-M11 executable artifacts are present; human-dependent modules keep claim gates open.",
+      "key_numbers": "modules=11/11; human-dependent=8",
+      "claim_boundary": "방법론 구성은 설명 가능하지만, 모듈별 성능 효과는 human-gold 비교 후 주장한다.",
+      "next_action": "M3-M11의 human-dependent claim boundary를 논문 표와 본문에 유지한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+        "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+        "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md"
+      ],
+      "evidence_file_count": 3,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S07",
+      "plan_section": "7. 온톨로지 스키마 수정안",
+      "current_status": "schema_rdf_shacl_and_evidence_projection_ready",
+      "what_is_done": "Node/edge schema, CQ queries, RDF/SHACL-style export, EvidenceAnchor projection are present.",
+      "key_numbers": "Layer 2 nodes/edges and evidence anchors are structurally validated; SHACL-style validation is PASS.",
+      "claim_boundary": "schema conformance is structural evidence, not human correctness evidence.",
+      "next_action": "schema terms should stay synchronized with CQ and prompt traceability.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+        "experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl",
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+        "outputs/13_evidence_graph/evidence_graph_projection_report.md"
+      ],
+      "evidence_file_count": 5,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S08",
+      "plan_section": "8. 데이터 및 annotation 계획",
+      "current_status": "annotation_packet_ready_pending_human_returns",
+      "what_is_done": "Human-review packets, annotation guideline, batch assignment, and packet integrity checks are ready.",
+      "key_numbers": "minimum chunks=100; candidate edges=1371; required reviewed files=0/14",
+      "claim_boundary": "annotation package readiness does not create gold labels.",
+      "next_action": "A/B annotator files and adjudication file must be returned before scoring.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+        "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_claim_gate_one_page_ko.md"
+      ],
+      "evidence_file_count": 5,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "gold.completed_chunks;gold.item_count;gold.iaa",
+      "blocking_gate_statuses": "gold.completed_chunks:unknown;gold.item_count:unknown;gold.iaa:unknown",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S09",
+      "plan_section": "9. 실험 설계",
+      "current_status": "baseline_ablation_public_benchmark_diagnostics_ready",
+      "what_is_done": "B0-B6, proposed, ablations, model-scaling diagnostics, public benchmark adapters, and paper tables are present.",
+      "key_numbers": "actual LLM conditions cover the 120-row evaluation set; diagnostic tables are claim-safe until human-gold scoring.",
+      "claim_boundary": "silver/proxy diagnostics must not be reported as final F1/P@K evidence.",
+      "next_action": "human-gold and expert-return refresh will populate final main result cells.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/ablation_coverage_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+        "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evidence_file_count": 5,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "llm.proposed_human_gold_score;mapping.expert_review;crosswalk.expert_review",
+      "blocking_gate_statuses": "llm.proposed_human_gold_score:unknown;mapping.expert_review:unknown;crosswalk.expert_review:unknown",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S10",
+      "plan_section": "10. 논문 contribution 문장 수정안",
+      "current_status": "contribution_traceability_ready_pending_final_scores",
+      "what_is_done": "Contribution claims are linked to current evidence, RQs, reviewer risks, and claim gates.",
+      "key_numbers": "three contribution lines are supportable as task/method/resource framing, not final performance superiority.",
+      "claim_boundary": "최종 성능 claim은 human-gold annotation, IAA, adjudication, P_cape_kg_actual human-gold scoring 이후에만 가능하다.",
+      "next_action": "논문 introduction에서는 contribution claim을 gate-safe wording으로 유지한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md",
+        "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+        "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md"
+      ],
+      "evidence_file_count": 3,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S11",
+      "plan_section": "11. EACL 제출용 논문 구조",
+      "current_status": "draft_and_section_source_map_ready_not_submission_ready",
+      "what_is_done": "EACL paper draft has section anchors and a source map with zero missing evidence files.",
+      "key_numbers": "sections=16/16; missing evidence=0; human/expert blocked sections=6",
+      "claim_boundary": "draft is claim-safe but safe_to_use_as_submission is false.",
+      "next_action": "human returns 이후 Dataset/Experiments/Analysis/Conclusion sections를 final result로 갱신한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md",
+        "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md"
+      ],
+      "evidence_file_count": 3,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S12",
+      "plan_section": "12. Reviewer 관점의 예상 질문과 대응",
+      "current_status": "reviewer_response_pack_ready_with_open_risks",
+      "what_is_done": "Reviewer risks, response prep, release/ethics statements, and public-safe mitigation are prepared.",
+      "key_numbers": "open risks include human gold, mapping review, crosswalk utility, active-review effort, and overclaiming.",
+      "claim_boundary": "reviewer 답변도 final scores가 아니라 current gate status에 맞춰야 한다.",
+      "next_action": "human/expert returns 이후 open risk IDs를 닫고 reviewer response를 갱신한다.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.md",
+        "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+        "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+        "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    },
+    {
+      "section_id": "S13",
+      "plan_section": "13. EACL 제출 전 필수 체크리스트",
+      "current_status": "automatic_items_pass_human_items_pending",
+      "what_is_done": "The checklist is audited item-by-item; automatic-stage evidence is present and human-gated rows remain open.",
+      "key_numbers": "checklist items=20; proven automatic=11; human blocked=9",
+      "claim_boundary": "minimum accept checklist is not complete until gold chunks/items/IAA/proposed scoring are complete.",
+      "next_action": "11 minimum paper-gate return files must be completed before final main table.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+        "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "gold.completed_chunks;gold.item_count;gold.iaa;llm.proposed_human_gold_score",
+      "blocking_gate_statuses": "gold.completed_chunks:unknown;gold.item_count:unknown;gold.iaa:unknown;llm.proposed_human_gold_score:unknown",
+      "minimum_blocked_checklist_ids": "min.gold_chunks;min.gold_items;min.iaa;min.proposed"
+    },
+    {
+      "section_id": "S14",
+      "plan_section": "14. 수정된 일정안",
+      "current_status": "timeline_action_board_ready_human_execution_pending",
+      "what_is_done": "Timeline/action board and human gate action plan identify the critical path and return files.",
+      "key_numbers": "required claim return files=0/14; master return files=0/16",
+      "claim_boundary": "schedule risk remains dominated by human annotation/adjudication and expert reviews.",
+      "next_action": "first priority is annotator A/B batch returns, then adjudication, then APPLY_IMPORTS=1 refresh.",
+      "evidence_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+        "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md"
+      ],
+      "evidence_file_count": 4,
+      "missing_evidence_files": [],
+      "evidence_files_present": true,
+      "blocking_gate_ids": "",
+      "blocking_gate_statuses": "",
+      "minimum_blocked_checklist_ids": ""
+    }
+  ],
+  "checklist_rows": [
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_chunks",
+      "status": "pending_human",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "human_required_not_complete",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_items",
+      "status": "pending_human",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "human_required_not_complete",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.iaa",
+      "status": "pending_human",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "human_required_not_complete",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_sampling_ready",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; priority-100 sampling covers 1371/1436 full-120 candidate edges (0.9547), active-review coverage=0.9670, high-impact coverage=1.0000. Human annotation/adjudication still required."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.baselines",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; keep baseline artifacts synchronized."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.proposed",
+      "status": "partial",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.ablations",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; ablation coverage satisfies the minimum gate."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.error_analysis",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; update only if new diagnostics change."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_subset",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; public subset evidence is present."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.release_plan",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; regenerate only after source artifacts change."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.limitations",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; keep limitations synchronized with future human results."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_synthetic_examples",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; synthetic public-safe examples are ready."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_chunks",
+      "status": "pending_human",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "human_required_not_complete",
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_items",
+      "status": "pending_human",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "human_required_not_complete",
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.public_cross",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; cross-check includes PAGED >= 100 and Text2KG >= 200 in a single run."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.edc_taxonomy_baselines",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; B3/B4/B6 family baseline artifacts are present."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.mapping_downstream",
+      "status": "partial",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.active_review",
+      "status": "partial",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.visualization",
+      "status": "pass",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "proof_state": "proven_for_current_automatic_stage",
+      "next_step": "No additional automatic step required; keep the viewer synchronized with future graph updates."
+    },
+    {
+      "scope": "method_modules",
+      "id": "method.m1_m11",
+      "status": "partial",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "next_step": "All executable module artifacts are present; human-review and human-gold scoring evidence remains required for final paper claims."
+    }
+  ],
+  "method_rows": [
+    {
+      "module": "M1",
+      "name": "Document structure recovery",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 5,
+      "missing_required": 0,
+      "human_dependent": false,
+      "remaining_for_claim": "No additional automatic step required; source-text release still requires rights review."
+    },
+    {
+      "module": "M2",
+      "name": "CQ generation and selection",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 7,
+      "missing_required": 0,
+      "human_dependent": false,
+      "remaining_for_claim": "Human-gold CQ answerability must be recomputed after adjudication."
+    },
+    {
+      "module": "M3",
+      "name": "CQ-linked schema retrieval",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 8,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Final claim requires human-gold comparison of P vs. schema-retrieval ablation."
+    },
+    {
+      "module": "M4",
+      "name": "Procedural frame extraction",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 6,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Human review should verify task/step correctness before final claims."
+    },
+    {
+      "module": "M5",
+      "name": "Evidence-span constrained triple extraction",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 28,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Component-level span diagnostics are present; character/span exactness must still be validated against adjudicated human gold."
+    },
+    {
+      "module": "M6",
+      "name": "Span verifier",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 15,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Current verifier evidence is silver/proxy; human-gold evidence metrics are pending."
+    },
+    {
+      "module": "M7",
+      "name": "Ontology/SHACL validator",
+      "status": "implemented_artifacts_present",
+      "required_artifacts": 10,
+      "missing_required": 0,
+      "human_dependent": false,
+      "remaining_for_claim": "No additional automatic step required; final conformance table should use human-gold predictions."
+    },
+    {
+      "module": "M8",
+      "name": "Procedural consistency validator",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 19,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Human-gold procedural consistency should be recomputed after adjudication."
+    },
+    {
+      "module": "M9",
+      "name": "Alias/canonicalization module",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 7,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Final node canonicalization quality requires human-gold node matching."
+    },
+    {
+      "module": "M10",
+      "name": "Active review queue",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 18,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "Active-review ablation is represented with silver/proxy diagnostics; final efficiency claim requires human adjudication outcomes and reviewer effort/timing."
+    },
+    {
+      "module": "M11",
+      "name": "NCS/PCF mapping evaluator",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "required_artifacts": 13,
+      "missing_required": 0,
+      "human_dependent": true,
+      "remaining_for_claim": "P@K/MRR/nDCG@10, explanation-quality, crosswalk accept-rate, and utility claims require completed expert review."
+    }
+  ],
+  "return_rows": [
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_002",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_003",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_004",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_005",
+      "expected_rows": 20,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl"
+    },
+    {
+      "minimum": "yes",
+      "task": "human_gold_adjudication",
+      "owner": "adjudicator",
+      "batch_or_group": "full_120_adjudication",
+      "expected_rows": 120,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+    },
+    {
+      "minimum": "no",
+      "task": "mapping_expert_review",
+      "owner": "mapping_expert",
+      "batch_or_group": "top20_groups_top5_rows",
+      "expected_rows": 100,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl"
+    },
+    {
+      "minimum": "no",
+      "task": "crosswalk_expert_review",
+      "owner": "crosswalk_expert",
+      "batch_or_group": "ncs_pcf_crosswalk_candidates",
+      "expected_rows": 220,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl"
+    },
+    {
+      "minimum": "no",
+      "task": "active_review_human_effort",
+      "owner": "active_reviewer",
+      "batch_or_group": "pooled_active_uncertainty_random",
+      "expected_rows": 204,
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv"
+    }
+  ],
+  "source_artifacts": {
+    "revised_plan_completion_audit": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.json",
+    "claim_gate_report": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+    "human_gate_action_plan": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+    "paper_section_source_map": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.json",
+    "method_module_coverage": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+    "human_review_packet_integrity": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json",
+    "eacl_plan_compliance_matrix": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json"
+  },
+  "output_files": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.json",
+    "csv": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.csv",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.md"
+  }
+}

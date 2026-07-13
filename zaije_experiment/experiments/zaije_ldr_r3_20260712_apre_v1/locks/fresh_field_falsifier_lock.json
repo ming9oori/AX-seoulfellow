@@ -1,0 +1,9 @@
+{
+  "batch_input_sha256": "6f208ad9385658bd5165e20901be9ff6903c0c19e5ec67ff8f60a0b651fdcf17",
+  "model_snapshot": "gpt-4o-mini-2024-07-18",
+  "phase": "fresh_field_falsifier",
+  "prompt_sha256": "91595e7127fdb1f4c68f552390575e5605d8169a132f10ee549d9d8ef437f1a6",
+  "proposal_count": 151,
+  "schema_sha256": "e2f47ed32d1508adf7446d950c360fcf3f3a1adc94dba7b4be3d93cdc4064d8e",
+  "test_access": 0
+}

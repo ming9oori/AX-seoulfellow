@@ -1,0 +1,193 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783828528,
+  "created_at": 1783828511,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_086a0ec2ab9d8300006a53101f00e481998edad4ea01965659",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 16000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-90\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-90_C01\",\"contains_proposition\":false,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NOT_PROPOSITION\"}] \t,\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-106\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-106_C03\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-106_C02\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NON_MINIMAL_SUPERSET\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-106_C01\",\"contains_proposition\":false,\"self_contained\":false,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"FRAGMENT\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-208\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-208_C03\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-208_C02\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NON_MINIMAL_SUPERSET\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-208_C01\",\"contains_proposition\":false,\"self_contained\":false,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"FRAGMENT\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-283\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-283_C04\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-283_C03\",\"contains_proposition\":false,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"TABLE_SEPARATOR\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-283_C02\",\"contains_proposition\":false,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"TABLE_SEPARATOR\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-283_C01\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NON_MINIMAL_SUPERSET\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-329\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-329_C03\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-329_C02\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NON_MINIMAL_SUPERSET\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-329_C01\",\"contains_proposition\":false,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"FRAGMENT\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-340\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-340_C03\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-340_C02\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":false,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"NON_MINIMAL_SUPERSET\"},{\"candidate_id\":\"zaije:evidence/xlsx-row-340_C01\",\"contains_proposition\":false,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"DROP\",\"reason_code\":\"FRAGMENT\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-349\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-349_C01\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"}],\"missing_candidate\":false},{\"evidence_id\":\"zaije:evidence/xlsx-row-350\",\"configuration_id\":\"C02\",\"repeat_id\":1,\"candidate_decisions\":[{\"candidate_id\":\"zaije:evidence/xlsx-row-350_C01\",\"contains_proposition\":true,\"self_contained\":true,\"minimal_without_material_loss\":true,\"discourse_only\":false,\"decision\":\"KEEP\",\"reason_code\":\"PROPOSITION_MINIMAL\"}],\"missing_candidate\":false}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_086a0ec2ab9d8300006a53101fa2a48199a543a288a8ffa91e",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "boundary_order_c02",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "candidate_decisions": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "candidate_id": {
+                        "type": "string"
+                      },
+                      "contains_proposition": {
+                        "type": "boolean"
+                      },
+                      "decision": {
+                        "enum": [
+                          "KEEP",
+                          "DROP",
+                          "UNDERDETERMINED",
+                          "MISSING_CANDIDATE"
+                        ],
+                        "type": "string"
+                      },
+                      "discourse_only": {
+                        "type": "boolean"
+                      },
+                      "minimal_without_material_loss": {
+                        "type": "boolean"
+                      },
+                      "reason_code": {
+                        "enum": [
+                          "PROPOSITION_MINIMAL",
+                          "NOT_PROPOSITION",
+                          "FRAGMENT",
+                          "NON_MINIMAL_SUPERSET",
+                          "DISCOURSE_CLAIM",
+                          "TABLE_SEPARATOR",
+                          "AMBIGUOUS",
+                          "BOUNDARY_NOT_IN_LATTICE"
+                        ],
+                        "type": "string"
+                      },
+                      "self_contained": {
+                        "type": "boolean"
+                      }
+                    },
+                    "required": [
+                      "candidate_id",
+                      "contains_proposition",
+                      "self_contained",
+                      "minimal_without_material_loss",
+                      "discourse_only",
+                      "decision",
+                      "reason_code"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "configuration_id": {
+                  "enum": [
+                    "C02"
+                  ],
+                  "type": "string"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "missing_candidate": {
+                  "type": "boolean"
+                },
+                "repeat_id": {
+                  "enum": [
+                    1
+                  ],
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "configuration_id",
+                "repeat_id",
+                "candidate_decisions",
+                "missing_candidate"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 2494,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1282,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3776
+  },
+  "user": null
+}

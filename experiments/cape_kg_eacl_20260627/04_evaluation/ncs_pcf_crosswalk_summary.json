@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.635494+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "top_k_per_standard": 5,
+  "max_pairs_per_source": 10,
+  "ncs_candidate_rows": 110,
+  "pcf_candidate_rows": 110,
+  "shared_source_tasks": 22,
+  "all_pair_count": 550,
+  "candidate_count": 220,
+  "claim_status": "candidate_only_pending_expert_review",
+  "output_files": {
+    "all_pairs_jsonl": "outputs/08_mapping/l2_ncs_pcf_crosswalk_all_pairs.jsonl",
+    "candidates_jsonl": "outputs/08_mapping/l2_ncs_pcf_crosswalk_candidates.jsonl",
+    "candidates_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_candidates.csv",
+    "summary_json": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+    "report_md": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md"
+  }
+}

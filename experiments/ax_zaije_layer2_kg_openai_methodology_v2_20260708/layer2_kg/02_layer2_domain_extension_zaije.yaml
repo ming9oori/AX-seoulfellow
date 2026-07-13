@@ -1,0 +1,276 @@
+domain_extension_id: L2_DOMAIN_EXTENSION_ZAIJE_BID_PROPOSAL_0.1
+domain: bid_proposal
+book_id: ZAIJE_1
+canonical_processes:
+  - id: L2_PROCESS_BID_PROPOSAL_CONTEXT
+    name_ko: "입찰·제안 환경 이해"
+    sections: [1.1, 1.1.1, 1.1.2, 1.1.3, 1.1.4]
+  - id: L2_PROCESS_PRE_BID_PREPARATION
+    name_ko: "제안참여 전 준비"
+    sections: [1.3.1, 1.3.2]
+  - id: L2_PROCESS_CAPTURE_PLANNING
+    name_ko: "수주영업"
+    sections: [2.1, 2.2, 2.2.1, 2.2.2]
+  - id: L2_PROCESS_EVALUATOR_PERSUASION
+    name_ko: "평가자 공략과 설득"
+    sections: [2.3, 2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5]
+  - id: L2_PROCESS_PROPOSAL_EXECUTION
+    name_ko: "제안서 작성·프레젠테이션"
+    sections: [1.3.3, 1.3.4, 1.3.5]
+  - id: L2_PROCESS_PROPOSAL_STRATEGY
+    name_ko: "제안전략 개발"
+    sections: [3.1, 3.1.3, 3.1.4, 3.2, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.3.3]
+canonical_tasks:
+  - id: L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS
+    name_ko: "고객 요구조건 구조 분석"
+    name_en: "Requirement Iceberg Analysis"
+    parent_process_id: L2_PROCESS_BID_PROPOSAL_CONTEXT
+    sections: [1.1.1]
+  - id: L2_TASK_OPPORTUNITY_PLANNING
+    name_ko: "사전영업 / Opportunity Planning"
+    name_en: "Opportunity Planning"
+    parent_process_id: L2_PROCESS_PRE_BID_PREPARATION
+    sections: [1.1.1, 1.3.1]
+  - id: L2_TASK_CAPTURE_PLANNING
+    name_ko: "수주영업 / Capture Planning"
+    name_en: "Capture Planning"
+    parent_process_id: L2_PROCESS_CAPTURE_PLANNING
+    sections: [1.3.1, 1.3.2, 2.1, 2.1.3]
+  - id: L2_TASK_BID_NO_BID_DECISION
+    name_ko: "제안참여 의사결정"
+    name_en: "Bid/No-Bid Decision"
+    parent_process_id: L2_PROCESS_PRE_BID_PREPARATION
+    sections: [1.3.1]
+  - id: L2_TASK_PROPOSAL_PLANNING
+    name_ko: "제안서 기획 / Proposal Planning"
+    name_en: "Proposal Planning"
+    parent_process_id: L2_PROCESS_PROPOSAL_EXECUTION
+    sections: [1.3.1, 1.3.3]
+  - id: L2_TASK_PROPOSAL_PREPARING
+    name_ko: "제안서 작성 / Proposal Preparing"
+    name_en: "Proposal Preparing"
+    parent_process_id: L2_PROCESS_PROPOSAL_EXECUTION
+    sections: [1.3.4]
+  - id: L2_TASK_PRESENTATION_PREPARATION
+    name_ko: "프레젠테이션 준비"
+    name_en: "Presentation Preparation"
+    parent_process_id: L2_PROCESS_PROPOSAL_EXECUTION
+    sections: [1.3.5]
+  - id: L2_TASK_SALES_INFORMATION_MANAGEMENT
+    name_ko: "영업 정보 관리"
+    name_en: "Sales Information Management"
+    parent_process_id: L2_PROCESS_CAPTURE_PLANNING
+    sections: [2.2.1]
+  - id: L2_TASK_VALUE_PROPOSITION
+    name_ko: "가치제안 개발"
+    name_en: "Value Proposition Development"
+    parent_process_id: L2_PROCESS_CAPTURE_PLANNING
+    sections: [2.1.3, 2.2.2]
+  - id: L2_TASK_EVALUATOR_ANALYSIS
+    name_ko: "평가자 분석"
+    name_en: "Evaluator Analysis"
+    parent_process_id: L2_PROCESS_EVALUATOR_PERSUASION
+    sections: [2.3.1, 2.3.2, 2.3.3, 2.3.4]
+  - id: L2_TASK_PERSUASIVE_COMMUNICATION
+    name_ko: "설득 커뮤니케이션 설계"
+    name_en: "Persuasive Communication Design"
+    parent_process_id: L2_PROCESS_EVALUATOR_PERSUASION
+    sections: [2.4.1, 2.4.2, 2.4.3, 2.4.4, 2.4.5]
+  - id: L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT
+    name_ko: "제안전략 개발"
+    name_en: "Proposal Strategy Development"
+    parent_process_id: L2_PROCESS_PROPOSAL_STRATEGY
+    sections: [3.1, 3.2, 3.1.3, 3.1.4, 3.2.2]
+  - id: L2_TASK_COMPETITOR_ANALYSIS
+    name_ko: "경쟁사 분석 및 차별화 요소 규명"
+    name_en: "Competitor Analysis and Differentiator Identification"
+    parent_process_id: L2_PROCESS_PROPOSAL_STRATEGY
+    sections: [3.1.4, 1.3.2]
+  - id: L2_TASK_TACTIC_DEVELOPMENT_VALIDATION
+    name_ko: "전술 개발 및 효과성 검증"
+    name_en: "Tactic Development and Validation"
+    parent_process_id: L2_PROCESS_PROPOSAL_STRATEGY
+    sections: [3.2.3, 3.2.4, 3.2.5]
+  - id: L2_TASK_RISK_MANAGEMENT
+    name_ko: "리스크 관리"
+    name_en: "Risk Management"
+    parent_process_id: L2_PROCESS_PROPOSAL_STRATEGY
+    sections: [2.1.2, 3.3.3]
+canonical_entities:
+  - id: L2_ARTIFACT_RFP
+    type: Artifact
+    name_ko: "RFP / 제안요청서"
+  - id: L2_ARTIFACT_CAPTURE_PLAN
+    type: Artifact
+    name_ko: "Capture Plan"
+  - id: L2_STRATEGY_CAPTURE_STRATEGY
+    type: StrategyPattern
+    name_ko: "수주전략"
+  - id: L2_ARTIFACT_PROPOSAL_PLAN
+    type: Artifact
+    name_ko: "Proposal Plan / 제안서 기획"
+  - id: L2_ARTIFACT_PMP
+    type: Artifact
+    name_ko: "PMP / 제안관리계획"
+  - id: L2_ARTIFACT_PDW
+    type: Artifact
+    name_ko: "PDW / 섹션기획서"
+  - id: L2_ARTIFACT_BCM
+    type: Artifact
+    name_ko: "BCM / 경쟁사 비교표"
+  - id: L2_ARTIFACT_STRATEGY_STATEMENT
+    type: Artifact
+    name_ko: "전략기술서"
+  - id: L2_ARTIFACT_PROPOSAL_DRAFT
+    type: Artifact
+    name_ko: "제안서 초안·완성본"
+  - id: L2_ARTIFACT_PRESENTATION_MATERIAL
+    type: Artifact
+    name_ko: "PT 자료"
+  - id: L2_ARTIFACT_SALES_INFO_DB
+    type: Artifact
+    name_ko: "영업 정보 DB/관리 체계"
+  - id: L2_INFO_OFFICIAL_REQUIREMENT
+    type: InformationObject
+    name_ko: "공식 요구조건"
+  - id: L2_INFO_UNSTATED_REQUIREMENT
+    type: InformationObject
+    name_ko: "비공식 요구조건"
+  - id: L2_INFO_CUSTOMER_NEEDS
+    type: InformationObject
+    name_ko: "고객 니즈"
+  - id: L2_INFO_CUSTOMER_NEEDS_STRUCTURE
+    type: InformationObject
+    name_ko: "고객 니즈 구조"
+  - id: L2_INFO_OPPORTUNITY_INFORMATION
+    type: InformationObject
+    name_ko: "기회 정보"
+  - id: L2_INFO_OPPORTUNITY_ANALYSIS
+    type: InformationObject
+    name_ko: "기회분석 결과"
+  - id: L2_INFO_CUSTOMER_RELATIONSHIP
+    type: InformationObject
+    name_ko: "고객 관계"
+  - id: L2_INFO_CUSTOMER_INFORMATION
+    type: InformationObject
+    name_ko: "고객 정보"
+  - id: L2_INFO_COMPETITOR_INFORMATION
+    type: InformationObject
+    name_ko: "경쟁사 정보"
+  - id: L2_INFO_OWN_SOLUTION
+    type: InformationObject
+    name_ko: "자사 솔루션"
+  - id: L2_INFO_CUSTOMER_ISSUE
+    type: InformationObject
+    name_ko: "고객 이슈"
+  - id: L2_INFO_EVALUATION_CRITERIA
+    type: InformationObject
+    name_ko: "고객 평가 기준"
+  - id: L2_INFO_CORE_DIFFERENTIATOR
+    type: InformationObject
+    name_ko: "핵심 차별화 요소"
+  - id: L2_INFO_PURCHASE_STAGE
+    type: InformationObject
+    name_ko: "고객 구매단계"
+  - id: L2_INFO_TRUST_LEVEL
+    type: InformationObject
+    name_ko: "신뢰도"
+  - id: L2_INFO_COMMUNICATION_STYLE
+    type: InformationObject
+    name_ko: "커뮤니케이션 스타일"
+  - id: L2_INFO_PURCHASE_PSYCHOLOGY
+    type: InformationObject
+    name_ko: "구매심리"
+  - id: L2_INFO_EVALUATOR_ATTACK_POINT
+    type: InformationObject
+    name_ko: "평가자별 공략 포인트"
+  - id: L2_INFO_PERSUASIVE_MESSAGE
+    type: InformationObject
+    name_ko: "설득 메시지"
+  - id: L2_INFO_DIFFERENTIATION_POINT
+    type: InformationObject
+    name_ko: "차별화 포인트"
+  - id: L2_STRATEGY_VALUE_PROPOSITION
+    type: StrategyPattern
+    name_ko: "가치제안"
+  - id: L2_STRATEGY_PROPOSAL_STRATEGY
+    type: StrategyPattern
+    name_ko: "제안전략"
+  - id: L2_STRATEGY_VALIDATED_TACTIC
+    type: StrategyPattern
+    name_ko: "검증된 전술"
+  - id: L2_STRATEGY_PRESENTATION_STRATEGY
+    type: StrategyPattern
+    name_ko: "발표전략"
+  - id: L2_STRATEGY_COMMUNICATION_METHOD
+    type: StrategyPattern
+    name_ko: "커뮤니케이션 방법"
+  - id: L2_STRATEGY_SOLUTION_OPTIMIZATION
+    type: StrategyPattern
+    name_ko: "솔루션 최적화"
+  - id: L2_DECISION_BID_NO_BID
+    type: DecisionPoint
+    name_ko: "Bid/No-Bid Decision"
+  - id: L2_OUTCOME_BID
+    type: DecisionOutcome
+    name_ko: "Bid"
+  - id: L2_OUTCOME_NO_BID
+    type: DecisionOutcome
+    name_ko: "No-Bid"
+  - id: L2_ROLE_SALES_REP
+    type: Role
+    name_ko: "영업대표"
+  - id: L2_ROLE_PM
+    type: Role
+    name_ko: "PM"
+  - id: L2_ROLE_PROPOSAL_TEAM
+    type: Role
+    name_ko: "제안팀"
+  - id: L2_STAKEHOLDER_CUSTOMER
+    type: Stakeholder
+    name_ko: "고객"
+  - id: L2_STAKEHOLDER_DECISION_MAKER
+    type: Stakeholder
+    name_ko: "의사결정자"
+  - id: L2_STAKEHOLDER_INFLUENCER
+    type: Stakeholder
+    name_ko: "영향자"
+  - id: L2_STAKEHOLDER_TECH_EXPERT
+    type: Stakeholder
+    name_ko: "기술전문가"
+  - id: L2_STAKEHOLDER_USER
+    type: Stakeholder
+    name_ko: "사용자"
+  - id: L2_STAKEHOLDER_BUYER_ADMIN
+    type: Stakeholder
+    name_ko: "구매/행정 그룹"
+  - id: L2_PRINCIPLE_CUSTOMER_FIRST
+    type: Principle
+    name_ko: "고객 중심 원칙"
+  - id: L2_PRINCIPLE_PROCESS_MANAGEMENT
+    type: Principle
+    name_ko: "프로세스 관리 원칙"
+  - id: L2_PRINCIPLE_DIFFERENTIATION
+    type: Principle
+    name_ko: "차별화 원칙"
+  - id: L2_RISK_BUSINESS_RISK
+    type: Risk
+    name_ko: "사업 리스크"
+  - id: L2_RISK_LATE_RFP_INFLUENCE
+    type: Risk
+    name_ko: "RFP 이후 영향력 감소 리스크"
+  - id: L2_REVIEW_STRATEGY_REVIEW
+    type: ReviewType
+    name_ko: "전략 리뷰"
+  - id: L2_REVIEW_DRAFT_REVIEW
+    type: ReviewType
+    name_ko: "초안 리뷰"
+  - id: L2_REVIEW_FINAL_REVIEW
+    type: ReviewType
+    name_ko: "최종 리뷰"
+  - id: L2_REVIEW_BLACK_HAT
+    type: ReviewType
+    name_ko: "블랙햇 리뷰"
+  - id: L2_METRIC_WIN_RATE
+    type: Metric
+    name_ko: "수주 성공률"

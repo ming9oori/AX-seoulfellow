@@ -1,0 +1,2643 @@
+[
+  {
+    "rule_id": "lf:v21:21be001332818a93803c1348",
+    "feature": "family:descriptive",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:descriptive predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 13,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r4",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r535",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r1091",
+      "ev:jaije:clean_sentences:r1183",
+      "ev:jaije:clean_sentences:r1189"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 6,
+    "validation_correct": 6,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r113",
+      "ev:jaije:clean_sentences:r471",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1064"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:5fd495537e4e790fe84fa62b",
+    "feature": "family:evaluation",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:evaluation predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 10,
+    "induction_precision": 0.9091,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r89",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r814",
+      "ev:jaije:clean_sentences:r878",
+      "ev:jaije:clean_sentences:r947",
+      "ev:jaije:clean_sentences:r989",
+      "ev:jaije:clean_sentences:r998"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r528",
+      "ev:jaije:clean_sentences:r557",
+      "ev:jaije:clean_sentences:r611"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:1bf00c959c89804c4bd89881",
+    "feature": "family:procedure",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:procedure predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 10,
+    "induction_precision": 0.9091,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:b73bbf12cb0d886a5d3a4e8a",
+    "feature": "family:procedure",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: family:procedure predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 9,
+    "induction_precision": 0.8182,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:34e0fc26e14d3a83d72d0817",
+    "feature": "seed:explicit_obligation",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: seed:explicit_obligation predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 4,
+    "induction_correct": 4,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:0f660f6f73d59ed64b64d4a8",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: seed:observational_case predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 3,
+    "validation_correct": 3,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:d09a6b41ac8ccbe2fb995963",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "claim_type": "DescriptiveFact"
+    },
+    "description": "Induced field LF: seed:observational_case predicts claim_type=DescriptiveFact",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 3,
+    "validation_correct": 3,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:148f1f638db29fb62baf5444",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: seed:observational_case predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 3,
+    "validation_correct": 3,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:13df239301897de73bcd1086",
+    "feature": "cue:process",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:process predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 15,
+    "induction_correct": 13,
+    "induction_precision": 0.8667,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 7,
+    "validation_correct": 6,
+    "validation_precision": 0.8571,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:f1ff438d7934ce74bb15a991",
+    "feature": "block:markdown_table",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: block:markdown_table predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 3,
+    "induction_correct": 3,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r281"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:814ccf66592dfc5330b6d646",
+    "feature": "block:markdown_table",
+    "prediction": {
+      "claim_type": "DescriptiveFact"
+    },
+    "description": "Induced field LF: block:markdown_table predicts claim_type=DescriptiveFact",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 3,
+    "induction_correct": 3,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r281"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:f3266d763426025be10b6643",
+    "feature": "block:markdown_table",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: block:markdown_table predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 3,
+    "induction_correct": 3,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r281"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:dd6a435632c7b59cb9c01c55",
+    "feature": "cue:example",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:example predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 9,
+    "induction_correct": 7,
+    "induction_precision": 0.7778,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1187",
+      "ev:jaije:clean_sentences:r490"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r1363"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:b8f3be0926fdfe02e6e2dd32",
+    "feature": "tok:아니라",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:아니라 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1038"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r1003"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:a4a6b1aca64cf772f5e78d34",
+    "feature": "tok:아니라",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: tok:아니라 predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r1038"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r1003"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:1bce75156bb72da29eebc4ea",
+    "feature": "tok:이를",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: tok:이를 predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 5,
+    "induction_correct": 5,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:8c4c61188c2329755df1991c",
+    "feature": "tok:이를",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:이를 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 5,
+    "induction_correct": 5,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 1,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:9b3057fdda62ba23f3a5ee64",
+    "feature": "block:prose",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: block:prose predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 63,
+    "induction_correct": 59,
+    "induction_precision": 0.9365,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r4",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r80",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r496",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r535",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r685",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r1091",
+      "ev:jaije:clean_sentences:r1098",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1183",
+      "ev:jaije:clean_sentences:r1187",
+      "ev:jaije:clean_sentences:r1189",
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r89",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r813",
+      "ev:jaije:clean_sentences:r814",
+      "ev:jaije:clean_sentences:r878",
+      "ev:jaije:clean_sentences:r947",
+      "ev:jaije:clean_sentences:r989",
+      "ev:jaije:clean_sentences:r998"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 28,
+    "validation_correct": 25,
+    "validation_precision": 0.8929,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r38",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r528",
+      "ev:jaije:clean_sentences:r557",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1019",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1248",
+      "ev:jaije:clean_sentences:r1351",
+      "ev:jaije:clean_sentences:r1361",
+      "ev:jaije:clean_sentences:r1363"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:38384a212271f0644af38d59",
+    "feature": "cue:process",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:process predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 15,
+    "induction_correct": 14,
+    "induction_precision": 0.9333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 7,
+    "validation_correct": 6,
+    "validation_precision": 0.8571,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:728d54cdcc78abc727ab5166",
+    "feature": "family:normative",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:normative predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 8,
+    "induction_correct": 8,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r685",
+      "ev:jaije:clean_sentences:r1173",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 7,
+    "validation_correct": 6,
+    "validation_precision": 0.8571,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:595bae5acc204b53e0d2d086",
+    "feature": "cue:condition",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:condition predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 13,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r80",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r496",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1098",
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r38",
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r1019",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:c9ec9abdce7a607d1fae4e72",
+    "feature": "cue:condition",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:condition predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 11,
+    "induction_precision": 0.8462,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r496",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r38",
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r1019",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:890ee1664109b4d1a5df2175",
+    "feature": "cue:definition",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:definition predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 9,
+    "induction_correct": 9,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:4a0b6168e5f7970ca33bd837",
+    "feature": "cue:definition",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:definition predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 9,
+    "induction_correct": 7,
+    "induction_precision": 0.7778,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:692a844e082ee6d8a7b6fdf5",
+    "feature": "cue:must",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:must predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 8,
+    "induction_correct": 8,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r685",
+      "ev:jaije:clean_sentences:r1173",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:4a47d4ff8b2730723feaa5e2",
+    "feature": "family:conditional",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:conditional predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 11,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r80",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r496",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1098",
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r38",
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r1019",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:15c59378f6fc9c1933b1b1c7",
+    "feature": "family:conditional",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: family:conditional predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 9,
+    "induction_precision": 0.8182,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r496",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r38",
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r1019",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:91a41ddde7f0883e08383d29",
+    "feature": "family:definition",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:definition predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1022"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:4ce0a5087a6c36101bc0dea0",
+    "feature": "family:descriptive",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: family:descriptive predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 10,
+    "induction_precision": 0.7692,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r1091",
+      "ev:jaije:clean_sentences:r1189"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r113",
+      "ev:jaije:clean_sentences:r471",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1064"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:1d5b89292b7038566371fed4",
+    "feature": "family:descriptive",
+    "prediction": {
+      "claim_type": "DescriptiveFact"
+    },
+    "description": "Induced field LF: family:descriptive predicts claim_type=DescriptiveFact",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 10,
+    "induction_precision": 0.7692,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r1091",
+      "ev:jaije:clean_sentences:r1189"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 5,
+    "validation_precision": 0.8333,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r113",
+      "ev:jaije:clean_sentences:r471",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1064"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:701fd0e3d2aa4595263982db",
+    "feature": "cue:evaluation",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:evaluation predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 20,
+    "induction_correct": 19,
+    "induction_precision": 0.95,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r89",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813",
+      "ev:jaije:clean_sentences:r814",
+      "ev:jaije:clean_sentences:r878",
+      "ev:jaije:clean_sentences:r947",
+      "ev:jaije:clean_sentences:r989",
+      "ev:jaije:clean_sentences:r998",
+      "ev:jaije:clean_sentences:r1006"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 9,
+    "validation_correct": 7,
+    "validation_precision": 0.7778,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r528",
+      "ev:jaije:clean_sentences:r557",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594",
+      "ev:jaije:clean_sentences:r611",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:add3bca019001f6e0c83d09c",
+    "feature": "tok:고객의",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:고객의 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 7,
+    "induction_correct": 7,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1173",
+      "ev:jaije:clean_sentences:r989"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 3,
+    "validation_precision": 0.75,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1009"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:9c6fb3977879765c5f416252",
+    "feature": "tok:제안",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:제안 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r1183",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 3,
+    "validation_precision": 0.75,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:2cd682e2eaf7a6c794823441",
+    "feature": "tok:제안",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: tok:제안 predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 3,
+    "validation_precision": 0.75,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:9019e533c69b4a38aa38f3d5",
+    "feature": "tok:핵심",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:핵심 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r947",
+      "ev:jaije:clean_sentences:r989",
+      "ev:jaije:clean_sentences:r998"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 3,
+    "validation_precision": 0.75,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r594",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1003"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:87a8dff063856ae82214164e",
+    "feature": "cue:process",
+    "prediction": {
+      "modality": "NONE"
+    },
+    "description": "Induced field LF: cue:process predicts modality=NONE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 15,
+    "induction_correct": 12,
+    "induction_precision": 0.8,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r111",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 7,
+    "validation_correct": 5,
+    "validation_precision": 0.7143,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:89bb2d0f120e4094f3615f71",
+    "feature": "family:definition",
+    "prediction": {
+      "modality": "NONE"
+    },
+    "description": "Induced field LF: family:definition predicts modality=NONE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r1022"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 4,
+    "validation_precision": 0.6667,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:db0f90905f11d07f7c6c2df3",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "modality": "DESCRIPTIVE"
+    },
+    "description": "Induced field LF: seed:observational_case predicts modality=DESCRIPTIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 3,
+    "validation_correct": 2,
+    "validation_precision": 0.6667,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:af3ead865286419aad6e0b7f",
+    "feature": "seed:question_mark",
+    "prediction": {
+      "claim_type": "Question",
+      "modality": "NONE",
+      "polarity": "NONE",
+      "promotion_target": "NONE"
+    },
+    "description": "A sentence ending in an explicit question mark is a non-operational Question claim.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 1,
+    "induction_correct": 0,
+    "induction_precision": 0.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1006"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 8,
+    "validation_correct": 5,
+    "validation_precision": 0.625,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r635",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r809",
+      "ev:jaije:clean_sentences:r839",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1221"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:7d225648b7fb0c3b93693707",
+    "feature": "cue:negative",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: cue:negative predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 16,
+    "induction_correct": 15,
+    "induction_precision": 0.9375,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 10,
+    "validation_correct": 6,
+    "validation_precision": 0.6,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1248",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:138c3b114008c54ee51a314a",
+    "feature": "cue:negative",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:negative predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 16,
+    "induction_correct": 13,
+    "induction_precision": 0.8125,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 10,
+    "validation_correct": 6,
+    "validation_precision": 0.6,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1248",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:fc4edab9bc39776256aad974",
+    "feature": "family:procedure",
+    "prediction": {
+      "modality": "NONE"
+    },
+    "description": "Induced field LF: family:procedure predicts modality=NONE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 9,
+    "induction_precision": 0.8182,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r111",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 2,
+    "validation_precision": 0.5,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:cd524716adec820d1dfc4973",
+    "feature": "seed:explicit_obligation",
+    "prediction": {
+      "claim_family": "NORMATIVE",
+      "claim_type": "Obligation",
+      "modality": "MUST",
+      "polarity": "POSITIVE"
+    },
+    "description": "An explicit Korean obligation ending maps to Obligation/MUST.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 4,
+    "induction_correct": 2,
+    "induction_precision": 0.5,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 2,
+    "validation_precision": 0.5,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:6dae8e68feda67ac101315e1",
+    "feature": "cue:evaluation",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:evaluation predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 20,
+    "induction_correct": 17,
+    "induction_precision": 0.85,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r89",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813",
+      "ev:jaije:clean_sentences:r814",
+      "ev:jaije:clean_sentences:r878",
+      "ev:jaije:clean_sentences:r998",
+      "ev:jaije:clean_sentences:r1006"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 9,
+    "validation_correct": 4,
+    "validation_precision": 0.4444,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r528",
+      "ev:jaije:clean_sentences:r557",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594",
+      "ev:jaije:clean_sentences:r611",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:3fc85e92565d692e7abdee52",
+    "feature": "cue:evaluation",
+    "prediction": {
+      "claim_type": "DescriptiveFact"
+    },
+    "description": "Induced field LF: cue:evaluation predicts claim_type=DescriptiveFact",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 20,
+    "induction_correct": 15,
+    "induction_precision": 0.75,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r83",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r89",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813",
+      "ev:jaije:clean_sentences:r814",
+      "ev:jaije:clean_sentences:r878",
+      "ev:jaije:clean_sentences:r998"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 9,
+    "validation_correct": 4,
+    "validation_precision": 0.4444,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r528",
+      "ev:jaije:clean_sentences:r557",
+      "ev:jaije:clean_sentences:r588",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594",
+      "ev:jaije:clean_sentences:r611",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:f64057306a72af66f426680d",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "DescriptiveFact",
+      "modality": "NONE",
+      "polarity": "POSITIVE",
+      "promotion_target": "NONE"
+    },
+    "description": "Observational uses of 'case' are descriptive rather than conditional rules.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 6,
+    "induction_correct": 1,
+    "induction_precision": 0.1667,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 3,
+    "validation_correct": 1,
+    "validation_precision": 0.3333,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:5e2c8ec1c77ca265a0e698ac",
+    "feature": "family:discourse",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:discourse predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 10,
+    "induction_correct": 8,
+    "induction_precision": 0.8,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1187",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r1006"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 9,
+    "validation_correct": 1,
+    "validation_precision": 0.1111,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r635",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r809",
+      "ev:jaije:clean_sentences:r839",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1221",
+      "ev:jaije:clean_sentences:r1363"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:ec30dcef32b214df8492d698",
+    "feature": "cue:negative",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: cue:negative predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 16,
+    "induction_correct": 12,
+    "induction_precision": 0.75,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r338",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 10,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1248",
+      "ev:jaije:clean_sentences:r1361"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:f3827d067dc9e12250d6f382",
+    "feature": "family:discourse",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: family:discourse predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 10,
+    "induction_correct": 8,
+    "induction_precision": 0.8,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1187",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r1006"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 9,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r635",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r809",
+      "ev:jaije:clean_sentences:r839",
+      "ev:jaije:clean_sentences:r1008",
+      "ev:jaije:clean_sentences:r1009",
+      "ev:jaije:clean_sentences:r1221",
+      "ev:jaije:clean_sentences:r1363"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:a8a578484b888f00d86586d7",
+    "feature": "cue:process",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: cue:process predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 15,
+    "induction_correct": 13,
+    "induction_precision": 0.8667,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 7,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:0748453456c794f624b4e95e",
+    "feature": "family:normative",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: family:normative predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 8,
+    "induction_correct": 7,
+    "induction_precision": 0.875,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r685",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 7,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r591",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:abfc0c1c5e257a7c006e87b7",
+    "feature": "cue:definition",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: cue:definition predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 9,
+    "induction_correct": 7,
+    "induction_precision": 0.7778,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:634c0e243d43025722327464",
+    "feature": "cue:must",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: cue:must predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 8,
+    "induction_correct": 7,
+    "induction_precision": 0.875,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r685",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r548",
+      "ev:jaije:clean_sentences:r603",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r5",
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:f10b78e4ff4a7ab9ec658a9a",
+    "feature": "family:definition",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: family:definition predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r69",
+      "ev:jaije:clean_sentences:r95",
+      "ev:jaije:clean_sentences:r515",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1022"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r12",
+      "ev:jaije:clean_sentences:r18",
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r526",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:0033ae00f3de300196084f39",
+    "feature": "family:descriptive",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: family:descriptive predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 11,
+    "induction_precision": 0.8462,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r4",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r535",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r1091"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 6,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r113",
+      "ev:jaije:clean_sentences:r471",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1064"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:919ed7ba9171402885b96cf5",
+    "feature": "family:procedure",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: family:procedure predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 10,
+    "induction_precision": 0.9091,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r60",
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:981103354a767f8c7f624767",
+    "feature": "seed:explicit_obligation",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: seed:explicit_obligation predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 4,
+    "induction_correct": 4,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:50e92c9276133ec3670a3090",
+    "feature": "tok:제안",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: tok:제안 predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 4,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r14",
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r30",
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:efdfb33435552dd512b646d5",
+    "feature": "seed:explicit_definition",
+    "prediction": {
+      "claim_family": "FACTUAL",
+      "claim_type": "Definition"
+    },
+    "description": "Explicit definitional forms map to Definition.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 1,
+    "induction_correct": 1,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 2,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r75",
+      "ev:jaije:clean_sentences:r1248"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:fde45f283c6db04b672361ed",
+    "feature": "block:markdown_table",
+    "prediction": {
+      "modality": "DESCRIPTIVE"
+    },
+    "description": "Induced field LF: block:markdown_table predicts modality=DESCRIPTIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 3,
+    "induction_correct": 3,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r490",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r281"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:605dd46551222adf51577f7f",
+    "feature": "cue:example",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:example predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 9,
+    "induction_correct": 7,
+    "induction_precision": 0.7778,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1187",
+      "ev:jaije:clean_sentences:r490"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r1363"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:ca92eceb0fe6b94b794f4fba",
+    "feature": "tok:아니라",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: tok:아니라 predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r803",
+      "ev:jaije:clean_sentences:r1038"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r1003"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:81fe531e6a89af632f0e59f7",
+    "feature": "tok:이를",
+    "prediction": {
+      "promotion_target": "FACT_ASSERTION"
+    },
+    "description": "Induced field LF: tok:이를 predicts promotion_target=FACT_ASSERTION",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 5,
+    "induction_correct": 5,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 1,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:fc0b10bb563d8b950459020e",
+    "feature": "bigram:shipley|tip",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: bigram:shipley|tip predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:7bac0af9fd0303d34fbbeb12",
+    "feature": "bigram:shipley|tip",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: bigram:shipley|tip predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:810376e6633a8d73e6b0ede9",
+    "feature": "seed:explicit_example",
+    "prediction": {
+      "claim_type": "Example",
+      "modality": "NONE",
+      "promotion_target": "NONE"
+    },
+    "description": "Explicit examples must not be promoted as operational facts.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 6,
+    "induction_correct": 0,
+    "induction_precision": 0.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r90",
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:7870f4984a21cc6f21b8418c",
+    "feature": "seed:explicit_example",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: seed:explicit_example predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:4eb0002627310f0e1a25ed71",
+    "feature": "seed:explicit_example",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: seed:explicit_example predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:98088993514f23cc21f9f8bc",
+    "feature": "seed:explicit_prohibition",
+    "prediction": {
+      "claim_family": "NORMATIVE",
+      "claim_type": "Prohibition",
+      "modality": "MUST_NOT",
+      "polarity": "NEGATIVE"
+    },
+    "description": "Explicit prohibition language maps to Prohibition/MUST_NOT.",
+    "origin": "PREDECLARED_SEED",
+    "induction_support": 0,
+    "induction_correct": 0,
+    "induction_precision": 0.0,
+    "source_evidence_ids": [],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:b83cfe1cfbb4104575282a93",
+    "feature": "tok:shipley",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: tok:shipley predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:cf71bce17bc96d02b7d580ba",
+    "feature": "tok:shipley",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:shipley predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:c6d14f7e389e4d46e8fc36c6",
+    "feature": "tok:tip",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: tok:tip predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:cee5889864892b9cd1909eb5",
+    "feature": "tok:tip",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:tip predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 5,
+    "induction_precision": 0.8333,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r1151"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  },
+  {
+    "rule_id": "lf:v21:184f119cc21e00004e9ffdc0",
+    "feature": "tok:중요한",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: tok:중요한 predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 5,
+    "induction_correct": 5,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r1022",
+      "ev:jaije:clean_sentences:r1183",
+      "ev:jaije:clean_sentences:r577",
+      "ev:jaije:clean_sentences:r579"
+    ],
+    "scope": "document_local",
+    "status": "REJECTED_VALIDATION",
+    "validation_support": 0,
+    "validation_correct": 0,
+    "validation_precision": 0.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": []
+  }
+]

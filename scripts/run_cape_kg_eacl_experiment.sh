@@ -12,7 +12,7 @@ elif [[ -x "$HOME/miniconda3/bin/python" ]]; then
   PY311="$HOME/miniconda3/bin/python"
 fi
 
-LLM_PYTHON="${LLM_PYTHON:-$HOME/tdpo2_aaai2027/.venv_tdpo2/bin/python}"
+LLM_PYTHON="${LLM_PYTHON:-python3}"
 EXP_DIR="${EXP_DIR:-experiments/cape_kg_eacl_20260627}"
 SAMPLE_SIZE="${SAMPLE_SIZE:-120}"
 LLM_SMOKE_CHUNKS="${LLM_SMOKE_CHUNKS:-10}"

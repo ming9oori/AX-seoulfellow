@@ -1,0 +1,43 @@
+{
+  "parsed": {
+    "verifications": [
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1006",
+        "results": [
+          {
+            "argument_is_supported": false,
+            "claim_is_supported": false,
+            "claim_local_id": "claim_1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [
+              "The evidence does not provide information on whether the scores were evaluated correctly."
+            ],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "UNDERDETERMINED"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/verifier_b01_756583da7a32.json",
+  "response_id": "resp_077356f43a54c8c1006a528f2b76508199a9f9b1883d385bb2",
+  "usage": {
+    "input_tokens": 5060,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5203
+  }
+}

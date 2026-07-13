@@ -1,0 +1,46 @@
+{
+  "accepted_claim_count": 64,
+  "cost": {
+    "cached_input_tokens": 0,
+    "falsifier_requests": 151,
+    "input_tokens": 362135,
+    "output_tokens": 33063,
+    "primary_requests": 882
+  },
+  "fresh_api_exposure": 60,
+  "high_risk_falsifier_count": 151,
+  "metrics": {
+    "critical_facet_three_repeat_agreement": 0.9,
+    "critical_unstable_rate": 0,
+    "cue_id_validity": 1.0,
+    "deterministic_cue_derivation_reproducibility": 1.0,
+    "field_exact_agreement": {
+      "CONDITION_SCOPE": 1,
+      "DEONTIC_SCOPE": 0.9,
+      "EXCEPTION_SCOPE": 1,
+      "GENERALIZABLE_RULE": 0.984375,
+      "IS_NORMATIVE": 0.9629629629629629,
+      "IS_PROCEDURAL": 0.953125,
+      "NEGATION_SCOPE": 1,
+      "SPECIFIC_EXAMPLE_INSTANCE": 0.9833333333333333
+    },
+    "field_gwet_ac1": {
+      "CONDITION_SCOPE": 1.0,
+      "DEONTIC_SCOPE": 0.9287410926365796,
+      "EXCEPTION_SCOPE": 1.0,
+      "GENERALIZABLE_RULE": 0.9848783177128456,
+      "IS_NORMATIVE": 0.9675724365710854,
+      "IS_PROCEDURAL": 0.9388015299617508,
+      "NEGATION_SCOPE": 1.0,
+      "SPECIFIC_EXAMPLE_INSTANCE": 0.9854480779336271
+    },
+    "general_example_unresolved_conflict": 0.265625,
+    "high_risk_falsifier_accepted_or_soft": 0.6688741721854304,
+    "logical_contradiction_rate": 0.33112582781456956,
+    "noncritical_facet_three_repeat_agreement": 0.953125
+  },
+  "model_proposal_count": 294,
+  "rule_hard_field_count": 9,
+  "status": "REVISE",
+  "test_access": 0
+}

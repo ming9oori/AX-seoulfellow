@@ -1,0 +1,9 @@
+node { diameter: 44px; color: #D9E2EC; border-color: #486581; border-width: 2px; text-color-internal: #102A43; caption: '{label}'; font-size: 10px; }
+node.DomainConcept { color: #8FD3C7; border-color: #147D64; }
+node.WorkUnit { color: #9CC4E4; border-color: #2563A6; }
+node.Rule { color: #F4B183; border-color: #B45309; }
+node.Condition { color: #F7D774; border-color: #9A6700; }
+node.Metric { color: #E7A6B6; border-color: #9F3151; }
+node.Template, node.TemplateField { color: #C6B5E8; border-color: #6B4FA1; }
+node.Anchor, node.EvidenceBundle { color: #D5D7DA; border-color: #5F6368; }
+relationship { color: #7B8794; shaft-width: 2px; caption: '<type>'; font-size: 8px; }

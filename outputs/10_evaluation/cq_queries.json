@@ -61,7 +61,7 @@
     "cq_id": "CQ8",
     "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
     "predicates": [
-      "HAS_REVIEW"
+      "HAS_REVIEW_CHECKPOINT"
     ],
     "query_plan": "predicate scan over generated JSONL graph"
   },

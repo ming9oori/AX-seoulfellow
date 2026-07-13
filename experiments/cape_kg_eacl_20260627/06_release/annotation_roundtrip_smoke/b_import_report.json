@@ -1,0 +1,16 @@
+{
+  "status": "validated_dry_run",
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "mode": "annotation",
+    "changed_rows": 3,
+    "status_counts": {
+      "completed": 3
+    },
+    "gold_node_rows": 6,
+    "gold_edge_rows": 3
+  }
+}

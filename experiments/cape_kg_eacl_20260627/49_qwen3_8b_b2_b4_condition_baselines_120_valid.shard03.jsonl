@@ -1,0 +1,30 @@
+{"chunk_id": "JZ-CHUNK-0089", "condition": "B2_current_project", "edges": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-01636"], "object": "캡처플랜", "object_type": "Artifact", "predicate": "PRECEDES", "subject": "킥오프 미팅", "subject_type": "DomainTask"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-01636"], "object": "제안팀", "object_type": "Role", "predicate": "USES_INPUT", "subject": "캡처플랜", "subject_type": "Artifact"}], "mappings": [], "nodes": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-01635"], "label": "킥오프 미팅", "type": "DomainTask"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-01636"], "label": "캡처플랜", "type": "Artifact"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-01636"], "label": "제안팀", "type": "Role"}], "triples": []}
+{"chunk_id": "JZ-CHUNK-0187", "condition": "B2_current_project", "edges": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-03731", "JS-03732"], "object": "시공간 및 목적 분석", "object_type": "DomainTask", "predicate": "HAS_PRINCIPLE", "subject": "PT 방식의 일관성", "subject_type": "Risk"}], "mappings": [], "nodes": [{"confidence": 0.9, "evidence_anchor_ids": ["JS-03731"], "label": "PT 방식의 일관성", "type": "Risk"}, {"confidence": 0.9, "evidence_anchor_ids": ["JS-03732"], "label": "시공간 및 목적 분석", "type": "DomainTask"}], "triples": []}
+{"chunk_id": "JZ-CHUNK-0026", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0093", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0191", "condition": "B2_current_project", "edges": [{"confidence": 0.0, "evidence_anchor_ids": ["JS-03626", "JS-04069"], "object": "발표", "object_type": "DomainTask", "predicate": "PRECEDES", "subject": "제안 프레젠테이션", "subject_type": "DomainTask"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04066"], "object": "제안 프레젠테이션", "object_type": "DomainTask", "predicate": "FEEDS_INTO", "subject": "슬라이드 작성", "subject_type": "ProcedureStep"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04070"], "object": "리허설", "object_type": "ProcedureStep", "predicate": "PRECEDES", "subject": "발표", "subject_type": "DomainTask"}], "mappings": [], "nodes": [{"confidence": 0.0, "evidence_anchor_ids": ["JS-03626"], "label": "제안 프레젠테이션", "type": "DomainTask"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04066"], "label": "슬라이드 작성", "type": "ProcedureStep"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04068"], "label": "발표자 자신", "type": "Role"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04069"], "label": "발표", "type": "DomainTask"}, {"confidence": 0.0, "evidence_anchor_ids": ["JS-04070"], "label": "리허설", "type": "ProcedureStep"}], "triples": []}
+{"chunk_id": "JZ-CHUNK-0030", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0097", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0195", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0034", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0101", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0199", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0038", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0105", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0203", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0042", "condition": "B2_current_project", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0089", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0187", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0026", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0093", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0191", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0030", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0097", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0195", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0034", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0101", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0199", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0038", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0105", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0203", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}
+{"chunk_id": "JZ-CHUNK-0042", "condition": "B4_taxonomy_rag", "edges": [], "mappings": [], "nodes": [], "triples": []}

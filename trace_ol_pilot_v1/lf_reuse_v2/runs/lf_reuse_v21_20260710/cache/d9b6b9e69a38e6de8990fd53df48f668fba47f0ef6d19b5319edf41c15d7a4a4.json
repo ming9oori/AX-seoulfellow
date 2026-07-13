@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_07a1ee5132ca0358006a5114cad69c819aa55535bc4ef4046c",
+  "usage": {
+    "input_tokens": 3307,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2089,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5396
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r5",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r5",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r5",
+              "text": "“제안서를 잘 써야 입찰에 성공한다”라는 말이 반드시 맞는 말은 아니다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r12",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r12",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r12",
+              "text": "마찬가지로 ‘우리 회사’는 독자가 근무하고 있는 회사를 말한다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r14",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r14",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r14",
+              "text": "제안 요청서에는 없지만 고객이 말해주지 않거나 말할 수 없는 숨겨진 니즈가 반드시 있다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r18",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r18",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r18",
+              "text": "둘째, 고객 스스로 자신의 니즈를 정의(Define)하기 어렵기 때문이다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r24",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r24",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r24",
+              "text": "또한 제안 요청서를 발행할 때쯤 되면 고객도 상당히 전문가적인 관점을 갖게 되어 예전보다 전문가가 덜 필요하게 된다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r30",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r30",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r30",
+              "text": "어떻게 우리 회사의 제안 성공률을 높일 수 있을까?",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r38",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r38",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r38",
+              "text": "즉, 복합적인 솔루션일 경우 고객은 솔루션의 전문적인 내용을 이해하기 어렵기 때문에 어떤 측면을 어떻게 이해하느냐에 따라 고객이 인식하는 솔루션의 가치는 달라진다.",
+              "start": 0,
+              "end": 104
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r75",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r75",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r75",
+              "text": "경쟁력 있는 제안 역량이란 차별화된 정보를 수집할 줄 아는 전문가 영업 역량, 고객의 정보를 이기는 전략으로 만들 수 있는 전략 개발 역량, 이를 고객과 소통할 줄 아는 제안서 역량, PT 역량을 의미한다.",
+              "start": 0,
+              "end": 116
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r113",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r113",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r113",
+              "text": "• 집단주의에서 개인주의로 문화와 가치가 변해 가고 있다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r205",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r205",
+        "annotator": {
+          "role": "A",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r205",
+              "text": "사실, 쉬플리는 프로세스를 96단계로 정의하여 관리하고 있으나 여기에서는 핵심 단계만을 다루어 이해를 높이고자 한다.",
+              "start": 0,
+              "end": 82
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "INSUFFICIENT_EVIDENCE"
+          }
+        ]
+      }
+    ]
+  }
+}

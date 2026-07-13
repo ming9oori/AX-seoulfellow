@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:37.008168+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "claim_status": "structural_gap_worklist_pending_human_review",
+  "review_checkpoint_candidate_count": 45,
+  "gateway_branch_gap_count": 4,
+  "structural_cq_answerability_rate": 1.0,
+  "procedural_consistency_rate": 0.995283,
+  "human_gate_effect": "does_not_change_minimum_11_file_paper_gate",
+  "outputs": {
+    "review_checkpoint_candidates_csv": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+    "gateway_branch_gaps_csv": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+    "summary_json": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_summary.json",
+    "report_md": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md"
+  }
+}

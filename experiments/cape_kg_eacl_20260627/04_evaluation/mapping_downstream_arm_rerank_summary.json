@@ -1,0 +1,66 @@
+{
+  "claim_status": "diagnostic_rerank_only_not_expert_reviewed",
+  "candidate_universe": "generated_top5_only",
+  "detail_rows": 176,
+  "source_task_groups": 44,
+  "representation_arms": [
+    "flat_triples",
+    "procedural_kg_with_evidence",
+    "task_frame_only",
+    "text_only_task_description"
+  ],
+  "standards": [
+    "NCS",
+    "PCF"
+  ],
+  "top1_agreement_by_standard_arm": [
+    {
+      "standard": "NCS",
+      "representation_arm": "flat_triples",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.2273
+    },
+    {
+      "standard": "NCS",
+      "representation_arm": "procedural_kg_with_evidence",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.3182
+    },
+    {
+      "standard": "NCS",
+      "representation_arm": "task_frame_only",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.2727
+    },
+    {
+      "standard": "NCS",
+      "representation_arm": "text_only_task_description",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.3182
+    },
+    {
+      "standard": "PCF",
+      "representation_arm": "flat_triples",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.3636
+    },
+    {
+      "standard": "PCF",
+      "representation_arm": "procedural_kg_with_evidence",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.3182
+    },
+    {
+      "standard": "PCF",
+      "representation_arm": "task_frame_only",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.3636
+    },
+    {
+      "standard": "PCF",
+      "representation_arm": "text_only_task_description",
+      "source_task_groups": 22,
+      "top1_agreement_with_full_score": 0.4091
+    }
+  ]
+}

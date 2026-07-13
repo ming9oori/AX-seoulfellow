@@ -1,0 +1,140 @@
+{
+  "response_id": "resp_002d27a6fffd7f45006a50cc10c1a081998fd209bccb52a4c7",
+  "usage": {
+    "input_tokens": 2272,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 849,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3121
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1094",
+        "triples": [
+          {
+            "subject": "사진과 캡션",
+            "predicate": "연계하다",
+            "object": "강점과 고객의 이슈",
+            "source_span": "사진과 캡션을 통해 강점과 고객의 이슈를 연계했다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1096",
+        "triples": [
+          {
+            "subject": "약점 최소화",
+            "predicate": "기여하다",
+            "object": "제안 경쟁력",
+            "source_span": "약점을 최소화하는 것은 전략 수립 중에서 가장 어려운 부분인 만큼 제안 경쟁력에 크게 기여한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1110",
+        "triples": [
+          {
+            "subject": "고객",
+            "predicate": "수정하다",
+            "object": "제안 전략",
+            "source_span": "쉬플리의 컨설팅으로 이 고객은 제안 전략을 전면 수정했다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1112",
+        "triples": [
+          {
+            "subject": "메시지",
+            "predicate": "포함하다",
+            "object": "사고 이야기",
+            "source_span": "그 메시지는 ‘우리는 5년 전에 00사고를 겪고, 지난 5년 동안 000 Man day 인력을 투입하고, 000억 원의 비용을 투자해서 000개의 핵심 기술을 확보했습니다’였다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1113",
+        "triples": [
+          {
+            "subject": "고객",
+            "predicate": "변화하다",
+            "object": "입장",
+            "source_span": "이렇게 되자 그들의 고객은 입장이 바뀌었다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1116",
+        "triples": [
+          {
+            "subject": "약점 공개",
+            "predicate": "느끼다",
+            "object": "경쟁자의 공략",
+            "source_span": "또 하나의 효과는 이렇게 자신의 약점을 밝혀버리자 더는 경쟁자의 공략이 날카롭게 느껴지지 않더라는 점이다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1311",
+        "triples": [
+          {
+            "subject": "방법 선택",
+            "predicate": "달려 있다",
+            "object": "고객의 이슈 이해",
+            "source_span": "정공법과 역공법 중 어떤 방법을 선택할 것인가는 고객의 이슈를 얼마나 정확히 이해했는가에 달려 있다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1313",
+        "triples": [
+          {
+            "subject": "중요한 것",
+            "predicate": "명심하다",
+            "object": "고객의 효용과 핵심 이슈 해결",
+            "source_span": "중요한 것은 나의 장점이 아니라 우리 솔루션을 통해서 고객이 얻게 되는 효용과 핵심 이슈의 해결임을 명심하라."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1327",
+        "triples": [
+          {
+            "subject": "리스크 관리",
+            "predicate": "분석하다",
+            "object": "위험등급",
+            "source_span": "•리스크별 위험등급 분석 기준"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1335",
+        "triples": [
+          {
+            "subject": "제안사",
+            "predicate": "보여주다",
+            "object": "리스크가 적다",
+            "source_span": "제안사는 종종 자신들의 제안이 경쟁사보다 리스크가 적다는 점을 보여주려 하지만 리스크 관리의 핵심은 각 고객이 어느 정도의 리스크를 감당할 수 있는지를 이해하고, 고객의 니즈에 적합한 솔루션을 제시하는 것이다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1337",
+        "triples": [
+          {
+            "subject": "평가자",
+            "predicate": "평가하다",
+            "object": "제안 리스크와 성과 리스크",
+            "source_span": "평가자는 일반적으로 제안 리스크(Proposal Risk)와 성과 리스크(Performance Risk)를 평가한다."
+          }
+        ]
+      }
+    ]
+  }
+}

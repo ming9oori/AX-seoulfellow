@@ -1,0 +1,392 @@
+{
+  "E2_base": {
+    "claim_precision": 0.8788,
+    "claim_recall": 0.8788,
+    "claim_f1": 0.8788,
+    "claim_tp": 29,
+    "claim_fp": 4,
+    "claim_fn": 4,
+    "family_macro_f1": 0.1282,
+    "fine_type_macro_f1": 0.2797,
+    "modality_macro_f1": 0.5327,
+    "promotion_macro_f1": 0.0735,
+    "graph_f1": 0.0,
+    "critical_errors": {
+      "condition_dropped": 1,
+      "modality_confusion": 5,
+      "negation_or_polarity_dropped": 1,
+      "discourse_promoted": 1,
+      "total": 8
+    },
+    "critical_error_rate": 0.2759,
+    "evaluated_reference_units": 33,
+    "matched_claims": 29,
+    "unit_scores": {
+      "ev:jaije:clean_sentences:r42": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r67": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r70": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r87": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r91": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r97": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r106": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r208": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r260": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r261": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r265": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r274": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r295": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r314": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r361": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r384": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r387": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r411": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r431": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r527": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r531": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r550": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r560": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r613": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r683": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r705": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r736": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r866": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1193": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1195": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1200": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1347": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1357": [
+        0,
+        1,
+        1
+      ]
+    },
+    "bootstrap_95_ci": {
+      "lower": 0.7576,
+      "median": 0.8788,
+      "upper": 0.9697
+    }
+  },
+  "E2_plus_safe_LF": {
+    "claim_precision": 0.8788,
+    "claim_recall": 0.8788,
+    "claim_f1": 0.8788,
+    "claim_tp": 29,
+    "claim_fp": 4,
+    "claim_fn": 4,
+    "family_macro_f1": 0.1282,
+    "fine_type_macro_f1": 0.2797,
+    "modality_macro_f1": 0.5327,
+    "promotion_macro_f1": 0.0735,
+    "graph_f1": 0.0,
+    "critical_errors": {
+      "condition_dropped": 1,
+      "modality_confusion": 5,
+      "negation_or_polarity_dropped": 1,
+      "discourse_promoted": 1,
+      "total": 8
+    },
+    "critical_error_rate": 0.2759,
+    "evaluated_reference_units": 33,
+    "matched_claims": 29,
+    "unit_scores": {
+      "ev:jaije:clean_sentences:r42": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r67": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r70": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r87": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r91": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r97": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r106": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r208": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r260": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r261": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r265": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r274": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r295": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r314": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r361": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r384": [
+        0,
+        1,
+        1
+      ],
+      "ev:jaije:clean_sentences:r387": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r411": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r431": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r527": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r531": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r550": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r560": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r613": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r683": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r705": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r736": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r866": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1193": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1195": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1200": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1347": [
+        1,
+        0,
+        0
+      ],
+      "ev:jaije:clean_sentences:r1357": [
+        0,
+        1,
+        1
+      ]
+    },
+    "bootstrap_95_ci": {
+      "lower": 0.7576,
+      "median": 0.8788,
+      "upper": 0.9697
+    }
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "duplicate_cluster_id": "dup:9efb56fd3d3fa5272bf7",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r2",
+      "ev:jaije:clean_sentences:r74"
+    ]
+  },
+  {
+    "duplicate_cluster_id": "dup:b3407b796a75eab05b98",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r809",
+      "ev:jaije:clean_sentences:r839"
+    ]
+  },
+  {
+    "duplicate_cluster_id": "dup:bfd800e05fbbececf987",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r147",
+      "ev:jaije:clean_sentences:r163",
+      "ev:jaije:clean_sentences:r168",
+      "ev:jaije:clean_sentences:r174",
+      "ev:jaije:clean_sentences:r180",
+      "ev:jaije:clean_sentences:r188"
+    ]
+  },
+  {
+    "duplicate_cluster_id": "dup:c5d128e276bba0a98435",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r286",
+      "ev:jaije:clean_sentences:r293"
+    ]
+  },
+  {
+    "duplicate_cluster_id": "dup:c9c71131c7eb4bc7b267",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r3",
+      "ev:jaije:clean_sentences:r75"
+    ]
+  },
+  {
+    "duplicate_cluster_id": "dup:e2303235cf3b8741b204",
+    "evidence_ids": [
+      "ev:jaije:clean_sentences:r76",
+      "ev:jaije:clean_sentences:r90",
+      "ev:jaije:clean_sentences:r125",
+      "ev:jaije:clean_sentences:r196",
+      "ev:jaije:clean_sentences:r301",
+      "ev:jaije:clean_sentences:r335",
+      "ev:jaije:clean_sentences:r412",
+      "ev:jaije:clean_sentences:r421",
+      "ev:jaije:clean_sentences:r455",
+      "ev:jaije:clean_sentences:r525",
+      "ev:jaije:clean_sentences:r605",
+      "ev:jaije:clean_sentences:r689",
+      "ev:jaije:clean_sentences:r707",
+      "ev:jaije:clean_sentences:r718",
+      "ev:jaije:clean_sentences:r742",
+      "ev:jaije:clean_sentences:r770",
+      "ev:jaije:clean_sentences:r904",
+      "ev:jaije:clean_sentences:r948",
+      "ev:jaije:clean_sentences:r1106",
+      "ev:jaije:clean_sentences:r1151",
+      "ev:jaije:clean_sentences:r1185",
+      "ev:jaije:clean_sentences:r1198",
+      "ev:jaije:clean_sentences:r1211",
+      "ev:jaije:clean_sentences:r1236",
+      "ev:jaije:clean_sentences:r1322",
+      "ev:jaije:clean_sentences:r1346"
+    ]
+  }
+]

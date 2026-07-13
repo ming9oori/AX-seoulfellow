@@ -1,0 +1,74 @@
+[
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-01",
+    "passed": true,
+    "question": "수주 프로세스 단계와 순서"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-02",
+    "passed": true,
+    "question": "단계별 활동과 산출물"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-03",
+    "passed": true,
+    "question": "Proposal Planning의 입력"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-04",
+    "passed": true,
+    "question": "Capture Plan의 의미 분리"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-05",
+    "passed": true,
+    "question": "Capture Plan과 Account Plan 비교"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-06",
+    "passed": true,
+    "question": "BCM의 생성과 사용"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-07",
+    "passed": true,
+    "question": "BCM 평가 기준과 점수"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-08",
+    "passed": true,
+    "question": "가치제안 수식"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-09",
+    "passed": true,
+    "question": "리스크 정의"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-10",
+    "passed": true,
+    "question": "리스크 대응책"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-11",
+    "passed": true,
+    "question": "리스크 관리 안티패턴"
+  },
+  {
+    "execution_mode": "in_memory_static_equivalent",
+    "id": "CQ-12",
+    "passed": true,
+    "question": "근거 감사"
+  }
+]

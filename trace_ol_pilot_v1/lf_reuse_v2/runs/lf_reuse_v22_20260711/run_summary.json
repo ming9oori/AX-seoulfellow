@@ -1,0 +1,503 @@
+{
+  "run_id": "trace-ol-lf-reuse-v2.2-20260711",
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "splits": {
+    "seed": 20260724,
+    "counts": {
+      "FRESH_TEST_V22_LOCKED": 50,
+      "VALIDATION_V22": 50
+    },
+    "family_counts": {
+      "VALIDATION_V22": {
+        "descriptive": 17,
+        "discourse": 10,
+        "conditional": 2,
+        "procedure": 8,
+        "evaluation": 10,
+        "definition": 3
+      },
+      "FRESH_TEST_V22_LOCKED": {
+        "descriptive": 15,
+        "procedure": 8,
+        "discourse": 10,
+        "conditional": 2,
+        "definition": 4,
+        "evaluation": 10,
+        "normative": 1
+      }
+    },
+    "excluded_prior_evidence": 510,
+    "prior_evidence_overlap": 0,
+    "validation_test_group_overlap": {},
+    "remaining_data_limitation": "Only one normative and four conditional cue rows remained after excluding v1/v2/v2.1 evidence."
+  },
+  "validation_reference": {
+    "targets": 50,
+    "tier_counts": {
+      "Challenge": 24,
+      "Silver-A": 22,
+      "Silver-B": 4
+    },
+    "resolved": 26,
+    "resolved_rate": 0.52,
+    "ab_agreement_rate": 0.44,
+    "span_issues": 0
+  },
+  "test_reference": {
+    "targets": 50,
+    "tier_counts": {
+      "Silver-A": 22,
+      "Challenge": 17,
+      "Silver-B": 11
+    },
+    "resolved": 33,
+    "resolved_rate": 0.66,
+    "ab_agreement_rate": 0.44,
+    "span_issues": 5
+  },
+  "packages": {
+    "candidates": 7,
+    "active": 1
+  },
+  "package_quality": {
+    "resolved_test_units": 33,
+    "applied_on_resolved": 5,
+    "correct_on_resolved": 5,
+    "test_package_precision": 1.0,
+    "test_package_coverage": 0.1515
+  },
+  "applications": {
+    "applied": 5,
+    "runtime_conflict_abstained": 0,
+    "rejected_packages": 6,
+    "withheld_test_rows": 6
+  },
+  "metrics": {
+    "E2_base": {
+      "claim_precision": 0.8788,
+      "claim_recall": 0.8788,
+      "claim_f1": 0.8788,
+      "claim_tp": 29,
+      "claim_fp": 4,
+      "claim_fn": 4,
+      "family_macro_f1": 0.1282,
+      "fine_type_macro_f1": 0.2797,
+      "modality_macro_f1": 0.5327,
+      "promotion_macro_f1": 0.0735,
+      "graph_f1": 0.0,
+      "critical_errors": {
+        "condition_dropped": 1,
+        "modality_confusion": 5,
+        "negation_or_polarity_dropped": 1,
+        "discourse_promoted": 1,
+        "total": 8
+      },
+      "critical_error_rate": 0.2759,
+      "evaluated_reference_units": 33,
+      "matched_claims": 29,
+      "unit_scores": {
+        "ev:jaije:clean_sentences:r42": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r67": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r70": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r87": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r91": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r97": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r106": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r208": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r260": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r261": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r265": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r274": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r295": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r314": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r361": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r384": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r387": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r411": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r431": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r527": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r531": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r550": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r560": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r613": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r683": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r705": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r736": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r866": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1193": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1195": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1200": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1347": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1357": [
+          0,
+          1,
+          1
+        ]
+      },
+      "bootstrap_95_ci": {
+        "lower": 0.7576,
+        "median": 0.8788,
+        "upper": 0.9697
+      }
+    },
+    "E2_plus_safe_LF": {
+      "claim_precision": 0.8788,
+      "claim_recall": 0.8788,
+      "claim_f1": 0.8788,
+      "claim_tp": 29,
+      "claim_fp": 4,
+      "claim_fn": 4,
+      "family_macro_f1": 0.1282,
+      "fine_type_macro_f1": 0.2797,
+      "modality_macro_f1": 0.5327,
+      "promotion_macro_f1": 0.0735,
+      "graph_f1": 0.0,
+      "critical_errors": {
+        "condition_dropped": 1,
+        "modality_confusion": 5,
+        "negation_or_polarity_dropped": 1,
+        "discourse_promoted": 1,
+        "total": 8
+      },
+      "critical_error_rate": 0.2759,
+      "evaluated_reference_units": 33,
+      "matched_claims": 29,
+      "unit_scores": {
+        "ev:jaije:clean_sentences:r42": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r67": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r70": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r87": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r91": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r97": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r106": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r208": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r260": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r261": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r265": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r274": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r295": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r314": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r361": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r384": [
+          0,
+          1,
+          1
+        ],
+        "ev:jaije:clean_sentences:r387": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r411": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r431": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r527": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r531": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r550": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r560": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r613": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r683": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r705": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r736": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r866": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1193": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1195": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1200": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1347": [
+          1,
+          0,
+          0
+        ],
+        "ev:jaije:clean_sentences:r1357": [
+          0,
+          1,
+          1
+        ]
+      },
+      "bootstrap_95_ci": {
+        "lower": 0.7576,
+        "median": 0.8788,
+        "upper": 0.9697
+      }
+    }
+  },
+  "llm_savings": {
+    "before_candidates": 7,
+    "after_candidates": 7,
+    "candidate_reduction": 0.0
+  },
+  "api": {
+    "actual_api_calls": 37,
+    "cache_hits": 37,
+    "input_tokens": 106662,
+    "output_tokens": 61722,
+    "estimated_cost_usd": 0.053033,
+    "strong_model_calls": 0,
+    "failed_truncated_calls": 0,
+    "strong_model_cost_share": 0.0,
+    "hard_caps": {
+      "calls": 80,
+      "input_tokens": 600000,
+      "output_tokens": 250000,
+      "strong_calls": 8
+    }
+  },
+  "success_gates": {
+    "gates": {
+      "active_safe_package_at_least_1": true,
+      "test_package_precision_ge_0_90": true,
+      "critical_error_rate_not_worse": true,
+      "claim_f1_not_worse": true,
+      "llm_candidate_reduction_ge_0_20": false,
+      "no_prior_evidence_overlap": true,
+      "no_validation_test_group_leakage": true
+    },
+    "passed": 6,
+    "total": 7,
+    "status": "REVISE"
+  },
+  "design_note": "v2.1 test informed the safe-package policy; all v2.2 validation/test evidence is new."
+}

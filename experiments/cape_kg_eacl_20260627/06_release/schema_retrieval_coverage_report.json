@@ -1,0 +1,789 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:34.330653+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "method_module": {
+    "module_id": "M3",
+    "name": "CQ-linked schema retrieval",
+    "purpose": "Verify that the proposed condition uses CQ-linked chunk-specific schema/taxonomy context and that the schema-retrieval ablation removes only that component while preserving the output shape."
+  },
+  "claim_status": "schema_retrieval_coverage_ready_silver_diagnostic_not_human_gold",
+  "claim_boundary": {
+    "silver_diagnostic_only": true,
+    "not_human_gold_performance_evidence": true,
+    "safe_interpretation": "This report checks method coverage, output shape, and silver proxy diagnostics for schema retrieval. It does not claim final precision, recall, F1, or human-gold CQ answerability.",
+    "not_claimable_until": "adjudicated human-gold annotations, IAA, and human-gold scoring are imported for the proposed and ablation conditions."
+  },
+  "schema_summary": {
+    "node_type_count": 14,
+    "edge_type_count": 17,
+    "domain_range_count": 17,
+    "evidence_span_required": true,
+    "node_types": [
+      "DomainTask",
+      "ProcedureStep",
+      "DecisionGateway",
+      "GuardCondition",
+      "Artifact",
+      "ArtifactFlow",
+      "Role",
+      "ReviewCheckpoint",
+      "Principle",
+      "Risk",
+      "EvidenceAnchor",
+      "NCSCompetencyUnit",
+      "PCFElement",
+      "MappingCandidate"
+    ],
+    "edge_types": [
+      "HAS_STEP",
+      "PRECEDES",
+      "BRANCHES_TO",
+      "HAS_GUARD_CONDITION",
+      "USES_INPUT",
+      "PRODUCES",
+      "FEEDS_INTO",
+      "PERFORMED_BY",
+      "HAS_DECISION_GATEWAY",
+      "HAS_REVIEW_CHECKPOINT",
+      "HAS_PRINCIPLE",
+      "HAS_RISK",
+      "EVIDENCED_BY",
+      "REQUIRES_CAPABILITY",
+      "PROCESS_CONTEXT",
+      "CANDIDATE_ALIGNS_WITH",
+      "USED_AS_INPUT_FOR"
+    ]
+  },
+  "competency_question_summary": {
+    "cq_count": 12,
+    "source_file": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+    "all_cqs_have_target_predicates": true
+  },
+  "condition_prompt_policy": [
+    {
+      "condition": "P_cape_kg_actual",
+      "condition_role": "proposed",
+      "uses_cq_anchor": true,
+      "uses_chunk_specific_schema_retrieval": true,
+      "uses_taxonomy_snippets": true,
+      "uses_full_schema_list": true,
+      "keeps_evidence_grounding": true,
+      "keeps_validator": true,
+      "keeps_mapping_output_shape": true,
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ],
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+      "prompt_text": "Use CQ-linked schema retrieval, procedural frame extraction, evidence-span constrained relation extraction, span verification, ontology validation, procedural consistency checks, and active review scoring.",
+      "interpretation": "Full CAPE-KG condition: CQ anchoring plus chunk-specific schema/taxonomy context."
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "condition_role": "ablation",
+      "uses_cq_anchor": true,
+      "uses_chunk_specific_schema_retrieval": false,
+      "uses_taxonomy_snippets": false,
+      "uses_full_schema_list": true,
+      "keeps_evidence_grounding": true,
+      "keeps_validator": true,
+      "keeps_mapping_output_shape": true,
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ],
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt",
+      "prompt_text": "Run CAPE-KG without chunk-specific schema/taxonomy retrieval; keep CQ, evidence grounding, procedural schema, validation, and mapping output shape.",
+      "interpretation": "Ablation that keeps the output contract but removes chunk-specific schema/taxonomy retrieval."
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "condition_role": "baseline",
+      "uses_cq_anchor": false,
+      "uses_chunk_specific_schema_retrieval": true,
+      "uses_taxonomy_snippets": true,
+      "uses_full_schema_list": false,
+      "keeps_evidence_grounding": true,
+      "keeps_validator": false,
+      "keeps_mapping_output_shape": true,
+      "expected_output_keys": [
+        "nodes",
+        "edges",
+        "mappings"
+      ],
+      "prompt_file": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt",
+      "prompt_text": "Retrieve NCS/PCF/task taxonomy snippets, then extract schema-constrained triples with evidence.",
+      "interpretation": "Taxonomy/RAG baseline without the full CQ-anchored CAPE control stack."
+    }
+  ],
+  "condition_output_summary": [
+    {
+      "condition": "P_cape_kg_actual",
+      "valid_rows": 120,
+      "triples": 0,
+      "nodes": 576,
+      "edges": 373,
+      "mappings": 227,
+      "source_files": [
+        "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+      ]
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "valid_rows": 120,
+      "triples": 0,
+      "nodes": 568,
+      "edges": 417,
+      "mappings": 216,
+      "source_files": [
+        "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+      ]
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "valid_rows": 120,
+      "triples": 0,
+      "nodes": 719,
+      "edges": 323,
+      "mappings": 126,
+      "source_files": [
+        "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl"
+      ]
+    }
+  ],
+  "condition_silver_metrics": [
+    {
+      "condition": "B4_taxonomy_rag",
+      "source_file": "49_qwen3_8b_b2_b4_condition_baselines_120_valid.jsonl",
+      "rows": 120,
+      "raw_rows": 120,
+      "parse_or_generation_error_rows": 102,
+      "pred_nodes": 674,
+      "pred_edges": 128,
+      "pred_mappings": 41,
+      "edge_exact_f1": 0.0,
+      "predicate_f1": 0.010511,
+      "node_label_f1": 0.029974,
+      "evidence_f1": 0.064055,
+      "schema_edge_rate": 1.0,
+      "mapping_evidence_attachment_rate": 1.0,
+      "claim_status": "silver_proxy_not_human_gold"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "source_file": "49_qwen3_8b_edc_schema_ablation_valid.jsonl",
+      "rows": 120,
+      "raw_rows": 120,
+      "parse_or_generation_error_rows": 109,
+      "pred_nodes": 566,
+      "pred_edges": 308,
+      "pred_mappings": 25,
+      "edge_exact_f1": 0.00088,
+      "predicate_f1": 0.073031,
+      "node_label_f1": 0.021797,
+      "evidence_f1": 0.059804,
+      "schema_edge_rate": 1.0,
+      "mapping_evidence_attachment_rate": 1.0,
+      "claim_status": "silver_proxy_not_human_gold"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "source_file": "49_qwen3_8b_cape_ablation_120_valid.jsonl",
+      "rows": 120,
+      "raw_rows": 120,
+      "parse_or_generation_error_rows": 113,
+      "pred_nodes": 549,
+      "pred_edges": 275,
+      "pred_mappings": 52,
+      "edge_exact_f1": 0.001786,
+      "predicate_f1": 0.048214,
+      "node_label_f1": 0.032597,
+      "evidence_f1": 0.065527,
+      "schema_edge_rate": 1.0,
+      "mapping_evidence_attachment_rate": 1.0,
+      "claim_status": "silver_proxy_not_human_gold"
+    }
+  ],
+  "cq_support_summary": [
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_count": 12,
+      "supported_cq_count": 11,
+      "unsupported_cq_count": 1,
+      "support_count_total": 1770,
+      "supporting_chunks_total": 430,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_count": 12,
+      "supported_cq_count": 11,
+      "unsupported_cq_count": 1,
+      "support_count_total": 1804,
+      "supporting_chunks_total": 501,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_count": 12,
+      "supported_cq_count": 8,
+      "unsupported_cq_count": 4,
+      "support_count_total": 1607,
+      "supporting_chunks_total": 335,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    }
+  ],
+  "cq_support_rows": [
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ1",
+      "question": "수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?",
+      "target_predicates": "HAS_STEP,PRECEDES",
+      "support_count": 97,
+      "supporting_chunks": 58,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ2",
+      "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+      "target_predicates": "USES_INPUT",
+      "support_count": 22,
+      "supporting_chunks": 19,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ3",
+      "question": "각 Task는 어떤 산출물을 생성하는가?",
+      "target_predicates": "PRODUCES",
+      "support_count": 97,
+      "supporting_chunks": 63,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ4",
+      "question": "각 Task는 누가 수행하거나 책임지는가?",
+      "target_predicates": "PERFORMED_BY",
+      "support_count": 8,
+      "supporting_chunks": 5,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ5",
+      "question": "어떤 의사결정 지점이 존재하는가?",
+      "target_predicates": "HAS_DECISION_GATEWAY",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ6",
+      "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+      "target_predicates": "HAS_GUARD_CONDITION",
+      "support_count": 1,
+      "supporting_chunks": 1,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ7",
+      "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+      "target_predicates": "FEEDS_INTO,USED_AS_INPUT_FOR",
+      "support_count": 130,
+      "supporting_chunks": 64,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ8",
+      "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+      "target_predicates": "HAS_REVIEW_CHECKPOINT",
+      "support_count": 2,
+      "supporting_chunks": 2,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ9",
+      "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+      "target_predicates": "HAS_PRINCIPLE",
+      "support_count": 10,
+      "supporting_chunks": 9,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ10",
+      "question": "각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?",
+      "target_predicates": "EVIDENCED_BY",
+      "support_count": 1176,
+      "supporting_chunks": 120,
+      "support_proxy": "evidence_anchored_items",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ11",
+      "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+      "target_predicates": "REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",
+      "support_count": 225,
+      "supporting_chunks": 87,
+      "support_proxy": "ncs_mapping_items",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_cape_kg_actual",
+      "cq_id": "CQ12",
+      "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+      "target_predicates": "PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",
+      "support_count": 2,
+      "supporting_chunks": 2,
+      "support_proxy": "pcf_mapping_items",
+      "evidence_anchored_items_in_condition": 1176,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ1",
+      "question": "수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?",
+      "target_predicates": "HAS_STEP,PRECEDES",
+      "support_count": 135,
+      "supporting_chunks": 71,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ2",
+      "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+      "target_predicates": "USES_INPUT",
+      "support_count": 48,
+      "supporting_chunks": 32,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ3",
+      "question": "각 Task는 어떤 산출물을 생성하는가?",
+      "target_predicates": "PRODUCES",
+      "support_count": 96,
+      "supporting_chunks": 60,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ4",
+      "question": "각 Task는 누가 수행하거나 책임지는가?",
+      "target_predicates": "PERFORMED_BY",
+      "support_count": 15,
+      "supporting_chunks": 10,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ5",
+      "question": "어떤 의사결정 지점이 존재하는가?",
+      "target_predicates": "HAS_DECISION_GATEWAY",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ6",
+      "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+      "target_predicates": "HAS_GUARD_CONDITION",
+      "support_count": 4,
+      "supporting_chunks": 4,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ7",
+      "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+      "target_predicates": "FEEDS_INTO,USED_AS_INPUT_FOR",
+      "support_count": 49,
+      "supporting_chunks": 33,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ8",
+      "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+      "target_predicates": "HAS_REVIEW_CHECKPOINT",
+      "support_count": 2,
+      "supporting_chunks": 2,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ9",
+      "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+      "target_predicates": "HAS_PRINCIPLE",
+      "support_count": 38,
+      "supporting_chunks": 25,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ10",
+      "question": "각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?",
+      "target_predicates": "EVIDENCED_BY",
+      "support_count": 1201,
+      "supporting_chunks": 119,
+      "support_proxy": "evidence_anchored_items",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ11",
+      "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+      "target_predicates": "REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",
+      "support_count": 99,
+      "supporting_chunks": 70,
+      "support_proxy": "ncs_mapping_items",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "P_minus_Schema_retrieval",
+      "cq_id": "CQ12",
+      "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+      "target_predicates": "PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",
+      "support_count": 117,
+      "supporting_chunks": 75,
+      "support_proxy": "pcf_mapping_items",
+      "evidence_anchored_items_in_condition": 1201,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ1",
+      "question": "수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?",
+      "target_predicates": "HAS_STEP,PRECEDES",
+      "support_count": 45,
+      "supporting_chunks": 26,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ2",
+      "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+      "target_predicates": "USES_INPUT",
+      "support_count": 16,
+      "supporting_chunks": 10,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ3",
+      "question": "각 Task는 어떤 산출물을 생성하는가?",
+      "target_predicates": "PRODUCES",
+      "support_count": 71,
+      "supporting_chunks": 45,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ4",
+      "question": "각 Task는 누가 수행하거나 책임지는가?",
+      "target_predicates": "PERFORMED_BY",
+      "support_count": 13,
+      "supporting_chunks": 7,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ5",
+      "question": "어떤 의사결정 지점이 존재하는가?",
+      "target_predicates": "HAS_DECISION_GATEWAY",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ6",
+      "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+      "target_predicates": "HAS_GUARD_CONDITION",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ7",
+      "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+      "target_predicates": "FEEDS_INTO,USED_AS_INPUT_FOR",
+      "support_count": 162,
+      "supporting_chunks": 66,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ8",
+      "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+      "target_predicates": "HAS_REVIEW_CHECKPOINT",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ9",
+      "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+      "target_predicates": "HAS_PRINCIPLE",
+      "support_count": 6,
+      "supporting_chunks": 4,
+      "support_proxy": "edge_predicate_match",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ10",
+      "question": "각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?",
+      "target_predicates": "EVIDENCED_BY",
+      "support_count": 1168,
+      "supporting_chunks": 119,
+      "support_proxy": "evidence_anchored_items",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ11",
+      "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+      "target_predicates": "REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",
+      "support_count": 126,
+      "supporting_chunks": 58,
+      "support_proxy": "ncs_mapping_items",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    },
+    {
+      "condition": "B4_taxonomy_rag",
+      "cq_id": "CQ12",
+      "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+      "target_predicates": "PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",
+      "support_count": 0,
+      "supporting_chunks": 0,
+      "support_proxy": "pcf_mapping_items",
+      "evidence_anchored_items_in_condition": 1168,
+      "claim_status": "cq_support_proxy_not_human_gold_answerability"
+    }
+  ],
+  "diagnostic_deltas": {
+    "output_quantity_P_minus_schema_retrieval": [
+      {
+        "metric": "valid_rows",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 120.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 120.0,
+        "delta_left_minus_right": 0.0
+      },
+      {
+        "metric": "nodes",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 576.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 568.0,
+        "delta_left_minus_right": 8.0
+      },
+      {
+        "metric": "edges",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 373.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 417.0,
+        "delta_left_minus_right": -44.0
+      },
+      {
+        "metric": "mappings",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 227.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 216.0,
+        "delta_left_minus_right": 11.0
+      }
+    ],
+    "silver_metrics_P_minus_schema_retrieval": [
+      {
+        "metric": "pred_nodes",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 549.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 566.0,
+        "delta_left_minus_right": -17.0
+      },
+      {
+        "metric": "pred_edges",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 275.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 308.0,
+        "delta_left_minus_right": -33.0
+      },
+      {
+        "metric": "pred_mappings",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 52.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 25.0,
+        "delta_left_minus_right": 27.0
+      },
+      {
+        "metric": "edge_exact_f1",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 0.001786,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 0.00088,
+        "delta_left_minus_right": 0.000906
+      },
+      {
+        "metric": "predicate_f1",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 0.048214,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 0.073031,
+        "delta_left_minus_right": -0.024817
+      },
+      {
+        "metric": "node_label_f1",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 0.032597,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 0.021797,
+        "delta_left_minus_right": 0.0108
+      },
+      {
+        "metric": "evidence_f1",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 0.065527,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 0.059804,
+        "delta_left_minus_right": 0.005723
+      },
+      {
+        "metric": "schema_edge_rate",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 1.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 1.0,
+        "delta_left_minus_right": 0.0
+      },
+      {
+        "metric": "mapping_evidence_attachment_rate",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 1.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 1.0,
+        "delta_left_minus_right": 0.0
+      }
+    ],
+    "cq_support_P_minus_schema_retrieval": [
+      {
+        "metric": "supported_cq_count",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 11.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 11.0,
+        "delta_left_minus_right": 0.0
+      },
+      {
+        "metric": "support_count_total",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 1770.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 1804.0,
+        "delta_left_minus_right": -34.0
+      },
+      {
+        "metric": "supporting_chunks_total",
+        "left_condition": "P_cape_kg_actual",
+        "left_value": 430.0,
+        "right_condition": "P_minus_Schema_retrieval",
+        "right_value": 501.0,
+        "delta_left_minus_right": -71.0
+      }
+    ],
+    "interpretation": "Positive and negative deltas are diagnostics only; the current silver proxy is not an adjudicated performance table."
+  },
+  "input_files": {
+    "prompt_node_edge_traceability": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+    "competency_questions": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+    "cape_schema": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+    "actual_llm_silver_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+    "valid_output_files": [
+      "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+      "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl"
+    ]
+  },
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.md",
+    "cq_support_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/schema_retrieval_cq_support_by_condition.csv"
+  }
+}

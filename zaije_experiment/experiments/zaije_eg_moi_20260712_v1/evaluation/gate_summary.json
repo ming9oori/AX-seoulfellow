@@ -1,0 +1,32 @@
+{
+  "experiment_id": "zaije_eg_moi_20260712_v1",
+  "gates": {
+    "assertion_activity_complete": true,
+    "assertion_evidence_complete": true,
+    "domain_range_violations_zero": true,
+    "human_intervention_zero": true,
+    "invalid_edge_endpoints_zero": true,
+    "neo4j_assertion_activity_complete": true,
+    "neo4j_assertion_evidence_complete": true,
+    "neo4j_node_coverage_complete": true,
+    "neo4j_relationship_coverage_complete": true,
+    "neo4j_required_views_nonempty": true,
+    "rdf_files_parse": true,
+    "security_scan_pass": true,
+    "semantic_self_loop_zero": true,
+    "shacl_conforms": true,
+    "source_complete": true,
+    "stage1_offsets_exact": true,
+    "stage2_open_candidates_nonempty": true,
+    "stage3_consolidation_nonempty": true,
+    "stage4_schema_nonempty": true,
+    "stage5_promotions_nonempty": true,
+    "taxonomy_cycle_zero": true,
+    "visualizations_nonempty": true
+  },
+  "overall_status": "EG_MOI_END_TO_END_PASS",
+  "pipeline_success": true,
+  "result_semantics": "STRUCTURALLY_VALIDATED_SEMANTICALLY_UNVERIFIED",
+  "semantic_accuracy_claimed": false,
+  "semantic_accuracy_evaluated": false
+}

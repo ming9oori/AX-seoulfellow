@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "INDUCTION_GOLD": 100,
+    "PILOT": 40,
+    "TEST_CHALLENGE_GOLD": 60,
+    "TEST_NATURAL_GOLD": 140,
+    "VALIDATION_GOLD": 80
+  },
+  "manifest_sha256": "8d507d581d34932148320fa087920a258b919ce05c6ebdcbb7f598c47f6e43d6",
+  "policy": "IDs are locked before human annotation and system output inspection.",
+  "seed": 20260711
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "evidence_linked": true,
+    "id": "CQ1",
+    "passed": true,
+    "question": "단계별 산출물"
+  },
+  {
+    "evidence_linked": false,
+    "id": "CQ2",
+    "passed": false,
+    "question": "RFP와 의사결정"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ3",
+    "passed": true,
+    "question": "MUST/MUST_NOT 규칙"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ4",
+    "passed": true,
+    "question": "Capture Plan senses"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ5",
+    "passed": true,
+    "question": "경쟁자 분석 산출물"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ6",
+    "passed": true,
+    "question": "BCM 평가 관측"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ7",
+    "passed": true,
+    "question": "가치제안 수식"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ8",
+    "passed": true,
+    "question": "discourse 비승격"
+  },
+  {
+    "evidence_linked": false,
+    "id": "CQ9",
+    "passed": false,
+    "question": "리스크와 완화"
+  },
+  {
+    "evidence_linked": true,
+    "id": "CQ10",
+    "passed": true,
+    "question": "NeedsReview"
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-90_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-90",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-106_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-106_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-208_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-208",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-283_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-283",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-329_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-329",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-340_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-340",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-349_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-349",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-350_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C05",
+        "evidence_id": "zaije:evidence/xlsx-row-350",
+        "missing_candidate": false,
+        "repeat_id": 1
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/boundary_order_C05_145cf50cf761.json",
+  "response_id": "resp_0ee27153065374e6006a5310db0a44819aadfdaa856fb397b0",
+  "usage": {
+    "input_tokens": 2494,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 798,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3292
+  }
+}

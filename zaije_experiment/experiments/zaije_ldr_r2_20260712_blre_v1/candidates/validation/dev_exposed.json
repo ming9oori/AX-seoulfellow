@@ -1,0 +1,12 @@
+{
+  "candidate_count": 213,
+  "candidate_count_max": 24,
+  "candidate_count_median": 2.0,
+  "candidate_count_min": 1,
+  "candidate_count_p95": 13.0,
+  "candidate_id_uniqueness": 1.0,
+  "evidence_count": 60,
+  "offset_round_trip": 1.0,
+  "offset_uniqueness": 1.0,
+  "structure_preservation": 1.0
+}

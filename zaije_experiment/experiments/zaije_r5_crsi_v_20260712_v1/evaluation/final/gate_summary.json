@@ -1,0 +1,127 @@
+{
+  "H5_A": {
+    "cluster_rerun_stability": 1.0,
+    "critical_shacl_violation": 0,
+    "explicit_alias_recall": 1.0,
+    "explicit_alias_recall_pass": true,
+    "hard_negative_merge_violation": 0,
+    "hard_negative_pass": true,
+    "merge_provenance_completeness": 1.0,
+    "pass": true,
+    "provenance_pass": true,
+    "shacl_pass": true,
+    "stability_pass": true
+  },
+  "H5_B": {
+    "conflation_pass": true,
+    "critical_domain_range_violation": 0,
+    "domain_range_pass": true,
+    "evidence_pass": true,
+    "orphan_pass": true,
+    "orphan_promoted_relation": 0,
+    "partonomy_taxonomy_conflation": 0,
+    "pass": true,
+    "relation_evidence_coverage": 1.0,
+    "taxonomy_cycle": 0,
+    "taxonomy_pass": true
+  },
+  "H5_C": {
+    "b2_gain_over_b1": 0.18181818181818182,
+    "b2_token_over_b3": 0.5526504355026194,
+    "b2_yield_over_b3": 0.8125,
+    "critical_not_worse": true,
+    "gain_pass": true,
+    "pass": false,
+    "repeat_agreement": 1.0,
+    "repeat_pass": true,
+    "token_pass": false,
+    "yield_pass": true
+  },
+  "H5_D": {
+    "cq_not_worse": true,
+    "critical_not_worse": true,
+    "hard_negative_not_worse": true,
+    "pass": true,
+    "provenance_not_worse": true,
+    "unsupported_label_not_worse": true
+  },
+  "H5_E": {
+    "cq_pass": true,
+    "initial_presence_only_answerability": 0.6,
+    "pass": true,
+    "provenance_precision": 1.0,
+    "r4_structural_answers_preserved": true,
+    "reference_aware_cq_answerability": 1.0,
+    "unsupported_answer_rate": 0.0
+  },
+  "H5_F": {
+    "H5_F_pass": true,
+    "concept_mention_path_coverage": 1.0,
+    "concept_mentioned": 139,
+    "concept_total": 139,
+    "constraints": [
+      {
+        "name": "r5_uid_unique",
+        "type": "UNIQUENESS"
+      }
+    ],
+    "database": "neo4j",
+    "expected_node_count": 4767,
+    "expected_relationship_count": 10738,
+    "indexes": [
+      {
+        "name": "index_343aff4e",
+        "state": "ONLINE"
+      },
+      {
+        "name": "index_f7700477",
+        "state": "ONLINE"
+      },
+      {
+        "name": "r5_system_id",
+        "state": "ONLINE"
+      },
+      {
+        "name": "r5_type",
+        "state": "ONLINE"
+      },
+      {
+        "name": "r5_uid_unique",
+        "state": "ONLINE"
+      }
+    ],
+    "neo4j_version": "4.4.43",
+    "node_count": 4767,
+    "node_coverage": 1.0,
+    "pass": true,
+    "provenance_property_coverage": 1.0,
+    "registry_relation_count": 249,
+    "relationship_count": 10738,
+    "relationship_coverage": 1.0,
+    "required_six_non_empty": 6,
+    "rule_anchor_path_coverage": 1.0,
+    "rule_total": 45,
+    "rule_traced": 45,
+    "runtime": "LOCAL_COMMUNITY_SERVER",
+    "view_result_counts": {
+      "01_ontology_overview": 249,
+      "02_work_process_map": 55,
+      "03_rule_condition_map": 94,
+      "04_concept_resolution_map": 343,
+      "05_template_field_map": 7,
+      "06_evidence_trace": 819
+    }
+  },
+  "ontology_consolidation_gate": true,
+  "overall_status": "DETERMINISTIC_CRSI_ONLY_PASS",
+  "statistics": {
+    "confirmatory_evidence_n": 8,
+    "confirmatory_leakage_group_n": 7,
+    "explicit_alias_recall": 1.0,
+    "explicit_alias_recall_wilson_95ci": [
+      0.206543,
+      1
+    ],
+    "interpretation": "The interval is extremely wide because only one explicit alias event was available; no precise population performance claim is supported."
+  }
+}

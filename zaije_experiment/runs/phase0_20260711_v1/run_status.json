@@ -1,0 +1,72 @@
+{
+  "api_calls": 0,
+  "created_at_utc": "2026-07-11T17:36:17.021516+00:00",
+  "environment": {
+    "cpu_count": 64,
+    "platform": "Linux-5.4.0-144-generic-x86_64-with-glibc2.31",
+    "python": "3.13.13 | packaged by Anaconda, Inc. | (main, Apr 14 2026, 06:19:41) [GCC 14.3.0]"
+  },
+  "gate0": {
+    "checks": {
+      "binary_hash_match": true,
+      "canonical_hash_match_amended_preregister": true,
+      "leakage_group_overlap_zero": true,
+      "split_manifest_locked": true,
+      "split_within_tolerance": true,
+      "stable_id_unique": true,
+      "test_gold_access_log_zero": true
+    },
+    "status": "PASS"
+  },
+  "gate1": {
+    "reason": "Two independent human PILOT annotations and adjudication are not yet completed.",
+    "status": "BLOCKED"
+  },
+  "gold_sampling_manifest_sha256": "8d507d581d34932148320fa087920a258b919ce05c6ebdcbb7f598c47f6e43d6",
+  "input": {
+    "binary_sha256": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+    "canonical_algorithm": "canonical-jsonl-v1",
+    "canonical_sha256": "84d45b50acc542497df2f19bf8c3ad395f2ed223e6cfeb02be467c9f80f54906",
+    "path": "/home/minjoo/AX_서울펠로우/legacy/자이제_1.xlsx",
+    "sheet": "clean_sentences"
+  },
+  "later_phases": {
+    "reason": "Gold-first design forbids locked performance experiments before Gate 1.",
+    "status": "NOT_RUN"
+  },
+  "llm_tokens": 0,
+  "phase": "PHASE1_HUMAN_PILOT_REQUIRED",
+  "run_id": "phase0_20260711_v1",
+  "split": {
+    "evidence_count": 1366,
+    "group_overlap": {},
+    "largest_group": 29,
+    "leakage_group_count": 168,
+    "objective": 3.8761049268665655,
+    "seed": 20260711,
+    "split_counts": {
+      "INDUCTION": 681,
+      "TEST_CHALLENGE_POOL": 138,
+      "TEST_NATURAL": 275,
+      "VALIDATION": 272
+    },
+    "split_ratios": {
+      "INDUCTION": 0.4985358711566618,
+      "TEST_CHALLENGE_POOL": 0.10102489019033675,
+      "TEST_NATURAL": 0.20131771595900438,
+      "VALIDATION": 0.19912152269399708
+    },
+    "target_ratios": {
+      "INDUCTION": 0.5,
+      "TEST_CHALLENGE_POOL": 0.1,
+      "TEST_NATURAL": 0.2,
+      "VALIDATION": 0.2
+    },
+    "tolerances": {
+      "INDUCTION": 0.03,
+      "TEST_CHALLENGE_POOL": 0.02,
+      "TEST_NATURAL": 0.03,
+      "VALIDATION": 0.03
+    }
+  }
+}

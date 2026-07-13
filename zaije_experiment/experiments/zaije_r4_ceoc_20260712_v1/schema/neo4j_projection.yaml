@@ -1,0 +1,4 @@
+canonical_source: rdf
+node_labels: [Document, Chapter, Section, EvidenceBundle, Anchor, Concept, Assertion, ExplicitDeonticRule, TemplateField, ExampleInstance, ExtractionRun]
+required_edge_properties: [canonicalAssertionId, evidenceAnchorIds, extractionRunId]
+exclude_statuses: [QUARANTINED, REJECTED, CANDIDATE, EVIDENCE_ONLY]

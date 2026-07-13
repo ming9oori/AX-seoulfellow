@@ -1,0 +1,9 @@
+Strict JSON contract:
+- Return exactly one JSON object and nothing else.
+- The first non-whitespace character must be `{` and the last non-whitespace character must be `}`.
+- Do not include markdown, code fences, comments, XML tags, `<think>` blocks, prose, or explanations.
+- For Qwen/Qwen-style chat models, obey `/no_think`; do not emit hidden or visible reasoning.
+- Output the JSON object immediately without a preamble.
+- Use compact JSON without indentation or extra whitespace to reduce truncation risk.
+- Use double-quoted JSON strings only.
+- Use empty arrays for absent `nodes`, `edges`, `triples`, or `mappings` fields required by the requested shape.

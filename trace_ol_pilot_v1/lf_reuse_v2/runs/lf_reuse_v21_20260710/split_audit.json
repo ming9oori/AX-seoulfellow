@@ -1,0 +1,31 @@
+{
+  "seed": 20260721,
+  "counts": {
+    "FRESH_TEST_V21_LOCKED": 60,
+    "VALIDATION_V21": 60
+  },
+  "family_counts": {
+    "VALIDATION_V21": {
+      "normative": 8,
+      "definition": 10,
+      "descriptive": 8,
+      "evaluation": 8,
+      "discourse": 10,
+      "conditional": 8,
+      "procedure": 8
+    },
+    "FRESH_TEST_V21_LOCKED": {
+      "descriptive": 8,
+      "conditional": 8,
+      "discourse": 10,
+      "definition": 10,
+      "procedure": 8,
+      "evaluation": 8,
+      "normative": 8
+    }
+  },
+  "excluded_evidence_count": 390,
+  "excluded_evidence_overlap": 0,
+  "validation_test_group_overlap": {},
+  "scope_note": "Evidence-disjoint v2.1 splits; rules are document-local and may share section families with prior development data."
+}

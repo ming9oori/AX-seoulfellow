@@ -1,0 +1,27 @@
+{
+  "cuda_visible_devices": "0",
+  "errors": {
+    "PAGED:parse_error": 2,
+    "PAGED:root_not_object": 2,
+    "Text2KGBench:unknown_relation": 1
+  },
+  "files": {
+    "raw": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_smoke_raw.jsonl",
+    "report": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_smoke_report.md",
+    "results": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_smoke_results.jsonl",
+    "valid": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_smoke_valid.jsonl"
+  },
+  "generated_at_utc": "2026-06-27T17:36:32.898943+00:00",
+  "model": "/home/minjoo/.cache/huggingface/hub/models--Qwen--Qwen3-8B/snapshots/b968826d9c46dd6066d109eabc6255188de91218",
+  "paged": {
+    "mean_edge_predicate_f1": 0.1333,
+    "mean_node_label_f1": 0.0
+  },
+  "paged_items": 3,
+  "quantization": "4bit",
+  "text2kg": {
+    "mean_relation_f1": 0.4,
+    "mean_triple_exact_f1": 0.0
+  },
+  "text2kg_items": 5
+}

@@ -1,0 +1,5 @@
+{
+  "reason": "Gate R3-4 failed and Gate R3-5 was not run; full reference viability cannot be evaluated.",
+  "status": "NOT_RUN",
+  "test_access": 0
+}

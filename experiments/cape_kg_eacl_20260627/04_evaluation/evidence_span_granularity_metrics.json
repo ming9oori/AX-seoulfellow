@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.060929+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "triple_count": 947,
+  "component_count": 2841,
+  "exact_component_span_count": 742,
+  "exact_component_span_rate": 0.261176,
+  "chunk_span_count": 1683,
+  "chunk_span_rate": 0.592397,
+  "subject_exact_span_count": 220,
+  "subject_exact_span_rate": 0.232313,
+  "object_exact_span_count": 522,
+  "object_exact_span_rate": 0.551214,
+  "predicate_full_sentence_proxy_count": 947,
+  "predicate_full_sentence_proxy_rate": 1.0,
+  "method_counts": {
+    "subject.exact_label_match": 218,
+    "subject.exact": 220,
+    "subject.chunk_span": 220,
+    "predicate.full_sentence_proxy": 947,
+    "predicate.chunk_span": 944,
+    "object.exact_label_match": 520,
+    "object.exact": 522,
+    "object.chunk_span": 519,
+    "subject.label_not_found_in_sentence": 727,
+    "object.label_not_found_in_sentence": 425,
+    "subject.case_insensitive_label_match": 2,
+    "object.case_insensitive_label_match": 2
+  },
+  "claim_status": "automatic_component_span_diagnostic_not_human_gold",
+  "limitations": [
+    "Subject/object spans are lexical exact-match diagnostics.",
+    "Predicate spans use full-sentence proxy support rather than predicate-token annotation.",
+    "Final evidence exactness claims require adjudicated human-gold spans."
+  ],
+  "output_files": {
+    "component_spans_jsonl": "outputs/06_triples/layer2_triples_component_spans.jsonl",
+    "component_spans_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_components.csv",
+    "metrics_json": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+    "report_md": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md"
+  }
+}

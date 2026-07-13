@@ -1,0 +1,14 @@
+openapi: 3.0.0
+info:
+  title: FATO-KG Agent Graph API
+  version: 0.1.0
+paths:
+  /tasks/{task_id}/plan:
+    get:
+      summary: Return predecessor tasks, inputs, outputs, and evidence for a TaskFrame.
+  /tasks/{task_id}/checklist:
+    get:
+      summary: Return principles, constraints, risks, and evidence-backed checklist items.
+  /tasks/{task_id}/mappings:
+    get:
+      summary: Return Layer1 mapping candidates without merging Layer2 and Layer1 nodes.

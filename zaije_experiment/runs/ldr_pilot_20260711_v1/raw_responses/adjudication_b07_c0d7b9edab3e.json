@@ -1,0 +1,303 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795479,
+  "created_at": 1783795473,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_03bec61f04ba64bb006a528f11396c81989870482cd5585276",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"adjudications\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-7\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"“제안서를 잘 써야 입찰에 성공한다”라는 말이 반드시 맞는 말은 아니다.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[],\"predicate\":\"is not necessarily true\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"NEGATIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"MISCONCEPTION\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Only Y provides a claim, which is directly supported by the evidence.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-70\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사가 종료되었음을 (또는 종료되어야 함을) 말해주는 사건이기 때문이다.\",\"claim_family\":\"ASSESSMENT\",\"claim_type\":\"EVALUATION_OBSERVATION\",\"arguments\":[{\"role\":\"event\",\"quote\":\"광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사\",\"normalized_label\":\"70-year collusion history between conglomerates and power starting after liberation under Syngman Rhee regime\"},{\"role\":\"event\",\"quote\":\"종료되었음을 (또는 종료되어야 함을) 말해주는 사건\",\"normalized_label\":\"An event indicating the end or need to end of the collusion history\"}],\"predicate\":\"말해주는\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"이 사건\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Merge: Y provides more detailed argument structure and claim family/type, but all fields are supported by the evidence. Polarity is supported as positive by the context.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-711\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"엔지니어 고객에게 보내는 이메일귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"ACTIVITY_OUTPUT\",\"arguments\":[{\"role\":\"RECIPIENT\",\"quote\":\"엔지니어 고객\",\"normalized_label\":\"Engineer Customer\"},{\"role\":\"CONTENT\",\"quote\":\"귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다\",\"normalized_label\":\"Analysis Result Indicating Need for System Reengineering\"}],\"predicate\":\"is output of\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"엔지니어 고객에게 보내는 이메일\",\"discourse_status\":\"CASE_INSTANCE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Merge: X provides a more complete procedural claim with arguments, all directly supported by the evidence. Y's quotation is included as part of X's argument.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-760\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"고객에게 설득력이 높은 제안은 논리적으로 설득적일(Logically Persuasive) 뿐만 아니라 감성적으로 신뢰를 확보(Emotionally Credible)하는 것을 말한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"고객에게 설득력이 높은 제안\",\"normalized_label\":\"Persuasive Proposal to Customer\"},{\"role\":\"attribute1\",\"quote\":\"논리적으로 설득적일(Logically Persuasive)\",\"normalized_label\":\"Logical Persuasiveness\"},{\"role\":\"attribute2\",\"quote\":\"감성적으로 신뢰를 확보(Emotionally Credible)\",\"normalized_label\":\"Emotional Credibility\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Merge: Y provides argument structure, X provides correct predicate and promotion target. All fields are supported by the evidence.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-834\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"잘못 강조된 화려한 제안서는 제안자가 강조하고자 하는 핵심 메시지를 흐리고, 평가자로 하여금 반감을 사게 하는 경우가 있음을 직시해야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"잘못 강조된 화려한 제안서\",\"normalized_label\":\"Overemphasized flashy proposal\"},{\"role\":\"effect1\",\"quote\":\"제안자가 강조하고자 하는 핵심 메시지를 흐리고\",\"normalized_label\":\"Obscures key message\"},{\"role\":\"effect2\",\"quote\":\"평가자로 하여금 반감을 사게 하는 경우가 있음을\",\"normalized_label\":\"Causes evaluator resentment\"}],\"predicate\":\"must\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Merge: X provides the correct claim family/type/modality, Y provides detailed argument structure. All fields are supported by the evidence.\"]}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_03bec61f04ba64bb006a528f11b63481989673f6239770d2ff",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_adjudications",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "adjudications": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "decision": {
+                  "enum": [
+                    "ACCEPT_X",
+                    "ACCEPT_Y",
+                    "MERGE_SUPPORTED_FIELDS",
+                    "REJECT_BOTH",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "final_claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "reason_codes": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "decision",
+                "final_claims",
+                "reason_codes"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "adjudications"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5112,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1237,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6349
+  },
+  "user": null
+}

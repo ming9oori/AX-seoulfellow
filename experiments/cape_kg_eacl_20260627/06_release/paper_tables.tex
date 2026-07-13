@@ -1,0 +1,365 @@
+% Auto-generated CAPE-KG paper tables.
+% Generated: 2026-06-29T18:55:33.510006+00:00
+% Requires booktabs.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lll}
+\toprule
+Item & Value & Note \\
+\midrule
+Evaluation chunks & 120 & selected Korean bid/proposal chunks \\
+Optional all-available annotation chunks & 214 & optional\_expansion\_ready\_pending\_human\_review \\
+Optional remaining annotation chunks & 94 & not part of the 11-file minimum paper gate \\
+Optional strong resegmented review units & 342 & max 18 source sentences/unit; ready\_pending\_human\_review \\
+Silver nodes & 208 & current KG-derived reference \\
+Silver edges & 900 & current KG-derived reference \\
+Silver evidence anchors & 293 & current KG-derived reference \\
+Adjudicated human-gold chunks & 0 & pending\_human\_adjudication \\
+Human-gold items & 0 & nodes + edges + evidence \\
+Mapping review rows & 220 & pending\_expert\_review \\
+\bottomrule
+\end{tabular}
+\caption{Dataset and Annotation Status}
+\label{tab:cape-data-status}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Status & Selected & Selected edges & Full-120 edges & Candidate coverage & Active coverage & High-impact coverage \\
+\midrule
+gold\_sampling\_coverage\_ready\_pending\_human\_review & 100 & 1371 & 1436 & 0.9547 & 0.9670 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{Gold Subset Sampling Coverage}
+\label{tab:cape-gold-sampling}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Condition & Edge F1 & Predicate F1 & Node F1 & Evidence F1 & Parse errors & Repairs \\
+\midrule
+B0\_plain\_llm & 0.0000 & 0.0000 & 0.0350 & 0.0239 & 63 & 63 \\
+B1\_predicate\_constrained & 0.0000 & 0.1416 & 0.0000 & 0.0291 & 63 & 63 \\
+B2\_current\_project & 0.0000 & 0.0068 & 0.0215 & 0.0503 & 97 & 97 \\
+B3\_edc\_style & 0.0000 & 0.0119 & 0.0196 & 0.0311 & 99 & 98 \\
+B4\_taxonomy\_rag & 0.0000 & 0.0105 & 0.0300 & 0.0641 & 102 & 102 \\
+B5\_procedural\_prompt & 0.0010 & 0.0096 & 0.0274 & 0.0603 & 96 & 96 \\
+B6\_sac\_kg\_verifier\_pruner & 0.0017 & 0.0774 & 0.0564 & 0.1008 & 0 & 0 \\
+P\_cape\_kg\_actual & 0.0018 & 0.0482 & 0.0326 & 0.0655 & 113 & 113 \\
+P\_minus\_CQ & 0.0000 & 0.0338 & 0.0285 & 0.0682 & 117 & 117 \\
+P\_minus\_Evidence & 0.0009 & 0.0549 & 0.0297 & 0.0666 & 103 & 103 \\
+P\_minus\_Procedural\_schema & 0.0036 & 0.0976 & 0.0301 & 0.0687 & 107 & 107 \\
+P\_minus\_Schema\_retrieval & 0.0009 & 0.0730 & 0.0218 & 0.0598 & 109 & 109 \\
+P\_minus\_Standard\_bridge & 0.0009 & 0.0712 & 0.0213 & 0.0590 & 59 & 59 \\
+P\_minus\_Validator & 0.0018 & 0.0456 & 0.0299 & 0.0659 & 110 & 110 \\
+\bottomrule
+\end{tabular}
+\caption{Actual LLM Silver Diagnostics}
+\label{tab:cape-actual-silver}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllllll}
+\toprule
+Model & Condition & Rows & Edge F1 & Predicate F1 & Node F1 & Evidence F1 & Parse errors & Repairs \\
+\midrule
+Qwen3-8B & B0\_plain\_llm & 120 & 0.0000 & 0.0000 & 0.0350 & 0.0239 & 63 & 63 \\
+Qwen3-8B & B1\_predicate\_constrained & 120 & 0.0000 & 0.1416 & 0.0000 & 0.0291 & 63 & 63 \\
+Qwen3-8B & B2\_current\_project & 120 & 0.0000 & 0.0068 & 0.0215 & 0.0503 & 97 & 97 \\
+Qwen3-8B & P\_cape\_kg\_actual & 120 & 0.0018 & 0.0482 & 0.0326 & 0.0655 & 113 & 113 \\
+Qwen3-14B & B0\_plain\_llm & 120 & 0.0000 & 0.0000 & 0.0329 & 0.0259 & 68 & 68 \\
+Qwen3-14B & B1\_predicate\_constrained & 120 & 0.0008 & 0.1105 & 0.0000 & 0.0246 & 75 & 75 \\
+Qwen3-14B & B2\_current\_project & 120 & 0.0000 & 0.0079 & 0.0198 & 0.0394 & 102 & 102 \\
+Qwen3-14B & P\_cape\_kg\_actual & 120 & 0.0017 & 0.0601 & 0.0298 & 0.0610 & 113 & 113 \\
+Qwen3-32B-AWQ & B0\_plain\_llm & 120 & 0.0000 & 0.0000 & 0.0377 & 0.0273 & 59 & 59 \\
+Qwen3-32B-AWQ & B1\_predicate\_constrained & 120 & 0.0016 & 0.1161 & 0.0000 & 0.0224 & 63 & 63 \\
+Qwen3-32B-AWQ & B2\_current\_project & 120 & 0.0000 & 0.0099 & 0.0194 & 0.0387 & 100 & 100 \\
+Qwen3-32B-AWQ & P\_cape\_kg\_actual & 120 & 0.0034 & 0.0662 & 0.0284 & 0.0542 & 113 & 113 \\
+\bottomrule
+\end{tabular}
+\caption{Model Scaling Core Silver Diagnostics}
+\label{tab:cape-model-scaling}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Condition/status & Edge/chunks & Node/items & Evidence EM & Ontology & Procedural & CQ \\
+\midrule
+pending\_human\_adjudication & 0 & 0 & metrics pending \\
+\bottomrule
+\end{tabular}
+\caption{Human-Gold Metrics}
+\label{tab:cape-human-gold}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllll}
+\toprule
+Triples & Components & Subject exact & Object exact & Predicate proxy & Status \\
+\midrule
+947 & 2841 & 0.2323 & 0.5512 & 1.0000 & automatic\_component\_span\_diagnostic\_not\_human\_gold \\
+\bottomrule
+\end{tabular}
+\caption{Evidence Span Granularity Diagnostic}
+\label{tab:cape-evidence-span-granularity}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Triples & Cue spans & Missing cues & Cue rate & Chunk spans & Source text included & Status \\
+\midrule
+947 & 550 & 397 & 0.5808 & 550 & False & automatic\_predicate\_cue\_span\_diagnostic\_not\_human\_gold \\
+\bottomrule
+\end{tabular}
+\caption{Predicate Cue Span Diagnostic}
+\label{tab:cape-predicate-cue-span}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Status & Ontology & Domain/range errors & Evidence missing & Procedural & Cycles & CQ answerability \\
+\midrule
+kg\_structural\_diagnostic\_not\_human\_gold & 1.0000 & 0 & 0 & 0.9953 & 0 & 1.0000 \\
+\bottomrule
+\end{tabular}
+\caption{KG Structural Diagnostics}
+\label{tab:cape-structural-diagnostics}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+Status & Review checkpoint candidates & Gateway branch gaps & Structural CQ & Human gate effect \\
+\midrule
+structural\_gap\_worklist\_pending\_human\_review & 45 & 4 & 1.0000 & does\_not\_change\_minimum\_11\_file\_paper\_gate \\
+\bottomrule
+\end{tabular}
+\caption{Structural Gap Worklist}
+\label{tab:cape-structural-gap-worklist}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Run & PAGED n & PAGED node F1 & PAGED edge F1 & Text2KG n & Relation F1 & Triple F1 \\
+\midrule
+public\_qwen3\_14b\_subset\_eval\_summary.json & 10 & 0.1733 & 0.1446 & 20 & 0.2817 & 0.0200 \\
+public\_qwen3\_8b\_full\_adapter\_eval\_summary.json & 100 & 0.2472 & 0.4233 & 200 & 0.6015 & 0.1736 \\
+public\_qwen3\_8b\_subset\_eval\_summary.json & 10 & 0.1608 & 0.1794 & 20 & 0.4500 & 0.0500 \\
+public\_qwen3\_8b\_subset\_smoke\_summary.json & 3 & 0.0000 & 0.1333 & 5 & 0.4000 & 0.0000 \\
+\bottomrule
+\end{tabular}
+\caption{Public Subset Diagnostics}
+\label{tab:cape-public-subset}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllll}
+\toprule
+Runs & Strong run & Max PAGED n & Max Text2KG n & Best PAGED edge F1 & Best Text2KG relation F1 & Status \\
+\midrule
+4 & True & 100 & 200 & 0.4233 & 0.6015 & public\_adapter\_model\_runs\_diagnostic\_not\_official\_leaderboard \\
+\bottomrule
+\end{tabular}
+\caption{Public Benchmark Cross-Check}
+\label{tab:cape-public-crosscheck}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllllll}
+\toprule
+Standard & Completed & Pending & Groups & Hit@5 & P@5 & MRR & nDCG@10 & Explanation & Status \\
+\midrule
+NCS & 0 & 110 & 0 & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review \\
+PCF & 0 & 110 & 0 & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review & pending\_expert\_review \\
+\bottomrule
+\end{tabular}
+\caption{Mapping Expert Review}
+\label{tab:cape-mapping-review}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllll}
+\toprule
+Shared Layer2 tasks & All pairs & Candidate rows & Top-K per standard & Status \\
+\midrule
+22 & 550 & 220 & 5 & candidate\_only\_pending\_expert\_review \\
+\bottomrule
+\end{tabular}
+\caption{Layer2-bridged NCS-PCF Crosswalk Candidates}
+\label{tab:cape-ncs-pcf-crosswalk}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lllllllll}
+\toprule
+Candidates & Source tasks & Completed & Pending & Hit@5 & P@10 & MRR & Utility & Status \\
+\midrule
+220 & 22 & 0 & 220 & pending\_crosswalk\_expert\_review & pending\_crosswalk\_expert\_review & pending\_crosswalk\_expert\_review & pending\_crosswalk\_expert\_review & pending\_crosswalk\_expert\_review \\
+\bottomrule
+\end{tabular}
+\caption{Crosswalk Expert Review}
+\label{tab:cape-crosswalk-review}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Condition & Strategy & Budget & Errors & Precision@k & Recall@k & Lift & Status \\
+\midrule
+P\_cape\_kg\_actual & active\_priority & 10 & 6 & 0.6000 & 0.0347 & 0.9538 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & active\_priority & 25 & 16 & 0.6400 & 0.0925 & 1.0173 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & active\_priority & 55 & 36 & 0.6545 & 0.2081 & 1.0405 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & active\_priority & 100 & 56 & 0.5600 & 0.3237 & 0.8902 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & uncertainty\_only & 10 & 6 & 0.6000 & 0.0347 & 0.9538 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & uncertainty\_only & 25 & 15 & 0.6000 & 0.0867 & 0.9538 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & uncertainty\_only & 55 & 38 & 0.6909 & 0.2197 & 1.0983 & silver\_proxy\_not\_human\_review\_efficiency \\
+P\_cape\_kg\_actual & uncertainty\_only & 100 & 72 & 0.7200 & 0.4162 & 1.1445 & silver\_proxy\_not\_human\_review\_efficiency \\
+\bottomrule
+\end{tabular}
+\caption{Active Review Prioritization Diagnostic}
+\label{tab:cape-active-review}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Condition & Strategy & Budget & Errors & Precision@k & Recall@k & Lift & Status \\
+\midrule
+P\_cape\_kg\_actual\_with\_active\_review & active\_priority & 25 & 16 & 0.6400 & 0.0925 & 1.0173 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_random\_expected & random\_expected & 25 & 15.7273 & 0.6291 & 0.0909 & 1.0000 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_uncertainty\_only & uncertainty\_only & 25 & 15 & 0.6000 & 0.0867 & 0.9538 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_cape\_kg\_actual\_with\_active\_review & active\_priority & 55 & 36 & 0.6545 & 0.2081 & 1.0405 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_random\_expected & random\_expected & 55 & 34.6000 & 0.6291 & 0.2000 & 1.0000 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_uncertainty\_only & uncertainty\_only & 55 & 38 & 0.6909 & 0.2197 & 1.0983 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_cape\_kg\_actual\_with\_active\_review & active\_priority & 100 & 56 & 0.5600 & 0.3237 & 0.8902 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_random\_expected & random\_expected & 100 & 62.9091 & 0.6291 & 0.3636 & 1.0000 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+P\_minus\_Active\_review\_uncertainty\_only & uncertainty\_only & 100 & 72 & 0.7200 & 0.4162 & 1.1445 & silver\_proxy\_ablation\_not\_human\_efficiency \\
+\bottomrule
+\end{tabular}
+\caption{P minus Active Review Ablation Diagnostic}
+\label{tab:cape-active-review-ablation}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Arm & Budget & Assigned & Reviewed & Seconds & Corrections & High-impact & Status \\
+\midrule
+active\_priority & 100 & 100 & 0 & 0 & 0 & 0 & pending\_human\_effort\_timing \\
+uncertainty\_only & 100 & 100 & 0 & 0 & 0 & 0 & pending\_human\_effort\_timing \\
+random\_control & 100 & 100 & 0 & 0 & 0 & 0 & pending\_human\_effort\_timing \\
+\bottomrule
+\end{tabular}
+\caption{Active Review Human-Effort Handoff}
+\label{tab:cape-active-review-effort}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Arm assignments & Unique rows & Duplicate removed & Reduction & Active rows & Uncertainty rows & Random rows & Status \\
+\midrule
+300 & 204 & 96 & 0.3200 & 100 & 100 & 100 & pool\_design\_diagnostic\_not\_human\_effort\_claim \\
+\bottomrule
+\end{tabular}
+\caption{Active Review Pool Design}
+\label{tab:cape-active-review-pool}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llllllll}
+\toprule
+Baseline & Metric & P mean & Base mean & Delta & 95\% CI & p approx & Status \\
+\midrule
+B0\_plain\_llm & predicate\_f1 & 0.0658 & 0.0000 & 0.0658 & [0.041384, 0.094497] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B0\_plain\_llm & node\_label\_f1 & 0.0383 & 0.0367 & 0.0016 & [-0.012699, 0.016308] & 0.8290 & silver\_proxy\_not\_human\_gold \\
+B0\_plain\_llm & evidence\_f1 & 0.0516 & 0.0205 & 0.0311 & [0.022698, 0.040338] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B2\_current\_project & predicate\_f1 & 0.0658 & 0.0134 & 0.0524 & [0.028477, 0.079871] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B2\_current\_project & node\_label\_f1 & 0.0383 & 0.0249 & 0.0134 & [0.002472, 0.025422] & 0.0180 & silver\_proxy\_not\_human\_gold \\
+B2\_current\_project & evidence\_f1 & 0.0516 & 0.0430 & 0.0087 & [0.004498, 0.01324] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B3\_edc\_style & predicate\_f1 & 0.0658 & 0.0257 & 0.0401 & [0.014748, 0.067981] & 0.0020 & silver\_proxy\_not\_human\_gold \\
+B3\_edc\_style & node\_label\_f1 & 0.0383 & 0.0219 & 0.0164 & [0.003792, 0.0306] & 0.0090 & silver\_proxy\_not\_human\_gold \\
+B3\_edc\_style & evidence\_f1 & 0.0516 & 0.0278 & 0.0239 & [0.017186, 0.030731] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B4\_taxonomy\_rag & predicate\_f1 & 0.0658 & 0.0220 & 0.0438 & [0.022175, 0.067886] & 0.0000 & silver\_proxy\_not\_human\_gold \\
+B4\_taxonomy\_rag & node\_label\_f1 & 0.0383 & 0.0316 & 0.0066 & [-0.0026, 0.0176] & 0.1910 & silver\_proxy\_not\_human\_gold \\
+B4\_taxonomy\_rag & evidence\_f1 & 0.0516 & 0.0508 & 0.0009 & [-0.002604, 0.003991] & 0.5970 & silver\_proxy\_not\_human\_gold \\
+B5\_procedural\_prompt & predicate\_f1 & 0.0658 & 0.0178 & 0.0480 & [0.018717, 0.079442] & 0.0040 & silver\_proxy\_not\_human\_gold \\
+B5\_procedural\_prompt & node\_label\_f1 & 0.0383 & 0.0295 & 0.0088 & [-0.002724, 0.020937] & 0.1560 & silver\_proxy\_not\_human\_gold \\
+B5\_procedural\_prompt & evidence\_f1 & 0.0516 & 0.0491 & 0.0026 & [-0.001688, 0.007266] & 0.2340 & silver\_proxy\_not\_human\_gold \\
+\bottomrule
+\end{tabular}
+\caption{Paired Bootstrap Silver Diagnostics}
+\label{tab:cape-bootstrap}
+\end{table}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llll}
+\toprule
+Gate & Status & Required & Evidence \\
+\midrule
+data.eval\_chunks & PASS & True & 120 chunks in experiments/cape\_kg\_eacl\_20260627/01\_data/evaluation\_chunks.jsonl \\
+gold.completed\_chunks & FAIL & True & 0 completed chunks, validation\_errors=0, file=experiments/cape\_kg\_eacl\_20260627/04\_evaluation/human\_gold\_validation\_summary.json \\
+gold.item\_count & FAIL & True & 0 items, validation\_errors=0, file=experiments/cape\_kg\_eacl\_20260627/04\_evaluation/human\_gold\_validation\_summary.json \\
+gold.iaa & FAIL & True & max\_completed\_pair\_chunks=0, summaries=2 \\
+llm.baselines & PASS & True & \{'B0\_plain\_llm': 120, 'B1\_predicate\_constrained': 120, 'B2\_current\_project': 120\} \\
+llm.proposed\_generation & PASS & True & \{'P\_cape\_kg\_actual': 120\} \\
+llm.proposed\_human\_gold\_score & FAIL & True & human\_gold\_scored\_conditions=[] \\
+llm.ablations & PASS & True & 6 full ablations: ['P\_minus\_CQ', 'P\_minus\_Evidence', 'P\_minus\_Procedural\_schema', 'P\_minus\_Schema\_retrieval', 'P\_minus\_Standard\_bridge', 'P\_minus\_Validator'] \\
+llm.revalidated\_output\_recovery & PASS & False & all full conditions <= 5\% unrepaired after conservative partial-JSON recovery \\
+llm.strict\_json\_rate & PASS & False & all full conditions <= 50\% strict parse/generation errors \\
+external.public\_subset & PASS & True & PAGED items=100, Text2KG items=200, summaries=4 \\
+mapping.expert\_review & FAIL & False & complete\_source\_groups=0, pending\_rows=220, file=experiments/cape\_kg\_eacl\_20260627/04\_evaluation/mapping\_expert\_metrics.json, progress\_file=experiments/cape\_kg\_eacl\_20260627/06\_release/mapping\_review\_progress\_summary.json, progress\_pending\_groups=44 \\
+crosswalk.expert\_review & FAIL & False & completed\_rows=0, pending\_rows=220, complete\_source\_groups=0, file=experiments/cape\_kg\_eacl\_20260627/04\_evaluation/crosswalk\_expert\_metrics.json, manifest\_file=experiments/cape\_kg\_eacl\_20260627/01\_data/crosswalk\_review/crosswalk\_review\_manifest.json, candidate\_rows=220 \\
+analysis.error\_analysis & PASS & True & \{'markdown': \{'path': 'experiments/cape\_kg\_eacl\_20260627/07\_reports/error\_analysis.md', 'exists': True, 'bytes': 12148\}, 'json': \{'path': 'experiments/cape\_kg\_eacl\_20260627/07\_reports/error\_analysis.json', 'exists': True, 'bytes': 34951\}, 'required\_sections': ['\#\# Claim Scope', '\#\# Actual LLM Silver/Proxy Diagnostics', '\#\# Proxy Scaffold Error Summary', '\#\# Error Taxonomy', '\#\# Human-Gold Follow-Up'], 'missing\_sections': [], 'taxonomy\_family\_count': 8, 'ready\_for\_minimum\_accept': True, 'claim\_scope': 'silver\_proxy\_diagnostic\_not\_human\_gold'\} \\
+release.artifacts & PASS & True & all required release files exist \\
+\bottomrule
+\end{tabular}
+\caption{Claim Gate}
+\label{tab:cape-claim-gate}
+\end{table}

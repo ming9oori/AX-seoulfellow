@@ -1,0 +1,14 @@
+{
+  "affected_custom_ids": [
+    "dev-direct-row-1046",
+    "dev-direct-row-280"
+  ],
+  "batch_input_sha256": "04e0edc5a66ebeef82415c15733c0545f319e4bd500f09c63cf55fe4e88fbb80",
+  "candidate_system_changed": false,
+  "change": "max_output_tokens 800 -> 1800 for affected requests only",
+  "key_stored": false,
+  "prompt_changed": false,
+  "reason": "Two direct-baseline responses reached max_output_tokens=800 and produced incomplete JSON.",
+  "schema_changed": false,
+  "timing": "DEV_PRE_SYSTEM_FREEZE"
+}

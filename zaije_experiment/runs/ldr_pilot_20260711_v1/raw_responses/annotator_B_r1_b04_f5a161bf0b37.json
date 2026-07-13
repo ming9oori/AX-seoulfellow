@@ -1,0 +1,304 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795169,
+  "created_at": 1783795149,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_029a9d92b661d9ff006a528dcd5160819a90c4c5ed3f0dfe02",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-mini-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"annotations\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-408\",\"bundle_hash\":\"47f3a81ef8f472693ecb871471e79aa32f91c1c92a2a6efcea4ca342c0ef08c1\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"부가가치가 높은 시장(High-end Market)을 의미한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"defined_concept\",\"quote\":\"부가가치가 높은 시장(High-end Market)\",\"normalized_label\":\"High-end Market\"}],\"predicate\":\"means\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-477\",\"bundle_hash\":\"220e05c8e3d27dfc6cdfc6514669664c5da20ed341dbefe76d2c494a9c36f253\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"7. 제안 전략 수립예시\",\"claim_family\":\"TEMPLATE_INSTRUCTION\",\"claim_type\":\"OTHER_UNCLEAR\",\"arguments\":[],\"predicate\":\"is example of\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"EXAMPLE\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-489\",\"bundle_hash\":\"7cad31f185f0215610674c76286be961d05ad976489ee6f7ffa9161b5fba8df0\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"PC Doc TM은 모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는 비용 절감을 위한 맞춤 솔루션임.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"solution\",\"quote\":\"PC Doc TM\",\"normalized_label\":\"PC Doc TM\"},{\"role\":\"effect\",\"quote\":\"비용 절감을 위한 맞춤 솔루션\",\"normalized_label\":\"cost reduction solution\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c2\",\"claim_quote\":\"PC Doc TM은 고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는 솔루션임.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"solution\",\"quote\":\"PC Doc TM\",\"normalized_label\":\"PC Doc TM\"},{\"role\":\"effect\",\"quote\":\"고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는\",\"normalized_label\":\"enable focus on core business\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c3\",\"claim_quote\":\"PC Doc TM의 서비스 폭이 제한적이어서 문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"solution\",\"quote\":\"PC Doc TM\",\"normalized_label\":\"PC Doc TM\"},{\"role\":\"supporting_organizations\",\"quote\":\"3개의 제휴 조직\",\"normalized_label\":\"3 partner organizations\"}],\"predicate\":\"has_limited_service_scope_and_is_supported_by\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c4\",\"claim_quote\":\"PC Doc TM은 기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는 솔루션으로 단기간에 모든 시스템을 통일시키는 것이 아님.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"solution\",\"quote\":\"PC Doc TM\",\"normalized_label\":\"PC Doc TM\"}],\"predicate\":\"is_solution_that_does_not_unify_all_systems_quickly\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c5\",\"claim_quote\":\"PC Doc TM의 성격이 소프트웨어이기 때문에 운영주체는 핑크팬더라기보다는 완소병원의 IT 부문임을 강조, 핑크팬더는 IT 부문이 완소병원 IT 시스템을 잘 운영할 수 있도록 도와주는 조력자임.\",\"claim_family\":\"DESCRIPTIVE\",\"claim_type\":\"DESCRIPTIVE_FACT\",\"arguments\":[{\"role\":\"solution\",\"quote\":\"PC Doc TM\",\"normalized_label\":\"PC Doc TM\"},{\"role\":\"operator\",\"quote\":\"완소병원의 IT 부문\",\"normalized_label\":\"Wanso Hospital IT department\"},{\"role\":\"supporting_actor\",\"quote\":\"핑크팬더\",\"normalized_label\":\"Pink Panther\"}],\"predicate\":\"is_software_operated_by_and_supported_by\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-497\",\"bundle_hash\":\"faa390eb316aefe8dcd27691308c9cc0d8dc4af31c2a3bb1fa150c1ad26aecb4\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"가치제안이란 고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것을 보여주는 것이다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"defined_concept\",\"quote\":\"가치제안\",\"normalized_label\":\"Value Proposition\"}],\"predicate\":\"is\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c2\",\"claim_quote\":\"경쟁자에 비해서 우리가 제안하는 솔루션의 비용 대비 효용이 더 크다는 것을 보여주는 것이다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"defined_concept\",\"quote\":\"가치제안\",\"normalized_label\":\"Value Proposition\"},{\"role\":\"comparison_target\",\"quote\":\"경쟁자\",\"normalized_label\":\"Competitor\"}],\"predicate\":\"shows_that_solution_value_minus_cost_is_greater_than_competitor\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"대부분의 시장에서는 다음과 같이 바뀐다.\",\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}],\"no_claim_reason\":null},{\"evidence_id\":\"zaije:evidence/xlsx-row-526\",\"bundle_hash\":\"cc92d9a8c0b50d7764a5f7d5827aecff1b146efca361da4c8ff76b691af65106\",\"annotation_role\":\"ONTOLOGY_FIRST\",\"claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"쉬플리 컨설팅은 고객조직의 의사결정자와 영향자를 정의하면서 시작한다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"actor\",\"quote\":\"쉬플리 컨설팅\",\"normalized_label\":\"Shipley Consulting\"},{\"role\":\"object\",\"quote\":\"고객조직의 의사결정자와 영향자\",\"normalized_label\":\"customer organization's decision makers and influencers\"}],\"predicate\":\"starts_by_defining\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"ASSERTION\",\"uncertain_fields\":[]}],\"no_claim_reason\":null}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_029a9d92b661d9ff006a528dce4d18819ab7d060adf6295c6e",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_b_r1",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "annotations": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "annotation_role": {
+                  "enum": [
+                    "DOMAIN_FIRST",
+                    "ONTOLOGY_FIRST"
+                  ],
+                  "type": "string"
+                },
+                "bundle_hash": {
+                  "type": "string"
+                },
+                "claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "no_claim_reason": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "evidence_id",
+                "bundle_hash",
+                "annotation_role",
+                "claims",
+                "no_claim_reason"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "annotations"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 3025,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1960,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4985
+  },
+  "user": null
+}

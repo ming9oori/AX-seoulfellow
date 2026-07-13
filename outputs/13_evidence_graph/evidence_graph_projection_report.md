@@ -1,0 +1,39 @@
+# CAPE-KG Evidence Graph Projection
+
+Generated: 2026-06-29T18:56:35.632682+00:00
+Claim status: `evidence_graph_projection_ready_not_human_gold_span_claim`
+
+This artifact materializes evidence anchors as graph objects for JSONL/CSV workflows. It is structural/reproducibility evidence, not a human-gold span-quality claim.
+
+## Summary
+
+| Item | Value |
+|---|---:|
+| source_text_included | False |
+| layer2_node_count | 220 |
+| layer2_edge_count | 947 |
+| evidence_anchor_catalog_count | 5009 |
+| used_evidence_anchor_count | 451 |
+| evidence_anchor_node_count | 451 |
+| evidenced_by_edge_count | 3915 |
+| kg_node_evidenced_by_edge_count | 742 |
+| kg_edge_evidenced_by_edge_count | 3173 |
+| unknown_used_evidence_anchor_count | 0 |
+
+## Outputs
+
+| Artifact | Path |
+|---|---|
+| evidence_anchor_nodes_jsonl | `outputs/13_evidence_graph/evidence_anchor_nodes.jsonl` |
+| evidence_anchor_nodes_csv | `outputs/13_evidence_graph/evidence_anchor_nodes.csv` |
+| evidenced_by_edges_jsonl | `outputs/13_evidence_graph/evidenced_by_edges.jsonl` |
+| evidenced_by_edges_csv | `outputs/13_evidence_graph/evidenced_by_edges.csv` |
+| summary_json | `outputs/13_evidence_graph/evidence_graph_projection_summary.json` |
+| report_md | `outputs/13_evidence_graph/evidence_graph_projection_report.md` |
+
+## Interpretation
+
+- This projection materializes EvidenceAnchor and EVIDENCED_BY for JSONL/CSV graph tools.
+- It does not replace the canonical Layer 2 node/edge files.
+- Full source sentence text is intentionally omitted; use the internal evidence catalog when allowed.
+- Final evidence-span correctness still requires adjudicated human-gold span scoring.

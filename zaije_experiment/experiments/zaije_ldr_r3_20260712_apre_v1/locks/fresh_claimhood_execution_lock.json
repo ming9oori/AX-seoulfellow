@@ -1,0 +1,21 @@
+{
+  "anchor_count": 70,
+  "batch_input_sha256": "7aea76c126b2fd63e87a765275247581da7206455825122b96bc3ff5ab7e4965",
+  "candidate_order_exposure": 0,
+  "claimhood_prompt_sha256": "e803f5a957108e1e435f2064c1781f184254fc360d229bb14d3c635a55af8d8a",
+  "claimhood_repeats": 3,
+  "claimhood_schema_sha256": "776afb1924584afaf2b69c8ec8fc1a50e2bf71255938461715d84ff3820ab6dd",
+  "experiment_id": "zaije_ldr_r3_20260712_apre_v1",
+  "falsifier_model_snapshot": "gpt-4o-mini-2024-07-18",
+  "fresh_anchor_file_sha256": "2ef11ea6839114bb9938bbd02fb354a52ed4fecffddf25f081c8989a0b4d3e67",
+  "imported_fresh60_sha256": "3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17",
+  "logical_request_manifest_sha256": "74cdea5efacfd7b821c7d4d33307a7ff8ced33205aafa5c2d5f9b3a3375b2962",
+  "mismatch_control_count": 20,
+  "phase": "fresh_claimhood",
+  "primary_model_snapshot": "gpt-4.1-2025-04-14",
+  "request_cap": 3000,
+  "request_count": 230,
+  "same_id_repilot_allowed": false,
+  "segmenter_source_sha256": "11405ada84282fc6c589576754e2052689328dc4fc232bb103eedbcde305617d",
+  "test_access": 0
+}

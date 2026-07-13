@@ -1,0 +1,67 @@
+{
+  "critical_shacl_violation": 0,
+  "neo4j_node_export_count": 4767,
+  "neo4j_relationship_export_count": 10738,
+  "rdf_parse_pass": true,
+  "rdf_triple_count": 87023,
+  "required_six_non_empty": 6,
+  "shacl_conforms": true,
+  "views": [
+    {
+      "file": "01_ontology_overview.svg",
+      "node_count": 67,
+      "non_empty": true,
+      "relationship_count": 35,
+      "sha256": "ad367966ed7d5d0b1c605c5b159f1537f01f27cdb4f6fd428377fba99aecf330"
+    },
+    {
+      "file": "02_work_process_map.svg",
+      "node_count": 51,
+      "non_empty": true,
+      "relationship_count": 35,
+      "sha256": "7dd3b3c9e57ea75154e00810076836ae77eb3b16f935bacf311c0bf58a9efdd0"
+    },
+    {
+      "file": "03_rule_condition_map.svg",
+      "node_count": 69,
+      "non_empty": true,
+      "relationship_count": 35,
+      "sha256": "f5195c3af32b757ed61d26adc570b7f3394b2170bb312d105f2467815d8d53fa"
+    },
+    {
+      "file": "04_concept_resolution_map.svg",
+      "node_count": 81,
+      "non_empty": true,
+      "relationship_count": 45,
+      "sha256": "e170d464e8a579311b2cf0c17916463dfdb8aa33ce5db8f738e1ac02407104b6"
+    },
+    {
+      "file": "05_template_field_map.svg",
+      "node_count": 8,
+      "non_empty": true,
+      "relationship_count": 7,
+      "sha256": "11d9a4f5f511162b496e6a9c990b17b0978a42aa8c39d56b21848e9429f359ad"
+    },
+    {
+      "file": "06_evidence_trace.svg",
+      "node_count": 89,
+      "non_empty": true,
+      "relationship_count": 45,
+      "sha256": "e8940c2489670801016f007647e7b962c50023180ed3cff60d2a153eb76c29d0"
+    },
+    {
+      "file": "07a_baseline_fragmented.svg",
+      "node_count": 67,
+      "non_empty": true,
+      "relationship_count": 35,
+      "sha256": "cb62e91b208248afbad05df8eafaa623c40a96bf586d35e9f95d4af63ac0c00d"
+    },
+    {
+      "file": "07b_proposed_canonical.svg",
+      "node_count": 68,
+      "non_empty": true,
+      "relationship_count": 35,
+      "sha256": "8b7a23fec4fb73f1bad233e210cf7a6ab638990ee0c68ec4f9d8eb174d6076cc"
+    }
+  ]
+}

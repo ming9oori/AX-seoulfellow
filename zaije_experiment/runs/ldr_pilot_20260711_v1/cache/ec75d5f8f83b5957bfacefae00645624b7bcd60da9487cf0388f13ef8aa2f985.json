@@ -1,0 +1,325 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-361",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "もし自動車や保険を購入するように、普段よく知っている人を通じてミサイルやレーダーを購入したらどうなるだろうか？",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "poses",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y_EMPTY"
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-408",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "High-end Market",
+                "quote": "부가가치가 높은 시장(High-end Market)",
+                "role": "defined_concept"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "부가가치가 높은 시장(High-end Market)을 의미한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "means",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X_HAS_ARGUMENTS",
+          "Y_HAS_NO_ARGUMENTS",
+          "MERGED_ARGUMENTS_FROM_X"
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-477",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "7. 제안 전략 수립예시",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "BOTH_SUPPORTED",
+          "X_CLAIM_TYPE_MORE_PRECISE"
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-489",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "cost reduction solution",
+                "quote": "비용 절감을 위한 맞춤 솔루션",
+                "role": "effect"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "PC Doc TM은 모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는 비용 절감을 위한 맞춤 솔루션임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "모든 소프트웨어 지원 업무의 75%를 별도의 기술자 도움 없이 본인이 해결할 수 있도록 하는",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "enable focus on core business",
+                "quote": "고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는",
+                "role": "effect"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "PC Doc TM은 고객사의 직원들이 IT 문제에서 해방되어 자신들의 핵심적인 업무에 집중할 수 있도록 하는 솔루션임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "3 partner organizations",
+                "quote": "3개의 제휴 조직",
+                "role": "supporting_organizations"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "PC Doc TM의 서비스 폭이 제한적이어서 문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "has_limited_service_scope_and_is_supported_by",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "문제가 되는 부분은 3개 제휴 조직의 서비스 기능을 활용하여 완벽히 해결할 수 있음",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c4",
+            "claim_quote": "PC Doc TM은 기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는 솔루션으로 단기간에 모든 시스템을 통일시키는 것이 아님.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_solution_that_does_not_unify_all_systems_quickly",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "기본적으로 사용자의 소프트웨어, 하드웨어, 네트워크 및 기계 설정의 특성을 확인하고 이에 따라 문제를 해결하는",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "PC Doc TM",
+                "quote": "PC Doc TM",
+                "role": "solution"
+              },
+              {
+                "normalized_label": "Wanso Hospital IT department",
+                "quote": "완소병원의 IT 부문",
+                "role": "operator"
+              },
+              {
+                "normalized_label": "Pink Panther",
+                "quote": "핑크팬더",
+                "role": "supporting_actor"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c5",
+            "claim_quote": "PC Doc TM의 성격이 소프트웨어이기 때문에 운영주체는 핑크팬더라기보다는 완소병원의 IT 부문임을 강조, 핑크팬더는 IT 부문이 완소병원 IT 시스템을 잘 운영할 수 있도록 도와주는 조력자임.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_software_operated_by_and_supported_by",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "예시 1. Capture Plan (8/8) - 자사의 예상 솔루션",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X_HAS_MULTIPLE_SUPPORTED_CLAIMS",
+          "Y_HAS_EXAMPLE_ONLY",
+          "MERGED_ALL_SUPPORTED"
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-497",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Value Proposition",
+                "quote": "가치제안",
+                "role": "defined_concept"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "가치제안이란 고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것을 보여주는 것이다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Value Proposition",
+                "quote": "가치제안",
+                "role": "defined_concept"
+              },
+              {
+                "normalized_label": "Competitor",
+                "quote": "경쟁자",
+                "role": "comparison_target"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "2",
+            "claim_quote": "경쟁자에 비해서 우리가 제안하는 솔루션의 비용 대비 효용이 더 크다는 것을 보여주는 것이다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "shows_that_solution_value_minus_cost_is_greater_than_competitor",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": "대부분의 시장에서는 다음과 같이 바뀐다.",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "MERGED_ARGUMENTS_FROM_Y",
+          "BOTH_SUPPORTED"
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b05_ec75d5f8f83b.json",
+  "response_id": "resp_073e9dec8aea6682006a528f036f248199a3d6847b40b5f0fe",
+  "usage": {
+    "input_tokens": 7478,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1877,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9355
+  }
+}

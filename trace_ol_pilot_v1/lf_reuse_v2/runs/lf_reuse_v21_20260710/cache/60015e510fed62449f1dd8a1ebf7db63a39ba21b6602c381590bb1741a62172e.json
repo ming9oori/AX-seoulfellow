@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_08c42454e5131f40006a5115ac304c819993833f6df73c4298",
+  "usage": {
+    "input_tokens": 3226,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2742,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5968
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r625",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r625",
+              "text": "고객은 구매단계의 반복적인 사이클을 통해 구매를 한다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r627",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r627",
+              "text": "그림 1. 고객의 구매단계 \n①니즈 정의  ② 대안 검토 ③구매 결정 ④구매 ⑤솔루션 실행(사용)",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r635",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r635",
+              "text": "위염을 진단한 의사 말고 누구에게 약을 처방받을 수 있겠는가?",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r636",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r636",
+              "text": "이 단계에서 영업대표가 하는 잦은 실수는 고객의 니즈도 정의가 안 됐는데 자신의 제품이나 서비스를 팔려고 하는 것이다.",
+              "start": 0,
+              "end": 78
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r649",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r649",
+              "text": "사업이 중요하거나 규모가 클수록 내정되는 비율은 당연히 높다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r660",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r660",
+              "text": "복잡한 솔루션일수록 단계별로 분명한 목표를 설정하고, 이 목표를 달성하기 위한 설득이 필요하다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r665",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r665",
+              "text": "영업대표가 일반적으로 범하는 실수는 고객의 구매단계보다 앞서 나가면서 구매를 강요하는 것이다.",
+              "start": 0,
+              "end": 78
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r667",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r667",
+              "text": "경험 많은 영업대표가 활용하는 효과적인 방법은 고객에게 다음 단계로 진행하지 않았을 때의 기회비용을 말해주는 것이다.",
+              "start": 0,
+              "end": 78
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r809",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r809",
+              "text": "왜 그런가?",
+              "start": 0,
+              "end": 6
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r839",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r839",
+              "text": "왜 그런가?",
+              "start": 0,
+              "end": 6
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NEEDS_REVIEW",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

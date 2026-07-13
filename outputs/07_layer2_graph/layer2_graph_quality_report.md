@@ -2,8 +2,8 @@
 
 Generated: 2026-06-27
 
-- Layer2 nodes: 179
-- Layer2 edges: 906
+- Layer2 nodes: 220
+- Layer2 edges: 947
 - Orphan nodes: 9
 - Dangling edges: 0
 - Evidence-missing edges: 0

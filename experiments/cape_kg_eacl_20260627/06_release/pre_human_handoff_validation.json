@@ -1,0 +1,1770 @@
+{
+  "generated_at_utc": "2026-06-29T18:57:01.337759+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "overall_status": "PASS",
+  "claim_status": "pre_human_handoff_ready_not_submission_complete",
+  "check_count": 92,
+  "status_counts": {
+    "PASS": 91,
+    "WARN": 1
+  },
+  "checks": [
+    {
+      "id": "required_files_present",
+      "status": "PASS",
+      "detail": "All required files are present.",
+      "evidence": {
+        "count": 301
+      }
+    },
+    {
+      "id": "claim_gate_known_human_blockers",
+      "status": "WARN",
+      "detail": "Submission claims are still pending human gold, IAA, adjudication, and human-gold scoring.",
+      "evidence": {
+        "claim_gate_overall_status": "FAIL",
+        "readiness_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+        "expected_pending_status": "pending_human_gold_iaa_and_human_gold_scoring",
+        "audited_items": 20
+      }
+    },
+    {
+      "id": "readiness_status_expected",
+      "status": "PASS",
+      "detail": "Readiness audit is in the expected pre-human pending state.",
+      "evidence": {
+        "claim_status": "pending_human_gold_iaa_and_human_gold_scoring"
+      }
+    },
+    {
+      "id": "claim_gate_blocker_alignment",
+      "status": "PASS",
+      "detail": "Claim gate FAIL/PASS states are aligned with readiness blockers, human-gold pending state, and mapping expert pending state.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+        "required_fail_gates": [
+          "gold.completed_chunks",
+          "gold.iaa",
+          "gold.item_count",
+          "llm.proposed_human_gold_score"
+        ],
+        "optional_fail_gates": [
+          "crosswalk.expert_review",
+          "mapping.expert_review"
+        ],
+        "minimum_blockers": [
+          "min.gold_chunks",
+          "min.gold_items",
+          "min.iaa",
+          "min.proposed"
+        ],
+        "strong_or_optional_blockers": [
+          "strong.active_review",
+          "strong.gold_chunks",
+          "strong.gold_items",
+          "strong.mapping_downstream"
+        ]
+      }
+    },
+    {
+      "id": "requirements_matrix_traceability",
+      "status": "PASS",
+      "detail": "Requirements matrix traceability is synchronized with the submission readiness audit.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.json",
+        "traceability_items": 20,
+        "blocking_items": [
+          "min.gold_chunks",
+          "min.gold_items",
+          "min.iaa",
+          "min.proposed"
+        ],
+        "claim_status": "pending_human_gold_iaa_and_human_gold_scoring"
+      }
+    },
+    {
+      "id": "eacl_plan_compliance_matrix",
+      "status": "PASS",
+      "detail": "EACL plan compliance matrix is synchronized with readiness audit item IDs/statuses and current source artifacts.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+        "checklist_items": 20,
+        "human_blocker_count": 8,
+        "minimum_human_blocker_count": 4,
+        "strong_or_optional_human_blocker_count": 4,
+        "pre_human_handoff_status": "PASS",
+        "pre_human_handoff_status_counts": {
+          "PASS": 91,
+          "WARN": 1
+        }
+      }
+    },
+    {
+      "id": "revised_plan_completion_audit",
+      "status": "PASS",
+      "detail": "Revised plan completion audit proves automatic-stage readiness while keeping human-gated completion unclaimed.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_items.csv",
+        "checklist_items": 20,
+        "completion_proven_items": 11,
+        "human_blocked_items": 9,
+        "claim_status": "revised_plan_not_complete_human_evidence_pending"
+      }
+    },
+    {
+      "id": "public_revised_plan_completion_audit",
+      "status": "PASS",
+      "detail": "Public-safe revised plan completion audit mirrors completion status without private paths or source text.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe_items.csv",
+        "checklist_items": 20,
+        "claim_status": "public_safe_revised_plan_completion_audit_ready_not_submission_complete"
+      }
+    },
+    {
+      "id": "revised_plan_section_status",
+      "status": "PASS",
+      "detail": "Korean section-by-section revised-plan status table is synchronized with current gates and audits.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_section_status_ko.csv",
+        "sections": 14,
+        "claim_gate": "FAIL",
+        "pre_human_checks": 92,
+        "minimum_return_files_present": 0,
+        "minimum_return_files_required": 11
+      }
+    },
+    {
+      "id": "metric_traceability_audit",
+      "status": "PASS",
+      "detail": "Revised-plan metrics are linked to evaluator scripts, outputs, protocol definitions, paper tables, and human/expert gates.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.csv",
+        "metric_count": 10,
+        "claim_status": "metric_traceability_ready_pending_human_gold_and_expert_returns"
+      }
+    },
+    {
+      "id": "contribution_claim_traceability",
+      "status": "PASS",
+      "detail": "Revised-plan contribution statements are linked to current evidence, metrics, reviewer concerns, and human/expert claim gates.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.csv",
+        "contribution_count": 3,
+        "claim_status": "contribution_claim_traceability_ready_pending_human_gold_and_expert_returns"
+      }
+    },
+    {
+      "id": "related_work_baseline_traceability",
+      "status": "PASS",
+      "detail": "Plan related-work references are linked to local baselines, public adapters, validation standards, provenance artifacts, and claim boundaries.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.csv",
+        "reference_count": 9,
+        "claim_status": "related_work_baseline_traceability_ready_not_official_reproduction"
+      }
+    },
+    {
+      "id": "annotation_protocol_traceability",
+      "status": "PASS",
+      "detail": "Plan annotation requirements are linked to protocol, schema, batch, IAA/adjudication, return-file, and gate evidence.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.csv",
+        "plan_targets": 10,
+        "workflow_rows": 10,
+        "claim_status": "annotation_protocol_traceability_ready_pending_human_returns"
+      }
+    },
+    {
+      "id": "method_module_coverage_claim_safety",
+      "status": "PASS",
+      "detail": "CAPE-KG M1-M11 executable artifacts are covered while human-dependent final claims remain pending.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+        "modules": 11,
+        "human_dependent_modules": [
+          "M10",
+          "M11",
+          "M3",
+          "M4",
+          "M5",
+          "M6",
+          "M8",
+          "M9"
+        ],
+        "claim_status": "all_m1_m11_artifacts_present_human_claims_pending"
+      }
+    },
+    {
+      "id": "paper_readiness_checklist",
+      "status": "PASS",
+      "detail": "Paper readiness checklist separates minimum and strong-accept gates and tracks the 1,500+ gold item requirement.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.md",
+        "minimum_items": 11,
+        "strong_items": 7,
+        "strong_gold_items_status": false,
+        "readiness_items": 20,
+        "compliance_items": 20
+      }
+    },
+    {
+      "id": "rq_evidence_matrix",
+      "status": "PASS",
+      "detail": "RQ-to-evidence matrix covers RQ1-RQ4, all required evidence files exist, and final claims remain gated by human/expert review.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+        "rq_count": 4,
+        "claim_ready_count": 0,
+        "human_or_expert_pending_count": 4
+      }
+    },
+    {
+      "id": "evaluation_protocol_lock",
+      "status": "PASS",
+      "detail": "Evaluation protocol lock freezes metrics, condition sets, commands, claim policy, and file hashes before human returns.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+        "protocol_content_sha256": "5109c0b85d791c93ec78cae1f02547b5622dfd7990c8e7ccd005d249ced5c51d",
+        "locked_public_files": 46,
+        "current_context_files": 26,
+        "locked_private_inputs": 7,
+        "main_conditions": 14
+      }
+    },
+    {
+      "id": "reviewer_risk_register",
+      "status": "PASS",
+      "detail": "Reviewer risk register covers 13 likely reviewer concerns, has complete evidence coverage, and keeps human/expert blockers open.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+        "risk_count": 13,
+        "open_risk_ids": [
+          "R02_human_gold_missing",
+          "R07_mapping_downstream_labels",
+          "R08_crosswalk_downstream_utility",
+          "R09_active_review_effort",
+          "R13_submission_status_overclaim"
+        ],
+        "claim_status": "reviewer_risk_register_ready_with_open_human_gates"
+      }
+    },
+    {
+      "id": "cq_query_pack",
+      "status": "PASS",
+      "detail": "CQ query pack links all 12 competency questions to KG queries and sample answers.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "sample_answers": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_query_sample_answers.csv",
+        "cq_count": 12,
+        "answerable_cq_count": 12,
+        "cq_with_no_support": [],
+        "sample_answer_rows": 60,
+        "claim_status": "cq_query_pack_ready_not_human_gold_answer_correctness"
+      }
+    },
+    {
+      "id": "human_gold_span_iou_evaluator",
+      "status": "PASS",
+      "detail": "Human-gold component span exact/IoU evaluator is ready and conservatively pending adjudicated span returns.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+        "csv": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv",
+        "report": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+        "claim_status": "pending_human_adjudication",
+        "candidate_edges": 1444,
+        "candidate_component_spans": 4332,
+        "completed_adjudicated_chunks": 0
+      }
+    },
+    {
+      "id": "evidence_grounding_report_claim_safety",
+      "status": "PASS",
+      "detail": "Evidence grounding report is explicitly scoped as silver/proxy and not human-gold evidence.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_grounding_report.md",
+        "expected_conditions_checked": [
+          "B0_plain_llm_proxy",
+          "B1_predicate_constrained_proxy",
+          "B2_current_project_baseline",
+          "P_cape_kg_silver",
+          "P_minus_Evidence_proxy"
+        ]
+      }
+    },
+    {
+      "id": "evidence_span_granularity_claim_safety",
+      "status": "PASS",
+      "detail": "Component span granularity diagnostic is internally consistent and scoped as non-human-gold evidence.",
+      "evidence": {
+        "metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+        "report": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+        "component_jsonl": "outputs/06_triples/layer2_triples_component_spans.jsonl",
+        "component_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_components.csv",
+        "triple_count": 947,
+        "component_count": 2841,
+        "exact_component_span_rate": 0.261176,
+        "predicate_full_sentence_proxy_rate": 1.0,
+        "claim_status": "automatic_component_span_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "id": "predicate_cue_span_diagnostic",
+      "status": "PASS",
+      "detail": "Automatic predicate cue span diagnostic is internally consistent and source-text safe.",
+      "evidence": {
+        "metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json",
+        "report": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md",
+        "predicate_cue_spans": "outputs/06_triples/layer2_predicate_cue_spans.jsonl",
+        "predicate_cue_rows": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv",
+        "triple_count": 947,
+        "predicate_cue_span_count": 550,
+        "predicate_cue_span_rate": 0.580781,
+        "source_text_included": false,
+        "claim_status": "automatic_predicate_cue_span_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "id": "edge_component_span_traceability",
+      "status": "PASS",
+      "detail": "Final KG edges trace to source triples and automatic component spans without including source text.",
+      "evidence": {
+        "final_layer2_edge_count": 947,
+        "edge_component_span_link_count": 2841,
+        "edges_with_component_span_links": 947,
+        "linked_source_triple_count": 947,
+        "source_text_included": false,
+        "claim_status": "edge_component_span_traceability_ready_not_human_gold_span_claim"
+      }
+    },
+    {
+      "id": "active_review_diagnostics_claim_safety",
+      "status": "PASS",
+      "detail": "Active-review ablation and human-effort artifacts are explicitly scoped as silver/proxy or pending human timing.",
+      "evidence": {
+        "efficiency_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+        "ablation_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+        "human_effort_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+        "human_effort_template": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+        "human_effort_briefing": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+        "human_effort_briefing_rows": 204
+      }
+    },
+    {
+      "id": "mapping_downstream_claim_safety",
+      "status": "PASS",
+      "detail": "Mapping downstream, expert-review, and NCS-PCF crosswalk artifacts are candidate-only or pending expert review.",
+      "evidence": {
+        "downstream_report": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+        "expert_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+        "progress_summary": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+        "group_briefing": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_group_briefing.md",
+        "group_briefing_rows": 100,
+        "crosswalk_summary": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+        "crosswalk_candidates": "outputs/08_mapping/l2_ncs_pcf_crosswalk_candidates.jsonl",
+        "crosswalk_review_manifest": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json",
+        "crosswalk_expert_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+        "review_queue_groups": 44,
+        "pending_candidate_rows": 220
+      }
+    },
+    {
+      "id": "llm_diagnostics_public_benchmark_claim_safety",
+      "status": "PASS",
+      "detail": "LLM diagnostics, statistical tests, model scaling, strict-JSON diagnostics, and public benchmark cross-checks are scoped as silver/proxy or auxiliary diagnostics.",
+      "evidence": {
+        "actual_llm_silver_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+        "statistical_analysis": "experiments/cape_kg_eacl_20260627/04_evaluation/statistical_analysis_metrics.json",
+        "public_benchmark_crosscheck": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+        "qwen3_32b_awq_readiness": "experiments/cape_kg_eacl_20260627/06_release/qwen3_32b_awq_readiness.json",
+        "qwen3_model_scaling_report": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json",
+        "strict_json_diagnostics": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.json",
+        "claim_status": "silver_proxy_or_auxiliary_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "id": "ablation_coverage_report",
+      "status": "PASS",
+      "detail": "Planned baseline, LLM ablation, and active-review ablation diagnostics are covered while final performance claims remain human-gold gated.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/ablation_coverage_report.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/ablation_coverage_report.md",
+        "csv": "experiments/cape_kg_eacl_20260627/04_evaluation/ablation_coverage_by_condition.csv",
+        "baseline_ready": 7,
+        "llm_ablations": 6,
+        "active_review_rows": 24,
+        "claim_status": "ablation_coverage_ready_silver_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "id": "alias_canonicalization_report",
+      "status": "PASS",
+      "detail": "M9 alias/canonicalization coverage, collision queue, and human-gold node matching boundary are synchronized.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.md",
+        "csv": "experiments/cape_kg_eacl_20260627/04_evaluation/alias_canonicalization_collision_groups.csv",
+        "layer2_nodes": 220,
+        "alias_entries": 122,
+        "collision_groups": 13,
+        "ambiguous_collision_groups": 6,
+        "claim_status": "alias_canonicalization_diagnostic_ready_pending_human_gold_node_matching"
+      }
+    },
+    {
+      "id": "handoff_claim_status",
+      "status": "PASS",
+      "detail": "Human review handoff status is ready for review.",
+      "evidence": {
+        "claim_status": "handoff_ready_pending_human_review"
+      }
+    },
+    {
+      "id": "handoff_batch_coverage",
+      "status": "PASS",
+      "detail": "Handoff covers the minimum priority-100 human review set.",
+      "evidence": {
+        "assigned_chunks": 100,
+        "batch_count": 5
+      }
+    },
+    {
+      "id": "handoff_annotator_manifests",
+      "status": "PASS",
+      "detail": "Annotator A/B manifests each cover 100 unique chunks.",
+      "evidence": {}
+    },
+    {
+      "id": "handoff_bundle_manifest_hashes",
+      "status": "PASS",
+      "detail": "Handoff bundle files match manifest hashes.",
+      "evidence": {
+        "bundles": [
+          "active_review_effort",
+          "adjudicator",
+          "annotator_A",
+          "annotator_B",
+          "coordinator",
+          "crosswalk_expert",
+          "mapping_expert",
+          "strong_resegmented_review",
+          "structural_reviewer"
+        ]
+      }
+    },
+    {
+      "id": "handoff_bundle_contents",
+      "status": "PASS",
+      "detail": "Human review handoff tarballs contain the expected role-specific review inputs, guidance, and import/validation scripts.",
+      "evidence": {
+        "checked": {
+          "annotator_A": {
+            "file_count": 88,
+            "required_fragments": 19
+          },
+          "annotator_B": {
+            "file_count": 88,
+            "required_fragments": 19
+          },
+          "coordinator": {
+            "file_count": 96,
+            "required_fragments": 22
+          },
+          "adjudicator": {
+            "file_count": 42,
+            "required_fragments": 17
+          },
+          "mapping_expert": {
+            "file_count": 39,
+            "required_fragments": 21
+          },
+          "crosswalk_expert": {
+            "file_count": 37,
+            "required_fragments": 20
+          },
+          "active_review_effort": {
+            "file_count": 40,
+            "required_fragments": 19
+          },
+          "structural_reviewer": {
+            "file_count": 41,
+            "required_fragments": 17
+          },
+          "strong_resegmented_review": {
+            "file_count": 57,
+            "required_fragments": 20
+          }
+        },
+        "claim_status": "handoff_tarball_contents_ready_pending_human_review"
+      }
+    },
+    {
+      "id": "component_span_handoff_coverage",
+      "status": "PASS",
+      "detail": "Human-review candidate edges include conservative subject/predicate/object component span suggestions.",
+      "evidence": {
+        "checked_files": 17,
+        "candidate_edges": 11986,
+        "candidate_edges_with_component_spans": 11986,
+        "exact_components": 10570,
+        "full_sentence_proxy_components": 11986,
+        "file_summaries": [
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation_template.jsonl",
+            "rows": 120,
+            "rows_with_candidates": 72,
+            "candidate_edges": 1444,
+            "candidate_edges_with_component_spans": 1444,
+            "exact_components": 1286,
+            "full_sentence_proxy_components": 1444
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+            "rows": 120,
+            "rows_with_candidates": 72,
+            "candidate_edges": 1436,
+            "candidate_edges_with_component_spans": 1436,
+            "exact_components": 1286,
+            "full_sentence_proxy_components": 1436
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+            "rows": 120,
+            "rows_with_candidates": 72,
+            "candidate_edges": 1436,
+            "candidate_edges_with_component_spans": 1436,
+            "exact_components": 1286,
+            "full_sentence_proxy_components": 1436
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_A.jsonl",
+            "rows": 30,
+            "rows_with_candidates": 30,
+            "candidate_edges": 1121,
+            "candidate_edges_with_component_spans": 1121,
+            "exact_components": 1023,
+            "full_sentence_proxy_components": 1121
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_B.jsonl",
+            "rows": 30,
+            "rows_with_candidates": 30,
+            "candidate_edges": 1121,
+            "candidate_edges_with_component_spans": 1121,
+            "exact_components": 1023,
+            "full_sentence_proxy_components": 1121
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+            "rows": 342,
+            "rows_with_candidates": 93,
+            "candidate_edges": 1343,
+            "candidate_edges_with_component_spans": 1343,
+            "exact_components": 1101,
+            "full_sentence_proxy_components": 1343
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+            "rows": 342,
+            "rows_with_candidates": 93,
+            "candidate_edges": 1343,
+            "candidate_edges_with_component_spans": 1343,
+            "exact_components": 1101,
+            "full_sentence_proxy_components": 1343
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 18,
+            "candidate_edges": 811,
+            "candidate_edges_with_component_spans": 811,
+            "exact_components": 802,
+            "full_sentence_proxy_components": 811
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 18,
+            "candidate_edges": 811,
+            "candidate_edges_with_component_spans": 811,
+            "exact_components": 802,
+            "full_sentence_proxy_components": 811
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 12,
+            "candidate_edges": 180,
+            "candidate_edges_with_component_spans": 180,
+            "exact_components": 145,
+            "full_sentence_proxy_components": 180
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 12,
+            "candidate_edges": 180,
+            "candidate_edges_with_component_spans": 180,
+            "exact_components": 145,
+            "full_sentence_proxy_components": 180
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 8,
+            "candidate_edges": 152,
+            "candidate_edges_with_component_spans": 152,
+            "exact_components": 120,
+            "full_sentence_proxy_components": 152
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 8,
+            "candidate_edges": 152,
+            "candidate_edges_with_component_spans": 152,
+            "exact_components": 120,
+            "full_sentence_proxy_components": 152
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 9,
+            "candidate_edges": 91,
+            "candidate_edges_with_component_spans": 91,
+            "exact_components": 59,
+            "full_sentence_proxy_components": 91
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 9,
+            "candidate_edges": 91,
+            "candidate_edges_with_component_spans": 91,
+            "exact_components": 59,
+            "full_sentence_proxy_components": 91
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 13,
+            "candidate_edges": 137,
+            "candidate_edges_with_component_spans": 137,
+            "exact_components": 106,
+            "full_sentence_proxy_components": 137
+          },
+          {
+            "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl",
+            "rows": 20,
+            "rows_with_candidates": 13,
+            "candidate_edges": 137,
+            "candidate_edges_with_component_spans": 137,
+            "exact_components": 106,
+            "full_sentence_proxy_components": 137
+          }
+        ],
+        "claim_status": "automatic_candidate_span_suggestions_not_human_gold"
+      }
+    },
+    {
+      "id": "prompt_node_edge_traceability",
+      "status": "PASS",
+      "detail": "Prompt files, CQ definitions, LLM output summaries, and final KG node/edge counts are traceable and synchronized.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+        "conditions": 14,
+        "experiment_cqs": 12,
+        "valid_output_rows": 1680,
+        "valid_output_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+          "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl"
+        ],
+        "final_nodes": 220,
+        "final_edges": 947,
+        "claim_status": "traceability_ready_not_human_gold_performance_evidence"
+      }
+    },
+    {
+      "id": "schema_retrieval_coverage_report",
+      "status": "PASS",
+      "detail": "CQ-linked schema retrieval is represented by proposed, ablation, and taxonomy baseline conditions with claim-safe silver diagnostics.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.md",
+        "cq_support_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/schema_retrieval_cq_support_by_condition.csv",
+        "conditions": [
+          "B4_taxonomy_rag",
+          "P_cape_kg_actual",
+          "P_minus_Schema_retrieval"
+        ],
+        "cq_count": 12,
+        "schema_node_types": 14,
+        "schema_edge_types": 17,
+        "claim_status": "schema_retrieval_coverage_ready_silver_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "id": "schema_plan_alignment",
+      "status": "PASS",
+      "detail": "Plan schema terms are classified across canonical Layer 2, evidence/mapping projections, and known structural-review gaps.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/schema_plan_alignment.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/schema_plan_alignment.md",
+        "alignment_rows": 30,
+        "pending_structural_terms": [
+          "BRANCHES_TO"
+        ],
+        "status_counts": {
+          "canonical_layer2_present": 21,
+          "layer1_standard_present": 2,
+          "mapping_projection_present": 2,
+          "pending_structural_review": 1,
+          "projection_present": 2,
+          "represented_as_candidate_rows": 2
+        },
+        "claim_status": "schema_plan_alignment_ready_with_known_structural_gaps"
+      }
+    },
+    {
+      "id": "llm_condition_output_integrity",
+      "status": "PASS",
+      "detail": "LLM baseline, proposed, and ablation valid outputs cover all expected chunks with valid JSON shape and chunk-local evidence anchors.",
+      "evidence": {
+        "conditions": 14,
+        "evaluation_chunks": 120,
+        "total_rows": 1680,
+        "valid_files": [
+          "experiments/cape_kg_eacl_20260627/49_qwen3_8b_strict_json_1200_full_valid.jsonl",
+          "experiments/cape_kg_eacl_20260627/49_sac_kg_verifier_pruner_baseline_valid.jsonl"
+        ],
+        "per_condition_rows": 120,
+        "claim_status": "llm_output_integrity_ready_not_human_gold_performance_evidence"
+      }
+    },
+    {
+      "id": "human_return_field_error_guidance",
+      "status": "PASS",
+      "detail": "Human-return field guide and validation error playbook are ready for annotators, adjudicators, experts, and coordinators.",
+      "evidence": {
+        "field_guide_json": "experiments/cape_kg_eacl_20260627/06_release/annotation_return_field_guide.json",
+        "field_checklist_csv": "experiments/cape_kg_eacl_20260627/05_review/annotation_return_field_checklist.csv",
+        "editable_fields": [
+          "annotation_status",
+          "annotator_id",
+          "comments",
+          "gold_edges",
+          "gold_nodes",
+          "missing_but_supported_notes",
+          "rejected_candidate_reference_ids",
+          "time_minutes"
+        ],
+        "field_checklist_rows": 32,
+        "error_playbook_json": "experiments/cape_kg_eacl_20260627/06_release/human_return_validation_error_playbook.json",
+        "error_codes_csv": "experiments/cape_kg_eacl_20260627/05_review/human_return_validation_error_codes.csv",
+        "error_code_rows": 68,
+        "error_scopes": [
+          "active_review_effort",
+          "adjudication",
+          "annotation",
+          "crosswalk",
+          "mapping",
+          "structural_review"
+        ],
+        "claim_statuses": [
+          "annotation_return_field_guide_ready_pending_human_returns",
+          "human_return_error_playbook_ready_pending_human_returns"
+        ]
+      }
+    },
+    {
+      "id": "human_review_guidance_ready",
+      "status": "PASS",
+      "detail": "Detailed annotation, adjudication, and mapping review guidance is present and included in handoff bundles.",
+      "evidence": {
+        "guidance_files": [
+          "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+          "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/adjudication_protocol.md",
+          "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_protocol.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_claim_gate_one_page_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/annotation_calibration_pack_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/annotation_return_field_guide_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_return_validation_error_playbook_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_strong_resegmented_review_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "experiments/cape_kg_eacl_20260627/06_release/structural_review_application_plan.md"
+        ],
+        "checked_bundles": [
+          "active_review_effort",
+          "adjudicator",
+          "annotator_A",
+          "annotator_B",
+          "coordinator",
+          "crosswalk_expert",
+          "mapping_expert",
+          "strong_resegmented_review",
+          "structural_reviewer"
+        ],
+        "instruction_safety_files": [
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_claim_gate_one_page_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_active_review_effort_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_adjudicator_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_annotator_A_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_annotator_B_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_coordinator_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_crosswalk_expert_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_mapping_expert_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_strong_resegmented_review_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_structural_reviewer_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_report.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md"
+        ],
+        "wrapper_instruction_files": [
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_claim_gate_one_page_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_active_review_effort_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_adjudicator_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_annotator_A_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_annotator_B_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_coordinator_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_crosswalk_expert_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_mapping_expert_ko.md",
+          "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md"
+        ],
+        "banned_instruction_phrases_checked": 6,
+        "portable_command_files_checked": 30,
+        "pinned_python_patterns_checked": 3
+      }
+    },
+    {
+      "id": "annotation_batch_review_preview",
+      "status": "PASS",
+      "detail": "Annotation candidate/span preview artifacts cover priority-100 chunks and the optional strong 342-unit package, and are included in handoff bundles.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.md",
+        "csv": "experiments/cape_kg_eacl_20260627/05_review/annotation_batch_review_preview_summary.csv",
+        "strong_path": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json",
+        "strong_markdown": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.md",
+        "strong_csv": "experiments/cape_kg_eacl_20260627/05_review/strong_resegmented_review_preview_summary.csv",
+        "batch_count": 5,
+        "chunk_count": 100,
+        "candidate_edges_total": 1371,
+        "exact_component_ratio": "0.2995",
+        "chunks_needing_span_attention": 55,
+        "strong_review_unit_count": 342,
+        "strong_candidate_edges_total": 2087,
+        "strong_chunks_needing_span_attention": 87
+      }
+    },
+    {
+      "id": "gold_sampling_coverage_report",
+      "status": "PASS",
+      "detail": "Gold subset sampling coverage report explains the priority-100 minimum annotation subset while keeping human-gold claims pending.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+        "chapter_csv": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_coverage_by_chapter.csv",
+        "selected_chunks_csv": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv",
+        "candidate_coverage": 0.954735,
+        "active_review_coverage": 0.967033,
+        "high_impact_coverage": 1.0,
+        "selected_chunks": 100
+      }
+    },
+    {
+      "id": "gold_item_feasibility_report",
+      "status": "PASS",
+      "detail": "Gold item feasibility report shows the priority-100 candidate pool can cover the 500-item target while keeping human-gold claims pending.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/gold_item_feasibility_report.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/gold_item_feasibility_report.md",
+        "batch_csv": "experiments/cape_kg_eacl_20260627/05_review/gold_item_feasibility_by_batch.csv",
+        "assigned_chunks": 100,
+        "candidate_edges": 1371,
+        "current_gold_items": 0,
+        "claim_status": "gold_item_feasibility_ready_pending_human_adjudication"
+      }
+    },
+    {
+      "id": "handoff_bundle_checksums",
+      "status": "PASS",
+      "detail": "Checksum verification passed.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+        "rows": 9
+      }
+    },
+    {
+      "id": "annotation_roundtrip_smoke",
+      "status": "PASS",
+      "detail": "Annotation import, IAA, adjudication, validation, and scoring smoke test passed without using real gold claims.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_roundtrip_smoke/roundtrip_smoke_summary.json",
+        "sample_size": 3,
+        "metric_rows": 11,
+        "claim_status": "roundtrip_smoke_not_paper_evidence"
+      }
+    },
+    {
+      "id": "active_review_effort_roundtrip_smoke",
+      "status": "PASS",
+      "detail": "Active-review effort CSV validation and human-effort metric smoke test passed without using real human-effort claims.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_effort_roundtrip_smoke/active_review_effort_roundtrip_smoke_summary.json",
+        "selected_rows": 30,
+        "reviewed_rows": 30,
+        "metric_rows": 3,
+        "claim_status": "active_review_effort_roundtrip_smoke_not_paper_evidence"
+      }
+    },
+    {
+      "id": "mapping_roundtrip_smoke",
+      "status": "PASS",
+      "detail": "Mapping import and expert-metric smoke test passed without using real expert-review claims.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_roundtrip_smoke/mapping_roundtrip_smoke_summary.json",
+        "reviewed_rows": 10,
+        "metric_rows": 2,
+        "claim_status": "mapping_roundtrip_smoke_not_paper_evidence"
+      }
+    },
+    {
+      "id": "crosswalk_roundtrip_smoke",
+      "status": "PASS",
+      "detail": "NCS-PCF crosswalk import and utility/ranking metric smoke test passed without using real expert-review claims.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_roundtrip_smoke_summary.json",
+        "selected_source_groups": 2,
+        "reviewed_rows": 20,
+        "metric_rows": 1,
+        "claim_status": "crosswalk_roundtrip_smoke_not_paper_evidence"
+      }
+    },
+    {
+      "id": "claimable_main_table",
+      "status": "PASS",
+      "detail": "Claimable main table separates pending human-gold results from diagnostic-only metrics.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.json",
+        "overall_claim_status": "pending_human_gold_and_or_expert_review",
+        "blocking_result_count": 4,
+        "sampling_value": "selected=100, candidate_edge_coverage=0.954735, active_review_coverage=0.967033, high_impact_coverage=1.0",
+        "predicate_cue_value": "cue_spans=550/947, rate=0.580781, source_text_included=False"
+      }
+    },
+    {
+      "id": "claim_language_guardrails",
+      "status": "PASS",
+      "detail": "Claim-language guardrails define safe and unsafe paper/presentation wording for all current claim classes.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+        "claims": 10,
+        "status_counts": {
+          "claimable_setup_or_diagnostic": 4,
+          "pending_expert_review": 1,
+          "pending_human_effort": 1,
+          "pending_human_gold": 3,
+          "rights_review_required": 1
+        },
+        "claim_status": "claim_language_guardrails_ready_not_submission_complete",
+        "safe_to_use_as_submission": false,
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_checks": 92
+      }
+    },
+    {
+      "id": "reviewer_response_prep",
+      "status": "PASS",
+      "detail": "Reviewer response prep maps the revised-plan reviewer questions to evidence, safe answers, and remaining gates.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.md",
+        "responses": 7,
+        "status_counts": {
+          "candidate_pipeline_ready_expert_review_pending": 1,
+          "claimable_setup_human_quality_pending": 1,
+          "mitigated_public_safe_release_rights_review_required": 1,
+          "mitigated_setup_final_performance_pending": 1,
+          "mitigated_with_constraints_and_diagnostics": 1,
+          "partially_mitigated_final_gain_pending": 1,
+          "scaffold_ready_human_metrics_pending": 1
+        },
+        "claim_status": "reviewer_response_prep_ready_not_submission_complete",
+        "safe_to_use_as_submission": false,
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_checks": 92
+      }
+    },
+    {
+      "id": "submission_timeline_action_board",
+      "status": "PASS",
+      "detail": "Submission timeline action board maps the revised-plan schedule to current gates and critical-path actions.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+        "arr_target_date": "2026-08-03",
+        "days_to_arr_target": 35,
+        "actions": 10,
+        "claim_status": "submission_timeline_action_board_ready_not_submission_complete",
+        "safe_to_use_as_submission": false,
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_checks": 92
+      }
+    },
+    {
+      "id": "paper_table_blueprint",
+      "status": "PASS",
+      "detail": "Paper table blueprint separates final main tables from diagnostics, appendix material, and pending human/expert gates.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md",
+        "tables": 9,
+        "status_counts": {
+          "auxiliary_claimable_not_main_private_result": 1,
+          "claimable_setup_rights_review_required": 1,
+          "diagnostic_only_until_human_gold": 1,
+          "pending_expert_review": 2,
+          "pending_human_effort": 1,
+          "pending_human_gold": 1,
+          "setup_claimable_human_gold_pending": 1,
+          "structural_diagnostic_ready": 1
+        },
+        "claim_status": "paper_table_blueprint_ready_not_submission_complete",
+        "safe_to_use_as_submission": false,
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_checks": 92
+      }
+    },
+    {
+      "id": "arr_submission_policy_checklist",
+      "status": "PASS",
+      "detail": "ARR/EACL submission policy checklist maps official policy items to draft sections, release artifacts, and manual gates.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+        "items": 10,
+        "status_counts": {
+          "pass": 3,
+          "pass_expected_not_ready": 1,
+          "pass_pre_human_scaffold": 1,
+          "pending_author_action": 1,
+          "pending_author_confirmation": 1,
+          "pending_pdf_render": 1,
+          "public_safe_scaffold_ready_anonymization_pending": 1,
+          "scaffold_ready_final_answers_pending": 1
+        },
+        "claim_status": "arr_submission_policy_checklist_ready_not_submission_complete",
+        "safe_to_use_as_submission": false,
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_checks": 92
+      }
+    },
+    {
+      "id": "anonymized_submission_prep",
+      "status": "PASS",
+      "detail": "Anonymized submission prep scans manuscript/supplement risks while keeping upload-ready status false.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_risk_scan.csv",
+        "risk_rows": 200,
+        "manual_gates": 5,
+        "public_safe_tar_file_count": 385,
+        "upload_ready": false
+      }
+    },
+    {
+      "id": "responsible_nlp_checklist_prep",
+      "status": "PASS",
+      "detail": "Responsible NLP checklist prep maps ethics, societal-impact, data, LLM-use, reproducibility, and author-confirmation answers to evidence while keeping final answers pending.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_items.csv",
+        "items": 10,
+        "status_counts": {
+          "draft_ready": 6,
+          "pending_author_confirmation": 2,
+          "pending_human_gold": 1,
+          "pending_rights_review": 1
+        },
+        "final_answers_ready": false
+      }
+    },
+    {
+      "id": "experiment_reproduction_card",
+      "status": "PASS",
+      "detail": "Experiment reproduction card maps all baselines, ablations, proposed outputs, commands, and claim gates without promoting silver metrics to final claims.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv",
+        "conditions": 14,
+        "command_groups": 12,
+        "final_performance_claim_ready": false
+      }
+    },
+    {
+      "id": "paper_tables_claim_safety",
+      "status": "PASS",
+      "detail": "Paper tables separate pending human-gold/expert-review results from silver/proxy diagnostics in both Markdown and LaTeX.",
+      "evidence": {
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+        "latex": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.tex",
+        "completed_adjudicated_chunks": 0,
+        "gold_item_count_for_readiness": 0,
+        "mapping_metric_rows": 2,
+        "claim_status": "paper_tables_ready_not_submission_claim_evidence"
+      }
+    },
+    {
+      "id": "paper_section_source_map",
+      "status": "PASS",
+      "detail": "Paper section source map covers the planned long-paper sections and preserves human-gold/expert-review claim boundaries.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md",
+        "sections": 16,
+        "evidence_file_references": 53,
+        "claim_status": "paper_section_source_map_ready_not_submission_complete",
+        "safe_to_use_as_submission": false
+      }
+    },
+    {
+      "id": "post_human_scoring_readiness",
+      "status": "PASS",
+      "detail": "Post-human scoring readiness map links plan metrics to human/expert return files, refresh commands, and output tables.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+        "metrics": 10,
+        "pending_metrics": 10,
+        "tracked_return_files": 14,
+        "present_return_files": 0,
+        "claim_status": "post_human_scoring_readiness_ready_pending_human_returns",
+        "pre_human_validation": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+        "pre_human_validation_check_count": 92
+      }
+    },
+    {
+      "id": "eacl_submission_package_manifest",
+      "status": "PASS",
+      "detail": "EACL submission package manifest separates ready diagnostic/release components from human-gold and expert-review blockers.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md",
+        "components": 22,
+        "pending_components": 5,
+        "claim_status": "eacl_submission_package_manifest_ready_not_submission_complete",
+        "safe_to_use_as_submission": false
+      }
+    },
+    {
+      "id": "data_release_ethics_statement",
+      "status": "PASS",
+      "detail": "Data release and ethics statement plus external resource license report document public-safe release boundaries, benchmark licenses/citations, reproducibility mitigation, human-review privacy, LLM risk, and pending claim status.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+        "license_report": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json",
+        "license_report_csv": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.csv",
+        "license_report_markdown": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+        "claim_status": "data_release_ethics_ready_not_performance_evidence",
+        "required_patterns": 15,
+        "external_resource_count": 6,
+        "public_benchmark_count": 2,
+        "rights_review_required_count": 3
+      }
+    },
+    {
+      "id": "provenance_manifest",
+      "status": "PASS",
+      "detail": "Provenance manifest indexes source files, prompts, schemas, LLM runs, evaluation files, human-review handoffs, and release artifacts.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+        "run_index": "experiments/cape_kg_eacl_20260627/04_evaluation/provenance_llm_run_index.csv",
+        "prov_o_ttl": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+        "prov_o_summary": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_summary.json",
+        "prov_o_report": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_report.md",
+        "llm_run_count": 23,
+        "llm_runs_with_raw": 23,
+        "llm_runs_with_valid": 23,
+        "missing_required_count": 0,
+        "prov_o_entity_count": 287,
+        "prov_o_activity_count": 26,
+        "prov_o_agent_count": 6
+      }
+    },
+    {
+      "id": "layer2_evidence_triple_integrity",
+      "status": "PASS",
+      "detail": "Final Layer 2 nodes/edges, source triples, and evidence anchors are internally consistent.",
+      "evidence": {
+        "nodes": 220,
+        "edges": 947,
+        "schema_valid_triples": 947,
+        "evidence_anchors": 5009,
+        "nodes_with_evidence": 220,
+        "edges_with_evidence": 947,
+        "edges_with_source_triples": 947,
+        "unreferenced_schema_valid_triples": 0
+      }
+    },
+    {
+      "id": "evidence_graph_projection_integrity",
+      "status": "PASS",
+      "detail": "EvidenceAnchor nodes and EVIDENCED_BY edges match Layer 2 evidence_anchor_ids; source text is omitted.",
+      "evidence": {
+        "evidence_anchor_nodes": 451,
+        "evidenced_by_edges": 3915,
+        "kg_node_evidenced_by_edges": 742,
+        "kg_edge_evidenced_by_edges": 3173,
+        "unknown_used_evidence_anchor_count": 0,
+        "source_text_included": false
+      }
+    },
+    {
+      "id": "rdf_shacl_export",
+      "status": "PASS",
+      "detail": "Layer 2 KG RDF export and SHACL-style validation artifacts are present and pass structural checks.",
+      "evidence": {
+        "rdf_ttl": "outputs/12_rdf/cape_kg_layer2.ttl",
+        "runtime_shapes": "outputs/12_rdf/cape_kg_runtime_shapes.shacl.ttl",
+        "summary": "outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+        "report": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+        "node_count": 220,
+        "edge_count": 947,
+        "rdf_statement_count": 19690,
+        "error_count": 0
+      }
+    },
+    {
+      "id": "human_review_return_preflight",
+      "status": "PASS",
+      "detail": "Human review return preflight is configured and currently has no validation errors.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+        "overall_status": "pending_human_returns",
+        "present_human_return_files": 0,
+        "apply_scope": "no_return_files",
+        "minimum_paper_gate_ready_after_preflight": false,
+        "optional_mapping_ready_after_preflight": false,
+        "optional_crosswalk_ready_after_preflight": false,
+        "optional_active_effort_ready_after_preflight": false,
+        "validation_policy": {
+          "annotator_file_identity_check": true,
+          "completed_candidate_coverage_check": true,
+          "needs_adjudication_comments_required": true,
+          "completed_adjudication_adjudicator_id_required": true,
+          "mapping_completed_rows_require_explanation_quality_score": true,
+          "crosswalk_completed_rows_require_utility_and_explanation_scores": true
+        },
+        "annotation_present_files": 0,
+        "annotation_expected_files": 10,
+        "paired_completed_chunks": 0,
+        "adjudication_reviewed_file_present": false,
+        "mapping_reviewed_rows": 0,
+        "crosswalk_reviewed_rows": 0,
+        "active_review_timed_rows": 0
+      }
+    },
+    {
+      "id": "strong_review_return_preflight",
+      "status": "PASS",
+      "detail": "Optional strong 300+ return preflight is configured and currently has no validation errors.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+        "report": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.md",
+        "overall_status": "pending_strong_human_returns",
+        "expected_review_units": 342,
+        "paired_completed_chunks": 0,
+        "annotator_A_present": false,
+        "annotator_B_present": false,
+        "adjudication_present": false,
+        "ready_for_strong_iaa": false,
+        "ready_for_strong_claim_after_import": false,
+        "validation_policy": {
+          "annotator_file_identity_check": true,
+          "completed_candidate_coverage_check": true,
+          "needs_adjudication_comments_required": true,
+          "completed_adjudication_adjudicator_id_required": true
+        }
+      }
+    },
+    {
+      "id": "human_gate_action_plan",
+      "status": "PASS",
+      "detail": "Human gate action plan is synchronized with return preflight and split human-return files.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+        "report": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+        "required_returns_csv": "experiments/cape_kg_eacl_20260627/05_review/human_gate_required_returns.csv",
+        "gate_dependency_matrix_csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_gate_dependency_matrix.csv",
+        "minimum_paper_gate_return_files": 11,
+        "minimum_paper_gate_present_files": 0,
+        "optional_strong_return_files": 3,
+        "optional_strong_present_files": 0,
+        "tracked_human_return_files": 14,
+        "tracked_human_return_files_present": 0,
+        "gate_dependency_rows": 7,
+        "annotation_present_files": 0,
+        "annotation_expected_files": 10,
+        "mapping_reviewed_rows": 0
+      }
+    },
+    {
+      "id": "human_review_status_dashboard",
+      "status": "PASS",
+      "detail": "Human review status dashboard is synchronized with return preflight and next-action CSV.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.json",
+        "report": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+        "next_actions_csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_status_next_actions.csv",
+        "minimum_paper_gate_return_files": 11,
+        "minimum_paper_gate_present_files": 0,
+        "optional_strong_return_files": 3,
+        "optional_strong_present_files": 0,
+        "required_claim_human_return_files": 14,
+        "required_claim_human_present_files": 0,
+        "optional_structural_return_files": 2,
+        "optional_structural_present_files": 0,
+        "master_return_files": 16,
+        "master_return_files_present": 0,
+        "next_action_rows": 9,
+        "progress_cards": 8
+      }
+    },
+    {
+      "id": "human_review_first_batch_execution_card",
+      "status": "PASS",
+      "detail": "Human review first-batch execution card is synchronized with A/B batch files, dashboard links, guardrails, and safe commands.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md",
+        "batch_id": "full_120_priority_batch_001",
+        "annotation_return_files": 2,
+        "chunk_count": 20,
+        "candidate_edges_total": 811,
+        "commands": 4
+      }
+    },
+    {
+      "id": "human_review_role_quickstart_cards",
+      "status": "PASS",
+      "detail": "Human review role quickstart cards are synchronized with role bundles, dashboard links, return files, and safe commands.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards_ko.md",
+        "csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.csv",
+        "roles": 9,
+        "commands": 6,
+        "minimum_return_files": 11,
+        "required_return_files": 14
+      }
+    },
+    {
+      "id": "human_review_launch_checklist",
+      "status": "PASS",
+      "detail": "Human review launch checklist maps the minimum paper-gate return files to day-1 tasks and safe commands.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.json",
+        "report": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+        "launch_tasks_csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_minimum_gate_launch_tasks.csv",
+        "minimum_return_files": 11,
+        "annotation_return_files": 10,
+        "adjudication_return_files": 1,
+        "optional_return_files": 3,
+        "launch_task_rows": 18
+      }
+    },
+    {
+      "id": "human_review_packet_integrity",
+      "status": "PASS",
+      "detail": "Human-review packet integrity is ready and still correctly marked pending human returns.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+        "issue_csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_packet_integrity_issues.csv",
+        "overall_status": "PASS",
+        "claim_status": "human_review_packet_integrity_ready_pending_human_returns",
+        "summary": {
+          "integrity_error_count": 0,
+          "integrity_warning_count": 0,
+          "minimum_annotation_input_files": 10,
+          "minimum_annotation_chunks": 100,
+          "minimum_annotation_candidate_edges": 1371,
+          "mapping_review_rows": 220,
+          "mapping_review_source_standard_groups": 44,
+          "crosswalk_review_rows": 220,
+          "crosswalk_review_source_tasks": 22,
+          "active_review_effort_rows": 204,
+          "optional_strong_review_units": 342,
+          "optional_strong_source_chunks": 214,
+          "optional_strong_candidate_edges": 2048,
+          "required_reviewed_files_expected": 14,
+          "required_reviewed_files_present": 0,
+          "handoff_bundle_count": 9,
+          "missing_handoff_bundle_count": 0
+        },
+        "issue_count": 0
+      }
+    },
+    {
+      "id": "human_return_apply_wrapper_safety",
+      "status": "PASS",
+      "detail": "Human-return apply wrapper records dry-run success and empty-apply refusal evidence.",
+      "evidence": {
+        "script": "scripts/run_cape_human_return_apply.sh",
+        "last_run": "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_last_run.json",
+        "refusal": "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_refusal_last_run.json",
+        "post_refresh": "experiments/cape_kg_eacl_20260627/06_release/post_annotation_refresh_last_run.json",
+        "dry_run_status": "completed",
+        "refusal_status": "refused_empty_apply_no_reviewed_files",
+        "present_human_return_files": 0,
+        "apply_scope": "no_return_files",
+        "minimum_paper_gate_ready_after_preflight": false,
+        "optional_mapping_ready_after_preflight": false,
+        "optional_crosswalk_ready_after_preflight": false,
+        "optional_active_effort_ready_after_preflight": false,
+        "release_checksum_status": "OK",
+        "handoff_checksum_status": "OK"
+      }
+    },
+    {
+      "id": "strong_return_apply_wrapper_safety",
+      "status": "PASS",
+      "detail": "Strong-return apply wrapper records dry-run success and empty-apply refusal evidence.",
+      "evidence": {
+        "script": "scripts/run_cape_strong_return_apply.sh",
+        "last_run": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_last_run.json",
+        "refusal": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_refusal_last_run.json",
+        "preflight": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+        "present_strong_return_files": 0,
+        "apply_scope": "no_strong_return_files",
+        "expected_review_units": 342,
+        "ready_for_strong_iaa": false,
+        "ready_for_strong_claim_after_import": false
+      }
+    },
+    {
+      "id": "eacl_paper_draft_claim_safety",
+      "status": "PASS",
+      "detail": "EACL paper draft is synchronized with the conservative claim gate, split human-return plan, and standard paper section skeleton.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+        "status_path": "experiments/cape_kg_eacl_20260627/06_release/eacl_paper_draft_status.json",
+        "minimum_paper_gate_return_files": 11,
+        "minimum_paper_gate_present_files": 0,
+        "optional_strong_return_files": 3,
+        "optional_strong_present_files": 0,
+        "tracked_human_return_files": 14,
+        "present_human_return_files": 0,
+        "optional_structural_return_files": 2,
+        "optional_structural_present_files": 0,
+        "master_return_files": 16,
+        "master_return_files_present": 0,
+        "return_preflight_status": "pending_human_returns",
+        "safe_to_use_as_submission": false
+      }
+    },
+    {
+      "id": "current_reports_index",
+      "status": "PASS",
+      "detail": "Current report index points users to the canonical professor-report, paper-draft, release-gate, and post-annotation refresh artifacts.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/07_reports/README_current_reports_ko.md",
+        "canonical_professor_reports": 11,
+        "release_gate_references": 14,
+        "referenced_files_checked": 31
+      }
+    },
+    {
+      "id": "neo4j_csv_validation",
+      "status": "PASS",
+      "detail": "Neo4j CSV validation reports passed and include the EvidenceAnchor/EVIDENCED_BY projection.",
+      "evidence": {
+        "summaries": [
+          {
+            "path": "outputs/11_neo4j_import_flat/neo4j_csv_validation_report.json",
+            "overall_status": "PASS",
+            "csv_file_count": 19,
+            "total_rows": 25483,
+            "issue_count": 0,
+            "node_count": 11028,
+            "relationship_count": 14455,
+            "evidence_anchor_node_count": 451,
+            "kg_edge_assertion_node_count": 947,
+            "evidenced_by_relationship_count": 3915
+          },
+          {
+            "path": "outputs/11_neo4j_import/neo4j_csv_validation_report.json",
+            "overall_status": "PASS",
+            "csv_file_count": 19,
+            "total_rows": 25483,
+            "issue_count": 0,
+            "node_count": 11028,
+            "relationship_count": 14455,
+            "evidence_anchor_node_count": 451,
+            "kg_edge_assertion_node_count": 947,
+            "evidenced_by_relationship_count": 3915
+          }
+        ]
+      }
+    },
+    {
+      "id": "neo4j_evidence_query_pack",
+      "status": "PASS",
+      "detail": "Neo4j evidence query pack is synchronized with the current EvidenceAnchor/EVIDENCED_BY import package.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md",
+        "cypher": "outputs/11_neo4j_import_flat/neo4j_evidence_queries.cypher",
+        "query_count": 13,
+        "evidenced_by_relationship_count": 3915,
+        "claim_status": "neo4j_evidence_query_pack_ready_not_human_gold_evidence"
+      }
+    },
+    {
+      "id": "kg_visualization_demo",
+      "status": "PASS",
+      "detail": "KG visualization/demo artifacts are present and synchronized with current Layer 2 graph counts.",
+      "evidence": {
+        "viewer": "outputs/09_visualization/kg_viewer.html",
+        "graph_json": "outputs/09_visualization/kg_full.json",
+        "graphml": "outputs/09_visualization/kg_full.graphml",
+        "static_svg": "outputs/09_visualization/kg_static_overview.svg",
+        "readme": "outputs/09_visualization/visualization_readme.md",
+        "nodes": 9630,
+        "edges": 10540,
+        "layer2_nodes": 220,
+        "layer2_edges": 947,
+        "mapping_edges": 220,
+        "mapping_predicates": [
+          "PROCESS_CONTEXT",
+          "REQUIRES_CAPABILITY"
+        ],
+        "evidence_index": 5009,
+        "viewer_bytes": 6033408
+      }
+    },
+    {
+      "id": "public_reproducibility_manifest",
+      "status": "PASS",
+      "detail": "Public reproducibility manifest maps plan requirements to public-safe artifacts and is included in the public-safe bundle.",
+      "evidence": {
+        "json": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.csv",
+        "artifact_rows": 102,
+        "public_safe_rows": 67,
+        "internal_only_rows": 22,
+        "requirements": 7,
+        "public_safe_bundle": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_current_reports_sync29_20260629.tar.gz"
+      }
+    },
+    {
+      "id": "public_synthetic_examples_claim_safety",
+      "status": "PASS",
+      "detail": "Public synthetic examples are schema-shaped, source-text safe, and explicitly not paper-result evidence.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json",
+        "synthetic_chunks": 2,
+        "synthetic_nodes": 8,
+        "synthetic_edges": 6,
+        "claim_status": "public_format_example_not_paper_result"
+      }
+    },
+    {
+      "id": "public_safe_manifest_risk_scan",
+      "status": "PASS",
+      "detail": "Public-safe manifest risk scan is empty.",
+      "evidence": {}
+    },
+    {
+      "id": "public_safe_text_reference_scan",
+      "status": "PASS",
+      "detail": "Public-safe text files do not mention conservative internal path/name patterns.",
+      "evidence": {
+        "review_queue_csv": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.csv",
+        "review_queue_md": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md",
+        "review_queue_issues": []
+      }
+    },
+    {
+      "id": "public_external_release_review_queue",
+      "status": "PASS",
+      "detail": "Public external release review queue is synchronized with the public-safe text reference scan.",
+      "evidence": {
+        "csv": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.csv",
+        "markdown": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md",
+        "risk_rows": 0
+      }
+    },
+    {
+      "id": "release_bundle_manifest_hashes",
+      "status": "PASS",
+      "detail": "Release bundle files match manifest hashes.",
+      "evidence": {}
+    },
+    {
+      "id": "release_bundle_no_stale_nested_artifacts",
+      "status": "PASS",
+      "detail": "Release bundles exclude stale nested bundle metadata/checksum artifacts.",
+      "evidence": {}
+    },
+    {
+      "id": "public_safe_tar_content_scan",
+      "status": "PASS",
+      "detail": "Public-safe bundle excludes internal-review and source-text paths.",
+      "evidence": {
+        "file_count": 385
+      }
+    },
+    {
+      "id": "report_validation_summary_freshness",
+      "status": "PASS",
+      "detail": "Report and release markdown files do not contain known stale pre-human validation count patterns.",
+      "evidence": {
+        "checked_files": 129,
+        "stale_patterns": [
+          "Pre-human checks: 60",
+          "Checks: 60",
+          "60 checks",
+          "59 PASS",
+          "59 / 1 WARN",
+          "59 PASS / 1 WARN",
+          "59 PASS, 1 WARN",
+          "Pre-human checks: 59",
+          "Checks: 59",
+          "59 checks",
+          "58 PASS",
+          "58 / 1 WARN",
+          "58 PASS / 1 WARN",
+          "58 PASS, 1 WARN",
+          "Pre-human checks: 58",
+          "Checks: 58",
+          "58 checks",
+          "57 PASS",
+          "57 / 1 WARN",
+          "57 PASS / 1 WARN",
+          "57 PASS, 1 WARN",
+          "Pre-human checks: 57",
+          "Checks: 57",
+          "57 checks",
+          "56 PASS",
+          "56 / 1 WARN",
+          "56 PASS / 1 WARN",
+          "56 PASS, 1 WARN",
+          "Pre-human checks: 54",
+          "Checks: 54",
+          "54 checks",
+          "54 PASS",
+          "54 / 1 WARN",
+          "53 PASS / 1 WARN",
+          "53 PASS, 1 WARN",
+          "Pre-human checks: 53",
+          "Checks: 53",
+          "53 checks",
+          "53 PASS",
+          "53 / 1 WARN",
+          "52 PASS / 1 WARN",
+          "52 PASS, 1 WARN",
+          "pre_human_check_count | `53`",
+          "{'PASS': 53, 'WARN': 1}",
+          "{\"PASS\": 53, \"WARN\": 1}",
+          "Pre-human checks: 52",
+          "Checks: 52",
+          "52 checks",
+          "52 PASS",
+          "52 / 1 WARN",
+          "51 PASS / 1 WARN",
+          "51 PASS, 1 WARN",
+          "Pre-human checks: 51",
+          "51 checks",
+          "50 PASS",
+          "50 / 1 WARN",
+          "Pre-human checks: 50",
+          "50 checks",
+          "49 PASS",
+          "49 / 1 WARN",
+          "Pre-human checks: 49",
+          "49 checks",
+          "Pre-human checks: 48",
+          "Checks: 48",
+          "48 checks",
+          "48 PASS",
+          "48 / 1 WARN",
+          "47 PASS",
+          "47 / 1 WARN",
+          "47 checks",
+          "46 PASS",
+          "46 checks",
+          "45 PASS",
+          "45 checks",
+          "44 PASS",
+          "44 checks",
+          "43 PASS",
+          "43 checks",
+          "42 PASS",
+          "42 checks",
+          "41 PASS",
+          "41 checks",
+          "40 PASS",
+          "40 checks",
+          "39 PASS",
+          "20 PASS / 1 WARN",
+          "20 checks:",
+          "21 checks:",
+          "19 PASS, 1 WARN",
+          "PASS, 20 PASS",
+          "PASS, 34 checks",
+          "39 checks",
+          "38 PASS",
+          "38 checks",
+          "37 PASS",
+          "37 checks",
+          "36 PASS",
+          "36 checks",
+          "35 PASS",
+          "35 checks",
+          "34 PASS",
+          "33 PASS"
+        ]
+      }
+    },
+    {
+      "id": "release_bundle_checksums",
+      "status": "PASS",
+      "detail": "Checksum verification passed.",
+      "evidence": {
+        "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+        "rows": 2
+      }
+    }
+  ],
+  "report": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md"
+}

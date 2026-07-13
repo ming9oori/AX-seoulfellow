@@ -1,0 +1,3 @@
+﻿standard,candidate_rows,source_task_count,completed_rows,pending_rows,complete_source_groups,sources_with_positive,expert_accept_rate,hit_at_1,hit_at_3,hit_at_5,precision_at_5,mrr,ndcg_at_10,explanation_quality_score_mean,explanation_quality_score_count,claim_status
+NCS,5,1,5,0,1,1,0.2,1.0,1.0,1.0,0.2,1.0,1.0,3.4,5,expert_review_evaluated
+PCF,5,1,5,0,1,1,0.2,1.0,1.0,1.0,0.2,1.0,1.0,3.4,5,expert_review_evaluated

@@ -1,0 +1,35 @@
+{
+  "confidence": {
+    "accept_threshold": 0.92,
+    "critical_accept_threshold": 0.96,
+    "reject_threshold": 0.25
+  },
+  "evaluation": {
+    "gold": null,
+    "llm_repeats": 3,
+    "split_id": "jaije-section-split-v1"
+  },
+  "input": {
+    "actual_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+    "expected_rows": 1366,
+    "path": "/home/minjoo/AX_서울펠로우/handoff-hanyang/수주제안/자이제_1.xlsx",
+    "sheet": "clean_sentences"
+  },
+  "llm": {
+    "budget_ratio": 0.1,
+    "enabled": false,
+    "max_calls": 30,
+    "model": "gpt-4o-mini-2024-07-18",
+    "temperature": 0
+  },
+  "neo4j": {
+    "batch_size": 500,
+    "image": "neo4j:5.26.28-community",
+    "isolation_mode": "fresh_volume"
+  },
+  "project": {
+    "name": "traceol-jaije",
+    "seed": 20260710,
+    "timezone": "UTC"
+  }
+}

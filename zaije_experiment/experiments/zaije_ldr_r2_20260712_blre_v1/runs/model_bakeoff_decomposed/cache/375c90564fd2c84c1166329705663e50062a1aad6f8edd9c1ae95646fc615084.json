@@ -1,0 +1,104 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-90_C01",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-106_C02",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-208_C02",
+        "configuration_id": "C03",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-283_C01",
+        "configuration_id": "C03",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-329_C02",
+        "configuration_id": "C03",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-340_C02",
+        "configuration_id": "C03",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-349_C01",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-350_C01",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-361_C01",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-408_C01",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-551_C02",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-553_C03",
+        "configuration_id": "C03",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 1
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/F2_C03_r1_b01_375c90564fd2.json",
+  "response_id": "resp_097477c322f77a1b006a53116d6bc88198aabb1e9e48a9c20a",
+  "usage": {
+    "input_tokens": 1711,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 534,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2245
+  }
+}

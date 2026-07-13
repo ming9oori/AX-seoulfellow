@@ -1,0 +1,6 @@
+{
+  "critical_shacl_violation": 0,
+  "rdf_parse_pass": true,
+  "rdf_triple_count": 87023,
+  "shacl_conforms": true
+}

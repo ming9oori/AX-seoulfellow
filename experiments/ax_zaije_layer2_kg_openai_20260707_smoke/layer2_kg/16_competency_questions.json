@@ -1,0 +1,58 @@
+[
+  {
+    "expected": "제안전략 개발 ← USES_INPUT ← Capture Plan/고객 이슈/경쟁사 정보/핵심 차별화 요소",
+    "id": "CQ1",
+    "passed": false,
+    "question": "제안전략을 세우기 전에 어떤 정보와 산출물이 필요한가?",
+    "satisfied_checks": 0,
+    "total_checks": 3
+  },
+  {
+    "expected": "수주영업 → PRODUCES → Capture Plan → USED_AS_INPUT_FOR → 제안서 기획",
+    "id": "CQ2",
+    "passed": false,
+    "question": "Capture Plan은 어떤 업무에서 생성되고 어디에 사용되는가?",
+    "satisfied_checks": 0,
+    "total_checks": 2
+  },
+  {
+    "expected": "수주영업/제안참여 의사결정 → HAS_DECISION_POINT → Bid/No-Bid",
+    "id": "CQ3",
+    "passed": false,
+    "question": "Bid/No-Bid 의사결정은 어느 단계에서 발생하며 어떤 입력을 쓰는가?",
+    "satisfied_checks": 0,
+    "total_checks": 2
+  },
+  {
+    "expected": "평가자 분석 → ANALYZES → 평가자 유형 → USED_AS_INPUT_FOR → 설득 메시지",
+    "id": "CQ4",
+    "passed": false,
+    "question": "평가자 유형에 따라 커뮤니케이션은 어떻게 달라지는가?",
+    "satisfied_checks": 0,
+    "total_checks": 3
+  },
+  {
+    "expected": "리스크 관리 → MITIGATES → 리스크; 리스크 관리 → MAY_RESULT_IN → 차별화 포인트",
+    "id": "CQ5",
+    "passed": false,
+    "question": "리스크 관리는 어떻게 차별화 포인트로 이어지는가?",
+    "satisfied_checks": 0,
+    "total_checks": 2
+  },
+  {
+    "expected": "제안서 작성 → HAS_REVIEW → 전략 리뷰/초안 리뷰/최종 리뷰",
+    "id": "CQ6",
+    "passed": false,
+    "question": "제안서 작성 단계에서 어떤 리뷰 또는 마일스톤이 필요한가?",
+    "satisfied_checks": 0,
+    "total_checks": 3
+  },
+  {
+    "expected": "RFP → CONTAINS → 공식 요구조건; 비공식 요구조건 → PART_OF → 고객 니즈",
+    "id": "CQ7",
+    "passed": false,
+    "question": "고객의 공식 요구조건과 비공식 요구조건은 어떻게 구분되는가?",
+    "satisfied_checks": 1,
+    "total_checks": 2
+  }
+]

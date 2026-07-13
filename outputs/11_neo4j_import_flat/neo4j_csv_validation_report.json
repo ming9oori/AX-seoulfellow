@@ -1,0 +1,644 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:41.489319+00:00",
+  "import_dir": "outputs/11_neo4j_import_flat",
+  "manifest": {
+    "generated_at_utc": "2026-06-29T18:56:39Z",
+    "outputs_dir": "outputs",
+    "out_dir": "outputs/11_neo4j_import_flat",
+    "node_count": 11028,
+    "relationship_count": 14455,
+    "relationship_types": {
+      "EVIDENCED_BY": 3915,
+      "FEEDS_INTO": 9,
+      "HAS_CHILD": 2639,
+      "HAS_COMPETENCY_UNIT": 3450,
+      "HAS_DECISION_GATEWAY": 54,
+      "HAS_GUARD_CONDITION": 14,
+      "HAS_METRIC": 3284,
+      "HAS_PRINCIPLE": 64,
+      "HAS_REVIEW_CHECKPOINT": 41,
+      "HAS_RISK": 39,
+      "HAS_STEP": 99,
+      "PERFORMED_BY": 120,
+      "PRECEDES": 77,
+      "PROCESS_CONTEXT": 110,
+      "PRODUCES": 220,
+      "REQUIRES_CAPABILITY": 110,
+      "USED_AS_INPUT_FOR": 9,
+      "USES_INPUT": 201
+    },
+    "evidence_anchor_node_count": 451,
+    "kg_edge_assertion_node_count": 947,
+    "flat_relationships": true,
+    "missing_endpoint_count": 0,
+    "missing_endpoint_sample": [],
+    "source_files": {
+      "nodes": [
+        "01_layer1/layer1_ncs_nodes.jsonl",
+        "01_layer1/layer1_pcf_nodes.jsonl",
+        "07_layer2_graph/layer2_nodes.jsonl"
+      ],
+      "edges": [
+        "01_layer1/layer1_ncs_edges.jsonl",
+        "01_layer1/layer1_pcf_edges.jsonl",
+        "01_layer1/layer1_pcf_metric_edges.jsonl",
+        "07_layer2_graph/layer2_edges.jsonl"
+      ],
+      "mappings": [
+        "08_mapping/l2_ncs_mapping_candidates.jsonl",
+        "08_mapping/l2_pcf_mapping_candidates.jsonl"
+      ],
+      "evidence_nodes": "13_evidence_graph/evidence_anchor_nodes.jsonl",
+      "evidence_edges": "13_evidence_graph/evidenced_by_edges.jsonl"
+    }
+  },
+  "csv_file_count": 19,
+  "total_rows": 25483,
+  "files_with_issues": 0,
+  "issue_counts": {},
+  "relationship_type_issues": [],
+  "files": [
+    {
+      "file": "outputs/11_neo4j_import_flat/EVIDENCED_BY.csv",
+      "rows": 3915,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 3915,
+        "source_triple_ids_json": 3915,
+        "raw_json": 3915
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/FEEDS_INTO.csv",
+      "rows": 9,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 9,
+        "source_triple_ids_json": 9,
+        "raw_json": 9
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_CHILD.csv",
+      "rows": 2639,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 2639,
+        "source_triple_ids_json": 2639,
+        "raw_json": 2639
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_COMPETENCY_UNIT.csv",
+      "rows": 3450,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 3450,
+        "source_triple_ids_json": 3450,
+        "raw_json": 3450
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_DECISION_GATEWAY.csv",
+      "rows": 54,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 54,
+        "source_triple_ids_json": 54,
+        "raw_json": 54
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_GUARD_CONDITION.csv",
+      "rows": 14,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 14,
+        "source_triple_ids_json": 14,
+        "raw_json": 14
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_METRIC.csv",
+      "rows": 3284,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 3284,
+        "source_triple_ids_json": 3284,
+        "raw_json": 3284
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_PRINCIPLE.csv",
+      "rows": 64,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 64,
+        "source_triple_ids_json": 64,
+        "raw_json": 64
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_REVIEW_CHECKPOINT.csv",
+      "rows": 41,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 41,
+        "source_triple_ids_json": 41,
+        "raw_json": 41
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_RISK.csv",
+      "rows": 39,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 39,
+        "source_triple_ids_json": 39,
+        "raw_json": 39
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/HAS_STEP.csv",
+      "rows": 99,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 99,
+        "source_triple_ids_json": 99,
+        "raw_json": 99
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/PERFORMED_BY.csv",
+      "rows": 120,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 120,
+        "source_triple_ids_json": 120,
+        "raw_json": 120
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/PRECEDES.csv",
+      "rows": 77,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 77,
+        "source_triple_ids_json": 77,
+        "raw_json": 77
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/PROCESS_CONTEXT.csv",
+      "rows": 110,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 110,
+        "source_triple_ids_json": 110,
+        "raw_json": 110
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/PRODUCES.csv",
+      "rows": 220,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 220,
+        "source_triple_ids_json": 220,
+        "raw_json": 220
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/REQUIRES_CAPABILITY.csv",
+      "rows": 110,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 110,
+        "source_triple_ids_json": 110,
+        "raw_json": 110
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/USED_AS_INPUT_FOR.csv",
+      "rows": 9,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 9,
+        "source_triple_ids_json": 9,
+        "raw_json": 9
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/USES_INPUT.csv",
+      "rows": 201,
+      "columns": [
+        "rel_id",
+        "source_id",
+        "target_id",
+        "rel_type",
+        "predicate",
+        "layer",
+        "confidence",
+        "mapping_type",
+        "rank",
+        "score",
+        "review_status",
+        "evidence_anchor_ids_json",
+        "source_triple_ids_json",
+        "reason",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "evidence_anchor_ids_json": 201,
+        "source_triple_ids_json": 201,
+        "raw_json": 201
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "outputs/11_neo4j_import_flat/nodes.csv",
+      "rows": 11028,
+      "columns": [
+        "node_id",
+        "label",
+        "type",
+        "layer",
+        "definition",
+        "label_ko",
+        "label_en",
+        "code",
+        "hid",
+        "parent_hid",
+        "source",
+        "review_status",
+        "evidence_anchor_id",
+        "sentence_id",
+        "chunk_id",
+        "page",
+        "zone",
+        "span_start",
+        "span_end",
+        "anchor_exact",
+        "text_included",
+        "text_char_count",
+        "text_sha256",
+        "aliases_json",
+        "evidence_anchor_ids_json",
+        "raw_json"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {
+        "aliases_json": 11028,
+        "evidence_anchor_ids_json": 11028,
+        "raw_json": 11028
+      },
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS"
+}

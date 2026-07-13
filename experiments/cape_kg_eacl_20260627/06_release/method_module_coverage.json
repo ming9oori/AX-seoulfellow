@@ -1,0 +1,1503 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:40.195140+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "module_count": 11,
+    "modules_with_required_artifacts": 11,
+    "missing_required_artifact_count": 0,
+    "missing_modules": [],
+    "human_dependent_module_count": 8,
+    "human_dependent_modules": [
+      "M3",
+      "M4",
+      "M5",
+      "M6",
+      "M8",
+      "M9",
+      "M10",
+      "M11"
+    ],
+    "claim_status": "all_m1_m11_artifacts_present_human_claims_pending"
+  },
+  "modules": [
+    {
+      "module_id": "M1",
+      "name": "Document structure recovery",
+      "purpose": "Recover OCR rows, clean sentences, chunks, and evaluation subset.",
+      "status": "implemented_artifacts_present",
+      "human_dependent_for_final_claim": false,
+      "required_artifact_count": 5,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/02_ocr/document_structure_reviewed.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 161394
+        },
+        {
+          "path": "outputs/02_ocr/ocr_sentences_clean.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3198719,
+          "records": 5009
+        },
+        {
+          "path": "outputs/02_ocr/layer2_chunks.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1006690,
+          "records": 214
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 495269,
+          "records": 120
+        },
+        {
+          "path": "outputs/02_ocr/ocr_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1934
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_ax_epak_internal_kg.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 106797
+        },
+        {
+          "path": "scripts/build_cape_kg_eacl_experiment.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 172366
+        }
+      ],
+      "remaining_for_paper_claim": "No additional automatic step required; source-text release still requires rights review."
+    },
+    {
+      "module_id": "M2",
+      "name": "CQ generation and selection",
+      "purpose": "Represent competency questions and use them in evaluation/reporting.",
+      "status": "implemented_artifacts_present",
+      "human_dependent_for_final_claim": false,
+      "required_artifact_count": 7,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/03_schema/competency_questions.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2303
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2101
+        },
+        {
+          "path": "outputs/10_evaluation/cq_answerability_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1281
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_by_condition.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 12836,
+          "records": 132
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_query_sample_answers.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 13328,
+          "records": 60
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 53053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 29675
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_cape_kg_eacl_experiment.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 172366
+        },
+        {
+          "path": "scripts/build_cape_cq_query_pack.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 20614
+        }
+      ],
+      "remaining_for_paper_claim": "Human-gold CQ answerability must be recomputed after adjudication."
+    },
+    {
+      "module_id": "M3",
+      "name": "CQ-linked schema retrieval",
+      "purpose": "Provide chunk-specific schema/taxonomy context and ablate schema retrieval.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 8,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 206
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 148
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 29213
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/schema_retrieval_coverage_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 5476
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/schema_retrieval_cq_support_by_condition.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 6811,
+          "records": 36
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_120_valid.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1021348,
+          "records": 720
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/50_qwen3_8b_cape_ablation_120_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1681
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/run_cape_llm_condition_baselines.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 48967
+        },
+        {
+          "path": "scripts/build_cape_schema_retrieval_coverage_report.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 25263
+        },
+        {
+          "path": "scripts/build_cape_kg_eacl_experiment.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 172366
+        }
+      ],
+      "remaining_for_paper_claim": "Final claim requires human-gold comparison of P vs. schema-retrieval ablation."
+    },
+    {
+      "module_id": "M4",
+      "name": "Procedural frame extraction",
+      "purpose": "Extract task frames and procedural structures before graph assembly.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 6,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/04_task_frames/canonical_task_catalog.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 256506
+        },
+        {
+          "path": "outputs/04_task_frames/task_frame_candidates_raw.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 151608,
+          "records": 22
+        },
+        {
+          "path": "outputs/05_procedure/procedure_structures_clean.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 37990,
+          "records": 22
+        },
+        {
+          "path": "outputs/05_procedure/procedure_edges.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 96588,
+          "records": 303
+        },
+        {
+          "path": "outputs/04_task_frames/task_frame_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 401
+        },
+        {
+          "path": "outputs/05_procedure/procedure_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 341
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_ax_epak_internal_kg.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 106797
+        },
+        {
+          "path": "scripts/run_cep_onto_llm_extraction.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 25987
+        }
+      ],
+      "remaining_for_paper_claim": "Human review should verify task/step correctness before final claims."
+    },
+    {
+      "module_id": "M5",
+      "name": "Evidence-span constrained triple extraction",
+      "purpose": "Build schema-valid triples with evidence anchors.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 28,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/06_triples/layer2_triples_schema_valid.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1101975,
+          "records": 947
+        },
+        {
+          "path": "outputs/06_triples/layer2_triples_component_spans.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2684961,
+          "records": 947
+        },
+        {
+          "path": "outputs/06_triples/layer2_predicate_cue_spans.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 572191,
+          "records": 947
+        },
+        {
+          "path": "outputs/06_triples/evidence_anchors.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1676699,
+          "records": 5009
+        },
+        {
+          "path": "outputs/13_evidence_graph/evidence_graph_projection_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1603
+        },
+        {
+          "path": "outputs/13_evidence_graph/evidence_anchor_nodes.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 225323,
+          "records": 451
+        },
+        {
+          "path": "outputs/13_evidence_graph/evidenced_by_edges.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2227213,
+          "records": 3915
+        },
+        {
+          "path": "outputs/13_evidence_graph/edge_component_span_links.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2278299,
+          "records": 2841
+        },
+        {
+          "path": "outputs/13_evidence_graph/edge_component_span_links.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1025037,
+          "records": 2841
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1822
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 5002
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1721
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 255799,
+          "records": 947
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/edge_component_span_traceability.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2312
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/edge_component_span_traceability.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1744
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1405
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 162,
+          "records": 0
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 100278
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 183362
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 845
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1486
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/provenance_llm_run_index.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 16241,
+          "records": 23
+        },
+        {
+          "path": "outputs/06_triples/triple_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 374
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/silver_reference_edges.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2028487,
+          "records": 900
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/03_predictions/P_cape_kg_silver.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2003259,
+          "records": 900
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_ax_epak_internal_kg.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 106797
+        },
+        {
+          "path": "scripts/build_cape_component_evidence_spans.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 13040
+        },
+        {
+          "path": "scripts/build_cape_predicate_cue_spans.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 13787
+        },
+        {
+          "path": "scripts/build_cape_evidence_graph_projection.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 12065
+        },
+        {
+          "path": "scripts/build_cape_edge_component_span_traceability.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 14045
+        },
+        {
+          "path": "scripts/evaluate_cape_human_gold_span_iou.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 17134
+        },
+        {
+          "path": "scripts/build_cape_provenance_manifest.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 31158
+        },
+        {
+          "path": "scripts/build_cape_prov_o_export.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 18898
+        },
+        {
+          "path": "scripts/run_cape_llm_condition_baselines.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 48967
+        }
+      ],
+      "remaining_for_paper_claim": "Component-level span diagnostics are present; character/span exactness must still be validated against adjudicated human gold."
+    },
+    {
+      "module_id": "M6",
+      "name": "Span verifier",
+      "purpose": "Evaluate evidence support and span grounding quality.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 15,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_evaluation_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3152
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1822
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 5002
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1721
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 255799,
+          "records": 947
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/edge_component_span_traceability.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2312
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/edge_component_span_traceability.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1744
+        },
+        {
+          "path": "outputs/13_evidence_graph/edge_component_span_links.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2278299,
+          "records": 2841
+        },
+        {
+          "path": "outputs/06_triples/layer2_predicate_cue_spans.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 572191,
+          "records": 947
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/qwen3_32b_awq_core_silver_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 4398
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1405
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1371
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_cape_component_evidence_spans.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 13040
+        },
+        {
+          "path": "scripts/build_cape_predicate_cue_spans.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 13787
+        },
+        {
+          "path": "scripts/build_cape_edge_component_span_traceability.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 14045
+        },
+        {
+          "path": "scripts/evaluate_actual_llm_silver.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 15148
+        },
+        {
+          "path": "scripts/evaluate_cape_human_gold.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 57230
+        },
+        {
+          "path": "scripts/evaluate_cape_human_gold_span_iou.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 17134
+        }
+      ],
+      "remaining_for_paper_claim": "Current verifier evidence is silver/proxy; human-gold evidence metrics are pending."
+    },
+    {
+      "module_id": "M7",
+      "name": "Ontology/SHACL validator",
+      "purpose": "Check schema, domain/range, predicate, and conformance constraints.",
+      "status": "implemented_artifacts_present",
+      "human_dependent_for_final_claim": false,
+      "required_artifact_count": 10,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 340
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 983
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_layer2.ttl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 870167
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_runtime_shapes.shacl.ttl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 6142
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1561
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1327
+        },
+        {
+          "path": "outputs/07_layer2_graph/layer2_graph_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 373
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_cape_structural_evaluation.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 20877
+        },
+        {
+          "path": "scripts/export_cape_kg_rdf_shacl.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 19854
+        },
+        {
+          "path": "scripts/build_cape_kg_eacl_experiment.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 172366
+        },
+        {
+          "path": "scripts/validate_cape_experiment_readiness.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 26179
+        }
+      ],
+      "remaining_for_paper_claim": "No additional automatic step required; final conformance table should use human-gold predictions."
+    },
+    {
+      "module_id": "M8",
+      "name": "Procedural consistency validator",
+      "purpose": "Check procedural edges, precedence, gateway, and artifact-flow consistency.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 19,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 22053
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 15185
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3876
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1488,
+          "records": 12
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 916
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 8155
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 23258,
+          "records": 45
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 12566,
+          "records": 4
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_optional_returns.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1019,
+          "records": 2
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3565
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3753
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1088
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1736
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_application_plan.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2212
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_application_plan.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1571
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_application_actions.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 189,
+          "records": 0
+        },
+        {
+          "path": "outputs/05_procedure/procedure_quality_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 341
+        },
+        {
+          "path": "outputs/07_layer2_graph/layer2_edges.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 331827,
+          "records": 947
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_cape_structural_evaluation.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 20877
+        },
+        {
+          "path": "scripts/build_cape_structural_gap_worklist.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 14517
+        },
+        {
+          "path": "scripts/build_cape_structural_review_action_plan.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 9401
+        },
+        {
+          "path": "scripts/validate_cape_structural_review_returns.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 10540
+        },
+        {
+          "path": "scripts/build_cape_structural_review_application_plan.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 13005
+        },
+        {
+          "path": "scripts/build_cape_kg_eacl_experiment.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 172366
+        },
+        {
+          "path": "scripts/evaluate_cape_human_gold.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 57230
+        }
+      ],
+      "remaining_for_paper_claim": "Human-gold procedural consistency should be recomputed after adjudication."
+    },
+    {
+      "module_id": "M9",
+      "name": "Alias/canonicalization module",
+      "purpose": "Maintain canonical task labels, aliases, and comparable node labels.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 7,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/04_task_frames/canonical_task_catalog.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 256506
+        },
+        {
+          "path": "outputs/07_layer2_graph/layer2_alias_dictionary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 7599
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 25200
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/alias_canonicalization_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 4439
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/alias_canonicalization_collision_groups.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3547,
+          "records": 13
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 111
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/49_qwen3_8b_edc_schema_ablation_valid.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 261060,
+          "records": 240
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_ax_epak_internal_kg.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 106797
+        },
+        {
+          "path": "scripts/build_cape_alias_canonicalization_report.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 23558
+        },
+        {
+          "path": "scripts/run_cape_llm_condition_baselines.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 48967
+        }
+      ],
+      "remaining_for_paper_claim": "Final node canonicalization quality requires human-gold node matching."
+    },
+    {
+      "module_id": "M10",
+      "name": "Active review queue",
+      "purpose": "Prioritize likely high-impact errors and human annotation work.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 18,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_queue.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 406118,
+          "records": 900
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_annotation_priority_queue.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 28819,
+          "records": 120
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_manifest.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 3903
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2513
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 174620,
+          "records": 275
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 12827
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 4055
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 11236
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 4011
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 47175,
+          "records": 204
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1861
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_pool_overlap_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1650
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 15446
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 38205
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 8192,
+          "records": 16
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 6348
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/evaluate_cape_active_review_efficiency.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 21640
+        },
+        {
+          "path": "scripts/build_cape_active_review_human_effort.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 29575
+        },
+        {
+          "path": "scripts/build_cape_human_review_master_checklist.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 24432
+        },
+        {
+          "path": "scripts/build_cape_annotation_progress_report.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 15803
+        }
+      ],
+      "remaining_for_paper_claim": "Active-review ablation is represented with silver/proxy diagnostics; final efficiency claim requires human adjudication outcomes and reviewer effort/timing."
+    },
+    {
+      "module_id": "M11",
+      "name": "NCS/PCF mapping evaluator",
+      "purpose": "Generate and evaluate standard taxonomy mapping candidates.",
+      "status": "implemented_artifacts_present_human_claim_pending",
+      "human_dependent_for_final_claim": true,
+      "required_artifact_count": 13,
+      "missing_required_artifact_count": 0,
+      "optional_missing_artifact_count": 0,
+      "artifacts": [
+        {
+          "path": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 82404,
+          "records": 110
+        },
+        {
+          "path": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 81856,
+          "records": 110
+        },
+        {
+          "path": "outputs/08_mapping/l2_ncs_pcf_crosswalk_candidates.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 290609,
+          "records": 220
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 893
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_results.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 300,
+          "records": 2
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_diagnostics.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2135,
+          "records": 8
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_details.csv",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 73343,
+          "records": 176
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1744
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 205773,
+          "records": 220
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+          "kind": "file",
+          "required": true,
+          "exists": true,
+          "bytes": 19472
+        }
+      ],
+      "scripts": [
+        {
+          "path": "scripts/build_cape_ncs_pcf_crosswalk.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 10694
+        },
+        {
+          "path": "scripts/evaluate_cape_mapping_review.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 11251
+        },
+        {
+          "path": "scripts/build_cape_mapping_review_progress_report.py",
+          "kind": "script",
+          "required": true,
+          "exists": true,
+          "bytes": 24424
+        }
+      ],
+      "remaining_for_paper_claim": "P@K/MRR/nDCG@10, explanation-quality, crosswalk accept-rate, and utility claims require completed expert review."
+    }
+  ]
+}

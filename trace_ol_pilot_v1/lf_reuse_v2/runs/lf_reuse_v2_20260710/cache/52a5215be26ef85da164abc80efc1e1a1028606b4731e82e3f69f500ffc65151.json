@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_0c7bd9c53960b7f4006a5110e2c334819ba585042bd08c8590",
+  "usage": {
+    "input_tokens": 2449,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1404,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3853
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r579",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r579",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r579",
+              "text": "비기술적인 이슈(비용, 기간, 수행팀 및 PM의 역량 등)가 중요한 프로젝트의 경우에는 통합적인 평가를 하는 평가자가 주도권을 행사하는 경우가 많다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r589",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r589",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r589",
+              "text": "마찬가지로 영업대표 같은 통합적 유형이 작성자인 경우에는 통합적 평가자의 점수를 확보하는 데 유리하다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r603",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r603",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r603",
+              "text": "주요 군사업의 경우 최근 몇 년 전부터 경쟁업체보다 더 높은 점수를 줄 때는 그 근거를 반드시 쓰도록 의무화되었다.",
+              "start": 0,
+              "end": 78
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r615",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r615",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r615",
+              "text": "평가자들이여, 매수되지 말라!",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Prohibition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r737",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r737",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r737",
+              "text": "표 2. 구매 조직에서 역할에 따른 니즈의 차이\n\n| 역할 | 역할 정의 | 일반적인 니즈 |\n| --- | --- | --- |\n| 내부 제안자<br>(Recommender) | 데이터를 모아서 제안 요청서 발행, 제안서 및 프레젠테이션 평가 준비.<br>전체 프로세스를 통해 의사결정 조정 | 충분한 데이터, 감정적인 결정일지라도 이를 증명할 수 있는 계수적 데이터, 조달 기한 준수 |\n| 승인자<br>(Approver) | 거부권을 행사할 수 있는 사람으로 의사결정자에게 법률적, 기술적, 계약상, 재무적 이유로 이의 제기 | 기술적, 법률적, 재무적, 계약상의 검증을 만족할 만한 충분한 데이터.<br>입찰은 전문가의 요구조건과 내부규칙을 만족시켜야 함 |\n| 영향자<br>(Influencer) | 이 솔루션의 응용에 연루되어 있으므로 의견 개진을 하지만 거부권 행사의 권리는 없음 | 이 사람의 중요성과 의견을 존중해야 한다.<br>무시당한 영향자들은 판매자에게 부정적인 영향력을 행사함 |\n| 의사결정자<br>(Decision maker) | 최종 의사결정자 | 솔루션은 조직의 비전, 의사결정 지침, 방향성과 일치해야 한다.<br>판매자의 헌신과 위험요인에 따른 책임감과 공유의식이 중요 |\n| 실행자<br>(Implementer) | 대체로 내부 제안자인 경우가 많음 | 과거 실적 데이터 요구.<br>다른 동료의 판매자에 대한 평가, 측정할 수 있는 주요 업무 평가 |",
+              "start": 0,
+              "end": 1000
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

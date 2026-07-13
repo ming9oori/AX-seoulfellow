@@ -1,0 +1,1033 @@
+{
+  "generated_at_utc": "2026-06-29T19:06:39.525462+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "claim_status": "public_reproducibility_manifest_ready_not_submission_complete",
+  "summary": {
+    "artifact_rows": 102,
+    "public_safe_rows": 67,
+    "internal_only_rows": 22,
+    "missing_rows": 0,
+    "covered_requirements": 7,
+    "total_requirements": 7
+  },
+  "requirement_coverage": [
+    {
+      "requirement": "schema",
+      "status": "covered",
+      "evidence": "CAPE schema, SHACL-style shapes, competency questions"
+    },
+    {
+      "requirement": "prompts",
+      "status": "covered",
+      "evidence": "condition prompts plus strict JSON contract"
+    },
+    {
+      "requirement": "code",
+      "status": "covered",
+      "evidence": "runners, builders, exporters, release validator"
+    },
+    {
+      "requirement": "evaluation protocol",
+      "status": "covered",
+      "evidence": "locked metrics, condition sets, claim policy"
+    },
+    {
+      "requirement": "derived public examples",
+      "status": "covered",
+      "evidence": "synthetic chunks, gold, predictions, summary"
+    },
+    {
+      "requirement": "public benchmark cross-check",
+      "status": "covered",
+      "evidence": "adapter, cross-check, Qwen3 public benchmark summaries"
+    },
+    {
+      "requirement": "release safety",
+      "status": "covered",
+      "evidence": "ethics, license, safety, latest bundle index"
+    }
+  ],
+  "category_summary": {
+    "schema_and_cq": {
+      "total": 3,
+      "present": 3,
+      "public_safe": 3,
+      "internal_only": 0
+    },
+    "prompts": {
+      "total": 10,
+      "present": 10,
+      "public_safe": 10,
+      "internal_only": 0
+    },
+    "runtime_code": {
+      "total": 24,
+      "present": 24,
+      "public_safe": 21,
+      "internal_only": 3
+    },
+    "evaluation_protocol": {
+      "total": 29,
+      "present": 29,
+      "public_safe": 15,
+      "internal_only": 3
+    },
+    "traceability": {
+      "total": 10,
+      "present": 10,
+      "public_safe": 2,
+      "internal_only": 8
+    },
+    "synthetic_public_examples": {
+      "total": 5,
+      "present": 5,
+      "public_safe": 5,
+      "internal_only": 0
+    },
+    "public_benchmarks": {
+      "total": 8,
+      "present": 8,
+      "public_safe": 8,
+      "internal_only": 0
+    },
+    "release_safety": {
+      "total": 5,
+      "present": 5,
+      "public_safe": 3,
+      "internal_only": 0
+    },
+    "internal_only": {
+      "total": 8,
+      "present": 8,
+      "public_safe": 0,
+      "internal_only": 8
+    }
+  },
+  "artifact_rows": [
+    {
+      "category": "schema_and_cq",
+      "description": "CAPE node/edge schema",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+      "exists": "yes",
+      "bytes": 3523,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "schema_and_cq",
+      "description": "SHACL-style shapes",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl",
+      "exists": "yes",
+      "bytes": 340,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "schema_and_cq",
+      "description": "Competency questions",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+      "exists": "yes",
+      "bytes": 2101,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B0_plain_llm_triple_extraction.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B0_plain_llm_triple_extraction.txt",
+      "exists": "yes",
+      "bytes": 75,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B1_predicate_constrained_llm.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B1_predicate_constrained_llm.txt",
+      "exists": "yes",
+      "bytes": 96,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B2_current_project_baseline.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B2_current_project_baseline.txt",
+      "exists": "yes",
+      "bytes": 77,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B3_edc_style_baseline.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt",
+      "exists": "yes",
+      "bytes": 111,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B4_taxonomy_rag_baseline.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt",
+      "exists": "yes",
+      "bytes": 96,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B5_procedural_prompt_baseline.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt",
+      "exists": "yes",
+      "bytes": 104,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: B6_sac_kg_verifier_pruner_baseline.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt",
+      "exists": "yes",
+      "bytes": 182,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: P_cape_kg.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt",
+      "exists": "yes",
+      "bytes": 206,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: P_minus_Schema_retrieval.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt",
+      "exists": "yes",
+      "bytes": 148,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "prompts",
+      "description": "LLM condition prompt: strict_json_contract.txt",
+      "path": "experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt",
+      "exists": "yes",
+      "bytes": 664,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "LLM condition runner",
+      "path": "scripts/run_cape_llm_condition_baselines.py",
+      "exists": "yes",
+      "bytes": 48967,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "KG experiment builder",
+      "path": "scripts/build_cape_kg_eacl_experiment.py",
+      "exists": "yes",
+      "bytes": 172366,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "RDF and SHACL-style exporter",
+      "path": "scripts/export_cape_kg_rdf_shacl.py",
+      "exists": "yes",
+      "bytes": 19854,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "CQ query pack builder",
+      "path": "scripts/build_cape_cq_query_pack.py",
+      "exists": "yes",
+      "bytes": 20614,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Neo4j evidence query pack builder",
+      "path": "scripts/build_cape_neo4j_evidence_query_pack.py",
+      "exists": "yes",
+      "bytes": 17764,
+      "release_status": "internal_only",
+      "reviewer_value": "Neo4j evidence inspection helper"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Prompt-node-edge traceability builder",
+      "path": "scripts/build_cape_prompt_node_edge_traceability.py",
+      "exists": "yes",
+      "bytes": 23813,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Experiment reproduction card builder",
+      "path": "scripts/build_cape_experiment_reproduction_card.py",
+      "exists": "yes",
+      "bytes": 23330,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Evidence graph projection builder",
+      "path": "scripts/build_cape_evidence_graph_projection.py",
+      "exists": "yes",
+      "bytes": 12065,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Predicate cue span diagnostic builder",
+      "path": "scripts/build_cape_predicate_cue_spans.py",
+      "exists": "yes",
+      "bytes": 13787,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Method novelty positioning builder",
+      "path": "scripts/build_cape_method_novelty_positioning.py",
+      "exists": "yes",
+      "bytes": 23362,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Qwen3 model-scaling report builder",
+      "path": "scripts/build_cape_qwen3_model_scaling_report.py",
+      "exists": "yes",
+      "bytes": 12740,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Gold sampling coverage report builder",
+      "path": "scripts/build_cape_gold_sampling_coverage_report.py",
+      "exists": "yes",
+      "bytes": 18908,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Public synthetic example builder",
+      "path": "scripts/build_cape_public_synthetic_examples.py",
+      "exists": "yes",
+      "bytes": 12190,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Anonymized submission prep builder",
+      "path": "scripts/build_cape_anonymized_submission_prep.py",
+      "exists": "yes",
+      "bytes": 15057,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Responsible NLP checklist prep builder",
+      "path": "scripts/build_cape_responsible_nlp_checklist_prep.py",
+      "exists": "yes",
+      "bytes": 22962,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Release bundle builder",
+      "path": "scripts/build_cape_release_bundle.py",
+      "exists": "yes",
+      "bytes": 34786,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Pre-human release validator",
+      "path": "scripts/validate_cape_pre_human_handoff.py",
+      "exists": "yes",
+      "bytes": 693231,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Pre-human status helper",
+      "path": "scripts/cape_pre_human_status.py",
+      "exists": "yes",
+      "bytes": 1610,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Revised plan completion audit builder",
+      "path": "scripts/build_cape_revised_plan_completion_audit.py",
+      "exists": "yes",
+      "bytes": 25714,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Annotation protocol traceability builder",
+      "path": "scripts/build_cape_annotation_protocol_traceability.py",
+      "exists": "yes",
+      "bytes": 25420,
+      "release_status": "internal_only",
+      "reviewer_value": "human annotation protocol traceability; internal review path references"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Metric traceability audit builder",
+      "path": "scripts/build_cape_metric_traceability_audit.py",
+      "exists": "yes",
+      "bytes": 20234,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Contribution claim traceability builder",
+      "path": "scripts/build_cape_contribution_claim_traceability.py",
+      "exists": "yes",
+      "bytes": 21088,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Related-work baseline traceability builder",
+      "path": "scripts/build_cape_related_work_baseline_traceability.py",
+      "exists": "yes",
+      "bytes": 21542,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "runtime_code",
+      "description": "Human-review packet integrity builder",
+      "path": "scripts/build_cape_human_review_packet_integrity_report.py",
+      "exists": "yes",
+      "bytes": 41826,
+      "release_status": "internal_only",
+      "reviewer_value": "human-review packet integrity; internal path references"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Locked evaluation protocol",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+      "exists": "yes",
+      "bytes": 19847,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Locked evaluation protocol JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json",
+      "exists": "yes",
+      "bytes": 27469,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Claim-safe paper tables",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "exists": "yes",
+      "bytes": 14924,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Claim-safe paper tables LaTeX",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.tex",
+      "exists": "yes",
+      "bytes": 17584,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Claimability table",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+      "exists": "yes",
+      "bytes": 6429,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Experiment reproduction card",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md",
+      "exists": "yes",
+      "bytes": 13855,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Experiment reproduction card JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json",
+      "exists": "yes",
+      "bytes": 25386,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Experiment reproduction condition CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv",
+      "exists": "yes",
+      "bytes": 6136,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "RQ evidence matrix",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+      "exists": "yes",
+      "bytes": 14252,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Public-safe revised plan completion audit",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.md",
+      "exists": "yes",
+      "bytes": 5835,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Public-safe revised plan completion audit JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.json",
+      "exists": "yes",
+      "bytes": 11683,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Public-safe revised plan completion audit CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe_items.csv",
+      "exists": "yes",
+      "bytes": 4767,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Metric traceability audit",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md",
+      "exists": "yes",
+      "bytes": 4507,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Metric traceability audit JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.json",
+      "exists": "yes",
+      "bytes": 31872,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Metric traceability audit CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.csv",
+      "exists": "yes",
+      "bytes": 8396,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Contribution claim traceability",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md",
+      "exists": "yes",
+      "bytes": 10697,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Contribution claim traceability JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.json",
+      "exists": "yes",
+      "bytes": 13648,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Contribution claim traceability CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.csv",
+      "exists": "yes",
+      "bytes": 2104,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Related-work baseline traceability",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.md",
+      "exists": "yes",
+      "bytes": 14528,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Related-work baseline traceability JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.json",
+      "exists": "yes",
+      "bytes": 17584,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Related-work baseline traceability CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.csv",
+      "exists": "yes",
+      "bytes": 4604,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Annotation protocol traceability",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md",
+      "exists": "yes",
+      "bytes": 10005,
+      "release_status": "internal_only",
+      "reviewer_value": "human annotation protocol traceability; internal review path references"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Annotation protocol traceability JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.json",
+      "exists": "yes",
+      "bytes": 16477,
+      "release_status": "internal_only",
+      "reviewer_value": "human annotation protocol traceability; internal review path references"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Annotation protocol traceability CSV",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.csv",
+      "exists": "yes",
+      "bytes": 2485,
+      "release_status": "internal_only",
+      "reviewer_value": "human annotation protocol traceability; internal review path references"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Method novelty positioning",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+      "exists": "yes",
+      "bytes": 10144,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Method novelty positioning JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json",
+      "exists": "yes",
+      "bytes": 12832,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Qwen3 model-scaling report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+      "exists": "yes",
+      "bytes": 4752,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "Qwen3 model-scaling report JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json",
+      "exists": "yes",
+      "bytes": 11209,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "evaluation_protocol",
+      "description": "CQ query pack",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+      "exists": "yes",
+      "bytes": 29675,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "traceability",
+      "description": "Prompt to node/edge traceability",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+      "exists": "yes",
+      "bytes": 13157,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "traceability",
+      "description": "Prompt to node/edge traceability JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+      "exists": "yes",
+      "bytes": 24271,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "traceability",
+      "description": "Evidence graph projection report",
+      "path": "outputs/13_evidence_graph/evidence_graph_projection_report.md",
+      "exists": "yes",
+      "bytes": 1638,
+      "release_status": "internal_only",
+      "reviewer_value": "source-grounded graph projection; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Evidence graph projection summary",
+      "path": "outputs/13_evidence_graph/evidence_graph_projection_summary.json",
+      "exists": "yes",
+      "bytes": 1603,
+      "release_status": "internal_only",
+      "reviewer_value": "source-grounded graph projection; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Predicate cue span diagnostic report",
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md",
+      "exists": "yes",
+      "bytes": 1721,
+      "release_status": "internal_only",
+      "reviewer_value": "automatic predicate cue diagnostic; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Predicate cue span diagnostic metrics",
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json",
+      "exists": "yes",
+      "bytes": 5002,
+      "release_status": "internal_only",
+      "reviewer_value": "automatic predicate cue diagnostic; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Predicate cue span diagnostic rows",
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv",
+      "exists": "yes",
+      "bytes": 255799,
+      "release_status": "internal_only",
+      "reviewer_value": "automatic predicate cue diagnostic; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Predicate cue span JSONL",
+      "path": "outputs/06_triples/layer2_predicate_cue_spans.jsonl",
+      "exists": "yes",
+      "bytes": 572191,
+      "release_status": "internal_only",
+      "reviewer_value": "automatic predicate cue diagnostic; source text omitted"
+    },
+    {
+      "category": "traceability",
+      "description": "Neo4j evidence query pack",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md",
+      "exists": "yes",
+      "bytes": 8410,
+      "release_status": "internal_only",
+      "reviewer_value": "Neo4j Browser queries for EvidenceAnchor/EVIDENCED_BY inspection"
+    },
+    {
+      "category": "traceability",
+      "description": "Neo4j evidence query pack JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json",
+      "exists": "yes",
+      "bytes": 10917,
+      "release_status": "internal_only",
+      "reviewer_value": "Neo4j Browser queries for EvidenceAnchor/EVIDENCED_BY inspection"
+    },
+    {
+      "category": "synthetic_public_examples",
+      "description": "Synthetic example README",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+      "exists": "yes",
+      "bytes": 969,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "synthetic_public_examples",
+      "description": "Synthetic chunks",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_chunks.jsonl",
+      "exists": "yes",
+      "bytes": 616,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "synthetic_public_examples",
+      "description": "Synthetic gold labels",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_gold.jsonl",
+      "exists": "yes",
+      "bytes": 3350,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "synthetic_public_examples",
+      "description": "Synthetic predictions",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_predictions.jsonl",
+      "exists": "yes",
+      "bytes": 2692,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "synthetic_public_examples",
+      "description": "Synthetic evaluation summary",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json",
+      "exists": "yes",
+      "bytes": 1126,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Public benchmark manifest",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_manifest.json",
+      "exists": "yes",
+      "bytes": 17745,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Public benchmark adapter report",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_adapter_report.md",
+      "exists": "yes",
+      "bytes": 1857,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Public benchmark cross-check report",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+      "exists": "yes",
+      "bytes": 1379,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Public benchmark cross-check summary",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+      "exists": "yes",
+      "bytes": 3839,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Qwen3 8B subset report",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_report.md",
+      "exists": "yes",
+      "bytes": 798,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Qwen3 8B subset summary",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_summary.json",
+      "exists": "yes",
+      "bytes": 1036,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Qwen3 14B subset report",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_report.md",
+      "exists": "yes",
+      "bytes": 839,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "public_benchmarks",
+      "description": "Qwen3 14B subset summary",
+      "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_summary.json",
+      "exists": "yes",
+      "bytes": 1079,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "release_safety",
+      "description": "Data release and ethics statement",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+      "exists": "yes",
+      "bytes": 6315,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "release_safety",
+      "description": "External resource license report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+      "exists": "yes",
+      "bytes": 2807,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "release_safety",
+      "description": "External resource license report JSON",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json",
+      "exists": "yes",
+      "bytes": 6818,
+      "release_status": "public_safe",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "release_safety",
+      "description": "Release bundle safety report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "exists": "yes",
+      "bytes": 2114,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "release_safety",
+      "description": "Latest release bundle index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "exists": "yes",
+      "bytes": 2064,
+      "release_status": "live_release_status",
+      "reviewer_value": "reproducibility"
+    },
+    {
+      "category": "internal_only",
+      "description": "Full graph visualization and source-grounded graph files",
+      "path": "outputs/09_visualization/kg_viewer.html",
+      "exists": "yes",
+      "bytes": 6033408,
+      "release_status": "internal_only",
+      "reviewer_value": "demo; inspect before public release"
+    },
+    {
+      "category": "internal_only",
+      "description": "Full graph RDF export",
+      "path": "outputs/12_rdf/cape_kg_layer2.ttl",
+      "exists": "yes",
+      "bytes": 870167,
+      "release_status": "internal_only",
+      "reviewer_value": "derived graph; inspect before public release"
+    },
+    {
+      "category": "internal_only",
+      "description": "Neo4j source-grounded import package",
+      "path": "outputs/11_neo4j_import_flat/README.md",
+      "exists": "yes",
+      "bytes": 2292,
+      "release_status": "internal_only",
+      "reviewer_value": "derived graph; includes EvidenceAnchor projection without source text"
+    },
+    {
+      "category": "internal_only",
+      "description": "Neo4j source-grounded import validation",
+      "path": "outputs/11_neo4j_import_flat/neo4j_csv_validation_report.md",
+      "exists": "yes",
+      "bytes": 1889,
+      "release_status": "internal_only",
+      "reviewer_value": "parser and evidence-projection validation"
+    },
+    {
+      "category": "internal_only",
+      "description": "Neo4j source-grounded evidence Cypher queries",
+      "path": "outputs/11_neo4j_import_flat/neo4j_evidence_queries.cypher",
+      "exists": "yes",
+      "bytes": 4954,
+      "release_status": "internal_only",
+      "reviewer_value": "Neo4j Browser query helper; source text omitted"
+    },
+    {
+      "category": "internal_only",
+      "description": "EvidenceAnchor node projection",
+      "path": "outputs/13_evidence_graph/evidence_anchor_nodes.jsonl",
+      "exists": "yes",
+      "bytes": 225323,
+      "release_status": "internal_only",
+      "reviewer_value": "derived graph; source text omitted"
+    },
+    {
+      "category": "internal_only",
+      "description": "EVIDENCED_BY edge projection",
+      "path": "outputs/13_evidence_graph/evidenced_by_edges.jsonl",
+      "exists": "yes",
+      "bytes": 2227213,
+      "release_status": "internal_only",
+      "reviewer_value": "derived graph; source text omitted"
+    },
+    {
+      "category": "internal_only",
+      "description": "Gold subset sampling coverage report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+      "exists": "yes",
+      "bytes": 4889,
+      "release_status": "internal_only",
+      "reviewer_value": "private review selection evidence"
+    }
+  ],
+  "text_risk_hits": [],
+  "outputs": {
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+    "json": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+    "csv": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.csv"
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "rule_id": "lf:v21:21be001332818a93803c1348",
+    "feature": "family:descriptive",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: family:descriptive predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 13,
+    "induction_correct": 13,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r4",
+      "ev:jaije:clean_sentences:r6",
+      "ev:jaije:clean_sentences:r8",
+      "ev:jaije:clean_sentences:r131",
+      "ev:jaije:clean_sentences:r137",
+      "ev:jaije:clean_sentences:r155",
+      "ev:jaije:clean_sentences:r318",
+      "ev:jaije:clean_sentences:r331",
+      "ev:jaije:clean_sentences:r535",
+      "ev:jaije:clean_sentences:r674",
+      "ev:jaije:clean_sentences:r1091",
+      "ev:jaije:clean_sentences:r1183",
+      "ev:jaije:clean_sentences:r1189"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 6,
+    "validation_correct": 6,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r24",
+      "ev:jaije:clean_sentences:r113",
+      "ev:jaije:clean_sentences:r471",
+      "ev:jaije:clean_sentences:r504",
+      "ev:jaije:clean_sentences:r1003",
+      "ev:jaije:clean_sentences:r1064"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:b73bbf12cb0d886a5d3a4e8a",
+    "feature": "family:procedure",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: family:procedure predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 11,
+    "induction_correct": 9,
+    "induction_precision": 0.8182,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:34e0fc26e14d3a83d72d0817",
+    "feature": "seed:explicit_obligation",
+    "prediction": {
+      "polarity": "POSITIVE"
+    },
+    "description": "Induced field LF: seed:explicit_obligation predicts polarity=POSITIVE",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 4,
+    "induction_correct": 4,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r512",
+      "ev:jaije:clean_sentences:r516",
+      "ev:jaije:clean_sentences:r536",
+      "ev:jaije:clean_sentences:r737"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 4,
+    "validation_correct": 4,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.9,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r523",
+      "ev:jaije:clean_sentences:r559",
+      "ev:jaije:clean_sentences:r593",
+      "ev:jaije:clean_sentences:r594"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:0f660f6f73d59ed64b64d4a8",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: seed:observational_case predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 3,
+    "validation_correct": 3,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:d09a6b41ac8ccbe2fb995963",
+    "feature": "seed:observational_case",
+    "prediction": {
+      "claim_type": "DescriptiveFact"
+    },
+    "description": "Induced field LF: seed:observational_case predicts claim_type=DescriptiveFact",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 6,
+    "induction_correct": 6,
+    "induction_precision": 1.0,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r1191",
+      "ev:jaije:clean_sentences:r88",
+      "ev:jaije:clean_sentences:r579",
+      "ev:jaije:clean_sentences:r589",
+      "ev:jaije:clean_sentences:r737",
+      "ev:jaije:clean_sentences:r813"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 3,
+    "validation_correct": 3,
+    "validation_precision": 1.0,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r458",
+      "ev:jaije:clean_sentences:r521",
+      "ev:jaije:clean_sentences:r1019"
+    ]
+  },
+  {
+    "rule_id": "lf:v21:13df239301897de73bcd1086",
+    "feature": "cue:process",
+    "prediction": {
+      "claim_family": "FACTUAL"
+    },
+    "description": "Induced field LF: cue:process predicts claim_family=FACTUAL",
+    "origin": "INDUCED_FIELD_LF",
+    "induction_support": 15,
+    "induction_correct": 13,
+    "induction_precision": 0.8667,
+    "source_evidence_ids": [
+      "ev:jaije:clean_sentences:r189",
+      "ev:jaije:clean_sentences:r498",
+      "ev:jaije:clean_sentences:r569",
+      "ev:jaije:clean_sentences:r710",
+      "ev:jaije:clean_sentences:r970",
+      "ev:jaije:clean_sentences:r1013",
+      "ev:jaije:clean_sentences:r1038",
+      "ev:jaije:clean_sentences:r1042",
+      "ev:jaije:clean_sentences:r1043",
+      "ev:jaije:clean_sentences:r1087",
+      "ev:jaije:clean_sentences:r282",
+      "ev:jaije:clean_sentences:r552",
+      "ev:jaije:clean_sentences:r554"
+    ],
+    "scope": "document_local",
+    "status": "ACTIVE",
+    "validation_support": 7,
+    "validation_correct": 6,
+    "validation_precision": 0.8571,
+    "min_validation_precision": 0.85,
+    "min_validation_support": 3,
+    "validation_evidence_ids": [
+      "ev:jaije:clean_sentences:r205",
+      "ev:jaije:clean_sentences:r223",
+      "ev:jaije:clean_sentences:r281",
+      "ev:jaije:clean_sentences:r620",
+      "ev:jaije:clean_sentences:r664",
+      "ev:jaije:clean_sentences:r1031",
+      "ev:jaije:clean_sentences:r1351"
+    ]
+  }
+]

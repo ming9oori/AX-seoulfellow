@@ -1,0 +1,8 @@
+allow_implicit_normativity: false
+allow_llm_direct_rule_promotion: false
+allow_llm_generalizable_rule: false
+generic_support_k: 2
+explicit_deontic_requires: [cue, same_anchor_action, non_example, non_reported, non_hypothetical]
+example_to_rule_direct_promotion: false
+quarantined_in_operational_graph: false
+statuses: [EVIDENCE_ONLY, CANDIDATE, SUPPORTED_CANDIDATE, EXPLICIT_ASSERTION, PROMOTED_TBOX, PROMOTED_ABOX, PROMOTED_RULEBOX, QUARANTINED, REJECTED]

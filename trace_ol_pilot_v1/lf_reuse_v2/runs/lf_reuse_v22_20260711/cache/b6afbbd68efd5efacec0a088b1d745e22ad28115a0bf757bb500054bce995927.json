@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_025c0c67e933ba22006a5253066564819ab2ef7a71613969d3",
+  "usage": {
+    "input_tokens": 3392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2910,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6302
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r499",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r499",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r499",
+              "text": "예측되는 개선사항과 향상 정도를 정량화하라(Quantify)",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r640",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r640",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r640",
+              "text": "니즈 정의와 대안 검토에 세일즈의 결정적인 기회가 있으므로 고객의 구매단계 초기에 경쟁자보다 먼저 개입하는 것이 전문가 영업의 성공 여부를 좌우한다.",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r769",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r769",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r769",
+              "text": "다음 팁의 사례는 사람들의 구매 의사결정에서의 심리적 메커니즘을 이해하는 좋은 사례이다.",
+              "start": 0,
+              "end": 60
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Example",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r782",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r782",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r782",
+              "text": "대부분의 지점을 찾는 고객은 이미 새 차를 구매하기로 마음을 먹은 상태의 사람들이기 때문에 차 외에는 크게 관심이 없지.",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r852",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r852",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r852",
+              "text": "고객이 무엇을 원하고 이것을 어떻게 제공할지를 제안팀(혹은 개인) 이 먼저 결정하는 것이 전략기술서이다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r974",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r974",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r974",
+              "text": "핵심 차별화요소란 고객이 중요하게 생각하는 핵심 이슈의 솔루션을 자사(혹은 경쟁사)만 가지고 있어서 차별화 포인트가 되는 요소를 말한다.",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r987",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r987",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r987",
+              "text": "고객사 분석을 통해 확인된 핵심 이슈를 가장 중요한 것부터 나열하라.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1011",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1011",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1011",
+              "text": "경쟁사 비교표(BCM)의 작성 목적은 고객의 핵심 이슈별로 우리가 경쟁사에 비해 얼마큼의 경쟁력이 있는지를 판단하고 이에 따른 전략을 세우는 것이다.",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1027",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1027",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1027",
+              "text": "타당성을 검증하는 가장 좋은 방법은 고객에게 확인하는 것이다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1124",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1124",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1124",
+              "text": "제안전략기술서\n“우리는 ①지상과 공중의 커뮤니케이션 문제 ②전방엔진과 후방엔진의 6개월간 비교 테스트 결과를 논의함으로써 경쟁사 전방엔진의 약점을 극대화할 것이다.”",
+              "start": 0,
+              "end": 150
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

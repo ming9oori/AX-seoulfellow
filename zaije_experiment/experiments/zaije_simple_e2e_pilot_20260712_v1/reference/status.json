@@ -1,0 +1,14 @@
+{
+  "accuracy_claimed": false,
+  "accuracy_evaluated": false,
+  "experiment_id": "zaije_simple_e2e_pilot_20260712_v1",
+  "goal": "FULLY_AUTOMATIC_SOURCE_TO_NEO4J_KG",
+  "human_gold_used": false,
+  "human_intervention_count": 0,
+  "llm_call_count": 0,
+  "methodology_complexity": "MINIMAL",
+  "overall_status": "AUTOMATED_E2E_PASS",
+  "result_semantics": "AUTOMATED_UNVERIFIED",
+  "source_evidence_count": 1366,
+  "source_file": "자이제_1.xlsx"
+}

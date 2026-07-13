@@ -63,7 +63,7 @@
     "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
     "required_kg_elements": [
       "ReviewCheckpoint",
-      "HAS_REVIEW"
+      "HAS_REVIEW_CHECKPOINT"
     ]
   },
   {

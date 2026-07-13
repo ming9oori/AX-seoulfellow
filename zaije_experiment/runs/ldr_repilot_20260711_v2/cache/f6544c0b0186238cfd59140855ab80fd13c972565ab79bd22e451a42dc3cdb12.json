@@ -1,0 +1,220 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "741b115d4d597acc2c90088c5a26dcf09e22325bd52fc84d0479c8b555d42807",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "단계 4: 제안서 리뷰",
+                "quote": "단계 4: 제안서 리뷰",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "제안서 리뷰",
+                "quote": "제안서 리뷰(레드팀 리뷰)",
+                "role": "action"
+              },
+              {
+                "normalized_label": "레드팀 리뷰 의견 반영",
+                "quote": "레드팀 리뷰 의견 반영",
+                "role": "action"
+              },
+              {
+                "normalized_label": "결과물 없음",
+                "quote": "-",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "단계 4: 제안서 리뷰\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 제안서 리뷰(레드팀 리뷰)\n• 레드팀 리뷰 의견 반영 | -",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "includes activities",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-290",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "f435a6f23a4eb0c3b6de83c5bd91fc981036762fa4280b741fe3c972ba9c36c9",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "RFP 이후부터 제안서 제출 구간",
+                "quote": "RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "영향력 행사 불가 구간",
+                "quote": "우리가 영향력을 행사할 수 없는 구간",
+                "role": "value"
+              },
+              {
+                "normalized_label": "리스크 갭",
+                "quote": "리스크 갭(Risk Gap)",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c2",
+            "claim_quote": "그런 의미에서 RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간은 우리가 영향력을 행사할 수 없는 구간이라는 의미에서 리스크 갭(Risk Gap)이라고 부른다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-350",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "ff209487c6153ab50ddf38b656d0db6d27e5ba522e097a6b028c1aaa822200aa",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "불특정 평가위원들",
+                "quote": "불특정 평가위원들",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "의사결정자로서 분석",
+                "quote": "명백히 \u0018의사결정자\u0019로서 분석해야 한다",
+                "role": "criterion"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "또 하나, 불특정 평가위원들도 명백히 \u0018의사결정자\u0019로서 분석해야 한다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "are",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-536",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "6b2e60873fa2b38d50919cc74bb9ca5b023c701a81eb63e79d2b6ffacbc13cb9",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "분석적 접근",
+                "quote": "분석적 접근",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "높은 총계 점수",
+                "quote": "개별 평가 항목의 점수를 확보함으로써 종합적으로 높은 총계 점수를 얻는 것",
+                "role": "object"
+              },
+              {
+                "normalized_label": "통합적 접근",
+                "quote": "통합적 접근",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "고객 인지에 의한 높은 점수 부여 방법",
+                "quote": "개별 점수보다는 고객이 종합적으로 우리 조직과 솔루션이 우위라는 점을 인지하여 높은 점수를 주게 하는 방법",
+                "role": "criterion"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c4",
+            "claim_quote": "분석적 접근은 개별 평가 항목의 점수를 확보함으로써 종합적으로 높은 총계 점수를 얻는 것을 말하고, 통합적 접근은 개별 점수보다는 고객이 종합적으로 우리 조직과 솔루션이 우위라는 점을 인지하여 높은 점수를 주게 하는 방법을 말한다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "means",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-551",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "8a45b20d284bbd64b5727f674e371be4f38e3432275330f6439555114d0b3973",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "통합적 평가자",
+                "quote": "통합적 평가자",
+                "role": "actor"
+              },
+              {
+                "normalized_label": "Q&A 중요성 인식 및 대비",
+                "quote": "프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c5",
+            "claim_quote": "통합적 평가자에게는 프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다.〔‘6.6.3 질의응답(Q&A)에서 승부하라’ 참고〕3.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-585",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r1_b02_f6544c0b0186.json",
+  "response_id": "resp_0cb8a89b7c510f4d006a5290d38d24819b90d279def8e941ba",
+  "usage": {
+    "input_tokens": 3501,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1482,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4983
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.618368+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "paper_draft": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+  "plan_long_paper_section_present": true,
+  "overall_status": "PASS",
+  "claim_status": "paper_section_source_map_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "total_sections": 16,
+    "present_sections": 16,
+    "missing_sections": 0,
+    "evidence_file_references": 53,
+    "missing_evidence_files": 0,
+    "claim_status_counts": {
+      "claimable_setup_not_final_performance": 2,
+      "claimable_positioning": 1,
+      "claimable_setup": 2,
+      "pending_human_gold": 1,
+      "claimable_method_artifacts": 1,
+      "diagnostic_only_until_human_gold": 3,
+      "structural_diagnostic_ready": 1,
+      "auxiliary_claimable_not_main_private_result": 1,
+      "pending_expert_review": 1,
+      "not_submission_ready": 1,
+      "claimable_limitations": 1,
+      "claimable_ethics": 1
+    },
+    "human_or_expert_blocked_sections": 6,
+    "safe_to_use_as_submission": false,
+    "submission_ready": false,
+    "draft_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "draft_safe_to_use_as_submission": false,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "claim_gate_optional_failure_count": 2,
+    "completion_status": "not_complete_pending_human_gold_iaa_adjudication_and_expert_review"
+  },
+  "missing_draft_anchors": [],
+  "missing_evidence_files": [],
+  "blocking_gate_status": [
+    {
+      "gate_id": "gold.completed_chunks",
+      "status": "FAIL",
+      "required": true,
+      "evidence": "0 completed chunks, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.item_count",
+      "status": "FAIL",
+      "required": true,
+      "evidence": "0 items, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate_id": "gold.iaa",
+      "status": "FAIL",
+      "required": true,
+      "evidence": "max_completed_pair_chunks=0, summaries=2"
+    },
+    {
+      "gate_id": "llm.proposed_human_gold_score",
+      "status": "FAIL",
+      "required": true,
+      "evidence": "human_gold_scored_conditions=[]"
+    },
+    {
+      "gate_id": "mapping.expert_review",
+      "status": "FAIL",
+      "required": false,
+      "evidence": "complete_source_groups=0, pending_rows=220, file=experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json, progress_file=experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json, progress_pending_groups=44"
+    },
+    {
+      "gate_id": "crosswalk.expert_review",
+      "status": "FAIL",
+      "required": false,
+      "evidence": "completed_rows=0, pending_rows=220, complete_source_groups=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json, manifest_file=experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json, candidate_rows=220"
+    }
+  ],
+  "sections": [
+    {
+      "section_id": "S01",
+      "planned_section": "Abstract / contribution framing",
+      "draft_anchor": "## Abstract Draft",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_setup_not_final_performance",
+      "paper_use_now": "yes_with_claim_safety",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "notes": "Use for framing and planned contribution only; final performance language must wait for human-gold scoring."
+    },
+    {
+      "section_id": "S02",
+      "planned_section": "Introduction",
+      "draft_anchor": "## Introduction",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_setup_not_final_performance",
+      "paper_use_now": "yes_with_claim_safety",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "notes": "Problem framing and gap statements are usable; quantitative superiority claims remain blocked."
+    },
+    {
+      "section_id": "S03",
+      "planned_section": "Related Work",
+      "draft_anchor": "## Related Work",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_positioning",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "Positioning is supported by novelty/risk artifacts; citation polishing remains a writing task."
+    },
+    {
+      "section_id": "S04",
+      "planned_section": "Task Definition",
+      "draft_anchor": "## Task Definition",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+          "exists": true,
+          "bytes": 3523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_setup",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "CQ, schema, evidence grounding, and standard-bridge task definitions are documented."
+    },
+    {
+      "section_id": "S05",
+      "planned_section": "Dataset and Annotation",
+      "draft_anchor": "## Dataset and Annotation",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_report.md",
+          "exists": true,
+          "bytes": 1384
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+          "exists": true,
+          "bytes": 4889
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+          "exists": true,
+          "bytes": 15446
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+          "exists": true,
+          "bytes": 2505
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "pending_human_gold",
+      "paper_use_now": "setup_only",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa"
+      ],
+      "notes": "Sampling and review packet readiness are documented, but adjudicated labels and IAA are not complete."
+    },
+    {
+      "section_id": "S06",
+      "planned_section": "Method: CAPE-KG",
+      "draft_anchor": "## Method: CAPE-KG",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_method_artifacts",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "M1-M11 implementation artifacts are present; final performance claims remain separate."
+    },
+    {
+      "section_id": "S07",
+      "planned_section": "Experiments: baselines and ablations",
+      "draft_anchor": "### Baselines and Ablations",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_evaluation_report.md",
+          "exists": true,
+          "bytes": 3152
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+          "exists": true,
+          "bytes": 4752
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "diagnostic_only_until_human_gold",
+      "paper_use_now": "diagnostic_only",
+      "blocking_gate_ids": [
+        "llm.proposed_human_gold_score"
+      ],
+      "notes": "Generation coverage and silver/proxy diagnostics are ready; final main table requires human-gold scoring."
+    },
+    {
+      "section_id": "S08",
+      "planned_section": "Experiments: evidence span granularity",
+      "draft_anchor": "### Evidence Span Granularity",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "diagnostic_only_until_human_gold",
+      "paper_use_now": "diagnostic_only",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count"
+      ],
+      "notes": "Component-span diagnostics exist; exact final span quality needs adjudicated human spans."
+    },
+    {
+      "section_id": "S09",
+      "planned_section": "Experiments: KG structural diagnostics",
+      "draft_anchor": "### KG Structural Diagnostics",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+          "exists": true,
+          "bytes": 8155
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "structural_diagnostic_ready",
+      "paper_use_now": "yes_as_structural_diagnostic",
+      "blocking_gate_ids": [],
+      "notes": "Ontology, evidence, and procedural diagnostics are available; review-checkpoint gap is tracked separately."
+    },
+    {
+      "section_id": "S10",
+      "planned_section": "Experiments: public benchmark adapters",
+      "draft_anchor": "### Public Benchmark Adapters",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "auxiliary_claimable_not_main_private_result",
+      "paper_use_now": "yes_as_auxiliary",
+      "blocking_gate_ids": [],
+      "notes": "Public adapter diagnostics support generality discussion, not the main Korean enterprise human-gold result."
+    },
+    {
+      "section_id": "S11",
+      "planned_section": "Downstream NCS/PCF mapping and crosswalk",
+      "draft_anchor": "### Layer2-Bridged NCS-PCF Crosswalk Candidates",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "pending_expert_review",
+      "paper_use_now": "candidate_generation_only",
+      "blocking_gate_ids": [
+        "mapping.expert_review",
+        "crosswalk.expert_review"
+      ],
+      "notes": "Candidate generation is complete; Hit@K, MRR, nDCG, utility, and accept-rate claims require expert review."
+    },
+    {
+      "section_id": "S12",
+      "planned_section": "Analysis",
+      "draft_anchor": "## Analysis",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "diagnostic_only_until_human_gold",
+      "paper_use_now": "diagnostic_only",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count"
+      ],
+      "notes": "Silver/proxy error taxonomy is available; final error frequencies should be refreshed after human-gold scoring."
+    },
+    {
+      "section_id": "S13",
+      "planned_section": "Release and reproducibility",
+      "draft_anchor": "## Source Artifacts",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json",
+          "exists": true,
+          "bytes": 37341
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_setup",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "Internal and public-safe reproducibility bundles are tracked; public release remains filtered for source-text safety."
+    },
+    {
+      "section_id": "S14",
+      "planned_section": "Conclusion",
+      "draft_anchor": "## Conclusion",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+          "exists": true,
+          "bytes": 25787
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "not_submission_ready",
+      "paper_use_now": "claim_safe_summary_only",
+      "blocking_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "notes": "Conclusion must remain conservative until required human-return gates are satisfied."
+    },
+    {
+      "section_id": "S15",
+      "planned_section": "Limitations",
+      "draft_anchor": "## Limitations",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/limitations.md",
+          "exists": true,
+          "bytes": 1176
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_limitations",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "Known limitations and claim boundaries are already documented."
+    },
+    {
+      "section_id": "S16",
+      "planned_section": "Ethical Considerations",
+      "draft_anchor": "## Ethical Considerations",
+      "present_in_draft": true,
+      "primary_evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        }
+      ],
+      "missing_evidence_files": [],
+      "claim_status": "claimable_ethics",
+      "paper_use_now": "yes",
+      "blocking_gate_ids": [],
+      "notes": "Copyright, release safety, and derived-artifact constraints are documented."
+    }
+  ],
+  "interpretation": [
+    "This source map verifies paper-section evidence coverage, not final submission readiness.",
+    "Sections with silver/proxy diagnostics must not be rewritten as human-gold performance claims.",
+    "Human-gold annotation, IAA, adjudication, proposed-method scoring, and expert review remain blocking gates."
+  ]
+}

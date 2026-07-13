@@ -1,0 +1,20 @@
+{
+  "aborted_v2": {
+    "api_calls": 35,
+    "input_tokens": 102424,
+    "output_tokens": 65491,
+    "estimated_cost_usd": 0.054658
+  },
+  "completed_v2_1": {
+    "api_calls": 43,
+    "input_tokens": 124026,
+    "output_tokens": 77566,
+    "estimated_cost_usd": 0.065144
+  },
+  "request_total": {
+    "api_calls": 78,
+    "input_tokens": 226450,
+    "output_tokens": 143057,
+    "estimated_cost_usd": 0.119802
+  }
+}

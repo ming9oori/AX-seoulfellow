@@ -1,0 +1,23 @@
+{
+  "generated_at_utc": "2026-06-27T21:09:16.636441+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "apply_mode": true,
+  "manifest": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_package_manifest.json",
+  "packages": [
+    {
+      "package": "pilot_30",
+      "chunk_count": 30,
+      "before_candidate_edges_total": 2360,
+      "after_candidate_edges_total": 1121,
+      "status": "updated"
+    },
+    {
+      "package": "full_120",
+      "chunk_count": 120,
+      "before_candidate_edges_total": 2675,
+      "after_candidate_edges_total": 1436,
+      "status": "updated"
+    }
+  ],
+  "issues": []
+}

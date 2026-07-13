@@ -1,0 +1,51 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:37Z",
+  "outputs_dir": "outputs",
+  "out_dir": "outputs/11_neo4j_import",
+  "node_count": 11028,
+  "relationship_count": 14455,
+  "relationship_types": {
+    "EVIDENCED_BY": 3915,
+    "FEEDS_INTO": 9,
+    "HAS_CHILD": 2639,
+    "HAS_COMPETENCY_UNIT": 3450,
+    "HAS_DECISION_GATEWAY": 54,
+    "HAS_GUARD_CONDITION": 14,
+    "HAS_METRIC": 3284,
+    "HAS_PRINCIPLE": 64,
+    "HAS_REVIEW_CHECKPOINT": 41,
+    "HAS_RISK": 39,
+    "HAS_STEP": 99,
+    "PERFORMED_BY": 120,
+    "PRECEDES": 77,
+    "PROCESS_CONTEXT": 110,
+    "PRODUCES": 220,
+    "REQUIRES_CAPABILITY": 110,
+    "USED_AS_INPUT_FOR": 9,
+    "USES_INPUT": 201
+  },
+  "evidence_anchor_node_count": 451,
+  "kg_edge_assertion_node_count": 947,
+  "flat_relationships": false,
+  "missing_endpoint_count": 0,
+  "missing_endpoint_sample": [],
+  "source_files": {
+    "nodes": [
+      "01_layer1/layer1_ncs_nodes.jsonl",
+      "01_layer1/layer1_pcf_nodes.jsonl",
+      "07_layer2_graph/layer2_nodes.jsonl"
+    ],
+    "edges": [
+      "01_layer1/layer1_ncs_edges.jsonl",
+      "01_layer1/layer1_pcf_edges.jsonl",
+      "01_layer1/layer1_pcf_metric_edges.jsonl",
+      "07_layer2_graph/layer2_edges.jsonl"
+    ],
+    "mappings": [
+      "08_mapping/l2_ncs_mapping_candidates.jsonl",
+      "08_mapping/l2_pcf_mapping_candidates.jsonl"
+    ],
+    "evidence_nodes": "13_evidence_graph/evidence_anchor_nodes.jsonl",
+    "evidence_edges": "13_evidence_graph/evidenced_by_edges.jsonl"
+  }
+}

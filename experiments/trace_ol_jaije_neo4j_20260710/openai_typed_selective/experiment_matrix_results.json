@@ -1,0 +1,22 @@
+[
+  {
+    "id": "B0_RULE_ONLY",
+    "reason": "offline baseline completed",
+    "status": "EXECUTED"
+  },
+  {
+    "id": "B2_FULL_ADJ",
+    "reason": "full 609-candidate adjudication was outside the bounded 30-call gate",
+    "status": "NOT_EXECUTED"
+  },
+  {
+    "id": "P1_SELECTIVE",
+    "reason": "30 typed candidates x 3 repeats",
+    "status": "EXECUTED"
+  },
+  {
+    "id": "P2_DISTILLED",
+    "reason": "distilled rule candidates require separate validation and human gold",
+    "status": "BLOCKED"
+  }
+]

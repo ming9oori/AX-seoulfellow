@@ -1,0 +1,22 @@
+{
+  "sheet": "clean_sentences",
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "evidence_units": 1366,
+  "strata_all": {
+    "definition_descriptive": 813,
+    "normative": 54,
+    "discourse_ambiguous": 86,
+    "table_formula_evaluation": 203,
+    "procedure_decision": 136,
+    "condition_exception": 74
+  },
+  "block_types": {
+    "prose": 1123,
+    "question": 40,
+    "figure_caption": 27,
+    "mixed": 23,
+    "markdown_table": 47,
+    "list": 106
+  },
+  "duplicate_clusters": 6
+}

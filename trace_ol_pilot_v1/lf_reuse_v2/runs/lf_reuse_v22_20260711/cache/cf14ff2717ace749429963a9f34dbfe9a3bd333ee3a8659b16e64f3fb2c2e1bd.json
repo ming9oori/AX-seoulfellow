@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_0adb313547702fdd006a5251e57f04819b8f1764fc37018d98",
+  "usage": {
+    "input_tokens": 4078,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1288,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5366
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r166",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r166",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r166",
+              "text": "굳이 분량으로 경쟁해야 하는 경우에는 평가를 방해하지 않도록 후반부에 내용을 추가하거나 첨부문서로 달아두는 것이 좋다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r289",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r289",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r289",
+              "text": "단계 3: 제안서 작성\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 텍스트, 그래픽 제작<br>• 제안서 업데이트 미팅 | • 제안서 초안 |",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "ProcessOrder",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r298",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r298",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r298",
+              "text": "단계 3: 슬라이드 개발\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| •슬라이드 내용 확정<br>•슬라이드 디자인<br>•Q&A 슬라이드 확정 | •슬라이드 초안<br>•디자인된 슬라이드<br>•Q&A 슬라이드 |",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "ProcessOrder",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r459",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r459",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r459",
+              "text": "•주요내용\n- 캡처플랜 개요: RFP 공고일, PT 시행 여부 확인, 주관조직의 영향력, 예상 참여 경쟁사, TFT 구성 인원\n- 과제(사업) 분석: 사업배경, 평가배점, 공식적/비공식적 요구사항\n- 고객 조직 정보: 핵심 관련자의 이슈, 영향력\n- 고객 조직의 주요 이슈: 고객조직 정보를 바탕으로 핵심 이슈 도출\n- 경쟁사 정보: 관련 경험 및 기술 확보 수준, 예상 솔루션\n- 자사 정보: 자사 솔루션, 컨소시엄 구성\n- 제안 전략 수립",
+              "start": 0,
+              "end": 164
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r481",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r481",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r481",
+              "text": "예시 1. Capture Plan (2/8) - 과제 설명/요구사항\n\n2. 과제(사업) 분석\n\n작성 방법: 과제 설명: 과제의 범위, 사업 배경, 시제 형상, 요구 기술 등을 기술하십시오.<br>주요 요구사항: 예상되는 고객의 공식적 / 비공식적 요구사항을 현재 입수한 정보 수준에서 가능한 만큼<br>상세히 기술하십시오.",
+              "start": 0,
+              "end": 204
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

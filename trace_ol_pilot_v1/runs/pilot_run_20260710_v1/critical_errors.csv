@@ -1,0 +1,6 @@
+system,condition_dropped,discourse_promoted,modality_confusion,negation_or_polarity_dropped,total
+E0_direct_triple,,1,16,1,18
+E1_full_llm,,,11,,11
+E2_no_llm,2,,7,1,10
+E4_selective_distill,2,,7,1,10
+E2_flat_ablation_subset,,,4,,4

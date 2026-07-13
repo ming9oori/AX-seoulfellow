@@ -1,0 +1,6 @@
+id,claim_id,modality,polarity,status
+assertion:43ccaa1950eb29941a2581e4f118,e4:claim:8338e5aa55d2ade29a72f0981e330b23,MUST,POSITIVE,ACCEPTED
+assertion:a98f69df8c0b12cd7f3e9820ccfa,e4:claim:ad1dddde3122e739cad69e3b1ed4d106,MUST,POSITIVE,ACCEPTED
+assertion:f1807a4d7955204a2eee5720762d,e4:claim:16a1cbbe6ffe3ec21941facc466118f0,MUST,POSITIVE,ACCEPTED
+assertion:0dc52ee004a6a4751e91f01f4ab2,e4:claim:b25e15430d31ba7d7aa9a341bd86bcc7,MUST,POSITIVE,ACCEPTED
+assertion:fd84fe58701744fc37d9bbd53b75,e4:claim:8c4adf425e9873f7092b011bfc471d9c,MUST,POSITIVE,ACCEPTED

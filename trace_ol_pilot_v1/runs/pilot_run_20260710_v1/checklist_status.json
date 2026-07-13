@@ -1,0 +1,36 @@
+{
+  "status": "COMPLETE_WITH_LIMITATIONS",
+  "required_artifacts": {
+    "pilot_manifest.csv": true,
+    "document_graph.jsonl": true,
+    "evidence_bundles_all.jsonl": true,
+    "metrics_reference.json": true,
+    "metrics_claim.json": true,
+    "metrics_graph.json": true,
+    "critical_errors.csv": true,
+    "bootstrap_summary.json": true,
+    "cost_ledger.csv": true,
+    "pilot_result_report.md": true,
+    "professor_report_TRACE_OL_pilot_20260710.md": true
+  },
+  "neo4j_exports": {
+    "neo4j_documents.csv": true,
+    "neo4j_sections.csv": true,
+    "neo4j_evidence.csv": true,
+    "neo4j_claims.csv": true,
+    "neo4j_concepts.csv": true,
+    "neo4j_assertions.csv": true,
+    "neo4j_rules.csv": true,
+    "neo4j_conditions.csv": true,
+    "neo4j_relationships.csv": true,
+    "neo4j_constraints.cypher": true,
+    "neo4j_import.cypher": true,
+    "neo4j_validation_queries.cypher": true,
+    "external_csv_validation.json": true,
+    "external_csv_validation.md": true
+  },
+  "limitations": [
+    "No human gold: metrics are agreement against LLM-Silver",
+    "NOT_RUN: Docker daemon socket permission denied"
+  ]
+}

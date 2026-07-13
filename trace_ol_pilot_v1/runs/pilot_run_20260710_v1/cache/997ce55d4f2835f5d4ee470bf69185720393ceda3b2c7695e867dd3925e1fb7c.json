@@ -1,0 +1,129 @@
+{
+  "response_id": "resp_0e4f0979839ba59a006a50cc08c128819ab6253cf7b26c4f0f",
+  "usage": {
+    "input_tokens": 2605,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 796,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3401
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r748",
+        "triples": [
+          {
+            "subject": "고객",
+            "predicate": "상태",
+            "object": "옳지 않은 경우",
+            "source_span": "단기적으로 매출에 도움이 될 수는 있지만 궁극적으로는 오히려 그 고객이 우리 솔루션을 잘못 사용하여 효용이 없다는 점에서 우리의 사업에도 악영향을 준다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r750",
+        "triples": [
+          {
+            "subject": "‘옳지 않은 고객’",
+            "predicate": "행동",
+            "object": "‘옳지 않은 방법’으로 해야 한다",
+            "source_span": "‘옳지 않은 고객’과 일을 계속하려면 ‘옳지 않은 방법’으로 해야 한다(우리 사회에서는 이를 ‘갑을관계’라고 부른다)."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r752",
+        "triples": [
+          {
+            "subject": "커미션",
+            "predicate": "상태",
+            "object": "불법적인 한 번의 커미션으로 큰 오더를 수주",
+            "source_span": "만약 불법적인 한 번의 커미션(Commission)으로 큰 오더를 수주했다고 치자."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r761",
+        "triples": [
+          {
+            "subject": "영업대표",
+            "predicate": "능력",
+            "object": "고객이 수용하도록 설득할 수 있어야 한다",
+            "source_span": "영업대표는 반드시 글이나 말로 자신의 아이디어, 서비스, 제품을 고객이 수용하도록 설득할 수 있어야 한다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r766",
+        "triples": [
+          {
+            "subject": "모든 의사결정",
+            "predicate": "특성",
+            "object": "이성과 감성이 혼재되어 있다",
+            "source_span": "•모든 의사결정에는 이성과 감성이 혼재되어 있다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r767",
+        "triples": [
+          {
+            "subject": "사람들",
+            "predicate": "행동",
+            "object": "감정적으로 구매를 결정한 후에 이를 논리적으로 포장하는 경우가 많다",
+            "source_span": "사람들은 의외로 감정적으로 구매를 결정한 후에 이를 논리적으로 포장하는 경우가 많다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1069",
+        "triples": [
+          {
+            "subject": "여러분의 제안서",
+            "predicate": "특성",
+            "object": "자신의 강점을 잘 표현하고 약점을 최소화하고 있는가",
+            "source_span": "여러분의 제안서는 자신의 강점을 잘 표현하고 약점을 최소화하고 있는가?"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1070",
+        "triples": [
+          {
+            "subject": "대부분의 제안서",
+            "predicate": "특성",
+            "object": "자신의 강점만을 강조하고 있다",
+            "source_span": "대부분의 제안서는 자신의 강점만을 강조하고 있다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1077",
+        "triples": [
+          {
+            "subject": "아이디어 개발",
+            "predicate": "원리",
+            "object": "아이디어의 양을 늘리는 것이 기본 원리이다",
+            "source_span": "좋은 아이디어를 얻으려면 일단 아이디어의 양을 늘리는 것이 아이디어 개발의 기본 원리이다."
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1090",
+        "triples": [
+          {
+            "subject": "이 강점",
+            "predicate": "관계",
+            "object": "고객의 주요 이슈 해결에 직접적으로 연관되어 있다",
+            "source_span": "이 강점이 고객의 주요 이슈 해결에 직접적으로 연관되어 있다는 것을 보여준다."
+          }
+        ]
+      }
+    ]
+  }
+}

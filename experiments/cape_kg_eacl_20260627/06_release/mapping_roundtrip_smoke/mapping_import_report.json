@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:24.498816+00:00",
+  "mode": "dry_run",
+  "source_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+  "target_rows": 10,
+  "reviewed_rows": 10,
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "changed_rows": 10,
+    "completed_rows": 10,
+    "pending_rows": 0,
+    "decision_counts": {
+      "accepted": 2,
+      "rejected": 8
+    },
+    "grade_counts": {
+      "0": 8,
+      "3": 2
+    },
+    "explanation_quality_counts": {
+      "3": 8,
+      "5": 2
+    },
+    "status_counts_by_standard": {
+      "NCS": {
+        "completed": 5
+      },
+      "PCF": {
+        "completed": 5
+      }
+    }
+  },
+  "status": "validated_dry_run"
+}

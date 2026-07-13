@@ -1,0 +1,96 @@
+{
+  "all_required_views_nonempty": true,
+  "assertion_activity_coverage": 1.0,
+  "assertion_evidence_coverage": 1.0,
+  "constraints": [
+    {
+      "name": "eg_uid_unique",
+      "type": "UNIQUENESS"
+    }
+  ],
+  "expected_node_count": 11053,
+  "expected_relationship_count": 19502,
+  "indexes": [
+    {
+      "name": "eg_status",
+      "state": "ONLINE"
+    },
+    {
+      "name": "eg_system",
+      "state": "ONLINE"
+    },
+    {
+      "name": "eg_type",
+      "state": "ONLINE"
+    },
+    {
+      "name": "eg_uid_unique",
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_343aff4e",
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_f7700477",
+      "state": "ONLINE"
+    }
+  ],
+  "invalid_endpoint_count": 0,
+  "neo4j_version": "4.4.43",
+  "node_count": 11053,
+  "node_coverage": 1.0,
+  "node_type_counts": {
+    "Assertion": 261,
+    "ConceptCluster": 2188,
+    "ContextSpan": 1718,
+    "Document": 1,
+    "EvidenceUnit": 3674,
+    "ExtractionActivity": 1,
+    "Mention": 2954,
+    "MetaClass": 6,
+    "RelationCluster": 7,
+    "SchemaClass": 8,
+    "SchemaProperty": 7,
+    "Section": 51,
+    "SemanticFrame": 177
+  },
+  "pass": true,
+  "relationship_count": 19502,
+  "relationship_coverage": 1.0,
+  "relationship_type_counts": {
+    "ASSERTS_OBJECT": 60,
+    "ASSERTS_SUBJECT": 60,
+    "DENOTES": 2954,
+    "DERIVED_FROM": 5294,
+    "HAS_ACTION": 177,
+    "HAS_AGENT": 8,
+    "HAS_ANCHOR": 2308,
+    "HAS_CONDITION": 35,
+    "HAS_CONTEXT": 2563,
+    "HAS_EVIDENCE": 1366,
+    "HAS_INPUT": 13,
+    "HAS_MEASURE": 1,
+    "HAS_OBJECT": 175,
+    "HAS_SECTION": 51,
+    "INSTANCE_OF": 818,
+    "PERFORMED_BY": 8,
+    "PRECEDES": 201,
+    "PRODUCES_OUTPUT": 3,
+    "SUBCLASS_OF": 8,
+    "SUPPORTS_SCHEMA": 7,
+    "WAS_GENERATED_BY": 3392
+  },
+  "runtime": "LOCAL_NEO4J_COMMUNITY",
+  "system_id": "EG-MOI-V1",
+  "uri": "bolt://127.0.0.1:7689",
+  "validated_assertion_count": 261,
+  "view_result_counts": {
+    "consolidation": 2954,
+    "evidence_trace": 445,
+    "operational": 261,
+    "provenance": 261,
+    "schema": 8,
+    "unresolved": 1370
+  }
+}

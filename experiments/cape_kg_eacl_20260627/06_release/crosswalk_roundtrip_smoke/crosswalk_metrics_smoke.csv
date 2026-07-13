@@ -1,0 +1,2 @@
+﻿candidate_rows,source_task_count,completed_rows,pending_rows,complete_source_groups,sources_with_positive,expert_accept_rate,hit_at_1,hit_at_3,hit_at_5,precision_at_10,mrr,ndcg_at_10,utility_grade_mean,explanation_quality_score_mean,explanation_quality_score_count,claim_status
+20,2,20,0,2,2,0.1,1.0,1.0,1.0,0.1,1.0,1.0,0.3,3.2,20,crosswalk_expert_review_evaluated

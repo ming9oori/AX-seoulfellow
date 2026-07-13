@@ -1,0 +1,22 @@
+{
+  "accuracy_claimed": false,
+  "accuracy_evaluated": false,
+  "gates": {
+    "all_required_relations_nonempty": true,
+    "all_required_types_nonempty": true,
+    "domain_range_zero": true,
+    "human_intervention_zero": true,
+    "invalid_endpoints_zero": true,
+    "llm_calls_zero": true,
+    "neo4j_node_coverage": true,
+    "neo4j_relationship_coverage": true,
+    "neo4j_views_nonempty": true,
+    "offset_round_trip": true,
+    "rdf_parse": true,
+    "security": true,
+    "semantic_provenance_complete": true,
+    "shacl": true,
+    "source_to_graph_completed": true
+  },
+  "overall_status": "AUTOMATED_E2E_PASS"
+}

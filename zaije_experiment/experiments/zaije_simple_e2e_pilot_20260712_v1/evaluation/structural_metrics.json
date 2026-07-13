@@ -1,0 +1,65 @@
+{
+  "accuracy_claimed": false,
+  "all_required_relations_nonempty": true,
+  "all_required_types_nonempty": true,
+  "anchor_offset_round_trip": 1.0,
+  "confidence_counts": {
+    "HIGH": 158,
+    "LOW": 136,
+    "MEDIUM": 111
+  },
+  "domain_range_violation_count": 0,
+  "experiment_id": "zaije_simple_e2e_pilot_20260712_v1",
+  "human_gold_used": false,
+  "human_intervention_count": 0,
+  "invalid_edge_endpoint_count": 0,
+  "llm_call_count": 0,
+  "node_count": 6258,
+  "node_type_counts": {
+    "Actor": 80,
+    "Anchor": 2308,
+    "Artifact": 38,
+    "ContextSpan": 1718,
+    "Document": 1,
+    "EvidenceBundle": 1366,
+    "InformationObject": 93,
+    "Mention": 460,
+    "Organization": 2,
+    "WorkUnit": 192
+  },
+  "promoted_semantic_relation_count": 374,
+  "relation_candidate_count": 374,
+  "relationship_count": 9249,
+  "relationship_type_counts": {
+    "DENOTES": 460,
+    "DERIVED_FROM": 460,
+    "HAS_ANCHOR": 2308,
+    "HAS_CONTEXT": 2563,
+    "HAS_CONTEXT_SPAN": 1718,
+    "HAS_EVIDENCE": 1366,
+    "HAS_INPUT": 65,
+    "PERFORMED_BY": 73,
+    "PRECEDES": 157,
+    "PRODUCES_OUTPUT": 79
+  },
+  "required_relation_counts": {
+    "HAS_INPUT": 65,
+    "PERFORMED_BY": 73,
+    "PRECEDES": 157,
+    "PRODUCES_OUTPUT": 79
+  },
+  "required_type_counts": {
+    "Actor": 80,
+    "Artifact": 38,
+    "InformationObject": 93,
+    "Organization": 2,
+    "WorkUnit": 192
+  },
+  "semantic_relation_provenance_coverage": 1.0,
+  "source_anchor_count": 2308,
+  "source_evidence_count": 1366,
+  "source_only": "자이제_1.xlsx",
+  "status": "AUTOMATED_E2E_PASS",
+  "system_id": "SIMPLE-E2E",
+  "typed_candidate_count": 460
+}

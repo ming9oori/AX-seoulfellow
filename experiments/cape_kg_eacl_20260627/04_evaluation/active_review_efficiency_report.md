@@ -1,0 +1,56 @@
+# CAPE-KG Active Review Efficiency Diagnostic
+
+Generated: 2026-06-29T18:55:22.691529+00:00
+
+This is a silver/proxy diagnostic. It does not claim human review efficiency until human reviewer timing and adjudicated labels are available.
+
+- Condition: `P_cape_kg_actual`
+- Valid file: `experiments/cape_kg_eacl_20260627/49_qwen3_8b_cape_ablation_120_valid.jsonl`
+- Review candidates: 275
+- Silver/proxy error candidates: 273
+- Error rate: 0.992727
+
+## Budget Curves
+
+| target | strategy | budget | errors found | precision@k | recall@k | random expected | lift |
+|---|---|---:|---:|---:|---:|---:|---:|
+| all_silver_error | active_priority | 10 | 10 | 1.0 | 0.03663 | 9.927273 | 1.007326 |
+| all_silver_error | active_priority | 14 | 14 | 1.0 | 0.051282 | 13.898182 | 1.007326 |
+| all_silver_error | active_priority | 25 | 25 | 1.0 | 0.091575 | 24.818182 | 1.007326 |
+| all_silver_error | active_priority | 28 | 28 | 1.0 | 0.102564 | 27.796364 | 1.007326 |
+| all_silver_error | active_priority | 50 | 50 | 1.0 | 0.18315 | 49.636364 | 1.007326 |
+| all_silver_error | active_priority | 55 | 55 | 1.0 | 0.201465 | 54.6 | 1.007326 |
+| all_silver_error | active_priority | 100 | 100 | 1.0 | 0.3663 | 99.272727 | 1.007326 |
+| all_silver_error | active_priority | 138 | 138 | 1.0 | 0.505495 | 136.996364 | 1.007326 |
+| all_silver_error | uncertainty_only | 10 | 10 | 1.0 | 0.03663 | 9.927273 | 1.007326 |
+| all_silver_error | uncertainty_only | 14 | 14 | 1.0 | 0.051282 | 13.898182 | 1.007326 |
+| all_silver_error | uncertainty_only | 25 | 25 | 1.0 | 0.091575 | 24.818182 | 1.007326 |
+| all_silver_error | uncertainty_only | 28 | 28 | 1.0 | 0.102564 | 27.796364 | 1.007326 |
+| all_silver_error | uncertainty_only | 50 | 50 | 1.0 | 0.18315 | 49.636364 | 1.007326 |
+| all_silver_error | uncertainty_only | 55 | 55 | 1.0 | 0.201465 | 54.6 | 1.007326 |
+| all_silver_error | uncertainty_only | 100 | 100 | 1.0 | 0.3663 | 99.272727 | 1.007326 |
+| all_silver_error | uncertainty_only | 138 | 138 | 1.0 | 0.505495 | 136.996364 | 1.007326 |
+| high_impact_error | active_priority | 10 | 6 | 0.6 | 0.034682 | 6.290909 | 0.953757 |
+| high_impact_error | active_priority | 14 | 9 | 0.642857 | 0.052023 | 8.807273 | 1.021883 |
+| high_impact_error | active_priority | 25 | 16 | 0.64 | 0.092486 | 15.727273 | 1.017341 |
+| high_impact_error | active_priority | 28 | 18 | 0.642857 | 0.104046 | 17.614545 | 1.021883 |
+| high_impact_error | active_priority | 50 | 32 | 0.64 | 0.184971 | 31.454545 | 1.017341 |
+| high_impact_error | active_priority | 55 | 36 | 0.654545 | 0.208092 | 34.6 | 1.040462 |
+| high_impact_error | active_priority | 100 | 56 | 0.56 | 0.323699 | 62.909091 | 0.890173 |
+| high_impact_error | active_priority | 138 | 88 | 0.637681 | 0.508671 | 86.814545 | 1.013655 |
+| high_impact_error | uncertainty_only | 10 | 6 | 0.6 | 0.034682 | 6.290909 | 0.953757 |
+| high_impact_error | uncertainty_only | 14 | 7 | 0.5 | 0.040462 | 8.807273 | 0.794798 |
+| high_impact_error | uncertainty_only | 25 | 15 | 0.6 | 0.086705 | 15.727273 | 0.953757 |
+| high_impact_error | uncertainty_only | 28 | 17 | 0.607143 | 0.098266 | 17.614545 | 0.965111 |
+| high_impact_error | uncertainty_only | 50 | 33 | 0.66 | 0.190751 | 31.454545 | 1.049133 |
+| high_impact_error | uncertainty_only | 55 | 38 | 0.690909 | 0.219653 | 34.6 | 1.098266 |
+| high_impact_error | uncertainty_only | 100 | 72 | 0.72 | 0.416185 | 62.909091 | 1.144509 |
+| high_impact_error | uncertainty_only | 138 | 90 | 0.652174 | 0.520231 | 86.814545 | 1.036693 |
+
+## Files
+
+- Queue JSONL: `experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.jsonl`
+- Queue CSV: `experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.csv`
+- Metrics JSON: `experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json`
+- Metrics CSV: `experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.csv`
+- Active-review ablation report: `experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_report.md`

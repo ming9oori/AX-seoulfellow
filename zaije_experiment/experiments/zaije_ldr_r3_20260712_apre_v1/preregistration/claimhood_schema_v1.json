@@ -1,0 +1,30 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "anchor_id": {
+      "type": "string"
+    },
+    "claimhood": {
+      "enum": [
+        "CLAIM_BEARING",
+        "NON_CLAIM",
+        "UNDERDETERMINED"
+      ],
+      "type": "string"
+    },
+    "evidence_support": {
+      "enum": [
+        "SUPPORTED",
+        "CONTRADICTED",
+        "UNDERDETERMINED"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "anchor_id",
+    "claimhood",
+    "evidence_support"
+  ],
+  "type": "object"
+}

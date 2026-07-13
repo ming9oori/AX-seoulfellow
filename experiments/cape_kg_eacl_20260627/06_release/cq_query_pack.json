@@ -1,0 +1,1266 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:48.189844+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "source_files": {
+    "competency_questions": "experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json",
+    "layer2_nodes": "outputs/07_layer2_graph/layer2_nodes.jsonl",
+    "layer2_edges": "outputs/07_layer2_graph/layer2_edges.jsonl",
+    "ncs_mapping_candidates": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+    "pcf_mapping_candidates": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+    "cq_answerability_metrics": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json"
+  },
+  "summary": {
+    "cq_count": 12,
+    "answerable_cq_count": 12,
+    "cq_answerability_rate": 1.0,
+    "sample_answer_rows": 60,
+    "cq_with_no_support": [],
+    "claim_status": "cq_query_pack_ready_not_human_gold_answer_correctness"
+  },
+  "queries": [
+    {
+      "cq_id": "CQ1",
+      "question": "수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?",
+      "query_focus": "Task and procedure-step composition/order",
+      "required_predicates": [
+        "HAS_STEP",
+        "PRECEDES"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 176,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:HAS_STEP|PRECEDES]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"HAS_STEP\" \"PRECEDES\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-2ea7b6844813b69d",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_STEP",
+          "target_id": "STEP-OPPORTUNITY_ASSESSMENT-01",
+          "target_label": "Capture Plan 검토",
+          "target_type": "ProcedureStep",
+          "rank": "",
+          "score": 0.82,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-cae313125103de8e",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_STEP",
+          "target_id": "STEP-OPPORTUNITY_ASSESSMENT-02",
+          "target_label": "제안전략 검토",
+          "target_type": "ProcedureStep",
+          "rank": "",
+          "score": 0.82,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-d74557fac4835dda",
+          "source_id": "STEP-OPPORTUNITY_ASSESSMENT-01",
+          "source_label": "Capture Plan 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "PRECEDES",
+          "target_id": "STEP-OPPORTUNITY_ASSESSMENT-02",
+          "target_label": "제안전략 검토",
+          "target_type": "ProcedureStep",
+          "rank": "",
+          "score": 0.74,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-614f999dc447e519",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_STEP",
+          "target_id": "STEP-OPPORTUNITY_ASSESSMENT-03",
+          "target_label": "제안 요청서 작성",
+          "target_type": "ProcedureStep",
+          "rank": "",
+          "score": 0.82,
+          "evidence_anchor_ids": [
+            "EA-JS-00470"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-cb261f05b340edff",
+          "source_id": "STEP-OPPORTUNITY_ASSESSMENT-02",
+          "source_label": "제안전략 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "PRECEDES",
+          "target_id": "STEP-OPPORTUNITY_ASSESSMENT-03",
+          "target_label": "제안 요청서 작성",
+          "target_type": "ProcedureStep",
+          "rank": "",
+          "score": 0.74,
+          "evidence_anchor_ids": [
+            "EA-JS-00470"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ2",
+      "question": "각 Task는 어떤 입력 자료를 사용하는가?",
+      "query_focus": "Input artifacts used by tasks/steps",
+      "required_predicates": [
+        "USES_INPUT"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 201,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:USES_INPUT]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"USES_INPUT\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-257c3380629f4d96",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN",
+          "target_label": "Capture Plan",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-9fe97ab8661898c6",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY",
+          "target_label": "제안전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-76ee7bd1733b6063",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY",
+          "target_label": "수주전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-e4f9a039b8f0bac1",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL",
+          "target_label": "제안서",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251",
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-7ca0657bc4178067",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PRESENTATION",
+          "target_label": "발표자료",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251",
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ3",
+      "question": "각 Task는 어떤 산출물을 생성하는가?",
+      "query_focus": "Output artifacts produced by tasks/steps",
+      "required_predicates": [
+        "PRODUCES"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 220,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:PRODUCES]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"PRODUCES\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-62177f4ddb1eeea6",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PRODUCES",
+          "target_id": "L2_ARTIFACT_ARTIFACT_RFP",
+          "target_label": "제안 요청서",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-daa04d2ed1d22aa8",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PRODUCES",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN",
+          "target_label": "Capture Plan",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-ae7c1702bcd044e6",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PRODUCES",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY",
+          "target_label": "제안전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-8321b1d5d1f3fb82",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PRODUCES",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY",
+          "target_label": "수주전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-2dc1247db51d5bf9",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PRODUCES",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL",
+          "target_label": "제안서",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251",
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ4",
+      "question": "각 Task는 누가 수행하거나 책임지는가?",
+      "query_focus": "Responsible roles",
+      "required_predicates": [
+        "PERFORMED_BY"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 120,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:PERFORMED_BY]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"PERFORMED_BY\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-d726d94ef84162b1",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PERFORMED_BY",
+          "target_id": "L2_ROLE_a58673ab1d25",
+          "target_label": "고객",
+          "target_type": "Role",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-5288c65137b15b12",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PERFORMED_BY",
+          "target_id": "L2_ROLE_bdcca1c8a14c",
+          "target_label": "경쟁사",
+          "target_type": "Role",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-11416320e05bcb30",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "PERFORMED_BY",
+          "target_id": "L2_ROLE_6f23fc00fb1f",
+          "target_label": "제안 PM",
+          "target_type": "Role",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00319",
+            "EA-JS-00448",
+            "EA-JS-00452"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-f59f5e1e78425bf3",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "PERFORMED_BY",
+          "target_id": "L2_ROLE_9d08dd751bf2",
+          "target_label": "영업대표",
+          "target_type": "Role",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00448",
+            "EA-JS-00452"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-9ba38bbd10b16be4",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "PERFORMED_BY",
+          "target_id": "L2_ROLE_0be45e6f773d",
+          "target_label": "작성자",
+          "target_type": "Role",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00258",
+            "EA-JS-00452"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ5",
+      "question": "어떤 의사결정 지점이 존재하는가?",
+      "query_focus": "Decision gateways",
+      "required_predicates": [
+        "HAS_DECISION_GATEWAY"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 54,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:HAS_DECISION_GATEWAY]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"HAS_DECISION_GATEWAY\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-ec34b515d3841173",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_DECISION_GATEWAY",
+          "target_id": "L2_DG_DG_BID_NO_BID",
+          "target_label": "Bid/No Bid Decision",
+          "target_type": "DecisionGateway",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-839646e82de9eb1f",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_DECISION_GATEWAY",
+          "target_id": "L2_DG_DG_PURSUIT",
+          "target_label": "Pursuit Decision",
+          "target_type": "DecisionGateway",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-5d0333073a11076f",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_DECISION_GATEWAY",
+          "target_id": "L2_DG_DG_BID_VALIDATION",
+          "target_label": "입찰타당성 결정",
+          "target_type": "DecisionGateway",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-5bdb664b4c63d2e4",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "HAS_DECISION_GATEWAY",
+          "target_id": "L2_DG_DG_APPROVAL",
+          "target_label": "승인",
+          "target_type": "DecisionGateway",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-ad127f54f19d63c8",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "HAS_DECISION_GATEWAY",
+          "target_id": "L2_DG_DG_BID_NO_BID",
+          "target_label": "Bid/No Bid Decision",
+          "target_type": "DecisionGateway",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00251",
+            "EA-JS-00253"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ6",
+      "question": "의사결정에는 어떤 조건이나 판단 기준이 필요한가?",
+      "query_focus": "Guard conditions for decisions",
+      "required_predicates": [
+        "HAS_GUARD_CONDITION"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 14,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:HAS_GUARD_CONDITION]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"HAS_GUARD_CONDITION\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-73574fefc78279d0",
+          "source_id": "L2_DG_DG_PURSUIT",
+          "source_label": "Pursuit Decision",
+          "source_type": "DecisionGateway",
+          "predicate": "HAS_GUARD_CONDITION",
+          "target_id": "L2_GUARD_51c1514e1235",
+          "target_label": "pportunity Assessment)이 끝나고 나면 고객과 경쟁자 정보수집을 위한 영업활동(Capture Planning, 이",
+          "target_type": "GuardCondition",
+          "rank": "",
+          "score": 0.66,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "needs_review"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-4c73d2919ee9d696",
+          "source_id": "L2_DG_DG_BID_NO_BID",
+          "source_label": "Bid/No Bid Decision",
+          "source_type": "DecisionGateway",
+          "predicate": "HAS_GUARD_CONDITION",
+          "target_id": "L2_GUARD_4b8250093faa",
+          "target_label": "한 기회에서 고객의 근원적인 니즈를 분석하고, 이를 기준으로 경쟁사를 파악하여 자사의 솔루션 및 수주전략을 결정함제안 참여 의사",
+          "target_type": "GuardCondition",
+          "rank": "",
+          "score": 0.66,
+          "evidence_anchor_ids": [
+            "EA-JS-00253"
+          ],
+          "review_status": "needs_review"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-e37e2cd07189d559",
+          "source_id": "L2_DG_DG_APPROVAL",
+          "source_label": "승인",
+          "source_type": "DecisionGateway",
+          "predicate": "HAS_GUARD_CONDITION",
+          "target_id": "L2_GUARD_d699f1d1f525",
+          "target_label": "목적- 제안 환경 분석- 영업 관점에서 고객의 관심사항 파악- 경쟁사와 자사의 솔루션 분석 / 강약점 분석- 전략 개발을 위한 사",
+          "target_type": "GuardCondition",
+          "rank": "",
+          "score": 0.66,
+          "evidence_anchor_ids": [
+            "EA-JS-00452"
+          ],
+          "review_status": "needs_review"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-bfcd3d80c9e30fa5",
+          "source_id": "L2_DG_DG_APPROVAL",
+          "source_label": "승인",
+          "source_type": "DecisionGateway",
+          "predicate": "HAS_GUARD_CONDITION",
+          "target_id": "L2_GUARD_33390f951090",
+          "target_label": "성자- 영업대표 - 수행 PM(이미 거래가 있었던 기존 고객의 경우에는 수행 PM도 고객의 정보를 알고 있는 경우가 많음) •주요",
+          "target_type": "GuardCondition",
+          "rank": "",
+          "score": 0.66,
+          "evidence_anchor_ids": [
+            "EA-JS-00452"
+          ],
+          "review_status": "needs_review"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-a03e97e3a9edb87c",
+          "source_id": "L2_DG_DG_APPROVAL",
+          "source_label": "승인",
+          "source_type": "DecisionGateway",
+          "predicate": "HAS_GUARD_CONDITION",
+          "target_id": "L2_GUARD_a305aa02cd25",
+          "target_label": "공고일, PT 시행 여부 확인, 주관조직의 영향력, 예상 참여 경쟁사, TFT 구성 인원- 과제(사업) 분석: 사업배경, 평가배점",
+          "target_type": "GuardCondition",
+          "rank": "",
+          "score": 0.66,
+          "evidence_anchor_ids": [
+            "EA-JS-00452"
+          ],
+          "review_status": "needs_review"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ7",
+      "question": "산출물은 다음 업무에서 어떻게 사용되는가?",
+      "query_focus": "Artifact flow between tasks",
+      "required_predicates": [
+        "FEEDS_INTO",
+        "USED_AS_INPUT_FOR"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 18,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:FEEDS_INTO|USED_AS_INPUT_FOR]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"FEEDS_INTO\" \"USED_AS_INPUT_FOR\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-5f5efce32df44d2b",
+          "source_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN",
+          "source_label": "Capture Plan",
+          "source_type": "Artifact",
+          "predicate": "FEEDS_INTO",
+          "target_id": "L2_TASK_PROPOSAL_PLANNING",
+          "target_label": "제안서 기획",
+          "target_type": "DomainTask",
+          "rank": "",
+          "score": 0.78,
+          "evidence_anchor_ids": [
+            "EA-JS-00258"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-4d77bc3e682208c9",
+          "source_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN",
+          "source_label": "Capture Plan",
+          "source_type": "Artifact",
+          "predicate": "USED_AS_INPUT_FOR",
+          "target_id": "L2_TASK_PROPOSAL_PLANNING",
+          "target_label": "제안서 기획",
+          "target_type": "DomainTask",
+          "rank": "",
+          "score": 0.78,
+          "evidence_anchor_ids": [
+            "EA-JS-00258"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-cca83d6e007f74cd",
+          "source_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY",
+          "source_label": "수주전략",
+          "source_type": "Artifact",
+          "predicate": "FEEDS_INTO",
+          "target_id": "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT",
+          "target_label": "제안전략 개발",
+          "target_type": "DomainTask",
+          "rank": "",
+          "score": 0.78,
+          "evidence_anchor_ids": [
+            "EA-JS-00258",
+            "EA-JS-00291"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-1b63f9828e0eb4c7",
+          "source_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY",
+          "source_label": "수주전략",
+          "source_type": "Artifact",
+          "predicate": "USED_AS_INPUT_FOR",
+          "target_id": "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT",
+          "target_label": "제안전략 개발",
+          "target_type": "DomainTask",
+          "rank": "",
+          "score": 0.78,
+          "evidence_anchor_ids": [
+            "EA-JS-00258",
+            "EA-JS-00291"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-bd5169c9c51eae88",
+          "source_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY",
+          "source_label": "제안전략",
+          "source_type": "Artifact",
+          "predicate": "FEEDS_INTO",
+          "target_id": "L2_TASK_PROPOSAL_WRITING",
+          "target_label": "제안서 작성",
+          "target_type": "DomainTask",
+          "rank": "",
+          "score": 0.78,
+          "evidence_anchor_ids": [
+            "EA-JS-00291",
+            "EA-JS-01788"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ8",
+      "question": "제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?",
+      "query_focus": "Review checkpoints",
+      "required_predicates": [
+        "HAS_REVIEW_CHECKPOINT"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 41,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:HAS_REVIEW_CHECKPOINT]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"HAS_REVIEW_CHECKPOINT\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-e60bd43abb66dde1",
+          "source_id": "STEP-OPPORTUNITY_ASSESSMENT-01",
+          "source_label": "Capture Plan 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "HAS_REVIEW_CHECKPOINT",
+          "target_id": "REVIEW-STEP-OPPORTUNITY_ASSESSMENT-01",
+          "target_label": "Capture Plan 검토",
+          "target_type": "ReviewCheckpoint",
+          "rank": "",
+          "score": 0.76,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-32f49e5de246dadf",
+          "source_id": "STEP-OPPORTUNITY_ASSESSMENT-02",
+          "source_label": "제안전략 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "HAS_REVIEW_CHECKPOINT",
+          "target_id": "REVIEW-STEP-OPPORTUNITY_ASSESSMENT-02",
+          "target_label": "제안전략 검토",
+          "target_type": "ReviewCheckpoint",
+          "rank": "",
+          "score": 0.76,
+          "evidence_anchor_ids": [
+            "EA-JS-00235"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-54618c5b9e88998d",
+          "source_id": "STEP-BID_NO_BID_DECISION-01",
+          "source_label": "기회 확인",
+          "source_type": "ProcedureStep",
+          "predicate": "HAS_REVIEW_CHECKPOINT",
+          "target_id": "REVIEW-STEP-BID_NO_BID_DECISION-01",
+          "target_label": "기회 확인 checkpoint",
+          "target_type": "ReviewCheckpoint",
+          "rank": "",
+          "score": 0.76,
+          "evidence_anchor_ids": [
+            "EA-JS-00233"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-eb04081d5cc5f120",
+          "source_id": "STEP-BID_VALIDATION-01",
+          "source_label": "제안 요청서 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "HAS_REVIEW_CHECKPOINT",
+          "target_id": "REVIEW-STEP-BID_VALIDATION-01",
+          "target_label": "제안 요청서 검토",
+          "target_type": "ReviewCheckpoint",
+          "rank": "",
+          "score": 0.76,
+          "evidence_anchor_ids": [
+            "EA-JS-00241"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-a13c90062fb21faa",
+          "source_id": "STEP-BID_VALIDATION-02",
+          "source_label": "제안전략 검토",
+          "source_type": "ProcedureStep",
+          "predicate": "HAS_REVIEW_CHECKPOINT",
+          "target_id": "REVIEW-STEP-BID_VALIDATION-02",
+          "target_label": "제안전략 검토",
+          "target_type": "ReviewCheckpoint",
+          "rank": "",
+          "score": 0.76,
+          "evidence_anchor_ids": [
+            "EA-JS-00241"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ9",
+      "question": "각 업무에서 지켜야 할 원칙은 무엇인가?",
+      "query_focus": "Principles attached to work items",
+      "required_predicates": [
+        "HAS_PRINCIPLE"
+      ],
+      "support_source": "layer2_edges",
+      "supporting_item_count": 64,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r:HAS_PRINCIPLE]->(t:KGNode)\nRETURN s.node_id AS source_id, s.label AS source_label, labels(s) AS source_labels,\n       type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label, labels(t) AS target_labels,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  VALUES ?predicate { \"HAS_PRINCIPLE\" }\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL {\n    ?edge prov:wasDerivedFrom ?evidence .\n    ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n  }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-690233a6aa23699d",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "HAS_PRINCIPLE",
+          "target_id": "L2_PRINCIPLE_ad76810528c8",
+          "target_label": "고객 중심",
+          "target_type": "Principle",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00171",
+            "EA-JS-00258"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-bac98011d06e8ad5",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "HAS_PRINCIPLE",
+          "target_id": "L2_PRINCIPLE_bc6d31b3b7e5",
+          "target_label": "충실도",
+          "target_type": "Principle",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00258"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-1f36977236597108",
+          "source_id": "L2_TASK_CAPTURE_PLANNING",
+          "source_label": "수주영업",
+          "source_type": "DomainTask",
+          "predicate": "HAS_PRINCIPLE",
+          "target_id": "L2_PRINCIPLE_369cb1468674",
+          "target_label": "차별화",
+          "target_type": "Principle",
+          "rank": "",
+          "score": 0.95,
+          "evidence_anchor_ids": [
+            "EA-JS-00171",
+            "EA-JS-00442",
+            "EA-JS-00447"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-556a38d16648b005",
+          "source_id": "L2_TASK_BID_NO_BID_DECISION",
+          "source_label": "제안참여 의사결정",
+          "source_type": "DomainTask",
+          "predicate": "HAS_PRINCIPLE",
+          "target_id": "L2_PRINCIPLE_369cb1468674",
+          "target_label": "차별화",
+          "target_type": "Principle",
+          "rank": "",
+          "score": 0.9,
+          "evidence_anchor_ids": [
+            "EA-JS-01037"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-5b01f8f329aac5f7",
+          "source_id": "L2_TASK_BID_VALIDATION",
+          "source_label": "입찰타당성 검증",
+          "source_type": "DomainTask",
+          "predicate": "HAS_PRINCIPLE",
+          "target_id": "L2_PRINCIPLE_bc6d31b3b7e5",
+          "target_label": "충실도",
+          "target_type": "Principle",
+          "rank": "",
+          "score": 0.88,
+          "evidence_anchor_ids": [
+            "EA-JS-00292"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ10",
+      "question": "각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?",
+      "query_focus": "Evidence grounding for accepted KG edges",
+      "required_predicates": [
+        "EVIDENCED_BY"
+      ],
+      "support_source": "edge.evidence_anchor_ids",
+      "supporting_item_count": 947,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (s:KGNode)-[r]->(t:KGNode)\nWHERE r.evidence_anchor_ids_json IS NOT NULL AND r.evidence_anchor_ids_json <> ''\nRETURN s.node_id AS source_id, s.label AS source_label, type(r) AS predicate,\n       t.node_id AS target_id, t.label AS target_label,\n       r.evidence_anchor_ids_json AS evidence_anchor_ids\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?predicate ?source ?target ?evidenceAnchorId WHERE {\n  ?edge a cape:KGEdge ; cape:predicate ?predicate ;\n        cape:sourceNode ?source ; cape:targetNode ?target ;\n        prov:wasDerivedFrom ?evidence .\n  ?evidence cape:evidenceAnchorId ?evidenceAnchorId .\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "edge",
+          "id": "EDGE-257c3380629f4d96",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN",
+          "target_label": "Capture Plan",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-9fe97ab8661898c6",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY",
+          "target_label": "제안전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-76ee7bd1733b6063",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY",
+          "target_label": "수주전략",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-e4f9a039b8f0bac1",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PROPOSAL",
+          "target_label": "제안서",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00251",
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        },
+        {
+          "answer_type": "edge",
+          "id": "EDGE-7ca0657bc4178067",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "USES_INPUT",
+          "target_id": "L2_ARTIFACT_ARTIFACT_PRESENTATION",
+          "target_label": "발표자료",
+          "target_type": "Artifact",
+          "rank": "",
+          "score": 0.785,
+          "evidence_anchor_ids": [
+            "EA-JS-00235",
+            "EA-JS-00251",
+            "EA-JS-00275"
+          ],
+          "review_status": "accepted_by_rule"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ11",
+      "question": "특정 업무는 어떤 NCS 능력단위와 관련되는가?",
+      "query_focus": "Layer2-to-NCS capability candidates",
+      "required_predicates": [
+        "REQUIRES_CAPABILITY",
+        "CANDIDATE_ALIGNS_WITH"
+      ],
+      "support_source": "l2_ncs_mapping_candidates",
+      "supporting_item_count": 110,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (task:KGNode:Layer2)-[r:REQUIRES_CAPABILITY]->(target:KGNode:Layer1NCS)\nRETURN task.node_id AS task_id, task.label AS task_label,\n       target.node_id AS ncs_id, target.label AS ncs_label,\n       r.rank AS rank, r.score AS score, r.reason AS reason\nORDER BY task_id, rank\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?source ?target ?rank ?score WHERE {\n  ?edge a cape:KGEdge ; cape:predicate \"REQUIRES_CAPABILITY\" ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL { ?edge cape:rank ?rank }\n  OPTIONAL { ?edge cape:score ?score }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "mapping",
+          "id": "MAP-7c8bda01000dcab4",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "REQUIRES_CAPABILITY",
+          "target_id": "ncs:CU:1508030106_17v2",
+          "target_label": "배관 및 Unit 설치(기장)",
+          "target_type": "NCSCompetencyUnit",
+          "rank": 1,
+          "score": 0.0258,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-60e59e4ffc065488",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "REQUIRES_CAPABILITY",
+          "target_id": "ncs:CU:1508010104_23v4",
+          "target_label": "기본도면 작성",
+          "target_type": "NCSCompetencyUnit",
+          "rank": 2,
+          "score": 0.039,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-6e603164498a8fe4",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "REQUIRES_CAPABILITY",
+          "target_id": "ncs:CU:1203020110_23v2",
+          "target_label": "관광숙박 운영 기획",
+          "target_type": "NCSCompetencyUnit",
+          "rank": 3,
+          "score": 0.0389,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-418a736365666100",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "REQUIRES_CAPABILITY",
+          "target_id": "ncs:CU:1508060102_15v3",
+          "target_label": "주기관 해상 시운전",
+          "target_type": "NCSCompetencyUnit",
+          "rank": 4,
+          "score": 0.0165,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-b937500164ea962e",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "REQUIRES_CAPABILITY",
+          "target_id": "ncs:CU:1903060114_23v2",
+          "target_label": "반도체 펌웨어 개발",
+          "target_type": "NCSCompetencyUnit",
+          "rank": 5,
+          "score": 0.0099,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        }
+      ]
+    },
+    {
+      "cq_id": "CQ12",
+      "question": "특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?",
+      "query_focus": "Layer2-to-PCF process context candidates",
+      "required_predicates": [
+        "PROCESS_CONTEXT",
+        "CANDIDATE_ALIGNS_WITH"
+      ],
+      "support_source": "l2_pcf_mapping_candidates",
+      "supporting_item_count": 110,
+      "answerable_by_current_kg": true,
+      "sample_answer_count": 5,
+      "cypher": "MATCH (task:KGNode:Layer2)-[r:PROCESS_CONTEXT]->(target:KGNode:Layer1PCF)\nRETURN task.node_id AS task_id, task.label AS task_label,\n       target.node_id AS pcf_id, target.label AS pcf_label,\n       r.rank AS rank, r.score AS score, r.reason AS reason\nORDER BY task_id, rank\nLIMIT 25;",
+      "sparql": "PREFIX cape: <https://example.org/cape-kg#>\nPREFIX prov: <http://www.w3.org/ns/prov#>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\nSELECT ?edge ?source ?target ?rank ?score WHERE {\n  ?edge a cape:KGEdge ; cape:predicate \"PROCESS_CONTEXT\" ;\n        cape:sourceNode ?source ; cape:targetNode ?target .\n  OPTIONAL { ?edge cape:rank ?rank }\n  OPTIONAL { ?edge cape:score ?score }\n}\nLIMIT 25",
+      "gap_note": "",
+      "claim_status": "query_pack_structural_diagnostic_not_human_gold",
+      "sample_answers": [
+        {
+          "answer_type": "mapping",
+          "id": "MAP-e2ce98c23880cf4b",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PROCESS_CONTEXT",
+          "target_id": "pcf:E:18116",
+          "target_label": "기회 수주 계획 수립",
+          "target_type": "PCFElement",
+          "rank": 1,
+          "score": 0.276,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-3755551d86c1f42c",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PROCESS_CONTEXT",
+          "target_id": "pcf:E:20011",
+          "target_label": "기회 파이프라인 관리",
+          "target_type": "PCFElement",
+          "rank": 2,
+          "score": 0.2433,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-23bd091ea3b786dd",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PROCESS_CONTEXT",
+          "target_id": "pcf:E:11773",
+          "target_label": "기회를 사업전략에 매칭",
+          "target_type": "PCFElement",
+          "rank": 3,
+          "score": 0.2177,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-b96ec14fcf3cd9f6",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PROCESS_CONTEXT",
+          "target_id": "pcf:E:16937",
+          "target_label": "영업팀에 기회 전달",
+          "target_type": "PCFElement",
+          "rank": 4,
+          "score": 0.2277,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        },
+        {
+          "answer_type": "mapping",
+          "id": "MAP-38f3f1e260f7dfba",
+          "source_id": "L2_TASK_OPPORTUNITY_ASSESSMENT",
+          "source_label": "기회분석",
+          "source_type": "DomainTask",
+          "predicate": "PROCESS_CONTEXT",
+          "target_id": "pcf:E:20119",
+          "target_label": "개선 기회 식별",
+          "target_type": "PCFElement",
+          "rank": 5,
+          "score": 0.1118,
+          "evidence_anchor_ids": [],
+          "review_status": "pending_review"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+version: "1.0"
+locked_before:
+  - human_pilot_annotation
+  - gold_annotation
+  - model_output_generation
+  - test_access
+amendments:
+  - id: A-INPUT-01
+    subject: input_file_resolution
+    decision: Use legacy/자이제_1.xlsx because its binary SHA-256 exactly matches the design.
+    evidence: The handoff copy has the same 1,366 texts but fills metadata in Excel rows 497, 916, and 1140.
+  - id: A-HASH-01
+    subject: canonical_content_hash
+    decision: Lock canonical-jsonl-v1 and its reproducible SHA-256.
+    reason: The content hash printed in the design cannot be reproduced from the prose algorithm.
+    algorithm: Normalize six source fields to NFC and LF, trim outer whitespace, serialize each row as compact key-sorted UTF-8 JSON, join rows with LF, include final LF, then SHA-256.
+    locked_sha256: 84d45b50acc542497df2f19bf8c3ad395f2ed223e6cfeb02be467c9f80f54906
+  - id: A-GROUP-01
+    subject: consecutive_block_operationalization
+    decision: A consecutive block is same chapter-section and same page; contiguous list/process blocks may cross a page; missing-metadata rows join adjacent context.
+    reason: Treating a whole section as one block and unioning global duplicates creates an 827-row connected component, making the preregistered split mathematically impossible.
+  - id: A-DUP-01
+    subject: duplicate_context_boundary
+    decision: Exact duplicate rows share one leakage group but are not also unioned to page-context groups.
+    reason: This preserves duplicate split integrity without allowing repeated headings to transitively join hundreds of unrelated rows. Duplicate targets receive no cross-group context.
+  - id: A-FLAG-01
+    subject: heuristic_flag_registry
+    decision: Lock the regex implementation in src/prepare_phase0.py before Gold or model output.
+    reason: The design reports aggregate counts but does not provide executable regex definitions; execution counts are therefore reported separately from design reference counts.

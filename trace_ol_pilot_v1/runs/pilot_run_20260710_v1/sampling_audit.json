@@ -1,0 +1,68 @@
+{
+  "seed": 20260710,
+  "sample_count": 180,
+  "targeted_count": 150,
+  "random_count": 30,
+  "strata_targeted": {
+    "procedure_decision": 25,
+    "definition_descriptive": 25,
+    "condition_exception": 25,
+    "discourse_ambiguous": 25,
+    "normative": 25,
+    "table_formula_evaluation": 25
+  },
+  "strata_all_sample": {
+    "procedure_decision": 26,
+    "definition_descriptive": 46,
+    "condition_exception": 26,
+    "discourse_ambiguous": 26,
+    "normative": 25,
+    "table_formula_evaluation": 31
+  },
+  "split_counts": {
+    "B1": 60,
+    "B2_LOCKED": 60,
+    "CAL": 60
+  },
+  "b1_subsplit_counts": {
+    "B1a_distill_induction": 40,
+    "B1b_lf_validation": 20
+  },
+  "mandatory_rows_present": [
+    218,
+    222,
+    236,
+    243,
+    244,
+    245,
+    246,
+    247,
+    461,
+    497,
+    916,
+    983,
+    1140,
+    1315,
+    1316,
+    1317,
+    1318,
+    1319,
+    1320,
+    1321,
+    1322,
+    1323,
+    1324,
+    1325,
+    1326,
+    1327,
+    1328,
+    1329,
+    1330,
+    1331,
+    1332,
+    1333,
+    1334,
+    1335
+  ],
+  "group_overlap": {}
+}

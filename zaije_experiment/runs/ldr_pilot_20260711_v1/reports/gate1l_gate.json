@@ -1,0 +1,42 @@
+{
+  "checks": {
+    "accepted_claim_exact_quote_validity": false,
+    "accepted_json_schema_validity": true,
+    "adjudicator_added_claim_ratio": true,
+    "argument_span_pairwise_f1": false,
+    "claim_family_alpha": false,
+    "claim_span_pairwise_f1": false,
+    "claim_type_alpha": false,
+    "critical_field_ims": false,
+    "evidence_bundle_consistency": false,
+    "example_to_rule_contamination": true,
+    "high_risk_unresolved": false,
+    "high_risk_verifier_entailed": false,
+    "modality_alpha": false,
+    "polarity_alpha": false,
+    "position_swap_consistency": false,
+    "promotion_alpha": false,
+    "provenance_completeness": true,
+    "quarantine_rate": false,
+    "raw_api_failure_rate": true,
+    "unresolved_underdetermined": false
+  },
+  "failed_metrics": [
+    "accepted_claim_exact_quote_validity",
+    "evidence_bundle_consistency",
+    "claim_span_pairwise_f1",
+    "argument_span_pairwise_f1",
+    "claim_family_alpha",
+    "claim_type_alpha",
+    "modality_alpha",
+    "polarity_alpha",
+    "promotion_alpha",
+    "critical_field_ims",
+    "position_swap_consistency",
+    "high_risk_verifier_entailed",
+    "unresolved_underdetermined",
+    "high_risk_unresolved",
+    "quarantine_rate"
+  ],
+  "status": "FAIL"
+}

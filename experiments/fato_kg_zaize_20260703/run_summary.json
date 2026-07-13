@@ -1,0 +1,47 @@
+{
+  "generated_at_utc": "2026-07-03T06:14:56+00:00",
+  "input_xlsx": "자이제_1.xlsx",
+  "methodology": "layer2_fato_kg_methodology_eacl.md",
+  "output_dir": "experiments/fato_kg_zaize_20260703",
+  "claim_status": "fato_kg_bootstrap_ready_not_human_gold",
+  "source_profile": {
+    "valid_sentence_rows": 1366,
+    "chapter_count": 3,
+    "section_chunks": 52,
+    "missing_structure_metadata_sentences": 3
+  },
+  "counts": {
+    "task_frame_candidates": 26,
+    "task_frame_catalog": 26,
+    "raw_triples": 3064,
+    "validated_triples": 2988,
+    "layer2_nodes": 1446,
+    "layer2_edges": 3721,
+    "mapping_candidates": 260,
+    "review_rows": 656
+  },
+  "validation_status_counts": {
+    "verified": 2334,
+    "needs_review_low_confidence": 509,
+    "needs_review_example_scope": 145
+  },
+  "outputs": [
+    "00_source_profile.json",
+    "01_evidence_units.jsonl",
+    "02_chunks.jsonl",
+    "03_task_frame_candidates.jsonl",
+    "04_task_frame_catalog.jsonl",
+    "05_alias_dictionary.json",
+    "06_relation_schema.json",
+    "07_frame_anchored_triples_raw.jsonl",
+    "08_frame_anchored_triples_validated.jsonl",
+    "09_layer2_nodes.jsonl",
+    "10_layer2_edges.jsonl",
+    "11_layer2_graph_schema.md",
+    "12_l2_l1_mapping_candidates.jsonl",
+    "13_human_review_sheet.xlsx",
+    "14_benchmark_gold_frames.jsonl",
+    "15_benchmark_gold_triples.jsonl",
+    "16_eval_report.md"
+  ]
+}

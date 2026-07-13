@@ -1,0 +1,202 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.212286+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "claim_status": "automatic_predicate_cue_span_diagnostic_not_human_gold",
+  "source_text_included": false,
+  "triple_count": 947,
+  "predicate_cue_span_count": 550,
+  "predicate_cue_missing_count": 397,
+  "predicate_cue_span_rate": 0.580781,
+  "chunk_span_count": 550,
+  "chunk_span_rate": 0.580781,
+  "method_counts": {
+    "predicate_cue_lexical_match": 550,
+    "predicate_cue_not_found": 397
+  },
+  "by_predicate": {
+    "FEEDS_INTO": {
+      "triple_count": 9,
+      "predicate_cue_span_count": 3,
+      "predicate_cue_span_rate": 0.333333,
+      "cue_patterns": [
+        "연계",
+        "이어",
+        "반영",
+        "활용",
+        "전달",
+        "입력",
+        "사용"
+      ]
+    },
+    "HAS_DECISION_GATEWAY": {
+      "triple_count": 54,
+      "predicate_cue_span_count": 54,
+      "predicate_cue_span_rate": 1.0,
+      "cue_patterns": [
+        "결정",
+        "판단",
+        "여부",
+        "승인",
+        "검토",
+        "게이트"
+      ]
+    },
+    "HAS_GUARD_CONDITION": {
+      "triple_count": 14,
+      "predicate_cue_span_count": 9,
+      "predicate_cue_span_rate": 0.642857,
+      "cue_patterns": [
+        "조건",
+        "기준",
+        "요건",
+        "판단",
+        "검토",
+        "평가"
+      ]
+    },
+    "HAS_PRINCIPLE": {
+      "triple_count": 64,
+      "predicate_cue_span_count": 1,
+      "predicate_cue_span_rate": 0.015625,
+      "cue_patterns": [
+        "원칙",
+        "준수",
+        "유의",
+        "고려",
+        "지켜",
+        "해야 한다"
+      ]
+    },
+    "HAS_REVIEW_CHECKPOINT": {
+      "triple_count": 41,
+      "predicate_cue_span_count": 20,
+      "predicate_cue_span_rate": 0.487805,
+      "cue_patterns": [
+        "리뷰",
+        "검토",
+        "점검",
+        "확인",
+        "승인",
+        "review"
+      ]
+    },
+    "HAS_RISK": {
+      "triple_count": 39,
+      "predicate_cue_span_count": 8,
+      "predicate_cue_span_rate": 0.205128,
+      "cue_patterns": [
+        "위험",
+        "리스크",
+        "문제",
+        "실패",
+        "부족",
+        "불확실",
+        "risk"
+      ]
+    },
+    "HAS_STEP": {
+      "triple_count": 99,
+      "predicate_cue_span_count": 51,
+      "predicate_cue_span_rate": 0.515152,
+      "cue_patterns": [
+        "단계",
+        "절차",
+        "프로세스",
+        "과정",
+        "활동",
+        "먼저",
+        "다음",
+        "이후"
+      ]
+    },
+    "PERFORMED_BY": {
+      "triple_count": 120,
+      "predicate_cue_span_count": 83,
+      "predicate_cue_span_rate": 0.691667,
+      "cue_patterns": [
+        "수행",
+        "담당",
+        "책임",
+        "참여",
+        "검토",
+        "관리",
+        "주관"
+      ]
+    },
+    "PRECEDES": {
+      "triple_count": 77,
+      "predicate_cue_span_count": 11,
+      "predicate_cue_span_rate": 0.142857,
+      "cue_patterns": [
+        "먼저",
+        "다음",
+        "이후",
+        "후",
+        "끝나고",
+        "전에",
+        "선행",
+        "이어"
+      ]
+    },
+    "PRODUCES": {
+      "triple_count": 220,
+      "predicate_cue_span_count": 202,
+      "predicate_cue_span_rate": 0.918182,
+      "cue_patterns": [
+        "작성",
+        "제출",
+        "도출",
+        "생성",
+        "개발",
+        "수립",
+        "산출",
+        "정의",
+        "결정"
+      ]
+    },
+    "USED_AS_INPUT_FOR": {
+      "triple_count": 9,
+      "predicate_cue_span_count": 3,
+      "predicate_cue_span_rate": 0.333333,
+      "cue_patterns": [
+        "활용",
+        "사용",
+        "입력",
+        "반영",
+        "연계",
+        "바탕",
+        "기반"
+      ]
+    },
+    "USES_INPUT": {
+      "triple_count": 201,
+      "predicate_cue_span_count": 105,
+      "predicate_cue_span_rate": 0.522388,
+      "cue_patterns": [
+        "활용",
+        "사용",
+        "기반",
+        "바탕",
+        "참조",
+        "입력",
+        "정보수집",
+        "정보 수집",
+        "수집",
+        "분석"
+      ]
+    }
+  },
+  "limitations": [
+    "Predicate cue spans are lexical heuristics, not human-gold predicate-token annotations.",
+    "No source sentence text is included; cue text is represented only by hash and length.",
+    "Cue absence does not mean the edge is unsupported; it means no configured surface cue was found.",
+    "Final predicate-span correctness requires adjudicated human-gold span scoring."
+  ],
+  "output_files": {
+    "predicate_cue_spans_jsonl": "outputs/06_triples/layer2_predicate_cue_spans.jsonl",
+    "predicate_cue_spans_csv": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv",
+    "metrics_json": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json",
+    "report_md": "experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "cost": {
+    "cached_input_tokens": 0,
+    "estimated_cost_usd": 0.73452,
+    "input_tokens": 347259,
+    "output_tokens": 26449,
+    "real_calls": 936,
+    "tokens_by_model": {
+      "gpt-4.1-2025-04-14": 124563,
+      "gpt-4.1-mini-2025-04-14": 106581,
+      "gpt-4o-2024-08-06": 124570,
+      "gpt-4o-mini-2024-07-18": 17994
+    }
+  },
+  "falsifier_metrics": {
+    "C01": {
+      "api_failure_rate": 0.0,
+      "balanced_accuracy": 1.0,
+      "contradicted_control_recall": 1,
+      "model_snapshot": "gpt-4o-mini-2024-07-18",
+      "proposal_id_validity": 1.0,
+      "qualified": true,
+      "repeat_agreement": 1,
+      "schema_validity": 1.0,
+      "supported_control_recall": 1
+    },
+    "C03": {
+      "api_failure_rate": 0.0,
+      "balanced_accuracy": 0.9375,
+      "contradicted_control_recall": 0.9583333333333334,
+      "model_snapshot": "gpt-4o-2024-08-06",
+      "proposal_id_validity": 1.0,
+      "qualified": true,
+      "repeat_agreement": 0.9583333333333334,
+      "schema_validity": 1.0,
+      "supported_control_recall": 0.9166666666666666
+    },
+    "C04": {
+      "api_failure_rate": 0.0,
+      "balanced_accuracy": 0.9583333333333333,
+      "contradicted_control_recall": 1,
+      "model_snapshot": "gpt-4.1-2025-04-14",
+      "proposal_id_validity": 1.0,
+      "qualified": true,
+      "repeat_agreement": 1,
+      "schema_validity": 1.0,
+      "supported_control_recall": 0.9166666666666666
+    }
+  },
+  "fresh_api_exposure": 0,
+  "primary_metrics": {
+    "C02": {
+      "anchor_id_validity": 1.0,
+      "api_failure_rate": 0.0,
+      "claimhood_repeat_agreement": 1,
+      "critical_facet_repeat_agreement": 0.875,
+      "deterministic_control_balanced_accuracy": 0.9583333333333333,
+      "facet_repeat_agreement": {
+        "GENERALIZABLE_RULE": 0.875,
+        "IS_NORMATIVE": 0.9166666666666666,
+        "IS_PROCEDURAL": 0.9166666666666666,
+        "SPECIFIC_EXAMPLE_INSTANCE": 0.9583333333333334
+      },
+      "model_snapshot": "gpt-4.1-mini-2025-04-14",
+      "positive_anchor_set_f1": 1.0,
+      "qualified": false,
+      "structured_output_validity": 1.0
+    },
+    "C03": {
+      "anchor_id_validity": 1.0,
+      "api_failure_rate": 0.0,
+      "claimhood_repeat_agreement": 0.9583333333333334,
+      "critical_facet_repeat_agreement": 0.875,
+      "deterministic_control_balanced_accuracy": 0.9166666666666667,
+      "facet_repeat_agreement": {
+        "GENERALIZABLE_RULE": 0.9583333333333334,
+        "IS_NORMATIVE": 0.875,
+        "IS_PROCEDURAL": 0.9583333333333334,
+        "SPECIFIC_EXAMPLE_INSTANCE": 0.9583333333333334
+      },
+      "model_snapshot": "gpt-4o-2024-08-06",
+      "positive_anchor_set_f1": 0.9743589743589743,
+      "qualified": false,
+      "structured_output_validity": 1.0
+    },
+    "C04": {
+      "anchor_id_validity": 1.0,
+      "api_failure_rate": 0.0,
+      "claimhood_repeat_agreement": 0.9583333333333334,
+      "critical_facet_repeat_agreement": 1,
+      "deterministic_control_balanced_accuracy": 0.9583333333333333,
+      "facet_repeat_agreement": {
+        "GENERALIZABLE_RULE": 1,
+        "IS_NORMATIVE": 1,
+        "IS_PROCEDURAL": 1,
+        "SPECIFIC_EXAMPLE_INSTANCE": 1
+      },
+      "model_snapshot": "gpt-4.1-2025-04-14",
+      "positive_anchor_set_f1": 0.975609756097561,
+      "qualified": true,
+      "structured_output_validity": 1.0
+    }
+  },
+  "selected_falsifier": "C01",
+  "selected_primary": "C04",
+  "status": "PASS",
+  "test_access": 0
+}

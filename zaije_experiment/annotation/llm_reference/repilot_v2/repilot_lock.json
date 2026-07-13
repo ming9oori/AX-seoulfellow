@@ -1,0 +1,32 @@
+{
+  "bundle_sha256": "a52c534de56146946e2056db0bd10ce3303a6b1c711a959741982ef2c0dc53fe",
+  "count": 20,
+  "evidence_ids": [
+    "zaije:evidence/xlsx-row-40",
+    "zaije:evidence/xlsx-row-95",
+    "zaije:evidence/xlsx-row-209",
+    "zaije:evidence/xlsx-row-244",
+    "zaije:evidence/xlsx-row-280",
+    "zaije:evidence/xlsx-row-290",
+    "zaije:evidence/xlsx-row-350",
+    "zaije:evidence/xlsx-row-536",
+    "zaije:evidence/xlsx-row-551",
+    "zaije:evidence/xlsx-row-585",
+    "zaije:evidence/xlsx-row-664",
+    "zaije:evidence/xlsx-row-697",
+    "zaije:evidence/xlsx-row-761",
+    "zaije:evidence/xlsx-row-898",
+    "zaije:evidence/xlsx-row-956",
+    "zaije:evidence/xlsx-row-1008",
+    "zaije:evidence/xlsx-row-1045",
+    "zaije:evidence/xlsx-row-1173",
+    "zaije:evidence/xlsx-row-1270",
+    "zaije:evidence/xlsx-row-1272"
+  ],
+  "original_pilot_overlap": 0,
+  "policy": "One allowed fresh re-pilot after v1 Gate 1L failure; no further prompt revision.",
+  "seed": 20260711,
+  "source_split": "INDUCTION",
+  "test_membership": false,
+  "version": "v2"
+}

@@ -1,0 +1,13 @@
+{
+  "dev_evidence_overlap": 0,
+  "dev_leakage_group_overlap": 0,
+  "evidence_count": 60,
+  "experiment_id": "zaije_ldr_r3_20260712_apre_v1",
+  "imported_file_sha256": "3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17",
+  "imported_from_experiment_id": "zaije_ldr_r2_20260712_blre_v1",
+  "membership_change_allowed": false,
+  "prior_api_exposure": 0,
+  "source_lock_sha256": "e336dadf9b6bb24a2514d8c4a1fcbaf3d3ea4f2b880cf8e08cbd95e3763ef50e",
+  "source_membership_sha256": "3e499252899e964b7363310e5733961fc3e6aa65aa4d0d382537839173003b17",
+  "test_access": 0
+}

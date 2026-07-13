@@ -1,0 +1,65 @@
+{
+  "block_types": {
+    "figure_caption": 27,
+    "list": 106,
+    "markdown_table": 47,
+    "mixed": 23,
+    "prose": 1123,
+    "question": 40
+  },
+  "chapters_after_context_inference": {
+    "1.0|입찰과 제안": 310,
+    "2.0|수주영업": 487,
+    "3.0|제안서 전략": 569
+  },
+  "chapters_observed": {
+    "1.0|입찰과 제안": 310,
+    "2.0|수주영업": 486,
+    "3.0|제안서 전략": 567,
+    "MISSING": 3
+  },
+  "counts": {
+    "duplicate_clusters": 6,
+    "duplicate_rows_beyond_first": 34,
+    "evidence": 1366,
+    "leakage_groups": 168,
+    "missing_metadata_rows": 3,
+    "unique_text": 1332
+  },
+  "design_reference_flag_counts": {
+    "conditional_exception": 215,
+    "definition": 362,
+    "discourse": 177,
+    "evaluation_numeric": 263,
+    "markdown_table": 56,
+    "normative": 102,
+    "procedure_decision": 499,
+    "question": 71
+  },
+  "flag_count_note": "The design did not provide executable regexes. Execution regexes were locked before Gold/model output; counts are audit aids, not labels.",
+  "heuristic_flags": {
+    "bilingual_acronym": 373,
+    "conditional_exception": 167,
+    "definition": 50,
+    "discourse": 117,
+    "evaluation_numeric": 242,
+    "list_block": 129,
+    "markdown_table": 56,
+    "normative": 75,
+    "procedure_decision": 244,
+    "question": 54
+  },
+  "input": {
+    "binary_sha256": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+    "canonical_algorithm": "canonical-jsonl-v1",
+    "canonical_sha256": "84d45b50acc542497df2f19bf8c3ad395f2ed223e6cfeb02be467c9f80f54906",
+    "path": "/home/minjoo/AX_서울펠로우/legacy/자이제_1.xlsx",
+    "sheet": "clean_sentences"
+  },
+  "length": {
+    "max": 1258,
+    "mean": 66.06002928257686,
+    "median": 48,
+    "min": 3
+  }
+}

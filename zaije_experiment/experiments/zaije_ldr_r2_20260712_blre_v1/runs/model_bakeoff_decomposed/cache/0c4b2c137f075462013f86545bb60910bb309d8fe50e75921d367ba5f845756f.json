@@ -1,0 +1,104 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-90_C01",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-106_C02",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-208_C02",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-283_C01",
+        "configuration_id": "C04",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-329_C02",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-340_C02",
+        "configuration_id": "C04",
+        "deontic_force": "REQUIREMENT",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-349_C01",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-350_C01",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-361_C01",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-408_C01",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-551_C02",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "POSITIVE",
+        "repeat_id": 2
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-553_C03",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "polarity": "NOT_APPLICABLE",
+        "repeat_id": 2
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/F2_C04_r2_b01_0c4b2c137f07.json",
+  "response_id": "resp_060fe0b30cefd30e006a5311857cb0819986d3dab5a93fcdc8",
+  "usage": {
+    "input_tokens": 1711,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 520,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2231
+  }
+}

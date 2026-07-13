@@ -1,0 +1,150 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "1f0ed76bd133e23f2b171336d6c66d5b47d90d3c1da796b44cea4368c8921e5e",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Evaluation of our organization and competitors",
+                "quote": "우리 조직과 경쟁사에 대한 평가",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "•우리 조직과 경쟁사에 대한 평가가 정확한가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is accurate",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1008",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "7f676612b94e407afd32770231c92b6bdbc7e63d2734c6d00063946ffadf3718",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Example competitor comparison table for OOwon electronic litigation computer equipment Oth introduction project",
+                "quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is an example",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1045",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "264603f0bb7925581efff6681df849e6125bc6fe41b8a7603c09856ec35f3b2f",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution optimization",
+                "quote": "솔루션 최적화",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "modify",
+                "quote": "수정하여",
+                "role": "action"
+              },
+              {
+                "normalized_label": "customer needs",
+                "quote": "고객의 니즈",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "• 솔루션 최적화: 솔루션을 수정하여 고객의 니즈를 만족시키는 것이므로 반드시 추가 비용이 들어간다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is to satisfy",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1173",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "9bae01b1c60d1b0382b739c6752d7cc86bf67c92b088dc4bf94a03d067721396",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Proposals that address 'Green Defense' and those that do not",
+                "quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서 중 어디에 높은 점수를 주겠는가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "would you give a higher score to",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1272",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r1_b04_1a600754e521.json",
+  "response_id": "resp_0c35eb11c7fc9594006a5290f3375081999bbc16ce47b55aed",
+  "usage": {
+    "input_tokens": 4625,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 899,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5524
+  }
+}

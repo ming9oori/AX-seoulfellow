@@ -1,0 +1,27 @@
+r3_1:
+  anchor_json_validity: 1.00
+  offset_round_trip_validity: 1.00
+  anchor_id_uniqueness: 1.00
+  context_span_existence: 1.00
+  deterministic_rerun_identity: 1.00
+  dev_missing_anchor_max: 0.05
+  dev_over_merged_anchor_max: 0.05
+  dev_broken_structural_context_max: 0.02
+r3_2_primary:
+  schema_validity: 1.00
+  anchor_id_validity: 1.00
+  claimhood_repeat_agreement_min: 0.92
+  positive_anchor_set_f1_min: 0.90
+  critical_binary_facet_repeat_agreement_min: 0.90
+  deterministic_control_balanced_accuracy_min: 0.95
+  api_failure_rate_max: 0.01
+r3_2_falsifier:
+  supported_recall_min: 0.90
+  contradicted_recall_min: 0.90
+  balanced_accuracy_min: 0.92
+  repeat_agreement_min: 0.90
+r3_3:
+  exact_agreement_min: 0.90
+  positive_pairwise_f1_median_min: 0.90
+  usable_coverage_min: 0.90
+  unstable_rate_max: 0.10

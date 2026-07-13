@@ -1,0 +1,9 @@
+{
+  "R4-0": "PASS",
+  "R4-1": "PASS",
+  "R4-2": "PASS",
+  "R4-3": "PASS_AFTER_DEV_REVISION_2",
+  "R4-4": "PASS",
+  "R4-5": "PASS",
+  "final": "DETERMINISTIC_CORE_ONLY_PASS"
+}

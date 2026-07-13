@@ -36,7 +36,7 @@ ALLOWED_CLASSES = {
     "Artifact",
     "Role",
     "Principle",
-    "ReviewEvent",
+    "ReviewCheckpoint",
     "Risk",
 }
 
@@ -66,7 +66,7 @@ PREDICATE_DOMAIN_RANGE = {
     "HAS_DECISION_GATEWAY": ("DomainTask", "DecisionGateway"),
     "HAS_GUARD_CONDITION": ("*", "GuardCondition"),
     "BRANCHES_TO": ("DecisionGateway", "ProcedureStep"),
-    "HAS_REVIEW": ("DomainTask", "ReviewEvent"),
+    "HAS_REVIEW": ("DomainTask", "ReviewCheckpoint"),
     "HAS_PRINCIPLE": ("DomainTask", "Principle"),
     "HAS_RISK": ("DomainTask", "Risk"),
     "TRANSFORMS_INTO": ("Artifact", "Artifact"),
@@ -111,6 +111,33 @@ def clean_text(text):
     return text
 
 
+def safe_slug(value):
+    value = clean_text(value)
+    value = re.sub(r"[^A-Za-z0-9_.-]+", "_", value).strip("_")
+    return value or "unknown_model"
+
+
+def infer_source_label(model_path):
+    path = Path(str(model_path))
+    for part in path.parts:
+        if part.startswith("models--"):
+            return safe_slug(part.replace("models--", "").replace("--", "_"))
+    for part in reversed(path.parts):
+        if part and part != "snapshots":
+            return safe_slug(part)
+    return "unknown_model"
+
+
+def patch_autoawq_transformers_compat():
+    """Keep AutoAWQ importable with newer Transformers activation names."""
+    try:
+        import transformers.activations as activations
+    except Exception:
+        return
+    if not hasattr(activations, "PytorchGELUTanh") and hasattr(activations, "GELUTanh"):
+        activations.PytorchGELUTanh = activations.GELUTanh
+
+
 def clamp_confidence(value):
     try:
         value = float(value)
@@ -122,6 +149,8 @@ def clamp_confidence(value):
 
 
 def load_model(model_path, quantization):
+    if quantization == "native":
+        patch_autoawq_transformers_compat()
     tokenizer = AutoTokenizer.from_pretrained(
         model_path,
         local_files_only=True,
@@ -132,7 +161,9 @@ def load_model(model_path, quantization):
         "trust_remote_code": True,
         "device_map": "auto",
     }
-    if quantization == "4bit":
+    if quantization == "native":
+        kwargs["torch_dtype"] = "auto"
+    elif quantization == "4bit":
         kwargs["quantization_config"] = BitsAndBytesConfig(
             load_in_4bit=True,
             bnb_4bit_compute_dtype=torch.float16,
@@ -148,11 +179,30 @@ def load_model(model_path, quantization):
 
 
 def chunk_sentence_lines(chunk):
+    text = chunk.get("text", "")
+    offsets = chunk.get("sentence_offsets", [])
     lines = []
-    for sent_id, text in zip(chunk.get("sentence_ids", []), chunk.get("text", "").splitlines()):
-        text = clean_text(text)
-        if text:
-            lines.append(f"{sent_id}: {text}")
+    if offsets:
+        for item in offsets:
+            sent_id = item.get("sentence_id")
+            start = item.get("chunk_char_start")
+            end = item.get("chunk_char_end")
+            if sent_id and isinstance(start, int) and isinstance(end, int):
+                sentence_text = clean_text(text[start:end])
+                if sentence_text:
+                    lines.append(f"{sent_id}: {sentence_text}")
+        if lines:
+            return "\n".join(lines)
+
+    split_lines = [clean_text(line) for line in text.splitlines() if clean_text(line)]
+    for sent_id, sentence_text in zip(chunk.get("sentence_ids", []), split_lines):
+        lines.append(f"{sent_id}: {sentence_text}")
+    if lines:
+        return "\n".join(lines)
+
+    sentence_ids = chunk.get("sentence_ids", [])
+    if sentence_ids and clean_text(text):
+        return f"{sentence_ids[0]}: {clean_text(text)}"
     return "\n".join(lines)
 
 
@@ -299,7 +349,7 @@ def valid_evidence_ids(ids, allowed_ids):
     return out
 
 
-def validate_task_frame(item, chunk_id, allowed_ids):
+def validate_task_frame(item, chunk_id, allowed_ids, source_label):
     task_name = clean_text(item.get("task_name"))
     evidence = valid_evidence_ids(item.get("evidence_anchor_ids"), allowed_ids)
     if len(task_name) < 2 or not evidence:
@@ -319,13 +369,13 @@ def validate_task_frame(item, chunk_id, allowed_ids):
             "risks": [clean_text(x)[:120] for x in as_list(item.get("risks")) if clean_text(x)],
             "evidence_anchor_ids": evidence,
             "confidence": clamp_confidence(item.get("confidence")),
-            "source": "qwen3_8b_tool_constrained_extraction",
+            "source": source_label,
         },
         None,
     )
 
 
-def validate_relation(item, chunk_id, allowed_ids):
+def validate_relation(item, chunk_id, allowed_ids, source_label):
     subject_label = clean_text(item.get("subject_label"))
     object_label = clean_text(item.get("object_label"))
     subject_type = clean_text(item.get("subject_type"))
@@ -360,13 +410,13 @@ def validate_relation(item, chunk_id, allowed_ids):
             "modality": modality,
             "evidence_anchor_ids": evidence,
             "confidence": clamp_confidence(item.get("confidence")),
-            "source": "qwen3_8b_tool_constrained_extraction",
+            "source": source_label,
         },
         None,
     )
 
 
-def validate_rejection(item, chunk_id, allowed_ids):
+def validate_rejection(item, chunk_id, allowed_ids, source_label):
     text = clean_text(item.get("candidate_text"))
     reason = clean_text(item.get("reason"))
     if reason not in {"unsupported", "too_vague", "ocr_error", "out_of_scope"}:
@@ -379,11 +429,11 @@ def validate_rejection(item, chunk_id, allowed_ids):
         "candidate_text": text[:300],
         "reason": reason,
         "evidence_anchor_ids": evidence,
-        "source": "qwen3_8b_tool_constrained_extraction",
+        "source": source_label,
     }
 
 
-def validate_extraction(parsed, chunk):
+def validate_extraction(parsed, chunk, source_label):
     chunk_id = chunk["chunk_id"]
     allowed_ids = set(chunk.get("sentence_ids", []))
     errors = Counter()
@@ -401,7 +451,7 @@ def validate_extraction(parsed, chunk):
         if not isinstance(item, dict):
             errors["task_not_object"] += 1
             continue
-        row, error = validate_task_frame(item, chunk_id, allowed_ids)
+        row, error = validate_task_frame(item, chunk_id, allowed_ids, source_label)
         if error:
             errors[error] += 1
         else:
@@ -411,7 +461,7 @@ def validate_extraction(parsed, chunk):
         if not isinstance(item, dict):
             errors["relation_not_object"] += 1
             continue
-        row, error = validate_relation(item, chunk_id, allowed_ids)
+        row, error = validate_relation(item, chunk_id, allowed_ids, source_label)
         if error:
             errors[error] += 1
         else:
@@ -419,19 +469,20 @@ def validate_extraction(parsed, chunk):
 
     for item in as_list(parsed.get("reject_candidate")):
         if isinstance(item, dict):
-            row = validate_rejection(item, chunk_id, allowed_ids)
+            row = validate_rejection(item, chunk_id, allowed_ids, source_label)
             if row:
                 valid["reject_candidate"].append(row)
 
     return valid, errors
 
 
-def shard_paths(out_dir, shard_index=None):
+def shard_paths(out_dir, shard_index=None, output_prefix="llm_tool_extractions"):
     suffix = "" if shard_index is None else f".shard{shard_index:02d}"
+    output_prefix = safe_slug(output_prefix)
     return {
-        "raw": out_dir / f"45_llm_tool_extractions_raw{suffix}.jsonl",
-        "valid": out_dir / f"46_llm_tool_extractions_valid{suffix}.jsonl",
-        "report": out_dir / f"47_llm_extraction_quality_report{suffix}.md",
+        "raw": out_dir / f"45_{output_prefix}_raw{suffix}.jsonl",
+        "valid": out_dir / f"46_{output_prefix}_valid{suffix}.jsonl",
+        "report": out_dir / f"47_{output_prefix}_quality_report{suffix}.md",
     }
 
 
@@ -467,8 +518,9 @@ def run(args):
     out_dir = Path(args.output_dir)
     chunks = read_jsonl(out_dir / args.chunk_file)
     chunks = select_chunks(chunks, args.max_chunks, args.shard_index, args.num_shards)
-    paths = shard_paths(out_dir, args.shard_index if args.num_shards > 1 else None)
+    paths = shard_paths(out_dir, args.shard_index if args.num_shards > 1 else None, args.output_prefix)
     done = completed_chunk_ids(paths["raw"]) if args.resume else set()
+    source_label = args.source_label or f"{infer_source_label(args.model)}_tool_constrained_extraction"
 
     print(
         json.dumps(
@@ -479,6 +531,8 @@ def run(args):
                 "chunks_selected": len(chunks),
                 "chunks_already_done": len(done),
                 "model": args.model,
+                "source_label": source_label,
+                "output_prefix": safe_slug(args.output_prefix),
                 "cuda_visible_devices": os.environ.get("CUDA_VISIBLE_DEVICES", ""),
                 "shard_index": args.shard_index,
                 "num_shards": args.num_shards,
@@ -510,7 +564,7 @@ def run(args):
             parsed, parse_error = parse_json_object(raw_text)
             if parse_error:
                 error_counts["parse_error"] += 1
-            valid, validation_errors = validate_extraction(parsed, chunk)
+            valid, validation_errors = validate_extraction(parsed, chunk, source_label)
             error_counts.update(validation_errors)
         except Exception as exc:
             error = f"{type(exc).__name__}: {exc}"
@@ -531,6 +585,8 @@ def run(args):
             "parsed": parsed,
             "parse_error": parse_error,
             "error": error,
+            "model": args.model,
+            "source_label": source_label,
             "generated_at_utc": datetime.now(timezone.utc).isoformat(),
         }
         append_jsonl(paths["raw"], raw_row)
@@ -563,7 +619,9 @@ Generated: {datetime.now(timezone.utc).isoformat()}
 
 - Output directory: `{out_dir}`
 - Model: `{args.model}`
+- Source label: `{source_label}`
 - Quantization: `{args.quantization}`
+- Output prefix: `{safe_slug(args.output_prefix)}`
 - CUDA_VISIBLE_DEVICES: `{os.environ.get("CUDA_VISIBLE_DEVICES", "")}`
 - Chunk file: `{args.chunk_file}`
 - Shard: {args.shard_index + 1} / {args.num_shards}
@@ -606,7 +664,7 @@ def merge_shards(args):
     valid_rows = []
     reports = []
     for shard_idx in range(args.num_shards):
-        paths = shard_paths(out_dir, shard_idx)
+        paths = shard_paths(out_dir, shard_idx, args.output_prefix)
         if paths["raw"].exists():
             raw_rows.extend(read_jsonl(paths["raw"]))
         if paths["valid"].exists():
@@ -616,8 +674,9 @@ def merge_shards(args):
 
     raw_rows = sorted(raw_rows, key=lambda r: r.get("chunk_id", ""))
     valid_rows = sorted(valid_rows, key=lambda r: r.get("chunk_id", ""))
-    combined_raw = out_dir / "45_llm_tool_extractions_raw.jsonl"
-    combined_valid = out_dir / "46_llm_tool_extractions_valid.jsonl"
+    combined_paths = shard_paths(out_dir, None, args.output_prefix)
+    combined_raw = combined_paths["raw"]
+    combined_valid = combined_paths["valid"]
     write_jsonl(combined_raw, raw_rows)
     write_jsonl(combined_valid, valid_rows)
 
@@ -632,6 +691,7 @@ Generated: {datetime.now(timezone.utc).isoformat()}
 ## Combined Shards
 
 - Output directory: `{out_dir}`
+- Output prefix: `{safe_slug(args.output_prefix)}`
 - Shards requested: {args.num_shards}
 - Raw chunk rows: {len(raw_rows)}
 - Valid chunk rows: {len(valid_rows)}
@@ -649,7 +709,7 @@ Files:
 
 """
     report += "\n\n".join(reports)
-    write_text(out_dir / "47_llm_extraction_quality_report.md", report)
+    write_text(combined_paths["report"], report)
     print(
         json.dumps(
             {
@@ -670,7 +730,9 @@ def main():
     parser.add_argument("--output-dir", default="experiments/cep_onto_jaije_20260627_gpu_llm")
     parser.add_argument("--chunk-file", default="10_chunks_hybrid_semantic.jsonl")
     parser.add_argument("--model", default=DEFAULT_MODEL)
-    parser.add_argument("--quantization", choices=["4bit", "8bit", "fp16"], default="4bit")
+    parser.add_argument("--quantization", choices=["native", "4bit", "8bit", "fp16"], default="4bit")
+    parser.add_argument("--source-label", default=None)
+    parser.add_argument("--output-prefix", default="llm_tool_extractions")
     parser.add_argument("--max-chunks", type=int, default=None)
     parser.add_argument("--max-prompt-chars", type=int, default=5200)
     parser.add_argument("--max-new-tokens", type=int, default=1200)

@@ -1,0 +1,474 @@
+{
+  "note": "This supplements, rather than overwrites, the initial presence-only CQ metric. Correct abstention is scored because section 16.6 preregistered abstention correctness on impossible CQs.",
+  "source_expectations": {
+    "CQ01_explicit_definition": false,
+    "CQ02_alias_acronym": true,
+    "CQ03_work_role": false,
+    "CQ04_input_output": false,
+    "CQ05_procedure_order": false,
+    "CQ06_template_field": false,
+    "CQ07_quantity": false,
+    "CQ08_rule_qualifier": false,
+    "CQ09_taxonomy": false,
+    "CQ10_example_target": false,
+    "CQ11_surface_forms": true,
+    "CQ12_evidence_trace": true
+  },
+  "systems": {
+    "R5-B0": {
+      "answerability_with_correct_abstention": 0.8333333333333334,
+      "provenance_precision": 1.0,
+      "rows": [
+        {
+          "correct": true,
+          "cq_id": "CQ01_explicit_definition",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ02_alias_acronym",
+          "source_support_exists": true,
+          "status": "MISSED_ANSWER",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ03_work_role",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ04_input_output",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ05_procedure_order",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ06_template_field",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ07_quantity",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ08_rule_qualifier",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ09_taxonomy",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ10_example_target",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ11_surface_forms",
+          "source_support_exists": true,
+          "status": "MISSED_ANSWER",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ12_evidence_trace",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B1": {
+      "answerability_with_correct_abstention": 1.0,
+      "provenance_precision": 1.0,
+      "rows": [
+        {
+          "correct": true,
+          "cq_id": "CQ01_explicit_definition",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ02_alias_acronym",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ03_work_role",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ04_input_output",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ05_procedure_order",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ06_template_field",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ07_quantity",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ08_rule_qualifier",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ09_taxonomy",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ10_example_target",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ11_surface_forms",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ12_evidence_trace",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B2": {
+      "answerability_with_correct_abstention": 1.0,
+      "provenance_precision": 1.0,
+      "rows": [
+        {
+          "correct": true,
+          "cq_id": "CQ01_explicit_definition",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ02_alias_acronym",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ03_work_role",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ04_input_output",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ05_procedure_order",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ06_template_field",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ07_quantity",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ08_rule_qualifier",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ09_taxonomy",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ10_example_target",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ11_surface_forms",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ12_evidence_trace",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B3": {
+      "answerability_with_correct_abstention": 1.0,
+      "provenance_precision": 1.0,
+      "rows": [
+        {
+          "correct": true,
+          "cq_id": "CQ01_explicit_definition",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ02_alias_acronym",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ03_work_role",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ04_input_output",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ05_procedure_order",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ06_template_field",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ07_quantity",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ08_rule_qualifier",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ09_taxonomy",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ10_example_target",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ11_surface_forms",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ12_evidence_trace",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        }
+      ],
+      "unsupported_answer_rate": 0.0
+    },
+    "R5-B4": {
+      "answerability_with_correct_abstention": 0.6666666666666666,
+      "provenance_precision": null,
+      "rows": [
+        {
+          "correct": true,
+          "cq_id": "CQ01_explicit_definition",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ02_alias_acronym",
+          "source_support_exists": true,
+          "status": "MISSED_ANSWER",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ03_work_role",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ04_input_output",
+          "source_support_exists": false,
+          "status": "UNSUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ05_procedure_order",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ06_template_field",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ07_quantity",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ08_rule_qualifier",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ09_taxonomy",
+          "source_support_exists": false,
+          "status": "UNSUPPORTED_ANSWER",
+          "system_answer_exists": true
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ10_example_target",
+          "source_support_exists": false,
+          "status": "CORRECT_ABSTENTION",
+          "system_answer_exists": false
+        },
+        {
+          "correct": false,
+          "cq_id": "CQ11_surface_forms",
+          "source_support_exists": true,
+          "status": "MISSED_ANSWER",
+          "system_answer_exists": false
+        },
+        {
+          "correct": true,
+          "cq_id": "CQ12_evidence_trace",
+          "source_support_exists": true,
+          "status": "SUPPORTED_ANSWER",
+          "system_answer_exists": true
+        }
+      ],
+      "unsupported_answer_rate": 0.16666666666666666
+    }
+  }
+}

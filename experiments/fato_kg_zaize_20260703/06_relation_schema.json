@@ -1,0 +1,273 @@
+{
+  "generated_at_utc": "2026-07-03T06:14:56+00:00",
+  "claim_status": "fato_relation_schema_ready",
+  "relations": [
+    {
+      "predicate": "HAS_TASK",
+      "domain": [
+        "Process"
+      ],
+      "range": [
+        "Task"
+      ]
+    },
+    {
+      "predicate": "HAS_SUBTASK",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "Task"
+      ]
+    },
+    {
+      "predicate": "HAS_STEP",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "Step"
+      ]
+    },
+    {
+      "predicate": "PRECEDES",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Task",
+        "Step"
+      ]
+    },
+    {
+      "predicate": "TRIGGERED_BY",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "Condition",
+        "Event"
+      ]
+    },
+    {
+      "predicate": "USES_INPUT",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Artifact",
+        "InputArtifact",
+        "InformationItem",
+        "Concept"
+      ]
+    },
+    {
+      "predicate": "PRODUCES",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Artifact",
+        "OutputArtifact",
+        "StrategyArtifact",
+        "Checklist",
+        "Report",
+        "StrategyElement"
+      ]
+    },
+    {
+      "predicate": "PERFORMED_BY",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Role"
+      ]
+    },
+    {
+      "predicate": "ACCOUNTABLE_TO",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Role",
+        "Stakeholder"
+      ]
+    },
+    {
+      "predicate": "ANALYZES",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Concept",
+        "Artifact",
+        "InformationItem",
+        "Stakeholder",
+        "EvaluationCriterion",
+        "StrategyElement"
+      ]
+    },
+    {
+      "predicate": "DEVELOPS",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "Artifact",
+        "StrategyArtifact",
+        "StrategyElement",
+        "Concept"
+      ]
+    },
+    {
+      "predicate": "EVALUATES",
+      "domain": [
+        "Task",
+        "Step"
+      ],
+      "range": [
+        "EvaluationCriterion",
+        "Artifact",
+        "Concept"
+      ]
+    },
+    {
+      "predicate": "DECIDES",
+      "domain": [
+        "Task",
+        "Gate"
+      ],
+      "range": [
+        "DecisionPoint"
+      ]
+    },
+    {
+      "predicate": "HAS_DECISION_POINT",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "DecisionPoint"
+      ]
+    },
+    {
+      "predicate": "HAS_CONDITION",
+      "domain": [
+        "Task",
+        "Rule"
+      ],
+      "range": [
+        "Condition"
+      ]
+    },
+    {
+      "predicate": "HAS_CONSTRAINT",
+      "domain": [
+        "Task",
+        "Artifact"
+      ],
+      "range": [
+        "Constraint"
+      ]
+    },
+    {
+      "predicate": "HAS_RISK",
+      "domain": [
+        "Task",
+        "Artifact"
+      ],
+      "range": [
+        "Risk"
+      ]
+    },
+    {
+      "predicate": "MITIGATES",
+      "domain": [
+        "Task",
+        "Control"
+      ],
+      "range": [
+        "Risk"
+      ]
+    },
+    {
+      "predicate": "HAS_PRINCIPLE",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "Principle"
+      ]
+    },
+    {
+      "predicate": "MAY_RESULT_IN",
+      "domain": [
+        "Risk",
+        "Condition",
+        "Task"
+      ],
+      "range": [
+        "Risk",
+        "Outcome",
+        "Concept"
+      ]
+    },
+    {
+      "predicate": "EVIDENCED_BY",
+      "domain": [
+        "Any"
+      ],
+      "range": [
+        "EvidenceSpan"
+      ]
+    },
+    {
+      "predicate": "MENTIONED_IN",
+      "domain": [
+        "Any"
+      ],
+      "range": [
+        "EvidenceSpan"
+      ]
+    },
+    {
+      "predicate": "MAPS_TO",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "StandardNode",
+        "NCSCompetencyUnit",
+        "PCFElement"
+      ]
+    },
+    {
+      "predicate": "REQUIRES_CAPABILITY",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "NCSCompetencyUnit",
+        "StandardNode"
+      ]
+    },
+    {
+      "predicate": "PROCESS_CONTEXT",
+      "domain": [
+        "Task"
+      ],
+      "range": [
+        "PCFElement",
+        "StandardNode"
+      ]
+    }
+  ]
+}

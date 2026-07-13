@@ -1,0 +1,15 @@
+{
+  "gates": {
+    "active_lf_at_least_1": true,
+    "fresh_test_rule_precision_ge_0_85": true,
+    "fresh_test_rule_coverage_ge_0_15": true,
+    "claim_f1_not_worse": true,
+    "critical_error_rate_not_worse": false,
+    "llm_candidate_reduction_ge_0_20": false,
+    "no_prior_evidence_overlap": true,
+    "no_validation_test_group_leakage": true
+  },
+  "passed": 6,
+  "total": 8,
+  "status": "REVISE"
+}

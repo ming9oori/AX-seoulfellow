@@ -1,0 +1,1 @@
+Extract, define, and canonicalize open-schema KG items, then emit CAPE-compatible nodes and edges for scoring.

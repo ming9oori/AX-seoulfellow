@@ -1,0 +1,223 @@
+{
+  "response_id": "resp_0b239e64644a7b9c006a5110f2ba38819a9718a9d81c13d5bc",
+  "usage": {
+    "input_tokens": 2120,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1296,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3416
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r812",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r813",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r812",
+              "text": "첫 번째, SI 비즈니스는 사업 특성상 솔루션이 회사 내에 있는 것이 아니라 본질적으로 외부에 있는 자원을 아웃소싱하다 보니 그것은 경쟁회사 간에 차별화요소가 아닌 것으로 여겨 왔다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r813",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r813",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r813",
+              "text": "두 번째, 대부분의 공공, 금융 대형 발주 사업에서 실제 평가시간은 너무 짧고, 평가위원은 주로 대학교수이기 때문에 해당 사업에 대해서는 자신의 전공분야와 관련하여 부분적으로만 알고 있거나 전혀 모르는 경우가 태반이다.",
+              "start": 0,
+              "end": 116
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r814",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r814",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r814",
+              "text": "그래서 내용이나 전략의 차별성이 평가위원에게 전달되기 어려운 현실적 한계가 있다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r878",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r878",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r878",
+              "text": "그래서 충실도의 별명은 ‘평가자의 무기(Weapon)’ 이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r947",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r947",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r947",
+              "text": "앞서 의사결정자와 영향자 개인의 이슈를 분석한 것처럼 평가위원 개인의 이슈를 분석하고 통합하여 핵심 이슈를 도출하라.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r989",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r989",
+        "annotator": {
+          "role": "Claim Extractor",
+          "model_id": "v1",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r989",
+              "text": "② 두 번째 열에는 고객의 이슈를 100% 확인했다고 가정하고 각각의 핵심 이슈에 대한 고객의 중요성을 추측하여 비중을 할당하되 합해서 100이 되어야 한다.",
+              "start": 0,
+              "end": 98
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0856d75b0c9a4e12006a50cc6424388199b99a3c4da2b45fe7",
+  "usage": {
+    "input_tokens": 3195,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2063,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5258
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r648",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r648",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r648",
+              "text": "쉬플리 본사 리서치에 따르면 대체로 제안 요청서(RFP: Request for Proposal)가 나오는 시점이 되면 업체가 내정되는 경우가 60~80%에 이른다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r653",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r653",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r653",
+              "text": "구매 결정 이후에 고객은 현실로 돌아와서 냉철하게 솔루션의 효용을 다시 따져 보기 때문이다(남자들이 자동차 계약을 할 때까지는 흥분 상태에 있다가 계약서를 쓰고 나면 매월 들어가는 비용을 생각하기 시작하는 것과 비슷하다).",
+              "start": 0,
+              "end": 104
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r666",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r666",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r666",
+              "text": "그러면 오히려 고객으로부터 멀어지는 역효과가 발생한다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r670",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r670",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r670",
+              "text": "지속적인 협력은 결과적으로 정서적 유대감을 형성하게 하며, 결국 고객은 자기가 좋아하는 판매자를 선택하게 될 것이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r709",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r709",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r709",
+              "text": "고객의 분야와 고객의 관심에 맞는 ‘연관’된 언어를 선택하라.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r734",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r734",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r734",
+              "text": "고스팅(Ghosting): 경쟁사의 이름을 밝히지 않고, 간접적으로 경쟁사의 취약점을 공략함으로써 자사의 강점을 부각하는 것이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r743",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r743",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r743",
+              "text": "때에 따라 고객도 버릴 수 있어야 한다.",
+              "start": 0,
+              "end": 26
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r744",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r744",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r744",
+              "text": "필자가 회사를 운영하면서 영업대표에게 강조하는 것은 '고객을 버릴 수 있어야 한다'는 점이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r745",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r745",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r745",
+              "text": "고객을 버려야 하는 경우는 두 가지이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "ConditionalRule",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r746",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r746",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r746",
+              "text": "우선 고객에게 우리의 솔루션이 적절하지 못한 경우이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "NecessaryCondition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "FACT_ASSERTION",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

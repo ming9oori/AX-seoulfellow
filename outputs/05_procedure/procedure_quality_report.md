@@ -3,7 +3,7 @@
 Generated: 2026-06-27
 
 - Procedure structures: 22
-- Procedure edges: 906
+- Procedure edges: 947
 - PRECEDES edges: 77
 - Type violations: 0
 - ProcedureStep order duplicate check: PASS

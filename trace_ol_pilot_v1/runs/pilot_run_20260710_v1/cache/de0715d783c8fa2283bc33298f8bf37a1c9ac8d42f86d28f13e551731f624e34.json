@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_0419527fefb295a7006a50c64001e881989944beb81a9854bf",
+  "usage": {
+    "input_tokens": 2464,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1742,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4206
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1325",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1325",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1325",
+              "text": "•리스크별 발생 확률 기준\n\n| 확률 | 상 | 중 | 하 |\n| --- | --- | --- | --- |\n| 수준 | 높음 | 가능성 있음 | 낮음 |",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1326",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1326",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1326",
+              "text": "•리스크별 사업 영향 분석 기준\n\n| 확률 | 상 | 중 | 하 |\n| --- | --- | --- | --- |\n| 수준 | 치명적 | 중간 | 사소함 |",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1327",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1327",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1327",
+              "text": "•리스크별 위험등급 분석 기준\n\n|  |  | 영향 |  |\n| --- | --- | --- | --- |\n| 확률 | 상 | 중 | 하 |\n| 상 | HIGH | HIGH | MEDIUM |\n| 중 | HIGH | MEDIUM | LOW |\n| 하 | MEDIUM | LOW | LOW |",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1329",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1329",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1329",
+              "text": "• 분야별 리스크 요소 식별 및 세부 리스크 내용 분석\n\n| 리스크 요소 | 세부 내용 |\n| --- | --- |\n| 일정 지연 | 제안사와 IPT<sup>*</sup>, 제안사와 협력업체 간 일체감 부족 및 이질감 발생 |\n| 비용 증대 | 기술요소 변경에 따른 비용 및 투입 인력 변경<br>추가 요구사항 및 구축 범위 변경에 따른 비용 증가 |\n\n<sup>*</sup> IPT(Integrated Product Team): 제품 통합 관리팀",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1331",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1331",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1331",
+              "text": "• 리스크 분석 기준을 활용한 리스크별 세부 분석\n\n| 확률 | 세부 설명 | 영향 | 발생 확률 | 위험도 |\n| --- | --- | --- | --- | --- |\n| 일정 지연 | 제안사와 IPT, 제안사와 협력 업체 간 일체감 부족 및 이질감 발생 | 중 | 상 | H |\n| 비용 증대 | 기술요소 변경에 따른 비용 및 투입 인력 변경 | 상 | 하 | M |\n| 비용 증대 | 추가 요구사항 및 구축 범위 변경에 따른 비용 증가 | 상 | 상 | H |",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

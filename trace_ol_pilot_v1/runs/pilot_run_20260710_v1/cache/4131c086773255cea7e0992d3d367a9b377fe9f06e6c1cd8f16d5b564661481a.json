@@ -1,0 +1,495 @@
+{
+  "response_id": "resp_051ef1641a57693b006a50cc9ba520819b8b0df834d58ffa6f",
+  "usage": {
+    "input_tokens": 2883,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 3044,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5927
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1094",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1095",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1094",
+              "text": "사진과 캡션을 통해 강점과 고객의 이슈를 연계했다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1096",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1095",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1096",
+              "text": "약점을 최소화하는 것은 전략 수립 중에서 가장 어려운 부분인 만큼 제안 경쟁력에 크게 기여한다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1106",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1107",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1106",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1108",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1107",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1108",
+              "text": "쉬플리 해외지사의 특정 고객은 잠수함을 만드는 방산업체였다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1110",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1111",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1110",
+              "text": "쉬플리의 컨설팅으로 이 고객은 제안 전략을 전면 수정했다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1112",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1111",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1112",
+              "text": "그 메시지는 ‘우리는 5년 전에 00사고를 겪고, 지난 5년 동안 000 Man day 인력을 투입하고, 000억 원의 비용을 투자해서 000개의 핵심 기술을 확보했습니다’였다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1113",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1114",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1113",
+              "text": "이렇게 되자 그들의 고객은 입장이 바뀌었다.",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1115",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1114",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1115",
+              "text": "폭발이 있어서 많은 투자를 했고, 이제 검증된 기술을 확보한 회사와 폭발사고도 없었고, 투자도 없고, 검증된 기술도 없는 회사가 있다면 누구를 더 선호하겠는가?",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "DISCOURSE",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1311",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1312",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1311",
+              "text": "정공법과 역공법 중 어떤 방법을 선택할 것인가는 고객의 이슈를 얼마나 정확히 이해했는가에 달려 있다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1313",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1312",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1313",
+              "text": "중요한 것은 나의 장점이 아니라 우리 솔루션을 통해서 고객이 얻게 되는 효용과 핵심 이슈의 해결임을 명심하라.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1327",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1328",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:11",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1327",
+              "text": "•리스크별 위험등급 분석 기준\n\n|  |  | 영향 |  |\n| --- | --- | --- | --- |\n| 확률 | 상 | 중 | 하 |\n| 상 | HIGH | HIGH | MEDIUM |\n| 중 | HIGH | MEDIUM | LOW |\n| 하 | MEDIUM | LOW | LOW |",
+              "start": 0,
+              "end": 200
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1329",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1328",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:12",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1329",
+              "text": "• 분야별 리스크 요소 식별 및 세부 리스크 내용 분석\n\n| 리스크 요소 | 세부 내용 |\n| --- | --- |\n| 일정 지연 | 제안사와 IPT<sup>*</sup>, 제안사와 협력업체 간 일체감 부족 및 이질감 발생 |\n| 비용 증대 | 기술요소 변경에 따른 비용 및 투입 인력 변경<br>추가 요구사항 및 구축 범위 변경에 따른 비용 증가 |\n\n<sup>*</sup> IPT(Integrated Product Team): 제품 통합 관리팀",
+              "start": 0,
+              "end": 300
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1335",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1336",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:13",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1335",
+              "text": "제안사는 종종 자신들의 제안이 경쟁사보다 리스크가 적다는 점을 보여주려 하지만 리스크 관리의 핵심은 각 고객이 어느 정도의 리스크를 감당할 수 있는지를 이해하고, 고객의 니즈에 적합한 솔루션을 제시하는 것이다.",
+              "start": 0,
+              "end": 200
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1337",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1336",
+        "annotator": {
+          "role": "claim-extractor",
+          "model_id": "atomic-claim-extractor",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:14",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1337",
+              "text": "평가자는 일반적으로 제안 리스크(Proposal Risk)와 성과 리스크(Performance Risk)를 평가한다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

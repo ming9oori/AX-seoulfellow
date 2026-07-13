@@ -1,0 +1,56 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:39.744689+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "overall_status": "PASS",
+  "claim_status": "rdf_shacl_style_validation_pass_not_human_gold",
+  "summary": {
+    "node_count": 220,
+    "edge_count": 947,
+    "node_type_count": 10,
+    "predicate_type_count": 12,
+    "allowed_predicate_count": 27,
+    "domain_range_rule_count": 17,
+    "evidence_anchor_catalog_count": 5009,
+    "used_evidence_anchor_count": 451,
+    "rdf_statement_count": 19690,
+    "error_count": 0,
+    "warning_count": 0
+  },
+  "node_type_counts": {
+    "Artifact": 14,
+    "ArtifactFlow": 9,
+    "DecisionGateway": 4,
+    "DomainTask": 22,
+    "GuardCondition": 13,
+    "Principle": 5,
+    "ProcedureStep": 99,
+    "ReviewCheckpoint": 41,
+    "Risk": 3,
+    "Role": 10
+  },
+  "predicate_counts": {
+    "FEEDS_INTO": 9,
+    "HAS_DECISION_GATEWAY": 54,
+    "HAS_GUARD_CONDITION": 14,
+    "HAS_PRINCIPLE": 64,
+    "HAS_REVIEW_CHECKPOINT": 41,
+    "HAS_RISK": 39,
+    "HAS_STEP": 99,
+    "PERFORMED_BY": 120,
+    "PRECEDES": 77,
+    "PRODUCES": 220,
+    "USED_AS_INPUT_FOR": 9,
+    "USES_INPUT": 201
+  },
+  "issue_counts": {},
+  "severity_counts": {},
+  "issues": [],
+  "issue_count_truncated": 0,
+  "outputs": {
+    "rdf_ttl": "outputs/12_rdf/cape_kg_layer2.ttl",
+    "runtime_shapes_ttl": "outputs/12_rdf/cape_kg_runtime_shapes.shacl.ttl",
+    "summary_json": "outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+    "report_md": "outputs/12_rdf/cape_kg_shacl_validation_report.md"
+  }
+}

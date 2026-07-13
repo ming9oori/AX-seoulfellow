@@ -1,0 +1,10 @@
+{
+  "b2_minus_b3_accepted_mean": -116.6378,
+  "ci95": [
+    -166,
+    -73
+  ],
+  "cluster": "leakage_group_id",
+  "groups": 28,
+  "iterations": 5000
+}

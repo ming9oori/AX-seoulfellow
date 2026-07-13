@@ -1,0 +1,10 @@
+{
+  "completion_tokens": 2535,
+  "estimated_standard_cost_usd": 0.004353,
+  "input_usd_per_1m": 0.15,
+  "model": "gpt-4o-mini",
+  "output_usd_per_1m": 0.6,
+  "pricing_note": "Estimated from published per-1M token standard prices; actual bill can differ by service tier, caching, or account settings.",
+  "prompt_tokens": 18882,
+  "total_tokens": 21417
+}

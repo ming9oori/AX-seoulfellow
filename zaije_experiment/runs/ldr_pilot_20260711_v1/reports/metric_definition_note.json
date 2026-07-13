@@ -1,0 +1,8 @@
+{
+  "metric": "accepted_claim_exact_quote_validity",
+  "original_value": 0.7142857142857143,
+  "original_implementation": "claim quote valid AND all argument quotes valid",
+  "corrected_claim_only_value": 0.7936507936507936,
+  "final_claim_count": 63,
+  "policy": "The original metric file is preserved. The claim-only value is reported separately for comparability with v2."
+}

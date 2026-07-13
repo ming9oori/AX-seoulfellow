@@ -1,0 +1,17 @@
+{
+  "version": "TRACE-LLM-Silver-v0.1",
+  "total_targets": 180,
+  "tier_counts": {
+    "Silver-B": 39,
+    "Challenge": 72,
+    "Silver-A": 69
+  },
+  "resolved_coverage": 0.6,
+  "challenge_rate": 0.4,
+  "ab_agreement_rate": 0.3833,
+  "source_span_validity": 0.9638,
+  "semantic_invalid_claims_removed": 17,
+  "c_skipped_evidence": 0,
+  "independence": "pseudo-independent: same model snapshot, separate prompts and API calls",
+  "human_gold_available": false
+}

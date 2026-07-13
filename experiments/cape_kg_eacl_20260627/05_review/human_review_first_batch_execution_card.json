@@ -1,0 +1,199 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:34.087406+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "batch_id": "full_120_priority_batch_001",
+  "claim_status": "first_batch_execution_card_ready_pending_human_returns",
+  "current_gate_status": {
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "human_return_preflight_status": "pending_human_returns",
+    "minimum_paper_gate_ready_after_preflight": false,
+    "apply_scope": "no_return_files"
+  },
+  "batch_manifest": {
+    "batch_id": "full_120_priority_batch_001",
+    "package": "full_120",
+    "rank_start": 1,
+    "rank_end": 20,
+    "chunk_count": 20,
+    "chunk_ids": [
+      "JZ-CHUNK-0094",
+      "JZ-CHUNK-0020",
+      "JZ-CHUNK-0032",
+      "JZ-CHUNK-0016",
+      "JZ-CHUNK-0019",
+      "JZ-CHUNK-0002",
+      "JZ-CHUNK-0099",
+      "JZ-CHUNK-0017",
+      "JZ-CHUNK-0108",
+      "JZ-CHUNK-0018",
+      "JZ-CHUNK-0069",
+      "JZ-CHUNK-0033",
+      "JZ-CHUNK-0098",
+      "JZ-CHUNK-0101",
+      "JZ-CHUNK-0103",
+      "JZ-CHUNK-0104",
+      "JZ-CHUNK-0097",
+      "JZ-CHUNK-0196",
+      "JZ-CHUNK-0188",
+      "JZ-CHUNK-0092"
+    ],
+    "candidate_edges_total": 811,
+    "active_review_items_total": 41,
+    "high_impact_chunks": 7,
+    "annotator_files": {
+      "A": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+      "B": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl"
+    },
+    "reviewed_files": {
+      "A": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "B": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl"
+    },
+    "tracking_sheet": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/batch_tracking_sheet.csv",
+    "readme": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/README.md",
+    "preferred_wrapper_commands": {
+      "preflight": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+      "dry_run": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+      "apply": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+      "claim_status": "preferred_operational_path"
+    },
+    "import_commands": {
+      "A": {
+        "dry_run": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl --allow-partial",
+        "apply": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl --allow-partial --apply"
+      },
+      "B": {
+        "dry_run": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl --allow-partial",
+        "apply": "python3 scripts/import_cape_gold_annotation.py --experiment-dir experiments/cape_kg_eacl_20260627 --target-file experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl --reviewed-file experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl --allow-partial --apply"
+      }
+    },
+    "import_commands_claim_status": "low_level_debug_only_prefer_wrapper"
+  },
+  "priority_100_sampling": {
+    "claim_status": "gold_sampling_coverage_ready_pending_human_review",
+    "report_json": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json",
+    "report_markdown": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+    "selected_chunks": 100,
+    "minimum_gate_target_chunks": 100,
+    "batch_count": 5,
+    "batch_size": 20,
+    "priority_100_candidate_edges": 1371,
+    "full_120_candidate_edges": 1436,
+    "batch_candidate_edges": 811,
+    "batch_share_of_priority_candidate_edges": 0.591539,
+    "candidate_edge_coverage": 0.954735,
+    "active_review_coverage": 0.967033,
+    "high_impact_coverage": 1.0,
+    "not_gold_until": "two annotators complete the selected chunks, IAA is computed, and adjudication is imported"
+  },
+  "first_annotation_return_files": [
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_A",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    },
+    {
+      "requiredness": "required",
+      "required_for_minimum": "yes",
+      "task_type": "human_gold_annotation",
+      "owner": "annotator_B",
+      "batch_or_group": "full_120_priority_batch_001",
+      "expected_rows": "20",
+      "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+      "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+      "present": "no",
+      "status": "missing_reviewed_file",
+      "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+      "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+    }
+  ],
+  "common_files_to_open": {
+    "workbench": {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_workbench.html",
+      "exists": true,
+      "bytes": 28252
+    },
+    "annotation_guideline": {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+      "exists": true,
+      "bytes": 12652
+    },
+    "annotation_schema": {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_schema.json",
+      "exists": true,
+      "bytes": 741
+    },
+    "adjudication_protocol": {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/adjudication_protocol.md",
+      "exists": true,
+      "bytes": 10196
+    },
+    "calibration_pack": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_calibration_pack_ko.md",
+      "exists": true,
+      "bytes": 7970
+    },
+    "batch_readme": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/README.md",
+      "exists": true,
+      "bytes": 4242
+    },
+    "batch_preview_md": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/batch_review_preview.md",
+      "exists": true,
+      "bytes": 4287
+    },
+    "batch_preview_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/batch_review_preview.csv",
+      "exists": true,
+      "bytes": 4065
+    },
+    "batch_tracking_sheet": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/batch_tracking_sheet.csv",
+      "exists": true,
+      "bytes": 4628
+    },
+    "master_return_files": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+      "exists": true,
+      "bytes": 8192
+    },
+    "status_dashboard": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+      "exists": true,
+      "bytes": 12146
+    },
+    "launch_checklist": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+      "exists": true,
+      "bytes": 12049
+    }
+  },
+  "commands": {
+    "verify_handoff_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+    "validate_required_returns": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_human_return_apply": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_human_returns": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh"
+  },
+  "guardrails": [
+    "Input JSONL은 덮어쓰지 않고 reviewed_file 경로에 새로 저장합니다.",
+    "A/B annotator는 서로 결과를 보지 않고 독립적으로 검수합니다.",
+    "각 JSONL row는 한 줄에 하나의 JSON object 형식을 유지합니다.",
+    "accepted edge에는 evidence anchor 또는 exact span을 남깁니다.",
+    "첫 배치 20 chunks만으로 human-gold 최종 성능 claim을 하지 않습니다.",
+    "최소 논문 gate는 5개 batch A/B 10개 reviewed 파일과 adjudication reviewed 파일까지 필요합니다."
+  ],
+  "outputs": {
+    "markdown": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md",
+    "json": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card.json"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "b2_batch_input_sha256": "e5b60f76e8dd26b62786f16d3b479364be6ef769c785897596e98df1dfeb5bac",
+  "b2_requests": 29,
+  "b2_selection_sha256": "64bac1a697e2e568c37090a0581fe8874a478a4138c6b382f8e64aba431fb2f1",
+  "b3_batch_input_sha256": "5dc8b8931495ebbc41ba1307dc498d46025384058eb90a41b9898d64dc325de3",
+  "b3_requests": 146,
+  "candidate_pool_sha256": "4b24c80c2339635b3de99a77051bdb2a929e32e739c7e3c0211478cde3882815",
+  "confirmatory_membership_sha256": "53167e5d614b7760f2df5b346820884f869257294984e2af316274b111b29b69",
+  "test_access": 0
+}

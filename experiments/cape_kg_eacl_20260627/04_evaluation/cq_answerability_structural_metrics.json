@@ -1,0 +1,115 @@
+{
+  "cq_count": 12,
+  "answerable_cq_count": 12,
+  "cq_answerability_rate": 1.0,
+  "rows": [
+    {
+      "cq_id": "CQ1",
+      "question": "Task/step composition and order",
+      "required_predicates": "HAS_STEP,PRECEDES",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 176,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ2",
+      "question": "Task input artifacts",
+      "required_predicates": "USES_INPUT",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 201,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ3",
+      "question": "Task output artifacts",
+      "required_predicates": "PRODUCES",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 220,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ4",
+      "question": "Task responsible roles",
+      "required_predicates": "PERFORMED_BY",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 120,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ5",
+      "question": "Decision gateways",
+      "required_predicates": "HAS_DECISION_GATEWAY",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 54,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ6",
+      "question": "Decision guard conditions",
+      "required_predicates": "HAS_GUARD_CONDITION",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 14,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ7",
+      "question": "Artifact flow between tasks",
+      "required_predicates": "FEEDS_INTO,USED_AS_INPUT_FOR",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 18,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ8",
+      "question": "Review checkpoints",
+      "required_predicates": "HAS_REVIEW_CHECKPOINT",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 41,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ9",
+      "question": "Principles",
+      "required_predicates": "HAS_PRINCIPLE",
+      "support_source": "layer2_edges",
+      "supporting_edge_count": 64,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ10",
+      "question": "Evidence grounding",
+      "required_predicates": "EVIDENCED_BY",
+      "support_source": "edge.evidence_anchor_ids",
+      "supporting_edge_count": 947,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ11",
+      "question": "NCS capability alignment",
+      "required_predicates": "REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",
+      "support_source": "l2_ncs_mapping_candidates.jsonl",
+      "supporting_edge_count": 110,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    },
+    {
+      "cq_id": "CQ12",
+      "question": "PCF process context",
+      "required_predicates": "PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",
+      "support_source": "l2_pcf_mapping_candidates.jsonl",
+      "supporting_edge_count": 110,
+      "answerable_by_current_kg": true,
+      "claim_status": "kg_structural_diagnostic_not_human_gold"
+    }
+  ]
+}

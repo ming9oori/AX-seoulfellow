@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.780193+00:00",
+  "mode": "dry_run",
+  "source_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+  "target_rows": 20,
+  "reviewed_rows": 20,
+  "selected_source_ids": [
+    "L2_TASK_BID_NO_BID_DECISION",
+    "L2_TASK_BID_VALIDATION"
+  ],
+  "errors": [],
+  "warnings": [],
+  "summary": {
+    "changed_rows": 20,
+    "completed_rows": 20,
+    "pending_rows": 0,
+    "decision_counts": {
+      "accepted": 2,
+      "rejected": 18
+    },
+    "utility_grade_counts": {
+      "0": 18,
+      "3": 2
+    },
+    "explanation_quality_counts": {
+      "3": 18,
+      "5": 2
+    }
+  },
+  "status": "validated_dry_run"
+}

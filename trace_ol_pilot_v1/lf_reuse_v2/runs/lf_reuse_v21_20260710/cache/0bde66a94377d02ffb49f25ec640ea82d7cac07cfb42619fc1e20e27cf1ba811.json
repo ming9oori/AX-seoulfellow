@@ -1,0 +1,128 @@
+{
+  "response_id": "resp_06f93a7e310fb96c006a5118332fd8819bbf52a0511618e656",
+  "usage": {
+    "input_tokens": 1451,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 661,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2112
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r946",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r946",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r946",
+              "text": "고객조직의 평가자에게 미치는 영향력이 전혀 없다면 그 조직을 분석하지 말고, 평가위원회를 분석하라.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [
+              {
+                "role": "Condition",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r946",
+                  "text": "고객조직의 평가자에게 미치는 영향력이 전혀 없다면",
+                  "start": 0,
+                  "end": 30
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Condition"
+              },
+              {
+                "role": "Action",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r946",
+                  "text": "그 조직을 분석하지 말고, 평가위원회를 분석하라.",
+                  "start": 31,
+                  "end": 56
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Task"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1296",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1296",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1296",
+              "text": "전략 개발 평가 기준 두 가지는 ① 고객에게 중요한가(Importance)와 ②경쟁사와 차별화되는 특징인가(Difference)임을 명심하라.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [
+              {
+                "role": "Condition",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r1296",
+                  "text": "전략 개발 평가 기준 두 가지는 ① 고객에게 중요한가(Importance)와 ②경쟁사와 차별화되는 특징인가(Difference)",
+                  "start": 0,
+                  "end": 66
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

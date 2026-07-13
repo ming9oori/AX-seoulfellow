@@ -1,0 +1,84 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:21.633147+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "packages": [
+    {
+      "package": "pilot_30",
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30",
+      "files": {
+        "annotator_A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_A.jsonl",
+        "annotator_B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_B.jsonl",
+        "adjudication": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/adjudication.jsonl"
+      },
+      "chunk_count": 30,
+      "annotator_A_rows": 30,
+      "annotator_B_rows": 30,
+      "adjudication_rows": 30,
+      "annotator_A_completed_chunks": 0,
+      "annotator_B_completed_chunks": 0,
+      "paired_completed_chunks": 0,
+      "ready_for_adjudication_chunks": 0,
+      "adjudicated_chunks": 0,
+      "workflow_status_counts": {
+        "pending_two_annotators": 30
+      },
+      "batch_assigned_chunks": 0,
+      "batch_assignment_summary_file": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "batch_chunks_missing_from_package": 0,
+      "package_chunks_not_in_priority_batch": 30,
+      "gold_counts": {
+        "adjudicated_gold_nodes": 0,
+        "adjudicated_gold_edges": 0,
+        "adjudicated_gold_evidence_links": 0,
+        "gold_item_count_for_readiness": 0
+      },
+      "issue_count": 0,
+      "error_count": 0,
+      "warning_count": 0,
+      "minimum_gate_pass": false
+    },
+    {
+      "package": "full_120",
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120",
+      "files": {
+        "annotator_A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+        "annotator_B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_B.jsonl",
+        "adjudication": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl"
+      },
+      "chunk_count": 120,
+      "annotator_A_rows": 120,
+      "annotator_B_rows": 120,
+      "adjudication_rows": 120,
+      "annotator_A_completed_chunks": 0,
+      "annotator_B_completed_chunks": 0,
+      "paired_completed_chunks": 0,
+      "ready_for_adjudication_chunks": 0,
+      "adjudicated_chunks": 0,
+      "workflow_status_counts": {
+        "pending_two_annotators": 120
+      },
+      "batch_assigned_chunks": 100,
+      "batch_assignment_summary_file": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "batch_chunks_missing_from_package": 0,
+      "package_chunks_not_in_priority_batch": 20,
+      "gold_counts": {
+        "adjudicated_gold_nodes": 0,
+        "adjudicated_gold_edges": 0,
+        "adjudicated_gold_evidence_links": 0,
+        "gold_item_count_for_readiness": 0
+      },
+      "issue_count": 20,
+      "error_count": 0,
+      "warning_count": 0,
+      "minimum_gate_pass": false
+    }
+  ],
+  "total_error_count": 0,
+  "total_warning_count": 0,
+  "overall_qc_status": "pending_human_annotation",
+  "full_120_minimum_gate_status": "pending_human_annotation",
+  "issue_csv": "experiments/cape_kg_eacl_20260627/05_review/annotation_qc_issues.csv",
+  "gate_worklist_csv": "experiments/cape_kg_eacl_20260627/05_review/annotation_completion_gate_worklist.csv",
+  "summary_json": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_summary.json",
+  "report_md": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_report.md"
+}

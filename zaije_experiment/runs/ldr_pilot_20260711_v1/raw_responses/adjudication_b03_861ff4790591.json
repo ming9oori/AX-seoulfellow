@@ -1,0 +1,303 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795451,
+  "created_at": 1783795435,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_083aece1368f6675006a528eebf84c819b94453e2aec1509dc",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"adjudications\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-1309\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c9\",\"claim_quote\":\"가격이나 디자인이 중요하시면 G자동차를 구매하는 것이 정답이고, 안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.\",\"claim_family\":\"DECISIONAL\",\"claim_type\":\"DECISION_TRIGGER\",\"arguments\":[{\"role\":\"condition\",\"quote\":\"가격이나 디자인이 중요하시면\",\"normalized_label\":\"if price or design is important\"},{\"role\":\"condition\",\"quote\":\"안전성을 중요시한다면\",\"normalized_label\":\"if safety is important\"},{\"role\":\"effect_positive\",\"quote\":\"G자동차를 구매하는 것이 정답이다\",\"normalized_label\":\"purchase G car\"},{\"role\":\"effect_positive\",\"quote\":\"저희 차를 구매하는 것이 좋다\",\"normalized_label\":\"purchase our car\"}],\"predicate\":\"구매 결정은 중요시하는 요소에 따라 달라진다\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":\"가격이나 디자인 중요 vs 안전성 중요\",\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"1\",\"claim_quote\":\"안전성을 중요시한다면 저희 차를 구매하시는 것이 좋을 것 같습니다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"RECOMMENDATION\",\"arguments\":[],\"predicate\":\"구매 추천\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"REBUTTAL\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Both claims are directly supported by the evidence. X provides a more complete conditional structure, while Y isolates a specific recommendation. Both are justified.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-208\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"must include\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"기업에 필요한 프로세스\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c2\",\"claim_quote\":\"•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"NECESSARY_CONDITION\",\"arguments\":[{\"role\":\"condition\",\"quote\":\"각 단계에서의 구체적인 행동 방법론(Tool)\",\"normalized_label\":\"specific action methodology (Tool) at each step\"}],\"predicate\":\"must exist\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"기업에 필요한 프로세스\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Both claims are supported by the evidence. X frames it as a process order, Y as a necessary condition with an explicit argument. Both are justified and can be merged.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-21\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"claim_1\",\"claim_quote\":\"그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"is essential to find\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"수주하는 제안\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c1\",\"claim_quote\":\"그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)\",\"normalized_label\":\"Long Term Positioning and Opportunity Planning\"},{\"role\":\"activity_output\",\"quote\":\"빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스\",\"normalized_label\":\"Effort and process to find unstated customer needs\"}],\"predicate\":\"필수이다\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"수주하는 제안\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Both claims are supported by the evidence. X provides a general process order, Y adds explicit activities and outputs. Both are justified and can be merged.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-243\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c3\",\"claim_quote\":\"단계 3: 수주전략 수립\\n\\n• 수주전략 초안 개발 / 리뷰\\n(리뷰된 수주전략을 Capture Plan에 포함)\\n• 수주전략의 실행계획 적용\\n• 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"수주전략 초안 개발 / 리뷰\",\"normalized_label\":\"develop and review draft order-winning strategy\"},{\"role\":\"activity\",\"quote\":\"수주전략의 실행계획 적용\",\"normalized_label\":\"apply execution plan of order-winning strategy\"},{\"role\":\"activity\",\"quote\":\"수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계\",\"normalized_label\":\"update order-winning strategy and design draft proposal summary (Executive Summary)\"}],\"predicate\":\"are steps in\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"단계 3: 수주전략 수립\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c4\",\"claim_quote\":\"리뷰된 수주전략을 Capture Plan에 포함\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"ACTIVITY_OUTPUT\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"리뷰된 수주전략\",\"normalized_label\":\"reviewed order-winning strategy\"},{\"role\":\"output\",\"quote\":\"Capture Plan\",\"normalized_label\":\"Capture Plan\"}],\"predicate\":\"is included in\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"수주전략 초안 개발 / 리뷰\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c5\",\"claim_quote\":\"• 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"ACTIVITY_OUTPUT\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계\",\"normalized_label\":\"update order-winning strategy and design draft proposal summary (Executive Summary)\"}],\"predicate\":\"produces\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"단계 3: 수주전략 수립\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"1\",\"claim_quote\":\"단계 3: 수주전략 수립\\n\\n| 활동(Activity) | 결과물(Output) |\\n| --- | --- |\\n| • 수주전략 초안 개발 / 리뷰<br>(리뷰된 수주전략을 Capture Plan에 포함)<br>• 수주전략의 실행계획 적용<br>• 수주전략 업데이트 및 제안 요약(Executive Summary)<br>초안 설계 | • Capture Plan 초안<br><br>• Executive Summary<br>초안 |\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"involves\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Y provides more granular claims and arguments, all supported by the evidence. X's general process order is also supported. All can be merged.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-283\",\"decision\":\"MERGE_SUPPORTED_FIELDS\",\"final_claims\":[{\"claim_local_id\":\"c6\",\"claim_quote\":\"단계 6: 섹션기획서 준비 및 작성\\n\\n• 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이 작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과 핵심 정보를 제공해야 함\\n• 요구조건 응답표 작성, 상용 콘텐츠 준비\\n• 제안서 킥오프 미팅\\n• 섹션기획서 리뷰\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"섹션기획서 준비, 작성자 정보제공 내용 준비\",\"normalized_label\":\"prepare section planning document and provide author information\"},{\"role\":\"activity\",\"quote\":\"요구조건 응답표 작성, 상용 콘텐츠 준비\",\"normalized_label\":\"prepare requirements response table and commercial content\"},{\"role\":\"activity\",\"quote\":\"제안서 킥오프 미팅\",\"normalized_label\":\"proposal kickoff meeting\"},{\"role\":\"activity\",\"quote\":\"섹션기획서 리뷰\",\"normalized_label\":\"review section planning document\"}],\"predicate\":\"are steps in\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"단계 6: 섹션기획서 준비 및 작성\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"c7\",\"claim_quote\":\"• 섹션기획서\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"ACTIVITY_OUTPUT\",\"arguments\":[{\"role\":\"activity\",\"quote\":\"섹션기획서 준비 및 작성\",\"normalized_label\":\"preparation and writing of section planning document\"}],\"predicate\":\"produces\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":\"단계 6: 섹션기획서 준비 및 작성\",\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]},{\"claim_local_id\":\"1\",\"claim_quote\":\"단계 6: 섹션기획서 준비 및 작성\\n\\n| 활동(Activity) | 결과물(Output) |\\n| --- | --- |\\n| • 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이<br>작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과<br>핵심 정보를 제공해야 함<br>• 요구조건 응답표 작성, 상용 콘텐츠 준비<br>• 제안서 킥오프 미팅<br>• 섹션기획서 리뷰 | • 섹션기획서 |\",\"claim_family\":\"PROCEDURAL\",\"claim_type\":\"PROCESS_ORDER\",\"arguments\":[],\"predicate\":\"requires\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}],\"reason_codes\":[\"Both candidates are supported by the evidence. X provides detailed activities and outputs, Y provides a summary process order. All can be merged.\"]}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_083aece1368f6675006a528eec59d8819b833c2a276dafb504",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_adjudications",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "adjudications": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "decision": {
+                  "enum": [
+                    "ACCEPT_X",
+                    "ACCEPT_Y",
+                    "MERGE_SUPPORTED_FIELDS",
+                    "REJECT_BOTH",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "final_claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "reason_codes": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "decision",
+                "final_claims",
+                "reason_codes"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "adjudications"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 7243,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2629,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9872
+  },
+  "user": null
+}

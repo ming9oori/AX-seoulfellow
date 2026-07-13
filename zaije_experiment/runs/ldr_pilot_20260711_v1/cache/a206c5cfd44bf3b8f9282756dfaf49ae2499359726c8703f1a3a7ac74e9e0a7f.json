@@ -1,0 +1,188 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "ad48efa5465bea53cb241605c59d1f1f895c202ed3435ab011f05680a23ab6a8",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "claim_1",
+            "claim_quote": "•전반적으로 점수가 올바르게 평가되었는가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1006",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "47b4df347a519775c3bdd46d1df42d398adf38b1110795651814c551a4ef5b24",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "고객의 TCO 고려 - 5년간 유지비용 최소화(가격)",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_2",
+            "claim_quote": "제품의 레퍼런스(유통 분야) - 검증되어 안정적으로 사용할 수 있는 제품(서버, 네트워크)",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_3",
+            "claim_quote": "안정적인 사업관리 - 그랜드 오픈 후 2개월(안정화)까지 안정적인 지원",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_4",
+            "claim_quote": "향후 발전방향의 제시 - 향후 사업의 방향",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1046",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "c155e88e2cf5d4f87b5f5e5de0aed31ca16a06b25158f1251e9a8282707733c7",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "제안 전략이란 반드시 이 네 가지 목적 중 하나 이상을 달성하는 것이다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1061",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "27d2a7e91ca84a3e43fbf21be0834f14f9f4bd3b4ad1744d00ec21702ec929bd",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "핵심 단어의 선명성\n- 최적화된 운영매뉴얼 교육 제공(×) \n- 30분 내 조립할 수 있는 운영매뉴얼 1박 2일 교육 프로그램 제시(○)",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1138",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "09604f0967a4463ce0535758e8499c7ecb7401cf31e2a2e3efde2ca307c90ea9",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "고객의 부정적 인식이 실제 우리 솔루션의 문제에서 비롯되었다면 우리는 이 솔루션을 고객에 맞게 최적화하고, 고객이 오해한 것이라면 고객의 인식을 교정해야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-1171",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b07_a206c5cfd44b.json",
+  "response_id": "resp_0ebd4a9d9b04bf74006a528d7d466081989798c7f9d67bef4d",
+  "usage": {
+    "input_tokens": 4145,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1225,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5370
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "380681ea77ebb78b7616e9911344f4626ad7b02548152bb33899de3fac7060dd",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Proposal Drafting Activities",
+                "quote": "텍스트, 그래픽 제작; 제안서 업데이트 미팅",
+                "role": "Activity"
+              },
+              {
+                "normalized_label": "Proposal Draft",
+                "quote": "제안서 초안",
+                "role": "Output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "단계 3: 제안서 작성\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 텍스트, 그래픽 제작<br>• 제안서 업데이트 미팅 | • 제안서 초안 |",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "has process step with activities producing output",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "단계 3: 제안서 작성",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-289",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "e5622905553a9af3ef989622e36dfacb10534073e25c3335477f762c56118d67",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Sales",
+                "quote": "세일즈",
+                "role": "Concept1"
+              },
+              {
+                "normalized_label": "Business Development",
+                "quote": "B/D",
+                "role": "Concept2"
+              },
+              {
+                "normalized_label": "Sales uses a narrowing approach to find actual buyers; B/D proposes appropriate solutions to customers to help management (increase sales or reduce costs)",
+                "quote": "세일즈는 가망 고객 중에서 실제 구매할 고객의 범위를 좁혀 가면서 찾는 저인망식 접근; B/D는 고객에게 적절한 솔루션을 제안하고 고객이 이를 구매하여 궁극적으로 경영에 도움(매출 향상이나 비용 절감)이 되도록 해야 한다",
+                "role": "Difference"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c2",
+            "claim_quote": "세일즈는 가망 고객 중에서 실제 구매할 고객의 범위를 좁혀 가면서 찾는 저인망식 접근을 하지만 B/D는 고객에게 적절한 솔루션을 제안하고 고객이 이를 구매하여 궁극적으로 경영에 도움(매출 향상이나 비용 절감)이 되도록 해야 한다.",
+            "claim_type": "COMPARISON_FORMULA",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "differs from",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-329",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "de4fe8fc1d80889626c4e3ffe445ac93c87a5a892525264fb84fc594d9942bd8",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Sales process aligned with customer purchase process",
+                "quote": "고객의 구매 프로세스와 일치하는 판매 프로세스가 있어야 한다",
+                "role": "Condition"
+              },
+              {
+                "normalized_label": "Company-wide organizational response",
+                "quote": "전사 차원의 조직적 대응이 필요하다",
+                "role": "Requirement"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "이를 위해서는 고객의 구매 프로세스와 일치하는 판매 프로세스가 있어야 하고, 전사 차원의 조직적 대응이 필요하다.",
+            "claim_type": "NECESSARY_CONDITION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "requires",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "이를 위해서는",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-340",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "77babab9f043935c45d0544e732bf216685073e18b6408fd309d35d62321f7a0",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "After RFP issuance",
+                "quote": "RFP가 발행된 이후",
+                "role": "Condition"
+              },
+              {
+                "normalized_label": "Formal communication opportunities such as proposal or presentation",
+                "quote": "제안서 또는 프레젠테이션 같은 공식적 소통의 기회",
+                "role": "Opportunity"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c4",
+            "claim_quote": "RFP가 발행된 이후에 우리가 고객에게 영향을 끼칠 수 있는 기회는 제안서 또는 프레젠테이션 같은 공식적 소통의 기회뿐이다.",
+            "claim_type": "NECESSARY_CONDITION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "is limited to",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-349",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "0a15671ebd3c6ce8104a4a5ddbd3757da0c34c99a16dede09bb428eba9f3997e",
+        "claims": [],
+        "evidence_id": "zaije:evidence/xlsx-row-361",
+        "no_claim_reason": "The text is a hypothetical question and does not assert a definitional, procedural, or normative claim."
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r2_b03_5e5dab59493d.json",
+  "response_id": "resp_0054cd848e730efb006a528e33fa80819bb6fef21d8c596311",
+  "usage": {
+    "input_tokens": 3113,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4319
+  }
+}

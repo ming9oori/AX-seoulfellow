@@ -1,0 +1,50 @@
+experiment_id: zaije-scale-awc-v1
+status: PHASE0_LOCKED_AWAITING_HUMAN_PILOT
+seed: 20260711
+design:
+  file: 자이제_1_온톨로지_구축_실험설계서.md
+  version: "1.0"
+input:
+  file: legacy/자이제_1.xlsx
+  sheet: clean_sentences
+  binary_sha256: 9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb
+  declared_content_sha256: de55c3184b7eba79db0694f1c89cd0a8f56dcb873d00c9f96df4e2deafc503d9
+  canonical_hash_algorithm: canonical-jsonl-v1
+  canonical_content_sha256: 84d45b50acc542497df2f19bf8c3ad395f2ed223e6cfeb02be467c9f80f54906
+  canonical_hash_status: AMENDED_BEFORE_TEST
+  amendment_reason: The design-declared content hash is not reproducible from its prose algorithm; canonical-jsonl-v1 is now explicit and locked before Gold annotation.
+splits:
+  induction: 0.50
+  validation: 0.20
+  test_natural: 0.20
+  test_challenge_pool: 0.10
+gold:
+  pilot: 40
+  induction: 100
+  validation: 80
+  test_natural: 140
+  test_challenge: 60
+  independent_annotators: 2
+  requires_domain_expert: true
+  requires_ontology_researcher: true
+primary_budget:
+  gray_zone_review_ratio: 0.20
+  max_token_ratio_vs_full_awc: 0.35
+budget_sweep: [0.00, 0.05, 0.10, 0.20, 0.40, 1.00]
+noninferiority:
+  f1_margin: -0.05
+  critical_error_margin: 0.02
+primary_metrics:
+  - critical_semantic_error_rate
+  - ruleframe_slot_f1
+  - ontology_edge_macro_f1
+  - llm_token_ratio
+locked_components:
+  - awc_schema_hash
+  - relation_registry_hash
+  - split_manifest_hash
+  - prompt_hash
+  - model_snapshot
+  - lf_registry_hash
+  - threshold_config_hash
+  - evaluation_code_hash

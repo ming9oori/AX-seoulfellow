@@ -1,0 +1,9 @@
+{
+  "attempts": 936,
+  "cache_hits": 0,
+  "estimated_cost_usd": 0.73452,
+  "failed_attempts": 0,
+  "input_tokens": 347259,
+  "output_tokens": 26449,
+  "real_calls": 936
+}

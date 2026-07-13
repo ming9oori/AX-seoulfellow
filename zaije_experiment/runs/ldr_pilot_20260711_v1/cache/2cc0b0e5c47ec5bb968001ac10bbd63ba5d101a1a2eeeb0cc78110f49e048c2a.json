@@ -1,0 +1,140 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "dc450c2992497a8c93fd52854aed4e46a1b8351392beab9110dc43618677a2cc",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "1",
+            "claim_quote": "분석적 평가자는 항목별로 평가한 후 집계하는 반면, 통합적 평가자는 총점(또는 등수)을 먼저 정한 후에 이를 배분한다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "describes",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-553",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "18c57d6b1edffd9777850098ff7ff6e08188c6d5303ad28e21d0d7b48b38baed",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "현실적으로 통합형/분석형 평가자가 섞여 평가위원회가 구성되는 것이 일반적이므로 제안팀을 구성할 때 이를 고려하는 것이 필요하다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "recommends",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-590",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "38b019fa82dba3a3f6691337239778f19ab91f240b5a8baef37be110f256031e",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "이 단계에서 고객의 목표 달성을 통해 우리가 이루어야 할 것들은 무엇인가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "questions",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-663",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "d5c8045e2387f3ac3d46e69b90b12038fd6aa0a9470241e26c173eb3c3f72543",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "결합(Composition): 말하기와 글쓰기를 할 때 특정 메시지를 강조하기 위하여 아래 요소를 사용하는 것을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "defines",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-699",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "c139850fe87cf77215b0cb4e5b1cc051aee05af72558e54aae714cd325755d71",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "귀사의 IT 시스템을 분석한 결과 시스템의 리엔지니어링 필요성을 제기합니다.",
+            "claim_type": "QUOTATION",
+            "condition_quote": null,
+            "discourse_status": "QUOTATION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "quotes",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-711",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r1_b05_2cc0b0e5c47e.json",
+  "response_id": "resp_092feaaf88b0488b006a528cde83a8819a93c1af1edea927bf",
+  "usage": {
+    "input_tokens": 3123,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 903,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4026
+  }
+}

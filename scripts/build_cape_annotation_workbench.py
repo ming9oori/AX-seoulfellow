@@ -1,0 +1,789 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Build a static CAPE-KG annotation workbench HTML file."""
+
+import argparse
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+DEFAULT_EXP_DIR = Path("experiments/cape_kg_eacl_20260627")
+
+
+HTML_TEMPLATE = r"""<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CAPE-KG Annotation Workbench</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --line: #d8dde6;
+      --text: #18212f;
+      --muted: #657186;
+      --accent: #1677c2;
+      --ok: #15803d;
+      --warn: #b45309;
+      --bad: #b91c1c;
+      --chip: #eef2f7;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      letter-spacing: 0;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 12px 18px;
+      background: #1f2937;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    header .meta {
+      color: #d7dde7;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    main {
+      display: grid;
+      grid-template-columns: 330px minmax(0, 1fr);
+      min-height: calc(100vh - 49px);
+    }
+    aside {
+      border-right: 1px solid var(--line);
+      background: var(--panel);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .toolbar {
+      padding: 12px;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 8px;
+    }
+    input[type="file"], select, input, textarea, button {
+      font: inherit;
+      font-size: 13px;
+    }
+    input[type="text"], select, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px;
+      background: white;
+      color: var(--text);
+    }
+    button {
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      background: white;
+      color: var(--text);
+      padding: 7px 10px;
+      cursor: pointer;
+      min-height: 32px;
+    }
+    button.primary {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    button.danger {
+      color: var(--bad);
+    }
+    button.good {
+      color: var(--ok);
+    }
+    button:disabled {
+      opacity: .55;
+      cursor: not-allowed;
+    }
+    .row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .row > * { flex: 1; }
+    .chunk-list {
+      overflow: auto;
+      flex: 1;
+    }
+    .chunk-item {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      cursor: pointer;
+      display: grid;
+      gap: 4px;
+    }
+    .chunk-item.active {
+      background: #e8f2fb;
+      border-left: 4px solid var(--accent);
+      padding-left: 8px;
+    }
+    .chunk-id {
+      font-weight: 700;
+      font-size: 13px;
+    }
+    .chunk-small {
+      color: var(--muted);
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      width: fit-content;
+      max-width: 100%;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 11px;
+      background: var(--chip);
+      color: var(--muted);
+    }
+    .status.done { color: var(--ok); background: #dcfce7; }
+    .status.warn { color: var(--warn); background: #fef3c7; }
+    .status.bad { color: var(--bad); background: #fee2e2; }
+    section.workspace {
+      overflow: auto;
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+    .band {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      display: grid;
+      gap: 12px;
+    }
+    .band h2 {
+      margin: 0;
+      font-size: 16px;
+    }
+    .band h3 {
+      margin: 0;
+      font-size: 14px;
+    }
+    .chunk-text {
+      white-space: pre-wrap;
+      line-height: 1.55;
+      font-size: 14px;
+      background: #fbfcfe;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px;
+      max-height: 260px;
+      overflow: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      font-size: 12px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 7px 6px;
+      vertical-align: top;
+      word-break: break-word;
+    }
+    th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 700;
+      background: #f8fafc;
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+    label {
+      display: grid;
+      gap: 4px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    label > span {
+      color: var(--muted);
+    }
+    .empty {
+      color: var(--muted);
+      padding: 16px;
+      text-align: center;
+      border: 1px dashed var(--line);
+      border-radius: 6px;
+      background: #fbfcfe;
+    }
+    .json-box {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      min-height: 130px;
+      resize: vertical;
+    }
+    .split {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+    }
+    .counter {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px;
+    }
+    .counter div {
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 8px;
+    }
+    .counter strong {
+      display: block;
+      font-size: 18px;
+    }
+    @media (max-width: 900px) {
+      main { grid-template-columns: 1fr; }
+      aside { min-height: 360px; border-right: 0; border-bottom: 1px solid var(--line); }
+      .split, .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      header { align-items: flex-start; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CAPE-KG Annotation Workbench</h1>
+    <div class="meta">Generated: __GENERATED_AT__</div>
+  </header>
+  <main>
+    <aside>
+      <div class="toolbar">
+        <input id="fileInput" type="file" accept=".jsonl,.json">
+        <div class="row">
+          <select id="statusFilter">
+            <option value="all">All statuses</option>
+            <option value="pending">Pending</option>
+            <option value="completed">Completed</option>
+            <option value="needs">Needs adjudication</option>
+            <option value="adjudicated">Adjudicated</option>
+          </select>
+          <button id="exportBtn" class="primary" disabled>Export</button>
+        </div>
+        <input id="searchBox" type="text" placeholder="Search chunk, section, text">
+        <div class="counter">
+          <div><strong id="countAll">0</strong><span>all</span></div>
+          <div><strong id="countDone">0</strong><span>done</span></div>
+          <div><strong id="countNeeds">0</strong><span>needs</span></div>
+          <div><strong id="countPending">0</strong><span>pending</span></div>
+        </div>
+      </div>
+      <div id="chunkList" class="chunk-list">
+        <div class="empty">Load an annotator or adjudication JSONL file.</div>
+      </div>
+    </aside>
+    <section class="workspace">
+      <div id="workspaceEmpty" class="empty">No chunk selected.</div>
+      <div id="workspace" style="display:none"></div>
+    </section>
+  </main>
+
+  <script>
+    const NODE_TYPES = [
+      "DomainTask", "ProcedureStep", "DecisionGateway", "GuardCondition",
+      "Artifact", "ArtifactFlow", "Role", "ReviewCheckpoint", "Principle", "Risk",
+      "EvidenceAnchor", "NCSCompetencyUnit", "PCFElement", "MappingCandidate"
+    ];
+    const EDGE_TYPES = [
+      "HAS_STEP", "PRECEDES", "BRANCHES_TO", "HAS_GUARD_CONDITION",
+      "USES_INPUT", "PRODUCES", "FEEDS_INTO", "PERFORMED_BY",
+      "HAS_DECISION_GATEWAY", "HAS_REVIEW_CHECKPOINT", "HAS_PRINCIPLE",
+      "HAS_RISK", "EVIDENCED_BY", "REQUIRES_CAPABILITY", "PROCESS_CONTEXT",
+      "CANDIDATE_ALIGNS_WITH", "USED_AS_INPUT_FOR"
+    ];
+
+    let rows = [];
+    let filename = "cape_annotation.jsonl";
+    let selectedIndex = -1;
+
+    const $ = (id) => document.getElementById(id);
+    const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (ch) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[ch]));
+
+    function parseJsonl(text) {
+      return text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean).map((line, idx) => {
+        try {
+          return JSON.parse(line);
+        } catch (err) {
+          throw new Error(`JSON parse error on line ${idx + 1}: ${err.message}`);
+        }
+      });
+    }
+
+    function rowMode(row) {
+      if (!row) return "annotation";
+      return ("adjudicated_gold_edges" in row || "adjudication_status" in row) ? "adjudication" : "annotation";
+    }
+
+    function statusOf(row) {
+      if (!row) return "";
+      return row.adjudication_status || row.annotation_status || "missing";
+    }
+
+    function statusClass(status) {
+      if (["completed", "adjudicated", "no_disagreement_adjudicated", "final"].includes(status)) return "done";
+      if (["needs_adjudication"].includes(status)) return "warn";
+      if (status.includes("rejected") || status.includes("error")) return "bad";
+      return "";
+    }
+
+    function visibleRows() {
+      const query = $("searchBox").value.trim().toLowerCase();
+      const filter = $("statusFilter").value;
+      return rows.map((row, index) => ({row, index})).filter(({row}) => {
+        const status = statusOf(row);
+        const statusOk =
+          filter === "all" ||
+          (filter === "pending" && status.includes("pending")) ||
+          (filter === "completed" && ["completed", "no_disagreement_adjudicated"].includes(status)) ||
+          (filter === "needs" && status.includes("needs")) ||
+          (filter === "adjudicated" && status.includes("adjudicated"));
+        if (!statusOk) return false;
+        if (!query) return true;
+        const hay = `${row.chunk_id || ""} ${row.chapter_id || ""} ${row.section_id || ""} ${row.chunk_text || ""}`.toLowerCase();
+        return hay.includes(query);
+      });
+    }
+
+    function updateCounts() {
+      let done = 0, needs = 0, pending = 0;
+      rows.forEach((row) => {
+        const status = statusOf(row);
+        if (["completed", "adjudicated", "no_disagreement_adjudicated", "final"].includes(status)) done++;
+        else if (status.includes("needs")) needs++;
+        else pending++;
+      });
+      $("countAll").textContent = rows.length;
+      $("countDone").textContent = done;
+      $("countNeeds").textContent = needs;
+      $("countPending").textContent = pending;
+    }
+
+    function renderList() {
+      updateCounts();
+      const items = visibleRows();
+      if (!items.length) {
+        $("chunkList").innerHTML = '<div class="empty">No matching chunks.</div>';
+        return;
+      }
+      $("chunkList").innerHTML = items.map(({row, index}) => {
+        const active = index === selectedIndex ? " active" : "";
+        const status = statusOf(row);
+        return `<div class="chunk-item${active}" data-index="${index}">
+          <div class="chunk-id">${esc(row.chunk_id || `row-${index + 1}`)}</div>
+          <div class="chunk-small">${esc(row.chapter_id || "")} ${esc(row.section_id || "")}</div>
+          <span class="status ${statusClass(status)}">${esc(status)}</span>
+          <div class="chunk-small">${esc(row.chunk_text || "")}</div>
+        </div>`;
+      }).join("");
+      document.querySelectorAll(".chunk-item").forEach((el) => {
+        el.addEventListener("click", () => {
+          selectedIndex = Number(el.dataset.index);
+          renderAll();
+        });
+      });
+    }
+
+    function optionList(values, selected) {
+      return values.map((value) => `<option value="${esc(value)}"${value === selected ? " selected" : ""}>${esc(value)}</option>`).join("");
+    }
+
+    function getGoldNodes(row) {
+      return rowMode(row) === "adjudication" ? (row.adjudicated_gold_nodes ||= []) : (row.gold_nodes ||= []);
+    }
+
+    function getGoldEdges(row) {
+      return rowMode(row) === "adjudication" ? (row.adjudicated_gold_edges ||= []) : (row.gold_edges ||= []);
+    }
+
+    function setStatus(row, value) {
+      if (rowMode(row) === "adjudication") row.adjudication_status = value;
+      else row.annotation_status = value;
+    }
+
+    function statusOptions(row) {
+      if (rowMode(row) === "adjudication") {
+        return ["pending_two_annotator_input", "needs_adjudication", "no_disagreement_adjudicated", "adjudicated", "final"];
+      }
+      return ["pending_human_annotation", "completed", "needs_adjudication"];
+    }
+
+    function evidenceFromCandidate(candidate) {
+      const ids = candidate.evidence_anchor_ids || [];
+      if (ids.length) return ids;
+      const sent = candidate.primary_evidence && candidate.primary_evidence.sentence_id;
+      return sent ? [sent] : [];
+    }
+
+    function acceptCandidate(row, candidate) {
+      const nodes = getGoldNodes(row);
+      const edges = getGoldEdges(row);
+      const sourceId = candidate.source_id || `NODE-${nodes.length + 1}`;
+      const targetId = candidate.target_id || `NODE-${nodes.length + 2}`;
+      const existingNodeKeys = new Set(nodes.map((n) => `${n.type}|${n.label || n.node_id}`));
+      [
+        {node_id: sourceId, type: candidate.source_type || "DomainTask", label: candidate.source_label || sourceId, evidence: evidenceFromCandidate(candidate)},
+        {node_id: targetId, type: candidate.target_type || "Artifact", label: candidate.target_label || targetId, evidence: evidenceFromCandidate(candidate)}
+      ].forEach((node) => {
+        const key = `${node.type}|${node.label}`;
+        if (!existingNodeKeys.has(key)) {
+          nodes.push(node);
+          existingNodeKeys.add(key);
+        }
+      });
+      const edgeKey = `${candidate.source_label}|${candidate.predicate}|${candidate.target_label}`;
+      const exists = edges.some((edge) => `${edge.source_label}|${edge.predicate}|${edge.target_label}` === edgeKey);
+      if (!exists) {
+        edges.push({
+          source_id: sourceId,
+          source_label: candidate.source_label || sourceId,
+          source_type: candidate.source_type || "DomainTask",
+          predicate: candidate.predicate || "USES_INPUT",
+          target_id: targetId,
+          target_label: candidate.target_label || targetId,
+          target_type: candidate.target_type || "Artifact",
+          evidence_anchor_ids: evidenceFromCandidate(candidate),
+          evidence_spans: candidate.primary_evidence ? [candidate.primary_evidence] : [],
+          component_evidence_spans: candidate.component_evidence_spans || [],
+          decision: "accepted"
+        });
+      }
+      renderAll();
+    }
+
+    function rejectCandidate(row, candidate) {
+      row.rejected_candidate_reference_ids ||= [];
+      const ref = candidate.reference_id || `${candidate.source_label}|${candidate.predicate}|${candidate.target_label}`;
+      if (!row.rejected_candidate_reference_ids.includes(ref)) row.rejected_candidate_reference_ids.push(ref);
+      renderAll();
+    }
+
+    function removeNode(row, index) {
+      getGoldNodes(row).splice(index, 1);
+      renderAll();
+    }
+
+    function removeEdge(row, index) {
+      getGoldEdges(row).splice(index, 1);
+      renderAll();
+    }
+
+    function addNodeFromForm(row) {
+      const node = {
+        node_id: $("nodeId").value.trim() || `G-${Date.now()}`,
+        type: $("nodeType").value,
+        label: $("nodeLabel").value.trim(),
+        evidence: $("nodeEvidence").value.split(",").map((v) => v.trim()).filter(Boolean)
+      };
+      if (!node.label) return;
+      getGoldNodes(row).push(node);
+      ["nodeId", "nodeLabel", "nodeEvidence"].forEach((id) => $(id).value = "");
+      renderAll();
+    }
+
+    function addEdgeFromForm(row) {
+      const edge = {
+        source_id: $("edgeSourceId").value.trim(),
+        source_label: $("edgeSourceLabel").value.trim(),
+        source_type: $("edgeSourceType").value,
+        predicate: $("edgePredicate").value,
+        target_id: $("edgeTargetId").value.trim(),
+        target_label: $("edgeTargetLabel").value.trim(),
+        target_type: $("edgeTargetType").value,
+        evidence_anchor_ids: $("edgeEvidence").value.split(",").map((v) => v.trim()).filter(Boolean),
+        evidence_spans: [],
+        decision: "accepted"
+      };
+      if (!edge.source_label || !edge.target_label || !edge.predicate) return;
+      getGoldEdges(row).push(edge);
+      ["edgeSourceId", "edgeSourceLabel", "edgeTargetId", "edgeTargetLabel", "edgeEvidence"].forEach((id) => $(id).value = "");
+      renderAll();
+    }
+
+    function applyJsonEdits(row) {
+      try {
+        const nodes = JSON.parse($("nodesJson").value || "[]");
+        const edges = JSON.parse($("edgesJson").value || "[]");
+        if (!Array.isArray(nodes) || !Array.isArray(edges)) throw new Error("Nodes and edges must be arrays.");
+        if (rowMode(row) === "adjudication") {
+          row.adjudicated_gold_nodes = nodes;
+          row.adjudicated_gold_edges = edges;
+        } else {
+          row.gold_nodes = nodes;
+          row.gold_edges = edges;
+        }
+        renderAll();
+      } catch (err) {
+        alert(err.message);
+      }
+    }
+
+    function candidateTable(row) {
+      const candidates = row.silver_candidate_edges || [];
+      if (!candidates.length) return '<div class="empty">No silver candidate edges.</div>';
+      const spanSummary = (candidate) => {
+        const spans = candidate.component_evidence_spans || [];
+        if (!spans.length) return "";
+        return spans.map((span) => {
+          const exact = span.span_exact ? "exact" : span.span_method || "proxy";
+          const range = span.sentence_span_start !== "" && span.sentence_span_start !== undefined
+            ? ` [${span.sentence_span_start}, ${span.sentence_span_end}]`
+            : "";
+          const text = span.text ? `: ${span.text}` : "";
+          return `${span.component || ""} ${exact}${range}${text}`;
+        }).join("\\n");
+      };
+      return `<table>
+        <thead><tr><th>Source</th><th>Predicate</th><th>Target</th><th>Evidence</th><th>Component Spans</th><th>Action</th></tr></thead>
+        <tbody>${candidates.map((c, idx) => {
+          const rejected = (row.rejected_candidate_reference_ids || []).includes(c.reference_id);
+          const ev = c.primary_evidence ? `${c.primary_evidence.sentence_id || ""} ${c.primary_evidence.text || ""}` : (c.evidence_anchor_ids || []).join(", ");
+          const spans = spanSummary(c);
+          return `<tr>
+            <td>${esc(c.source_label)}<br><span class="chunk-small">${esc(c.source_type)}</span></td>
+            <td>${esc(c.predicate)}</td>
+            <td>${esc(c.target_label)}<br><span class="chunk-small">${esc(c.target_type)}</span></td>
+            <td>${esc(ev)}</td>
+            <td><pre>${esc(spans)}</pre></td>
+            <td>
+              <button class="good" data-accept="${idx}">Accept</button>
+              <button class="danger" data-reject="${idx}">${rejected ? "Rejected" : "Reject"}</button>
+            </td>
+          </tr>`;
+        }).join("")}</tbody>
+      </table>`;
+    }
+
+    function nodesTable(row) {
+      const nodes = getGoldNodes(row);
+      if (!nodes.length) return '<div class="empty">No gold nodes yet.</div>';
+      return `<table>
+        <thead><tr><th>ID</th><th>Type</th><th>Label</th><th>Evidence</th><th></th></tr></thead>
+        <tbody>${nodes.map((node, idx) => `<tr>
+          <td>${esc(node.node_id || "")}</td><td>${esc(node.type || "")}</td><td>${esc(node.label || "")}</td>
+          <td>${esc((node.evidence || node.evidence_anchor_ids || []).join ? (node.evidence || node.evidence_anchor_ids || []).join(", ") : "")}</td>
+          <td><button class="danger" data-remove-node="${idx}">Remove</button></td>
+        </tr>`).join("")}</tbody>
+      </table>`;
+    }
+
+    function edgesTable(row) {
+      const edges = getGoldEdges(row);
+      if (!edges.length) return '<div class="empty">No gold edges yet.</div>';
+      return `<table>
+        <thead><tr><th>Source</th><th>Predicate</th><th>Target</th><th>Evidence</th><th></th></tr></thead>
+        <tbody>${edges.map((edge, idx) => `<tr>
+          <td>${esc(edge.source_label || edge.subject || "")}<br><span class="chunk-small">${esc(edge.source_type || edge.subject_type || "")}</span></td>
+          <td>${esc(edge.predicate || edge.edge_type || "")}</td>
+          <td>${esc(edge.target_label || edge.object || "")}<br><span class="chunk-small">${esc(edge.target_type || edge.object_type || "")}</span></td>
+          <td>${esc((edge.evidence_anchor_ids || []).join(", "))}</td>
+          <td><button class="danger" data-remove-edge="${idx}">Remove</button></td>
+        </tr>`).join("")}</tbody>
+      </table>`;
+    }
+
+    function disagreementPanel(row) {
+      if (rowMode(row) !== "adjudication") return "";
+      const items = row.disagreement_items || [];
+      if (!items.length) return '<div class="empty">No disagreement items.</div>';
+      return `<div class="band"><h2>Disagreements</h2><table>
+        <thead><tr><th>Kind</th><th>Issue</th><th>Key</th><th>Annotator A</th><th>Annotator B</th></tr></thead>
+        <tbody>${items.map((item) => `<tr>
+          <td>${esc(item.kind || "")}</td><td>${esc(item.issue || "")}</td><td>${esc((item.key || []).join(" | "))}</td>
+          <td><pre>${esc(JSON.stringify(item.annotator_a_item || null, null, 2))}</pre></td>
+          <td><pre>${esc(JSON.stringify(item.annotator_b_item || null, null, 2))}</pre></td>
+        </tr>`).join("")}</tbody>
+      </table></div>`;
+    }
+
+    function renderWorkspace() {
+      const row = rows[selectedIndex];
+      if (!row) {
+        $("workspace").style.display = "none";
+        $("workspaceEmpty").style.display = "block";
+        return;
+      }
+      $("workspace").style.display = "grid";
+      $("workspaceEmpty").style.display = "none";
+      const status = statusOf(row);
+      $("workspace").innerHTML = `
+        <div class="band">
+          <div class="row">
+            <h2>${esc(row.chunk_id || "")}</h2>
+            <span class="status ${statusClass(status)}">${esc(status)}</span>
+          </div>
+          <div class="grid-3">
+            <label><span>Status</span><select id="statusSelect">${optionList(statusOptions(row), status)}</select></label>
+            <label><span>Time minutes</span><input id="timeMinutes" type="text" value="${esc(row.time_minutes || "")}"></label>
+            <label><span>Reviewer / Annotator</span><input id="reviewerId" type="text" value="${esc(row.annotator_id || row.adjudicator_id || "")}"></label>
+          </div>
+          <label><span>Comments / Notes</span><textarea id="comments">${esc(row.comments || row.adjudication_notes || "")}</textarea></label>
+          <div class="chunk-small">${esc(row.chapter_id || "")} ${esc(row.section_id || "")} pages ${esc(row.page_start || "")}-${esc(row.page_end || "")}</div>
+          <div class="chunk-text">${esc(row.chunk_text || "")}</div>
+        </div>
+        ${disagreementPanel(row)}
+        <div class="band">
+          <h2>Silver Candidate Edges</h2>
+          ${candidateTable(row)}
+        </div>
+        <div class="split">
+          <div class="band">
+            <h2>Gold Nodes</h2>
+            ${nodesTable(row)}
+            <h3>Add Node</h3>
+            <div class="grid-2">
+              <label><span>Node ID</span><input id="nodeId" type="text"></label>
+              <label><span>Type</span><select id="nodeType">${optionList(NODE_TYPES, "DomainTask")}</select></label>
+            </div>
+            <label><span>Label</span><input id="nodeLabel" type="text"></label>
+            <label><span>Evidence IDs, comma-separated</span><input id="nodeEvidence" type="text"></label>
+            <button id="addNodeBtn">Add Node</button>
+          </div>
+          <div class="band">
+            <h2>Gold Edges</h2>
+            ${edgesTable(row)}
+            <h3>Add Edge</h3>
+            <div class="grid-2">
+              <label><span>Source ID</span><input id="edgeSourceId" type="text"></label>
+              <label><span>Source Type</span><select id="edgeSourceType">${optionList(NODE_TYPES, "DomainTask")}</select></label>
+            </div>
+            <label><span>Source Label</span><input id="edgeSourceLabel" type="text"></label>
+            <label><span>Predicate</span><select id="edgePredicate">${optionList(EDGE_TYPES, "PRECEDES")}</select></label>
+            <div class="grid-2">
+              <label><span>Target ID</span><input id="edgeTargetId" type="text"></label>
+              <label><span>Target Type</span><select id="edgeTargetType">${optionList(NODE_TYPES, "ProcedureStep")}</select></label>
+            </div>
+            <label><span>Target Label</span><input id="edgeTargetLabel" type="text"></label>
+            <label><span>Evidence IDs, comma-separated</span><input id="edgeEvidence" type="text"></label>
+            <button id="addEdgeBtn">Add Edge</button>
+          </div>
+        </div>
+        <div class="band">
+          <h2>JSON Review</h2>
+          <div class="grid-2">
+            <label><span>Nodes JSON</span><textarea id="nodesJson" class="json-box">${esc(JSON.stringify(getGoldNodes(row), null, 2))}</textarea></label>
+            <label><span>Edges JSON</span><textarea id="edgesJson" class="json-box">${esc(JSON.stringify(getGoldEdges(row), null, 2))}</textarea></label>
+          </div>
+          <button id="applyJsonBtn">Apply JSON Edits</button>
+        </div>`;
+
+      $("statusSelect").addEventListener("change", (event) => {
+        setStatus(row, event.target.value);
+        renderList();
+      });
+      $("timeMinutes").addEventListener("input", (event) => { row.time_minutes = event.target.value; });
+      $("reviewerId").addEventListener("input", (event) => {
+        if (rowMode(row) === "adjudication") row.adjudicator_id = event.target.value;
+        else row.annotator_id = event.target.value;
+      });
+      $("comments").addEventListener("input", (event) => {
+        if (rowMode(row) === "adjudication") row.adjudication_notes = event.target.value;
+        else row.comments = event.target.value;
+      });
+      document.querySelectorAll("[data-accept]").forEach((btn) => btn.addEventListener("click", () => {
+        acceptCandidate(row, (row.silver_candidate_edges || [])[Number(btn.dataset.accept)]);
+      }));
+      document.querySelectorAll("[data-reject]").forEach((btn) => btn.addEventListener("click", () => {
+        rejectCandidate(row, (row.silver_candidate_edges || [])[Number(btn.dataset.reject)]);
+      }));
+      document.querySelectorAll("[data-remove-node]").forEach((btn) => btn.addEventListener("click", () => removeNode(row, Number(btn.dataset.removeNode))));
+      document.querySelectorAll("[data-remove-edge]").forEach((btn) => btn.addEventListener("click", () => removeEdge(row, Number(btn.dataset.removeEdge))));
+      $("addNodeBtn").addEventListener("click", () => addNodeFromForm(row));
+      $("addEdgeBtn").addEventListener("click", () => addEdgeFromForm(row));
+      $("applyJsonBtn").addEventListener("click", () => applyJsonEdits(row));
+    }
+
+    function renderAll() {
+      renderList();
+      renderWorkspace();
+    }
+
+    $("fileInput").addEventListener("change", async (event) => {
+      const file = event.target.files[0];
+      if (!file) return;
+      filename = file.name.replace(/\.jsonl?$/i, "") + "_edited.jsonl";
+      try {
+        rows = parseJsonl(await file.text());
+        selectedIndex = rows.length ? 0 : -1;
+        $("exportBtn").disabled = !rows.length;
+        renderAll();
+      } catch (err) {
+        alert(err.message);
+      }
+    });
+
+    $("searchBox").addEventListener("input", renderList);
+    $("statusFilter").addEventListener("change", renderList);
+    $("exportBtn").addEventListener("click", () => {
+      const text = rows.map((row) => JSON.stringify(row)).join("\n") + "\n";
+      const blob = new Blob([text], {type: "application/jsonl;charset=utf-8"});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    });
+  </script>
+</body>
+</html>
+"""
+
+
+def build_workbench(output_path):
+    generated_at = datetime.now(timezone.utc).isoformat()
+    html = HTML_TEMPLATE.replace("__GENERATED_AT__", generated_at)
+    output_path = Path(output_path)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_path.write_text(html, encoding="utf-8")
+    return {
+        "generated_at_utc": generated_at,
+        "output_file": str(output_path),
+        "mode": "static_html_file_import_export",
+        "claim_status": "annotation_tool_not_gold",
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--experiment-dir", default=str(DEFAULT_EXP_DIR))
+    parser.add_argument("--output-file", default="")
+    args = parser.parse_args()
+    exp_dir = Path(args.experiment_dir)
+    output_file = Path(args.output_file) if args.output_file else exp_dir / "01_data/gold_annotation/annotation_workbench.html"
+    summary = build_workbench(output_file)
+    print(summary)
+
+
+if __name__ == "__main__":
+    main()

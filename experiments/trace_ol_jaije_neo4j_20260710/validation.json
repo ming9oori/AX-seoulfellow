@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "actual": 1366,
+      "check_id": "VAL_SOURCE_BLOCK_COUNT",
+      "expected": 1366,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_DUPLICATE_SOURCE_ID",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_OFFSET_ROUNDTRIP",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_GLOBAL_ID_UNIQUENESS",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_DANGLING_RELATIONSHIP_ENDPOINT",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_ACCEPTED_WITHOUT_EVIDENCE",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_DIRECT_EDGE_CLAIM_CONSISTENCY",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 12,
+      "check_id": "VAL_CQ_PASS",
+      "expected": 12,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 6,
+      "check_id": "VAL_REGRESSION_PASS",
+      "expected": 6,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_CURRENT_INPUT_MISSING_CONTEXT",
+      "expected": 0,
+      "passed": true,
+      "severity": "critical"
+    },
+    {
+      "actual": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+      "check_id": "VAL_DESIGN_INPUT_HASH_MATCH",
+      "expected": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+      "passed": false,
+      "severity": "comparability"
+    },
+    {
+      "actual": 0,
+      "check_id": "VAL_DESIGN_MISSING_CONTEXT_BASELINE",
+      "expected": 3,
+      "passed": false,
+      "severity": "comparability"
+    }
+  ],
+  "critical_failed": 0
+}

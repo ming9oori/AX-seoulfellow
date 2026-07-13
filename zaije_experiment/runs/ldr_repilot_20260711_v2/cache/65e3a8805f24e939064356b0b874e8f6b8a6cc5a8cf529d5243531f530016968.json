@@ -1,0 +1,211 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "741b115d4d597acc2c90088c5a26dcf09e22325bd52fc84d0479c8b555d42807",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "제안서 리뷰",
+                "quote": "제안서 리뷰(레드팀 리뷰)",
+                "role": "action"
+              },
+              {
+                "normalized_label": "의견 반영",
+                "quote": "레드팀 리뷰 의견 반영",
+                "role": "action"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "1",
+            "claim_quote": "단계 4: 제안서 리뷰",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "includes",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "결과물",
+                "quote": "-",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "2",
+            "claim_quote": "-",
+            "claim_type": "ACTIVITY_OUTPUT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "results_in",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-290",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "f435a6f23a4eb0c3b6de83c5bd91fc981036762fa4280b741fe3c972ba9c36c9",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "리스크 갭(Risk Gap)이라고 부른다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_defined_as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-350",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "ff209487c6153ab50ddf38b656d0db6d27e5ba522e097a6b028c1aaa822200aa",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "평가위원",
+                "quote": "불특정 평가위원들",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "분석",
+                "quote": "분석해야 한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "의사결정자로서 분석해야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-536",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "6b2e60873fa2b38d50919cc74bb9ca5b023c701a81eb63e79d2b6ffacbc13cb9",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "분석적 접근은 개별 평가 항목의 점수를 확보함으로써 종합적으로 높은 총계 점수를 얻는 것을 말하고",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_defined_as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "2",
+            "claim_quote": "통합적 접근은 개별 점수보다는 고객이 종합적으로 우리 조직과 솔루션이 우위라는 점을 인지하여 높은 점수를 주게 하는 방법을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_defined_as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-551",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "8a45b20d284bbd64b5727f674e371be4f38e3432275330f6439555114d0b3973",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "제안서 작성자",
+                "quote": "우리가",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "대비",
+                "quote": "대비한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-585",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b02_65e3a8805f24.json",
+  "response_id": "resp_0dba961be3d16e80006a5290713d188199be9dd2a4a19bc60d",
+  "usage": {
+    "input_tokens": 3475,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1163,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4638
+  }
+}

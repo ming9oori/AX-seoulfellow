@@ -1,0 +1,61 @@
+﻿cq_id,sample_rank,answer_type,id,source_id,source_label,source_type,predicate,target_id,target_label,target_type,rank,score,evidence_anchor_ids,review_status
+CQ1,1,edge,EDGE-2ea7b6844813b69d,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_STEP,STEP-OPPORTUNITY_ASSESSMENT-01,Capture Plan 검토,ProcedureStep,,0.82,"[""EA-JS-00235""]",accepted_by_rule
+CQ1,2,edge,EDGE-cae313125103de8e,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_STEP,STEP-OPPORTUNITY_ASSESSMENT-02,제안전략 검토,ProcedureStep,,0.82,"[""EA-JS-00235""]",accepted_by_rule
+CQ1,3,edge,EDGE-d74557fac4835dda,STEP-OPPORTUNITY_ASSESSMENT-01,Capture Plan 검토,ProcedureStep,PRECEDES,STEP-OPPORTUNITY_ASSESSMENT-02,제안전략 검토,ProcedureStep,,0.74,"[""EA-JS-00235""]",accepted_by_rule
+CQ1,4,edge,EDGE-614f999dc447e519,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_STEP,STEP-OPPORTUNITY_ASSESSMENT-03,제안 요청서 작성,ProcedureStep,,0.82,"[""EA-JS-00470""]",accepted_by_rule
+CQ1,5,edge,EDGE-cb261f05b340edff,STEP-OPPORTUNITY_ASSESSMENT-02,제안전략 검토,ProcedureStep,PRECEDES,STEP-OPPORTUNITY_ASSESSMENT-03,제안 요청서 작성,ProcedureStep,,0.74,"[""EA-JS-00470""]",accepted_by_rule
+CQ2,1,edge,EDGE-257c3380629f4d96,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN,Capture Plan,Artifact,,0.785,"[""EA-JS-00235"", ""EA-JS-00251""]",accepted_by_rule
+CQ2,2,edge,EDGE-9fe97ab8661898c6,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY,제안전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ2,3,edge,EDGE-76ee7bd1733b6063,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY,수주전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ2,4,edge,EDGE-e4f9a039b8f0bac1,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PROPOSAL,제안서,Artifact,,0.785,"[""EA-JS-00251"", ""EA-JS-00275""]",accepted_by_rule
+CQ2,5,edge,EDGE-7ca0657bc4178067,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PRESENTATION,발표자료,Artifact,,0.785,"[""EA-JS-00235"", ""EA-JS-00251"", ""EA-JS-00275""]",accepted_by_rule
+CQ3,1,edge,EDGE-62177f4ddb1eeea6,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PRODUCES,L2_ARTIFACT_ARTIFACT_RFP,제안 요청서,Artifact,,0.785,"[""EA-JS-00251""]",accepted_by_rule
+CQ3,2,edge,EDGE-daa04d2ed1d22aa8,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PRODUCES,L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN,Capture Plan,Artifact,,0.785,"[""EA-JS-00235"", ""EA-JS-00251""]",accepted_by_rule
+CQ3,3,edge,EDGE-ae7c1702bcd044e6,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PRODUCES,L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY,제안전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ3,4,edge,EDGE-8321b1d5d1f3fb82,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PRODUCES,L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY,수주전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ3,5,edge,EDGE-2dc1247db51d5bf9,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PRODUCES,L2_ARTIFACT_ARTIFACT_PROPOSAL,제안서,Artifact,,0.785,"[""EA-JS-00251"", ""EA-JS-00275""]",accepted_by_rule
+CQ4,1,edge,EDGE-d726d94ef84162b1,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PERFORMED_BY,L2_ROLE_a58673ab1d25,고객,Role,,0.785,"[""EA-JS-00235"", ""EA-JS-00251""]",accepted_by_rule
+CQ4,2,edge,EDGE-5288c65137b15b12,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PERFORMED_BY,L2_ROLE_bdcca1c8a14c,경쟁사,Role,,0.785,"[""EA-JS-00235""]",accepted_by_rule
+CQ4,3,edge,EDGE-11416320e05bcb30,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,PERFORMED_BY,L2_ROLE_6f23fc00fb1f,제안 PM,Role,,0.95,"[""EA-JS-00319"", ""EA-JS-00448"", ""EA-JS-00452""]",accepted_by_rule
+CQ4,4,edge,EDGE-f59f5e1e78425bf3,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,PERFORMED_BY,L2_ROLE_9d08dd751bf2,영업대표,Role,,0.95,"[""EA-JS-00448"", ""EA-JS-00452""]",accepted_by_rule
+CQ4,5,edge,EDGE-9ba38bbd10b16be4,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,PERFORMED_BY,L2_ROLE_0be45e6f773d,작성자,Role,,0.95,"[""EA-JS-00258"", ""EA-JS-00452""]",accepted_by_rule
+CQ5,1,edge,EDGE-ec34b515d3841173,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_DECISION_GATEWAY,L2_DG_DG_BID_NO_BID,Bid/No Bid Decision,DecisionGateway,,0.785,"[""EA-JS-00251""]",accepted_by_rule
+CQ5,2,edge,EDGE-839646e82de9eb1f,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_DECISION_GATEWAY,L2_DG_DG_PURSUIT,Pursuit Decision,DecisionGateway,,0.785,"[""EA-JS-00235"", ""EA-JS-00251""]",accepted_by_rule
+CQ5,3,edge,EDGE-5d0333073a11076f,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_DECISION_GATEWAY,L2_DG_DG_BID_VALIDATION,입찰타당성 결정,DecisionGateway,,0.785,"[""EA-JS-00251""]",accepted_by_rule
+CQ5,4,edge,EDGE-5bdb664b4c63d2e4,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,HAS_DECISION_GATEWAY,L2_DG_DG_APPROVAL,승인,DecisionGateway,,0.785,"[""EA-JS-00251""]",accepted_by_rule
+CQ5,5,edge,EDGE-ad127f54f19d63c8,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,HAS_DECISION_GATEWAY,L2_DG_DG_BID_NO_BID,Bid/No Bid Decision,DecisionGateway,,0.95,"[""EA-JS-00251"", ""EA-JS-00253""]",accepted_by_rule
+CQ6,1,edge,EDGE-73574fefc78279d0,L2_DG_DG_PURSUIT,Pursuit Decision,DecisionGateway,HAS_GUARD_CONDITION,L2_GUARD_51c1514e1235,"pportunity Assessment)이 끝나고 나면 고객과 경쟁자 정보수집을 위한 영업활동(Capture Planning, 이",GuardCondition,,0.66,"[""EA-JS-00235""]",needs_review
+CQ6,2,edge,EDGE-4c73d2919ee9d696,L2_DG_DG_BID_NO_BID,Bid/No Bid Decision,DecisionGateway,HAS_GUARD_CONDITION,L2_GUARD_4b8250093faa,"한 기회에서 고객의 근원적인 니즈를 분석하고, 이를 기준으로 경쟁사를 파악하여 자사의 솔루션 및 수주전략을 결정함제안 참여 의사",GuardCondition,,0.66,"[""EA-JS-00253""]",needs_review
+CQ6,3,edge,EDGE-e37e2cd07189d559,L2_DG_DG_APPROVAL,승인,DecisionGateway,HAS_GUARD_CONDITION,L2_GUARD_d699f1d1f525,목적- 제안 환경 분석- 영업 관점에서 고객의 관심사항 파악- 경쟁사와 자사의 솔루션 분석 / 강약점 분석- 전략 개발을 위한 사,GuardCondition,,0.66,"[""EA-JS-00452""]",needs_review
+CQ6,4,edge,EDGE-bfcd3d80c9e30fa5,L2_DG_DG_APPROVAL,승인,DecisionGateway,HAS_GUARD_CONDITION,L2_GUARD_33390f951090,성자- 영업대표 - 수행 PM(이미 거래가 있었던 기존 고객의 경우에는 수행 PM도 고객의 정보를 알고 있는 경우가 많음) •주요,GuardCondition,,0.66,"[""EA-JS-00452""]",needs_review
+CQ6,5,edge,EDGE-a03e97e3a9edb87c,L2_DG_DG_APPROVAL,승인,DecisionGateway,HAS_GUARD_CONDITION,L2_GUARD_a305aa02cd25,"공고일, PT 시행 여부 확인, 주관조직의 영향력, 예상 참여 경쟁사, TFT 구성 인원- 과제(사업) 분석: 사업배경, 평가배점",GuardCondition,,0.66,"[""EA-JS-00452""]",needs_review
+CQ7,1,edge,EDGE-5f5efce32df44d2b,L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN,Capture Plan,Artifact,FEEDS_INTO,L2_TASK_PROPOSAL_PLANNING,제안서 기획,DomainTask,,0.78,"[""EA-JS-00258""]",accepted_by_rule
+CQ7,2,edge,EDGE-4d77bc3e682208c9,L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN,Capture Plan,Artifact,USED_AS_INPUT_FOR,L2_TASK_PROPOSAL_PLANNING,제안서 기획,DomainTask,,0.78,"[""EA-JS-00258""]",accepted_by_rule
+CQ7,3,edge,EDGE-cca83d6e007f74cd,L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY,수주전략,Artifact,FEEDS_INTO,L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT,제안전략 개발,DomainTask,,0.78,"[""EA-JS-00258"", ""EA-JS-00291""]",accepted_by_rule
+CQ7,4,edge,EDGE-1b63f9828e0eb4c7,L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY,수주전략,Artifact,USED_AS_INPUT_FOR,L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT,제안전략 개발,DomainTask,,0.78,"[""EA-JS-00258"", ""EA-JS-00291""]",accepted_by_rule
+CQ7,5,edge,EDGE-bd5169c9c51eae88,L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY,제안전략,Artifact,FEEDS_INTO,L2_TASK_PROPOSAL_WRITING,제안서 작성,DomainTask,,0.78,"[""EA-JS-00291"", ""EA-JS-01788""]",accepted_by_rule
+CQ8,1,edge,EDGE-e60bd43abb66dde1,STEP-OPPORTUNITY_ASSESSMENT-01,Capture Plan 검토,ProcedureStep,HAS_REVIEW_CHECKPOINT,REVIEW-STEP-OPPORTUNITY_ASSESSMENT-01,Capture Plan 검토,ReviewCheckpoint,,0.76,"[""EA-JS-00235""]",accepted_by_rule
+CQ8,2,edge,EDGE-32f49e5de246dadf,STEP-OPPORTUNITY_ASSESSMENT-02,제안전략 검토,ProcedureStep,HAS_REVIEW_CHECKPOINT,REVIEW-STEP-OPPORTUNITY_ASSESSMENT-02,제안전략 검토,ReviewCheckpoint,,0.76,"[""EA-JS-00235""]",accepted_by_rule
+CQ8,3,edge,EDGE-54618c5b9e88998d,STEP-BID_NO_BID_DECISION-01,기회 확인,ProcedureStep,HAS_REVIEW_CHECKPOINT,REVIEW-STEP-BID_NO_BID_DECISION-01,기회 확인 checkpoint,ReviewCheckpoint,,0.76,"[""EA-JS-00233""]",accepted_by_rule
+CQ8,4,edge,EDGE-eb04081d5cc5f120,STEP-BID_VALIDATION-01,제안 요청서 검토,ProcedureStep,HAS_REVIEW_CHECKPOINT,REVIEW-STEP-BID_VALIDATION-01,제안 요청서 검토,ReviewCheckpoint,,0.76,"[""EA-JS-00241""]",accepted_by_rule
+CQ8,5,edge,EDGE-a13c90062fb21faa,STEP-BID_VALIDATION-02,제안전략 검토,ProcedureStep,HAS_REVIEW_CHECKPOINT,REVIEW-STEP-BID_VALIDATION-02,제안전략 검토,ReviewCheckpoint,,0.76,"[""EA-JS-00241""]",accepted_by_rule
+CQ9,1,edge,EDGE-690233a6aa23699d,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,HAS_PRINCIPLE,L2_PRINCIPLE_ad76810528c8,고객 중심,Principle,,0.95,"[""EA-JS-00171"", ""EA-JS-00258""]",accepted_by_rule
+CQ9,2,edge,EDGE-bac98011d06e8ad5,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,HAS_PRINCIPLE,L2_PRINCIPLE_bc6d31b3b7e5,충실도,Principle,,0.95,"[""EA-JS-00258""]",accepted_by_rule
+CQ9,3,edge,EDGE-1f36977236597108,L2_TASK_CAPTURE_PLANNING,수주영업,DomainTask,HAS_PRINCIPLE,L2_PRINCIPLE_369cb1468674,차별화,Principle,,0.95,"[""EA-JS-00171"", ""EA-JS-00442"", ""EA-JS-00447""]",accepted_by_rule
+CQ9,4,edge,EDGE-556a38d16648b005,L2_TASK_BID_NO_BID_DECISION,제안참여 의사결정,DomainTask,HAS_PRINCIPLE,L2_PRINCIPLE_369cb1468674,차별화,Principle,,0.9,"[""EA-JS-01037""]",accepted_by_rule
+CQ9,5,edge,EDGE-5b01f8f329aac5f7,L2_TASK_BID_VALIDATION,입찰타당성 검증,DomainTask,HAS_PRINCIPLE,L2_PRINCIPLE_bc6d31b3b7e5,충실도,Principle,,0.88,"[""EA-JS-00292""]",accepted_by_rule
+CQ10,1,edge,EDGE-257c3380629f4d96,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_CAPTURE_PLAN,Capture Plan,Artifact,,0.785,"[""EA-JS-00235"", ""EA-JS-00251""]",accepted_by_rule
+CQ10,2,edge,EDGE-9fe97ab8661898c6,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PROPOSAL_STRATEGY,제안전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ10,3,edge,EDGE-76ee7bd1733b6063,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_CAPTURE_STRATEGY,수주전략,Artifact,,0.785,"[""EA-JS-00275""]",accepted_by_rule
+CQ10,4,edge,EDGE-e4f9a039b8f0bac1,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PROPOSAL,제안서,Artifact,,0.785,"[""EA-JS-00251"", ""EA-JS-00275""]",accepted_by_rule
+CQ10,5,edge,EDGE-7ca0657bc4178067,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,USES_INPUT,L2_ARTIFACT_ARTIFACT_PRESENTATION,발표자료,Artifact,,0.785,"[""EA-JS-00235"", ""EA-JS-00251"", ""EA-JS-00275""]",accepted_by_rule
+CQ11,1,mapping,MAP-7c8bda01000dcab4,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,REQUIRES_CAPABILITY,ncs:CU:1508030106_17v2,배관 및 Unit 설치(기장),NCSCompetencyUnit,1,0.0258,[],pending_review
+CQ11,2,mapping,MAP-60e59e4ffc065488,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,REQUIRES_CAPABILITY,ncs:CU:1508010104_23v4,기본도면 작성,NCSCompetencyUnit,2,0.039,[],pending_review
+CQ11,3,mapping,MAP-6e603164498a8fe4,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,REQUIRES_CAPABILITY,ncs:CU:1203020110_23v2,관광숙박 운영 기획,NCSCompetencyUnit,3,0.0389,[],pending_review
+CQ11,4,mapping,MAP-418a736365666100,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,REQUIRES_CAPABILITY,ncs:CU:1508060102_15v3,주기관 해상 시운전,NCSCompetencyUnit,4,0.0165,[],pending_review
+CQ11,5,mapping,MAP-b937500164ea962e,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,REQUIRES_CAPABILITY,ncs:CU:1903060114_23v2,반도체 펌웨어 개발,NCSCompetencyUnit,5,0.0099,[],pending_review
+CQ12,1,mapping,MAP-e2ce98c23880cf4b,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PROCESS_CONTEXT,pcf:E:18116,기회 수주 계획 수립,PCFElement,1,0.276,[],pending_review
+CQ12,2,mapping,MAP-3755551d86c1f42c,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PROCESS_CONTEXT,pcf:E:20011,기회 파이프라인 관리,PCFElement,2,0.2433,[],pending_review
+CQ12,3,mapping,MAP-23bd091ea3b786dd,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PROCESS_CONTEXT,pcf:E:11773,기회를 사업전략에 매칭,PCFElement,3,0.2177,[],pending_review
+CQ12,4,mapping,MAP-b96ec14fcf3cd9f6,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PROCESS_CONTEXT,pcf:E:16937,영업팀에 기회 전달,PCFElement,4,0.2277,[],pending_review
+CQ12,5,mapping,MAP-38f3f1e260f7dfba,L2_TASK_OPPORTUNITY_ASSESSMENT,기회분석,DomainTask,PROCESS_CONTEXT,pcf:E:20119,개선 기회 식별,PCFElement,5,0.1118,[],pending_review

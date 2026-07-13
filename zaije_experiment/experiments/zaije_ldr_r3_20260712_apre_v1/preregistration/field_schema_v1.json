@@ -1,0 +1,21 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "decision": {
+      "enum": [
+        "SUPPORTED",
+        "NOT_SUPPORTED",
+        "UNDERDETERMINED"
+      ],
+      "type": "string"
+    },
+    "proposal_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "proposal_id",
+    "decision"
+  ],
+  "type": "object"
+}

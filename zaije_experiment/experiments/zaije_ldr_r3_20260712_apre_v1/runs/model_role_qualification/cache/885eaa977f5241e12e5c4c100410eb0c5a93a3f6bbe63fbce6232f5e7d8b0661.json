@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "SUPPORTED",
+    "proposal_id": "zaije:evidence/xlsx-row-283_A01::IS_PROCEDURAL"
+  },
+  "raw_response_path": "raw_responses/primary_facet_C03_r2_IS_PROCEDURAL_08_885eaa977f52.json",
+  "response_id": "resp_03bd08648cccac5d006a53209c1238819bacdc2ae1a3af9e60",
+  "usage": {
+    "input_tokens": 471,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 26,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  }
+}

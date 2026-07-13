@@ -1,0 +1,205 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-86",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Shortening of evaluation period in national defense projects",
+                "quote": "국가방위사업 평가기간 단축",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업도 평가기간이 점점 짧아지고 있다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "짧아지고 있다",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "- 9~10시: 평가위원 도착 및 오리엔테이션\n- 10~12시: 제안 평가- 12~1시: 점심 \n- 1~3시: 제안 프레젠테이션\n- 3~5시: 점수 제출 및 검증",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "평가 일정은 다음과 같다",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": "가장 일반적인 평가 일정",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both X and Y split the evidence into two claims: one about the schedule and one about the shortening of evaluation periods. Y provides more precise scope and argumentation for the shortening claim, and X's schedule claim is supported. Merging preserves all supported fields."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-896",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Motivation",
+                "quote": "동기(Motivation)",
+                "role": "concept"
+              },
+              {
+                "normalized_label": "Issue self-created by customer to achieve vision",
+                "quote": "고객이 비전을 달성하기 위해서 스스로 창출한 이슈",
+                "role": "definition"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "동기(Motivation): 고객이 비전을 달성하기 위해서 스스로 창출한 이슈",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Problems",
+                "quote": "문제(Problems)",
+                "role": "concept"
+              },
+              {
+                "normalized_label": "Obstacles to overcome for current business execution",
+                "quote": "현재 비즈니스 수행을 위해 극복해야 할 장애요인",
+                "role": "definition"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c2",
+            "claim_quote": "문제(Problems): 현재 비즈니스 수행을 위해 극복해야 할 장애요인",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X splits the definitions and provides argument structure, which is supported by the evidence. Y combines both into one claim but does not provide argument structure. Merging preserves all supported fields and arguments."
+        ]
+      },
+      {
+        "decision": "REJECT_BOTH",
+        "evidence_id": "zaije:evidence/xlsx-row-90",
+        "final_claims": [],
+        "reason_codes": [
+          "'Shipley Tip' is not a definition or claim, but a label or heading. No substantive claim is present in the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-906",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Bias, Politics, Personal Risk",
+                "quote": "개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk)",
+                "role": "example_of"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "예를 들면 개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk) 등이 그것이다.",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "are examples of",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "고객이 말하지 않는 이슈",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X provides argument structure and scope, both supported by the evidence. Y's claim is less specific. Merging preserves all supported fields."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-952",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution based on voice of the field",
+                "quote": "현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Persuades evaluator and receives higher qualitative score",
+                "quote": "평가자를 설득하고, 더 높은 정성적 점수(Qualified Evaluation)를 받음",
+                "role": "effect"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c1",
+            "claim_quote": "현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)은 평가자를 설득하고, 더 높은 정성적 점수(Qualified Evaluation)를 받는다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "results in",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y provides a more precise claim structure and argumentation, which is supported by the evidence. X's example is encompassed within Y's claim. Merging preserves all supported fields."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b08_61f43ddcc524.json",
+  "response_id": "resp_08faf274092c916d006a528f183b08819aa47bf7454be4cf53",
+  "usage": {
+    "input_tokens": 5544,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1368,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6912
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "claim_status": "mapping_roundtrip_smoke_not_paper_evidence",
+  "metrics": [
+    {
+      "standard": "NCS",
+      "candidate_rows": 5,
+      "source_task_count": 1,
+      "completed_rows": 5,
+      "pending_rows": 0,
+      "complete_source_groups": 1,
+      "sources_with_positive": 1,
+      "expert_accept_rate": 0.2,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0,
+      "explanation_quality_score_mean": 3.4,
+      "explanation_quality_score_count": 5,
+      "claim_status": "expert_review_evaluated"
+    },
+    {
+      "standard": "PCF",
+      "candidate_rows": 5,
+      "source_task_count": 1,
+      "completed_rows": 5,
+      "pending_rows": 0,
+      "complete_source_groups": 1,
+      "sources_with_positive": 1,
+      "expert_accept_rate": 0.2,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "precision_at_5": 0.2,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0,
+      "explanation_quality_score_mean": 3.4,
+      "explanation_quality_score_count": 5,
+      "claim_status": "expert_review_evaluated"
+    }
+  ]
+}

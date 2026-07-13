@@ -1,0 +1,39 @@
+{
+  "cost": {
+    "attempts_current_process": 47,
+    "cache_hits_during_resume": 13,
+    "estimated_cost_usd": 0.017542,
+    "failed_attempts_current_process": 0,
+    "input_tokens": 32224,
+    "output_tokens": 2908,
+    "real_calls": 60
+  },
+  "diagnostic_is_reference": false,
+  "diagnostic_model_snapshot": "gpt-4.1-mini-2025-04-14",
+  "fresh_api_exposure": 0,
+  "metrics": {
+    "anchor_count": 151,
+    "anchor_id_uniqueness": 1.0,
+    "anchor_json_validity": 1.0,
+    "context_span_count": 143,
+    "context_span_existence": 1.0,
+    "deterministic_rerun_identity": 1.0,
+    "dev_broken_structural_context_rate": 0.15894039735099338,
+    "dev_missing_anchor_count_per_anchor": 0.013245033112582781,
+    "dev_missing_anchor_evidence_rate": 0.016666666666666666,
+    "dev_over_merged_anchor_rate": 0.10596026490066225,
+    "diagnostic_audit_complete_rate": 1.0,
+    "evidence_count": 60,
+    "offset_round_trip_validity": 1.0,
+    "records_sha256": "6637524e09fd889a6ff6e6183cfbad11e18c4fd8ac6fb30ff2dad991c79feb06",
+    "structure_counts": {
+      "LIST_ITEM": 28,
+      "PROSE_CLAUSE": 53,
+      "TABLE_CELL": 70
+    }
+  },
+  "segmenter_git_commit": "a9482ce9acb6d014ccdcfc756a42044406261a40",
+  "segmenter_source_sha256": "0f570d346c9ebe50c89d84c5ff79599bc03d11ef26be958086ba7de821047f29",
+  "status": "REVISE_BEFORE_MODEL_QUALIFICATION",
+  "test_access": 0
+}

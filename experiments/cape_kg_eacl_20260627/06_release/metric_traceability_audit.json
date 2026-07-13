@@ -1,0 +1,707 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.462770+00:00",
+  "claim_status": "metric_traceability_ready_pending_human_gold_and_expert_returns",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "summary": {
+    "metric_count": 10,
+    "pending_metric_count": 10,
+    "claimable_metric_count": 0,
+    "metric_issue_count": 0,
+    "metric_rows_with_issues": 0,
+    "all_evaluator_scripts_present": true,
+    "all_output_files_present": true,
+    "all_paper_tables_present": true,
+    "all_protocol_metrics_present": true,
+    "all_required_gates_known": true,
+    "claim_status": "metric_traceability_ready_pending_human_gold_and_expert_returns"
+  },
+  "claim_boundary": {
+    "metric_definitions_locked": true,
+    "pre_human_claimable_metrics": 0,
+    "human_gold_or_expert_returns_required": true,
+    "safe_interpretation": "Metric implementations, outputs, protocol definitions, and paper-table bindings are traceable; final metric values remain pending human/expert returns.",
+    "not_claimable_until": "Human-gold annotation/adjudication or expert/effort returns are imported and post-human scoring is rerun."
+  },
+  "metric_rows": [
+    {
+      "metric_id": "M01_node_f1",
+      "metric_name": "Node F1",
+      "plan_metric": "Node F1",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "human_gold_core"
+      ],
+      "protocol_metrics": [
+        "node_label_f1"
+      ],
+      "paper_tables": [
+        "T02_main_extraction_human_gold"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_human_gold.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+        "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M02_edge_f1",
+      "metric_name": "Edge F1",
+      "plan_metric": "Edge F1",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "human_gold_core"
+      ],
+      "protocol_metrics": [
+        "edge_exact_f1",
+        "predicate_f1"
+      ],
+      "paper_tables": [
+        "T02_main_extraction_human_gold"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_human_gold.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+        "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M03_evidence_exact_iou",
+      "metric_name": "Evidence Exact Match / IoU",
+      "plan_metric": "Evidence Exact Match / Evidence IoU",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "human_gold_core"
+      ],
+      "protocol_metrics": [
+        "evidence_exact_or_f1",
+        "component_span_exact_match",
+        "component_span_iou"
+      ],
+      "paper_tables": [
+        "T02_main_extraction_human_gold"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_human_gold.py",
+        "scripts/evaluate_cape_human_gold_span_iou.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M04_unsupported_edge_rate",
+      "metric_name": "Unsupported Edge Rate",
+      "plan_metric": "Unsupported Edge Rate",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "human_gold_core"
+      ],
+      "protocol_metrics": [
+        "evidence_exact_or_f1"
+      ],
+      "paper_tables": [
+        "T02_main_extraction_human_gold"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_human_gold.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_grounding_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+        "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M05_ontology_conformance",
+      "metric_name": "Ontology Conformance",
+      "plan_metric": "Ontology Conformance",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "structural"
+      ],
+      "protocol_metrics": [
+        "ontology_conformance"
+      ],
+      "paper_tables": [
+        "T03_cq_schema_ablation",
+        "T04_structural_cq_diagnostics"
+      ],
+      "evaluator_scripts": [
+        "scripts/build_cape_structural_evaluation.py",
+        "scripts/export_cape_kg_rdf_shacl.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+        "outputs/12_rdf/cape_kg_shacl_validation_summary.json"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M06_procedural_consistency",
+      "metric_name": "Procedural Consistency",
+      "plan_metric": "Procedural Consistency",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "structural"
+      ],
+      "protocol_metrics": [
+        "procedural_consistency"
+      ],
+      "paper_tables": [
+        "T04_structural_cq_diagnostics"
+      ],
+      "evaluator_scripts": [
+        "scripts/build_cape_structural_evaluation.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M07_cq_answerability",
+      "metric_name": "CQ Answerability",
+      "plan_metric": "CQ Answerability",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "llm.proposed_human_gold_score"
+      ],
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "structural"
+      ],
+      "protocol_metrics": [
+        "cq_answerability"
+      ],
+      "paper_tables": [
+        "T03_cq_schema_ablation",
+        "T04_structural_cq_diagnostics"
+      ],
+      "evaluator_scripts": [
+        "scripts/build_cape_cq_query_pack.py",
+        "scripts/build_cape_structural_evaluation.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json",
+        "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M08_mapping_pk_mrr_ndcg",
+      "metric_name": "NCS/PCF Mapping P@K / MRR / nDCG",
+      "plan_metric": "NCS/PCF Mapping P@K / MRR / nDCG",
+      "plan_section": "9.3 and 9.5 Downstream task",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "mapping.expert_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "mapping_expert"
+      ],
+      "protocol_metrics": [
+        "hit_at_1",
+        "hit_at_5",
+        "precision_at_5",
+        "mrr",
+        "ndcg_at_10"
+      ],
+      "paper_tables": [
+        "T06_mapping_downstream"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_mapping_review.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_summary.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+        "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M09_crosswalk_accept_utility",
+      "metric_name": "NCS-PCF Crosswalk Accept Rate / Utility",
+      "plan_metric": "NCS-PCF Crosswalk Accept Rate / Utility",
+      "plan_section": "9.5 Downstream task",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "crosswalk.expert_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "crosswalk_expert"
+      ],
+      "protocol_metrics": [
+        "expert_accept_rate",
+        "hit_at_1",
+        "hit_at_5",
+        "precision_at_10",
+        "mrr",
+        "ndcg_at_10",
+        "utility_grade_mean"
+      ],
+      "paper_tables": [
+        "T07_crosswalk_downstream"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_crosswalk_review.py",
+        "scripts/build_cape_ncs_pcf_crosswalk.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_evaluation_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    },
+    {
+      "metric_id": "M10_active_review_efficiency",
+      "metric_name": "Active Review Efficiency",
+      "plan_metric": "Active Review Efficiency",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": false,
+      "required_gate_ids": [
+        "strong.active_review"
+      ],
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": [
+        "active_review_effort"
+      ],
+      "protocol_metrics": [
+        "review_seconds",
+        "corrections_per_hour",
+        "high_impact_corrections_per_hour"
+      ],
+      "paper_tables": [
+        "T08_active_review_efficiency"
+      ],
+      "evaluator_scripts": [
+        "scripts/evaluate_cape_active_review_efficiency.py",
+        "scripts/build_cape_active_review_human_effort.py"
+      ],
+      "output_files": [
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+        "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+        "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md"
+      ],
+      "evaluator_scripts_present": true,
+      "output_files_present": true,
+      "paper_tables_present": true,
+      "protocol_metrics_present": true,
+      "required_gates_known": true,
+      "issue_count": 0,
+      "issues": []
+    }
+  ],
+  "csv_rows": [
+    {
+      "metric_id": "M01_node_f1",
+      "metric_name": "Node F1",
+      "plan_metric": "Node F1",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,gold.iaa,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "human_gold_core",
+      "protocol_metrics": "node_label_f1",
+      "paper_tables": "T02_main_extraction_human_gold",
+      "evaluator_scripts": "scripts/evaluate_cape_human_gold.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json,experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M02_edge_f1",
+      "metric_name": "Edge F1",
+      "plan_metric": "Edge F1",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,gold.iaa,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "human_gold_core",
+      "protocol_metrics": "edge_exact_f1,predicate_f1",
+      "paper_tables": "T02_main_extraction_human_gold",
+      "evaluator_scripts": "scripts/evaluate_cape_human_gold.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json,experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M03_evidence_exact_iou",
+      "metric_name": "Evidence Exact Match / IoU",
+      "plan_metric": "Evidence Exact Match / Evidence IoU",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,gold.iaa,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "human_gold_core",
+      "protocol_metrics": "evidence_exact_or_f1,component_span_exact_match,component_span_iou",
+      "paper_tables": "T02_main_extraction_human_gold",
+      "evaluator_scripts": "scripts/evaluate_cape_human_gold.py,scripts/evaluate_cape_human_gold_span_iou.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_components.csv,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M04_unsupported_edge_rate",
+      "metric_name": "Unsupported Edge Rate",
+      "plan_metric": "Unsupported Edge Rate",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,gold.iaa,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "human_gold_core",
+      "protocol_metrics": "evidence_exact_or_f1",
+      "paper_tables": "T02_main_extraction_human_gold",
+      "evaluator_scripts": "scripts/evaluate_cape_human_gold.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_grounding_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_evaluation_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.csv,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json,experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M05_ontology_conformance",
+      "metric_name": "Ontology Conformance",
+      "plan_metric": "Ontology Conformance",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "structural",
+      "protocol_metrics": "ontology_conformance",
+      "paper_tables": "T03_cq_schema_ablation,T04_structural_cq_diagnostics",
+      "evaluator_scripts": "scripts/build_cape_structural_evaluation.py,scripts/export_cape_kg_rdf_shacl.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/ontology_conformance_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md,experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md,outputs/12_rdf/cape_kg_shacl_validation_summary.json",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M06_procedural_consistency",
+      "metric_name": "Procedural Consistency",
+      "plan_metric": "Procedural Consistency",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "structural",
+      "protocol_metrics": "procedural_consistency",
+      "paper_tables": "T04_structural_cq_diagnostics",
+      "evaluator_scripts": "scripts/build_cape_structural_evaluation.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/procedural_consistency_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md,experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M07_cq_answerability",
+      "metric_name": "CQ Answerability",
+      "plan_metric": "CQ Answerability",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "gold.completed_chunks,gold.item_count,llm.proposed_human_gold_score",
+      "expected_return_files": 11,
+      "present_return_files": 0,
+      "protocol_groups": "structural",
+      "protocol_metrics": "cq_answerability",
+      "paper_tables": "T03_cq_schema_ablation,T04_structural_cq_diagnostics",
+      "evaluator_scripts": "scripts/build_cape_cq_query_pack.py,scripts/build_cape_structural_evaluation.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/cq_answerability_structural_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md,experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json,experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M08_mapping_pk_mrr_ndcg",
+      "metric_name": "NCS/PCF Mapping P@K / MRR / nDCG",
+      "plan_metric": "NCS/PCF Mapping P@K / MRR / nDCG",
+      "plan_section": "9.3 and 9.5 Downstream task",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "mapping.expert_review",
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": "mapping_expert",
+      "protocol_metrics": "hit_at_1,hit_at_5,precision_at_5,mrr,ndcg_at_10",
+      "paper_tables": "T06_mapping_downstream",
+      "evaluator_scripts": "scripts/evaluate_cape_mapping_review.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_arm_rerank_summary.json,experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_evaluation_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json,experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M09_crosswalk_accept_utility",
+      "metric_name": "NCS-PCF Crosswalk Accept Rate / Utility",
+      "plan_metric": "NCS-PCF Crosswalk Accept Rate / Utility",
+      "plan_section": "9.5 Downstream task",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "crosswalk.expert_review",
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": "crosswalk_expert",
+      "protocol_metrics": "expert_accept_rate,hit_at_1,hit_at_5,precision_at_10,mrr,ndcg_at_10,utility_grade_mean",
+      "paper_tables": "T07_crosswalk_downstream",
+      "evaluator_scripts": "scripts/evaluate_cape_crosswalk_review.py,scripts/build_cape_ncs_pcf_crosswalk.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_evaluation_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_summary.json,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    },
+    {
+      "metric_id": "M10_active_review_efficiency",
+      "metric_name": "Active Review Efficiency",
+      "plan_metric": "Active Review Efficiency",
+      "plan_section": "9.3 Main evaluation metrics",
+      "claim_status": "pending_human_returns",
+      "claimable_now": "no",
+      "required_gate_ids": "strong.active_review",
+      "expected_return_files": 1,
+      "present_return_files": 0,
+      "protocol_groups": "active_review_effort",
+      "protocol_metrics": "review_seconds,corrections_per_hour,high_impact_corrections_per_hour",
+      "paper_tables": "T08_active_review_efficiency",
+      "evaluator_scripts": "scripts/evaluate_cape_active_review_efficiency.py,scripts/build_cape_active_review_human_effort.py",
+      "output_files": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_ablation_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md,experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json,experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md,experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "evaluator_scripts_present": "yes",
+      "output_files_present": "yes",
+      "paper_tables_present": "yes",
+      "protocol_metrics_present": "yes",
+      "required_gates_known": "yes",
+      "issue_count": 0,
+      "issues": ""
+    }
+  ],
+  "source_artifacts": {
+    "post_human_scoring_readiness": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.json",
+    "evaluation_protocol_lock": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json",
+    "paper_table_blueprint": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.json",
+    "claim_gate_report": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+    "eacl_plan_compliance_matrix": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json"
+  }
+}

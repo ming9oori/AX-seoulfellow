@@ -1,0 +1,36 @@
+{
+  "actual_count": 8,
+  "actual_group_count": 7,
+  "block_types": {
+    "mixed": 1,
+    "prose": 7
+  },
+  "evidence_ids": [
+    "zaije:evidence/xlsx-row-139",
+    "zaije:evidence/xlsx-row-162",
+    "zaije:evidence/xlsx-row-285",
+    "zaije:evidence/xlsx-row-315",
+    "zaije:evidence/xlsx-row-316",
+    "zaije:evidence/xlsx-row-317",
+    "zaije:evidence/xlsx-row-487",
+    "zaije:evidence/xlsx-row-757"
+  ],
+  "experiment_id": "zaije_r5_crsi_v_20260712_v1",
+  "leakage_group_ids": [
+    "zaije:leakage-group/02fe25ed826fd17d",
+    "zaije:leakage-group/03859c8f695ed122",
+    "zaije:leakage-group/5fe6fd5a67dad612",
+    "zaije:leakage-group/64af82e6e1e008a1",
+    "zaije:leakage-group/b4210625e593ed03",
+    "zaije:leakage-group/b77c0a8e1248932e",
+    "zaije:leakage-group/b8d7662781eca6c0"
+  ],
+  "membership_change_allowed": false,
+  "membership_sha256": "7a3f54e34cbcd87a2197a897026d126e895090ed7ba060fb30ecef186d84e18c",
+  "prior_api_exposure": 0,
+  "prior_evidence_overlap": 0,
+  "prior_group_overlap": 0,
+  "source_split": "VALIDATION",
+  "target_count": 80,
+  "test_membership_count": 0
+}

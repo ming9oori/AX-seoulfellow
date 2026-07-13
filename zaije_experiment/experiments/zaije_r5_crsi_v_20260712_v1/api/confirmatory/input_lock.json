@@ -1,0 +1,12 @@
+{
+  "batch_input_sha256": "3493b5445a6f71beeee359de647c26600d7d7887b6fc024fb27ffb93c9aaf08f",
+  "direct_evidence_count": 8,
+  "gray_count": 0,
+  "key_stored": false,
+  "manifest_sha256": "c589733d71f675a3283815bf32e58279ccb1b0fe882bfc6ace7b241113c09de4",
+  "model": "gpt-4.1-2025-04-14",
+  "repeat_count": 0,
+  "request_count": 8,
+  "split": "confirmatory",
+  "test_access": 0
+}

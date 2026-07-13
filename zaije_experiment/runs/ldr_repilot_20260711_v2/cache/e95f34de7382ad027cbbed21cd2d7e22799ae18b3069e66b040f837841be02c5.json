@@ -1,0 +1,225 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-209",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Member",
+                "quote": "구성원",
+                "role": "actor"
+              },
+              {
+                "normalized_label": "Have capability to use stepwise tools",
+                "quote": "단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c3",
+            "claim_quote": "• 셋째, 구성원에게 단계별 도구를 사용할 수 있는 역량 (Capability)이 있어야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must have",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X uses the full, contiguous claim quote from the evidence, including the parenthetical '(Capability)', and preserves the locked family decision order and all required fields. Y omits the parenthetical and splits the claim into smaller argument spans, which is less faithful to the evidence."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-244",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Support analysis of customer needs and development of requirements",
+                "quote": "고객의 니즈 분석 및 요구조건 개발 작업 지원",
+                "role": "action"
+              },
+              {
+                "normalized_label": "Define solution with customer",
+                "quote": "고객과 함께 솔루션 정의",
+                "role": "action"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c4",
+            "claim_quote": "• 고객의 니즈 분석 및 요구조건 개발 작업 지원\n• 고객과 함께 솔루션 정의",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "includes steps",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": "단계 4: 고객과 협력",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X includes both activities listed in the evidence, matching the full scope of the step. Y only includes the first activity as a claim and splits the arguments, omitting the second activity as a separate claim. X better preserves the procedural structure and locked family order."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-280",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Define Work Breakdown Structure (WBS)",
+                "quote": "작업분류체계(WBS) 정의",
+                "role": "action"
+              },
+              {
+                "normalized_label": "Establish program development schedule",
+                "quote": "프로그램 개발 일정 수립",
+                "role": "action"
+              },
+              {
+                "normalized_label": "Specify procurement schedule",
+                "quote": "구매 일정 구체화",
+                "role": "action"
+              },
+              {
+                "normalized_label": "Assign tasks and contract amounts with partners",
+                "quote": "협력업체와 업무 분장 및 금액 계약",
+                "role": "action"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c5",
+            "claim_quote": "• 작업분류체계(WBS) 정의, 프로그램 개발 일정 수립,\n구매 일정 구체화\n• 협력업체와 업무 분장 및 금액 계약",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": "단계 3: 솔루션 결정",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "includes steps",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y includes all activities listed in the evidence, matching the full procedural step. X omits '구매 일정 구체화' and '협력업체와 업무 분장 및 금액 계약', which are present in the evidence. Y better preserves the locked family order and full scope."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-290",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "단계 4: 제안서 리뷰",
+                "quote": "단계 4: 제안서 리뷰",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "제안서 리뷰",
+                "quote": "제안서 리뷰(레드팀 리뷰)",
+                "role": "action"
+              },
+              {
+                "normalized_label": "레드팀 리뷰 의견 반영",
+                "quote": "레드팀 리뷰 의견 반영",
+                "role": "action"
+              },
+              {
+                "normalized_label": "결과물 없음",
+                "quote": "-",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "단계 4: 제안서 리뷰\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 제안서 리뷰(레드팀 리뷰)\n• 레드팀 리뷰 의견 반영 | -",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "includes activities",
+            "promotion_target": "PROCEDURE_EDGE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim quote and arguments fully reflect the structure and content of the evidence, including both activities and the output. X splits the activities and output into separate claims, which is less faithful to the evidence's structure."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-350",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "RFP 이후부터 제안서 제출 구간",
+                "quote": "RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "영향력 행사 불가 구간",
+                "quote": "우리가 영향력을 행사할 수 없는 구간",
+                "role": "value"
+              },
+              {
+                "normalized_label": "리스크 갭",
+                "quote": "리스크 갭(Risk Gap)",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c2",
+            "claim_quote": "그런 의미에서 RFP 이후부터 제안서 제출 (또는 프레젠테이션)까지 구간은 우리가 영향력을 행사할 수 없는 구간이라는 의미에서 리스크 갭(Risk Gap)이라고 부른다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim quote is a contiguous, full-sentence definition matching the evidence, and the claim family/type/discourse are correct. Y only extracts the naming phrase, omitting the definitional context and structure."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b02_e95f34de7382.json",
+  "response_id": "resp_0416fa258034931d006a52914db6d8819996c71f75890aac35",
+  "usage": {
+    "input_tokens": 8717,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1408,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 10125
+  }
+}

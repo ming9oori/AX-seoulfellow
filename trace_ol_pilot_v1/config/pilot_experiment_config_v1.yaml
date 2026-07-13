@@ -1,0 +1,245 @@
+experiment:
+  name: TRACE-OL_LLM-Silver_Pilot
+  version: "1.0"
+  date: "2026-07-10"
+  dataset:
+    file: "자이제_1 (2).xlsx"
+    sheet: "clean_sentences"
+    total_evidence_units: 1366
+  reference_name: "TRACE-LLM-Silver-v0.1"
+  reporting_note: "All quality metrics are agreement against LLM-Silver unless explicitly stated otherwise."
+
+sampling:
+  total_targets: 180
+  targeted_stratified: 150
+  simple_random: 30
+  strata:
+    definition_descriptive: 25
+    normative: 25
+    condition_exception: 25
+    procedure_decision: 25
+    table_formula_evaluation: 25
+    discourse_ambiguous: 25
+  split:
+    CAL: 60
+    B1: 60
+    B2_LOCKED: 60
+  b1_subsplit:
+    B1a_distill_induction: 40
+    B1b_lf_validation: 20
+  group_split_keys:
+    - section_id
+    - table_id
+    - list_id
+    - duplicate_cluster_id
+
+annotation:
+  schema_version: "atomic-claim-v0.2"
+  annotator_A:
+    role: "low_cost_independent_extractor"
+    model_id: "SET_ME"
+    prompt_version: "reference_A_v0.1"
+  annotator_B:
+    role: "low_cost_independent_extractor"
+    model_id: "SET_ME"
+    prompt_version: "reference_B_v0.1"
+  annotator_C:
+    role: "low_cost_disagreement_extractor"
+    model_id: "SET_ME"
+    prompt_version: "reference_C_v0.1"
+    call_only_on_disagreement: true
+  adjudicator_D:
+    role: "strong_high_risk_adjudicator"
+    model_id: "SET_ME"
+    prompt_version: "reference_D_v0.1"
+    max_calls: 8
+  temperature: 0
+  max_retry_on_invalid_json: 1
+  require_source_substring: true
+  allow_chain_of_thought: false
+
+reference_tiers:
+  silver_A:
+    description: "A/B critical-field agreement plus automatic validation"
+    include_in_primary_eval: true
+  silver_B:
+    description: "Resolved by C majority or D adjudication"
+    include_in_primary_eval: true
+  challenge:
+    description: "Unresolved ambiguity or adjudicator abstention"
+    include_in_primary_eval: false
+
+api_budget:
+  max_total_calls: 80
+  max_input_tokens: 600000
+  max_output_tokens: 250000
+  max_strong_model_calls: 8
+  max_strong_model_cost_share: 0.15
+  stop_rules:
+    budget_70_percent: "Move low-risk unresolved reference items to Challenge"
+    budget_80_percent: "Skip optional analyses and extra verifier"
+    budget_90_percent: "Run only E0, E1, E4 on B2 and mandatory Neo4j export"
+
+batching:
+  prose_targets_per_call: 10
+  table_formula_targets_per_call: 5
+  cache_key_fields:
+    - model_id
+    - prompt_hash
+    - evidence_bundle_hash
+    - schema_version
+
+claim_schema:
+  families:
+    - FACTUAL
+    - NORMATIVE
+    - CONDITIONAL
+    - PROCEDURAL
+    - EVALUATIVE
+    - DISCOURSE
+    - UNCLEAR
+  types:
+    - Definition
+    - DescriptiveFact
+    - Obligation
+    - Prohibition
+    - Recommendation
+    - NecessaryCondition
+    - ConditionalRule
+    - Exception
+    - ProcessOrder
+    - ActivityOutput
+    - DecisionTrigger
+    - PurposeCause
+    - ComparisonFormula
+    - EvaluationObservation
+    - Example
+    - CounterExample
+    - Question
+    - Quotation
+    - OtherUnclear
+  modalities:
+    - MUST
+    - MUST_NOT
+    - SHOULD
+    - MAY
+    - DESCRIPTIVE
+    - NONE
+  promotion_targets:
+    - FACT_ASSERTION
+    - TBOX_AXIOM
+    - PROCESS_EDGE
+    - RULE_NODE
+    - EVALUATION_NODE
+    - LEXICAL_ONLY
+    - NONE
+    - NEEDS_REVIEW
+
+systems:
+  E0_direct_triple_llm:
+    run_on: [B2_LOCKED]
+    model_id: "SET_ME"
+  E1_claim_first_full_llm:
+    run_on: [B2_LOCKED]
+    model_id: "SET_ME"
+    use_reference_prompt: false
+  E2_trace_no_llm:
+    run_on: [CAL, B1, B2_LOCKED]
+  E3_trace_selective_llm:
+    run_on: [B1]
+    model_id: "SET_ME"
+  E4_trace_selective_distill:
+    run_on: [B2_LOCKED]
+    model_id: "SET_ME"
+  E2_flat_ablation:
+    run_on: [B2_LOCKED]
+    subset: [table_formula_evaluation, procedure_decision]
+
+selective_gate:
+  formula:
+    uncertainty: 0.45
+    risk: 0.30
+    novelty: 0.15
+    graph_impact: 0.10
+  threshold: 0.65
+  max_fraction_candidates: 0.15
+  max_candidates_per_split: 30
+  high_risk_min_confidence: 0.90
+  risk_values:
+    prohibition_negation: 1.00
+    obligation: 0.90
+    condition_exception: 0.85
+    example_promotion: 0.85
+    sense_merge_split: 0.75
+    process_decision: 0.60
+    definition: 0.45
+    descriptive_fact: 0.30
+
+promotion:
+  standard_accept_threshold: 0.80
+  high_risk_accept_threshold: 0.90
+  require_evidence: true
+  block_discourse_from_operational_projection: true
+  needs_review_in_audit_only: true
+
+distillation:
+  induction_split: B1a_distill_induction
+  validation_split: B1b_lf_validation
+  activation:
+    factual_definition:
+      min_precision: 0.85
+      min_support: 4
+    process_activity_output:
+      min_precision: 0.90
+      min_support: 3
+    obligation_prohibition_negation:
+      min_precision: 0.95
+      min_support: 3
+      max_critical_errors: 0
+    discourse_blocking:
+      min_precision: 0.95
+      min_support: 3
+      max_critical_errors: 0
+  default_scope: document_local
+
+metrics:
+  primary_reference_tiers: [Silver-A, Silver-B]
+  sensitivity_reference_tiers: [Silver-A]
+  bootstrap_resamples: 2000
+  claim_alignment_threshold: 0.50
+  success_gates:
+    source_span_validity_min: 0.98
+    silver_resolved_coverage_min: 0.80
+    challenge_rate_max: 0.20
+    claim_first_critical_error_relative_reduction_min: 0.30
+    selective_full_llm_macro_f1_gap_max: 0.05
+    selective_full_llm_token_ratio_max: 0.40
+    distillation_call_reduction_min: 0.20
+    provenance_path_coverage: 1.00
+    competency_queries_pass_min: 8
+    competency_queries_total: 10
+
+neo4j:
+  reference_graph: "audit"
+  operational_projection: true
+  require_unique_ids: true
+  required_labels:
+    - Document
+    - Section
+    - Evidence
+    - Claim
+    - Concept
+    - Assertion
+    - Rule
+    - Condition
+  required_exports:
+    - neo4j_documents.csv
+    - neo4j_sections.csv
+    - neo4j_evidence.csv
+    - neo4j_claims.csv
+    - neo4j_concepts.csv
+    - neo4j_assertions.csv
+    - neo4j_rules.csv
+    - neo4j_constraints.cypher
+    - neo4j_import.cypher
+    - neo4j_validation_queries.cypher

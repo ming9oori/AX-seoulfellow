@@ -1,0 +1,6 @@
+node { diameter: 44px; caption: '{label}'; font-size: 10px; color: #D9E2EC; border-color: #486581; }
+node.ConceptCluster { color: #8FD3C7; }
+node.Assertion { color: #F4B183; }
+node.SchemaClass { color: #C6B5E8; }
+node.EvidenceUnit { color: #D5D7DA; }
+relationship { caption: '<type>'; color: #7B8794; }

@@ -1,0 +1,15 @@
+{
+  "anchor_count": 70,
+  "anchor_id_uniqueness": 1.0,
+  "anchor_json_validity": 1.0,
+  "context_span_count": 61,
+  "context_span_existence": 1.0,
+  "evidence_count": 60,
+  "offset_round_trip_validity": 1.0,
+  "records_sha256": "df0cf629e308c9b465add60c8ca179959d388dac37aec05a1198c87c346de793",
+  "structure_counts": {
+    "LIST_ITEM": 9,
+    "PROSE_CLAUSE": 54,
+    "TABLE_CELL": 7
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "annotation_complete": false,
+  "checks": {
+    "claim_family_alpha": false,
+    "claim_type_alpha": false,
+    "modality_alpha": false,
+    "promotion_target_alpha": false,
+    "span_pairwise_f1": false
+  },
+  "metrics": {
+    "aligned_claims": 0,
+    "claim_family_alpha": null,
+    "claim_type_alpha": null,
+    "modality_alpha": null,
+    "promotion_target_alpha": null,
+    "span_pairwise_f1": 0.0,
+    "span_pairwise_precision": 0.0,
+    "span_pairwise_recall": 0.0
+  },
+  "note": "Canonicalization kappa and relation/rule alpha require completed ontology-layer fields and adjudication review; this script reports AWC-layer preliminary IAA.",
+  "status": "FAIL",
+  "thresholds": {
+    "claim_family_alpha": 0.8,
+    "claim_type_alpha": 0.75,
+    "modality_alpha": 0.75,
+    "promotion_target_alpha": 0.75,
+    "span_pairwise_f1": 0.85
+  },
+  "validation_errors": {
+    "annotator_a": {
+      "zaije:evidence/xlsx-row-1006": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1046": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-106": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1061": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1138": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1171": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1197": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1260": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1273": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1279": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1309": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-208": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-21": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-243": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-283": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-289": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-30": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-329": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-340": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-349": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-361": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-408": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-477": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-489": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-497": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-526": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-553": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-590": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-663": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-699": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-7": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-70": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-711": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-760": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-834": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-86": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-896": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-90": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-906": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-952": [
+        "completion_status must be COMPLETE"
+      ]
+    },
+    "annotator_b": {
+      "zaije:evidence/xlsx-row-1006": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1046": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-106": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1061": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1138": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1171": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1197": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1260": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1273": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1279": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-1309": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-208": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-21": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-243": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-283": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-289": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-30": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-329": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-340": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-349": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-361": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-408": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-477": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-489": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-497": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-526": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-553": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-590": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-663": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-699": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-7": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-70": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-711": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-760": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-834": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-86": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-896": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-90": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-906": [
+        "completion_status must be COMPLETE"
+      ],
+      "zaije:evidence/xlsx-row-952": [
+        "completion_status must be COMPLETE"
+      ]
+    }
+  }
+}

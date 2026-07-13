@@ -1,0 +1,140 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "be18ededd25a83c7c4e873b8ab7c68666a0e78b62a72a882b00924193489962c",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "Shipley Tip",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is a tip",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-90",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "3048bbba2c5a44d3fc8d9ac54400487fcb57a647e1384efb15d2e3f0a5c5555f",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "이 질문에 ‘A. 진실을 말한다’를 선택한 사람의 국가별 비율은 다음 페이지의 그림과 같았다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is the percentage of countries",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "707594395fe11158c6acdb6d6f90490d1a7795d2f7568372b46888014a829cd3",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "claim_1",
+            "claim_quote": "•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must have specific action methodologies",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-208",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "275b66d8e8882d39487cecdf509b27f3f44a9bb39838a4e1b71137962dc97385",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "claim_1",
+            "claim_quote": "단계 3: 수주전략 수립\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 수주전략 초안 개발 / 리뷰<br>(리뷰된 수주전략을 Capture Plan에 포함)<br>• 수주전략의 실행계획 적용<br>• 수주전략 업데이트 및 제안 요약(Executive Summary)<br>초안 설계 | • Capture Plan 초안<br><br>• Executive Summary<br>초안 |",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is the establishment of a bidding strategy",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-243",
+        "no_claim_reason": ""
+      },
+      {
+        "annotation_role": "DOMAIN_FIRST",
+        "bundle_hash": "a6136f89af83825cf174efbc5b4ff0058f7b5e8a962616a4177bd17ce9448ab5",
+        "claims": [
+          {
+            "arguments": [],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "claim_1",
+            "claim_quote": "단계 6: 섹션기획서 준비 및 작성\n\n| 활동(Activity) | 결과물(Output) |\n| --- | --- |\n| • 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이<br>작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과<br>핵심 정보를 제공해야 함<br>• 요구조건 응답표 작성, 상용 콘텐츠 준비<br>• 제안서 킥오프 미팅<br>• 섹션기획서 리뷰 | • 섹션기획서 |",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is the preparation and writing of the section plan",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-283",
+        "no_claim_reason": ""
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_A_r2_b02_7de893b3f963.json",
+  "response_id": "resp_03c39d25928211bc006a528d284a3c819998458be8d082c494",
+  "usage": {
+    "input_tokens": 2846,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1076,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3922
+  }
+}

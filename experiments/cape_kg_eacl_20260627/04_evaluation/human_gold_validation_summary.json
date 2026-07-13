@@ -1,0 +1,27 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:21.194944+00:00",
+  "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication.jsonl",
+  "total_rows": 120,
+  "unique_chunks": 120,
+  "completed_adjudicated_chunks": 0,
+  "pending_or_incomplete_chunks": 120,
+  "status_counts": {
+    "pending_two_annotator_input": 120
+  },
+  "explicit_gold_nodes": 0,
+  "derived_gold_node_instances": 0,
+  "adjudicated_gold_edges": 0,
+  "adjudicated_gold_evidence_links": 0,
+  "gold_item_count_for_readiness": 0,
+  "validation_error_count": 0,
+  "validation_warning_count": 0,
+  "issue_counts": {},
+  "issues": [],
+  "issue_count_truncated": 0,
+  "paper_ready_minimums": {
+    "completed_chunks_ge_100": false,
+    "gold_items_ge_500": false,
+    "no_validation_errors": true
+  },
+  "claim_status": "pending_human_adjudication"
+}

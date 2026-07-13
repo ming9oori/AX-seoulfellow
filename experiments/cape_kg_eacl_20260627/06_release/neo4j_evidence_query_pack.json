@@ -1,0 +1,213 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:41.524976+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "claim_status": "neo4j_evidence_query_pack_ready_not_human_gold_evidence",
+  "summary": {
+    "neo4j_node_count": 11028,
+    "neo4j_relationship_count": 14455,
+    "neo4j_validation_status": "PASS",
+    "neo4j_validation_issue_count": null,
+    "relationship_type_count": 18,
+    "evidence_anchor_node_count": 451,
+    "kg_edge_assertion_node_count": 947,
+    "evidenced_by_relationship_count": 3915,
+    "layer2_node_count": 220,
+    "layer2_edge_count": 947,
+    "source_text_included": false,
+    "cq_count": 12,
+    "answerable_cq_count": 12,
+    "query_count": 13
+  },
+  "source_files": [
+    {
+      "role": "neo4j_flat_manifest",
+      "path": "outputs/11_neo4j_import_flat/manifest.json"
+    },
+    {
+      "role": "neo4j_csv_validation",
+      "path": "outputs/11_neo4j_import_flat/neo4j_csv_validation_report.json"
+    },
+    {
+      "role": "evidence_graph_projection_summary",
+      "path": "outputs/13_evidence_graph/evidence_graph_projection_summary.json"
+    },
+    {
+      "role": "cq_query_pack",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.json"
+    },
+    {
+      "role": "neo4j_import_cypher_http",
+      "path": "outputs/11_neo4j_import_flat/neo4j_import_http_8765.cypher"
+    },
+    {
+      "role": "neo4j_import_cypher_file",
+      "path": "outputs/11_neo4j_import_flat/neo4j_import.cypher"
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "NQ01",
+      "title_ko": "전체 노드 layer/type 분포",
+      "purpose_ko": "Layer 1, Layer 2, Evidence projection 노드가 Neo4j에 들어왔는지 확인한다.",
+      "source_cq_ids": [],
+      "cypher": "MATCH (n:KGNode)\nRETURN n.layer AS layer, n.type AS type, count(n) AS nodes\nORDER BY layer, type;",
+      "expected_signal": "총 노드 수가 manifest node_count=11028와 같은지 확인.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ02",
+      "title_ko": "전체 relationship type 분포",
+      "purpose_ko": "KG edge, NCS/PCF mapping edge, evidence edge가 모두 적재되었는지 확인한다.",
+      "source_cq_ids": [],
+      "cypher": "MATCH ()-[r]->()\nRETURN type(r) AS relationship_type, count(r) AS relationships\nORDER BY relationships DESC, relationship_type;",
+      "expected_signal": "총 relationship 수가 manifest relationship_count=14455와 같은지 확인.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ03",
+      "title_ko": "Evidence projection count sanity check",
+      "purpose_ko": "EvidenceAnchor, KGEdgeAssertion, EVIDENCED_BY 수가 projection summary와 일치하는지 확인한다.",
+      "source_cq_ids": [
+        "CQ10"
+      ],
+      "cypher": "MATCH (a:EvidenceAnchor)\nWITH count(a) AS evidence_anchors\nMATCH (e:KGEdgeAssertion)\nWITH evidence_anchors, count(e) AS kg_edge_assertions\nMATCH ()-[r:EVIDENCED_BY]->()\nRETURN evidence_anchors, kg_edge_assertions, count(r) AS evidenced_by_relationships;",
+      "expected_signal": "기대값: EvidenceAnchor=451, KGEdgeAssertion=947, EVIDENCED_BY=3915.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ04",
+      "title_ko": "Layer 2 node evidence 확인",
+      "purpose_ko": "DomainTask, ProcedureStep, Artifact 등 Layer 2 노드가 어떤 원문 anchor에 의해 지지되는지 본다.",
+      "source_cq_ids": [
+        "CQ10"
+      ],
+      "cypher": "MATCH p = (n:Layer2)-[:EVIDENCED_BY]->(a:EvidenceAnchor)\nRETURN p\nLIMIT 25;",
+      "expected_signal": "Layer 2 KGNode evidence edge 기대값: 742.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ05",
+      "title_ko": "KG edge assertion evidence 확인",
+      "purpose_ko": "관계 자체를 KGEdgeAssertion 노드로 reify한 뒤, 각 관계가 어느 EvidenceAnchor에 근거하는지 본다.",
+      "source_cq_ids": [
+        "CQ10"
+      ],
+      "cypher": "MATCH (e:KGEdgeAssertion)-[:EVIDENCED_BY]->(a:EvidenceAnchor)\nRETURN e.node_id AS kg_edge_id,\n       e.label AS kg_edge_label,\n       a.evidence_anchor_id AS evidence_anchor_id,\n       a.sentence_id AS sentence_id,\n       a.chunk_id AS chunk_id,\n       a.page AS page,\n       a.text_included AS text_included,\n       a.text_sha256 AS text_sha256\nLIMIT 25;",
+      "expected_signal": "KGEdgeAssertion evidence edge 기대값: 3173.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ06",
+      "title_ko": "절차 구성과 원문 근거 같이 보기",
+      "purpose_ko": "Task -> Step 구조와 Step evidence anchor를 함께 확인한다.",
+      "source_cq_ids": [
+        "CQ1",
+        "CQ10"
+      ],
+      "cypher": "MATCH p = (task:Layer2 {type: 'DomainTask'})-[:HAS_STEP]->(step:Layer2)-[:EVIDENCED_BY]->(a:EvidenceAnchor)\nRETURN p\nLIMIT 25;",
+      "expected_signal": "Task/Step graph가 원문 anchor까지 이어져야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ07",
+      "title_ko": "산출물 흐름 관계와 관계 근거 같이 보기",
+      "purpose_ko": "USES_INPUT/PRODUCES/FEEDS_INTO/USED_AS_INPUT_FOR 관계의 rel_id를 reified KGEdgeAssertion과 연결해 근거 anchor를 확인한다.",
+      "source_cq_ids": [
+        "CQ2",
+        "CQ3",
+        "CQ7",
+        "CQ10"
+      ],
+      "cypher": "MATCH (s:KGNode)-[r:USES_INPUT|PRODUCES|FEEDS_INTO|USED_AS_INPUT_FOR]->(t:KGNode)\nMATCH (edge:KGEdgeAssertion {node_id: r.rel_id})-[:EVIDENCED_BY]->(a:EvidenceAnchor)\nRETURN s.label AS source,\n       type(r) AS predicate,\n       t.label AS target,\n       edge.node_id AS kg_edge_id,\n       a.evidence_anchor_id AS evidence_anchor_id,\n       a.chunk_id AS chunk_id,\n       a.page AS page\nLIMIT 25;",
+      "expected_signal": "Artifact-flow edge와 EvidenceAnchor가 같이 반환되어야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ08",
+      "title_ko": "CQ predicate coverage",
+      "purpose_ko": "CQ pack에서 쓰는 핵심 predicate별 edge 수를 Neo4j에서 확인한다.",
+      "source_cq_ids": [
+        "CQ1",
+        "CQ2",
+        "CQ3",
+        "CQ4",
+        "CQ5",
+        "CQ6",
+        "CQ7",
+        "CQ8",
+        "CQ9",
+        "CQ10",
+        "CQ11",
+        "CQ12"
+      ],
+      "cypher": "MATCH ()-[r]->()\nWHERE type(r) IN [\"HAS_STEP\", \"PRECEDES\", \"USES_INPUT\", \"PRODUCES\", \"PERFORMED_BY\", \"HAS_DECISION_GATEWAY\", \"HAS_GUARD_CONDITION\", \"FEEDS_INTO\", \"USED_AS_INPUT_FOR\", \"HAS_PRINCIPLE\", \"REQUIRES_CAPABILITY\", \"PROCESS_CONTEXT\"]\nRETURN type(r) AS predicate, count(r) AS edges\nORDER BY predicate;",
+      "expected_signal": "CQ pack 기준 answerable CQ=12/12. Predicate별 count가 release CQ pack과 일치해야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ09",
+      "title_ko": "NCS mapping 후보 확인",
+      "purpose_ko": "Layer 2 task와 NCS capability 후보의 rank/score/reason을 확인한다.",
+      "source_cq_ids": [
+        "CQ11"
+      ],
+      "cypher": "MATCH (task:KGNode:Layer2)-[r:REQUIRES_CAPABILITY]->(ncs:KGNode:Layer1NCS)\nRETURN task.node_id AS task_id,\n       task.label AS task_label,\n       ncs.node_id AS ncs_id,\n       ncs.label AS ncs_label,\n       r.rank AS rank,\n       r.score AS score,\n       r.reason AS reason\nORDER BY task_id, rank\nLIMIT 50;",
+      "expected_signal": "REQUIRES_CAPABILITY 후보 edge 기대값: 110.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ10",
+      "title_ko": "PCF mapping 후보 확인",
+      "purpose_ko": "Layer 2 task와 PCF process context 후보의 rank/score/reason을 확인한다.",
+      "source_cq_ids": [
+        "CQ12"
+      ],
+      "cypher": "MATCH (task:KGNode:Layer2)-[r:PROCESS_CONTEXT]->(pcf:KGNode:Layer1PCF)\nRETURN task.node_id AS task_id,\n       task.label AS task_label,\n       pcf.node_id AS pcf_id,\n       pcf.label AS pcf_label,\n       r.rank AS rank,\n       r.score AS score,\n       r.reason AS reason\nORDER BY task_id, rank\nLIMIT 50;",
+      "expected_signal": "PROCESS_CONTEXT 후보 edge 기대값: 110.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ11",
+      "title_ko": "원문 텍스트 비포함 상태 확인",
+      "purpose_ko": "EvidenceAnchor에는 원문 문장이 아닌 sentence/chunk/page/span/hash만 들어갔는지 확인한다.",
+      "source_cq_ids": [
+        "CQ10"
+      ],
+      "cypher": "MATCH (a:EvidenceAnchor)\nRETURN a.text_included AS text_included,\n       count(a) AS evidence_anchors,\n       min(a.text_char_count) AS min_text_chars,\n       max(a.text_char_count) AS max_text_chars\nORDER BY text_included;",
+      "expected_signal": "source_text_included=False이어야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ12",
+      "title_ko": "고립 EvidenceAnchor 확인",
+      "purpose_ko": "현재 Neo4j projection에 들어온 EvidenceAnchor가 모두 최소 하나의 KGNode/KGEdgeAssertion에서 참조되는지 확인한다.",
+      "source_cq_ids": [
+        "CQ10"
+      ],
+      "cypher": "MATCH (a:EvidenceAnchor)\nWHERE NOT ()-[:EVIDENCED_BY]->(a)\nRETURN count(a) AS unreferenced_evidence_anchors;",
+      "expected_signal": "사용된 anchor만 projection했으므로 0이어야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    },
+    {
+      "query_id": "NQ13",
+      "title_ko": "대표 Task 주변 그래프 탐색",
+      "purpose_ko": "기회분석 task 주변의 step/artifact/role/evidence 연결을 Neo4j Browser graph view로 본다.",
+      "source_cq_ids": [
+        "CQ1",
+        "CQ2",
+        "CQ3",
+        "CQ4",
+        "CQ10"
+      ],
+      "cypher": "MATCH p = (:Layer2 {node_id: 'L2_TASK_OPPORTUNITY_ASSESSMENT'})-[*1..2]->()\nRETURN p\nLIMIT 50;",
+      "expected_signal": "대표 task의 절차, 산출물, 근거 연결이 graph view에 표시되어야 한다.",
+      "claim_status": "neo4j_structural_or_evidence_diagnostic_not_human_gold_claim"
+    }
+  ],
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md",
+    "cypher": "outputs/11_neo4j_import_flat/neo4j_evidence_queries.cypher"
+  }
+}

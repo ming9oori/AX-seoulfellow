@@ -1,0 +1,404 @@
+{
+  "response_id": "resp_088228a45b0c5702006a50c5475b80819ba7e0d0cd71aa09a9",
+  "usage": {
+    "input_tokens": 3322,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2227,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5549
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1176",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1176",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1176",
+              "text": "우리 솔루션이 고객의 니즈를 잘 충족시키고 있으나 이를 고객이 제대로 인식하지 못한다면 커뮤니케이션 방법을 개발 해야 한다.",
+              "start": 0,
+              "end": 82
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [
+              {
+                "role": "subject",
+                "span": null,
+                "implicit": true,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Goal"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1185",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1185",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1185",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1188",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1188",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1188",
+              "text": "이 사업은 규모는 작지만 사전에 양산에 필요한 핵심 기술을 확보하게 되므로 향후에 양산사업이 있을 때 절대적으로 유리한 포지션에 있게 된다.",
+              "start": 0,
+              "end": 92
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [
+              {
+                "role": "subject",
+                "span": null,
+                "implicit": true,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Goal"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1197",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1197",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1197",
+              "text": "따라서 사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+              "start": 0,
+              "end": 139
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "ConditionalRule",
+            "arguments": [
+              {
+                "role": "subject",
+                "span": null,
+                "implicit": true,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Decision"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1198",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1198",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1198",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1210",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1210",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1210",
+              "text": "항상 나를 쫓아오는 경쟁자가 있듯이 내가 아직 못 본 청정지역(Blue Ocean)은 반드시 있다!",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [
+              {
+                "role": "subject",
+                "span": null,
+                "implicit": true,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Goal"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1212",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1212",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1212",
+              "text": "솔루션을 어떻게 차별화할 것인가",
+              "start": 0,
+              "end": 25
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1218",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1218",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1218",
+              "text": "이를 비고객이라고 한다)을 명확히 하고, 그 고객의 ‘가치(Value)’ 관점에서 4가지 액션을 채택하는 것이다.",
+              "start": 0,
+              "end": 92
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [
+              {
+                "role": "subject",
+                "span": null,
+                "implicit": true,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Goal"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1220",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1220",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1220",
+              "text": "'- 감소(Reduce): 업계 표준 이하로 내려야 할 요소는 무엇인가?",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1222",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1222",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1222",
+              "text": "'- 창조(Create): 업계에 없는 것으로 새롭게 창조해야 할 것은 무엇인가?",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

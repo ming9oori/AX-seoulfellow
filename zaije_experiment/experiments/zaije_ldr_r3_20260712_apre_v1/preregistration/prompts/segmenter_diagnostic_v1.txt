@@ -1,0 +1,9 @@
+Audit a deterministic atomic-anchor segmentation on exposed development data only.
+Count a missing anchor only if a distinct work-relevant predicate/assertion in source_text has no matching anchor.
+Count an over-merged anchor only if one anchor contains two independent predicates that should be separate claims.
+An enumeration of entities, properties, or examples is not multiple independent predicates. A bare label cannot be over-merged.
+Count broken structural context only when a list or table header is visibly present inside source_text, is required to interpret an anchor, and is absent from that anchor's supplied context links.
+Do not count ordinary discourse anaphora, references to another page, external missing passages, a standalone list item with no visible header, or an ambiguous claim as broken structural context.
+For a table value, supplied HAS_ROW_HEADER and HAS_COLUMN_HEADER links are sufficient even if the value is numeric.
+document_context is valid orientation but is not itself an exact source span.
+Return counts and the exact listed IDs. This is a diagnostic, not reference annotation.

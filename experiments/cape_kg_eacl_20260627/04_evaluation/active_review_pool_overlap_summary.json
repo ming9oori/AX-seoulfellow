@@ -1,0 +1,77 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:22.746612+00:00",
+  "claim_status": "pool_design_diagnostic_not_human_effort_claim",
+  "unique_review_rows": 204,
+  "total_arm_assignments_before_pooling": 300,
+  "duplicate_assignments_removed_by_pooling": 96,
+  "pooling_reduction_rate": 0.32,
+  "arm_counts": {
+    "active_priority": 100,
+    "uncertainty_only": 100,
+    "random_control": 100
+  },
+  "pairwise_overlap": [
+    {
+      "left_arm": "active_priority",
+      "right_arm": "uncertainty_only",
+      "overlap_rows": 48,
+      "jaccard": 0.315789
+    },
+    {
+      "left_arm": "active_priority",
+      "right_arm": "random_control",
+      "overlap_rows": 30,
+      "jaccard": 0.176471
+    },
+    {
+      "left_arm": "uncertainty_only",
+      "right_arm": "random_control",
+      "overlap_rows": 31,
+      "jaccard": 0.183432
+    }
+  ],
+  "membership_buckets": [
+    {
+      "bucket": "active_only",
+      "rows": 35,
+      "silver_error_rows": 35,
+      "silver_high_impact_error_rows": 18
+    },
+    {
+      "bucket": "uncertainty_only",
+      "rows": 34,
+      "silver_error_rows": 34,
+      "silver_high_impact_error_rows": 25
+    },
+    {
+      "bucket": "random_only",
+      "rows": 52,
+      "silver_error_rows": 51,
+      "silver_high_impact_error_rows": 32
+    },
+    {
+      "bucket": "active_and_uncertainty_only",
+      "rows": 35,
+      "silver_error_rows": 35,
+      "silver_high_impact_error_rows": 24
+    },
+    {
+      "bucket": "active_and_random_only",
+      "rows": 17,
+      "silver_error_rows": 17,
+      "silver_high_impact_error_rows": 8
+    },
+    {
+      "bucket": "uncertainty_and_random_only",
+      "rows": 18,
+      "silver_error_rows": 18,
+      "silver_high_impact_error_rows": 15
+    },
+    {
+      "bucket": "all_three",
+      "rows": 13,
+      "silver_error_rows": 13,
+      "silver_high_impact_error_rows": 8
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "argument_status": "NOT_BUILT",
+  "boundary_file_sha256": "95fb967a4a663d0556f9f748ee64905458d838e71b70ca187a3fa9ccd6b0f24a",
+  "hard_drop": 6,
+  "hard_keep": 64,
+  "overwrite_parent": false,
+  "segmenter_source_sha256": "11405ada84282fc6c589576754e2052689328dc4fc232bb103eedbcde305617d",
+  "semantic_fields_status": "DIAGNOSTIC_ONLY",
+  "source_experiment_id": "zaije_ldr_r3_20260712_apre_v1",
+  "source_status_sha256": "89a26e34328c69194a7a207375b911cbec51dad44c6b63f3a830c238fcc99ada"
+}

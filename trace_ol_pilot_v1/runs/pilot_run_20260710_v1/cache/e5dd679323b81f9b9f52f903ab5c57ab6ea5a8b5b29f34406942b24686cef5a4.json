@@ -1,0 +1,36 @@
+{
+  "response_id": "resp_0df3600fc73980cc006a50cc1e4734819bae33223f2e0bcb8a",
+  "usage": {
+    "input_tokens": 1822,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1979
+  },
+  "parsed": {
+    "items": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r497",
+        "triples": [
+          {
+            "subject": "가치제안",
+            "predicate": "정의",
+            "object": "고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것",
+            "source_span": "가치제안이란 고객이 지불하는 비용보다 본인이 갖게 되는 효용이 더 크다는 것을 보여주는 것이다."
+          },
+          {
+            "subject": "경쟁자",
+            "predicate": "비교",
+            "object": "우리가 제안하는 솔루션의 비용 대비 효용이 더 크다는 것",
+            "source_span": "경쟁자에 비해서 우리가 제안하는 솔루션의 비용 대비 효용이 더 크다는 것을 보여주는 것이다."
+          }
+        ]
+      }
+    ]
+  }
+}

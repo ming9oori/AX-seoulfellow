@@ -1,0 +1,4 @@
+﻿arm,budget,assigned,reviewed,review_seconds,review_hours,corrected_errors,high_impact_corrections,corrections_per_hour,high_impact_corrections_per_hour,precision_corrected,claim_status
+active_priority,100,100,0,0,0.0,0,0,,,,pending_human_effort_timing
+uncertainty_only,100,100,0,0,0.0,0,0,,,,pending_human_effort_timing
+random_control,100,100,0,0,0.0,0,0,,,,pending_human_effort_timing

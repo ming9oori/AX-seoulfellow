@@ -1,0 +1,541 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.700948+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "claim_language_guardrails_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "claim_count": 10,
+    "status_counts": {
+      "claimable_setup_or_diagnostic": 4,
+      "pending_expert_review": 1,
+      "pending_human_effort": 1,
+      "pending_human_gold": 3,
+      "rights_review_required": 1
+    },
+    "claimable_now_count": 4,
+    "pending_human_or_expert_count": 5,
+    "rights_review_required_count": 1,
+    "missing_evidence_files": 0,
+    "safe_to_use_as_submission": false,
+    "submission_ready": false,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "claim_gate_optional_failure_count": 2,
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "readiness_claim_status": "pending_human_gold_iaa_and_human_gold_scoring"
+  },
+  "claims": [
+    {
+      "claim_id": "C01_task_and_method_framing",
+      "area": "Task framing and CAPE-KG contribution",
+      "current_status": "claimable_setup_or_diagnostic",
+      "paper_sections": [
+        "Introduction",
+        "Task Definition",
+        "Method"
+      ],
+      "evidence_files": [
+        {
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "CAPE-KG를 한국어 장문 업무 문서의 evidence-grounded procedural KG construction task로 정의했고, CQ/schema/evidence/validator/standard bridge를 결합한 pre-human 방법론 산출물을 구축했다고 말할 수 있다.",
+      "allowed_now_en": "We can describe CAPE-KG as a pre-human, evidence-grounded procedural KG construction framework combining CQs, schema control, evidence grounding, validation, and standard-taxonomy bridging.",
+      "forbidden_now_ko": "EACL 제출이 완료되었거나, 최종 성능 우수성이 입증되었다고 말하면 안 된다.",
+      "forbidden_now_en": "Do not say the EACL submission is complete or that final superiority has been proven.",
+      "required_before_stronger_claim": [
+        "Adjudicated human-gold extraction metrics",
+        "IAA and adjudication evidence",
+        "Final paper tables refreshed after human returns"
+      ],
+      "safe_phrasing_ko": "본 연구는 CAPE-KG task framing과 pre-human 실험 인프라를 완성했으며, 최종 성능 claim은 human-gold 이후 확정한다.",
+      "safe_phrasing_en": "We present the CAPE-KG framing and pre-human experimental infrastructure; final performance claims remain gated by human-gold evaluation.",
+      "unsafe_phrasing_examples": [
+        "CAPE-KG is ready for EACL submission.",
+        "CAPE-KG outperforms all baselines on the target corpus."
+      ],
+      "next_gate": "minimum human-gold gates"
+    },
+    {
+      "claim_id": "C02_kg_construction_counts",
+      "area": "KG construction counts and structural integrity",
+      "current_status": "claimable_setup_or_diagnostic",
+      "paper_sections": [
+        "Dataset",
+        "KG Construction",
+        "Analysis"
+      ],
+      "evidence_files": [
+        {
+          "path": "outputs/10_evaluation/final_build_report.md",
+          "exists": true,
+          "bytes": 896
+        },
+        {
+          "path": "outputs/07_layer2_graph/layer2_graph_quality_report.md",
+          "exists": true,
+          "bytes": 373
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        },
+        {
+          "path": "outputs/09_visualization/kg_viewer.html",
+          "exists": true,
+          "bytes": 6033408
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "Layer 1 NCS/PCF와 Layer 2 업무 KG가 구축되었고, 현재 Layer 2는 220 nodes, 947 edges이며 accepted edge evidence 누락과 dangling edge가 없다고 말할 수 있다.",
+      "allowed_now_en": "We can report constructed KG counts and structural checks: Layer 2 currently has 220 nodes and 947 edges with no missing accepted-edge evidence or dangling edges.",
+      "forbidden_now_ko": "이 count를 human-gold 정답 대비 정확도 또는 추출 성능으로 해석하면 안 된다.",
+      "forbidden_now_en": "Do not interpret construction counts as human-gold accuracy or extraction quality.",
+      "required_before_stronger_claim": [
+        "Human verification of node/edge correctness",
+        "Error analysis refreshed after adjudication"
+      ],
+      "safe_phrasing_ko": "Layer 2 KG construction is complete as an automatic build artifact: 220 nodes and 947 evidence-linked edges.",
+      "safe_phrasing_en": "The Layer 2 KG is complete as an automatic build artifact: 220 nodes and 947 evidence-linked edges.",
+      "unsafe_phrasing_examples": [
+        "The constructed KG is correct with high precision.",
+        "The KG has been fully validated by humans."
+      ],
+      "next_gate": "human correctness validation"
+    },
+    {
+      "claim_id": "C03_main_extraction_performance",
+      "area": "Main extraction performance",
+      "current_status": "pending_human_gold",
+      "paper_sections": [
+        "Experiments",
+        "Main Results",
+        "Conclusion"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "현재는 main extraction result가 pending human-gold라고만 말할 수 있다.",
+      "allowed_now_en": "At present, main extraction performance must be described as pending human-gold evaluation.",
+      "forbidden_now_ko": "silver/proxy F1을 final main table 또는 논문 성능 우수성으로 제시하면 안 된다.",
+      "forbidden_now_en": "Do not present silver/proxy F1 as the final main-result table or as superiority evidence.",
+      "required_before_stronger_claim": [
+        "100+ adjudicated chunks",
+        "500+ gold node/edge/evidence items",
+        "2+ annotator IAA",
+        "P_cape_kg_actual scored against adjudicated human gold"
+      ],
+      "safe_phrasing_ko": "Main extraction performance is not yet claimable; the scoring pipeline is ready and waiting for adjudicated human-gold returns.",
+      "safe_phrasing_en": "Main extraction performance is not yet claimable; the scoring pipeline is ready pending adjudicated human-gold returns.",
+      "unsafe_phrasing_examples": [
+        "CAPE-KG achieves the best extraction F1.",
+        "The main table proves the proposed method is superior."
+      ],
+      "next_gate": "human-gold annotation, IAA, adjudication, and scoring"
+    },
+    {
+      "claim_id": "C04_evidence_faithfulness",
+      "area": "Evidence grounding and faithfulness",
+      "current_status": "pending_human_gold",
+      "paper_sections": [
+        "Method",
+        "Faithfulness Evaluation",
+        "Error Analysis"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_grounding_report.md",
+          "exists": true,
+          "bytes": 1594
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/evidence_span_granularity_report.md",
+          "exists": true,
+          "bytes": 1580
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "자동 구축 edge의 evidence attachment와 component span diagnostic은 보고할 수 있지만, human-gold faithfulness claim은 보류해야 한다.",
+      "allowed_now_en": "We can report automatic evidence attachment and component-span diagnostics, while holding human-gold faithfulness claims.",
+      "forbidden_now_ko": "evidence span 정확도 또는 unsupported edge 감소를 human-gold로 입증했다고 말하면 안 된다.",
+      "forbidden_now_en": "Do not say evidence-span correctness or unsupported-edge reduction is proven against human gold.",
+      "required_before_stronger_claim": [
+        "Adjudicated component span returns",
+        "Human-gold exact/IoU evidence metrics",
+        "Unsupported-edge adjudication"
+      ],
+      "safe_phrasing_ko": "Evidence diagnostics are available, but faithfulness claims remain diagnostic until adjudicated span evidence is imported.",
+      "safe_phrasing_en": "Evidence diagnostics are available, but faithfulness claims remain diagnostic until adjudicated span evidence is imported.",
+      "unsafe_phrasing_examples": [
+        "CAPE-KG eliminates hallucination.",
+        "Evidence spans are human-validated."
+      ],
+      "next_gate": "adjudicated span and unsupported-edge evaluation"
+    },
+    {
+      "claim_id": "C05_baseline_ablation_superiority",
+      "area": "Baseline, ablation, and model-scaling superiority",
+      "current_status": "pending_human_gold",
+      "paper_sections": [
+        "Experiments",
+        "Ablation",
+        "Model Scaling"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+          "exists": true,
+          "bytes": 4752
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+          "exists": true,
+          "bytes": 19847
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "B0-B6, P_cape_kg_actual, P_minus_* 조건과 Qwen3 scaling을 실행했고, 현재 수치는 silver/proxy diagnostic이라고 말할 수 있다.",
+      "allowed_now_en": "We can report that B0-B6, P_cape_kg_actual, P_minus_* ablations, and Qwen3 scaling diagnostics were run.",
+      "forbidden_now_ko": "P_cape_kg_actual이 baseline보다 최종적으로 우수하다고 말하면 안 된다.",
+      "forbidden_now_en": "Do not claim final superiority of P_cape_kg_actual over baselines yet.",
+      "required_before_stronger_claim": [
+        "Same frozen metric definitions applied to adjudicated human gold",
+        "Final statistical tests after human-gold scoring"
+      ],
+      "safe_phrasing_ko": "Baseline, ablation, and scaling runs are complete as silver/proxy diagnostics; final comparative claims require human-gold scoring.",
+      "safe_phrasing_en": "Baseline, ablation, and scaling runs are complete as silver/proxy diagnostics; final comparative claims require human-gold scoring.",
+      "unsafe_phrasing_examples": [
+        "Qwen3-32B-AWQ proves monotonic model scaling.",
+        "The ablation proves CQ improves final F1."
+      ],
+      "next_gate": "human-gold comparative scoring"
+    },
+    {
+      "claim_id": "C06_structural_diagnostics",
+      "area": "Structural conformance, procedural consistency, and CQ answerability",
+      "current_status": "claimable_setup_or_diagnostic",
+      "paper_sections": [
+        "Evaluation",
+        "Analysis"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md",
+          "exists": true,
+          "bytes": 29675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+          "exists": true,
+          "bytes": 8155
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "ontology conformance, procedural consistency, CQ answerability 같은 자동 구조 진단은 보고할 수 있다.",
+      "allowed_now_en": "We can report automatic structural diagnostics such as ontology conformance, procedural consistency, and CQ answerability.",
+      "forbidden_now_ko": "구조적으로 answerable하다는 사실을 답변의 human-gold correctness로 해석하면 안 된다.",
+      "forbidden_now_en": "Do not treat structural answerability as human-gold answer correctness.",
+      "required_before_stronger_claim": [
+        "Human-gold correctness check for extracted items",
+        "Human review of structural gap worklist"
+      ],
+      "safe_phrasing_ko": "Structural diagnostics indicate schema and query coverage, not final semantic correctness.",
+      "safe_phrasing_en": "Structural diagnostics indicate schema and query coverage, not final semantic correctness.",
+      "unsafe_phrasing_examples": [
+        "All competency questions are correctly answered.",
+        "The KG is semantically complete."
+      ],
+      "next_gate": "human semantic correctness review"
+    },
+    {
+      "claim_id": "C07_public_benchmark_adapter",
+      "area": "Public benchmark adapter diagnostics",
+      "current_status": "claimable_setup_or_diagnostic",
+      "paper_sections": [
+        "Experiments",
+        "Generalization Check",
+        "Reproducibility"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "PAGED/Text2KG adapter 기반 public cross-check를 auxiliary diagnostic으로 실행했다고 말할 수 있다.",
+      "allowed_now_en": "We can report the PAGED/Text2KG adapter runs as auxiliary diagnostics.",
+      "forbidden_now_ko": "public benchmark 결과를 private Korean enterprise corpus의 main result로 대체하면 안 된다.",
+      "forbidden_now_en": "Do not replace the private Korean enterprise main result with public-adapter diagnostics.",
+      "required_before_stronger_claim": [
+        "Final private-corpus human-gold scoring",
+        "Explicit benchmark scope and adapter limitations"
+      ],
+      "safe_phrasing_ko": "Public benchmark runs are auxiliary adapter diagnostics, not official leaderboard or private-corpus main evidence.",
+      "safe_phrasing_en": "Public benchmark runs are auxiliary adapter diagnostics, not official leaderboard or private-corpus main evidence.",
+      "unsafe_phrasing_examples": [
+        "The public benchmark proves generalization of the private-corpus method.",
+        "These are official benchmark leaderboard results."
+      ],
+      "next_gate": "scope-limited auxiliary reporting"
+    },
+    {
+      "claim_id": "C08_mapping_crosswalk",
+      "area": "NCS/PCF mapping and NCS-PCF crosswalk",
+      "current_status": "pending_expert_review",
+      "paper_sections": [
+        "Downstream Evaluation",
+        "Standard Taxonomy Bridge"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_downstream_report.md",
+          "exists": true,
+          "bytes": 2824
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/ncs_pcf_crosswalk_report.md",
+          "exists": true,
+          "bytes": 4308
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "NCS/PCF Top-K mapping 후보와 Layer2-bridged NCS-PCF crosswalk 후보를 생성했다고 말할 수 있다.",
+      "allowed_now_en": "We can report that NCS/PCF Top-K mapping candidates and Layer2-bridged NCS-PCF crosswalk candidates were generated.",
+      "forbidden_now_ko": "expert review 없이 P@K, MRR, nDCG@10, utility, accept-rate를 주장하면 안 된다.",
+      "forbidden_now_en": "Do not claim P@K, MRR, nDCG@10, utility, or accept-rate without expert review.",
+      "required_before_stronger_claim": [
+        "Mapping expert review returns",
+        "Crosswalk expert review returns",
+        "Refreshed downstream metrics"
+      ],
+      "safe_phrasing_ko": "The standard bridge is candidate-generation evidence only until mapping and crosswalk expert review is complete.",
+      "safe_phrasing_en": "The standard bridge is candidate-generation evidence only until mapping and crosswalk expert review is complete.",
+      "unsafe_phrasing_examples": [
+        "CAPE-KG improves NCS/PCF mapping accuracy.",
+        "The crosswalk utility is expert-validated."
+      ],
+      "next_gate": "mapping and crosswalk expert review"
+    },
+    {
+      "claim_id": "C09_active_review_efficiency",
+      "area": "Active-review efficiency",
+      "current_status": "pending_human_effort",
+      "paper_sections": [
+        "Human-in-the-loop Evaluation",
+        "Active Review"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+          "exists": true,
+          "bytes": 15523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_efficiency_report.md",
+          "exists": true,
+          "bytes": 4055
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "active/uncertainty/random review queue와 human-effort 입력 양식이 준비되었다고 말할 수 있다.",
+      "allowed_now_en": "We can report that active/uncertainty/random review queues and human-effort templates are ready.",
+      "forbidden_now_ko": "사람 검수 시간이 절감되었거나 active review가 더 효율적이었다고 말하면 안 된다.",
+      "forbidden_now_en": "Do not claim reduced review time or active-review efficiency yet.",
+      "required_before_stronger_claim": [
+        "Returned active-review human-effort CSV",
+        "Timing/correction evidence",
+        "Efficiency metrics refreshed after returns"
+      ],
+      "safe_phrasing_ko": "Active-review artifacts support review navigation only; efficiency claims require returned timing and correction evidence.",
+      "safe_phrasing_en": "Active-review artifacts support review navigation only; efficiency claims require returned timing and correction evidence.",
+      "unsafe_phrasing_examples": [
+        "Active review reduces annotation cost.",
+        "The queue is proven more efficient than random review."
+      ],
+      "next_gate": "active-review effort return file"
+    },
+    {
+      "claim_id": "C10_reproducibility_release",
+      "area": "Reproducibility, data release, and ethics",
+      "current_status": "rights_review_required",
+      "paper_sections": [
+        "Limitations",
+        "Ethics",
+        "Reproducibility",
+        "Artifact Appendix"
+      ],
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json",
+          "exists": true,
+          "bytes": 37341
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+          "exists": true,
+          "bytes": 2061
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        }
+      ],
+      "missing_evidence_files": [],
+      "allowed_now_ko": "code, prompt, schema, synthetic public-safe examples, public-safe bundle 경계를 설명할 수 있다.",
+      "allowed_now_en": "We can describe code, prompts, schema, synthetic public-safe examples, and public-safe bundle boundaries.",
+      "forbidden_now_ko": "원문 corpus 또는 내부 검수 파일을 공개할 수 있다고 말하면 안 된다.",
+      "forbidden_now_en": "Do not claim raw source corpus or internal review files can be released publicly.",
+      "required_before_stronger_claim": [
+        "Rights review for any source-text release",
+        "Final public artifact audit after paper claims are fixed"
+      ],
+      "safe_phrasing_ko": "Reproducibility is supported through public-safe artifacts; source-text release remains rights-gated.",
+      "safe_phrasing_en": "Reproducibility is supported through public-safe artifacts; source-text release remains rights-gated.",
+      "unsafe_phrasing_examples": [
+        "All data will be publicly released.",
+        "The public bundle contains the full private corpus."
+      ],
+      "next_gate": "rights review and public-safe audit"
+    }
+  ],
+  "missing_evidence_files": [],
+  "claim_policy": [
+    "Use claimable_setup_or_diagnostic wording only for setup, construction, structural diagnostics, and reproducibility framing.",
+    "Use diagnostic_only or pending wording for any silver/proxy metric.",
+    "Do not state final extraction superiority until adjudicated human-gold scoring is complete.",
+    "Do not state NCS/PCF mapping utility until expert review returns are imported.",
+    "Do not state active-review efficiency until timing/correction evidence is returned.",
+    "Do not state public release of source text until rights review is complete."
+  ]
+}

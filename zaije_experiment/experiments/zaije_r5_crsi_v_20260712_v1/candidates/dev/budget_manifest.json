@@ -1,0 +1,10 @@
+{
+  "fractions": {
+    "0.1": 11,
+    "0.2": 21,
+    "0.4": 42
+  },
+  "frozen_before_api": true,
+  "gray_count": 105,
+  "selection_function": "impact_desc_relation_quota_v1"
+}

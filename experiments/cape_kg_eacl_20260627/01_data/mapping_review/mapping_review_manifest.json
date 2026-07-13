@@ -1,0 +1,40 @@
+{
+  "generated_at_utc": "2026-06-28T12:07:03.360299+00:00",
+  "output_dir": "experiments/cape_kg_eacl_20260627/01_data/mapping_review",
+  "review_items": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+  "review_sheet": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_sheet.csv",
+  "protocol": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_protocol.md",
+  "ncs_review_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_ncs.jsonl",
+  "pcf_review_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_pcf.jsonl",
+  "candidate_rows": 220,
+  "candidate_rows_by_standard": {
+    "NCS": 110,
+    "PCF": 110
+  },
+  "source_task_standard_pairs": 44,
+  "decision_values": [
+    "accepted",
+    "rejected",
+    "unsure"
+  ],
+  "positive_rule": "expert_decision=accepted or relevance_grade in {2,3}",
+  "graded_mapping_metrics": [
+    "hit_at_1",
+    "hit_at_3",
+    "hit_at_5",
+    "precision_at_5",
+    "mrr",
+    "ndcg_at_10"
+  ],
+  "explanation_quality_score_values": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "import_command": "python3 scripts/import_cape_mapping_review.py --experiment-dir experiments/cape_kg_eacl_20260627 --reviewed-file experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl",
+  "claim_status": "pending_expert_review",
+  "mapping_review_workbench": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_workbench.html",
+  "workbench_generated_at_utc": "2026-06-28T12:07:14.393016+00:00"
+}

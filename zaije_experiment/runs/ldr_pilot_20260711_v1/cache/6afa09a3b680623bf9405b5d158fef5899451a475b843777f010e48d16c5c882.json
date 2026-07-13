@@ -1,0 +1,157 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "be18ededd25a83c7c4e873b8ab7c68666a0e78b62a72a882b00924193489962c",
+        "claims": [],
+        "evidence_id": "zaije:evidence/xlsx-row-90",
+        "no_claim_reason": "The text 'Shipley Tip' is a label or title without an explicit claim or proposition."
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "3048bbba2c5a44d3fc8d9ac54400487fcb57a647e1384efb15d2e3f0a5c5555f",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "proportion of people by country who chose 'A. 진실을 말한다'",
+                "quote": "‘A. 진실을 말한다’를 선택한 사람의 국가별 비율",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "이 질문에 ‘A. 진실을 말한다’를 선택한 사람의 국가별 비율은 다음 페이지의 그림과 같았다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is shown",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "707594395fe11158c6acdb6d6f90490d1a7795d2f7568372b46888014a829cd3",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "concrete action methodologies (Tools) at each step",
+                "quote": "각 단계에서의 구체적인 행동 방법론(Tool)",
+                "role": "object"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "•둘째, 각 단계에서의 구체적인 행동 방법론(Tool)이 있어야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must have",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-208",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "275b66d8e8882d39487cecdf509b27f3f44a9bb39838a4e1b71137962dc97385",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "developing and reviewing draft bid strategy, applying execution plan, updating strategy and designing executive summary draft",
+                "quote": "수주전략 초안 개발 / 리뷰, 수주전략의 실행계획 적용, 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "draft Capture Plan and draft Executive Summary",
+                "quote": "Capture Plan 초안, Executive Summary 초안",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c3",
+            "claim_quote": "단계 3: 수주전략 수립\n\n• 수주전략 초안 개발 / 리뷰\n(리뷰된 수주전략을 Capture Plan에 포함)\n• 수주전략의 실행계획 적용\n• 수주전략 업데이트 및 제안 요약(Executive Summary) 초안 설계\n\n결과물: Capture Plan 초안, Executive Summary 초안",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "produces",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 3: 수주전략 수립",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-243",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "a6136f89af83825cf174efbc5b4ff0058f7b5e8a962616a4177bd17ce9448ab5",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "preparing and writing section plan, providing author information, preparing response table, preparing commercial content, kickoff meeting, reviewing section plan",
+                "quote": "섹션기획서 준비 및 작성, 작성자 정보제공, 요구조건 응답표 작성, 상용 콘텐츠 준비, 제안서 킥오프 미팅, 섹션기획서 리뷰",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "section plan document",
+                "quote": "섹션기획서",
+                "role": "output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c4",
+            "claim_quote": "단계 6: 섹션기획서 준비 및 작성\n\n• 섹션기획서 준비, 작성자 정보제공 내용 준비: 핵심팀이 작성자에게 이번 제안서에 사용할 섹션 기획서 템플릿과 핵심 정보를 제공해야 함\n• 요구조건 응답표 작성, 상용 콘텐츠 준비\n• 제안서 킥오프 미팅\n• 섹션기획서 리뷰\n\n결과물: 섹션기획서",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "produces",
+            "promotion_target": "RULE",
+            "scope_quote": "단계 6: 섹션기획서 준비 및 작성",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-283",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r2_b02_6afa09a3b680.json",
+  "response_id": "resp_0a2d3cc5f6e0874a006a528e26ec7081998954cb3892c16ad5",
+  "usage": {
+    "input_tokens": 2842,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1238,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4080
+  }
+}

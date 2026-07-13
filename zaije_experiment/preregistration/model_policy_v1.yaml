@@ -1,0 +1,30 @@
+experiment_id: zaije_ldr_v1
+mode: OPENAI_MULTI_SNAPSHOT
+reference:
+  annotator_a:
+    model: gpt-4o-mini-2024-07-18
+    role: domain_first
+    temperature: 0
+    replicates: 2
+  annotator_b:
+    model: gpt-4.1-mini-2025-04-14
+    role: ontology_first
+    temperature: 0
+    replicates: 2
+  adjudicator:
+    model: gpt-4.1-2025-04-14
+    temperature: 0
+    blind_candidate_order: true
+    position_swap_fraction: 0.10
+  verifier:
+    model: gpt-4o-2024-08-06
+    temperature: 0
+candidate:
+  full_llm:
+    model: NOT_LOCKED_BEFORE_GATE1L
+  selective_arbiter:
+    model: NOT_LOCKED_BEFORE_GATE1L
+constraints:
+  disallow_reference_candidate_same_snapshot: true
+  allow_overlap_with_leave_out_analysis: true
+  test_reference_after_system_freeze: true

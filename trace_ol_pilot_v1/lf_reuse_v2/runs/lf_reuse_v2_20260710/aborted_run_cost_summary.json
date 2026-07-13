@@ -1,0 +1,9 @@
+{
+  "status": "ABORTED_BEFORE_TEST_ANALYSIS",
+  "successful_api_calls": 35,
+  "input_tokens": 102424,
+  "output_tokens": 65491,
+  "cached_input_tokens": 0,
+  "estimated_cost_usd": 0.054658,
+  "reconstruction": "Summed from the 35 successful response cache usage records."
+}

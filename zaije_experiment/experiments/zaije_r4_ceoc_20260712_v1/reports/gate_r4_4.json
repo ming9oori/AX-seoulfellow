@@ -1,0 +1,120 @@
+{
+  "b2_gain_over_b1": 0.1437908496732026,
+  "b2_token_ratio_to_b3": 0.19086879432624113,
+  "b2_yield_ratio_to_b3": 0.5993150684931506,
+  "bootstrap": {
+    "b2_minus_b3_accepted_mean": -116.6378,
+    "ci95": [
+      -166,
+      -73
+    ],
+    "cluster": "leakage_group_id",
+    "groups": 28,
+    "iterations": 5000
+  },
+  "confirmatory_evidence_exposed": 80,
+  "cost": {
+    "R4-B0": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "requests": 0
+    },
+    "R4-B1": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "requests": 0
+    },
+    "R4-B2": {
+      "cached_input_tokens": 0,
+      "input_tokens": 13718,
+      "output_tokens": 1353,
+      "requests": 29
+    },
+    "R4-B3": {
+      "cached_input_tokens": 0,
+      "input_tokens": 72084,
+      "output_tokens": 6876,
+      "requests": 146
+    },
+    "b2_token_ratio_to_b3": 0.19086879432624113
+  },
+  "hypotheses": {
+    "H4_A_conservative_safety": true,
+    "H4_B_accepted_candidate_gain": false,
+    "H4_C_cost_efficiency": false,
+    "H4_D_structural_usefulness": true,
+    "H4_E_projection": "PENDING_R4_5"
+  },
+  "status": "PASS",
+  "systems": {
+    "R4-B0": {
+      "cq_answerability": 0.0,
+      "critical_violations": 0,
+      "graph": {
+        "edges": 708,
+        "nodes": 298
+      },
+      "provenance_completeness": 1.0,
+      "yield": {
+        "accepted_aliases": 0,
+        "accepted_assertions": 0,
+        "accepted_concepts": 0,
+        "accepted_llm_candidates": 0,
+        "accepted_rules": 0,
+        "policy_compliant_graph_yield": 0
+      }
+    },
+    "R4-B1": {
+      "cq_answerability": 1.0,
+      "critical_violations": 0,
+      "graph": {
+        "edges": 1155,
+        "nodes": 566
+      },
+      "provenance_completeness": 1.0,
+      "yield": {
+        "accepted_aliases": 15,
+        "accepted_assertions": 93,
+        "accepted_concepts": 20,
+        "accepted_llm_candidates": 0,
+        "accepted_rules": 10,
+        "policy_compliant_graph_yield": 153
+      }
+    },
+    "R4-B2": {
+      "cq_answerability": 1.0,
+      "critical_violations": 0,
+      "graph": {
+        "edges": 1177,
+        "nodes": 588
+      },
+      "provenance_completeness": 1.0,
+      "yield": {
+        "accepted_aliases": 15,
+        "accepted_assertions": 93,
+        "accepted_concepts": 20,
+        "accepted_llm_candidates": 22,
+        "accepted_rules": 10,
+        "policy_compliant_graph_yield": 175
+      }
+    },
+    "R4-B3": {
+      "cq_answerability": 1.0,
+      "critical_violations": 0,
+      "graph": {
+        "edges": 1294,
+        "nodes": 705
+      },
+      "provenance_completeness": 1.0,
+      "yield": {
+        "accepted_aliases": 15,
+        "accepted_assertions": 93,
+        "accepted_concepts": 20,
+        "accepted_llm_candidates": 139,
+        "accepted_rules": 10,
+        "policy_compliant_graph_yield": 292
+      }
+    }
+  },
+  "test_access": 0
+}

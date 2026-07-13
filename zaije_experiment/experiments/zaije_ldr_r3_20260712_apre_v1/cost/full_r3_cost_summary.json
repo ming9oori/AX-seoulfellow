@@ -1,0 +1,15 @@
+{
+  "api_calls": {
+    "dev_model_qualification": 936,
+    "dev_segmenter_diagnostics": 180,
+    "fresh_claimhood": 230,
+    "fresh_field_falsifier": 151,
+    "fresh_fields": 882,
+    "total_unique_calls": 2379
+  },
+  "batch_discount_not_assumed": true,
+  "estimated_standard_price_upper_bound_usd": 1.896916,
+  "input_tokens": 931324,
+  "output_tokens": 75594,
+  "test_calls": 0
+}

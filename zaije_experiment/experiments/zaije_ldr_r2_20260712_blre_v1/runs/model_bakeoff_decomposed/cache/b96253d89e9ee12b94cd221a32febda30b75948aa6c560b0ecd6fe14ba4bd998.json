@@ -1,0 +1,104 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-90_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-106_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-208_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-283_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-329_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-340_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-349_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-350_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-361_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "QUESTIONED_OR_CHALLENGED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-408_C01",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-551_C02",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-553_C03",
+        "conditionality": "NONE",
+        "configuration_id": "C02",
+        "epistemic_status": "ASSERTED",
+        "repeat_id": 1
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/F3_C02_r1_b01_b96253d89e9e.json",
+  "response_id": "resp_023d03d40f5e2683006a5311bdf97c8199b46f439406d85dc0",
+  "usage": {
+    "input_tokens": 1702,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 515,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2217
+  }
+}

@@ -1,0 +1,1156 @@
+{
+  "answer_provenance_precision": 1,
+  "answers": [
+    {
+      "abstained": false,
+      "answers": [
+        {
+          "answer_node_ids": [
+            "AST_DEF_344e9678353e7d363bfd"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1248_A01"
+          ],
+          "exact_source_text": [
+            "일반적으로 우리가 가진 지식을 개방하면 고객(제안서나 PT를 개발하고 작성하는 많은 기업)이 우리의 솔루션을 구매하지 않을 것이란 염려를 한다."
+          ],
+          "graph_path": [
+            "AST_DEF_344e9678353e7d363bfd",
+            "zaije:evidence/xlsx-row-1248_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_DEF_3ca16d130a38d1b25029"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-133_A01"
+          ],
+          "exact_source_text": [
+            "수년 전까지만 해도 방위산업, 우주항공, 대형 IT산업 종사자가 아닌 일반인에게는 ‘입찰 제안’이란 단어조차도 생소했다."
+          ],
+          "graph_path": [
+            "AST_DEF_3ca16d130a38d1b25029",
+            "zaije:evidence/xlsx-row-133_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_DEF_bef4af7999f2d8a93f94"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-256_A01"
+          ],
+          "exact_source_text": [
+            "이 전략의 리뷰를 전략리뷰 또는 Blue Team Review라고 한다."
+          ],
+          "graph_path": [
+            "AST_DEF_bef4af7999f2d8a93f94",
+            "zaije:evidence/xlsx-row-256_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_DEF_db3e40ee40ca82d6860c"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-231_A01"
+          ],
+          "exact_source_text": [
+            "이렇게 여러 기회를 객관적인 기준과 단계별 의사결정 프로세스로 관리하는 것을 서구에서는 파이프라인 관리(Pipeline Management) 또는 Funnel Management라고 한다."
+          ],
+          "graph_path": [
+            "AST_DEF_db3e40ee40ca82d6860c",
+            "zaije:evidence/xlsx-row-231_A01"
+          ]
+        }
+      ],
+      "cq_id": "CQT1",
+      "type": "EXPLICIT_DEFINITION"
+    },
+    {
+      "abstained": false,
+      "answers": [
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_026a99049284a203716f"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-237_A03"
+          ],
+          "exact_source_text": [
+            "주요 리뷰 단계 등 일정과 그라운드 룰 등을 결정함"
+          ],
+          "graph_path": [
+            "TPL_FIELD_026a99049284a203716f",
+            "zaije:evidence/xlsx-row-237_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_0c1b1df01ce02dfd5e9a"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A08"
+          ],
+          "exact_source_text": [
+            "필요함을 강조하면서 핑크팬더는 유사 프로젝트 경험이"
+          ],
+          "graph_path": [
+            "TPL_FIELD_0c1b1df01ce02dfd5e9a",
+            "zaije:evidence/xlsx-row-491_A08"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_10e193c2e30a9608ce66"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-234_A02"
+          ],
+          "exact_source_text": [
+            "영업 참여 의사 결정 (Pursuit Decision)"
+          ],
+          "graph_path": [
+            "TPL_FIELD_10e193c2e30a9608ce66",
+            "zaije:evidence/xlsx-row-234_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_2078c7e75df766f3f649"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A05"
+          ],
+          "exact_source_text": [
+            "•디자인된 슬라이드"
+          ],
+          "graph_path": [
+            "TPL_FIELD_2078c7e75df766f3f649",
+            "zaije:evidence/xlsx-row-298_A05"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_21b67dba757ed42517aa"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A10"
+          ],
+          "exact_source_text": [
+            "그래픽이 많으면 메시지 전달을 방해하고,"
+          ],
+          "graph_path": [
+            "TPL_FIELD_21b67dba757ed42517aa",
+            "zaije:evidence/xlsx-row-145_A10"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_227dde3645cd4adda935"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A02"
+          ],
+          "exact_source_text": [
+            "수주영업은 개인 대 개인의 관계보다는 조직 차원의 정보 습득과 전략적 제안이 성공의 핵심 요소이다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_227dde3645cd4adda935",
+            "zaije:evidence/xlsx-row-145_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_2bcb7000bcbe99910a8f"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A01"
+          ],
+          "exact_source_text": [
+            "•슬라이드 내용 확정"
+          ],
+          "graph_path": [
+            "TPL_FIELD_2bcb7000bcbe99910a8f",
+            "zaije:evidence/xlsx-row-298_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_2d2b49296506fc594bfe"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A02"
+          ],
+          "exact_source_text": [
+            "개살구이며 얼마나 불확실한지를 설명하면서 즉각적인"
+          ],
+          "graph_path": [
+            "TPL_FIELD_2d2b49296506fc594bfe",
+            "zaije:evidence/xlsx-row-491_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_2ffe13736e3aa4ff08dd"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A11"
+          ],
+          "exact_source_text": [
+            "적으면 메시지를 전달하기 어렵다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_2ffe13736e3aa4ff08dd",
+            "zaije:evidence/xlsx-row-145_A11"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_3055b1a2afa922f3c3ea"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A09"
+          ],
+          "exact_source_text": [
+            "제안서는 그래픽 중심으로 작성해야 한다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_3055b1a2afa922f3c3ea",
+            "zaije:evidence/xlsx-row-145_A09"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_354216c39a783e7d8952"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A04"
+          ],
+          "exact_source_text": [
+            "맹목적인 양적 추구는 평가위원의 평가를 어렵게 하여 부정적인 영향을 주는 경우도 있다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_354216c39a783e7d8952",
+            "zaije:evidence/xlsx-row-145_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_37a507d0d86d9efc9c0f"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A11"
+          ],
+          "exact_source_text": [
+            "설명함."
+          ],
+          "graph_path": [
+            "TPL_FIELD_37a507d0d86d9efc9c0f",
+            "zaije:evidence/xlsx-row-491_A11"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_391b906d25c2be6e2c75"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A05"
+          ],
+          "exact_source_text": [
+            "본 프로젝트는 완소병원의 이슈를 정확히 파악하여"
+          ],
+          "graph_path": [
+            "TPL_FIELD_391b906d25c2be6e2c75",
+            "zaije:evidence/xlsx-row-491_A05"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_395ac98b9ed37687c1ba"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A14"
+          ],
+          "exact_source_text": [
+            "필요함을 강조하면서 핑크팬더는 유사 프로젝트 경험이"
+          ],
+          "graph_path": [
+            "TPL_FIELD_395ac98b9ed37687c1ba",
+            "zaije:evidence/xlsx-row-491_A14"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_47074c68f07856fabea1"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-237_A02"
+          ],
+          "exact_source_text": [
+            "역할과 책임을 정의하고,"
+          ],
+          "graph_path": [
+            "TPL_FIELD_47074c68f07856fabea1",
+            "zaije:evidence/xlsx-row-237_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_4af595f4835b309cdd9c"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-246_A02"
+          ],
+          "exact_source_text": [
+            "약점을 극복하기 위한 업체 구성"
+          ],
+          "graph_path": [
+            "TPL_FIELD_4af595f4835b309cdd9c",
+            "zaije:evidence/xlsx-row-246_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_4eb706cb58481562460a"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-246_A04"
+          ],
+          "exact_source_text": [
+            "• 경쟁사 비교표 (BCM)"
+          ],
+          "graph_path": [
+            "TPL_FIELD_4eb706cb58481562460a",
+            "zaije:evidence/xlsx-row-246_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_4f2afd282773a329c52e"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-237_A01"
+          ],
+          "exact_source_text": [
+            "수주계획을 기반으로 제안서 작성을 위한 계획을 세움. 수주전략을 제안전략으로 구체화하고,"
+          ],
+          "graph_path": [
+            "TPL_FIELD_4f2afd282773a329c52e",
+            "zaije:evidence/xlsx-row-237_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_5c15fd9da1c20dd448ec"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A03"
+          ],
+          "exact_source_text": [
+            "제안서는 일단 양이 많아야 한다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_5c15fd9da1c20dd448ec",
+            "zaije:evidence/xlsx-row-145_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_5e5791313a0fbb98de60"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A04"
+          ],
+          "exact_source_text": [
+            "•슬라이드 초안"
+          ],
+          "graph_path": [
+            "TPL_FIELD_5e5791313a0fbb98de60",
+            "zaije:evidence/xlsx-row-298_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_5f49f9e0709f23df2122"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A06"
+          ],
+          "exact_source_text": [
+            "이에 올인하여 집중적으로 해야 함을 설명함."
+          ],
+          "graph_path": [
+            "TPL_FIELD_5f49f9e0709f23df2122",
+            "zaije:evidence/xlsx-row-491_A06"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_61e4ba519a7476714a73"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A07"
+          ],
+          "exact_source_text": [
+            "우리 업계는 가격이 전부이다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_61e4ba519a7476714a73",
+            "zaije:evidence/xlsx-row-145_A07"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_67efa3cfcabdc965d4f6"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A06"
+          ],
+          "exact_source_text": [
+            "추가 제안은 고객의 니즈를 해결한 경우에만 유효하다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_67efa3cfcabdc965d4f6",
+            "zaije:evidence/xlsx-row-145_A06"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_6c47e47d3f667c18f821"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A01"
+          ],
+          "exact_source_text": [
+            "제안서는 형식일 뿐 영업이 모든 것을 결정한다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_6c47e47d3f667c18f821",
+            "zaije:evidence/xlsx-row-145_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_6d33be290f646e7e8522"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A13"
+          ],
+          "exact_source_text": [
+            "본 프로젝트는 신입 직원이 아닌 경험 있는 직원이"
+          ],
+          "graph_path": [
+            "TPL_FIELD_6d33be290f646e7e8522",
+            "zaije:evidence/xlsx-row-491_A13"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_6d8ce850022f9eea5590"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A03"
+          ],
+          "exact_source_text": [
+            "비용 절감이 필요함을 역설."
+          ],
+          "graph_path": [
+            "TPL_FIELD_6d8ce850022f9eea5590",
+            "zaije:evidence/xlsx-row-491_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_77ce76d72cd73217abfa"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A05"
+          ],
+          "exact_source_text": [
+            "추가 제안은 많을수록 좋다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_77ce76d72cd73217abfa",
+            "zaije:evidence/xlsx-row-145_A05"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_8b4a3fd447024826aa94"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A10"
+          ],
+          "exact_source_text": [
+            "경험 있는 회사가 아니라 경험 있는 담당자가 중요함을"
+          ],
+          "graph_path": [
+            "TPL_FIELD_8b4a3fd447024826aa94",
+            "zaije:evidence/xlsx-row-491_A10"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_8e76d95c61f8c0924829"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A12"
+          ],
+          "exact_source_text": [
+            "한국 기업은 해외 사업을 잘하고 있다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_8e76d95c61f8c0924829",
+            "zaije:evidence/xlsx-row-145_A12"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_8eed308a0f82df8445d4"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A17"
+          ],
+          "exact_source_text": [
+            "설명함."
+          ],
+          "graph_path": [
+            "TPL_FIELD_8eed308a0f82df8445d4",
+            "zaije:evidence/xlsx-row-491_A17"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_92a13e60e2b2fafbbf29"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A08"
+          ],
+          "exact_source_text": [
+            "가격만이 경쟁요소라면 그 기업은 영업조직이 필요 없고 견적팀만 있으면 된다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_92a13e60e2b2fafbbf29",
+            "zaije:evidence/xlsx-row-145_A08"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_955d3fe1b5a837f53603"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A13"
+          ],
+          "exact_source_text": [
+            "해외 수주사업에서는 검증되지 않은 영업 및 제안서 작성 프로세스로 낮은 수주율을 기록하고 있다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_955d3fe1b5a837f53603",
+            "zaije:evidence/xlsx-row-145_A13"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_97b746a1c0f4e071d80a"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-236_A03"
+          ],
+          "exact_source_text": [
+            "제안 참여 의사 결정 (Bid/No bid Decision)"
+          ],
+          "graph_path": [
+            "TPL_FIELD_97b746a1c0f4e071d80a",
+            "zaije:evidence/xlsx-row-236_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_9d7a5f9541397399b5d6"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-236_A04"
+          ],
+          "exact_source_text": [
+            "이번 사업에서 이길 수 있을 것인가를 기준으로 제안 참여 여부를 결정함"
+          ],
+          "graph_path": [
+            "TPL_FIELD_9d7a5f9541397399b5d6",
+            "zaije:evidence/xlsx-row-236_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_9f913ad716a5df529dd9"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-236_A02"
+          ],
+          "exact_source_text": [
+            "이를 기준으로 경쟁사를 파악하여 자사의 솔루션 및 수주전략을 결정함"
+          ],
+          "graph_path": [
+            "TPL_FIELD_9f913ad716a5df529dd9",
+            "zaije:evidence/xlsx-row-236_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b15a8f66e207489c6c7a"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A02"
+          ],
+          "exact_source_text": [
+            "•슬라이드 디자인"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b15a8f66e207489c6c7a",
+            "zaije:evidence/xlsx-row-298_A02"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b1d22cdd5f18e93b6c83"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-237_A05"
+          ],
+          "exact_source_text": [
+            "제안에서 이길 수 있을 것인가를 최종 검토하고 확인함"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b1d22cdd5f18e93b6c83",
+            "zaije:evidence/xlsx-row-237_A05"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b349d5fb65701835c403"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A16"
+          ],
+          "exact_source_text": [
+            "경험 있는 회사가 아니라 경험 있는 담당자가 중요함을"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b349d5fb65701835c403",
+            "zaije:evidence/xlsx-row-491_A16"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b45b12488409f1d632bf"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-237_A04"
+          ],
+          "exact_source_text": [
+            "제안 참여 타당성 검증 (Bid Validation Decision)"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b45b12488409f1d632bf",
+            "zaije:evidence/xlsx-row-237_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b4b12776f0dc3bdad679"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A03"
+          ],
+          "exact_source_text": [
+            "•Q&A 슬라이드 확정"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b4b12776f0dc3bdad679",
+            "zaije:evidence/xlsx-row-298_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_b8b3932f6cd0d0a75c3d"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-236_A01"
+          ],
+          "exact_source_text": [
+            "참여하기로 한 기회에서 고객의 근원적인 니즈를 분석하고,"
+          ],
+          "graph_path": [
+            "TPL_FIELD_b8b3932f6cd0d0a75c3d",
+            "zaije:evidence/xlsx-row-236_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_c80223649a5d717515c7"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A12"
+          ],
+          "exact_source_text": [
+            "종종 신입 직원을 투입할 수 있다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_c80223649a5d717515c7",
+            "zaije:evidence/xlsx-row-491_A12"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_c912dc1062e5fad92433"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A04"
+          ],
+          "exact_source_text": [
+            "많은 고객사 중 하나이므로 일을 대충 할 수 있다."
+          ],
+          "graph_path": [
+            "TPL_FIELD_c912dc1062e5fad92433",
+            "zaije:evidence/xlsx-row-491_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_cb0cb73a7b59083cfee0"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-298_A06"
+          ],
+          "exact_source_text": [
+            "•Q&A 슬라이드"
+          ],
+          "graph_path": [
+            "TPL_FIELD_cb0cb73a7b59083cfee0",
+            "zaije:evidence/xlsx-row-298_A06"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_cd58dd959f98ebd8e82c"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-246_A01"
+          ],
+          "exact_source_text": [
+            "• 협력업체 구성 의사결정: 경쟁자 분석을 통해서 자사의"
+          ],
+          "graph_path": [
+            "TPL_FIELD_cd58dd959f98ebd8e82c",
+            "zaije:evidence/xlsx-row-246_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_d5afc9f166eb6f549a82"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A01"
+          ],
+          "exact_source_text": [
+            "장기적인 관점에서의 비용 절감 효과가 빛 좋은"
+          ],
+          "graph_path": [
+            "TPL_FIELD_d5afc9f166eb6f549a82",
+            "zaije:evidence/xlsx-row-491_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_dbf0195d379c907a612d"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-234_A04"
+          ],
+          "exact_source_text": [
+            "참여할 것인가를 결정함"
+          ],
+          "graph_path": [
+            "TPL_FIELD_dbf0195d379c907a612d",
+            "zaije:evidence/xlsx-row-234_A04"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_dc5c0d67f9ea38d4c301"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-234_A03"
+          ],
+          "exact_source_text": [
+            "참여 가능한 사업의 기회를 확인하고,"
+          ],
+          "graph_path": [
+            "TPL_FIELD_dc5c0d67f9ea38d4c301",
+            "zaije:evidence/xlsx-row-234_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_ded8ffb677f0e6a9712e"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-246_A03"
+          ],
+          "exact_source_text": [
+            "• 블랙햇 리뷰(경쟁자 분석 리뷰)"
+          ],
+          "graph_path": [
+            "TPL_FIELD_ded8ffb677f0e6a9712e",
+            "zaije:evidence/xlsx-row-246_A03"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_dffd1fa9a002efa15ea0"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A09"
+          ],
+          "exact_source_text": [
+            "많은 담당자가 PM임을 강조."
+          ],
+          "graph_path": [
+            "TPL_FIELD_dffd1fa9a002efa15ea0",
+            "zaije:evidence/xlsx-row-491_A09"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_ea6abaf7b8dedd2ac175"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A07"
+          ],
+          "exact_source_text": [
+            "본 프로젝트는 신입 직원이 아닌 경험 있는 직원이"
+          ],
+          "graph_path": [
+            "TPL_FIELD_ea6abaf7b8dedd2ac175",
+            "zaije:evidence/xlsx-row-491_A07"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_eec41cb7ac4978ba6f8e"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-491_A15"
+          ],
+          "exact_source_text": [
+            "많은 담당자가 PM임을 강조."
+          ],
+          "graph_path": [
+            "TPL_FIELD_eec41cb7ac4978ba6f8e",
+            "zaije:evidence/xlsx-row-491_A15"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "TPL_FIELD_faebb55d7c133d030eb6"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-234_A01"
+          ],
+          "exact_source_text": [
+            "잠재고객 속에 숨어 있거나 미래에 예상되는 기회를 발굴하고 이를 우리의 기회로 만들어 나감"
+          ],
+          "graph_path": [
+            "TPL_FIELD_faebb55d7c133d030eb6",
+            "zaije:evidence/xlsx-row-234_A01"
+          ]
+        }
+      ],
+      "cq_id": "CQT2",
+      "type": "TEMPLATE_FIELD"
+    },
+    {
+      "abstained": false,
+      "answers": [
+        {
+          "answer_node_ids": [
+            "STEP_f60eb3bcf725e8e6c3f8",
+            "STEP_406e3da6ee9ece489702"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-804_A01",
+            "zaije:evidence/xlsx-row-805_A01"
+          ],
+          "exact_source_text": [
+            "형식보다 내용을 먼저 결정하라",
+            "1. 제안 및 수주에서 전략이 왜 중요한가?"
+          ],
+          "graph_path": [
+            "STEP_f60eb3bcf725e8e6c3f8",
+            "EDG_0d1ecdff983f8693e1a9",
+            "STEP_406e3da6ee9ece489702"
+          ]
+        }
+      ],
+      "cq_id": "CQT3",
+      "type": "EXPLICIT_SEQUENCE"
+    },
+    {
+      "abstained": false,
+      "answers": [
+        {
+          "answer_node_ids": [
+            "AST_QTY_28194428596db6d0d006"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1021_A01"
+          ],
+          "exact_source_text": [
+            "예를 들면 ‘구체적 경험’이라는 핵심 이슈의 비중이 30점인가, 28점인가를 두고 논쟁할 필요는 없다."
+          ],
+          "graph_path": [
+            "AST_QTY_28194428596db6d0d006",
+            "zaije:evidence/xlsx-row-1021_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_QTY_2bab14f448f3da46cf89"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1238_A01"
+          ],
+          "exact_source_text": [
+            "필자는 10년 전에 Shipley 라는 컨설팅 회사의 한국지사를 설립하여 한국에 처음으로 수주 컨설팅(Proposal Consulting)이라는 새로운 솔루션을 도입하였다."
+          ],
+          "graph_path": [
+            "AST_QTY_2bab14f448f3da46cf89",
+            "zaije:evidence/xlsx-row-1238_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_QTY_32683cd8867bfb865372"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1165_A01"
+          ],
+          "exact_source_text": [
+            "약 20년 전에 B건설에 교육 프로그램 세일즈를 할 때 이야기이다."
+          ],
+          "graph_path": [
+            "AST_QTY_32683cd8867bfb865372",
+            "zaije:evidence/xlsx-row-1165_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_QTY_76e91a5041c080ad2552"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1362_A06"
+          ],
+          "exact_source_text": [
+            "기간을 2년 단축할 수 있습니다."
+          ],
+          "graph_path": [
+            "AST_QTY_76e91a5041c080ad2552",
+            "zaije:evidence/xlsx-row-1362_A06"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_QTY_97cfcd585b3c2a86a56d"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1021_A01"
+          ],
+          "exact_source_text": [
+            "예를 들면 ‘구체적 경험’이라는 핵심 이슈의 비중이 30점인가, 28점인가를 두고 논쟁할 필요는 없다."
+          ],
+          "graph_path": [
+            "AST_QTY_97cfcd585b3c2a86a56d",
+            "zaije:evidence/xlsx-row-1021_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_QTY_a863ab2108e5c757fcef"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-1362_A04"
+          ],
+          "exact_source_text": [
+            "이 첨단기술을 확보하기까지 약 150억 원의 기술개발비를 투자했고, 2년에 걸쳐 40회의 테스트를 거쳤습니다."
+          ],
+          "graph_path": [
+            "AST_QTY_a863ab2108e5c757fcef",
+            "zaije:evidence/xlsx-row-1362_A04"
+          ]
+        }
+      ],
+      "cq_id": "CQT4",
+      "type": "QUANTITY_CONSTRAINT"
+    },
+    {
+      "abstained": false,
+      "answers": [
+        {
+          "answer_node_ids": [
+            "AST_RULE_0e877f7cbcceb8ca886f"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-513_A01"
+          ],
+          "exact_source_text": [
+            "또 계층별로도 설득해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_0e877f7cbcceb8ca886f",
+            "zaije:evidence/xlsx-row-513_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_144654414a4206e1e6bf"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-250_A01"
+          ],
+          "exact_source_text": [
+            "제안서 작성 프로세스는 리더십의 리뷰를 핵심단계(Milestone)로 정해서 일정 관리를 해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_144654414a4206e1e6bf",
+            "zaije:evidence/xlsx-row-250_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_2b91d746f8f656a762ec"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-797_A01"
+          ],
+          "exact_source_text": [
+            "수주영업을 할 때도 반드시 명심해야 할 점은 고객의 구매 니즈나 의사결정이 항상 합리적인 토론과 추론에 따라 결정된다고 생각하면 안 된다."
+          ],
+          "graph_path": [
+            "AST_RULE_2b91d746f8f656a762ec",
+            "zaije:evidence/xlsx-row-797_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_39e0fb728045745beb14"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-142_A01"
+          ],
+          "exact_source_text": [
+            "특히 해외 사업의 경우, 제안의 잘못된 인식과 부족한 지식은 사업을 결정적으로 그르칠 수 있음을 명심해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_39e0fb728045745beb14",
+            "zaije:evidence/xlsx-row-142_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_4e9da28eefb221697174"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-523_A01"
+          ],
+          "exact_source_text": [
+            "정보가 없더라도 그 회사의 경영자가 이 프로젝트에 어떤 종류의 관심을 가질 것인지 예측해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_4e9da28eefb221697174",
+            "zaije:evidence/xlsx-row-523_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_695a0fc28e3ddea7b2b3"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-516_A01"
+          ],
+          "exact_source_text": [
+            "그런데 영업하는 영업대표로서는 ‘내게 오더를 줄 수는 없어도, 오더를 안 줄 수는 있는 사람’은 모두 영향자라는 점을 유념해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_695a0fc28e3ddea7b2b3",
+            "zaije:evidence/xlsx-row-516_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_7e1cb7ed98a001522dab"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-258_A01"
+          ],
+          "exact_source_text": [
+            "두 번째, 전략과 고객의 요구조건 리스트(Complinance Checklist)가 완성되면 이것을 섹션별로 구현해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_7e1cb7ed98a001522dab",
+            "zaije:evidence/xlsx-row-258_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_951efd7ee55777f76d7e"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-145_A09"
+          ],
+          "exact_source_text": [
+            "제안서는 그래픽 중심으로 작성해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_951efd7ee55777f76d7e",
+            "zaije:evidence/xlsx-row-145_A09"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_b9f84d2e9d450c7b0c68"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-520_A01"
+          ],
+          "exact_source_text": [
+            "특히 주의해야 할 점은 실무자의 관점을 경영자의 관점과 혼동해서는 안 된다는 것이다."
+          ],
+          "graph_path": [
+            "AST_RULE_b9f84d2e9d450c7b0c68",
+            "zaije:evidence/xlsx-row-520_A01"
+          ]
+        },
+        {
+          "answer_node_ids": [
+            "AST_RULE_d77075ea51eaed077baa"
+          ],
+          "evidence_anchor_ids": [
+            "zaije:evidence/xlsx-row-652_A01"
+          ],
+          "exact_source_text": [
+            "그래서 이때 영업대표는 지속적으로 고객이 얻게 될 효용(Benefit)을 상기시키고 확인해야 한다."
+          ],
+          "graph_path": [
+            "AST_RULE_d77075ea51eaed077baa",
+            "zaije:evidence/xlsx-row-652_A01"
+          ]
+        }
+      ],
+      "cq_id": "CQT5",
+      "type": "EXPLICIT_RULE"
+    }
+  ],
+  "cq_evidence_answerability": 1.0,
+  "unsupported_answer_rate": 0
+}

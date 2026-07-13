@@ -1,0 +1,325 @@
+{
+  "response_id": "resp_08c4eb8bfaf95ae2006a5112418c048198985868d36f17314d",
+  "usage": {
+    "input_tokens": 3139,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2691,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5830
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1147",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1148",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1147",
+              "text": "금융분야 해외사업을 20년 경험한 PM은 차별화된 솔루션이다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1149",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1149",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1149",
+              "text": "경력 20년 PM해외사업 경력 20년 PM IT 아웃소싱 해외사업 경력 20년 PM금융분야 IT 아웃소싱 해외사업 경력 20년 PM예시 1.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1157",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1157",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1157",
+              "text": "고객 입장에서 제안 업체가 해당 사업 혹은 유사 사업을 해본 경험 (Reference라고 부른다)이 있는지는 매우 중요하다.",
+              "start": 0,
+              "end": 80
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1169",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1169",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1169",
+              "text": "차별화된 솔루션을 제공하기 위해서는 고객의 비즈니스 이해력과 고객의 니즈를 파악하는 능력이 필요하다.",
+              "start": 0,
+              "end": 70
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1219",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1219",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1219",
+              "text": "(4가지 액션 프레임워크) - 제거(Eliminate): 업계 표준에서 제거해야 할 요소는 무엇인가?",
+              "start": 0,
+              "end": 70
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1226",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1226",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1226",
+              "text": "이 호텔은 트럭 운전사가 이용하지 않는 레스토랑, 화려한 로비, 룸 서비스, 책상 등을 모두 줄이거나 없애는 대신에 침구와 목욕탕의 품질을 한 단계 높이면서 가격은 30% 이상 줄였다.",
+              "start": 0,
+              "end": 150
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1228",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1228",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1228",
+              "text": "또는 부가적 기능을 더 하라–제지시장의 고객에게 경영컨설팅 제공도저히 솔루션의 가치를 차별화할 수 없는 제품(통상 이를 ‘저관여 제품’이라고 부른다)은 어떻게 차별화가 가능한가?",
+              "start": 0,
+              "end": 150
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1244",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1244",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1244",
+              "text": "쉬플리 컨설팅 초기에는 간단하고 혁신적인 템플릿만 사용해도 사업을 수주하는 경우가 있었다.",
+              "start": 0,
+              "end": 70
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1250",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1250",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-work-claim-model",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1250",
+              "text": "지식을 개방하면 다음과 같은 이점이 있다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,364 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:41.716941+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "responsible_nlp_checklist_prep_ready_not_final_answers",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "final_answers_ready": false,
+  "summary": {
+    "item_count": 10,
+    "draft_answer_count": 10,
+    "pending_author_confirmation_count": 2,
+    "missing_evidence_files": 0,
+    "status_counts": {
+      "draft_ready": 6,
+      "pending_author_confirmation": 2,
+      "pending_human_gold": 1,
+      "pending_rights_review": 1
+    },
+    "arr_policy_claim_status": "arr_submission_policy_checklist_ready_not_submission_complete",
+    "arr_responsible_nlp_status": "scaffold_ready_final_answers_pending",
+    "claim_gate_overall_status": "FAIL",
+    "public_reproducibility_claim_status": "public_reproducibility_manifest_ready_not_submission_complete",
+    "anonymized_submission_prep_claim_status": "anonymized_submission_prep_ready_not_upload_ready",
+    "anonymized_upload_ready": false
+  },
+  "items": [
+    {
+      "item_id": "RNLP01_limitations_and_claim_scope",
+      "checklist_area": "Limitations and claim scope",
+      "draft_answer": "The study separates KG construction, setup diagnostics, silver/proxy diagnostics, and final human-gold claims. Final extraction and mapping performance claims are withheld until human-gold annotation, IAA, adjudication, and expert review are complete.",
+      "evidence_files": [
+        {
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+          "exists": true,
+          "bytes": 19281
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Limitations; Results; Ethics",
+      "status": "draft_ready",
+      "remaining_action": "Keep all final performance language synchronized after human/expert returns.",
+      "claim_boundary": "Do not present silver/proxy metrics as final main-result evidence."
+    },
+    {
+      "item_id": "RNLP02_data_rights_and_release_boundaries",
+      "checklist_area": "Data rights and release boundaries",
+      "draft_answer": "The target corpus is treated as restricted source-derived enterprise procedural text. Public release is split from internal reproducibility: the public-safe skeleton contains schema, prompts, scripts, synthetic examples, aggregate diagnostics, provenance, and validation reports, while raw or source-derived text remains withheld unless rights are cleared.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Data; Ethics; Reproducibility",
+      "status": "draft_ready",
+      "remaining_action": "Authors must complete final rights review before any external supplement upload.",
+      "claim_boundary": "Public-safe artifacts mitigate reproducibility limits but do not authorize raw source-text redistribution."
+    },
+    {
+      "item_id": "RNLP03_private_or_sensitive_data",
+      "checklist_area": "Private or sensitive data",
+      "draft_answer": "The workflow assumes that the domain corpus may contain organization-specific or sensitive business-procedure details. Public artifacts should exclude raw OCR text, private review workbooks, reviewer identifiers, and source-derived examples unless explicitly rights-cleared and anonymized.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+          "exists": true,
+          "bytes": 17046
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_risk_scan.csv",
+          "exists": true,
+          "bytes": 57075
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_excluded_review_queue.md",
+          "exists": true,
+          "bytes": 30908
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Ethics; Data",
+      "status": "draft_ready",
+      "remaining_action": "Inspect the final anonymized paper and supplement immediately before ARR upload.",
+      "claim_boundary": "Internal preparation artifacts may mention private paths; upload artifacts must not."
+    },
+    {
+      "item_id": "RNLP04_human_annotation_and_reviewer_privacy",
+      "checklist_area": "Human annotation and reviewer privacy",
+      "draft_answer": "Human review packages are prepared for annotators, adjudication, mapping experts, crosswalk experts, and active-review effort tracking. Reviewer identities and timing/correction logs should stay private or aggregated, and IAA should be reported as reliability evidence, not personal evaluation.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+          "exists": true,
+          "bytes": 12049
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+          "exists": true,
+          "bytes": 15446
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+          "exists": true,
+          "bytes": 12146
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Ethics; Evaluation",
+      "status": "pending_human_gold",
+      "remaining_action": "Complete annotation returns, adjudication, and aggregate-only reporting before final claims.",
+      "claim_boundary": "Do not publish reviewer-level private work files or raw timing logs."
+    },
+    {
+      "item_id": "RNLP05_llm_use_and_hallucination_risk",
+      "checklist_area": "LLM use and hallucination risk",
+      "draft_answer": "LLMs are used for baseline, proposed-condition, ablation, and model-scaling prediction generation. The paper should disclose that LLM outputs may hallucinate unsupported nodes, edges, mappings, or evidence; schema constraints, evidence anchors, strict JSON validation, and claim gates reduce but do not eliminate this risk.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+          "exists": true,
+          "bytes": 13157
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+          "exists": true,
+          "bytes": 8741
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+          "exists": true,
+          "bytes": 4752
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Methods; Ethics; Limitations",
+      "status": "draft_ready",
+      "remaining_action": "Refresh risk language if the final model set or decoding configuration changes.",
+      "claim_boundary": "Generation coverage and silver diagnostics are not human-gold performance evidence."
+    },
+    {
+      "item_id": "RNLP06_reproducibility_without_raw_private_corpus",
+      "checklist_area": "Reproducibility when raw corpus cannot be released",
+      "draft_answer": "The release provides schema, prompts, evaluation scripts, RDF/SHACL shapes, provenance records, checksums, public benchmark adapters, and synthetic examples so that the method and metrics remain inspectable even if the private domain corpus cannot be redistributed.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "exists": true,
+          "bytes": 969
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+          "exists": true,
+          "bytes": 19847
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Reproducibility; Ethics",
+      "status": "draft_ready",
+      "remaining_action": "Keep the public-safe bundle and checksums synchronized after every final-result refresh.",
+      "claim_boundary": "Synthetic examples demonstrate format and tooling; they do not replace target-corpus human-gold evaluation."
+    },
+    {
+      "item_id": "RNLP07_public_benchmark_license_and_citation",
+      "checklist_area": "Public benchmark license and citation",
+      "draft_answer": "Public benchmark adapters are included as auxiliary checks and should follow original benchmark licenses and citation requirements. Their results support external sanity checking, not the main Korean enterprise-corpus performance claim.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.csv",
+          "exists": true,
+          "bytes": 3710
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "exists": true,
+          "bytes": 1379
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Related Work; Experiments; Reproducibility",
+      "status": "pending_rights_review",
+      "remaining_action": "Verify citation and redistribution terms for all external resources before submission.",
+      "claim_boundary": "Auxiliary public-benchmark results must not be framed as target-domain final evidence."
+    },
+    {
+      "item_id": "RNLP08_anonymization_and_supplement_safety",
+      "checklist_area": "Anonymization and supplement safety",
+      "draft_answer": "The current internal package is not upload-ready. An anonymization prep scan exists, but the final ARR upload requires an ACL-formatted anonymous PDF and a supplement rebuilt from the public-safe skeleton with local usernames, absolute paths, source-derived workbooks, and private review files removed.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+          "exists": true,
+          "bytes": 17046
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+          "exists": true,
+          "bytes": 12933
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+          "exists": true,
+          "bytes": 2061
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+          "exists": true,
+          "bytes": 378
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Submission checklist; Supplement",
+      "status": "pending_author_confirmation",
+      "remaining_action": "Prepare final anonymous PDF and upload-safe supplement after human-gold refresh.",
+      "claim_boundary": "Do not upload internal reproducibility bundles or source-derived review handoff materials."
+    },
+    {
+      "item_id": "RNLP09_dual_use_or_misuse",
+      "checklist_area": "Dual-use or misuse",
+      "draft_answer": "The method structures enterprise procedural knowledge and could reveal operational workflows if raw private text were released. The current mitigation is to keep raw/source-derived materials restricted, publish only public-safe scaffolding, and report aggregated results.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Ethics; Limitations",
+      "status": "draft_ready",
+      "remaining_action": "Recheck dual-use wording after final release contents are selected.",
+      "claim_boundary": "Utility claims should be scoped to KG construction and evaluation, not operational deployment readiness."
+    },
+    {
+      "item_id": "RNLP10_final_author_confirmation",
+      "checklist_area": "Final author confirmation",
+      "draft_answer": "Several Responsible NLP checklist answers require author confirmation rather than repository evidence: no dual submission, final anonymization, rights clearance, final page-limit check, and whether any acknowledgments or identifying metadata remain.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+          "exists": true,
+          "bytes": 12933
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+          "exists": true,
+          "bytes": 6133
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+          "exists": true,
+          "bytes": 25787
+        }
+      ],
+      "missing_evidence_files": [],
+      "paper_section": "Submission checklist",
+      "status": "pending_author_confirmation",
+      "remaining_action": "Authors must complete final policy, rights, and anonymization confirmations immediately before upload.",
+      "claim_boundary": "This prep artifact is not an official completed checklist and must not be marked submission-ready."
+    }
+  ],
+  "missing_evidence_files": [],
+  "remaining_author_actions": [
+    "Fill the official ARR Responsible NLP checklist in the submission system using these draft answers as support.",
+    "Confirm final data-rights and redistribution boundaries after selecting the final supplement.",
+    "Render and inspect the final anonymous ACL PDF and upload-safe supplement.",
+    "Complete human-gold, IAA, adjudication, mapping/crosswalk expert review, and active-review effort returns before final performance claims.",
+    "Confirm no dual submission and remove identifying metadata immediately before upload."
+  ],
+  "claim_boundaries": [
+    "This artifact prepares checklist answers; it is not the official submitted checklist.",
+    "safe_to_use_as_submission=false and submission_ready=false are intentional.",
+    "No final quality, mapping, or review-efficiency claims are unlocked by this artifact.",
+    "Human-gold and expert-review blockers remain active."
+  ],
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.md",
+    "csv": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_items.csv"
+  }
+}

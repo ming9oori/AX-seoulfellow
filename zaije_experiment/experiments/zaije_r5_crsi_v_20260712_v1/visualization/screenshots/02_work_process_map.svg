@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<text x="40" y="50" font-family="sans-serif" font-size="26" font-weight="700" fill="#102A43">Work Process Map</text>
+<text x="40" y="78" font-family="sans-serif" font-size="13" fill="#52606D">R5-B1 | nodes 51 | relationships 35</text>
+<line x1="781.3" y1="692.3" x2="521.5" y2="504.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="651.4" y="598.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="654.7" y1="215.1" x2="510.0" y2="661.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="582.4" y="438.5" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="798.0" y1="625.3" x2="493.6" y2="397.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="645.8" y="511.3" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="337.9" y1="507.9" x2="521.5" y2="345.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="429.7" y="426.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="1034.8" y1="295.6" x2="470.2" y2="291.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="752.5" y="293.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="891.9" y1="586.3" x2="337.9" y2="507.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="614.9" y="547.1" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="895.8" y1="370.4" x2="1068.5" y2="491.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="982.2" y="431.1" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="947.2" y1="217.2" x2="642.5" y2="279.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="794.9" y="248.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="690.9" y1="637.3" x2="763.1" y2="217.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="727.0" y="427.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="551.9" y1="173.0" x2="435.5" y2="228.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="493.7" y="200.8" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="719.4" y1="274.4" x2="642.5" y2="570.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="681.0" y="422.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="862.9" y1="247.9" x2="405.6" y2="438.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="634.3" y="343.0" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="909.9" y1="653.1" x2="690.9" y2="637.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="800.4" y="645.2" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="320.7" y1="408.2" x2="493.6" y2="452.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="407.1" y="430.5" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="992.8" y1="451.1" x2="585.0" y2="620.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="788.9" y="535.9" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="763.1" y1="217.5" x2="1034.8" y2="295.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="898.9" y="256.5" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="418.9" y1="360.6" x2="855.2" y2="323.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="637.0" y="341.9" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="585.0" y1="620.6" x2="688.3" y2="151.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="636.7" y="386.1" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="793.6" y1="289.7" x2="947.2" y2="217.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="870.4" y="253.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="510.0" y1="661.9" x2="573.4" y2="304.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="541.7" y="483.1" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="793.6" y1="560.3" x2="552.5" y2="241.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="673.1" y="400.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="826.3" y1="167.0" x2="1077.1" y2="391.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="951.7" y="279.2" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="403.9" y1="596.5" x2="895.8" y2="370.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="649.9" y="483.5" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="1068.5" y1="491.7" x2="432.0" y2="513.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="750.3" y="502.8" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="940.8" y1="302.3" x2="719.4" y2="274.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="830.1" y="288.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="405.6" y1="438.1" x2="354.8" y2="310.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="380.2" y="374.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="494.6" y1="577.5" x2="719.4" y2="575.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="607.0" y="576.5" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="959.9" y1="525.5" x2="909.9" y2="653.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="934.9" y="589.3" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="641.7" y1="695.4" x2="494.6" y2="577.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="568.2" y="636.4" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="521.5" y1="345.4" x2="862.9" y2="247.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="692.2" y="296.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="493.6" y1="397.2" x2="1010.2" y2="583.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="751.9" y="490.1" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="573.4" y1="545.7" x2="793.6" y2="560.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="683.5" y="553.0" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="986.1" y1="373.2" x2="781.3" y2="692.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="883.7" y="532.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="895.8" y1="479.6" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="902.9" y="452.3" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<line x1="521.5" y1="504.6" x2="855.2" y2="526.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="688.3" y="515.7" font-family="sans-serif" font-size="8" fill="#52606D">PRECEDES</text>
+<circle cx="910.0" cy="425.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="910.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">등 전략-Edge 전략</text>
+<text x="910.0" y="469.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="992.8" cy="451.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="992.8" y="455.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그림 3. 고객 구매 사이클</text>
+<text x="992.8" y="495.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1068.5" cy="491.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1068.5" y="495.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">먼저 기회분석(Opportunity As...</text>
+<text x="1068.5" y="535.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="895.8" cy="479.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="895.8" y="483.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">작전 운용을 위한 요구성능 충족</text>
+<text x="895.8" y="523.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="959.9" cy="525.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="959.9" y="529.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">과제(사업) 분석</text>
+<text x="959.9" y="569.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1010.2" cy="583.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1010.2" y="587.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 이후에 기술 개발과 M&amp;S 과정을 통...</text>
+<text x="1010.2" y="627.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="855.2" cy="526.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="855.2" y="530.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">즉, 고객이 무엇을 원하고 이것을 어떻게...</text>
+<text x="855.2" y="570.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="891.9" cy="586.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="891.9" y="590.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">사람(People</text>
+<text x="891.9" y="630.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="909.9" cy="653.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="909.9" y="657.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객조직 정보</text>
+<text x="909.9" y="697.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="793.6" cy="560.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="793.6" y="564.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">다음의 &lt;표 2&gt;를 보면 분석적인 평가자...</text>
+<text x="793.6" y="604.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="798.0" cy="625.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="798.0" y="629.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">모든 측면의 리스크를 인식하라</text>
+<text x="798.0" y="669.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="781.3" cy="692.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="781.3" y="696.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">형식보다 내용을 먼저 결정하라</text>
+<text x="781.3" y="736.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="719.4" cy="575.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="719.4" y="579.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객에게는 영업대표의 전문성이 필요하기 ...</text>
+<text x="719.4" y="619.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="690.9" cy="637.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="690.9" y="641.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 핵심 이슈</text>
+<text x="690.9" y="681.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="641.7" cy="695.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="641.7" y="699.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전문가 영업을 해야 솔루션이 차별화되고,...</text>
+<text x="641.7" y="739.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="642.5" cy="570.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="642.5" y="574.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">광복 이후 이승만 정권이 적산분배를 하면...</text>
+<text x="642.5" y="614.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="585.0" cy="620.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="585.0" y="624.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">RFP가 발행된 이후에 우리가 고객에게 ...</text>
+<text x="585.0" y="664.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="510.0" cy="661.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="510.0" y="665.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">구매</text>
+<text x="510.0" y="705.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="573.4" cy="545.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="573.4" y="549.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그러나 쉬플리의 평가자 인터뷰에 따르면 ...</text>
+<text x="573.4" y="589.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="494.6" cy="577.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="494.6" y="581.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전문가 영업을 해야 고객의 질이 좋아진다</text>
+<text x="494.6" y="621.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="403.9" cy="596.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="403.9" y="600.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">쉬플리에서는 수주영업에서 제안서 제출과 ...</text>
+<text x="403.9" y="640.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="521.5" cy="504.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="521.5" y="508.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">대부분의 제안서 작성자는 자신의 의도(전...</text>
+<text x="521.5" y="548.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="432.0" cy="513.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="432.0" y="517.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">나도 열심히 전문가 영업을 했지만 경쟁자...</text>
+<text x="432.0" y="557.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="337.9" cy="507.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="337.9" y="511.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경력 20년 PM해외사업 경력 20년 P...</text>
+<text x="337.9" y="551.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="493.6" cy="452.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="493.6" y="456.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">만약에 이번 프로젝트의 리더(혹은 의사결...</text>
+<text x="493.6" y="496.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="405.6" cy="438.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="405.6" y="442.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전술은 ‘차별화’되어야 한다</text>
+<text x="405.6" y="482.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="320.7" cy="408.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="320.7" y="412.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">가치 있는 정보의 대부분은 RFP 발행 ...</text>
+<text x="320.7" y="452.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="493.6" cy="397.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="493.6" y="401.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">리스크 관리 전략을 개발하라</text>
+<text x="493.6" y="441.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="418.9" cy="360.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="418.9" y="364.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전략의 통합-Balance에 Edge를 ...</text>
+<text x="418.9" y="404.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="354.8" cy="310.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="354.8" y="314.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경험(Experience</text>
+<text x="354.8" y="354.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="521.5" cy="345.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="521.5" y="349.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">예시 1. 차별화 요소의 구체화</text>
+<text x="521.5" y="389.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="470.2" cy="291.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="470.2" y="295.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안 전략 수립예시</text>
+<text x="470.2" y="335.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="435.5" cy="228.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="435.5" y="232.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Winner(V-C) &gt; Loser(V-...</text>
+<text x="435.5" y="272.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="573.4" cy="304.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="573.4" y="308.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">솔루션 실행(사용</text>
+<text x="573.4" y="348.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="552.5" cy="241.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="552.5" y="245.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">통합적 평가자는 총점(또는 등수)을 먼저...</text>
+<text x="552.5" y="285.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="551.9" cy="173.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="551.9" y="177.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">V &gt; C</text>
+<text x="551.9" y="217.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="642.5" cy="279.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="642.5" y="283.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">단계 7. 최정 제안 요청서(RFP) 확...</text>
+<text x="642.5" y="323.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="654.7" cy="215.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="654.7" y="219.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">구매 결정</text>
+<text x="654.7" y="259.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="688.3" cy="151.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="688.3" y="155.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그런 의미에서 RFP 이후부터 제안서 제...</text>
+<text x="688.3" y="195.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="719.4" cy="274.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="719.4" y="278.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">한국은 지구촌 최고의 집단주의 (Coll...</text>
+<text x="719.4" y="318.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="763.1" cy="217.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="763.1" y="221.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁사 정보</text>
+<text x="763.1" y="261.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="826.3" cy="167.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="826.3" y="171.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">유사 무기체계 자원 80% 재활용을 통한...</text>
+<text x="826.3" y="211.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="793.6" cy="289.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="793.6" y="293.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그림 3. 제안전략은 수주전략의 부분이면...</text>
+<text x="793.6" y="333.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="862.9" cy="247.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="862.9" y="251.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그래서 내가 그 과정을 제공할 테니 더 ...</text>
+<text x="862.9" y="291.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="947.2" cy="217.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="947.2" y="221.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그림 4. 단계별 제안서 리뷰 프로세스</text>
+<text x="947.2" y="261.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="855.2" cy="323.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="855.2" y="327.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">국산화 95% 달성 및 5억 달러 수출 ...</text>
+<text x="855.2" y="367.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="940.8" cy="302.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="940.8" y="306.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">불투명한 사회에서 투명한 사회로 이행하는...</text>
+<text x="940.8" y="346.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1034.8" cy="295.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1034.8" y="299.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">자사 정보</text>
+<text x="1034.8" y="339.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="895.8" cy="370.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="895.8" y="374.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">사실, 쉬플리는 프로세스를 96단계로 정...</text>
+<text x="895.8" y="414.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="986.1" cy="373.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="986.1" y="377.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안 및 수주에서 전략이 왜 중요한가?</text>
+<text x="986.1" y="417.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1077.1" cy="391.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1077.1" y="395.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">시뮬레이션 결과 12.8% 개선 예측</text>
+<text x="1077.1" y="435.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+</svg>

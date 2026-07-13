@@ -1,0 +1,38 @@
+experiment_id: zaije_ldr_r2_20260712_blre_v1
+status: PREPARED_BEFORE_CONFIRMATORY_CALL
+method: BLRE
+parent_runs:
+  - ldr_pilot_20260711_v1
+  - ldr_repilot_20260711_v2
+input:
+  path: legacy/자이제_1.xlsx
+  binary_sha256: 9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb
+  evidence_count: 1366
+  inherited_gate0: PASS
+data_policy:
+  dev_exposed_count: 60
+  model_bakeoff_count: 24
+  fresh_pilot_count: 60
+  prior_evidence_overlap: 0
+  exposed_60_leakage_group_overlap: 0
+  prior_induction_membership: RETIRED_BEFORE_R2_API
+  sampling_amendment: sampling_amendment_pre_api.md
+  test_reference_access_before_freeze: 0
+panel:
+  candidate_configurations: 4
+  selected_size: 3
+  repeats: 2
+  same_primary_instruction: true
+  pinned_snapshots_required: true
+reference:
+  free_quote_generation: false
+  candidate_id_selection_only: true
+  fieldwise_annotation: true
+  whole_claim_adjudication: false
+  soft_reference_enabled: true
+stop_rules:
+  repilot_allowed: false
+  exact_grounding_min: 1.0
+  hard_plus_soft_coverage_min: 0.85
+  quarantine_max: 0.10
+  test_leakage: INVALID

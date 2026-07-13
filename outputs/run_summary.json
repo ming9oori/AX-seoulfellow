@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-27T15:29:22.440064+00:00",
+  "generated_at_utc": "2026-06-29T14:44:59.417605+00:00",
   "input_dir": "handoff-hanyang",
   "output_dir": "outputs",
   "ocr_file": "handoff-hanyang/자이제_ocr_preprocessed.xlsx",
@@ -8,10 +8,10 @@
   "layer1_pcf_nodes": 5301,
   "ocr_sentences": 5009,
   "chunks": 214,
-  "layer2_nodes": 179,
-  "layer2_edges": 906,
+  "layer2_nodes": 220,
+  "layer2_edges": 947,
   "ncs_mapping_candidates": 110,
   "pcf_mapping_candidates": 110,
-  "visualization_nodes": 9589,
-  "visualization_edges": 10499
+  "visualization_nodes": 9630,
+  "visualization_edges": 10540
 }

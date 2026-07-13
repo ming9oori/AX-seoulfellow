@@ -1,0 +1,128 @@
+{
+  "cost": {
+    "attempts": 115,
+    "cache_hits": 0,
+    "estimated_cost_usd": 0.589519,
+    "failed_attempts": 0,
+    "input_tokens": 231880,
+    "output_tokens": 86588,
+    "real_calls": 115
+  },
+  "fresh_pilot_accessed": false,
+  "metrics": {
+    "C01": {
+      "boundary_repeat_f1": 0.9305555555555556,
+      "boundary_repeat_f1_median": 1.0,
+      "candidate_id_validity": 0.9583333333333334,
+      "candidate_order_consistency": 0.7083333333333333,
+      "candidate_order_output_completeness": true,
+      "critical_field_ims": 0.16666666666666666,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 1.0,
+        "epistemic_status": 1.0,
+        "polarity": 1.0,
+        "promotion": 0.16666666666666666,
+        "semantic_mode": 0.8333333333333334
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8589944856163112,
+      "model_snapshot": "gpt-4o-mini-2024-07-18"
+    },
+    "C02": {
+      "boundary_repeat_f1": 0.9222222222222223,
+      "boundary_repeat_f1_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "candidate_order_consistency": 0.5,
+      "candidate_order_output_completeness": true,
+      "critical_field_ims": 0.875,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": true,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 1.0,
+        "epistemic_status": 1.0,
+        "polarity": 1.0,
+        "promotion": 0.875,
+        "semantic_mode": 0.9166666666666666
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.880470245950927,
+      "model_snapshot": "gpt-4.1-mini-2025-04-14"
+    },
+    "C03": {
+      "boundary_repeat_f1": 1.0,
+      "boundary_repeat_f1_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "candidate_order_consistency": 0.5,
+      "candidate_order_output_completeness": true,
+      "critical_field_ims": 0.625,
+      "deterministic_control_accuracy": 0.9583333333333334,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 0.9583333333333334,
+        "deontic_force": 0.9166666666666666,
+        "epistemic_status": 0.9166666666666666,
+        "polarity": 0.625,
+        "promotion": 0.9583333333333334,
+        "semantic_mode": 0.8333333333333334
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8602430555555556,
+      "model_snapshot": "gpt-4o-2024-08-06"
+    },
+    "C04": {
+      "boundary_repeat_f1": 0.9722222222222222,
+      "boundary_repeat_f1_median": 1.0,
+      "candidate_id_validity": 1.0,
+      "candidate_order_consistency": 0.5,
+      "candidate_order_output_completeness": true,
+      "critical_field_ims": 0.7083333333333334,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 0.875,
+        "deontic_force": 1.0,
+        "epistemic_status": 0.875,
+        "polarity": 1.0,
+        "promotion": 0.7083333333333334,
+        "semantic_mode": 0.9166666666666666
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.0,
+      "model_score": 0.8769893761182348,
+      "model_snapshot": "gpt-4.1-2025-04-14"
+    },
+    "C05": {
+      "boundary_repeat_f1": 0.8488095238095238,
+      "boundary_repeat_f1_median": 1.0,
+      "candidate_id_validity": 0.7916666666666666,
+      "candidate_order_consistency": 0.4583333333333333,
+      "candidate_order_output_completeness": false,
+      "critical_field_ims": 0.5,
+      "deterministic_control_accuracy": 1.0,
+      "eligible": false,
+      "field_ims": {
+        "conditionality": 1.0,
+        "deontic_force": 1.0,
+        "epistemic_status": 1.0,
+        "polarity": 0.875,
+        "promotion": 1.0,
+        "semantic_mode": 0.5
+      },
+      "field_output_completeness": 1.0,
+      "missing_candidate_rate": 0.125,
+      "model_score": 0.8386147592031487,
+      "model_snapshot": "gpt-4.1-nano-2025-04-14"
+    }
+  },
+  "selected_panel": [
+    "C02"
+  ],
+  "status": "REVISE"
+}

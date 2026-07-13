@@ -1,0 +1,167 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-526",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Shipley Consulting",
+                "quote": "쉬플리 컨설팅",
+                "role": "actor"
+              },
+              {
+                "normalized_label": "customer organization's decision makers and influencers",
+                "quote": "고객조직의 의사결정자와 영향자",
+                "role": "object"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "쉬플리 컨설팅은 고객조직의 의사결정자와 영향자를 정의하면서 시작한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "starts_by_defining",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X provides supported arguments and a more precise claim type (PROCESS_ORDER) than Y. Both use the same claim quote, which is fully supported by the evidence."
+        ]
+      },
+      {
+        "decision": "REJECT_BOTH",
+        "evidence_id": "zaije:evidence/xlsx-row-553",
+        "final_claims": [],
+        "reason_codes": [
+          "X's claim is only a table title and does not contain a substantive descriptive fact. Y's claim is not supported by the evidence in row 553, as it is based on content from row 554. Neither claim is directly supported by the quoted evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-590",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Mixed Composition of Holistic and Analytical Evaluators in Evaluation Committee",
+                "quote": "통합형/분석형 평가자가 섞여 평가위원회가 구성되는 것",
+                "role": "CONTEXT"
+              },
+              {
+                "normalized_label": "Consider Mixed Evaluator Types When Forming Proposal Team",
+                "quote": "제안팀을 구성할 때 이를 고려하는 것",
+                "role": "ACTION"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "현실적으로 통합형/분석형 평가자가 섞여 평가위원회가 구성되는 것이 일반적이므로 제안팀을 구성할 때 이를 고려하는 것이 필요하다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should consider",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "현실적으로 통합형/분석형 평가자가 섞여 평가위원회가 구성되는 것이 일반적이므로",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y provides supported arguments and a more precise scope. Both use the same claim quote, which is fully supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-663",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Current Stage",
+                "quote": "이 단계",
+                "role": "SCOPE"
+              }
+            ],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "c1",
+            "claim_quote": "이 단계에서 고객의 목표 달성을 통해 우리가 이루어야 할 것들은 무엇인가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "UNSPECIFIED",
+            "polarity": "UNSPECIFIED",
+            "predicate": "questions",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "이 단계에서 고객의 목표 달성을 통해 우리가 이루어야 할 것들",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X provides a supported argument (scope) and scope_quote. Y provides a more standard predicate ('questions'). Both use the same claim quote, which is fully supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-699",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Composition",
+                "quote": "결합(Composition)",
+                "role": "TERM"
+              },
+              {
+                "normalized_label": "Use of Elements to Emphasize Message in Speaking and Writing",
+                "quote": "말하기와 글쓰기를 할 때 특정 메시지를 강조하기 위하여 아래 요소를 사용하는 것",
+                "role": "USAGE"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "결합(Composition): 말하기와 글쓰기를 할 때 특정 메시지를 강조하기 위하여 아래 요소를 사용하는 것을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": "결합(Composition)",
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X provides supported arguments and scope_quote. Both use the same claim quote, which is fully supported by the evidence."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b06_84fd063f25e3.json",
+  "response_id": "resp_09188fecd7562c8c006a528f0b7eb48198803a5183b5dcb68f",
+  "usage": {
+    "input_tokens": 5264,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1014,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6278
+  }
+}

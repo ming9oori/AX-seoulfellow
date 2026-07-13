@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "UNDERDETERMINED",
+    "proposal_id": "zaije:evidence/xlsx-row-90_A01::IS_PROCEDURAL"
+  },
+  "raw_response_path": "raw_responses/primary_facet_C02_r1_IS_PROCEDURAL_23_888792548b4f.json",
+  "response_id": "resp_09c5153c3c4efc70006a531effcf60819b94babce61f5f35d1",
+  "usage": {
+    "input_tokens": 258,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 30,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 288
+  }
+}

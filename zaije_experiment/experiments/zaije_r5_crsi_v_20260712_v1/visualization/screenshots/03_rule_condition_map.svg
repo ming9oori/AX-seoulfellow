@@ -1,0 +1,282 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<text x="40" y="50" font-family="sans-serif" font-size="26" font-weight="700" fill="#102A43">Rule, Condition and Quantity</text>
+<text x="40" y="78" font-family="sans-serif" font-size="13" fill="#52606D">R5-B1 | nodes 69 | relationships 35</text>
+<line x1="329.8" y1="486.7" x2="1055.1" y2="327.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="692.4" y="407.1" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="605.8" y1="690.1" x2="453.5" y2="216.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="529.7" y="453.4" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="796.6" y1="559.2" x2="1073.7" y2="474.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="935.2" y="516.9" font-family="sans-serif" font-size="8" fill="#52606D">HAS_CONDITION</text>
+<line x1="983.5" y1="607.1" x2="843.4" y2="171.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="913.5" y="389.4" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="742.7" y1="573.0" x2="859.0" y2="246.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="800.9" y="409.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="843.3" y1="535.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="876.7" y="480.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_CONDITION</text>
+<line x1="810.8" y1="686.7" x2="1078.4" y2="400.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="944.6" y="543.4" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="576.3" y1="617.8" x2="843.3" y2="314.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="709.8" y="466.2" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="1041.3" y1="545.3" x2="902.2" y2="384.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="971.8" y="464.8" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="428.3" y1="616.2" x2="537.1" y2="329.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="482.7" y="472.9" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="366.7" y1="556.4" x2="552.5" y2="241.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="459.6" y="398.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="902.2" y1="465.8" x2="685.7" y2="274.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="793.9" y="370.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="937.1" y1="551.4" x2="993.8" y2="444.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="965.4" y="497.9" font-family="sans-serif" font-size="8" fill="#52606D">HAS_CONDITION</text>
+<line x1="708.7" y1="698.5" x2="639.7" y2="154.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="674.2" y="426.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="537.1" y1="520.4" x2="743.2" y2="153.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="640.1" y="336.8" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="507.4" y1="485.2" x2="933.0" y2="208.9" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="720.2" y="347.1" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="578.9" y1="548.5" x2="339.1" y2="339.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="459.0" y="443.9" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="405.3" y1="434.7" x2="441.2" y2="323.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="423.3" y="378.8" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="492.0" y1="445.6" x2="796.6" y2="290.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="644.3" y="368.2" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="904.8" y1="655.5" x2="540.7" y2="176.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="722.7" y="416.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="492.0" y1="404.4" x2="412.6" y2="377.1" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="452.3" y="390.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="685.7" y1="575.8" x2="920.1" y2="283.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="802.9" y="429.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="733.5" y1="636.0" x2="626.9" y2="219.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="680.2" y="427.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="653.2" y1="634.7" x2="489.0" y2="276.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="571.1" y="455.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="796.6" y1="559.2" x2="507.4" y2="364.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="652.0" y="462.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="879.4" y1="503.6" x2="879.4" y2="346.4" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="879.4" y="425.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="975.6" y1="500.7" x2="629.7" y2="282.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="802.7" y="391.6" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="880.9" y1="592.8" x2="706.7" y2="212.7" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="793.8" y="402.7" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="811.3" y1="621.7" x2="742.7" y2="277.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="777.0" y="449.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="510.0" y1="661.9" x2="990.1" y2="386.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="750.1" y="524.2" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="419.9" y1="491.6" x2="384.6" y2="272.3" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="402.2" y="382.0" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="629.7" y1="567.5" x2="578.9" y2="301.5" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="604.3" y="434.5" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="320.4" y1="412.5" x2="964.9" y2="331.6" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="642.7" y="372.1" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="455.2" y1="543.5" x2="1005.4" y2="262.2" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="730.3" y="402.8" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<line x1="508.7" y1="586.7" x2="786.0" y2="221.8" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="647.4" y="404.3" font-family="sans-serif" font-size="8" fill="#52606D">HAS_ACTION</text>
+<circle cx="910.0" cy="425.0" r="31" fill="#F7D774" stroke="#486581" stroke-width="1.5"/>
+<text x="910.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_QUAL_65145e0ec0cd8...</text>
+<text x="910.0" y="469.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Condition</text>
+<circle cx="993.8" cy="444.3" r="31" fill="#F7D774" stroke="#486581" stroke-width="1.5"/>
+<text x="993.8" y="448.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_QUAL_d6cba19bf1229...</text>
+<text x="993.8" y="488.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Condition</text>
+<circle cx="1073.7" cy="474.6" r="31" fill="#F7D774" stroke="#486581" stroke-width="1.5"/>
+<text x="1073.7" y="478.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_QUAL_e55e18bc4e9ab...</text>
+<text x="1073.7" y="518.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Condition</text>
+<circle cx="902.2" cy="465.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="902.2" y="469.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_12f639661f8fe...</text>
+<text x="902.2" y="509.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="975.6" cy="500.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="975.6" y="504.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_144654414a420...</text>
+<text x="975.6" y="544.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="1041.3" cy="545.3" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="1041.3" y="549.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_1d861fee13802...</text>
+<text x="1041.3" y="589.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="879.4" cy="503.6" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="879.4" y="507.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_2b91d746f8f65...</text>
+<text x="879.4" y="547.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="937.1" cy="551.4" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="937.1" y="555.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_37d018099effa...</text>
+<text x="937.1" y="595.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="983.5" cy="607.1" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="983.5" y="611.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_387694bf81dd4...</text>
+<text x="983.5" y="651.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="843.3" cy="535.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="843.3" y="539.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_39e0fb7280457...</text>
+<text x="843.3" y="579.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="880.9" cy="592.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="880.9" y="596.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_446a1bd19ec5d...</text>
+<text x="880.9" y="636.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="904.8" cy="655.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="904.8" y="659.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_5891935f8ecba...</text>
+<text x="904.8" y="699.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="796.6" cy="559.2" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="796.6" y="563.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_6948e708a6157...</text>
+<text x="796.6" y="603.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="811.3" cy="621.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="811.3" y="625.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_695a0fc28e3dd...</text>
+<text x="811.3" y="665.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="810.8" cy="686.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="810.8" y="690.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_6aca970f04906...</text>
+<text x="810.8" y="730.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="742.7" cy="573.0" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="742.7" y="577.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_7996ace8156aa...</text>
+<text x="742.7" y="617.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="733.5" cy="636.0" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="733.5" y="640.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_7e1cb7ed98a00...</text>
+<text x="733.5" y="680.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="708.7" cy="698.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="708.7" y="702.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_7f3a9769fd91e...</text>
+<text x="708.7" y="742.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="685.7" cy="575.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="685.7" y="579.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_8bb6607df1c10...</text>
+<text x="685.7" y="619.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="653.2" cy="634.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="653.2" y="638.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_8cccc7c012f1b...</text>
+<text x="653.2" y="678.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="605.8" cy="690.1" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="605.8" y="694.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_951efd7ee5577...</text>
+<text x="605.8" y="734.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="629.7" cy="567.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="629.7" y="571.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_9b57f321cf7cb...</text>
+<text x="629.7" y="611.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="576.3" cy="617.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="576.3" y="621.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_b5f0265a6ac61...</text>
+<text x="576.3" y="661.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="510.0" cy="661.9" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="510.0" y="665.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_b8560b1b7caf7...</text>
+<text x="510.0" y="705.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="578.9" cy="548.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="578.9" y="552.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_b999e736ec3d4...</text>
+<text x="578.9" y="592.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="508.7" cy="586.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="508.7" y="590.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_b9f84d2e9d450...</text>
+<text x="508.7" y="630.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="428.3" cy="616.2" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="428.3" y="620.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_c09c4f7352ea8...</text>
+<text x="428.3" y="660.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="537.1" cy="520.4" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="537.1" y="524.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_ca59a7a30dcbf...</text>
+<text x="537.1" y="564.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="455.2" cy="543.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="455.2" y="547.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_ccad4081bb479...</text>
+<text x="455.2" y="587.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="366.7" cy="556.4" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="366.7" y="560.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_d5673760863a6...</text>
+<text x="366.7" y="600.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="507.4" cy="485.2" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="507.4" y="489.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_d77075ea51eae...</text>
+<text x="507.4" y="529.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="419.9" cy="491.6" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="419.9" y="495.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_dc0692b076f9b...</text>
+<text x="419.9" y="535.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="329.8" cy="486.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="329.8" y="490.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_dd48aefd34b9b...</text>
+<text x="329.8" y="530.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="492.0" cy="445.6" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="492.0" y="449.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_e8c2bb2940ce8...</text>
+<text x="492.0" y="489.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="405.3" cy="434.7" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="405.3" y="438.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_ecb9de0da71a0...</text>
+<text x="405.3" y="478.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="320.4" cy="412.5" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="320.4" y="416.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_f715a7291b05e...</text>
+<text x="320.4" y="456.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="492.0" cy="404.4" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="492.0" y="408.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">AST_RULE_fea1a76937ab6...</text>
+<text x="492.0" y="448.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Rule</text>
+<circle cx="412.6" cy="377.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="412.6" y="381.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">을 할 수 없을 때까지 구체화해야 한다</text>
+<text x="412.6" y="421.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="339.1" cy="339.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="339.1" y="343.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">위해서는 고객의 비즈니스 이해력과 고객의...</text>
+<text x="339.1" y="383.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="507.4" cy="364.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="507.4" y="368.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객이 오해한 것이라면 고객의 인식을 교...</text>
+<text x="507.4" y="408.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="441.2" cy="323.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="441.2" y="327.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">객의 니즈를 잘 충족시키고 있으나 이를 ...</text>
+<text x="441.2" y="367.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="384.6" cy="272.3" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="384.6" y="276.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">라도 평가위원을 좀더 강하게 자극하고 설...</text>
+<text x="384.6" y="316.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="537.1" cy="329.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="537.1" y="333.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">등 전략은 날카롭고 뾰족해야 한다</text>
+<text x="537.1" y="373.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="489.0" cy="276.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="489.0" y="280.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">이를 평가위원들이 이해할 수 있도록 충분...</text>
+<text x="489.0" y="320.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="453.5" cy="216.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="453.5" y="220.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서는 그래픽 중심으로 작성해야 한다</text>
+<text x="453.5" y="260.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="578.9" cy="301.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="578.9" y="305.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">미래를 준비하려면 우리의 영업방식을 빠르...</text>
+<text x="578.9" y="345.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="552.5" cy="241.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="552.5" y="245.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">사업에는 상세한 제안 프로세스가 필요하다</text>
+<text x="552.5" y="285.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="540.7" cy="176.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="540.7" y="180.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">전체를 다 이해해야 한다</text>
+<text x="540.7" y="220.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="629.7" cy="282.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="629.7" y="286.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">로 정해서 일정 관리를 해야 한다</text>
+<text x="629.7" y="326.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="626.9" cy="219.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="626.9" y="223.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">가 완성되면 이것을 섹션별로 구현해야 한...</text>
+<text x="626.9" y="263.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="639.7" cy="154.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="639.7" y="158.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">비행기를 제공하여야 한다</text>
+<text x="639.7" y="198.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="685.7" cy="274.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="685.7" y="278.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">집하기 위해 관계형성은 필수지만 그것이 ...</text>
+<text x="685.7" y="318.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="706.7" cy="212.7" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="706.7" y="216.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">솔루션을 다루는 조직 내 전문가들과 근접...</text>
+<text x="706.7" y="256.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="743.2" cy="153.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="743.2" y="157.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">을 대상으로 영업해야 한다</text>
+<text x="743.2" y="197.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="742.7" cy="277.0" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="742.7" y="281.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">은 모두 영향자라는 점을 유념해야 한다</text>
+<text x="742.7" y="321.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="786.0" cy="221.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="786.0" y="225.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">주의해야 할 점은 실무자의 관점을 경영자...</text>
+<text x="786.0" y="265.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="843.4" cy="171.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="843.4" y="175.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">로서 분석해야 한다</text>
+<text x="843.4" y="215.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="796.6" cy="290.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="796.6" y="294.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">로 승리를 보장받기 위해서는 반드시 두 ...</text>
+<text x="796.6" y="334.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="859.0" cy="246.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="859.0" y="250.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객이 구매 행동에 이르기까지는 자신의 ...</text>
+<text x="859.0" y="290.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="933.0" cy="208.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="933.0" y="212.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">을 상기시키고 확인해야 한다</text>
+<text x="933.0" y="252.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="843.3" cy="314.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="843.3" y="318.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">이 목표를 달성하기 위한 설득이 필요하다</text>
+<text x="843.3" y="358.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="920.1" cy="283.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="920.1" y="287.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">기 전에 우리는 다음과 같은 질문을 통해...</text>
+<text x="920.1" y="327.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1005.4" cy="262.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1005.4" y="266.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제품을 고객이 수용하도록 설득할 수 있어...</text>
+<text x="1005.4" y="306.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="879.4" cy="346.4" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="879.4" y="350.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">의 구매 니즈나 의사결정이 항상 합리적인...</text>
+<text x="879.4" y="390.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="964.9" cy="331.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="964.9" y="335.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">둘째로 형식은 내용을 잘 지원해야 한다</text>
+<text x="964.9" y="375.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1055.1" cy="327.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1055.1" y="331.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">평가자로 하여금 반감을 사게 하는 경우가...</text>
+<text x="1055.1" y="371.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="902.2" cy="384.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="902.2" y="388.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">으로 구현해야 한다</text>
+<text x="902.2" y="428.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="990.1" cy="386.5" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="990.1" y="390.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고효율의 사회를 구현해야 한다</text>
+<text x="990.1" y="430.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+<circle cx="1078.4" cy="400.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="1078.4" y="404.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">핵심 차별화요소는 경쟁자에게도 있다는 점...</text>
+<text x="1078.4" y="444.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">WorkUnit</text>
+</svg>

@@ -1,0 +1,37 @@
+﻿condition,cq_id,question,target_predicates,support_count,supporting_chunks,support_proxy,evidence_anchored_items_in_condition,claim_status
+P_cape_kg_actual,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,"HAS_STEP,PRECEDES",97,58,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,USES_INPUT,22,19,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ3,각 Task는 어떤 산출물을 생성하는가?,PRODUCES,97,63,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ4,각 Task는 누가 수행하거나 책임지는가?,PERFORMED_BY,8,5,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ5,어떤 의사결정 지점이 존재하는가?,HAS_DECISION_GATEWAY,0,0,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,HAS_GUARD_CONDITION,1,1,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,"FEEDS_INTO,USED_AS_INPUT_FOR",130,64,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,HAS_REVIEW_CHECKPOINT,2,2,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,HAS_PRINCIPLE,10,9,edge_predicate_match,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,EVIDENCED_BY,1176,120,evidence_anchored_items,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,"REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",225,87,ncs_mapping_items,1176,cq_support_proxy_not_human_gold_answerability
+P_cape_kg_actual,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,"PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",2,2,pcf_mapping_items,1176,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,"HAS_STEP,PRECEDES",135,71,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,USES_INPUT,48,32,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ3,각 Task는 어떤 산출물을 생성하는가?,PRODUCES,96,60,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ4,각 Task는 누가 수행하거나 책임지는가?,PERFORMED_BY,15,10,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ5,어떤 의사결정 지점이 존재하는가?,HAS_DECISION_GATEWAY,0,0,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,HAS_GUARD_CONDITION,4,4,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,"FEEDS_INTO,USED_AS_INPUT_FOR",49,33,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,HAS_REVIEW_CHECKPOINT,2,2,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,HAS_PRINCIPLE,38,25,edge_predicate_match,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,EVIDENCED_BY,1201,119,evidence_anchored_items,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,"REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",99,70,ncs_mapping_items,1201,cq_support_proxy_not_human_gold_answerability
+P_minus_Schema_retrieval,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,"PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",117,75,pcf_mapping_items,1201,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ1,수주·제안 업무는 어떤 주요 Task와 절차 단계로 구성되는가?,"HAS_STEP,PRECEDES",45,26,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ2,각 Task는 어떤 입력 자료를 사용하는가?,USES_INPUT,16,10,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ3,각 Task는 어떤 산출물을 생성하는가?,PRODUCES,71,45,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ4,각 Task는 누가 수행하거나 책임지는가?,PERFORMED_BY,13,7,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ5,어떤 의사결정 지점이 존재하는가?,HAS_DECISION_GATEWAY,0,0,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ6,의사결정에는 어떤 조건이나 판단 기준이 필요한가?,HAS_GUARD_CONDITION,0,0,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ7,산출물은 다음 업무에서 어떻게 사용되는가?,"FEEDS_INTO,USED_AS_INPUT_FOR",162,66,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ8,제안서 리뷰는 어떤 단계에서 어떻게 수행되는가?,HAS_REVIEW_CHECKPOINT,0,0,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ9,각 업무에서 지켜야 할 원칙은 무엇인가?,HAS_PRINCIPLE,6,4,edge_predicate_match,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ10,각 지식 항목은 원문 어느 chunk/page/span에 근거가 있는가?,EVIDENCED_BY,1168,119,evidence_anchored_items,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ11,특정 업무는 어떤 NCS 능력단위와 관련되는가?,"REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",126,58,ncs_mapping_items,1168,cq_support_proxy_not_human_gold_answerability
+B4_taxonomy_rag,CQ12,특정 업무는 PCF 프로세스 체계상 어디에 위치하는가?,"PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",0,0,pcf_mapping_items,1168,cq_support_proxy_not_human_gold_answerability

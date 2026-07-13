@@ -1,0 +1,41 @@
+{
+  "node_count": 220,
+  "edge_count": 947,
+  "known_node_type_count": 14,
+  "known_edge_type_count": 17,
+  "unknown_node_type_count": 0,
+  "unknown_predicate_count": 0,
+  "dangling_edge_count": 0,
+  "domain_range_checked_edge_count": 947,
+  "domain_range_violation_count": 0,
+  "evidence_missing_edge_count": 0,
+  "ontology_conformance_issue_count": 0,
+  "ontology_conformance_rate": 1.0,
+  "node_type_counts": {
+    "DomainTask": 22,
+    "Artifact": 14,
+    "Role": 10,
+    "Risk": 3,
+    "DecisionGateway": 4,
+    "GuardCondition": 13,
+    "Principle": 5,
+    "ProcedureStep": 99,
+    "ReviewCheckpoint": 41,
+    "ArtifactFlow": 9
+  },
+  "predicate_counts": {
+    "USES_INPUT": 201,
+    "PRODUCES": 220,
+    "PERFORMED_BY": 120,
+    "HAS_RISK": 39,
+    "HAS_DECISION_GATEWAY": 54,
+    "HAS_GUARD_CONDITION": 14,
+    "HAS_PRINCIPLE": 64,
+    "HAS_STEP": 99,
+    "HAS_REVIEW_CHECKPOINT": 41,
+    "PRECEDES": 77,
+    "FEEDS_INTO": 9,
+    "USED_AS_INPUT_FOR": 9
+  },
+  "issues": []
+}

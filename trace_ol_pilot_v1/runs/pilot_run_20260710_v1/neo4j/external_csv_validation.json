@@ -1,0 +1,173 @@
+{
+  "generated_at_utc": "2026-07-10T10:52:38.071503+00:00",
+  "import_dir": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j",
+  "manifest": {},
+  "csv_file_count": 9,
+  "total_rows": 989,
+  "files_with_issues": 0,
+  "issue_counts": {},
+  "relationship_type_issues": [],
+  "files": [
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_assertions.csv",
+      "rows": 52,
+      "columns": [
+        "id",
+        "predicate",
+        "promotion_target",
+        "status",
+        "confidence",
+        "source_claim_id",
+        "source_evidence_id",
+        "system_version",
+        "operational"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_claims.csv",
+      "rows": 238,
+      "columns": [
+        "id",
+        "evidence_id",
+        "source_system",
+        "reference_tier",
+        "claim_family",
+        "claim_type",
+        "modality",
+        "polarity",
+        "promotion_target",
+        "status",
+        "uncertainty_code",
+        "human_reviewed"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_concepts.csv",
+      "rows": 31,
+      "columns": [
+        "id",
+        "pref_label",
+        "kernel_type",
+        "human_reviewed"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_conditions.csv",
+      "rows": 8,
+      "columns": [
+        "id",
+        "claim_id",
+        "evidence_id",
+        "text",
+        "start",
+        "end"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_documents.csv",
+      "rows": 1,
+      "columns": [
+        "id",
+        "name",
+        "human_reviewed"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_evidence.csv",
+      "rows": 180,
+      "columns": [
+        "id",
+        "section_id",
+        "excel_row",
+        "page",
+        "text",
+        "text_hash",
+        "split",
+        "stratum",
+        "context_recovered"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_relationships.csv",
+      "rows": 438,
+      "columns": [
+        "id",
+        "source_id",
+        "type",
+        "target_id",
+        "operational",
+        "claim_id",
+        "evidence_id",
+        "assertion_id",
+        "role"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_rules.csv",
+      "rows": 5,
+      "columns": [
+        "id",
+        "claim_id",
+        "modality",
+        "polarity",
+        "status"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    },
+    {
+      "file": "trace_ol_pilot_v1/runs/pilot_run_20260710_v1/neo4j/neo4j_sections.csv",
+      "rows": 36,
+      "columns": [
+        "id",
+        "document_id",
+        "section_no",
+        "title"
+      ],
+      "issue_counts": {},
+      "json_carrier_counts": {},
+      "parser_risk_samples": [],
+      "carrier_errors": [],
+      "status": "PASS"
+    }
+  ],
+  "overall_status": "PASS"
+}

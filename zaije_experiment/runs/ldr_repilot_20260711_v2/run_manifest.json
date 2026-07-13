@@ -1,0 +1,29 @@
+{
+  "api_secret_stored": false,
+  "completed_at": "2026-07-11T18:55:00.949487+00:00",
+  "experiment_id": "zaije_ldr_v1",
+  "gate1l_status": "FAIL",
+  "models": {
+    "A": "gpt-4o-mini-2024-07-18",
+    "ADJ": "gpt-4.1-2025-04-14",
+    "B": "gpt-4.1-mini-2025-04-14",
+    "VER": "gpt-4o-2024-08-06"
+  },
+  "pilot_lock_sha256": "f7189c207fbbba3c33f838f53fd600aca818d274b05cd2a0e05d6a1e3f9ce3a6",
+  "prompt_hashes": {
+    "A": "d31b540fec60c7eb47d43245f298bd92dcac764a6b2ed13beb721102afa29fff",
+    "ADJ": "2b27df3ea094237de3e8f20475f338b7a8d9ae163374e71e3e70ff0ce18ee8bc",
+    "B": "5f90f90d320bfbd69ac0f4bb31e7425dc16ea1e13784bae5452fe02dbd2ee36d",
+    "VER": "0a301435e3d9f1c505579ea907a664d493a617c39e089bd5c495b6cdde237a97"
+  },
+  "prompt_version": "v2",
+  "run_id": "ldr_repilot_20260711_v2",
+  "schemas": {
+    "adjudication": "68c64a88866e0e5e3b3570aa50aed05d0defc1667fc4f7c80a30d32b9904744d",
+    "annotation": "e7d08b67af3976719431cdcfa0e5601d89793aa9dce5d45b65b03b9810be7a15",
+    "verifier": "a675044bd2cc9e8cfcc678ad417180275e8d4e5844ad8557a59ebee444ea9259"
+  },
+  "seed": 20260711,
+  "started_at": "2026-07-11T18:48:32.658351+00:00",
+  "test_reference_created": false
+}

@@ -1,0 +1,176 @@
+{
+  "parsed": {
+    "verifications": [
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1171",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "claim_1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1197",
+        "results": [
+          {
+            "argument_is_supported": false,
+            "claim_is_supported": false,
+            "claim_local_id": "c1",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [
+              "Numeric value and unit not preserved",
+              "Claim not fully supported by evidence"
+            ],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": false,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "UNDERDETERMINED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1260",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c2",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1273",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c3",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      },
+      {
+        "evidence_id": "zaije:evidence/xlsx-row-1279",
+        "results": [
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c5",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          },
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c6",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          },
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c7",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          },
+          {
+            "argument_is_supported": true,
+            "claim_is_supported": true,
+            "claim_local_id": "c8",
+            "condition_preserved": true,
+            "example_not_promoted_as_rule": true,
+            "exception_preserved": true,
+            "failure_reasons": [],
+            "modality_preserved": true,
+            "numeric_value_and_unit_preserved": true,
+            "polarity_preserved": true,
+            "process_direction_preserved": true,
+            "quote_is_exact_substring": true,
+            "scope_not_overgeneralized": true,
+            "status": "ENTAILED"
+          }
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/verifier_b02_b298f633bd1b.json",
+  "response_id": "resp_0b5a7c1632d060bc006a528f2f1994819bba5d8e71513da865",
+  "usage": {
+    "input_tokens": 5016,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 888,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5904
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783833208,
+  "created_at": 1783833207,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0e9396695b519157006a532277b3f4819bb963d8c1e53be376",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 250,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"proposal_id\":\"FAL::C04::r1::SUPPORTED::12\",\"decision\":\"SUPPORTED\"}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0e9396695b519157006a5322780f9c819b94d42fbd03c8512f",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "r3_falsifier_control_v1",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "decision": {
+            "enum": [
+              "SUPPORTED",
+              "CONTRADICTED",
+              "UNDERDETERMINED"
+            ],
+            "type": "string"
+          },
+          "proposal_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "proposal_id",
+          "decision"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 340,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 22,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 362
+  },
+  "user": null
+}

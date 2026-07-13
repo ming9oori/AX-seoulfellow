@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/zaije/schema/awc-v1.json",
+  "title": "SCALE-AWC Atomic Work Claim v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_id",
+    "source_spans",
+    "claim_family",
+    "claim_type",
+    "arguments",
+    "predicate_normalized",
+    "modality",
+    "polarity",
+    "conditions",
+    "exceptions",
+    "scope",
+    "discourse_status",
+    "promotion_target",
+    "decision",
+    "confidence"
+  ],
+  "properties": {
+    "claim_id": {"type": "string", "minLength": 1},
+    "source_spans": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/span"}
+    },
+    "claim_family": {
+      "enum": ["FACTUAL", "NORMATIVE", "CONDITIONAL", "PROCEDURAL", "EVALUATIVE", "DISCOURSE", "UNCLEAR"]
+    },
+    "claim_type": {
+      "enum": [
+        "Definition", "DescriptiveFact", "Obligation", "Prohibition", "Recommendation",
+        "NecessaryCondition", "ConditionalRule", "Exception", "ProcessOrder", "ActivityOutput",
+        "DecisionTrigger", "PurposeCause", "ComparisonFormula", "EvaluationObservation",
+        "Example", "CounterExample", "Question", "Quotation", "OtherUnclear"
+      ]
+    },
+    "arguments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["role", "mention", "span"],
+        "properties": {
+          "role": {"type": "string", "minLength": 1},
+          "mention": {"type": "string"},
+          "span": {"$ref": "#/$defs/offset"},
+          "normalized": {}
+        }
+      }
+    },
+    "predicate_normalized": {"type": "string"},
+    "modality": {"enum": ["MUST", "MUST_NOT", "SHOULD", "MAY", "DESCRIPTIVE", "NONE"]},
+    "polarity": {"enum": ["POSITIVE", "NEGATIVE", "NONE"]},
+    "conditions": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+    "exceptions": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+    "scope": {"type": "array", "items": {"type": "string"}},
+    "discourse_status": {"enum": ["ASSERTED", "EXAMPLE", "QUESTION", "QUOTATION", "MYTH", "COUNTEREXAMPLE", "UNDERDETERMINED"]},
+    "promotion_target": {"enum": ["FACT_ASSERTION", "TBOX_AXIOM", "PROCESS_EDGE", "RULE_NODE", "EVALUATION_NODE", "LEXICAL_ONLY", "NONE", "NEEDS_REVIEW"]},
+    "decision": {"enum": ["ACCEPT", "REJECT", "ABSTAIN", "NEEDS_REVIEW"]},
+    "confidence": {"type": "number", "minimum": 0.0, "maximum": 1.0},
+    "underdetermined": {"type": "boolean", "default": false},
+    "annotator_note": {"type": "string"}
+  },
+  "$defs": {
+    "offset": {
+      "type": "array",
+      "prefixItems": [{"type": "integer", "minimum": 0}, {"type": "integer", "minimum": 0}],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "span": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["evidence_id", "start", "end", "text"],
+      "properties": {
+        "evidence_id": {"type": "string"},
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0},
+        "text": {"type": "string"},
+        "restored_from_context": {"type": "boolean", "default": false}
+      }
+    }
+  }
+}

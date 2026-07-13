@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:34.243929+00:00",
+  "available": true,
+  "package": "strong_resegmented_342_max18",
+  "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18",
+  "rows": 342,
+  "annotator_A_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+  "annotator_B_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+  "adjudication_template_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl",
+  "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv",
+  "review_preview_csv": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.csv",
+  "review_preview_md": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.md",
+  "review_preview_summary_json": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json",
+  "review_preview_summary_md": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.md",
+  "expected_reviewed_files": {
+    "annotator_A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A_edited.jsonl",
+    "annotator_B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B_edited.jsonl",
+    "adjudication": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_edited.jsonl"
+  },
+  "candidate_edges_total": 2087,
+  "chunks_with_silver_candidates": 93,
+  "candidate_edges_min": 0,
+  "candidate_edges_max": 328,
+  "max_split_sentence_count": 18,
+  "source_chunk_count": 214,
+  "strong_300_chunk_gap_after_resegmentation": 0,
+  "claim_status": "optional_strong_review_handoff_ready_pending_human_review"
+}

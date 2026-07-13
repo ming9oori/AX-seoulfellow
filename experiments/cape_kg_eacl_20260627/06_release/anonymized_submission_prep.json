@@ -1,0 +1,1700 @@
+{
+  "generated_at_utc": "2026-06-29T19:06:50.250431+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "anonymized_submission_prep_ready_not_upload_ready",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "upload_ready": false,
+  "summary": {
+    "required_inputs": 6,
+    "missing_inputs": 0,
+    "scan_targets": 7,
+    "risk_rows": 200,
+    "paper_draft_risk_rows": 8,
+    "public_safe_tar_file_count": 385,
+    "public_safe_tar_blocking_hits": 0,
+    "manual_gates": 5,
+    "release_stamp": "return_preflight_sync02_20260629",
+    "public_safe_bundle": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz"
+  },
+  "required_inputs_state": [
+    {
+      "path": "AX_EACL_submission_review_revised_plan.md",
+      "exists": true,
+      "bytes": 29461
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "exists": true,
+      "bytes": 21410
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "exists": true,
+      "bytes": 12933
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "exists": true,
+      "bytes": 19910
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.json",
+      "exists": true,
+      "bytes": 5107
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz",
+      "exists": true,
+      "bytes": 1532240
+    }
+  ],
+  "missing_inputs": [],
+  "manual_gates": [
+    {
+      "gate_id": "ANON01_final_acl_pdf",
+      "status": "pending_pdf_render",
+      "action": "Render the final ACL-formatted PDF after human-gold results are inserted and verify page limits."
+    },
+    {
+      "gate_id": "ANON02_author_identity",
+      "status": "pending_author_action",
+      "action": "Remove author names, local usernames, acknowledgments, and self-identifying repository paths from the upload manuscript."
+    },
+    {
+      "gate_id": "ANON03_public_safe_supplement",
+      "status": "public_safe_scaffold_ready_upload_rewrite_pending",
+      "action": "Use only the public-safe skeleton bundle, rename the top-level supplement directory, and avoid source-text or internal review files."
+    },
+    {
+      "gate_id": "ANON04_rights_review",
+      "status": "pending_author_rights_confirmation",
+      "action": "Confirm that no restricted source text, OCR snippets, or private review work files are included in any external supplement."
+    },
+    {
+      "gate_id": "ANON05_final_policy_confirmation",
+      "status": "pending_author_confirmation",
+      "action": "Confirm no dual submission and complete responsible NLP / ethics checklist answers immediately before upload."
+    }
+  ],
+  "risk_rows": [
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 29,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "| min.gold_chunks | 100+ adjudicated gold chunks | Complete two-annotator labeling and adjudication for at least 100 chunks. |"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 36,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "We study evidence-grounded procedural knowledge graph construction for long, noisy Korean bid and proposal documents. The proposed CAPE-KG framework anchors extraction to competency questions, retrieves task-specific schema context, constra"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 51,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "- Human annotation, adjudication, IAA, mapping review, crosswalk review, active-review, and optional structural-review workbenches with an 11-file minimum paper gate, 3 optional/strong claim returns, and 2 optional structural returns in the"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 98,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "The annotation package and workbench are ready, but the paper must not claim human-gold results until two annotators and adjudication are complete."
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 105,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "| Human-gold adjudication | 1 | 0 | final adjudicated gold labels |"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 268,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "- `06_release/human_gate_action_plan.md` and `05_review/human_gate_required_returns.csv`"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 270,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "- `06_release/human_review_handoff/human_review_handoff_report.md`"
+    },
+    {
+      "scope": "paper_draft",
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "line": 280,
+      "risk_type": "source_or_review_private_path",
+      "severity": "manual_rewrite_required",
+      "snippet": "- Human-gold annotation, adjudication, and IAA are not complete."
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 4,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "Experiment: `experiments/cape_kg_eacl_20260627`"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 46,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| schema_and_cq | CAPE node/edge schema | experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 47,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| schema_and_cq | SHACL-style shapes | experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 48,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| schema_and_cq | Competency questions | experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 49,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B0_plain_llm_triple_extraction.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B0_plain_llm_triple_extraction.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 50,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B1_predicate_constrained_llm.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B1_predicate_constrained_llm.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 51,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B2_current_project_baseline.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B2_current_project_baseline.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 52,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B3_edc_style_baseline.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 53,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B4_taxonomy_rag_baseline.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 54,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B5_procedural_prompt_baseline.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 55,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: B6_sac_kg_verifier_pruner_baseline.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 56,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: P_cape_kg.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 57,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: P_minus_Schema_retrieval.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 58,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| prompts | LLM condition prompt: strict_json_contract.txt | experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 83,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Locked evaluation protocol | experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 84,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Locked evaluation protocol JSON | experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 85,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Claim-safe paper tables | experiments/cape_kg_eacl_20260627/06_release/paper_tables.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 86,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Claim-safe paper tables LaTeX | experiments/cape_kg_eacl_20260627/06_release/paper_tables.tex | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 87,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Claimability table | experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 88,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Experiment reproduction card | experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 89,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Experiment reproduction card JSON | experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 90,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Experiment reproduction condition CSV | experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 91,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | RQ evidence matrix | experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 92,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Public-safe revised plan completion audit | experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 93,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Public-safe revised plan completion audit JSON | experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 94,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Public-safe revised plan completion audit CSV | experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe_items.csv | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 95,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Metric traceability audit | experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 96,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Metric traceability audit JSON | experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 97,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Metric traceability audit CSV | experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.csv | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 98,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Contribution claim traceability | experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 99,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Contribution claim traceability JSON | experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 100,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Contribution claim traceability CSV | experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.csv | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 101,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Related-work baseline traceability | experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 102,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Related-work baseline traceability JSON | experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 103,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Related-work baseline traceability CSV | experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.csv | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 104,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Annotation protocol traceability | experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md | yes | internal_only | human annotation protocol traceability; internal review path references |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 105,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Annotation protocol traceability JSON | experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.json | yes | internal_only | human annotation protocol traceability; internal review path referenc"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 106,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Annotation protocol traceability CSV | experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.csv | yes | internal_only | human annotation protocol traceability; internal review path references"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 107,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Method novelty positioning | experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 108,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Method novelty positioning JSON | experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 109,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Qwen3 model-scaling report | experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 110,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | Qwen3 model-scaling report JSON | experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 111,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| evaluation_protocol | CQ query pack | experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 112,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Prompt to node/edge traceability | experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 113,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Prompt to node/edge traceability JSON | experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 116,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Predicate cue span diagnostic report | experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md | yes | internal_only | automatic predicate cue diagnostic; source text omitted |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 117,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Predicate cue span diagnostic metrics | experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json | yes | internal_only | automatic predicate cue diagnostic; source text omitted |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 118,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Predicate cue span diagnostic rows | experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv | yes | internal_only | automatic predicate cue diagnostic; source text omitted |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 120,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Neo4j evidence query pack | experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md | yes | internal_only | Neo4j Browser queries for EvidenceAnchor/EVIDENCED_BY inspection |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 121,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| traceability | Neo4j evidence query pack JSON | experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json | yes | internal_only | Neo4j Browser queries for EvidenceAnchor/EVIDENCED_BY inspection |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 122,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| synthetic_public_examples | Synthetic example README | experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 123,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| synthetic_public_examples | Synthetic chunks | experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_chunks.jsonl | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 124,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| synthetic_public_examples | Synthetic gold labels | experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_gold.jsonl | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 125,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| synthetic_public_examples | Synthetic predictions | experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_predictions.jsonl | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 126,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| synthetic_public_examples | Synthetic evaluation summary | experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 127,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Public benchmark manifest | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_manifest.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 128,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Public benchmark adapter report | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_adapter_report.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 129,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Public benchmark cross-check report | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 130,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Public benchmark cross-check summary | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 131,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Qwen3 8B subset report | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_report.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 132,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Qwen3 8B subset summary | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_summary.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 133,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Qwen3 14B subset report | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_report.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 134,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public_benchmarks | Qwen3 14B subset summary | experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_summary.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 135,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| release_safety | Data release and ethics statement | experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 136,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| release_safety | External resource license report | experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 137,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| release_safety | External resource license report JSON | experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json | yes | public_safe | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 138,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| release_safety | Release bundle safety report | experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 139,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| release_safety | Latest release bundle index | experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md | yes | live_release_status | reproducibility |"
+    },
+    {
+      "scope": "public_manifest_md",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "line": 147,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| internal_only | Gold subset sampling coverage report | experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md | yes | internal_only | private review selection evidence |"
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 3,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"experiment_dir\": \"experiments/cape_kg_eacl_20260627\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 111,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 120,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/cape_shapes.shacl.ttl\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 129,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/competency_questions.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 138,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B0_plain_llm_triple_extraction.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 147,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B1_predicate_constrained_llm.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 156,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B2_current_project_baseline.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 165,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B3_edc_style_baseline.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 174,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B4_taxonomy_rag_baseline.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 183,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B5_procedural_prompt_baseline.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 192,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/B6_sac_kg_verifier_pruner_baseline.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 201,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/P_cape_kg.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 210,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/P_minus_Schema_retrieval.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 219,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/02_schema/prompts/strict_json_contract.txt\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 444,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 453,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 462,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/paper_tables.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 471,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/paper_tables.tex\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 480,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 489,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 498,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 507,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 516,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 525,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 534,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 543,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/revised_plan_completion_audit_public_safe_items.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 552,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 561,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 570,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/metric_traceability_audit.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 579,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 588,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 597,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/contribution_claim_traceability.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 606,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 615,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 624,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/related_work_baseline_traceability.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 633,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 642,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 651,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 660,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 669,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 678,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 687,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 696,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/cq_query_pack.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 705,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 714,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 741,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 750,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_metrics.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 759,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/04_evaluation/predicate_cue_span_rows.csv\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 777,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 786,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 795,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 804,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_chunks.jsonl\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 813,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_gold.jsonl\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 822,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_predictions.jsonl\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 831,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_evaluation_summary.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 840,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_manifest.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 849,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_adapter_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 858,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 867,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 876,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 885,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_8b_subset_eval_summary.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 894,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 903,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_qwen3_14b_subset_eval_summary.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 912,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 921,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 930,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 939,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 948,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 1020,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"path\": \"experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 1029,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"markdown\": \"experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 1030,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"json\": \"experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json\","
+    },
+    {
+      "scope": "public_manifest_json",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "line": 1031,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "\"csv\": \"experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.csv\""
+    },
+    {
+      "scope": "public_review_queue",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md",
+      "line": 18,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "- Treat `01_data/`, annotator/adjudication filenames, and human-review batch paths as internal operational references."
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 7,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Internal reproducibility bundle: `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync02_20260629.tar.gz`"
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 7,
+      "risk_type": "internal_bundle_reference",
+      "severity": "review_before_upload",
+      "snippet": "- Internal reproducibility bundle: `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync02_20260629.tar.gz`"
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 10,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Public-safe skeleton bundle: `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz`"
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 16,
+      "risk_type": "internal_bundle_reference",
+      "severity": "review_before_upload",
+      "snippet": "- The internal bundle may contain source-derived chunk text and annotation work files. Treat it as local/internal unless rights are cleared."
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 17,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "- The public-safe skeleton bundle excludes `01_data`, human-gold batch files, annotation JSONL files, and raw source-text workbench inputs."
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 19,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "- Public paper claims still require human gold annotation, IAA, adjudication, and human-gold scoring."
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 32,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Excluded-file review queue: `experiments/cape_kg_eacl_20260627/06_release/public_external_release_excluded_review_queue.md`"
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 36,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Internal checksums: `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_return_preflight_sync02_20260629.sha256`"
+    },
+    {
+      "scope": "release_safety_report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+      "line": 37,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Public-safe checksums: `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_return_preflight_sync02_20260629.sha256`"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 11,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| internal reproducibility | `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync02_20260629.tar.gz` | `6e6f82fbe3d9fe02af554cac31782ee3cf81a6e478c44f47128150b6cc9c3437` | 43666959 | 1704 |"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 11,
+      "risk_type": "internal_bundle_reference",
+      "severity": "review_before_upload",
+      "snippet": "| internal reproducibility | `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_return_preflight_sync02_20260629.tar.gz` | `6e6f82fbe3d9fe02af554cac31782ee3cf81a6e478c44f47128150b6cc9c3437` | 43666959 | 1704 |"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 12,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| public-safe skeleton | `experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz` | `b67381fb66ea731fe8668403ec1cf6382d484fa85b0b4536ecd3522077675e60` | 1532240 | 383 |"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 17,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 18,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 18,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 19,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 29,
+      "risk_type": "internal_bundle_reference",
+      "severity": "review_before_upload",
+      "snippet": "- Use the public-safe skeleton bundle for external artifact sharing. The internal reproducibility bundle may contain source-derived text and review work files."
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 30,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "- These bundles are release/reproducibility artifacts only. Submission-level performance claims remain pending human-gold annotation, IAA, adjudication, proposed human-gold scoring, mapping expert review, NCS-PCF crosswalk expert review, an"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 34,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Release manifest: `experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json`"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 35,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Release checksums: `experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256`"
+    },
+    {
+      "scope": "latest_release_index",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "line": 36,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "- Safety report: `experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md`"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 31,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "| ARR02_claim_gate_not_submission_ready | Do not mark the package as submission-ready while required human-gold claim gates fail. | pass_expected_not_ready | internal_go_no_go | claim_gate=FAIL; required_failures=4 | Complete human-gold, IA"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 65,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md | True | 6133 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 73,
+      "risk_type": "source_or_review_private_path",
+      "severity": "review_before_upload",
+      "snippet": "- Next action: Complete human-gold, IAA, adjudication, and proposed-method human-gold scoring before submission-ready language."
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 77,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md | True | 4370 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 78,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md | True | 25787 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 79,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md | True | 14477 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 91,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md | True | 21410 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 92,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/limitations.md | True | 1176 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 104,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md | True | 21410 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 105,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md | True | 6315 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 106,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md | True | 2807 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 118,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md | True | 21410 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 119,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md | True | 19910 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 120,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md | True | 2110 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 132,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md | True | 21410 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 133,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md | True | 9141 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 134,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md | True | 12030 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 146,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md | True | 2061 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 147,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md | True | 19910 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 148,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md | True | 1112 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 160,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md | True | 6315 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 161,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md | True | 19910 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 162,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md | True | 17456 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 174,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md | True | 6133 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 186,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md | True | 7034 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 187,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md | True | 12030 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 188,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md | True | 19847 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 189,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md | True | 55803 |"
+    },
+    {
+      "scope": "arr_policy_checklist",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "line": 190,
+      "risk_type": "internal_experiment_path",
+      "severity": "review_before_upload",
+      "snippet": "| experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md | True | 14120 |"
+    }
+  ],
+  "tar_summary": {
+    "exists": true,
+    "file_count": 385,
+    "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_return_preflight_sync02_20260629.tar.gz"
+  },
+  "interpretation": [
+    "This report prepares anonymization and public-safe supplement review; it is not an upload-ready package.",
+    "Internal path references in local reports are expected before final packaging, but must be rewritten or removed from the final ARR upload.",
+    "The public-safe tar scan must stay free of source-text, human-review, adjudication, and internal reproducibility paths.",
+    "Submission-ready language remains forbidden until human-gold, IAA, adjudication, final PDF, and author policy confirmations are complete."
+  ],
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+    "risk_csv": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_risk_scan.csv"
+  }
+}

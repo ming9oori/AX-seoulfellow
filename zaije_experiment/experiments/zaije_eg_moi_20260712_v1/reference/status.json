@@ -1,0 +1,14 @@
+{
+  "experiment_id": "zaije_eg_moi_20260712_v1",
+  "human_intervention_count": 0,
+  "llm_call_count": 0,
+  "method": "EG-MOI-1.0",
+  "overall_status": "EG_MOI_END_TO_END_PASS",
+  "result_semantics": "STRUCTURALLY_VALIDATED_SEMANTICALLY_UNVERIFIED",
+  "semantic_accuracy_claimed": false,
+  "semantic_accuracy_evaluated": false,
+  "source_evidence_count": 1366,
+  "source_file": "handoff-hanyang/수주제안/자이제_1.xlsx",
+  "unresolved_count": 1549,
+  "validated_assertion_count": 261
+}

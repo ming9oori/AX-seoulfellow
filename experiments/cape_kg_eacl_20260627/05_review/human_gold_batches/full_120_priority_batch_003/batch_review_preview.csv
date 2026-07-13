@@ -1,0 +1,21 @@
+﻿rank,chunk_id,page_start,page_end,priority_score,priority_reason,candidate_edges,top_predicates,unique_evidence_anchors,component_spans,exact_components,exact_component_ratio,full_sentence_proxy_components,label_not_found_components,active_review_items,high_impact_items,review_focus
+41,JZ-CHUNK-0145,309,310,0.301,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+42,JZ-CHUNK-0190,441,441,0.301,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+43,JZ-CHUNK-0195,413,415,0.2968,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+44,JZ-CHUNK-0137,299,302,0.294792,"active_review,high_impact",5,USES_INPUT:2; PRODUCES:2; HAS_PRINCIPLE:1,20,15,2,0.1333,5,8,3,3,evidence span repair; high-impact review
+45,JZ-CHUNK-0058,128,130,0.294,"active_review,dense_candidates",25,HAS_PRINCIPLE:9; PERFORMED_BY:7; USES_INPUT:3; PRODUCES:3,57,75,11,0.1467,25,39,1,0,evidence span repair
+46,JZ-CHUNK-0143,309,309,0.294,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+47,JZ-CHUNK-0198,420,420,0.294,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+48,JZ-CHUNK-0187,411,411,0.287,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+49,JZ-CHUNK-0189,427,427,0.287,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+50,JZ-CHUNK-0009,36,36,0.285,"active_review,dense_candidates",23,PERFORMED_BY:10; HAS_PRINCIPLE:6; USES_INPUT:2; PRODUCES:2,91,69,16,0.2319,23,30,4,0,evidence span repair
+51,JZ-CHUNK-0148,315,317,0.28,dense_candidates,35,USES_INPUT:13; PRODUCES:13; PERFORMED_BY:9,46,105,29,0.2762,35,41,0,0,evidence span repair
+52,JZ-CHUNK-0193,406,407,0.279752,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+53,JZ-CHUNK-0012,38,38,0.276048,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+54,JZ-CHUNK-0144,309,309,0.276048,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+55,JZ-CHUNK-0138,302,302,0.273544,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+56,JZ-CHUNK-0007,30,31,0.27,"active_review,dense_candidates",22,USES_INPUT:11; PRODUCES:11,70,66,20,0.3030,22,24,2,0,evidence span repair
+57,JZ-CHUNK-0053,147,147,0.262712,"active_review,high_impact",0,,0,0,0,0.0000,0,0,4,4,missing-edge scan; high-impact review
+58,JZ-CHUNK-0034,79,82,0.259667,"active_review,high_impact",8,USES_INPUT:3; PRODUCES:3; PERFORMED_BY:1; HAS_PRINCIPLE:1,20,24,5,0.2083,8,11,4,1,evidence span repair; high-impact review
+59,JZ-CHUNK-0056,125,126,0.256,dense_candidates,32,USES_INPUT:10; PRODUCES:10; PERFORMED_BY:9; HAS_PRINCIPLE:3,140,96,37,0.3854,32,27,0,0,evidence span repair
+60,JZ-CHUNK-0038,89,90,0.254168,"active_review,high_impact",2,PERFORMED_BY:2,36,6,0,0.0000,2,4,4,4,evidence span repair; high-impact review

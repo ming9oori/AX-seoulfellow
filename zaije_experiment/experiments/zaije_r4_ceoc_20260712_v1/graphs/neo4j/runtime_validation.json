@@ -1,0 +1,62 @@
+{
+  "edge_count": 1155,
+  "edge_provenance_covered": 1155,
+  "edge_provenance_total": 1155,
+  "edge_rdf_reference_covered": 1155,
+  "example_rulebox_count": 0,
+  "explicit_rule_count": 10,
+  "explicit_rule_evidence_paths": 10,
+  "node_count": 566,
+  "sample_evidence_paths": [
+    {
+      "anchorId": "zaije:evidence/xlsx-row-513_A01",
+      "exactText": "또 계층별로도 설득해야 한다.",
+      "ruleId": "AST_RULE_0e877f7cbcceb8ca886f"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-250_A01",
+      "exactText": "제안서 작성 프로세스는 리더십의 리뷰를 핵심단계(Milestone)로 정해서 일정 관리를 해야 한다.",
+      "ruleId": "AST_RULE_144654414a4206e1e6bf"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-797_A01",
+      "exactText": "수주영업을 할 때도 반드시 명심해야 할 점은 고객의 구매 니즈나 의사결정이 항상 합리적인 토론과 추론에 따라 결정된다고 생각하면 안 된다.",
+      "ruleId": "AST_RULE_2b91d746f8f656a762ec"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-142_A01",
+      "exactText": "특히 해외 사업의 경우, 제안의 잘못된 인식과 부족한 지식은 사업을 결정적으로 그르칠 수 있음을 명심해야 한다.",
+      "ruleId": "AST_RULE_39e0fb728045745beb14"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-523_A01",
+      "exactText": "정보가 없더라도 그 회사의 경영자가 이 프로젝트에 어떤 종류의 관심을 가질 것인지 예측해야 한다.",
+      "ruleId": "AST_RULE_4e9da28eefb221697174"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-516_A01",
+      "exactText": "그런데 영업하는 영업대표로서는 ‘내게 오더를 줄 수는 없어도, 오더를 안 줄 수는 있는 사람’은 모두 영향자라는 점을 유념해야 한다.",
+      "ruleId": "AST_RULE_695a0fc28e3ddea7b2b3"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-258_A01",
+      "exactText": "두 번째, 전략과 고객의 요구조건 리스트(Complinance Checklist)가 완성되면 이것을 섹션별로 구현해야 한다.",
+      "ruleId": "AST_RULE_7e1cb7ed98a001522dab"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-145_A09",
+      "exactText": "제안서는 그래픽 중심으로 작성해야 한다.",
+      "ruleId": "AST_RULE_951efd7ee55777f76d7e"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-520_A01",
+      "exactText": "특히 주의해야 할 점은 실무자의 관점을 경영자의 관점과 혼동해서는 안 된다는 것이다.",
+      "ruleId": "AST_RULE_b9f84d2e9d450c7b0c68"
+    },
+    {
+      "anchorId": "zaije:evidence/xlsx-row-652_A01",
+      "exactText": "그래서 이때 영업대표는 지속적으로 고객이 얻게 될 효용(Benefit)을 상기시키고 확인해야 한다.",
+      "ruleId": "AST_RULE_d77075ea51eaed077baa"
+    }
+  ]
+}

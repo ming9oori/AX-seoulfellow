@@ -1,0 +1,31 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-1045_C04",
+        "conditionality": "NONE",
+        "configuration_id": "C04",
+        "deontic_force": "NONE",
+        "epistemic_status": "ASSERTED",
+        "polarity": "POSITIVE",
+        "promotion": "DOMAIN_ASSERTION",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/field_C04_r1_b03_04f0b7f4daf2.json",
+  "response_id": "resp_0209910e6495449c006a530dc7de408198b6cd91b4ce4c311e",
+  "usage": {
+    "input_tokens": 1481,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 75,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1556
+  }
+}

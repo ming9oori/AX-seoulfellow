@@ -1,0 +1,205 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-40",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution",
+                "quote": "S (Solution)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Customer perceived value",
+                "quote": "S′(고객이 인지하는 가치)",
+                "role": "object"
+              },
+              {
+                "normalized_label": "Communication",
+                "quote": "C (Communication)",
+                "role": "criterion"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "S (Solution) 예) 판매자의 솔루션*C (Communication) 예) 영업, 제안서, PT 등=S′(고객이 인지하는 가치)",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "equals product of",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim is a direct definition from the table and matches the evidence exactly; X's claims are interpretive and not directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-536",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "평가위원",
+                "quote": "불특정 평가위원들",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "분석",
+                "quote": "분석해야 한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "1",
+            "claim_quote": "불특정 평가위원들도 명백히 ‘의사결정자’로서 분석해야 한다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim exactly matches the imperative modality and obligation in the evidence; Y's claim is less precise and omits the obligation modality."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-551",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "접근",
+                "quote": "분석적 접근",
+                "role": "object"
+              },
+              {
+                "normalized_label": "접근",
+                "quote": "통합적 접근",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "1",
+            "claim_quote": "분석적 접근은 개별 평가 항목의 점수를 확보함으로써 종합적으로 높은 총계 점수를 얻는 것을 말하고, 통합적 접근은 개별 점수보다는 고객이 종합적으로 우리 조직과 솔루션이 우위라는 점을 인지하여 높은 점수를 주게 하는 방법을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is_defined_as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim is a direct definition, matching the evidence's structure and discourse status; Y's claim splits the definition into descriptive facts and changes the discourse status."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-585",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "통합적 평가자",
+                "quote": "통합적 평가자",
+                "role": "actor"
+              },
+              {
+                "normalized_label": "Q&A 중요성 인식 및 대비",
+                "quote": "프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다",
+                "role": "action"
+              }
+            ],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "c5",
+            "claim_quote": "통합적 평가자에게는 프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다.〔‘6.6.3 질의응답(Q&A)에서 승부하라’ 참고〕3.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim includes the full context and actor ('통합적 평가자') as in the evidence; X omits this and is less specific."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-664",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Project Stage Interest Utility",
+                "quote": "프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Inquiry",
+                "quote": "무엇인가?",
+                "role": "criterion"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "무엇인가?",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim preserves the question discourse status and structure of the evidence; X reformulates it as a descriptive fact, which is not supported by the evidence's interrogative form."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b03_f9450efdf148.json",
+  "response_id": "resp_009755463dfb475b006a529156af6c819bae796e8e0a1daa5b",
+  "usage": {
+    "input_tokens": 7193,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1192,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8385
+  }
+}

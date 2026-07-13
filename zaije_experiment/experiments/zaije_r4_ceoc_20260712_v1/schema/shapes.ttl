@@ -1,0 +1,5 @@
+@prefix ceoc: <https://example.org/ceoc/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+ceoc:PromotedAssertionShape a sh:NodeShape ; sh:targetClass ceoc:Assertion ; sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ] .
+ceoc:ExplicitRuleShape a sh:NodeShape ; sh:targetClass ceoc:ExplicitDeonticRule ; sh:property [ sh:path ceoc:hasDeonticCue ; sh:minCount 1 ] .

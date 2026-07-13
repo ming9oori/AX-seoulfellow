@@ -1,0 +1,24 @@
+{
+  "config_sha256": "386ad44b04f78d8052bb82ed3bcc277c02055d996dd267202dd2828321524b46",
+  "created_at_utc": "2026-07-10T00:00:00+00:00",
+  "design_expected_input_sha256": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+  "design_file": "/home/minjoo/AX_서울펠로우/TRACE_OL_자이제_Neo4j_전체실험_설계서.md",
+  "design_sha256": "0025dfc19f47eaa63ad3b1eb629a8289024c30e664430b2823d7055d02caf81a",
+  "experiment_id": "P2_DISTILLED_PRODUCTION_OFFLINE_PARTIAL",
+  "git_commit": "a9482ce",
+  "gold_version": null,
+  "input_file": "/home/minjoo/AX_서울펠로우/handoff-hanyang/수주제안/자이제_1.xlsx",
+  "input_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "model": "gpt-4o-mini-2024-07-18",
+  "neo4j_image": "neo4j:5.26.28-community",
+  "platform": "Linux-5.4.0-144-generic-x86_64-with-glibc2.31",
+  "prompt_versions": {
+    "claim": "claim_adjudicator/1.0",
+    "sense": "sense_resolver/1.0"
+  },
+  "python": "3.13.13",
+  "run_id": "run:20260710T000000Z:P2_OFFLINE:a9482ce",
+  "schema_version": "trace-ol/1.0",
+  "seed": 20260710,
+  "split_id": "jaije-section-split-v1"
+}

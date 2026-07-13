@@ -1,0 +1,552 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:35.552881+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "risk_count": 13,
+    "critical_count": 2,
+    "high_count": 5,
+    "medium_count": 6,
+    "open_count": 5,
+    "mitigated_count": 7,
+    "partial_count": 1,
+    "missing_required_evidence_file_count": 0,
+    "paper_claim_allowed_now_count": 4,
+    "claim_status": "reviewer_risk_register_ready_with_open_human_gates",
+    "open_risk_ids": [
+      "R02_human_gold_missing",
+      "R07_mapping_downstream_labels",
+      "R08_crosswalk_downstream_utility",
+      "R09_active_review_effort",
+      "R13_submission_status_overclaim"
+    ]
+  },
+  "source_status": {
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "claim_gate_optional_failures": 2,
+    "readiness_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "compliance_completion_status": "not_complete_pending_human_gold_iaa_adjudication_and_expert_review",
+    "pre_human_validation_source_json": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.json",
+    "pre_human_validation_source_md": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md"
+  },
+  "risks": [
+    {
+      "risk_id": "R01_task_framing",
+      "reviewer_concern": "The work may look like a Korean domain KG construction case rather than a generalizable NLP task.",
+      "severity": "high",
+      "current_status": "mitigated_as_pre_human_setup",
+      "claim_safety": "claimable_setup_not_final_performance",
+      "current_evidence": "CAPE-KG is framed as evidence-grounded procedural KG extraction with RQ1-RQ4 and M1-M11 artifacts.",
+      "remaining_action": "Use this framing consistently in the paper; final empirical claims still require human-gold scoring.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "role": "RQ-to-evidence mapping",
+          "required": true,
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+          "role": "M1-M11 method coverage",
+          "required": true,
+          "exists": true,
+          "bytes": 17555
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "role": "paper draft with conservative claim scope",
+          "required": true,
+          "exists": true,
+          "bytes": 21410
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R02_human_gold_missing",
+      "reviewer_concern": "Main extraction quality cannot be trusted without adjudicated human-gold labels and IAA.",
+      "severity": "critical",
+      "current_status": "open_human_required",
+      "claim_safety": "not_claimable",
+      "current_evidence": "0/100 adjudicated chunks, 0/500 gold items, required claim-gate failures=4.",
+      "remaining_action": "Complete two-annotator labeling and adjudication for at least 100 chunks.; Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items.; Import completed annotator A/B files and recompute IAA.; Score P_cape_kg_actual against adjudicated human gold after gold completion.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+          "role": "human-gold completion state",
+          "required": true,
+          "exists": true,
+          "bytes": 848
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "role": "human-gold metric placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+          "role": "human gate action plan",
+          "required": true,
+          "exists": true,
+          "bytes": 18799
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R03_silver_proxy_overclaim",
+      "reviewer_concern": "Silver/proxy diagnostics may be mistaken for final paper performance.",
+      "severity": "high",
+      "current_status": "mitigated_with_claim_gate",
+      "claim_safety": "diagnostic_only_until_gold",
+      "current_evidence": "Claimable table status=pending_human_gold_and_or_expert_review; pre-human validation=PASS; see pre_human_handoff_validation.md for the current check count.",
+      "remaining_action": "Keep all silver/proxy tables labeled as diagnostics until adjudicated human-gold metrics are recomputed.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "role": "claimable vs diagnostic result table",
+          "required": true,
+          "exists": true,
+          "bytes": 6429
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md",
+          "role": "pre-human validation",
+          "required": true,
+          "exists": true,
+          "bytes": 14535
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "role": "pre-human error analysis with claim scope",
+          "required": true,
+          "exists": true,
+          "bytes": 12148
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R04_method_novelty",
+      "reviewer_concern": "The method may appear too close to existing ontology-guided or LLM-KG extraction pipelines.",
+      "severity": "high",
+      "current_status": "partially_mitigated",
+      "claim_safety": "method_artifacts_claimable_final_gain_pending",
+      "current_evidence": "M1-M11 coverage missing artifacts=0; B3/B4/B6-family baselines, six ablations, and novelty-positioning evidence are present.",
+      "remaining_action": "After human-gold scoring, report whether CQ retrieval, evidence grounding, validators, and standard bridge improve metrics.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+          "role": "method module artifact coverage",
+          "required": true,
+          "exists": true,
+          "bytes": 46695
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "role": "method novelty positioning matrix",
+          "required": true,
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "role": "actual LLM silver diagnostics",
+          "required": true,
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/50_sac_kg_verifier_pruner_baseline_quality_report.md",
+          "role": "SAC-KG-style baseline diagnostics",
+          "required": true,
+          "exists": true,
+          "bytes": 827
+        }
+      ],
+      "evidence_file_count": 4,
+      "present_evidence_file_count": 4,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R05_public_reproducibility",
+      "reviewer_concern": "The private Korean source corpus may not be redistributable, weakening reproducibility.",
+      "severity": "high",
+      "current_status": "mitigated_with_public_safe_release_plan",
+      "claim_safety": "claimable_setup_rights_review_still_required",
+      "current_evidence": "External resources=6; public benchmarks=2; rights-review-required resources=3; public-safe reproducibility rows=67.",
+      "remaining_action": "Do not release raw OCR/source-derived text unless rights are cleared; use public-safe skeleton, synthetic examples, prompts, schemas, and public benchmark adapters.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "role": "data release and ethics statement",
+          "required": true,
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "role": "external resource/license report",
+          "required": true,
+          "exists": true,
+          "bytes": 2807
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "role": "public-safe reproducibility manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+          "role": "public-safe reproducibility manifest JSON",
+          "required": true,
+          "exists": true,
+          "bytes": 36569
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/README.md",
+          "role": "public-safe synthetic examples",
+          "required": true,
+          "exists": true,
+          "bytes": 969
+        }
+      ],
+      "evidence_file_count": 5,
+      "present_evidence_file_count": 5,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": true
+    },
+    {
+      "risk_id": "R06_public_benchmark_generalization",
+      "reviewer_concern": "External generalization evidence may be too thin if only internal Korean documents are evaluated.",
+      "severity": "medium",
+      "current_status": "mitigated_as_auxiliary_evidence",
+      "claim_safety": "auxiliary_claimable_not_main_result",
+      "current_evidence": "PAGED items=100; Text2KG items=200; strong_cross_run=True.",
+      "remaining_action": "Present public benchmark results as auxiliary robustness evidence, not as a substitute for target-corpus human-gold results.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_summary.json",
+          "role": "public benchmark cross-check summary",
+          "required": true,
+          "exists": true,
+          "bytes": 3839
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_crosscheck_report.md",
+          "role": "public benchmark report",
+          "required": true,
+          "exists": true,
+          "bytes": 1379
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/08_public_benchmarks/public_benchmark_manifest.json",
+          "role": "public benchmark manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 17745
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": true
+    },
+    {
+      "risk_id": "R07_mapping_downstream_labels",
+      "reviewer_concern": "NCS/PCF downstream mapping utility is not claimable without expert-reviewed relevance labels.",
+      "severity": "high",
+      "current_status": "open_expert_required",
+      "claim_safety": "not_claimable_until_expert_review",
+      "current_evidence": "complete source groups=0, pending rows=220, pending groups=44.",
+      "remaining_action": "Complete Top-5 mapping expert review and recompute P@K, MRR, nDCG@10, accept rate, and explanation quality.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "role": "mapping review progress report",
+          "required": true,
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "role": "mapping expert metric placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1675
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_next_20_groups.csv",
+          "role": "priority mapping groups",
+          "required": true,
+          "exists": true,
+          "bytes": 4320
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R08_crosswalk_downstream_utility",
+      "reviewer_concern": "Layer2-bridged NCS-PCF crosswalk utility is not claimable without expert-reviewed pair labels.",
+      "severity": "medium",
+      "current_status": "open_expert_required",
+      "claim_safety": "not_claimable_until_crosswalk_expert_review",
+      "current_evidence": "candidate rows=220, source tasks=22, completed rows=0, pending rows=220.",
+      "remaining_action": "Complete NCS-PCF crosswalk expert review and recompute accept rate, Hit@K, P@10, MRR, nDCG@10, utility, and explanation quality.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "role": "crosswalk expert metric placeholder",
+          "required": true,
+          "exists": true,
+          "bytes": 1115
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json",
+          "role": "crosswalk review manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 1538
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_sheet.csv",
+          "role": "crosswalk review sheet",
+          "required": true,
+          "exists": true,
+          "bytes": 130781
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R09_active_review_effort",
+      "reviewer_concern": "Active-review efficiency claims need human timing and correction outcomes.",
+      "severity": "medium",
+      "current_status": "open_human_required",
+      "claim_safety": "not_claimable_until_effort_return",
+      "current_evidence": "human effort status=ready_for_human_effort_collection; reviewed file present=False; pooled rows=204; briefing rows=204; briefing status=review_navigation_only_pending_human_effort.",
+      "remaining_action": "Collect active_review_human_effort.reviewed.csv and refresh efficiency metrics against adjudicated outcomes.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_report.md",
+          "role": "active-review human effort report",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+          "role": "active-review effort briefing",
+          "required": true,
+          "exists": true,
+          "bytes": 15523
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv",
+          "role": "active-review effort briefing CSV",
+          "required": true,
+          "exists": true,
+          "bytes": 98684
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.json",
+          "role": "active-review effort briefing summary",
+          "required": true,
+          "exists": true,
+          "bytes": 1880
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "role": "human effort template",
+          "required": true,
+          "exists": true,
+          "bytes": 47175
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "role": "human effort protocol",
+          "required": true,
+          "exists": true,
+          "bytes": 2911
+        }
+      ],
+      "evidence_file_count": 6,
+      "present_evidence_file_count": 6,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R10_structural_validity",
+      "reviewer_concern": "Procedural KG claims require evidence that schema, gateway, and artifact-flow constraints are valid.",
+      "severity": "medium",
+      "current_status": "mitigated_with_structural_diagnostics",
+      "claim_safety": "diagnostic_only_until_human_gold",
+      "current_evidence": "review checkpoint candidates=45; gateway branch gaps=4; RDF/SHACL export exists=True.",
+      "remaining_action": "Use structural review returns only after human confirmation; recompute structural metrics after final KG changes.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "role": "structural evaluation report",
+          "required": true,
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+          "role": "structural gap worklist",
+          "required": true,
+          "exists": true,
+          "bytes": 8155
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "role": "RDF/SHACL validation report",
+          "required": true,
+          "exists": true,
+          "bytes": 1327
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    },
+    {
+      "risk_id": "R11_llm_reproducibility",
+      "reviewer_concern": "LLM outputs may be brittle because of JSON parsing, prompt drift, or model-run provenance gaps.",
+      "severity": "medium",
+      "current_status": "mitigated_with_strict_json_and_provenance",
+      "claim_safety": "claimable_setup_not_quality_result",
+      "current_evidence": "strict JSON gate=PASS; revalidated recovery gate=PASS; warning conditions=0.",
+      "remaining_action": "Keep prompts, model identifiers, raw/valid outputs, and provenance hashes synchronized after any new LLM run.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+          "role": "strict JSON diagnostics",
+          "required": true,
+          "exists": true,
+          "bytes": 8741
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "role": "provenance manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/provenance_llm_run_index.csv",
+          "role": "LLM run index",
+          "required": true,
+          "exists": true,
+          "bytes": 16241
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": true
+    },
+    {
+      "risk_id": "R12_release_bundle_safety",
+      "reviewer_concern": "Release bundles may accidentally include source text, stale nested bundles, or unsafe review files.",
+      "severity": "medium",
+      "current_status": "mitigated_with_bundle_scan",
+      "claim_safety": "claimable_setup",
+      "current_evidence": "release file count=1704; public-safe file count=383; public-safe risk issues=0.",
+      "remaining_action": "Regenerate release bundle and checksums after any source artifact change.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_manifest.json",
+          "role": "release bundle manifest",
+          "required": true,
+          "exists": true,
+          "bytes": 37341
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "role": "release bundle safety report",
+          "required": true,
+          "exists": true,
+          "bytes": 2110
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+          "role": "release checksum file",
+          "required": true,
+          "exists": true,
+          "bytes": 378
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "role": "public reproducibility manifest included in public-safe skeleton",
+          "required": true,
+          "exists": true,
+          "bytes": 19910
+        }
+      ],
+      "evidence_file_count": 4,
+      "present_evidence_file_count": 4,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": true
+    },
+    {
+      "risk_id": "R13_submission_status_overclaim",
+      "reviewer_concern": "The project may be presented as EACL-ready even though required human gates are still open.",
+      "severity": "critical",
+      "current_status": "open_human_required",
+      "claim_safety": "not_submission_ready",
+      "current_evidence": "claim gate=FAIL; minimum blockers=4; strong/optional blockers=4; RQ final claim ready count=0.",
+      "remaining_action": "Do not mark the submission complete until all minimum human-gold gates and proposed-method human-gold scoring pass.",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+          "role": "completion audit",
+          "required": true,
+          "exists": true,
+          "bytes": 25787
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+          "role": "plan compliance matrix",
+          "required": true,
+          "exists": true,
+          "bytes": 34933
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "role": "claim gate report",
+          "required": true,
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "evidence_file_count": 3,
+      "present_evidence_file_count": 3,
+      "missing_required_evidence_files": [],
+      "paper_claim_allowed_now": false
+    }
+  ]
+}

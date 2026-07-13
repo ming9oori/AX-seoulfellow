@@ -1,0 +1,279 @@
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_00f56b0a1d90bac350fa", "source": "zaije:evidence/xlsx-row-487_A23", "target": "zaije:evidence/xlsx-row-487_X02", "type": "HAS_CONTEXT"}
+{"id": "EDG_018452abee23ba23bbda", "source": "zaije:evidence/xlsx-row-487_A29", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_01b7c930cf2ecc92ee69", "source": "zaije:evidence/xlsx-row-487_A25", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_03e76b44af6294f11fd7", "source": "zaije:evidence/xlsx-row-487_A23", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_04aeb0c313c4e188f213", "source": "zaije:evidence/xlsx-row-487_A08", "target": "zaije:evidence/xlsx-row-487_X05", "type": "HAS_CONTEXT"}
+{"id": "EDG_07ef965c55ba2b469918", "source": "zaije:evidence/xlsx-row-487_A28", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_09806b1707bbc241f42f", "source": "zaije:evidence/xlsx-row-139", "target": "zaije:evidence/xlsx-row-162", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_0a92e55fa43a9242ee0b", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A01", "type": "HAS_ANCHOR"}
+{"id": "EDG_0aa72d56e0a1921a7fee", "source": "CH_fe82ec392562cbf11a08", "target": "SEC_31f302cc3f9ded86a05e", "type": "HAS_SECTION"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_0b5ac278be9334680042", "source": "zaije:evidence/xlsx-row-487_A14", "target": "zaije:evidence/xlsx-row-487_X06", "type": "HAS_CONTEXT"}
+{"id": "EDG_0bd5d428d2567218457a", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A28", "type": "HAS_ANCHOR"}
+{"id": "EDG_1041f13feb8f767fe1ed", "source": "zaije:evidence/xlsx-row-487_A12", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_1066009e20f842a6580e", "source": "zaije:evidence/xlsx-row-487_A09", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_10d7b95902345b000a32", "source": "zaije:evidence/xlsx-row-317_A01", "target": "zaije:evidence/xlsx-row-317_A01_CUE_CONDITION_01", "type": "HAS_MENTION"}
+{"id": "EDG_11597ad3ebeda9b64ad3", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A09", "type": "HAS_ANCHOR"}
+{"id": "EDG_11eb8487fe003ec7347c", "source": "zaije:evidence/xlsx-row-487_A04", "target": "zaije:evidence/xlsx-row-487_A05", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_11fce4c2d266c9373f67", "source": "zaije:evidence/xlsx-row-487_A29", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_13c111b9caa96de7b82f", "source": "zaije:evidence/xlsx-row-487_A15", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_1434c977687be10266d7", "source": "TPL_FIELD_0ecee70511d70a55ea8e", "target": "zaije:evidence/xlsx-row-487_A24", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_15d1fea53c4f4ebc3345", "source": "zaije:evidence/xlsx-row-487_A24", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_1603e6e050439370ee31", "source": "zaije:evidence/xlsx-row-487_A24", "target": "zaije:evidence/xlsx-row-487_A25", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_160f95d9f8036d202d9d", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-757", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_16a7e46b528bb15d094e", "source": "zaije:evidence/xlsx-row-487_A31", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"id": "EDG_17921d525e70c8528aaf", "source": "zaije:evidence/xlsx-row-487_A23", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_18a0f44d5a024cfb2006", "source": "TPL_FIELD_4fabf2cd3cfe32582ae5", "target": "zaije:evidence/xlsx-row-487_A01", "type": "DERIVED_FROM"}
+{"id": "EDG_1b29d436bf559afd7386", "source": "zaije:evidence/xlsx-row-487_A13", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_1b61c7b3d02c75e4e4c0", "source": "zaije:evidence/xlsx-row-487_A10", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_1c7c08d82a2b85cd55a3", "source": "zaije:evidence/xlsx-row-487_A13", "target": "zaije:evidence/xlsx-row-487_X05", "type": "HAS_CONTEXT"}
+{"id": "EDG_1dc166322256131ddf86", "source": "zaije:evidence/xlsx-row-487_A23", "target": "zaije:evidence/xlsx-row-487_A24", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_1e2c105caa6b1062914d", "source": "zaije:evidence/xlsx-row-487_A03", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"id": "EDG_1e4412e3c7256c11d678", "source": "zaije:evidence/xlsx-row-315", "target": "zaije:evidence/xlsx-row-315_A01", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_1e98d583997440a532cb", "source": "zaije:evidence/xlsx-row-487_A31", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_1f7c3e0f35b5f291ff89", "source": "zaije:evidence/xlsx-row-162_A01", "target": "zaije:evidence/xlsx-row-162_A01_ACT_01", "type": "HAS_MENTION"}
+{"id": "EDG_2034596b8149e4840379", "source": "zaije:evidence/xlsx-row-285_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_20a87ac4b0270d2c5b0b", "source": "TPL_FIELD_588867194a6ad99e0304", "target": "zaije:evidence/xlsx-row-487_A31", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_21dbc0106ce5f509fe69", "source": "zaije:evidence/xlsx-row-487_A32", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_22120f5e7e863ed2fc01", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A07", "type": "HAS_ANCHOR"}
+{"id": "EDG_229a12e2b7788f29bbf1", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A12", "type": "HAS_ANCHOR"}
+{"id": "EDG_23fd58da605fe0884384", "source": "zaije:evidence/xlsx-row-487_A24", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_24ee7e1a211a83e53fa8", "source": "zaije:evidence/xlsx-row-487_A01", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_268ff7c10c42e93280b7", "source": "zaije:evidence/xlsx-row-487_A04", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"id": "EDG_26b6a5e2bc6e23c59c0f", "source": "zaije:evidence/xlsx-row-139_A02_ACT_01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_27a02a057d0da83159d1", "source": "zaije:evidence/xlsx-row-487_A32", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"id": "EDG_282da69b37fbffdf2e43", "source": "TPL_FIELD_2ac60ae94df83995eb47", "target": "zaije:evidence/xlsx-row-487_A29", "type": "DERIVED_FROM"}
+{"id": "EDG_2a00f6976c807785b21e", "source": "zaije:evidence/xlsx-row-487_A25", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_2a162bbfe2d8751aad99", "source": "zaije:evidence/xlsx-row-487_A14", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_2a4680e5b2e2071acdc1", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A25", "type": "HAS_ANCHOR"}
+{"id": "EDG_2cec60f12bcd226b2b94", "source": "TPL_FIELD_61296642fcfd50d14cab", "target": "zaije:evidence/xlsx-row-487_A03", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_2e52e0ce9a9f21bc1bd7", "source": "zaije:evidence/xlsx-row-487_A28", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_2ec2e3552140f98b9d3b", "source": "zaije:evidence/xlsx-row-487_A15", "target": "zaije:evidence/xlsx-row-487_A16", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_30a5c698f751d5fa5b6d", "source": "CH_afd9a3d9d29a6ad02087", "target": "SEC_44213c745c32932ab962", "type": "HAS_SECTION"}
+{"id": "EDG_30b229022928745407e6", "source": "zaije:evidence/xlsx-row-757", "target": "zaije:evidence/xlsx-row-757_A01", "type": "HAS_ANCHOR"}
+{"id": "EDG_31f6aa6eacfb2fef427c", "source": "CH_fe82ec392562cbf11a08", "target": "SEC_ad6bd6cc5a9c8be00c5c", "type": "HAS_SECTION"}
+{"id": "EDG_328969015b62481ab1d1", "source": "zaije:evidence/xlsx-row-162_A01_ACT_01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_34020f2ebb55dbbb17e6", "source": "zaije:evidence/xlsx-row-487_A17", "target": "zaije:evidence/xlsx-row-487_X09", "type": "HAS_CONTEXT"}
+{"id": "EDG_34a3b6b2435acc972cfa", "source": "TPL_FIELD_64b710c28aa0c517fabd", "target": "zaije:evidence/xlsx-row-487_A32", "type": "DERIVED_FROM"}
+{"id": "EDG_36e913a7cfce0387f70f", "source": "zaije:evidence/xlsx-row-487_A29", "target": "zaije:evidence/xlsx-row-487_A30", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_37ffc26c9f4896b9c7d0", "source": "zaije:evidence/xlsx-row-487_A21", "target": "zaije:evidence/xlsx-row-487_X06", "type": "HAS_CONTEXT"}
+{"id": "EDG_38258365c621bd894953", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A30", "type": "HAS_ANCHOR"}
+{"id": "EDG_3a1fcfdc896c5ff6c4c4", "source": "zaije:evidence/xlsx-row-487_A17", "target": "zaije:evidence/xlsx-row-487_A18", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_3b6866fec84fcd71eb03", "source": "zaije:evidence/xlsx-row-487_A10", "target": "zaije:evidence/xlsx-row-487_X08", "type": "HAS_CONTEXT"}
+{"id": "EDG_3bf58df783253bcaf07f", "source": "zaije:evidence/xlsx-row-487_A16", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_3eb9c15281fb41323e3c", "source": "zaije:evidence/xlsx-row-487_A28", "target": "zaije:evidence/xlsx-row-487_X10", "type": "HAS_CONTEXT"}
+{"id": "EDG_40d1ca8887dd1c685b36", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A27", "type": "HAS_ANCHOR"}
+{"id": "EDG_416f56ddb8a64246020b", "source": "zaije:evidence/xlsx-row-487_A08", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_440b5786b10888f84e0a", "source": "TPL_FIELD_538e835e3829baff7ef9", "target": "zaije:evidence/xlsx-row-487_A26", "type": "DERIVED_FROM"}
+{"id": "EDG_44c183de56adf38acdfd", "source": "TPL_FIELD_ced4019c2ba898393676", "target": "zaije:evidence/xlsx-row-487_A30", "type": "DERIVED_FROM"}
+{"id": "EDG_46463e7649bf00c1773b", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A04", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_48308857cf7d6fbc9d7d", "source": "zaije:evidence/xlsx-row-487_A28", "target": "zaije:evidence/xlsx-row-487_X06", "type": "HAS_CONTEXT"}
+{"id": "EDG_483bd3643c71c905e231", "source": "TPL_FIELD_83783fc4f099f1b09781", "target": "zaije:evidence/xlsx-row-487_A17", "type": "DERIVED_FROM"}
+{"id": "EDG_497157a3cb8f5843c706", "source": "zaije:evidence/xlsx-row-317", "target": "zaije:evidence/xlsx-row-487", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_498520748c48a2ac0a7e", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A13", "type": "HAS_ANCHOR"}
+{"id": "EDG_49c194fce2992e08bf81", "source": "zaije:evidence/xlsx-row-487_A18", "target": "zaije:evidence/xlsx-row-487_A19", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_4adfecf807daf46b71c2", "source": "zaije:evidence/xlsx-row-487_A22", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_4bd865b50747121d7b2e", "source": "zaije:evidence/xlsx-row-487_A07", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_4c0a0877c64388c4f844", "source": "zaije:evidence/xlsx-row-487_A03", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_4c3a9433ab56047c4b49", "source": "TPL_FIELD_8c67fa1044c1ea449e02", "target": "zaije:evidence/xlsx-row-487_A19", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_4cfe7b971f298b193281", "source": "zaije:evidence/xlsx-row-487_A18", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_4dc8c657ec158768536f", "source": "zaije:evidence/xlsx-row-487_A26", "target": "zaije:evidence/xlsx-row-487_A27", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_4e3957797fdf310a9f25", "source": "zaije:evidence/xlsx-row-487_A25", "target": "zaije:evidence/xlsx-row-487_A26", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_4f6a6474a015e622927b", "source": "zaije:evidence/xlsx-row-316", "target": "zaije:evidence/xlsx-row-317", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_4fa4eaf2059554cd23f2", "source": "zaije:evidence/xlsx-row-317_A01_CUE_CONDITION_01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_4fa9d8b9d30f7ddaf6d0", "source": "zaije:evidence/xlsx-row-317_A01_ACT_01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_5136356bb1b075ae5899", "source": "zaije:evidence/xlsx-row-487_A24", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_51fc0e86c8594324faf0", "source": "zaije:evidence/xlsx-row-487_A02", "target": "zaije:evidence/xlsx-row-487_A03", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_52c6a8afdfaa9ff660b1", "source": "SEC_44213c745c32932ab962", "target": "zaije:evidence/xlsx-row-285", "type": "HAS_EVIDENCE"}
+{"id": "EDG_52d19f705adb9d269a4e", "source": "TPL_FIELD_92437fad4440f2ea207b", "target": "zaije:evidence/xlsx-row-487_A10", "type": "DERIVED_FROM"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_53281b3403e4990fb935", "source": "zaije:evidence/xlsx-row-487_A11", "target": "zaije:evidence/xlsx-row-487_X08", "type": "HAS_CONTEXT"}
+{"id": "EDG_547e33462433372e9af7", "source": "AST_QUAL_24580ea2a87609710603", "target": "zaije:evidence/xlsx-row-317_A01_CUE_CONDITION_01", "type": "HAS_CUE"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_55b93b34c95fd82b7388", "source": "zaije:evidence/xlsx-row-487_A07", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_565ef6ebc868003de064", "source": "zaije:evidence/xlsx-row-315_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_566e7d65afa2b9d26beb", "source": "zaije:evidence/xlsx-row-317_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_56f756512d673f7743ca", "source": "zaije:evidence/xlsx-row-487_A27", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_572d426e9273ac7a2d53", "source": "DOC_ZAIJE_LAYER2", "target": "CH_fe82ec392562cbf11a08", "type": "HAS_CHAPTER"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_5b3ad1cbf452243e4aec", "source": "zaije:evidence/xlsx-row-487_A17", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_5b445bc67f2cf1991af2", "source": "zaije:evidence/xlsx-row-487_A24", "target": "zaije:evidence/xlsx-row-487_X10", "type": "HAS_CONTEXT"}
+{"id": "EDG_5b7c96a02abee006bc08", "source": "zaije:evidence/xlsx-row-487_A33", "target": "zaije:evidence/xlsx-row-487_A34", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_5d3a14635a7e758d2f6a", "source": "zaije:evidence/xlsx-row-487_A07", "target": "zaije:evidence/xlsx-row-487_A08", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_5ecac0bf3a70d090a58e", "source": "TPL_FIELD_dfe6486f1269510c4b29", "target": "zaije:evidence/xlsx-row-487_A05", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_5f0781dbc1a3037cf824", "source": "zaije:evidence/xlsx-row-487_A16", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_61a447325d8e26afbd71", "source": "zaije:evidence/xlsx-row-487_A09", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_61b5c0ed4be1d04c61fb", "source": "zaije:evidence/xlsx-row-487_A06", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_636f22da16cf0d37c679", "source": "zaije:evidence/xlsx-row-487_A28", "target": "zaije:evidence/xlsx-row-487_A29", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_657d4c113ff3f9166ac0", "source": "zaije:evidence/xlsx-row-487_A11", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_662ffb747b735812a3ec", "source": "zaije:evidence/xlsx-row-487_A18", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_67dfb8527bc6fbc256d4", "source": "zaije:evidence/xlsx-row-487_A18", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_6823a62e39de7a8ed1c6", "source": "zaije:evidence/xlsx-row-487_A30", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_69473a7f4abee80fcd5d", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A10", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_6978e5361cb44f22779e", "source": "zaije:evidence/xlsx-row-487_A26", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_6a2358cdf553ab88b8b9", "source": "zaije:evidence/xlsx-row-487_A32", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_6a2dc40c817fe07b2606", "source": "TPL_FIELD_f0a3a036d56de17637ea", "target": "zaije:evidence/xlsx-row-487_A22", "type": "DERIVED_FROM"}
+{"id": "EDG_6b5867719d33ca79de27", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A06", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_6e2d235a2ed057720eb0", "source": "zaije:evidence/xlsx-row-487_A27", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_6e3d35a72d46f3a0f7b0", "source": "zaije:evidence/xlsx-row-487_A11", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_6eb86ed27694a32d62d9", "source": "zaije:evidence/xlsx-row-487_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_6ff1c1fc691fa188bbc7", "source": "zaije:evidence/xlsx-row-162", "target": "zaije:evidence/xlsx-row-285", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_707f4816109fa865cc73", "source": "zaije:evidence/xlsx-row-487_A12", "target": "zaije:evidence/xlsx-row-487_X08", "type": "HAS_CONTEXT"}
+{"id": "EDG_71059aa316c568db597e", "source": "zaije:evidence/xlsx-row-285_A01_ALIAS_01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_7113781bd263126d8928", "source": "AST_QUAL_24580ea2a87609710603", "target": "zaije:evidence/xlsx-row-317_A01", "type": "DERIVED_FROM"}
+{"id": "EDG_72851ff4c17482df9f5b", "source": "zaije:evidence/xlsx-row-316", "target": "zaije:evidence/xlsx-row-316_A01", "type": "HAS_ANCHOR"}
+{"id": "EDG_729eb822005e0707b8d1", "source": "zaije:evidence/xlsx-row-139_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_733badcd478adb818f39", "source": "zaije:evidence/xlsx-row-487_A11", "target": "zaije:evidence/xlsx-row-487_A12", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_7472c707b32deec97602", "source": "ALIAS_d01f50ff7d14c73b6a70", "target": "zaije:evidence/xlsx-row-285_A01", "type": "DERIVED_FROM"}
+{"id": "EDG_74a6402ab5c3d568cc9e", "source": "zaije:evidence/xlsx-row-487_A31", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_74c5c8bf56d429e44061", "source": "zaije:evidence/xlsx-row-487_A05", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_758ba8ff8798e618f3fb", "source": "zaije:evidence/xlsx-row-487_A17", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_759a7d3269cdaa766d83", "source": "zaije:evidence/xlsx-row-139", "target": "zaije:evidence/xlsx-row-139_A02", "type": "HAS_ANCHOR"}
+{"id": "EDG_77b046e726daeee9265b", "source": "zaije:evidence/xlsx-row-487_A16", "target": "zaije:evidence/xlsx-row-487_A17", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_77ee6ffb696d9e082561", "source": "zaije:evidence/xlsx-row-487_A12", "target": "zaije:evidence/xlsx-row-487_A13", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_7a309a7594e6fc19c492", "source": "zaije:evidence/xlsx-row-487_A26", "target": "zaije:evidence/xlsx-row-487_X10", "type": "HAS_CONTEXT"}
+{"id": "EDG_7a3c2d085b1618e8691f", "source": "zaije:evidence/xlsx-row-487_A21", "target": "zaije:evidence/xlsx-row-487_A22", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_7b186be8d69c5d4f5ddd", "source": "zaije:evidence/xlsx-row-487_A10", "target": "zaije:evidence/xlsx-row-487_A11", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_7b9cd02d35d179520584", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A24", "type": "HAS_ANCHOR"}
+{"id": "EDG_7cf62b11dba09304d3c2", "source": "zaije:evidence/xlsx-row-487_A19", "target": "zaije:evidence/xlsx-row-487_A20", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_7d41354815c497c79926", "source": "zaije:evidence/xlsx-row-487_A08", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"id": "EDG_8198878c0d57feaa7d45", "source": "zaije:evidence/xlsx-row-285", "target": "zaije:evidence/xlsx-row-285_A01", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_81a39ffc03c25910e86c", "source": "zaije:evidence/xlsx-row-487_A16", "target": "zaije:evidence/xlsx-row-487_X02", "type": "HAS_CONTEXT"}
+{"id": "EDG_8256dceef2b3808cd958", "source": "zaije:evidence/xlsx-row-487_A22", "target": "zaije:evidence/xlsx-row-487_A23", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_827fb521c03d1a0d5b26", "source": "zaije:evidence/xlsx-row-285", "target": "zaije:evidence/xlsx-row-315", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_82c6a8f2036c4013d731", "source": "zaije:evidence/xlsx-row-487_A02", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_8463bb8d3fd700c4652c", "source": "zaije:evidence/xlsx-row-317", "target": "zaije:evidence/xlsx-row-317_A01", "type": "HAS_ANCHOR"}
+{"id": "EDG_84f8e825f453f58a43c3", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A33", "type": "HAS_ANCHOR"}
+{"id": "EDG_85d63d6900a9e4e1bf7c", "source": "zaije:evidence/xlsx-row-487_A09", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_8726c63f085c74694fcc", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A02", "type": "HAS_ANCHOR"}
+{"id": "EDG_874c7bd7b991ea639518", "source": "zaije:evidence/xlsx-row-487_A19", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_87f1125fc6e2f412ef89", "source": "zaije:evidence/xlsx-row-162", "target": "zaije:evidence/xlsx-row-162_A01", "type": "HAS_ANCHOR"}
+{"id": "EDG_883e3a1425661971fa5d", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A19", "type": "HAS_ANCHOR"}
+{"id": "EDG_897cb91beaae9262262b", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A29", "type": "HAS_ANCHOR"}
+{"id": "EDG_89b5c5a7c7fad9386d76", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A20", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_8e9cafea38650f2a2a87", "source": "zaije:evidence/xlsx-row-487_A06", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"id": "EDG_906ff4d2d5d0f1fc03fe", "source": "zaije:evidence/xlsx-row-487_A27", "target": "zaije:evidence/xlsx-row-487_A28", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_908ec28b080b4e044cfb", "source": "zaije:evidence/xlsx-row-487_A11", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_915104964b334ebe0449", "source": "zaije:evidence/xlsx-row-487_A14", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_919ea2ba55e965dabf78", "source": "zaije:evidence/xlsx-row-315", "target": "zaije:evidence/xlsx-row-316", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_91d738ae3ffce0694ca3", "source": "zaije:evidence/xlsx-row-487_A15", "target": "zaije:evidence/xlsx-row-487_X02", "type": "HAS_CONTEXT"}
+{"id": "EDG_941540b418a64f2e1c82", "source": "CH_afd9a3d9d29a6ad02087", "target": "SEC_985c1de7226a4ad782b3", "type": "HAS_SECTION"}
+{"id": "EDG_955c7eeb022b87b9a13d", "source": "SEC_01733acaef02841450a6", "target": "zaije:evidence/xlsx-row-317", "type": "HAS_EVIDENCE"}
+{"id": "EDG_97c81fc68b01956cb515", "source": "zaije:evidence/xlsx-row-487_A31", "target": "zaije:evidence/xlsx-row-487_A32", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_97d654cd864fcd33d75a", "source": "zaije:evidence/xlsx-row-487_A33", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_9822b46ad198b26fa09b", "source": "zaije:evidence/xlsx-row-487_A30", "target": "zaije:evidence/xlsx-row-487_A31", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_994ee58efe396730129a", "source": "TPL_FIELD_ea2b5fdc36a003633d6d", "target": "zaije:evidence/xlsx-row-487_A06", "type": "DERIVED_FROM"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_99f14414da7221d198ac", "source": "zaije:evidence/xlsx-row-487_A29", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_9b70e70a84dc11599c44", "source": "TPL_FIELD_39d6ac7f329d1d3879eb", "target": "zaije:evidence/xlsx-row-487_A16", "type": "DERIVED_FROM"}
+{"id": "EDG_9c0cd55ddb0a300d4425", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A18", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_9c9ef90c09b4b1a36c3c", "source": "zaije:evidence/xlsx-row-487_A02", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_9e610fd42f56a24ea73b", "source": "zaije:evidence/xlsx-row-487_A07", "target": "zaije:evidence/xlsx-row-487_X07", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_a005dbe8808c59bf7b4b", "source": "zaije:evidence/xlsx-row-487_A22", "target": "zaije:evidence/xlsx-row-487_X02", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_a1c1bd150996cf58f8a2", "source": "zaije:evidence/xlsx-row-487_A30", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"id": "EDG_a23b97d395f8d76f9319", "source": "zaije:evidence/xlsx-row-487_A10", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_a30e2408beebed7c6cdc", "source": "zaije:evidence/xlsx-row-487_A14", "target": "zaije:evidence/xlsx-row-487_X08", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_a30f999a09dbf9970819", "source": "zaije:evidence/xlsx-row-487_A34", "target": "zaije:evidence/xlsx-row-487_X06", "type": "HAS_CONTEXT"}
+{"id": "EDG_a3f3fc50ad24308e0ffd", "source": "TPL_FIELD_014ff31ff16b18fcc302", "target": "zaije:evidence/xlsx-row-487_A23", "type": "DERIVED_FROM"}
+{"id": "EDG_a5ed4f9651e30ead3522", "source": "zaije:evidence/xlsx-row-487_A33", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_a6418144a919a06b3490", "source": "zaije:evidence/xlsx-row-487_A18", "target": "zaije:evidence/xlsx-row-487_X09", "type": "HAS_CONTEXT"}
+{"id": "EDG_a6e266d4b5f884673752", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A15", "type": "HAS_ANCHOR"}
+{"id": "EDG_a79756471392bf0aa8f6", "source": "zaije:evidence/xlsx-row-487_A04", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_a8545187249f2b29a65c", "source": "zaije:evidence/xlsx-row-487_A02", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_a9483890007bd7c48e3f", "source": "TPL_FIELD_5efcfd6c36e94d3ad3c3", "target": "zaije:evidence/xlsx-row-487_A12", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_aa924a53b1407ecd5cb7", "source": "zaije:evidence/xlsx-row-487_A08", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_aaa85741ed2a27e0e302", "source": "zaije:evidence/xlsx-row-757_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_ac3a270702029038cf04", "source": "zaije:evidence/xlsx-row-487_A14", "target": "zaije:evidence/xlsx-row-487_A15", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_acb2ab1dc66c7505a1dc", "source": "zaije:evidence/xlsx-row-487_A29", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_b077ec7e85ed1bc5d5c8", "source": "zaije:evidence/xlsx-row-487_A12", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_b13be5f84d7740d01295", "source": "zaije:evidence/xlsx-row-487_A03", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_b38543c0f41b68012590", "source": "zaije:evidence/xlsx-row-487_A01", "target": "zaije:evidence/xlsx-row-487_A02", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_b52f2225b496e204aeed", "source": "zaije:evidence/xlsx-row-487_A09", "target": "zaije:evidence/xlsx-row-487_X06", "type": "HAS_CONTEXT"}
+{"id": "EDG_b5704b2f28da26c35f4b", "source": "SEC_a262fb41d9e05639bc46", "target": "zaije:evidence/xlsx-row-315", "type": "HAS_EVIDENCE"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_b6151663a4735a0d6f56", "source": "zaije:evidence/xlsx-row-487_A27", "target": "zaije:evidence/xlsx-row-487_X10", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_b639c8dede61cf31b9e0", "source": "zaije:evidence/xlsx-row-487_A13", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_b703aa10f1a94a2012e4", "source": "zaije:evidence/xlsx-row-487_A32", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_b7199e580b14d8f1a504", "source": "SEC_ad6bd6cc5a9c8be00c5c", "target": "zaije:evidence/xlsx-row-757", "type": "HAS_EVIDENCE"}
+{"id": "EDG_b72d903f7f35d7e85684", "source": "zaije:evidence/xlsx-row-487_A20", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_b751b990da5d96f297d5", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A14", "type": "HAS_ANCHOR"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_b7d59730f80417a26734", "source": "zaije:evidence/xlsx-row-487_A34", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_b821ff2d2497124cdeb2", "source": "zaije:evidence/xlsx-row-487_A25", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_b8f07bf2adbf40e0edd7", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A31", "type": "HAS_ANCHOR"}
+{"id": "EDG_ba11efe6ada81a5416cc", "source": "zaije:evidence/xlsx-row-487_A34", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_ba22b02e027bddb221ea", "source": "TPL_FIELD_fac6e1b7d601a963b3bc", "target": "zaije:evidence/xlsx-row-487_A02", "type": "DERIVED_FROM"}
+{"id": "EDG_bbc402bc2817b0238995", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A26", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_bd84642c584dd74ffdd8", "source": "zaije:evidence/xlsx-row-487_A31", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_bdfa2d4b686561f6cf60", "source": "zaije:evidence/xlsx-row-139", "target": "zaije:evidence/xlsx-row-139_A01", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_be9f3dc0e5ca683f979f", "source": "zaije:evidence/xlsx-row-487_A04", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_bf15efc53f7d91d43519", "source": "zaije:evidence/xlsx-row-487_A30", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_c01e5591c72ceaf01cfd", "source": "zaije:evidence/xlsx-row-487_A20", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_c057365d2a0ed0649019", "source": "zaije:evidence/xlsx-row-487_A26", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_c3929236496e0dedfa52", "source": "CH_fe82ec392562cbf11a08", "target": "SEC_a262fb41d9e05639bc46", "type": "HAS_SECTION"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_c448d7a33ef50142d414", "source": "zaije:evidence/xlsx-row-487_A01", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_c581fb096b0ff72a10c0", "source": "SEC_31f302cc3f9ded86a05e", "target": "zaije:evidence/xlsx-row-487", "type": "HAS_EVIDENCE"}
+{"id": "EDG_c59b6d2902f7c97fdec5", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A11", "type": "HAS_ANCHOR"}
+{"id": "EDG_c64564dde3a2856c1f0a", "source": "TPL_FIELD_73104070a83618f69024", "target": "zaije:evidence/xlsx-row-487_A25", "type": "DERIVED_FROM"}
+{"id": "EDG_c6b7be9dc0f0fb60d2c1", "source": "zaije:evidence/xlsx-row-316_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_c6e96a363d495ae80fe8", "source": "zaije:evidence/xlsx-row-162_A01", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_c7968c4c176003b378b3", "source": "zaije:evidence/xlsx-row-487_A22", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_c87f18c69aa870d34680", "source": "zaije:evidence/xlsx-row-487_A17", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_c88a5550a63f3b1badac", "source": "zaije:evidence/xlsx-row-487_A34", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_c93a264193d68304b053", "source": "zaije:evidence/xlsx-row-487_A06", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_c97bd5c5a1ad40cb61e5", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A23", "type": "HAS_ANCHOR"}
+{"id": "EDG_ca5e7f76694751c2e665", "source": "CH_fe82ec392562cbf11a08", "target": "SEC_01733acaef02841450a6", "type": "HAS_SECTION"}
+{"id": "EDG_cad4fa5d7212b76252bc", "source": "zaije:evidence/xlsx-row-487_A20", "target": "zaije:evidence/xlsx-row-487_A21", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_cb04d053d332f442d199", "source": "zaije:evidence/xlsx-row-487_A06", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_cb76d65ba199d81757e4", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A21", "type": "HAS_ANCHOR"}
+{"id": "EDG_cc16d5aa83953fafaa8d", "source": "zaije:evidence/xlsx-row-487_A21", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_cd4b9b79f17500f63d5f", "source": "zaije:evidence/xlsx-row-487_A01", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-285_A01"], "id": "EDG_cfaea6da26816c93533f", "source": "ALIAS_d01f50ff7d14c73b6a70", "target": "CON_5aadba9a7d050a396bc8", "type": "REL_ALIAS_OF"}
+{"id": "EDG_d0063a277503285cea89", "source": "zaije:evidence/xlsx-row-139_A01", "target": "zaije:evidence/xlsx-row-139_A02", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_d06096c65542cd37bd2f", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A16", "type": "HAS_ANCHOR"}
+{"id": "EDG_d13d5cd8097fbeb29d8c", "source": "zaije:evidence/xlsx-row-487_A15", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_d140232036236ed47dac", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A05", "type": "HAS_ANCHOR"}
+{"id": "EDG_d172ae575f565103c74a", "source": "SEC_3dc37aa9bbcf44f07587", "target": "zaije:evidence/xlsx-row-139", "type": "HAS_EVIDENCE"}
+{"id": "EDG_d428fce1b3f9ba594336", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A08", "type": "HAS_ANCHOR"}
+{"id": "EDG_d454a87a2f8335e4aba3", "source": "zaije:evidence/xlsx-row-487_A03", "target": "zaije:evidence/xlsx-row-487_A04", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_d45f7a113f0c8fb7b559", "source": "zaije:evidence/xlsx-row-487_A21", "target": "zaije:evidence/xlsx-row-487_X09", "type": "HAS_CONTEXT"}
+{"id": "EDG_d6c327ab4b0de0401487", "source": "zaije:evidence/xlsx-row-487_A30", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_d701965389b94c13d9a1", "source": "TPL_FIELD_d8dbe9a7cc5b3ee19ae5", "target": "zaije:evidence/xlsx-row-487_A04", "type": "DERIVED_FROM"}
+{"id": "EDG_d71c9f32823ba645334c", "source": "SEC_a262fb41d9e05639bc46", "target": "zaije:evidence/xlsx-row-316", "type": "HAS_EVIDENCE"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_d81c454934b453dbfc6b", "source": "zaije:evidence/xlsx-row-487_A04", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_d88c7f4a2995d2ed751c", "source": "zaije:evidence/xlsx-row-487_A03", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_d913b41071629dbd0895", "source": "zaije:evidence/xlsx-row-487_A07", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_dbc8d9be7fe807690bec", "source": "zaije:evidence/xlsx-row-487_A08", "target": "zaije:evidence/xlsx-row-487_A09", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_dd567de338d23b00d91b", "source": "TPL_FIELD_bffdee465d9efc92d92d", "target": "zaije:evidence/xlsx-row-487_A18", "type": "DERIVED_FROM"}
+{"context_relation": "INHERITS_SUBJECT_FROM", "id": "EDG_dd70c513bbe374810918", "source": "zaije:evidence/xlsx-row-139_A02", "target": "zaije:evidence/xlsx-row-139_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_df4e2adf4152c807fa55", "source": "zaije:evidence/xlsx-row-487_A05", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_e06d84b7493487b40ee3", "source": "zaije:evidence/xlsx-row-487_A33", "target": "zaije:evidence/xlsx-row-487_X05", "type": "HAS_CONTEXT"}
+{"id": "EDG_e07f47fbf5cd211e702b", "source": "zaije:evidence/xlsx-row-487_A32", "target": "zaije:evidence/xlsx-row-487_A33", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_e0b12ead3baccfb827a5", "source": "zaije:evidence/xlsx-row-487_A05", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_e1d073eb2f2801c9a0c8", "source": "DOC_ZAIJE_LAYER2", "target": "CH_afd9a3d9d29a6ad02087", "type": "HAS_CHAPTER"}
+{"id": "EDG_e70980173037b12f28ff", "source": "zaije:evidence/xlsx-row-487_A05", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_e86324a22f963f47bf4a", "source": "TPL_FIELD_98b4da75360bb9c71909", "target": "zaije:evidence/xlsx-row-487_A15", "type": "DERIVED_FROM"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_e9d3376e12cca470851c", "source": "zaije:evidence/xlsx-row-487_A27", "target": "zaije:evidence/xlsx-row-487_X05", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_eadb9bbd8497da585ded", "source": "zaije:evidence/xlsx-row-487_A25", "target": "zaije:evidence/xlsx-row-487_X10", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_eba2a43b1a4626b0af0f", "source": "zaije:evidence/xlsx-row-487_A10", "target": "zaije:evidence/xlsx-row-487_X03", "type": "HAS_CONTEXT"}
+{"id": "EDG_ebdb73a12c6e4a01cf32", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A32", "type": "HAS_ANCHOR"}
+{"id": "EDG_ed30db24919606e7e11d", "source": "zaije:evidence/xlsx-row-487_A09", "target": "zaije:evidence/xlsx-row-487_A10", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_ed653b24f389358d12d9", "source": "zaije:evidence/xlsx-row-487_A19", "target": "zaije:evidence/xlsx-row-487_X09", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_edf1a546b537459807a9", "source": "zaije:evidence/xlsx-row-487_A20", "target": "zaije:evidence/xlsx-row-487_X05", "type": "HAS_CONTEXT"}
+{"id": "EDG_efb1f7d37f8df8bffd13", "source": "zaije:evidence/xlsx-row-487_A26", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_f1e5017f53c49bd81dd7", "source": "zaije:evidence/xlsx-row-487_A20", "target": "zaije:evidence/xlsx-row-487_X09", "type": "HAS_CONTEXT"}
+{"id": "EDG_f2d704d9f68590bbf6fe", "source": "CH_afd9a3d9d29a6ad02087", "target": "SEC_3dc37aa9bbcf44f07587", "type": "HAS_SECTION"}
+{"id": "EDG_f2e191026b1a671e559d", "source": "zaije:evidence/xlsx-row-487_A05", "target": "zaije:evidence/xlsx-row-487_A06", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_f307c5493eab7599ef70", "source": "zaije:evidence/xlsx-row-487_A06", "target": "zaije:evidence/xlsx-row-487_A07", "type": "PRECEDES_IN_DOCUMENT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_f3cdf4982d118272ef14", "source": "zaije:evidence/xlsx-row-487_A33", "target": "zaije:evidence/xlsx-row-487_X11", "type": "HAS_CONTEXT"}
+{"id": "EDG_f3e4e7f018e5aea879b4", "source": "zaije:evidence/xlsx-row-317_A01", "target": "zaije:evidence/xlsx-row-317_A01_ACT_01", "type": "HAS_MENTION"}
+{"id": "EDG_f54348f55a72958bec4b", "source": "zaije:evidence/xlsx-row-139_A02", "target": "RUN_R4_B1_zaije_r4_ceoc_20260712_v1", "type": "GENERATED_BY"}
+{"id": "EDG_f56a98b7a735c84b0cbd", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A34", "type": "HAS_ANCHOR"}
+{"id": "EDG_f593731fa089b133abf5", "source": "TPL_FIELD_7f0146026c6cb913135e", "target": "zaije:evidence/xlsx-row-487_A07", "type": "DERIVED_FROM"}
+{"id": "EDG_f5da60afa38f579f0163", "source": "zaije:evidence/xlsx-row-487_A13", "target": "zaije:evidence/xlsx-row-487_A14", "type": "PRECEDES_IN_DOCUMENT"}
+{"id": "EDG_f5e7f47362669a820ba8", "source": "zaije:evidence/xlsx-row-285_A01", "target": "zaije:evidence/xlsx-row-285_A01_ALIAS_01", "type": "HAS_MENTION"}
+{"id": "EDG_f7344210c54b7cecb8d8", "source": "zaije:evidence/xlsx-row-139_A02", "target": "zaije:evidence/xlsx-row-139_A02_ACT_01", "type": "HAS_MENTION"}
+{"id": "EDG_f8e26f7d125ccc92a0f6", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A03", "type": "HAS_ANCHOR"}
+{"id": "EDG_f92870b04244e5037dcc", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A22", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_f9dc844ea04bc876b4c2", "source": "zaije:evidence/xlsx-row-487_A21", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_fa710778459fa46d69e6", "source": "zaije:evidence/xlsx-row-487", "target": "zaije:evidence/xlsx-row-487_A17", "type": "HAS_ANCHOR"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_fa8cfe4cfa98381c8029", "source": "zaije:evidence/xlsx-row-487_A19", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_fd7902c39aa09de99932", "source": "zaije:evidence/xlsx-row-487_A12", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"id": "EDG_fe5d7fd6d1c903252bcd", "source": "SEC_985c1de7226a4ad782b3", "target": "zaije:evidence/xlsx-row-162", "type": "HAS_EVIDENCE"}
+{"context_relation": "HAS_COLUMN_HEADER", "id": "EDG_fe653df56656741830e3", "source": "zaije:evidence/xlsx-row-487_A19", "target": "zaije:evidence/xlsx-row-487_X04", "type": "HAS_CONTEXT"}
+{"context_relation": "HAS_ROW_HEADER", "id": "EDG_ff0e69f85bfd538b2360", "source": "zaije:evidence/xlsx-row-487_A13", "target": "zaije:evidence/xlsx-row-487_X08", "type": "HAS_CONTEXT"}
+{"context_relation": "INHERITS_TABLE_CAPTION", "id": "EDG_ff4ab0aaeb6b3dfb16f4", "source": "zaije:evidence/xlsx-row-487_A02", "target": "zaije:evidence/xlsx-row-487_X01", "type": "HAS_CONTEXT"}
+{"id": "EDG_ffbecc8d464955e6d7fc", "source": "TPL_FIELD_fd06295cebcb23895c00", "target": "zaije:evidence/xlsx-row-487_A11", "type": "DERIVED_FROM"}

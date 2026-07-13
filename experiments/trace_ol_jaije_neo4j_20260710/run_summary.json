@@ -1,0 +1,30 @@
+{
+  "counts": {
+    "accepted_claims": 43,
+    "accepted_direct_relations": 38,
+    "actual_llm_calls": 0,
+    "claim_candidates": 609,
+    "cq_passed": 12,
+    "cq_total": 12,
+    "distilled_rules": 0,
+    "evidence_spans": 1552,
+    "formulas": 1,
+    "graph_nodes": 4975,
+    "graph_relationships": 7283,
+    "llm_gate_queue": 30,
+    "missing_context_original": 0,
+    "needs_review_claims": 526,
+    "regression_passed": 6,
+    "regression_total": 6,
+    "rejected_claims": 40,
+    "source_blocks": 1366,
+    "table_cells": 892,
+    "tables": 56,
+    "term_mentions": 117
+  },
+  "full_design_status": "BLOCKED_EXTERNAL_AND_BASELINE_DRIFT",
+  "input_hash_matches_design": false,
+  "output_dir": "/home/minjoo/AX_서울펠로우/experiments/trace_ol_jaije_neo4j_20260710",
+  "run_id": "run:20260710T000000Z:P2_OFFLINE:a9482ce",
+  "static_validation_status": "PASS"
+}

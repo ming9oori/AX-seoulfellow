@@ -1,0 +1,1001 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.257649+00:00",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "overall_completion_status": "not_complete_pending_human_gold_iaa_adjudication_and_expert_review",
+  "completion_decision": {
+    "goal_complete": false,
+    "reason": "계획서의 최소 제출 요건 중 human-gold, IAA, adjudication, proposed human-gold scoring이 아직 완료되지 않았습니다."
+  },
+  "summary": {
+    "submission_claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "claim_gate_optional_failure_count": 2,
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "pre_human_validation_status_counts": {
+      "PASS": 91,
+      "WARN": 1
+    },
+    "method_module_claim_status": "all_m1_m11_artifacts_present_human_claims_pending",
+    "missing_method_artifacts": 0,
+    "minimum_paper_gate_return_files": 11,
+    "minimum_paper_gate_return_files_present": 0,
+    "minimum_paper_gate_return_files_missing": 11,
+    "optional_strong_return_files": 3,
+    "optional_strong_return_files_present": 0,
+    "optional_strong_return_files_missing": 3,
+    "tracked_human_return_files": 14,
+    "tracked_human_return_files_present": 0,
+    "tracked_human_return_files_missing": 14,
+    "required_human_return_files": 14,
+    "present_human_return_files": 0,
+    "master_optional_claim_return_files": 3,
+    "master_optional_claim_return_files_present": 0,
+    "optional_structural_return_files": 2,
+    "optional_structural_return_files_present": 0,
+    "master_required_claim_return_files": 14,
+    "master_required_claim_return_files_present": 0,
+    "master_return_files": 16,
+    "master_return_files_present": 0,
+    "optional_structural_return_files_missing": 2,
+    "master_return_files_missing": 16,
+    "adjudicated_chunks": 0,
+    "gold_item_count": 0,
+    "mapping_completed_rows": 0,
+    "mapping_pending_rows": 220,
+    "optional_all_available_chunks": 214,
+    "optional_remaining_chunks": 94,
+    "strong_300_chunk_gap": 86,
+    "strong_resegmented_package": "strong_resegmented_342_max18",
+    "strong_resegmented_chunks": 342,
+    "strong_resegmented_max_sentences": 18,
+    "strong_300_chunk_gap_after_resegmentation": 0,
+    "strong_resegmented_claim_status": "ready_pending_human_review",
+    "priority_100_selected_chunks": 100,
+    "priority_100_candidate_edge_coverage": 0.954735,
+    "priority_100_active_review_chunk_coverage": 0.967033,
+    "priority_100_high_impact_chunk_coverage": 1.0,
+    "priority_100_candidate_edges": 1371,
+    "full_120_candidate_edges": 1436,
+    "gold_sampling_claim_status": "gold_sampling_coverage_ready_pending_human_review"
+  },
+  "minimum_accept_items": [
+    {
+      "id": "min.gold_chunks",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "100+ adjudicated gold chunks",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "id": "min.gold_items",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "id": "min.iaa",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "id": "min.gold_sampling_ready",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Priority-100 gold subset sampling ready",
+      "next_step": "No additional automatic step required; priority-100 sampling covers 1371/1436 full-120 candidate edges (0.9547), active-review coverage=0.9670, high-impact coverage=1.0000. Human annotation/adjudication still required."
+    },
+    {
+      "id": "min.baselines",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "B0/B1/B2 actual LLM baselines completed",
+      "next_step": "No additional automatic step required; keep baseline artifacts synchronized."
+    },
+    {
+      "id": "min.proposed",
+      "category": "minimum_accept",
+      "status": "partial",
+      "claimable": "no",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    },
+    {
+      "id": "min.ablations",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "3+ actual ablations completed",
+      "next_step": "No additional automatic step required; ablation coverage satisfies the minimum gate."
+    },
+    {
+      "id": "min.error_analysis",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Structured error analysis table and taxonomy",
+      "next_step": "No additional automatic step required; update only if new diagnostics change."
+    },
+    {
+      "id": "min.public_subset",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Public benchmark or public subset experiment",
+      "next_step": "No additional automatic step required; public subset evidence is present."
+    },
+    {
+      "id": "min.release_plan",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Code, prompt, schema, and reproducibility release package",
+      "next_step": "No additional automatic step required; regenerate only after source artifacts change."
+    },
+    {
+      "id": "min.limitations",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Limitations section",
+      "next_step": "No additional automatic step required; keep limitations synchronized with future human results."
+    },
+    {
+      "id": "min.public_synthetic_examples",
+      "category": "minimum_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Public-safe synthetic examples for reproducibility mitigation",
+      "next_step": "No additional automatic step required; synthetic public-safe examples are ready."
+    }
+  ],
+  "strong_accept_items": [
+    {
+      "id": "strong.gold_chunks",
+      "category": "strong_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "300-500 adjudicated gold chunks",
+      "next_step": "Use `strong_resegmented_342_max18` for optional 300+ two-annotator review and adjudication; do not claim 300+ adjudicated chunks until reviewed returns are imported."
+    },
+    {
+      "id": "strong.gold_items",
+      "category": "strong_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "next_step": "Complete optional 300+ two-annotator review and adjudication until at least 1,500 gold edge/evidence items are available."
+    },
+    {
+      "id": "strong.public_cross",
+      "category": "strong_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "PAGED/Text2KGBench cross experiment",
+      "next_step": "No additional automatic step required; cross-check includes PAGED >= 100 and Text2KG >= 200 in a single run."
+    },
+    {
+      "id": "strong.edc_taxonomy_baselines",
+      "category": "strong_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "EDC/SAC-KG/Taxonomy-RAG family baselines or reproductions",
+      "next_step": "No additional automatic step required; B3/B4/B6 family baseline artifacts are present."
+    },
+    {
+      "id": "strong.mapping_downstream",
+      "category": "strong_accept",
+      "status": "partial",
+      "claimable": "no",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "next_step": "Complete expert review for mapping candidates and crosswalk candidates before making P@K/MRR/nDCG@10, explanation-quality, accept-rate, or utility claims."
+    },
+    {
+      "id": "strong.active_review",
+      "category": "strong_accept",
+      "status": "partial",
+      "claimable": "no",
+      "requirement": "Active review efficiency evaluation",
+      "next_step": "Collect reviewed active-review human-effort CSV and validate efficiency against human adjudication outcomes."
+    },
+    {
+      "id": "strong.visualization",
+      "category": "strong_accept",
+      "status": "pass",
+      "claimable": "yes",
+      "requirement": "Visualization/demo provided",
+      "next_step": "No additional automatic step required; keep the viewer synchronized with future graph updates."
+    }
+  ],
+  "method_items": [
+    {
+      "id": "method.m1_m11",
+      "category": "method_modules",
+      "status": "partial",
+      "claimable": "yes",
+      "requirement": "CAPE-KG M1-M11 modules represented by executable artifacts",
+      "next_step": "All executable module artifacts are present; human-review and human-gold scoring evidence remains required for final paper claims."
+    }
+  ],
+  "claim_gates": [
+    {
+      "gate": "data.eval_chunks",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "120 chunks in experiments/cape_kg_eacl_20260627/01_data/evaluation_chunks.jsonl"
+    },
+    {
+      "gate": "gold.completed_chunks",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "0 completed chunks, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate": "gold.item_count",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "0 items, validation_errors=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json"
+    },
+    {
+      "gate": "gold.iaa",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "max_completed_pair_chunks=0, summaries=2"
+    },
+    {
+      "gate": "llm.baselines",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": {
+        "B0_plain_llm": 120,
+        "B1_predicate_constrained": 120,
+        "B2_current_project": 120
+      }
+    },
+    {
+      "gate": "llm.proposed_generation",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": {
+        "P_cape_kg_actual": 120
+      }
+    },
+    {
+      "gate": "llm.proposed_human_gold_score",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "human_gold_scored_conditions=[]"
+    },
+    {
+      "gate": "llm.ablations",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "6 full ablations: ['P_minus_CQ', 'P_minus_Evidence', 'P_minus_Procedural_schema', 'P_minus_Schema_retrieval', 'P_minus_Standard_bridge', 'P_minus_Validator']"
+    },
+    {
+      "gate": "llm.revalidated_output_recovery",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "all full conditions <= 5% unrepaired after conservative partial-JSON recovery"
+    },
+    {
+      "gate": "llm.strict_json_rate",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "all full conditions <= 50% strict parse/generation errors"
+    },
+    {
+      "gate": "external.public_subset",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "PAGED items=100, Text2KG items=200, summaries=4"
+    },
+    {
+      "gate": "mapping.expert_review",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "complete_source_groups=0, pending_rows=220, file=experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json, progress_file=experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json, progress_pending_groups=44"
+    },
+    {
+      "gate": "crosswalk.expert_review",
+      "status": "FAIL",
+      "requirement": null,
+      "evidence": "completed_rows=0, pending_rows=220, complete_source_groups=0, file=experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json, manifest_file=experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json, candidate_rows=220"
+    },
+    {
+      "gate": "analysis.error_analysis",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": {
+        "markdown": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        "json": {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.json",
+          "exists": true,
+          "bytes": 34951
+        },
+        "required_sections": [
+          "## Claim Scope",
+          "## Actual LLM Silver/Proxy Diagnostics",
+          "## Proxy Scaffold Error Summary",
+          "## Error Taxonomy",
+          "## Human-Gold Follow-Up"
+        ],
+        "missing_sections": [],
+        "taxonomy_family_count": 8,
+        "ready_for_minimum_accept": true,
+        "claim_scope": "silver_proxy_diagnostic_not_human_gold"
+      }
+    },
+    {
+      "gate": "release.artifacts",
+      "status": "PASS",
+      "requirement": null,
+      "evidence": "all required release files exist"
+    }
+  ],
+  "blocking_items": [
+    {
+      "id": "min.gold_chunks",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "100+ adjudicated gold chunks",
+      "next_step": "Complete two-annotator labeling and adjudication for at least 100 chunks."
+    },
+    {
+      "id": "min.gold_items",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "next_step": "Adjudicate enough nodes, edges, and evidence anchors to reach 500 gold items."
+    },
+    {
+      "id": "min.iaa",
+      "category": "minimum_accept",
+      "status": "pending_human",
+      "claimable": "no",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "next_step": "Import completed annotator A/B files and recompute IAA."
+    },
+    {
+      "id": "min.proposed",
+      "category": "minimum_accept",
+      "status": "partial",
+      "claimable": "no",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "next_step": "Score P_cape_kg_actual against adjudicated human gold after gold completion."
+    }
+  ],
+  "human_return_status": {
+    "annotation_expected_files": 10,
+    "annotation_present_files": 0,
+    "annotation_valid_files": 0,
+    "adjudication_present": false,
+    "mapping_present": false,
+    "mapping_expected_priority_groups": 20,
+    "crosswalk_present": false,
+    "crosswalk_expected_source_tasks": 22,
+    "crosswalk_expected_rows": 220,
+    "active_review_effort_present": false,
+    "active_review_effort_expected_rows": 204,
+    "optional_structural_return_files": 2,
+    "optional_structural_return_files_present": 0,
+    "master_return_files": 16,
+    "master_return_files_present": 0
+  },
+  "evidence_files": {
+    "submission_readiness_audit": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.md",
+      "exists": true,
+      "bytes": 6172
+    },
+    "arr_submission_policy_checklist": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.md",
+      "exists": true,
+      "bytes": 12933
+    },
+    "arr_submission_policy_checklist_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/arr_submission_policy_checklist.json",
+      "exists": true,
+      "bytes": 13239
+    },
+    "anonymized_submission_prep": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.md",
+      "exists": true,
+      "bytes": 17046
+    },
+    "anonymized_submission_prep_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_prep.json",
+      "exists": true,
+      "bytes": 85790
+    },
+    "anonymized_submission_risk_scan": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/anonymized_submission_risk_scan.csv",
+      "exists": true,
+      "bytes": 57075
+    },
+    "paper_readiness_checklist_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.json",
+      "exists": true,
+      "bytes": 3104
+    },
+    "paper_readiness_checklist_md": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_readiness_checklist.md",
+      "exists": true,
+      "bytes": 3974
+    },
+    "claim_gate_report": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+      "exists": true,
+      "bytes": 4370
+    },
+    "human_gate_action_plan": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+      "exists": true,
+      "bytes": 18799
+    },
+    "annotation_batch_review_preview": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.md",
+      "exists": true,
+      "bytes": 2121
+    },
+    "annotation_batch_review_preview_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_review_preview_summary.json",
+      "exists": true,
+      "bytes": 4684
+    },
+    "gold_sampling_coverage_report": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.md",
+      "exists": true,
+      "bytes": 4889
+    },
+    "gold_sampling_coverage_report_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/gold_sampling_coverage_report.json",
+      "exists": true,
+      "bytes": 67903
+    },
+    "gold_sampling_coverage_by_chapter": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_coverage_by_chapter.csv",
+      "exists": true,
+      "bytes": 357
+    },
+    "gold_sampling_priority100_selected_chunks": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/gold_sampling_priority100_selected_chunks.csv",
+      "exists": true,
+      "bytes": 12535
+    },
+    "strong_resegmented_review_preview": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.md",
+      "exists": true,
+      "bytes": 1370
+    },
+    "strong_resegmented_review_preview_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json",
+      "exists": true,
+      "bytes": 2043
+    },
+    "human_review_master_checklist": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+      "exists": true,
+      "bytes": 15446
+    },
+    "human_review_first_batch_execution_card": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md",
+      "exists": true,
+      "bytes": 5593
+    },
+    "human_review_first_batch_execution_card_json": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card.json",
+      "exists": true,
+      "bytes": 10518
+    },
+    "human_review_role_quickstart": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards_ko.md",
+      "exists": true,
+      "bytes": 19591
+    },
+    "human_review_role_quickstart_json": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.json",
+      "exists": true,
+      "bytes": 28002
+    },
+    "human_review_role_quickstart_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.csv",
+      "exists": true,
+      "bytes": 4609
+    },
+    "human_review_status_dashboard": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+      "exists": true,
+      "bytes": 12146
+    },
+    "human_review_status_dashboard_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.json",
+      "exists": true,
+      "bytes": 36382
+    },
+    "human_review_launch_checklist": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+      "exists": true,
+      "bytes": 12049
+    },
+    "human_review_launch_checklist_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.json",
+      "exists": true,
+      "bytes": 26208
+    },
+    "human_review_packet_integrity": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.md",
+      "exists": true,
+      "bytes": 2505
+    },
+    "human_review_packet_integrity_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json",
+      "exists": true,
+      "bytes": 14261
+    },
+    "human_review_packet_integrity_issues": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_packet_integrity_issues.csv",
+      "exists": true,
+      "bytes": 53
+    },
+    "human_review_status_next_actions": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_status_next_actions.csv",
+      "exists": true,
+      "bytes": 3578
+    },
+    "human_review_master_return_files": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+      "exists": true,
+      "bytes": 8192
+    },
+    "human_review_minimum_gate_launch_tasks": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_minimum_gate_launch_tasks.csv",
+      "exists": true,
+      "bytes": 8698
+    },
+    "active_review_human_effort_briefing": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+      "exists": true,
+      "bytes": 15523
+    },
+    "active_review_human_effort_briefing_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.json",
+      "exists": true,
+      "bytes": 1880
+    },
+    "active_review_human_effort_briefing_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_briefing.csv",
+      "exists": true,
+      "bytes": 98684
+    },
+    "mapping_review_group_briefing": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_group_briefing.md",
+      "exists": true,
+      "bytes": 29653
+    },
+    "mapping_review_group_briefing_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_group_briefing.json",
+      "exists": true,
+      "bytes": 119714
+    },
+    "mapping_review_group_briefing_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/mapping_review_group_briefing_top20.csv",
+      "exists": true,
+      "bytes": 56828
+    },
+    "human_review_return_preflight": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.md",
+      "exists": true,
+      "bytes": 2259
+    },
+    "strong_review_return_preflight": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.md",
+      "exists": true,
+      "bytes": 2116
+    },
+    "strong_return_apply_last_run": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_last_run.md",
+      "exists": true,
+      "bytes": 1429
+    },
+    "strong_return_apply_last_run_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_last_run.json",
+      "exists": true,
+      "bytes": 1539
+    },
+    "strong_return_apply_refusal_last_run": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_refusal_last_run.md",
+      "exists": true,
+      "bytes": 877
+    },
+    "strong_return_apply_refusal_last_run_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_return_apply_refusal_last_run.json",
+      "exists": true,
+      "bytes": 891
+    },
+    "pre_human_validation": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md",
+      "exists": true,
+      "bytes": 14535
+    },
+    "provenance_manifest": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "exists": true,
+      "bytes": 55803
+    },
+    "provenance_prov_o": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "exists": true,
+      "bytes": 183362
+    },
+    "provenance_prov_o_report": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o_report.md",
+      "exists": true,
+      "bytes": 1486
+    },
+    "provenance_llm_run_index": {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/provenance_llm_run_index.csv",
+      "exists": true,
+      "bytes": 16241
+    },
+    "public_reproducibility_manifest": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+      "exists": true,
+      "bytes": 19910
+    },
+    "public_reproducibility_manifest_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.json",
+      "exists": true,
+      "bytes": 36569
+    },
+    "public_reproducibility_manifest_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.csv",
+      "exists": true,
+      "bytes": 17173
+    },
+    "responsible_nlp_checklist_prep": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.md",
+      "exists": true,
+      "bytes": 14584
+    },
+    "responsible_nlp_checklist_prep_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_prep.json",
+      "exists": true,
+      "bytes": 17320
+    },
+    "responsible_nlp_checklist_items_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/responsible_nlp_checklist_items.csv",
+      "exists": true,
+      "bytes": 8934
+    },
+    "experiment_reproduction_card": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.md",
+      "exists": true,
+      "bytes": 13855
+    },
+    "experiment_reproduction_card_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_card.json",
+      "exists": true,
+      "bytes": 25386
+    },
+    "experiment_reproduction_conditions_csv": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/experiment_reproduction_conditions.csv",
+      "exists": true,
+      "bytes": 6136
+    },
+    "claim_language_guardrails": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+      "exists": true,
+      "bytes": 19281
+    },
+    "claim_language_guardrails_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.json",
+      "exists": true,
+      "bytes": 24674
+    },
+    "reviewer_response_prep": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.md",
+      "exists": true,
+      "bytes": 14814
+    },
+    "reviewer_response_prep_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.json",
+      "exists": true,
+      "bytes": 16864
+    },
+    "submission_timeline_action_board": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+      "exists": true,
+      "bytes": 6133
+    },
+    "submission_timeline_action_board_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.json",
+      "exists": true,
+      "bytes": 20171
+    },
+    "claimable_main_table": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+      "exists": true,
+      "bytes": 6429
+    },
+    "reviewer_risk_register": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+      "exists": true,
+      "bytes": 17456
+    },
+    "reviewer_risk_register_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.json",
+      "exists": true,
+      "bytes": 23051
+    },
+    "method_novelty_positioning": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+      "exists": true,
+      "bytes": 10144
+    },
+    "method_novelty_positioning_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.json",
+      "exists": true,
+      "bytes": 12832
+    },
+    "qwen3_model_scaling_report": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.md",
+      "exists": true,
+      "bytes": 4752
+    },
+    "qwen3_model_scaling_report_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/qwen3_model_scaling_report.json",
+      "exists": true,
+      "bytes": 11209
+    },
+    "paper_tables": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "exists": true,
+      "bytes": 14924
+    },
+    "paper_table_blueprint": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md",
+      "exists": true,
+      "bytes": 12030
+    },
+    "paper_table_blueprint_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.json",
+      "exists": true,
+      "bytes": 14900
+    },
+    "paper_section_source_map": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md",
+      "exists": true,
+      "bytes": 9141
+    },
+    "paper_section_source_map_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.json",
+      "exists": true,
+      "bytes": 20915
+    },
+    "eacl_submission_package_manifest": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md",
+      "exists": true,
+      "bytes": 14120
+    },
+    "eacl_submission_package_manifest_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.json",
+      "exists": true,
+      "bytes": 27348
+    },
+    "post_human_scoring_readiness": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+      "exists": true,
+      "bytes": 7034
+    },
+    "post_human_scoring_readiness_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.json",
+      "exists": true,
+      "bytes": 41215
+    },
+    "eacl_paper_draft": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "exists": true,
+      "bytes": 21410
+    },
+    "current_reports_index": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/README_current_reports_ko.md",
+      "exists": true,
+      "bytes": 13075
+    },
+    "structural_evaluation": {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+      "exists": true,
+      "bytes": 2087
+    },
+    "rdf_shacl_export": {
+      "path": "outputs/12_rdf/cape_kg_layer2.ttl",
+      "exists": true,
+      "bytes": 870167
+    },
+    "rdf_shacl_validation": {
+      "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+      "exists": true,
+      "bytes": 1327
+    },
+    "structural_gap_worklist": {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_gap_worklist_report.md",
+      "exists": true,
+      "bytes": 8155
+    },
+    "structural_review_action_plan": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+      "exists": true,
+      "bytes": 3565
+    },
+    "structural_review_optional_returns": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_optional_returns.csv",
+      "exists": true,
+      "bytes": 1019
+    },
+    "structural_review_return_preflight": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.md",
+      "exists": true,
+      "bytes": 1088
+    },
+    "structural_review_application_plan": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_application_plan.md",
+      "exists": true,
+      "bytes": 2212
+    },
+    "structural_review_application_actions": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_application_actions.csv",
+      "exists": true,
+      "bytes": 189
+    },
+    "professor_presentation": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_presentation_revised_current_20260628_ko.md",
+      "exists": true,
+      "bytes": 40745
+    },
+    "professor_slide_contents_current": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_slide_contents_current_20260628_ko.md",
+      "exists": true,
+      "bytes": 61204
+    },
+    "professor_core_essentials_prompt_cq_node_edge_separate": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_essentials_prompt_cq_node_edge_separate_20260629_ko.md",
+      "exists": true,
+      "bytes": 23487
+    },
+    "professor_core_essentials_separate_from_slides": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_essentials_separate_from_slides_20260629_ko.md",
+      "exists": true,
+      "bytes": 20370
+    },
+    "professor_core_summary_separate_from_slides_sync4": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_separate_from_slides_sync4_20260629_ko.md",
+      "exists": true,
+      "bytes": 16905
+    },
+    "professor_key_summary_separate_from_slides": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_key_summary_separate_from_slides_20260629_ko.md",
+      "exists": true,
+      "bytes": 21842
+    },
+    "professor_core_contents_separate": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_contents_separate_20260629_ko.md",
+      "exists": true,
+      "bytes": 23857
+    },
+    "professor_key_content_only_prompt_cq_node_edge": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_key_content_only_prompt_cq_node_edge_20260629_ko.md",
+      "exists": true,
+      "bytes": 19149
+    },
+    "professor_core_methodology_prompt_node_edge_summary": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_methodology_prompt_node_edge_summary_20260629_ko.md",
+      "exists": true,
+      "bytes": 28098
+    },
+    "professor_core_summary_current_20260629": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260629_ko.md",
+      "exists": true,
+      "bytes": 17526
+    },
+    "professor_core_summary_current": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260628_ko.md",
+      "exists": true,
+      "bytes": 20172
+    },
+    "professor_core_briefing_prompt_cq_node_edge_current": {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_briefing_prompt_cq_node_edge_current_20260628_ko.md",
+      "exists": true,
+      "bytes": 22956
+    },
+    "prompt_node_edge_traceability": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.md",
+      "exists": true,
+      "bytes": 13157
+    },
+    "prompt_node_edge_traceability_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/prompt_node_edge_traceability.json",
+      "exists": true,
+      "bytes": 24271
+    },
+    "evidence_graph_projection_report": {
+      "path": "outputs/13_evidence_graph/evidence_graph_projection_report.md",
+      "exists": true,
+      "bytes": 1638
+    },
+    "evidence_graph_projection_summary": {
+      "path": "outputs/13_evidence_graph/evidence_graph_projection_summary.json",
+      "exists": true,
+      "bytes": 1603
+    },
+    "neo4j_evidence_query_pack": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.md",
+      "exists": true,
+      "bytes": 8410
+    },
+    "neo4j_evidence_query_pack_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/neo4j_evidence_query_pack.json",
+      "exists": true,
+      "bytes": 10917
+    },
+    "neo4j_evidence_queries_cypher": {
+      "path": "outputs/11_neo4j_import_flat/neo4j_evidence_queries.cypher",
+      "exists": true,
+      "bytes": 4954
+    },
+    "annotation_expansion_report": {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_expansion_report.md",
+      "exists": true,
+      "bytes": 2513
+    },
+    "latest_release_bundle_index": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+      "exists": true,
+      "bytes": 2061
+    },
+    "latest_release_bundle_index_json": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.json",
+      "exists": true,
+      "bytes": 5114
+    },
+    "release_checksums": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+      "exists": true,
+      "bytes": 378
+    },
+    "handoff_checksums": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+      "exists": true,
+      "bytes": 1587
+    }
+  },
+  "next_commands": {
+    "check_handoff_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+    "validate_return_files": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "validate_strong_return_files": "python3 scripts/validate_cape_strong_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_strong_return_apply_wrapper": "PYTHON_BIN=python3 APPLY_IMPORTS=0 bash scripts/run_cape_strong_return_apply.sh",
+    "apply_strong_returns_with_wrapper": "PYTHON_BIN=python3 APPLY_IMPORTS=1 bash scripts/run_cape_strong_return_apply.sh",
+    "dry_run_human_return_apply_wrapper": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_human_returns_with_wrapper": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "low_level_dry_run_refresh": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_post_annotation_refresh.sh",
+    "low_level_apply_refresh": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_post_annotation_refresh.sh",
+    "check_release_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256"
+  }
+}

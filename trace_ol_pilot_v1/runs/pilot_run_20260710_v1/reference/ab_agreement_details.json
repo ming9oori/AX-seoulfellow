@@ -1,0 +1,2256 @@
+{
+  "ev:jaije:clean_sentences:r1001": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9230769230769231
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1007": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r101": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1024": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9242424242424243
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1048": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1062": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8166666666666668
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1069": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1070": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1077": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1090": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1095": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.775
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1107": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1111": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9444444444444444
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1114": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1115": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1133": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1140": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1155": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r116": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1171": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1176": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.6707317073170731
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1185": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1188": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1197": {
+    "agreed": true,
+    "pairs": [],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1198": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1210": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.75
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1212": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1218": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.75
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1220": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1222": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1223": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1239": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1243": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1261": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8666666666666667
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1271": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.823728813559322
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1275": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1277": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r128": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9318181818181819
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1284": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9076923076923077
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1291": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8891304347826087
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1300": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1312": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8676258992805755
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1315": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1316": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.925
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1317": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1318": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9172661870503598
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1319": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1320": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9242424242424243
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1321": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1322": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1323": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1324": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1325": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1326": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1327": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1328": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1329": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1330": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1331": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1332": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1333": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [
+      1,
+      2,
+      3
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1334": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1335": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1336": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1338": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1356": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r1362": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.595
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r1364": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.7100000000000001
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r141": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r142": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r157": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8880952380952382
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r165": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r19": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9883720930232558
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r20": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r200": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8067796610169492
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r203": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r207": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.7409090909090909
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r209": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8015151515151515
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r21": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r213": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9242424242424243
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r217": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r218": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r222": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r228": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8907407407407407
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r229": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8512195121951219
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r23": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9714285714285714
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r232": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r236": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r237": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r238": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r240": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9666666666666667
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r243": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0,
+      1,
+      2
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r244": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0,
+      1
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r245": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9451219512195121
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r246": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r247": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.875609756097561
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r248": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9166666666666667
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r254": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.65
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r264": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9036144578313253
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r276": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9230769230769231
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r284": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8230769230769232
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r296": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.5966019417475729
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r301": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r329": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.65
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r335": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r336": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r360": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r386": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r434": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r435": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r44": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9555555555555555
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r446": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r448": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9460431654676259
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r457": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8244604316546763
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r461": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.53
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [
+      1
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r489": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r497": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ],
+      [
+        1,
+        1,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r513": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r519": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r522": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.7409090909090909
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r529": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9242424242424243
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r534": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r542": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r543": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r567": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r574": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8871794871794872
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r580": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r584": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.6878787878787879
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r587": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.7012195121951219
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r606": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r612": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r616": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9444444444444444
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r617": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8166666666666668
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r645": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9368932038834952
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r648": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r653": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9460431654676259
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r666": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.95
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r670": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9924242424242424
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r678": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r680": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.95
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r684": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9017857142857143
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r7": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r709": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r718": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r73": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9666666666666667
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r734": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9823529411764707
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r743": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r744": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r745": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r746": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r749": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [
+      0
+    ],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r750": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r752": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r761": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8545454545454546
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r766": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r767": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r815": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.925
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r818": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9125
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r837": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.96875
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r842": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r85": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r872": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.7272727272727273
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r886": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.6944444444444444
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r898": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9198113207547169
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r901": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8833333333333333
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r909": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r916": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8696969696969697
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r92": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9875
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r924": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9510869565217391
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r925": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r928": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r93": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9333333333333333
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r930": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.725609756097561
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r932": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        0.9695121951219512
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r936": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r955": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8696969696969697
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r975": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8705882352941177
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  },
+  "ev:jaije:clean_sentences:r979": {
+    "agreed": true,
+    "pairs": [
+      [
+        0,
+        0,
+        1.0
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r983": {
+    "agreed": false,
+    "pairs": [],
+    "unmatched_a": [
+      0
+    ],
+    "unmatched_b": [],
+    "critical_match": true
+  },
+  "ev:jaije:clean_sentences:r986": {
+    "agreed": false,
+    "pairs": [
+      [
+        0,
+        0,
+        0.8510869565217392
+      ]
+    ],
+    "unmatched_a": [],
+    "unmatched_b": [],
+    "critical_match": false
+  }
+}

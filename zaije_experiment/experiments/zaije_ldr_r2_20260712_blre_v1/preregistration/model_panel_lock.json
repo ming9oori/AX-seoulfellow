@@ -1,0 +1,19 @@
+{
+  "boundary_prompt_hash": "f063422d893d0a27e951af627d5bbee964c22bc906ccd6d8a3c25664cee52f44",
+  "field_base_prompt_hash": "86cc07383c47b573ef52029000d92d7326c09a02aabadebc851547ee461bfffb",
+  "fresh_pilot_accessed": false,
+  "models": {
+    "C02": "gpt-4.1-mini-2025-04-14"
+  },
+  "selected_configurations": [
+    "C02"
+  ],
+  "selection_metrics_hash": "177a50e69886dc1cdb4fa81e14f5a7b06afd11db3948bb9df370b435d08bcd05",
+  "status": "REVISE",
+  "task_schema_hashes": {
+    "F1": "ae3bc1c2e9e4fab8ee77830bcf5afcf058352565578c0d8ad5d1955fe19e8dac",
+    "F2": "44c24f6ff7c29e0a90405d5f24e96837bd9b2f3b3874618d80d8a6d7d4fd2dc2",
+    "F3": "eee705ceea38de4a7f2d19b78f886ff7e947250c69ae13bbaf749e403778b608",
+    "F4": "b25d967b00387bb02ca309440c912208e7d600fbae13b8f7068795219364b844"
+  }
+}

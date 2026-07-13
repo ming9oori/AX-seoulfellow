@@ -1,0 +1,14 @@
+{
+  "batch_input_sha256": "f58723f10aecc4c225c603447df61189235d19688093fe87acec21613fcb645c",
+  "cue_lattice_sha256": "a579db77fd779696d3ed596ea948b5ad463730c4b63cc19c02336a33fa383f7d",
+  "phase": "fresh_fields",
+  "primary_model_snapshot": "gpt-4.1-2025-04-14",
+  "prompt_sha256": "0cddbd8df7cd396c08f95375cc8742a5985b21820285040bdaa1d2a9a3800725",
+  "proposal_sha256": "c43d3f8bb92b7d625d40cb183990cf9b40c34555324e18c85c1661cb216aebe1",
+  "repeat_count": 3,
+  "request_cap": 2400,
+  "request_count": 882,
+  "rule_hard_sha256": "57cd492f674b9b0ed522c93c5a48611a3ad057871cfe87e51e475e1dc8fe5c9e",
+  "schema_sha256": "c3403f0207983bbd76c3621ffe294fddb2bc434958ca64f11268c80fff136615",
+  "test_access": 0
+}

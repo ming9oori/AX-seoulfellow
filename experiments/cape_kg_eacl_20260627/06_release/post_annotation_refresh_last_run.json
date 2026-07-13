@@ -1,0 +1,41 @@
+{
+  "started_at_utc": "2026-06-29T18:55:20Z",
+  "ended_at_utc": "2026-06-29T18:56:57Z",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "stamp": "current_reports_sync29_20260629",
+  "apply_imports": "0",
+  "claim_status": "post_annotation_refresh_success_pending_human_returns",
+  "claim_gate_overall_status": "FAIL",
+  "claim_gate_required_failures": 4,
+  "claim_gate_optional_failures": 2,
+  "pre_human_handoff_status": "PASS",
+  "pre_human_handoff_status_counts": {
+    "PASS": 91,
+    "WARN": 1
+  },
+  "return_preflight_status": "pending_human_returns",
+  "present_human_return_files": 0,
+  "apply_scope": "no_return_files",
+  "minimum_paper_gate_ready_after_preflight": false,
+  "optional_mapping_ready_after_preflight": false,
+  "optional_crosswalk_ready_after_preflight": false,
+  "optional_active_effort_ready_after_preflight": false,
+  "adjudicated_chunks": 0,
+  "gold_item_count": 0,
+  "mapping_pending_rows": 220,
+  "crosswalk_pending_rows": 220,
+  "internal_bundle": {
+    "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_repro_current_reports_sync29_20260629.tar.gz",
+    "bytes": 43666950,
+    "sha256": "d4dd3557e438e5fa68dce16772506aef1348a173f111daeabb1e30a568f58ed1"
+  },
+  "public_safe_bundle": {
+    "path": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_skeleton_current_reports_sync29_20260629.tar.gz",
+    "bytes": 1532241,
+    "sha256": "fda037afa520cbee06aaa5bdf26c87c27de8107951c3bae5a3cf95b5e54432a9"
+  },
+  "release_checksum_status": "OK",
+  "handoff_checksum_status": "OK"
+}

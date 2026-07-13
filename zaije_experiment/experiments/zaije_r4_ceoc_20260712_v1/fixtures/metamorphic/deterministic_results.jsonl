@@ -1,0 +1,8 @@
+{"fixture":"remove_deontic","passed":true}
+{"fixture":"add_example_blocks_rule","passed":true}
+{"fixture":"prohibition_reflected","passed":true}
+{"fixture":"quantity_only_changes","passed":true}
+{"fixture":"candidate_order_invariance","passed":true}
+{"fixture":"source_anchor_mismatch_reject","passed":true}
+{"fixture":"duplicate_determinism","passed":true}
+{"fixture":"heading_context_removal_abstains","passed":true}

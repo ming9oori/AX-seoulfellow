@@ -1,0 +1,97 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "concepts": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "concept_type": {
+            "enum": [
+              "Actor",
+              "Artifact",
+              "Condition",
+              "DecisionCriterion",
+              "DomainConcept",
+              "ExampleInstance",
+              "InformationObject",
+              "Method",
+              "Metric",
+              "Organization",
+              "Rule",
+              "Strategy",
+              "Template",
+              "TemplateField",
+              "WorkUnit"
+            ],
+            "type": "string"
+          },
+          "evidence_anchor_id": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "label",
+          "concept_type",
+          "evidence_anchor_id"
+        ],
+        "type": "object"
+      },
+      "maxItems": 8,
+      "type": "array"
+    },
+    "relations": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_anchor_id": {
+            "type": "string"
+          },
+          "relation": {
+            "enum": [
+              "ADDRESSES_ISSUE",
+              "BROADER",
+              "HAS_ALIAS",
+              "HAS_CONDITION",
+              "HAS_DEFINITION",
+              "HAS_EXCEPTION",
+              "HAS_FIELD",
+              "HAS_INPUT",
+              "HAS_QUANTITY_CONSTRAINT",
+              "ILLUSTRATES",
+              "PART_OF",
+              "PERFORMED_BY",
+              "PRECEDES",
+              "PRODUCES_OUTPUT",
+              "SUPPORTS_DECISION",
+              "USES_TEMPLATE"
+            ],
+            "type": "string"
+          },
+          "source_label": {
+            "type": "string"
+          },
+          "target_label": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_label",
+          "relation",
+          "target_label",
+          "evidence_anchor_id"
+        ],
+        "type": "object"
+      },
+      "maxItems": 8,
+      "type": "array"
+    }
+  },
+  "required": [
+    "concepts",
+    "relations"
+  ],
+  "type": "object"
+}

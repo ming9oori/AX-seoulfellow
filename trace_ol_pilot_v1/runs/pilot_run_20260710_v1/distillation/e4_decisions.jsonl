@@ -1,0 +1,9 @@
+{"candidate_id": "claim:00cac99e36224f794f1b5fc837430bd4", "evidence_id": "ev:jaije:clean_sentences:r648", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:51c50257dd6669b462abb3d517dd26e9", "evidence_id": "ev:jaije:clean_sentences:r746", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:5313622018301a8396ecaec12881180f", "evidence_id": "ev:jaije:clean_sentences:r752", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:5d00ee12a592d141cc887b94d2848fb3", "evidence_id": "ev:jaije:clean_sentences:r767", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:8445542b4d0a4992c709903379952b26", "evidence_id": "ev:jaije:clean_sentences:r745", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:8fc906ce82f3a699d14f72d0bd206d1b", "evidence_id": "ev:jaije:clean_sentences:r1312", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:971d46be7c12819d4a0f151bcacc5ffb", "evidence_id": "ev:jaije:clean_sentences:r645", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:f48de95438e14b9bc9596fd67e2067ab", "evidence_id": "ev:jaije:clean_sentences:r749", "decision": "needs_review", "claim": null, "reason_code": "CONDITION_SCOPE"}
+{"candidate_id": "claim:f200db0ae96617766ab015f23c0e23c1", "evidence_id": "ev:jaije:clean_sentences:r254", "decision": "accept", "claim": null, "reason_code": "NONE"}

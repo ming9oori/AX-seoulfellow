@@ -1,0 +1,1154 @@
+{
+  "canonical_terms": {
+    "L2_ARTIFACT_BCM": {
+      "alt_labels": [
+        "BCM",
+        "Bidder Comparison Matrix",
+        "경쟁사 비교표"
+      ],
+      "canonical_id": "L2_ARTIFACT_BCM",
+      "canonical_label": "BCM / 경쟁사 비교표",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "BCM / 경쟁사 비교표",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_CAPTURE_PLAN": {
+      "alt_labels": [
+        "Capture Plan",
+        "수주계획",
+        "영업정보 관리 도구"
+      ],
+      "canonical_id": "L2_ARTIFACT_CAPTURE_PLAN",
+      "canonical_label": "Capture Plan",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "Capture Plan",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_PDW": {
+      "alt_labels": [
+        "PDW",
+        "Proposal Development Worksheet",
+        "Storyboard",
+        "스토리보드",
+        "섹션기획서"
+      ],
+      "canonical_id": "L2_ARTIFACT_PDW",
+      "canonical_label": "PDW / 섹션기획서",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "PDW / 섹션기획서",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_PMP": {
+      "alt_labels": [
+        "PMP",
+        "Proposal Management Plan",
+        "제안관리계획"
+      ],
+      "canonical_id": "L2_ARTIFACT_PMP",
+      "canonical_label": "PMP / 제안관리계획",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "PMP / 제안관리계획",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_PRESENTATION_MATERIAL": {
+      "alt_labels": [
+        "PT 자료",
+        "발표자료",
+        "프레젠테이션 자료"
+      ],
+      "canonical_id": "L2_ARTIFACT_PRESENTATION_MATERIAL",
+      "canonical_label": "PT 자료",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "PT 자료",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_PROPOSAL_DRAFT": {
+      "alt_labels": [
+        "제안서",
+        "제안서 초안",
+        "제안서 완성본"
+      ],
+      "canonical_id": "L2_ARTIFACT_PROPOSAL_DRAFT",
+      "canonical_label": "제안서 초안·완성본",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "제안서 초안·완성본",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_PROPOSAL_PLAN": {
+      "alt_labels": [
+        "Proposal Plan",
+        "제안서 기획",
+        "제안 기획"
+      ],
+      "canonical_id": "L2_ARTIFACT_PROPOSAL_PLAN",
+      "canonical_label": "Proposal Plan / 제안서 기획",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "Proposal Plan / 제안서 기획",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_RFP": {
+      "alt_labels": [
+        "RFP",
+        "제안요청서",
+        "요구제안서"
+      ],
+      "canonical_id": "L2_ARTIFACT_RFP",
+      "canonical_label": "RFP / 제안요청서",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "RFP / 제안요청서",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_SALES_INFO_DB": {
+      "alt_labels": [
+        "영업 정보 DB",
+        "영업정보 관리 체계",
+        "고객 정보 관리"
+      ],
+      "canonical_id": "L2_ARTIFACT_SALES_INFO_DB",
+      "canonical_label": "영업 정보 DB/관리 체계",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "영업 정보 DB/관리 체계",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ARTIFACT_STRATEGY_STATEMENT": {
+      "alt_labels": [
+        "전략기술서",
+        "전략 기술서",
+        "Theme Statement",
+        "Strategy Statement"
+      ],
+      "canonical_id": "L2_ARTIFACT_STRATEGY_STATEMENT",
+      "canonical_label": "전략기술서",
+      "language": "ko/en",
+      "node_type": "Artifact",
+      "preferred_label": "전략기술서",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_DECISION_BID_NO_BID": {
+      "alt_labels": [
+        "Bid/No-Bid",
+        "Bid/No-Bid Decision",
+        "제안참여 의사결정"
+      ],
+      "canonical_id": "L2_DECISION_BID_NO_BID",
+      "canonical_label": "Bid/No-Bid Decision",
+      "language": "ko/en",
+      "node_type": "DecisionPoint",
+      "preferred_label": "Bid/No-Bid Decision",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_COMMUNICATION_STYLE": {
+      "alt_labels": [
+        "커뮤니케이션 스타일",
+        "소통 방식",
+        "커뮤니케이션"
+      ],
+      "canonical_id": "L2_INFO_COMMUNICATION_STYLE",
+      "canonical_label": "커뮤니케이션 스타일",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "커뮤니케이션 스타일",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_COMPETITOR_INFORMATION": {
+      "alt_labels": [
+        "경쟁사 정보",
+        "경쟁자 정보",
+        "경쟁 정보"
+      ],
+      "canonical_id": "L2_INFO_COMPETITOR_INFORMATION",
+      "canonical_label": "경쟁사 정보",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "경쟁사 정보",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CORE_DIFFERENTIATOR": {
+      "alt_labels": [
+        "핵심 차별화 요소",
+        "차별화 요소",
+        "Discriminator"
+      ],
+      "canonical_id": "L2_INFO_CORE_DIFFERENTIATOR",
+      "canonical_label": "핵심 차별화 요소",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "핵심 차별화 요소",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CUSTOMER_INFORMATION": {
+      "alt_labels": [
+        "고객 정보",
+        "고객성향",
+        "고객 상황"
+      ],
+      "canonical_id": "L2_INFO_CUSTOMER_INFORMATION",
+      "canonical_label": "고객 정보",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 정보",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CUSTOMER_ISSUE": {
+      "alt_labels": [
+        "고객 이슈",
+        "핵심이슈",
+        "Hot Button"
+      ],
+      "canonical_id": "L2_INFO_CUSTOMER_ISSUE",
+      "canonical_label": "고객 이슈",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 이슈",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CUSTOMER_NEEDS": {
+      "alt_labels": [
+        "고객 니즈",
+        "고객의 니즈",
+        "고객 요구"
+      ],
+      "canonical_id": "L2_INFO_CUSTOMER_NEEDS",
+      "canonical_label": "고객 니즈",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 니즈",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CUSTOMER_NEEDS_STRUCTURE": {
+      "alt_labels": [
+        "고객 니즈 구조",
+        "요구조건 구조",
+        "빙산 구조"
+      ],
+      "canonical_id": "L2_INFO_CUSTOMER_NEEDS_STRUCTURE",
+      "canonical_label": "고객 니즈 구조",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 니즈 구조",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_CUSTOMER_RELATIONSHIP": {
+      "alt_labels": [
+        "고객 관계",
+        "관계"
+      ],
+      "canonical_id": "L2_INFO_CUSTOMER_RELATIONSHIP",
+      "canonical_label": "고객 관계",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 관계",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_DIFFERENTIATION_POINT": {
+      "alt_labels": [
+        "차별화 포인트",
+        "차별화"
+      ],
+      "canonical_id": "L2_INFO_DIFFERENTIATION_POINT",
+      "canonical_label": "차별화 포인트",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "차별화 포인트",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_EVALUATION_CRITERIA": {
+      "alt_labels": [
+        "평가 기준",
+        "고객 평가 기준",
+        "평가기준"
+      ],
+      "canonical_id": "L2_INFO_EVALUATION_CRITERIA",
+      "canonical_label": "고객 평가 기준",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 평가 기준",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_EVALUATOR_ATTACK_POINT": {
+      "alt_labels": [
+        "평가자별 공략 포인트",
+        "평가자 공략 포인트"
+      ],
+      "canonical_id": "L2_INFO_EVALUATOR_ATTACK_POINT",
+      "canonical_label": "평가자별 공략 포인트",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "평가자별 공략 포인트",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_OFFICIAL_REQUIREMENT": {
+      "alt_labels": [
+        "공식 요구조건",
+        "명시 요구조건"
+      ],
+      "canonical_id": "L2_INFO_OFFICIAL_REQUIREMENT",
+      "canonical_label": "공식 요구조건",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "공식 요구조건",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_OPPORTUNITY_ANALYSIS": {
+      "alt_labels": [
+        "기회분석",
+        "기회분석 결과"
+      ],
+      "canonical_id": "L2_INFO_OPPORTUNITY_ANALYSIS",
+      "canonical_label": "기회분석 결과",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "기회분석 결과",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_OPPORTUNITY_INFORMATION": {
+      "alt_labels": [
+        "기회 정보",
+        "사업 기회 정보",
+        "Opportunity Information"
+      ],
+      "canonical_id": "L2_INFO_OPPORTUNITY_INFORMATION",
+      "canonical_label": "기회 정보",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "기회 정보",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_OWN_SOLUTION": {
+      "alt_labels": [
+        "자사 솔루션",
+        "우리 솔루션",
+        "솔루션"
+      ],
+      "canonical_id": "L2_INFO_OWN_SOLUTION",
+      "canonical_label": "자사 솔루션",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "자사 솔루션",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_PERSUASIVE_MESSAGE": {
+      "alt_labels": [
+        "설득 메시지",
+        "평가자 맞춤 메시지",
+        "메시지"
+      ],
+      "canonical_id": "L2_INFO_PERSUASIVE_MESSAGE",
+      "canonical_label": "설득 메시지",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "설득 메시지",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_PURCHASE_PSYCHOLOGY": {
+      "alt_labels": [
+        "구매심리",
+        "고객 심리"
+      ],
+      "canonical_id": "L2_INFO_PURCHASE_PSYCHOLOGY",
+      "canonical_label": "구매심리",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "구매심리",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_PURCHASE_STAGE": {
+      "alt_labels": [
+        "고객 구매단계",
+        "구매단계",
+        "구매 단계"
+      ],
+      "canonical_id": "L2_INFO_PURCHASE_STAGE",
+      "canonical_label": "고객 구매단계",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "고객 구매단계",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_TRUST_LEVEL": {
+      "alt_labels": [
+        "신뢰도",
+        "신뢰",
+        "관계 신뢰"
+      ],
+      "canonical_id": "L2_INFO_TRUST_LEVEL",
+      "canonical_label": "신뢰도",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "신뢰도",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_INFO_UNSTATED_REQUIREMENT": {
+      "alt_labels": [
+        "비공식 요구조건",
+        "숨은 요구조건",
+        "Unstated Requirement"
+      ],
+      "canonical_id": "L2_INFO_UNSTATED_REQUIREMENT",
+      "canonical_label": "비공식 요구조건",
+      "language": "ko/en",
+      "node_type": "InformationObject",
+      "preferred_label": "비공식 요구조건",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_METRIC_WIN_RATE": {
+      "alt_labels": [
+        "성공률",
+        "수주 성공률",
+        "Win Rate"
+      ],
+      "canonical_id": "L2_METRIC_WIN_RATE",
+      "canonical_label": "수주 성공률",
+      "language": "ko/en",
+      "node_type": "Metric",
+      "preferred_label": "수주 성공률",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_OUTCOME_BID": {
+      "alt_labels": [
+        "Bid",
+        "참여"
+      ],
+      "canonical_id": "L2_OUTCOME_BID",
+      "canonical_label": "Bid",
+      "language": "ko/en",
+      "node_type": "DecisionOutcome",
+      "preferred_label": "Bid",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_OUTCOME_NO_BID": {
+      "alt_labels": [
+        "No-Bid",
+        "불참"
+      ],
+      "canonical_id": "L2_OUTCOME_NO_BID",
+      "canonical_label": "No-Bid",
+      "language": "ko/en",
+      "node_type": "DecisionOutcome",
+      "preferred_label": "No-Bid",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_PRINCIPLE_CUSTOMER_FIRST": {
+      "alt_labels": [
+        "고객에서 출발",
+        "고객 중심"
+      ],
+      "canonical_id": "L2_PRINCIPLE_CUSTOMER_FIRST",
+      "canonical_label": "고객 중심 원칙",
+      "language": "ko/en",
+      "node_type": "Principle",
+      "preferred_label": "고객 중심 원칙",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_PRINCIPLE_DIFFERENTIATION": {
+      "alt_labels": [
+        "차별화",
+        "핵심 차별화요소"
+      ],
+      "canonical_id": "L2_PRINCIPLE_DIFFERENTIATION",
+      "canonical_label": "차별화 원칙",
+      "language": "ko/en",
+      "node_type": "Principle",
+      "preferred_label": "차별화 원칙",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_PRINCIPLE_PROCESS_MANAGEMENT": {
+      "alt_labels": [
+        "프로세스 관리",
+        "프로세스가 중요하다"
+      ],
+      "canonical_id": "L2_PRINCIPLE_PROCESS_MANAGEMENT",
+      "canonical_label": "프로세스 관리 원칙",
+      "language": "ko/en",
+      "node_type": "Principle",
+      "preferred_label": "프로세스 관리 원칙",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_REVIEW_BLACK_HAT": {
+      "alt_labels": [
+        "블랙햇 리뷰",
+        "Black Hat Review",
+        "경쟁자 관점 리뷰"
+      ],
+      "canonical_id": "L2_REVIEW_BLACK_HAT",
+      "canonical_label": "블랙햇 리뷰",
+      "language": "ko/en",
+      "node_type": "ReviewType",
+      "preferred_label": "블랙햇 리뷰",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_REVIEW_DRAFT_REVIEW": {
+      "alt_labels": [
+        "초안 리뷰",
+        "Draft Review"
+      ],
+      "canonical_id": "L2_REVIEW_DRAFT_REVIEW",
+      "canonical_label": "초안 리뷰",
+      "language": "ko/en",
+      "node_type": "ReviewType",
+      "preferred_label": "초안 리뷰",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_REVIEW_FINAL_REVIEW": {
+      "alt_labels": [
+        "최종 리뷰",
+        "Final Review"
+      ],
+      "canonical_id": "L2_REVIEW_FINAL_REVIEW",
+      "canonical_label": "최종 리뷰",
+      "language": "ko/en",
+      "node_type": "ReviewType",
+      "preferred_label": "최종 리뷰",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_REVIEW_STRATEGY_REVIEW": {
+      "alt_labels": [
+        "전략 리뷰",
+        "Strategy Review"
+      ],
+      "canonical_id": "L2_REVIEW_STRATEGY_REVIEW",
+      "canonical_label": "전략 리뷰",
+      "language": "ko/en",
+      "node_type": "ReviewType",
+      "preferred_label": "전략 리뷰",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_RISK_BUSINESS_RISK": {
+      "alt_labels": [
+        "사업 리스크",
+        "Risk Gap",
+        "리스크"
+      ],
+      "canonical_id": "L2_RISK_BUSINESS_RISK",
+      "canonical_label": "사업 리스크",
+      "language": "ko/en",
+      "node_type": "Risk",
+      "preferred_label": "사업 리스크",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_RISK_LATE_RFP_INFLUENCE": {
+      "alt_labels": [
+        "RFP 이후 영향력 감소",
+        "영향력 감소 리스크"
+      ],
+      "canonical_id": "L2_RISK_LATE_RFP_INFLUENCE",
+      "canonical_label": "RFP 이후 영향력 감소 리스크",
+      "language": "ko/en",
+      "node_type": "Risk",
+      "preferred_label": "RFP 이후 영향력 감소 리스크",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ROLE_PM": {
+      "alt_labels": [
+        "PM",
+        "프로젝트 매니저"
+      ],
+      "canonical_id": "L2_ROLE_PM",
+      "canonical_label": "PM",
+      "language": "ko/en",
+      "node_type": "Role",
+      "preferred_label": "PM",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ROLE_PROPOSAL_TEAM": {
+      "alt_labels": [
+        "제안팀",
+        "제안 담당자"
+      ],
+      "canonical_id": "L2_ROLE_PROPOSAL_TEAM",
+      "canonical_label": "제안팀",
+      "language": "ko/en",
+      "node_type": "Role",
+      "preferred_label": "제안팀",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_ROLE_SALES_REP": {
+      "alt_labels": [
+        "영업대표",
+        "영업 담당자"
+      ],
+      "canonical_id": "L2_ROLE_SALES_REP",
+      "canonical_label": "영업대표",
+      "language": "ko/en",
+      "node_type": "Role",
+      "preferred_label": "영업대표",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_BUYER_ADMIN": {
+      "alt_labels": [
+        "구매그룹",
+        "행정가",
+        "구매/행정 그룹"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_BUYER_ADMIN",
+      "canonical_label": "구매/행정 그룹",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "구매/행정 그룹",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_CUSTOMER": {
+      "alt_labels": [
+        "고객",
+        "발주처"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_CUSTOMER",
+      "canonical_label": "고객",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "고객",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_DECISION_MAKER": {
+      "alt_labels": [
+        "의사결정자",
+        "Decision Maker"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_DECISION_MAKER",
+      "canonical_label": "의사결정자",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "의사결정자",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_INFLUENCER": {
+      "alt_labels": [
+        "영향자",
+        "Influencer"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_INFLUENCER",
+      "canonical_label": "영향자",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "영향자",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_TECH_EXPERT": {
+      "alt_labels": [
+        "기술전문가",
+        "Technical Expert"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_TECH_EXPERT",
+      "canonical_label": "기술전문가",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "기술전문가",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STAKEHOLDER_USER": {
+      "alt_labels": [
+        "사용자",
+        "실사용자"
+      ],
+      "canonical_id": "L2_STAKEHOLDER_USER",
+      "canonical_label": "사용자",
+      "language": "ko/en",
+      "node_type": "Stakeholder",
+      "preferred_label": "사용자",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_CAPTURE_STRATEGY": {
+      "alt_labels": [
+        "수주전략",
+        "Capture Strategy"
+      ],
+      "canonical_id": "L2_STRATEGY_CAPTURE_STRATEGY",
+      "canonical_label": "수주전략",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "수주전략",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_COMMUNICATION_METHOD": {
+      "alt_labels": [
+        "커뮤니케이션 방법",
+        "메시지 전달 방법"
+      ],
+      "canonical_id": "L2_STRATEGY_COMMUNICATION_METHOD",
+      "canonical_label": "커뮤니케이션 방법",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "커뮤니케이션 방법",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_PRESENTATION_STRATEGY": {
+      "alt_labels": [
+        "발표전략",
+        "프레젠테이션 전략",
+        "PT 전략"
+      ],
+      "canonical_id": "L2_STRATEGY_PRESENTATION_STRATEGY",
+      "canonical_label": "발표전략",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "발표전략",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_PROPOSAL_STRATEGY": {
+      "alt_labels": [
+        "제안전략",
+        "Proposal Strategy"
+      ],
+      "canonical_id": "L2_STRATEGY_PROPOSAL_STRATEGY",
+      "canonical_label": "제안전략",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "제안전략",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_SOLUTION_OPTIMIZATION": {
+      "alt_labels": [
+        "솔루션 최적화",
+        "솔루션 개발"
+      ],
+      "canonical_id": "L2_STRATEGY_SOLUTION_OPTIMIZATION",
+      "canonical_label": "솔루션 최적화",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "솔루션 최적화",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_VALIDATED_TACTIC": {
+      "alt_labels": [
+        "검증된 전술",
+        "전술",
+        "tactic"
+      ],
+      "canonical_id": "L2_STRATEGY_VALIDATED_TACTIC",
+      "canonical_label": "검증된 전술",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "검증된 전술",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_STRATEGY_VALUE_PROPOSITION": {
+      "alt_labels": [
+        "가치제안",
+        "Value Proposition",
+        "고객 가치 제안"
+      ],
+      "canonical_id": "L2_STRATEGY_VALUE_PROPOSITION",
+      "canonical_label": "가치제안",
+      "language": "ko/en",
+      "node_type": "StrategyPattern",
+      "preferred_label": "가치제안",
+      "source": "zaije_domain_extension_seed"
+    },
+    "L2_TASK_BID_NO_BID_DECISION": {
+      "alt_labels": [
+        "Bid/No-Bid Decision",
+        "제안참여 의사결정",
+        "Bid No Bid"
+      ],
+      "canonical_id": "L2_TASK_BID_NO_BID_DECISION",
+      "canonical_label": "제안참여 의사결정",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "제안참여 의사결정",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_CAPTURE_PLANNING": {
+      "alt_labels": [
+        "수주영업",
+        "Capture Planning",
+        "Capture Plan",
+        "수주계획"
+      ],
+      "canonical_id": "L2_TASK_CAPTURE_PLANNING",
+      "canonical_label": "수주영업 / Capture Planning",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "수주영업 / Capture Planning",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_COMPETITOR_ANALYSIS": {
+      "alt_labels": [
+        "경쟁사 분석",
+        "차별화 요소 규명",
+        "Competitor Analysis",
+        "BCM"
+      ],
+      "canonical_id": "L2_TASK_COMPETITOR_ANALYSIS",
+      "canonical_label": "경쟁사 분석 및 차별화 요소 규명",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "경쟁사 분석 및 차별화 요소 규명",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_EVALUATOR_ANALYSIS": {
+      "alt_labels": [
+        "평가자 분석",
+        "평가위원 분석",
+        "Evaluator Analysis"
+      ],
+      "canonical_id": "L2_TASK_EVALUATOR_ANALYSIS",
+      "canonical_label": "평가자 분석",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "평가자 분석",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_OPPORTUNITY_PLANNING": {
+      "alt_labels": [
+        "사전영업",
+        "Opportunity Planning",
+        "기회분석"
+      ],
+      "canonical_id": "L2_TASK_OPPORTUNITY_PLANNING",
+      "canonical_label": "사전영업 / Opportunity Planning",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "사전영업 / Opportunity Planning",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_PERSUASIVE_COMMUNICATION": {
+      "alt_labels": [
+        "설득 커뮤니케이션",
+        "커뮤니케이션 설계",
+        "Persuasive Communication"
+      ],
+      "canonical_id": "L2_TASK_PERSUASIVE_COMMUNICATION",
+      "canonical_label": "설득 커뮤니케이션 설계",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "설득 커뮤니케이션 설계",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_PRESENTATION_PREPARATION": {
+      "alt_labels": [
+        "프레젠테이션 준비",
+        "PT 준비",
+        "발표 준비"
+      ],
+      "canonical_id": "L2_TASK_PRESENTATION_PREPARATION",
+      "canonical_label": "프레젠테이션 준비",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "프레젠테이션 준비",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_PROPOSAL_PLANNING": {
+      "alt_labels": [
+        "제안서 기획",
+        "Proposal Planning",
+        "Proposal Plan",
+        "제안 기획"
+      ],
+      "canonical_id": "L2_TASK_PROPOSAL_PLANNING",
+      "canonical_label": "제안서 기획 / Proposal Planning",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "제안서 기획 / Proposal Planning",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_PROPOSAL_PREPARING": {
+      "alt_labels": [
+        "제안서 작성",
+        "Proposal Preparing",
+        "제안서 준비"
+      ],
+      "canonical_id": "L2_TASK_PROPOSAL_PREPARING",
+      "canonical_label": "제안서 작성 / Proposal Preparing",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "제안서 작성 / Proposal Preparing",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT": {
+      "alt_labels": [
+        "제안전략 개발",
+        "제안전략",
+        "Proposal Strategy"
+      ],
+      "canonical_id": "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT",
+      "canonical_label": "제안전략 개발",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "제안전략 개발",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS": {
+      "alt_labels": [
+        "요구조건 구조 분석",
+        "Requirement Iceberg Analysis",
+        "비공식 요구조건 분석"
+      ],
+      "canonical_id": "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS",
+      "canonical_label": "고객 요구조건 구조 분석",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "고객 요구조건 구조 분석",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_RISK_MANAGEMENT": {
+      "alt_labels": [
+        "리스크 관리",
+        "Risk Management",
+        "Risk Gap 관리"
+      ],
+      "canonical_id": "L2_TASK_RISK_MANAGEMENT",
+      "canonical_label": "리스크 관리",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "리스크 관리",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_SALES_INFORMATION_MANAGEMENT": {
+      "alt_labels": [
+        "영업 정보 관리",
+        "고객 정보 관리",
+        "Sales Information Management"
+      ],
+      "canonical_id": "L2_TASK_SALES_INFORMATION_MANAGEMENT",
+      "canonical_label": "영업 정보 관리",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "영업 정보 관리",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION": {
+      "alt_labels": [
+        "전술 개발",
+        "전술 효과성 검증",
+        "Tactic Development"
+      ],
+      "canonical_id": "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION",
+      "canonical_label": "전술 개발 및 효과성 검증",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "전술 개발 및 효과성 검증",
+      "source": "task_catalog_v0"
+    },
+    "L2_TASK_VALUE_PROPOSITION": {
+      "alt_labels": [
+        "가치제안",
+        "Value Proposition",
+        "고객 가치 제안"
+      ],
+      "canonical_id": "L2_TASK_VALUE_PROPOSITION",
+      "canonical_label": "가치제안 개발",
+      "language": "ko/en",
+      "node_type": "DomainTask",
+      "preferred_label": "가치제안 개발",
+      "source": "task_catalog_v0"
+    }
+  },
+  "generated_at_utc": "2026-07-07T06:50:14+00:00",
+  "schema_style": "SKOS-inspired preferredLabel/altLabel mapping",
+  "term_to_canonical": {
+    "bcm": "L2_ARTIFACT_BCM",
+    "bcm / 경쟁사 비교표": "L2_ARTIFACT_BCM",
+    "bid": "L2_OUTCOME_BID",
+    "bid no bid": "L2_TASK_BID_NO_BID_DECISION",
+    "bid/no-bid": "L2_DECISION_BID_NO_BID",
+    "bid/no-bid decision": "L2_DECISION_BID_NO_BID",
+    "bidder comparison matrix": "L2_ARTIFACT_BCM",
+    "black hat review": "L2_REVIEW_BLACK_HAT",
+    "capture plan": "L2_ARTIFACT_CAPTURE_PLAN",
+    "capture planning": "L2_TASK_CAPTURE_PLANNING",
+    "capture strategy": "L2_STRATEGY_CAPTURE_STRATEGY",
+    "competitor analysis": "L2_TASK_COMPETITOR_ANALYSIS",
+    "decision maker": "L2_STAKEHOLDER_DECISION_MAKER",
+    "discriminator": "L2_INFO_CORE_DIFFERENTIATOR",
+    "draft review": "L2_REVIEW_DRAFT_REVIEW",
+    "evaluator analysis": "L2_TASK_EVALUATOR_ANALYSIS",
+    "final review": "L2_REVIEW_FINAL_REVIEW",
+    "hot button": "L2_INFO_CUSTOMER_ISSUE",
+    "influencer": "L2_STAKEHOLDER_INFLUENCER",
+    "no-bid": "L2_OUTCOME_NO_BID",
+    "opportunity information": "L2_INFO_OPPORTUNITY_INFORMATION",
+    "opportunity planning": "L2_TASK_OPPORTUNITY_PLANNING",
+    "pdw": "L2_ARTIFACT_PDW",
+    "pdw / 섹션기획서": "L2_ARTIFACT_PDW",
+    "persuasive communication": "L2_TASK_PERSUASIVE_COMMUNICATION",
+    "pm": "L2_ROLE_PM",
+    "pmp": "L2_ARTIFACT_PMP",
+    "pmp / 제안관리계획": "L2_ARTIFACT_PMP",
+    "proposal development worksheet": "L2_ARTIFACT_PDW",
+    "proposal management plan": "L2_ARTIFACT_PMP",
+    "proposal plan": "L2_ARTIFACT_PROPOSAL_PLAN",
+    "proposal plan / 제안서 기획": "L2_ARTIFACT_PROPOSAL_PLAN",
+    "proposal planning": "L2_TASK_PROPOSAL_PLANNING",
+    "proposal preparing": "L2_TASK_PROPOSAL_PREPARING",
+    "proposal strategy": "L2_STRATEGY_PROPOSAL_STRATEGY",
+    "pt 자료": "L2_ARTIFACT_PRESENTATION_MATERIAL",
+    "pt 전략": "L2_STRATEGY_PRESENTATION_STRATEGY",
+    "pt 준비": "L2_TASK_PRESENTATION_PREPARATION",
+    "requirement iceberg analysis": "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS",
+    "rfp": "L2_ARTIFACT_RFP",
+    "rfp / 제안요청서": "L2_ARTIFACT_RFP",
+    "rfp 이후 영향력 감소": "L2_RISK_LATE_RFP_INFLUENCE",
+    "rfp 이후 영향력 감소 리스크": "L2_RISK_LATE_RFP_INFLUENCE",
+    "risk gap": "L2_RISK_BUSINESS_RISK",
+    "risk gap 관리": "L2_TASK_RISK_MANAGEMENT",
+    "risk management": "L2_TASK_RISK_MANAGEMENT",
+    "sales information management": "L2_TASK_SALES_INFORMATION_MANAGEMENT",
+    "storyboard": "L2_ARTIFACT_PDW",
+    "strategy review": "L2_REVIEW_STRATEGY_REVIEW",
+    "strategy statement": "L2_ARTIFACT_STRATEGY_STATEMENT",
+    "tactic": "L2_STRATEGY_VALIDATED_TACTIC",
+    "tactic development": "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION",
+    "technical expert": "L2_STAKEHOLDER_TECH_EXPERT",
+    "theme statement": "L2_ARTIFACT_STRATEGY_STATEMENT",
+    "unstated requirement": "L2_INFO_UNSTATED_REQUIREMENT",
+    "value proposition": "L2_STRATEGY_VALUE_PROPOSITION",
+    "win rate": "L2_METRIC_WIN_RATE",
+    "가치제안": "L2_STRATEGY_VALUE_PROPOSITION",
+    "가치제안 개발": "L2_TASK_VALUE_PROPOSITION",
+    "검증된 전술": "L2_STRATEGY_VALIDATED_TACTIC",
+    "경쟁 정보": "L2_INFO_COMPETITOR_INFORMATION",
+    "경쟁사 분석": "L2_TASK_COMPETITOR_ANALYSIS",
+    "경쟁사 분석 및 차별화 요소 규명": "L2_TASK_COMPETITOR_ANALYSIS",
+    "경쟁사 비교표": "L2_ARTIFACT_BCM",
+    "경쟁사 정보": "L2_INFO_COMPETITOR_INFORMATION",
+    "경쟁자 관점 리뷰": "L2_REVIEW_BLACK_HAT",
+    "경쟁자 정보": "L2_INFO_COMPETITOR_INFORMATION",
+    "고객": "L2_STAKEHOLDER_CUSTOMER",
+    "고객 가치 제안": "L2_STRATEGY_VALUE_PROPOSITION",
+    "고객 관계": "L2_INFO_CUSTOMER_RELATIONSHIP",
+    "고객 구매단계": "L2_INFO_PURCHASE_STAGE",
+    "고객 니즈": "L2_INFO_CUSTOMER_NEEDS",
+    "고객 니즈 구조": "L2_INFO_CUSTOMER_NEEDS_STRUCTURE",
+    "고객 상황": "L2_INFO_CUSTOMER_INFORMATION",
+    "고객 심리": "L2_INFO_PURCHASE_PSYCHOLOGY",
+    "고객 요구": "L2_INFO_CUSTOMER_NEEDS",
+    "고객 요구조건 구조 분석": "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS",
+    "고객 이슈": "L2_INFO_CUSTOMER_ISSUE",
+    "고객 정보": "L2_INFO_CUSTOMER_INFORMATION",
+    "고객 정보 관리": "L2_ARTIFACT_SALES_INFO_DB",
+    "고객 중심": "L2_PRINCIPLE_CUSTOMER_FIRST",
+    "고객 중심 원칙": "L2_PRINCIPLE_CUSTOMER_FIRST",
+    "고객 평가 기준": "L2_INFO_EVALUATION_CRITERIA",
+    "고객성향": "L2_INFO_CUSTOMER_INFORMATION",
+    "고객에서 출발": "L2_PRINCIPLE_CUSTOMER_FIRST",
+    "고객의 니즈": "L2_INFO_CUSTOMER_NEEDS",
+    "공식 요구조건": "L2_INFO_OFFICIAL_REQUIREMENT",
+    "관계": "L2_INFO_CUSTOMER_RELATIONSHIP",
+    "관계 신뢰": "L2_INFO_TRUST_LEVEL",
+    "구매 단계": "L2_INFO_PURCHASE_STAGE",
+    "구매/행정 그룹": "L2_STAKEHOLDER_BUYER_ADMIN",
+    "구매그룹": "L2_STAKEHOLDER_BUYER_ADMIN",
+    "구매단계": "L2_INFO_PURCHASE_STAGE",
+    "구매심리": "L2_INFO_PURCHASE_PSYCHOLOGY",
+    "기술전문가": "L2_STAKEHOLDER_TECH_EXPERT",
+    "기회 정보": "L2_INFO_OPPORTUNITY_INFORMATION",
+    "기회분석": "L2_INFO_OPPORTUNITY_ANALYSIS",
+    "기회분석 결과": "L2_INFO_OPPORTUNITY_ANALYSIS",
+    "리스크": "L2_RISK_BUSINESS_RISK",
+    "리스크 관리": "L2_TASK_RISK_MANAGEMENT",
+    "메시지": "L2_INFO_PERSUASIVE_MESSAGE",
+    "메시지 전달 방법": "L2_STRATEGY_COMMUNICATION_METHOD",
+    "명시 요구조건": "L2_INFO_OFFICIAL_REQUIREMENT",
+    "발주처": "L2_STAKEHOLDER_CUSTOMER",
+    "발표 준비": "L2_TASK_PRESENTATION_PREPARATION",
+    "발표자료": "L2_ARTIFACT_PRESENTATION_MATERIAL",
+    "발표전략": "L2_STRATEGY_PRESENTATION_STRATEGY",
+    "불참": "L2_OUTCOME_NO_BID",
+    "블랙햇 리뷰": "L2_REVIEW_BLACK_HAT",
+    "비공식 요구조건": "L2_INFO_UNSTATED_REQUIREMENT",
+    "비공식 요구조건 분석": "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS",
+    "빙산 구조": "L2_INFO_CUSTOMER_NEEDS_STRUCTURE",
+    "사업 기회 정보": "L2_INFO_OPPORTUNITY_INFORMATION",
+    "사업 리스크": "L2_RISK_BUSINESS_RISK",
+    "사용자": "L2_STAKEHOLDER_USER",
+    "사전영업": "L2_TASK_OPPORTUNITY_PLANNING",
+    "사전영업 / opportunity planning": "L2_TASK_OPPORTUNITY_PLANNING",
+    "설득 메시지": "L2_INFO_PERSUASIVE_MESSAGE",
+    "설득 커뮤니케이션": "L2_TASK_PERSUASIVE_COMMUNICATION",
+    "설득 커뮤니케이션 설계": "L2_TASK_PERSUASIVE_COMMUNICATION",
+    "성공률": "L2_METRIC_WIN_RATE",
+    "섹션기획서": "L2_ARTIFACT_PDW",
+    "소통 방식": "L2_INFO_COMMUNICATION_STYLE",
+    "솔루션": "L2_INFO_OWN_SOLUTION",
+    "솔루션 개발": "L2_STRATEGY_SOLUTION_OPTIMIZATION",
+    "솔루션 최적화": "L2_STRATEGY_SOLUTION_OPTIMIZATION",
+    "수주 성공률": "L2_METRIC_WIN_RATE",
+    "수주계획": "L2_ARTIFACT_CAPTURE_PLAN",
+    "수주영업": "L2_TASK_CAPTURE_PLANNING",
+    "수주영업 / capture planning": "L2_TASK_CAPTURE_PLANNING",
+    "수주전략": "L2_STRATEGY_CAPTURE_STRATEGY",
+    "숨은 요구조건": "L2_INFO_UNSTATED_REQUIREMENT",
+    "스토리보드": "L2_ARTIFACT_PDW",
+    "신뢰": "L2_INFO_TRUST_LEVEL",
+    "신뢰도": "L2_INFO_TRUST_LEVEL",
+    "실사용자": "L2_STAKEHOLDER_USER",
+    "영업 담당자": "L2_ROLE_SALES_REP",
+    "영업 정보 db": "L2_ARTIFACT_SALES_INFO_DB",
+    "영업 정보 db/관리 체계": "L2_ARTIFACT_SALES_INFO_DB",
+    "영업 정보 관리": "L2_TASK_SALES_INFORMATION_MANAGEMENT",
+    "영업대표": "L2_ROLE_SALES_REP",
+    "영업정보 관리 도구": "L2_ARTIFACT_CAPTURE_PLAN",
+    "영업정보 관리 체계": "L2_ARTIFACT_SALES_INFO_DB",
+    "영향력 감소 리스크": "L2_RISK_LATE_RFP_INFLUENCE",
+    "영향자": "L2_STAKEHOLDER_INFLUENCER",
+    "요구제안서": "L2_ARTIFACT_RFP",
+    "요구조건 구조": "L2_INFO_CUSTOMER_NEEDS_STRUCTURE",
+    "요구조건 구조 분석": "L2_TASK_REQUIREMENT_ICEBERG_ANALYSIS",
+    "우리 솔루션": "L2_INFO_OWN_SOLUTION",
+    "의사결정자": "L2_STAKEHOLDER_DECISION_MAKER",
+    "자사 솔루션": "L2_INFO_OWN_SOLUTION",
+    "전략 기술서": "L2_ARTIFACT_STRATEGY_STATEMENT",
+    "전략 리뷰": "L2_REVIEW_STRATEGY_REVIEW",
+    "전략기술서": "L2_ARTIFACT_STRATEGY_STATEMENT",
+    "전술": "L2_STRATEGY_VALIDATED_TACTIC",
+    "전술 개발": "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION",
+    "전술 개발 및 효과성 검증": "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION",
+    "전술 효과성 검증": "L2_TASK_TACTIC_DEVELOPMENT_VALIDATION",
+    "제안 기획": "L2_ARTIFACT_PROPOSAL_PLAN",
+    "제안 담당자": "L2_ROLE_PROPOSAL_TEAM",
+    "제안관리계획": "L2_ARTIFACT_PMP",
+    "제안서": "L2_ARTIFACT_PROPOSAL_DRAFT",
+    "제안서 기획": "L2_ARTIFACT_PROPOSAL_PLAN",
+    "제안서 기획 / proposal planning": "L2_TASK_PROPOSAL_PLANNING",
+    "제안서 완성본": "L2_ARTIFACT_PROPOSAL_DRAFT",
+    "제안서 작성": "L2_TASK_PROPOSAL_PREPARING",
+    "제안서 작성 / proposal preparing": "L2_TASK_PROPOSAL_PREPARING",
+    "제안서 준비": "L2_TASK_PROPOSAL_PREPARING",
+    "제안서 초안": "L2_ARTIFACT_PROPOSAL_DRAFT",
+    "제안서 초안·완성본": "L2_ARTIFACT_PROPOSAL_DRAFT",
+    "제안요청서": "L2_ARTIFACT_RFP",
+    "제안전략": "L2_STRATEGY_PROPOSAL_STRATEGY",
+    "제안전략 개발": "L2_TASK_PROPOSAL_STRATEGY_DEVELOPMENT",
+    "제안참여 의사결정": "L2_DECISION_BID_NO_BID",
+    "제안팀": "L2_ROLE_PROPOSAL_TEAM",
+    "차별화": "L2_PRINCIPLE_DIFFERENTIATION",
+    "차별화 요소": "L2_INFO_CORE_DIFFERENTIATOR",
+    "차별화 요소 규명": "L2_TASK_COMPETITOR_ANALYSIS",
+    "차별화 원칙": "L2_PRINCIPLE_DIFFERENTIATION",
+    "차별화 포인트": "L2_INFO_DIFFERENTIATION_POINT",
+    "참여": "L2_OUTCOME_BID",
+    "초안 리뷰": "L2_REVIEW_DRAFT_REVIEW",
+    "최종 리뷰": "L2_REVIEW_FINAL_REVIEW",
+    "커뮤니케이션": "L2_INFO_COMMUNICATION_STYLE",
+    "커뮤니케이션 방법": "L2_STRATEGY_COMMUNICATION_METHOD",
+    "커뮤니케이션 설계": "L2_TASK_PERSUASIVE_COMMUNICATION",
+    "커뮤니케이션 스타일": "L2_INFO_COMMUNICATION_STYLE",
+    "평가 기준": "L2_INFO_EVALUATION_CRITERIA",
+    "평가기준": "L2_INFO_EVALUATION_CRITERIA",
+    "평가위원 분석": "L2_TASK_EVALUATOR_ANALYSIS",
+    "평가자 공략 포인트": "L2_INFO_EVALUATOR_ATTACK_POINT",
+    "평가자 맞춤 메시지": "L2_INFO_PERSUASIVE_MESSAGE",
+    "평가자 분석": "L2_TASK_EVALUATOR_ANALYSIS",
+    "평가자별 공략 포인트": "L2_INFO_EVALUATOR_ATTACK_POINT",
+    "프레젠테이션 자료": "L2_ARTIFACT_PRESENTATION_MATERIAL",
+    "프레젠테이션 전략": "L2_STRATEGY_PRESENTATION_STRATEGY",
+    "프레젠테이션 준비": "L2_TASK_PRESENTATION_PREPARATION",
+    "프로세스 관리": "L2_PRINCIPLE_PROCESS_MANAGEMENT",
+    "프로세스 관리 원칙": "L2_PRINCIPLE_PROCESS_MANAGEMENT",
+    "프로세스가 중요하다": "L2_PRINCIPLE_PROCESS_MANAGEMENT",
+    "프로젝트 매니저": "L2_ROLE_PM",
+    "핵심 차별화 요소": "L2_INFO_CORE_DIFFERENTIATOR",
+    "핵심 차별화요소": "L2_PRINCIPLE_DIFFERENTIATION",
+    "핵심이슈": "L2_INFO_CUSTOMER_ISSUE",
+    "행정가": "L2_STAKEHOLDER_BUYER_ADMIN"
+  }
+}

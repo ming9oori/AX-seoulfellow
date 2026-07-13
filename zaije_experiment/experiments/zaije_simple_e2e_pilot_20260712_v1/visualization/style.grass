@@ -1,0 +1,7 @@
+node { diameter: 44px; color: #D9E2EC; border-color: #486581; border-width: 2px; caption: '{label}'; font-size: 10px; }
+node.WorkUnit { color: #9CC4E4; border-color: #2563A6; }
+node.Actor, node.Organization { color: #8FD3C7; border-color: #147D64; }
+node.Artifact { color: #C6B5E8; border-color: #6B4FA1; }
+node.InformationObject { color: #F7D774; border-color: #9A6700; }
+node.Anchor, node.EvidenceBundle { color: #D5D7DA; border-color: #5F6368; }
+relationship { color: #7B8794; shaft-width: 2px; caption: '<type>'; font-size: 8px; }

@@ -1,0 +1,48 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:22.794624+00:00",
+  "claim_status": "active_review_effort_roundtrip_smoke_not_paper_evidence",
+  "metrics": [
+    {
+      "arm": "active_priority",
+      "budget": 100,
+      "assigned": 20,
+      "reviewed": 20,
+      "review_seconds": 572.0,
+      "review_hours": 0.158889,
+      "corrected_errors": 6,
+      "high_impact_corrections": 1,
+      "corrections_per_hour": 37.762238,
+      "high_impact_corrections_per_hour": 6.293706,
+      "precision_corrected": 0.3,
+      "claim_status": "human_effort_evaluated"
+    },
+    {
+      "arm": "uncertainty_only",
+      "budget": 100,
+      "assigned": 22,
+      "reviewed": 22,
+      "review_seconds": 643.0,
+      "review_hours": 0.178611,
+      "corrected_errors": 8,
+      "high_impact_corrections": 2,
+      "corrections_per_hour": 44.790047,
+      "high_impact_corrections_per_hour": 11.197512,
+      "precision_corrected": 0.363636,
+      "claim_status": "human_effort_evaluated"
+    },
+    {
+      "arm": "random_control",
+      "budget": 100,
+      "assigned": 15,
+      "reviewed": 15,
+      "review_seconds": 420.0,
+      "review_hours": 0.116667,
+      "corrected_errors": 2,
+      "high_impact_corrections": 1,
+      "corrections_per_hour": 17.142857,
+      "high_impact_corrections_per_hour": 8.571429,
+      "precision_corrected": 0.133333,
+      "claim_status": "human_effort_evaluated"
+    }
+  ]
+}

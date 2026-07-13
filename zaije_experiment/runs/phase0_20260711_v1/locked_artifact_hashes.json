@@ -1,0 +1,11 @@
+{
+  "annotation/locks/gold_sampling_manifest.csv": "8d507d581d34932148320fa087920a258b919ce05c6ebdcbb7f598c47f6e43d6",
+  "annotation/pilot/pilot_bundles.jsonl": "fa50e4f60dd57b37752a86edefa4f4ae5302647b6f48c4e6f2b886d7076999fe",
+  "config/model_prompt_manifest.yaml": "f52273db84960e5f1a7d2fdb7407ba90b37b496f5a2438a789920b8d40d36b95",
+  "config/preregister.yaml": "341e94a132ba77e92ffbc0826ee244f30a4f91c2d43a82f9f880176c63a8fc28",
+  "config/preregistration_amendments.yaml": "c308abb26657eec6c8a3f8da8d25a2deb638659912151fc3c29fda43e9ae5d07",
+  "config/relation_registry.yaml": "ea38e7ba9bfbd558c0d5f5276c7983ad20b4a58ec1dc243c1119379040de458c",
+  "config/schema_awc.json": "af6440cf17b2fd00b1d3840d9b3146bce32e1544acaaa1c60cea8c37690c1ac1",
+  "config/shacl_shapes.ttl": "5ef65eee2465c777ccdecf8654477167dff242d938b7ca34bb2686a3678c5678",
+  "data/manifests/split_manifest.csv": "9d09f1f09be3ec8571ce078b67b7e161ffcd237a4196dcdd7b35b706d52cb4c5"
+}

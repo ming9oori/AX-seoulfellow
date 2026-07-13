@@ -1,0 +1,255 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-90_C01",
+            "contains_proposition": false,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "FRAGMENT",
+            "self_contained": false
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-90",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-106_C01",
+            "contains_proposition": false,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "FRAGMENT",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-106_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-106_C03",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "NON_MINIMAL_SUPERSET",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-106",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-208_C01",
+            "contains_proposition": false,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "FRAGMENT",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-208_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-208_C03",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "NON_MINIMAL_SUPERSET",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-208",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-283_C01",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "NON_MINIMAL_SUPERSET",
+            "self_contained": true
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-283_C02",
+            "contains_proposition": false,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "TABLE_SEPARATOR",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-283_C03",
+            "contains_proposition": false,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "TABLE_SEPARATOR",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-283_C04",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-283",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-329_C01",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "FRAGMENT",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-329_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-329_C03",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "NON_MINIMAL_SUPERSET",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-329",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-340_C01",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "FRAGMENT",
+            "self_contained": false
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-340_C02",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          },
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-340_C03",
+            "contains_proposition": true,
+            "decision": "DROP",
+            "discourse_only": false,
+            "minimal_without_material_loss": false,
+            "reason_code": "NON_MINIMAL_SUPERSET",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-340",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-349_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-349",
+        "missing_candidate": false,
+        "repeat_id": 1
+      },
+      {
+        "candidate_decisions": [
+          {
+            "candidate_id": "zaije:evidence/xlsx-row-350_C01",
+            "contains_proposition": true,
+            "decision": "KEEP",
+            "discourse_only": false,
+            "minimal_without_material_loss": true,
+            "reason_code": "PROPOSITION_MINIMAL",
+            "self_contained": true
+          }
+        ],
+        "configuration_id": "C04",
+        "evidence_id": "zaije:evidence/xlsx-row-350",
+        "missing_candidate": false,
+        "repeat_id": 1
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/boundary_C04_r1_b01_87713a1c60c6.json",
+  "response_id": "resp_00fcc32b7705d1ae006a531076c7608198b4ff607acbe0ea49",
+  "usage": {
+    "input_tokens": 2495,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 2304
+    },
+    "output_tokens": 1278,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3773
+  }
+}

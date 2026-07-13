@@ -1,0 +1,28 @@
+{
+  "scope": "DEV_EXPOSED_60 model bake-off only",
+  "fresh_r2_pilot_calls": 0,
+  "test_calls": 0,
+  "runs": {
+    "model_bakeoff": {
+      "calls": 72,
+      "input_tokens": 135688,
+      "output_tokens": 55849,
+      "estimated_cost_usd": 0.448074
+    },
+    "model_bakeoff_decomposed": {
+      "calls": 115,
+      "input_tokens": 231880,
+      "output_tokens": 86588,
+      "cached_tokens": 7808,
+      "estimated_cost_usd": 0.589519
+    }
+  },
+  "total": {
+    "calls": 187,
+    "input_tokens": 367568,
+    "output_tokens": 142437,
+    "cached_tokens": 7808,
+    "estimated_cost_usd": 1.037593
+  },
+  "note": "Computed from immutable raw API responses with preregistered model prices; actual billing can differ."
+}

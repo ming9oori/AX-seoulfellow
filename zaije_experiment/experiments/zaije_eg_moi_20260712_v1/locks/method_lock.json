@@ -1,0 +1,33 @@
+{
+  "accuracy_claimed": false,
+  "embedding": {
+    "gray_zone": [
+      0.82,
+      0.9
+    ],
+    "merge_cosine": 0.9,
+    "type": "sparse_character_ngram",
+    "widths": [
+      2,
+      3
+    ]
+  },
+  "experiment_id": "zaije_eg_moi_20260712_v1",
+  "fixed_metamodel": [
+    "Document",
+    "EvidenceUnit",
+    "Mention",
+    "SemanticFrame",
+    "ConceptCluster",
+    "RelationCluster",
+    "Assertion",
+    "ExtractionActivity"
+  ],
+  "human_intervention_count": 0,
+  "llm_policy": "Only gray-zone cluster decisions; skipped because OPENAI_API_KEY was unavailable; candidates retained as UNRESOLVED",
+  "method": "EG-MOI-1.0",
+  "source_binary_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "source_file": "handoff-hanyang/수주제안/자이제_1.xlsx",
+  "source_row_count": 1366,
+  "source_sheet": "clean_sentences"
+}

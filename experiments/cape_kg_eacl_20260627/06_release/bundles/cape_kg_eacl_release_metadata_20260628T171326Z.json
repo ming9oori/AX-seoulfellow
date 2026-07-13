@@ -1,0 +1,667 @@
+{
+  "generated_at_utc": "2026-06-28T17:13:26.122389+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "stamp": "20260628T171326Z",
+  "internal_file_count": 1444,
+  "public_safe_file_count": 237,
+  "internal_checksums": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_internal_20260628T171326Z.sha256",
+  "public_safe_checksums": "experiments/cape_kg_eacl_20260627/06_release/bundles/cape_kg_eacl_public_safe_20260628T171326Z.sha256",
+  "public_safe_candidate_file_count": 283,
+  "public_safe_excluded_file_count": 46,
+  "public_safe_candidate_risky_paths": [],
+  "public_safe_candidate_risky_text_references": [
+    {
+      "path": "scripts/run_cape_kg_eacl_experiment.sh",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "scripts/run_cape_kg_eacl_experiment.sh",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "scripts/run_cape_post_annotation_refresh.sh",
+      "pattern": "01_data/",
+      "occurrences": 5
+    },
+    {
+      "path": "scripts/run_cape_post_annotation_refresh.sh",
+      "pattern": "annotator_",
+      "occurrences": 16
+    },
+    {
+      "path": "scripts/run_cape_post_annotation_refresh.sh",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.json",
+      "pattern": "01_data/",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.md",
+      "pattern": "01_data/",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/00_plan/requirements_matrix.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+      "pattern": "01_data/",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+      "pattern": "annotator_",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_report.md",
+      "pattern": "annotator_",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "pattern": "annotator_",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_report.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 11
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "pattern": "01_data/",
+      "occurrences": 20
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 51
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "pattern": "annotator_",
+      "occurrences": 65
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_progress_summary.json",
+      "pattern": "annotator_",
+      "occurrences": 156
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_summary.json",
+      "pattern": "01_data/",
+      "occurrences": 8
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_summary.json",
+      "pattern": "annotator_",
+      "occurrences": 16
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_qc_summary.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+      "pattern": "01_data/",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+      "pattern": "annotator_",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.json",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "01_data/",
+      "occurrences": 23
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 20
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "annotator_",
+      "occurrences": 40
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "01_data/",
+      "occurrences": 19
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 20
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "annotator_",
+      "occurrences": 40
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+      "pattern": "01_data/",
+      "occurrences": 16
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 40
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+      "pattern": "annotator_",
+      "occurrences": 126
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+      "pattern": "01_data/",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 20
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+      "pattern": "annotator_",
+      "occurrences": 32
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+      "pattern": "01_data/",
+      "occurrences": 16
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 40
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+      "pattern": "annotator_",
+      "occurrences": 72
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 5
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 10
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_master_checklist_ko.md",
+      "pattern": "annotator_",
+      "occurrences": 22
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+      "pattern": "01_data/",
+      "occurrences": 15
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 20
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+      "pattern": "annotator_",
+      "occurrences": 30
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 16
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 4
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "annotation_workbench.html",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "annotator_",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_summary.json",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+      "pattern": "01_data/",
+      "occurrences": 5
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+      "pattern": "01_data/",
+      "occurrences": 5
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/method_module_coverage.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/model_selection_and_scaling_plan.md",
+      "pattern": "01_data/",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/model_selection_and_scaling_plan.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+      "pattern": "01_data/",
+      "occurrences": 11
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+      "pattern": "annotator_",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "pattern": "01_data/",
+      "occurrences": 11
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "pattern": "annotator_",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "pattern": "01_data/",
+      "occurrences": 11
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "pattern": "annotator_",
+      "occurrences": 10
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_prov_o.ttl",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/public_synthetic_examples/synthetic_gold.jsonl",
+      "pattern": "annotator_",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "01_data/",
+      "occurrences": 131
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 52
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "gold_annotation_template.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 28
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "annotation_workbench.html",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "annotator_",
+      "occurrences": 272
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 10
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/reproducibility_manifest.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 5
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.json",
+      "pattern": "01_data/",
+      "occurrences": 15
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 15
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strict_json_diagnostics.md",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+      "pattern": "01_data/",
+      "occurrences": 8
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+      "pattern": "annotator_",
+      "occurrences": 4
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+      "pattern": "adjudication.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.json",
+      "pattern": "adjudication_draft.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.md",
+      "pattern": "01_data/",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/strong_review_return_preflight.md",
+      "pattern": "annotator_",
+      "occurrences": 4
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.json",
+      "pattern": "01_data/",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.json",
+      "pattern": "evaluation_chunks.jsonl",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.json",
+      "pattern": "01_data/",
+      "occurrences": 6
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/submission_readiness_audit.json",
+      "pattern": "05_review/human_gold_batches/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/current_experiment_methodology_and_results_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 3
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/current_experiment_methodology_and_results_ko.md",
+      "pattern": "annotator_",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+      "pattern": "annotator_",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/final_eacl_experiment_report.md",
+      "pattern": "01_data/",
+      "occurrences": 12
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/final_eacl_experiment_report.md",
+      "pattern": "annotation_workbench.html",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/final_eacl_experiment_report.md",
+      "pattern": "annotator_",
+      "occurrences": 2
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_presentation_revised_current_20260628_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 5
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260628_ko.md",
+      "pattern": "01_data/",
+      "occurrences": 1
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/07_reports/professor_report_core_summary_current_20260628_ko.md",
+      "pattern": "annotator_",
+      "occurrences": 2
+    }
+  ],
+  "public_safe_risky_paths": [],
+  "public_safe_risky_text_references": [],
+  "public_external_release_review_queue_csv": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.csv",
+  "public_external_release_review_queue_md": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md",
+  "public_external_release_excluded_review_queue_csv": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_excluded_review_queue.csv",
+  "public_external_release_excluded_review_queue_md": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_excluded_review_queue.md"
+}

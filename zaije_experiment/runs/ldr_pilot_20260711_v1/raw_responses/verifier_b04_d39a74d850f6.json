@@ -1,0 +1,195 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783795529,
+  "created_at": 1783795522,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_0ae22f2605a87509006a528f42ecb08198a28850572cb0f733",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4o-2024-08-06",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"verifications\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-289\",\"results\":[{\"claim_local_id\":\"c1\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]}]},{\"evidence_id\":\"zaije:evidence/xlsx-row-30\",\"results\":[{\"claim_local_id\":\"claim_1\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]}]},{\"evidence_id\":\"zaije:evidence/xlsx-row-329\",\"results\":[{\"claim_local_id\":\"c2\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]},{\"claim_local_id\":\"1\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]}]},{\"evidence_id\":\"zaije:evidence/xlsx-row-340\",\"results\":[{\"claim_local_id\":\"c3\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]},{\"claim_local_id\":\"1\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]}]},{\"evidence_id\":\"zaije:evidence/xlsx-row-349\",\"results\":[{\"claim_local_id\":\"c4\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]},{\"claim_local_id\":\"1\",\"status\":\"ENTAILED\",\"quote_is_exact_substring\":true,\"claim_is_supported\":true,\"argument_is_supported\":true,\"modality_preserved\":true,\"polarity_preserved\":true,\"condition_preserved\":true,\"exception_preserved\":true,\"scope_not_overgeneralized\":true,\"example_not_promoted_as_rule\":true,\"numeric_value_and_unit_preserved\":true,\"process_direction_preserved\":true,\"failure_reasons\":[]}]}]}",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_0ae22f2605a87509006a528f43a94881989abe167baf3a1c64",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_verifications",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "verifications": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "evidence_id": {
+                  "type": "string"
+                },
+                "results": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "argument_is_supported": {
+                        "type": "boolean"
+                      },
+                      "claim_is_supported": {
+                        "type": "boolean"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "condition_preserved": {
+                        "type": "boolean"
+                      },
+                      "example_not_promoted_as_rule": {
+                        "type": "boolean"
+                      },
+                      "exception_preserved": {
+                        "type": "boolean"
+                      },
+                      "failure_reasons": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "modality_preserved": {
+                        "type": "boolean"
+                      },
+                      "numeric_value_and_unit_preserved": {
+                        "type": "boolean"
+                      },
+                      "polarity_preserved": {
+                        "type": "boolean"
+                      },
+                      "process_direction_preserved": {
+                        "type": "boolean"
+                      },
+                      "quote_is_exact_substring": {
+                        "type": "boolean"
+                      },
+                      "scope_not_overgeneralized": {
+                        "type": "boolean"
+                      },
+                      "status": {
+                        "enum": [
+                          "ENTAILED",
+                          "CONTRADICTED",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "status",
+                      "quote_is_exact_substring",
+                      "claim_is_supported",
+                      "argument_is_supported",
+                      "modality_preserved",
+                      "polarity_preserved",
+                      "condition_preserved",
+                      "exception_preserved",
+                      "scope_not_overgeneralized",
+                      "example_not_promoted_as_rule",
+                      "numeric_value_and_unit_preserved",
+                      "process_direction_preserved",
+                      "failure_reasons"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "results"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "verifications"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 5227,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 863,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6090
+  },
+  "user": null
+}

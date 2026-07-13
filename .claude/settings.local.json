@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs ls -la)",
+      "Bash(python3 *)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg)",
+      "Bash(sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg)",
+      "Bash(dpkg --print-architecture)",
+      "Bash(echo \"deb [arch=$\\(dpkg --print-architecture\\) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main\")",
+      "Bash(sudo tee /etc/apt/sources.list.d/github-cli.list)",
+      "Bash(sudo apt update -qq)",
+      "Bash(sudo apt install gh -y)",
+      "Bash(pip install *)",
+      "Bash(conda install *)",
+      "Bash(~/miniconda3/bin/conda install *)",
+      "Bash(~/miniconda3/bin/gh --version)",
+      "Bash(~/miniconda3/bin/gh auth *)",
+      "Bash(~/miniconda3/bin/gh repo *)",
+      "Bash(mkdir -p /tmp/showcase-readme)",
+      "Bash(cat /dev/null)",
+      "Bash(~/miniconda3/bin/gh api *)"
+    ]
+  }
+}

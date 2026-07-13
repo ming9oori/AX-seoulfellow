@@ -1,0 +1,9 @@
+{
+  "cq_split_locked": true,
+  "llm_budget_policy_locked": true,
+  "promotion_policy_locked": true,
+  "relation_registry_locked": true,
+  "shacl_policy_locked": true,
+  "status": "PASS",
+  "test_access": 0
+}

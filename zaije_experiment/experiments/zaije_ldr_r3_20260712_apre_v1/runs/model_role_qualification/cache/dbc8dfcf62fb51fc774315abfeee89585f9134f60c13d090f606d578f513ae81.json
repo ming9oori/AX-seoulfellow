@@ -1,0 +1,20 @@
+{
+  "parsed": {
+    "decision": "CONTRADICTED",
+    "proposal_id": "FAL::C03::r1::CONTRADICTED::03"
+  },
+  "raw_response_path": "raw_responses/falsifier_C03_r1_CONTRADICTED_03_dbc8dfcf62fb.json",
+  "response_id": "resp_04d14b17c22976ca006a53224e0120819b9e10bd87049da103",
+  "usage": {
+    "input_tokens": 354,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 30,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 384
+  }
+}

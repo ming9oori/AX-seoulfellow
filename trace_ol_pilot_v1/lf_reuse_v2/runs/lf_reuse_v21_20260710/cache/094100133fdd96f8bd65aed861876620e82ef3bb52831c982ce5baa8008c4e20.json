@@ -1,0 +1,393 @@
+{
+  "response_id": "resp_0b7171f47af77e7d006a51167f1b5c8199833e28e41432c7c4",
+  "usage": {
+    "input_tokens": 2885,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2203,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5088
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1002",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1003",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1002",
+              "text": "핵심 이슈는 ‘중요한 점(Hot Button)’으로, 고객의 요구사항 중 중요한 전략 포인트이다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1003",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1003",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1003",
+              "text": "이 핵심 이슈는 빙산 윗부분뿐 아니라 빙산 아래에도 있다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1004",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1005",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1004",
+              "text": "‘IT 임원의 보직 유지’는 비공식적이고 개인적인 이슈이지만 의사결정에 참여하는 영향자이기 때문에 이 이슈를 다루는 것이 중요할 수 있다.",
+              "start": 0,
+              "end": 83
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1005",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1005",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1005",
+              "text": "경쟁사 비교표(BCM)가 완성되었다면 아래의 질문을 통해 타당성을 검증한다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "PROCEDURAL",
+            "claim_type": "ProcessOrder",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1011",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1012",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1011",
+              "text": "경쟁사 비교표(BCM)의 작성 목적은 고객의 핵심 이슈별로 우리가 경쟁사에 비해 얼마큼의 경쟁력이 있는지를 판단하고 이에 따른 전략을 세우는 것이다.",
+              "start": 0,
+              "end": 92
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1012",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1012",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1012",
+              "text": "따라서 표의 숫자를 맹신하거나 계량적인 결론을 도출하는 것은 적절하지 않다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Prohibition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1019",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1019",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1019",
+              "text": "이 인식은 사실에 근거할 때도 있지만 사실과 다른 경우도 많다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1025",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1025",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1025",
+              "text": "만약 분석 주체에 따라서 분석 결과가 변동한다면 이것을 기반으로 전략을 개발하기는 어렵다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1030",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1030",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1030",
+              "text": "고객은 자신들의 니즈를 암묵지 형태나 문서화되지 않은 형태로 가지고 있는 경우가 많다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1142",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1142",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1142",
+              "text": "이것이 차별화(Discriminating)이다.",
+              "start": 0,
+              "end": 20
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1146",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1146",
+        "annotator": {
+          "role": "C",
+          "model_id": "model_1",
+          "prompt_version": "v1",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_11",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1146",
+              "text": "금융분야 해외사업을 20년 경험한 PM은 차별화된 솔루션이다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

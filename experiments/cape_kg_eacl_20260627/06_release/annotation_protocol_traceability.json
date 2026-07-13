@@ -1,0 +1,418 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.422620+00:00",
+  "claim_status": "annotation_protocol_traceability_ready_pending_human_returns",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "summary": {
+    "claim_status": "annotation_protocol_traceability_ready_pending_human_returns",
+    "plan_target_count": 10,
+    "covered_plan_target_count": 10,
+    "minimum_chunk_target": 100,
+    "minimum_gold_item_target": 500,
+    "strong_chunk_target_min": 300,
+    "strong_chunk_target_max": 500,
+    "strong_gold_item_target_min": 1500,
+    "strong_gold_item_target_max": 3000,
+    "batch_count": 5,
+    "batch_size": 20,
+    "assigned_chunks": 100,
+    "candidate_edges_total": 1371,
+    "active_review_items_total": 264,
+    "high_impact_chunks": 64,
+    "annotator_count": 2,
+    "adjudicator_required": true,
+    "minimum_annotation_input_files": 10,
+    "minimum_annotation_chunks": 100,
+    "minimum_annotation_candidate_edges": 1371,
+    "required_return_file_count": 14,
+    "required_return_file_present_count": 0,
+    "minimum_required_return_file_count": 11,
+    "minimum_required_return_file_present_count": 0,
+    "completed_pair_chunks": 0,
+    "pending_pair_chunks": 120,
+    "adjudicated_chunks": 0,
+    "pending_or_incomplete_chunks": 120,
+    "gold_item_count": 0,
+    "validation_error_count": 0,
+    "human_gold_metric_status": "pending_human_adjudication",
+    "packet_integrity_error_count": 0,
+    "packet_integrity_warning_count": 0,
+    "handoff_bundle_count": 9,
+    "missing_handoff_bundle_count": 0,
+    "mapping_review_return_file_count": 1,
+    "mapping_review_return_present_count": 0,
+    "crosswalk_review_return_file_count": 1,
+    "crosswalk_review_return_present_count": 0,
+    "active_effort_return_file_count": 1,
+    "active_effort_return_present_count": 0,
+    "iaa_status": "pending_human_annotations",
+    "adjudication_claim_status": "draft_not_final_human_gold",
+    "human_gold_claim_status": "pending_human_adjudication"
+  },
+  "annotation_schema_summary": {
+    "annotation_file_type": "jsonl",
+    "required_chunk_fields": [
+      "chunk_id",
+      "chunk_text",
+      "gold_nodes",
+      "gold_edges",
+      "annotation_status"
+    ],
+    "gold_node_fields": [
+      "node_id",
+      "type",
+      "label",
+      "evidence"
+    ],
+    "gold_edge_fields": [
+      "source_id",
+      "source_label",
+      "source_type",
+      "predicate",
+      "target_id",
+      "target_label",
+      "target_type",
+      "evidence_anchor_ids",
+      "evidence_spans",
+      "decision"
+    ],
+    "completed_status_values": [
+      "completed",
+      "needs_adjudication"
+    ],
+    "paper_claim_requires": [
+      "100+ completed/adjudicated chunks",
+      "500+ adjudicated node/edge/evidence items",
+      "two annotators",
+      "IAA report",
+      "adjudicated gold file"
+    ]
+  },
+  "plan_target_rows": [
+    {
+      "target_id": "T01_task_or_procedure_step",
+      "plan_requirement": "Task 또는 ProcedureStep 표시",
+      "protocol_coverage": "Guideline node type table and gold_node_fields cover DomainTask and ProcedureStep.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T02_artifact",
+      "plan_requirement": "Artifact 표시",
+      "protocol_coverage": "Guideline node type table and gold_node_fields cover Artifact.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T03_role",
+      "plan_requirement": "Role 표시",
+      "protocol_coverage": "Guideline node type table and gold_node_fields cover Role.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T04_decision_gateway",
+      "plan_requirement": "DecisionGateway 표시",
+      "protocol_coverage": "Guideline node type table and gold_node_fields cover DecisionGateway.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T05_guard_condition",
+      "plan_requirement": "GuardCondition 표시",
+      "protocol_coverage": "Guideline node type table and gold_node_fields cover GuardCondition.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T06_review_checkpoint",
+      "plan_requirement": "ReviewCheckpoint 표시",
+      "protocol_coverage": "Guideline node type table covers ReviewCheckpoint; current KG projects review/check/approval-signaled ProcedureStep nodes as ReviewCheckpoint.",
+      "evidence_artifacts": "annotation_guideline_v1.md; cq_query_pack.md; prompt_node_edge_traceability.md; structural_evaluation_metrics.json",
+      "current_status": "covered_by_protocol_and_current_kg_projection_pending_human_annotation"
+    },
+    {
+      "target_id": "T07_principle_or_risk",
+      "plan_requirement": "Principle/Risk 표시",
+      "protocol_coverage": "Guideline node type table and predicate table cover Principle and Risk.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T08_edge_type",
+      "plan_requirement": "Edge type 표시",
+      "protocol_coverage": "Guideline predicate table and gold_edge_fields require predicate, source, target, and decision.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T09_evidence_span",
+      "plan_requirement": "Evidence span 표시",
+      "protocol_coverage": "Guideline evidence section and gold_edge_fields require evidence_anchor_ids and evidence_spans.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_schema.json; human_gold_span_iou_report.md",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    },
+    {
+      "target_id": "T10_page_and_chunk_id",
+      "plan_requirement": "page/chunk ID 표시",
+      "protocol_coverage": "Batch/template records retain chunk_id and page metadata; annotators must not modify package identity.",
+      "evidence_artifacts": "annotation_guideline_v1.md; annotation_batch_assignment_summary.json; human_review_master_return_files.csv",
+      "current_status": "covered_by_protocol_pending_human_annotation"
+    }
+  ],
+  "workflow_rows": [
+    {
+      "workflow_id": "W01_schema_and_guideline",
+      "stage": "Annotation schema and guideline",
+      "evidence": "annotation_schema.json; annotation_guideline_v1.md",
+      "current_status": "ready",
+      "gate_effect": "Defines allowed node/edge/evidence fields before human annotation."
+    },
+    {
+      "workflow_id": "W02_batch_assignment",
+      "stage": "Priority-100 two-annotator batch assignment",
+      "evidence": "annotation_batch_assignment_summary.json",
+      "current_status": "100/100 minimum chunks assigned",
+      "gate_effect": "Prepares the minimum 100-chunk paper gate inputs."
+    },
+    {
+      "workflow_id": "W03_independent_annotation",
+      "stage": "Independent annotator A/B returns",
+      "evidence": "human_gate_required_returns.csv",
+      "current_status": "0/11 minimum return files present",
+      "gate_effect": "Unlocks IAA, adjudication, and human-gold scoring only after returns exist."
+    },
+    {
+      "workflow_id": "W04_iaa",
+      "stage": "Inter-annotator agreement",
+      "evidence": "iaa_full_120/iaa_summary.json",
+      "current_status": "0/100 paired chunks completed",
+      "gate_effect": "Blocks edge F1/type agreement/span IoU reporting until paired annotation exists."
+    },
+    {
+      "workflow_id": "W05_adjudication",
+      "stage": "Adjudication",
+      "evidence": "full_120/adjudication_draft_summary.json",
+      "current_status": "0/100 adjudicated chunks",
+      "gate_effect": "Blocks final gold labels and paper main table until adjudication is complete."
+    },
+    {
+      "workflow_id": "W06_human_gold_validation",
+      "stage": "Human-gold validation",
+      "evidence": "human_gold_validation_summary.json",
+      "current_status": "0/500 adjudicated items",
+      "gate_effect": "Requires 100+ chunks, 500+ items, and zero validation errors for minimum claim readiness."
+    },
+    {
+      "workflow_id": "W07_proposed_human_gold_scoring",
+      "stage": "P_cape_kg_actual human-gold scoring",
+      "evidence": "human_gold_metrics.json",
+      "current_status": "pending_human_adjudication",
+      "gate_effect": "Final proposed-method F1 remains unavailable before adjudicated gold."
+    },
+    {
+      "workflow_id": "W08_mapping_expert_review",
+      "stage": "NCS/PCF mapping expert review",
+      "evidence": "human_gate_required_returns.csv; mapping_expert_metrics.json",
+      "current_status": "0/1 expert return files present",
+      "gate_effect": "Blocks mapping P@K/MRR/nDCG and accept-rate claims."
+    },
+    {
+      "workflow_id": "W09_crosswalk_expert_review",
+      "stage": "NCS-PCF crosswalk expert review",
+      "evidence": "human_gate_required_returns.csv; crosswalk_expert_metrics.json",
+      "current_status": "0/1 expert return files present",
+      "gate_effect": "Blocks crosswalk utility and ranking claims."
+    },
+    {
+      "workflow_id": "W10_active_review_effort",
+      "stage": "Active-review human-effort evidence",
+      "evidence": "human_gate_required_returns.csv; active_review_human_effort_report.md",
+      "current_status": "0/1 effort return files present",
+      "gate_effect": "Blocks active-review efficiency and human-effort reduction claims."
+    }
+  ],
+  "return_file_summary": [
+    {
+      "task_type": "active_review_human_effort",
+      "rows": 1,
+      "present": 0,
+      "missing": 1
+    },
+    {
+      "task_type": "crosswalk_expert_review",
+      "rows": 1,
+      "present": 0,
+      "missing": 1
+    },
+    {
+      "task_type": "human_gold_adjudication",
+      "rows": 1,
+      "present": 0,
+      "missing": 1
+    },
+    {
+      "task_type": "human_gold_annotation",
+      "rows": 10,
+      "present": 0,
+      "missing": 10
+    },
+    {
+      "task_type": "mapping_expert_review",
+      "rows": 1,
+      "present": 0,
+      "missing": 1
+    }
+  ],
+  "gate_summary_rows": [
+    {
+      "gate_id": "min.iaa",
+      "gate_type": "minimum_accept",
+      "required_for_minimum": "yes",
+      "claim_status": "pending_human",
+      "current_progress": "0/10 annotation reviewed files present; 0/100 paired completed chunks.",
+      "blocking_return_file_count": 10
+    },
+    {
+      "gate_id": "min.gold_chunks",
+      "gate_type": "minimum_accept",
+      "required_for_minimum": "yes",
+      "claim_status": "pending_human",
+      "current_progress": "0/100 adjudicated chunks.",
+      "blocking_return_file_count": 11
+    },
+    {
+      "gate_id": "min.gold_items",
+      "gate_type": "minimum_accept",
+      "required_for_minimum": "yes",
+      "claim_status": "pending_human",
+      "current_progress": "0/500 adjudicated node/edge/evidence items in current validation summary.",
+      "blocking_return_file_count": 11
+    },
+    {
+      "gate_id": "min.proposed",
+      "gate_type": "minimum_accept",
+      "required_for_minimum": "yes",
+      "claim_status": "partial",
+      "current_progress": "P_cape_kg_actual generated for 120 rows; human-gold scored conditions=[] until adjudication exists.",
+      "blocking_return_file_count": 1
+    },
+    {
+      "gate_id": "mapping.expert_review",
+      "gate_type": "optional_strong",
+      "required_for_minimum": "no",
+      "claim_status": "pending_expert_review",
+      "current_progress": "0/44 source-task-standard groups complete; 0/20 priority Top-5 groups complete; 220 candidate rows pending.",
+      "blocking_return_file_count": 1
+    },
+    {
+      "gate_id": "crosswalk.expert_review",
+      "gate_type": "optional_strong",
+      "required_for_minimum": "no",
+      "claim_status": "pending_crosswalk_expert_review",
+      "current_progress": "0/22 source-task groups complete; 0/220 rows complete.",
+      "blocking_return_file_count": 1
+    },
+    {
+      "gate_id": "strong.active_review_effort",
+      "gate_type": "strong_or_auxiliary",
+      "required_for_minimum": "no",
+      "claim_status": "pending_human_effort_timing",
+      "current_progress": "0/204 reviewed rows; 0 timed rows.",
+      "blocking_return_file_count": 1
+    }
+  ],
+  "claim_boundary": {
+    "safe_scope": "Use as an internal traceability map from revised-plan annotation requirements to prepared annotation protocol, batches, IAA/adjudication placeholders, and claim gates.",
+    "not_claimable": "This artifact does not satisfy human-gold annotation, IAA, adjudication, final extraction F1, mapping expert review, crosswalk utility, or active-review efficiency claims.",
+    "human_or_expert_gated": true,
+    "current_gate_status": "pending_human_annotations"
+  },
+  "source_artifacts": {
+    "revised_plan": {
+      "role": "revised EACL plan",
+      "path": "AX_EACL_submission_review_revised_plan.md",
+      "exists": true,
+      "bytes": 29461
+    },
+    "annotation_guideline": {
+      "role": "human-gold annotation guideline",
+      "path": "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+      "exists": true,
+      "bytes": 12652
+    },
+    "annotation_schema": {
+      "role": "human-gold schema",
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_schema.json",
+      "exists": true,
+      "bytes": 741
+    },
+    "batch_assignment": {
+      "role": "priority-100 batch assignment summary",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/annotation_batch_assignment_summary.json",
+      "exists": true,
+      "bytes": 21447
+    },
+    "human_review_packet_integrity": {
+      "role": "handoff bundle integrity summary",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_packet_integrity.json",
+      "exists": true,
+      "bytes": 14261
+    },
+    "iaa_summary": {
+      "role": "IAA summary",
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/iaa_full_120/iaa_summary.json",
+      "exists": true,
+      "bytes": 444
+    },
+    "adjudication_draft_summary": {
+      "role": "adjudication draft summary",
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft_summary.json",
+      "exists": true,
+      "bytes": 1113
+    },
+    "human_gold_validation_summary": {
+      "role": "human-gold validation summary",
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_validation_summary.json",
+      "exists": true,
+      "bytes": 848
+    },
+    "human_gold_metrics": {
+      "role": "human-gold metric output",
+      "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+      "exists": true,
+      "bytes": 1509
+    },
+    "required_returns": {
+      "role": "required human-return manifest",
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_gate_required_returns.csv",
+      "exists": true,
+      "bytes": 7485
+    },
+    "gate_dependency_matrix": {
+      "role": "claim gate dependency matrix",
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_gate_dependency_matrix.csv",
+      "exists": true,
+      "bytes": 13358
+    },
+    "claim_gate_report": {
+      "role": "claim gate report",
+      "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.json",
+      "exists": true,
+      "bytes": 16096
+    },
+    "outputs_dir": {
+      "role": "final Layer 2 edge output",
+      "path": "outputs/07_layer2_graph/layer2_edges.jsonl",
+      "exists": true,
+      "bytes": 331827
+    }
+  },
+  "missing_source_artifacts": [],
+  "outputs": {
+    "json": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.json",
+    "markdown": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.md",
+    "csv": "experiments/cape_kg_eacl_20260627/06_release/annotation_protocol_traceability.csv"
+  }
+}

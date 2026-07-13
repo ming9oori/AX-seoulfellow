@@ -1,0 +1,359 @@
+{
+  "response_id": "resp_0697595e8da545fa006a5112244dc8819aae2d3b4f611bb8c2",
+  "usage": {
+    "input_tokens": 3374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2833,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 6207
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r746",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r747",
+              "text": "이 경우에는 우리가 솔루션을 제공하는 기간과 규모가 클수록 양사(구매자와 판매자)의 타격이 커진다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r753",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r753",
+              "text": "그 순간부터 당신과 당신 조직은 결코 밤을 새워가며 제안 전략을 고민하고, 제안서를 작성하지 않을 것이다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Prohibition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r757",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r757",
+              "text": "따라서 이 세 가지 방법을 통합적으로 활용하여 고객을 논리적으로, 이성적으로, 신뢰에 기초하여 설득하라.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r760",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r760",
+              "text": "고객에게 설득력이 높은 제안은 논리적으로 설득적일 뿐만 아니라 감성적으로 신뢰를 확보하는 것을 말한다.",
+              "start": 0,
+              "end": 56
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r763",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r763",
+              "text": "설득은 고객이 상품이나 서비스의 구매결정을 할 수 있도록 만드는 것이며, 효과적인 설득을 위해서는 사람들이 어떻게 구매를 결정하는지 이해하는 것이 필요하다.",
+              "start": 0,
+              "end": 112
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r768",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r768",
+              "text": "그리고 영업대표의 역할은 이런 고객에게 구매의 불합리성을 지적하는 것이 아니라 이들의 ‘감성적 설득’과 ‘논리적 동의’ 과정을 잘 지원해 주는 것이다.",
+              "start": 0,
+              "end": 112
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r787",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r787",
+              "text": "그리고 그 사실은 본인들도 모르는 경우가 많아.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r794",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r794",
+              "text": "거듭 말하지만 정부나 기업 같은 추상적인 집단을 대상으로 하는 세일즈는 쉬플리팁에서 소개한 사례처럼 개인을 대상으로 하는 세일즈와는 다르다.",
+              "start": 0,
+              "end": 112
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r796",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r796",
+              "text": "그럼에도 불구하고 이 사례를 소개한 이유가 있다.",
+              "start": 0,
+              "end": 36
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r798",
+        "bundle_id": null,
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic_work_claim_schema_v0.2",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r798",
+              "text": "종종 개인의 주관적인 견해나 리더십이 합리성을 넘어설 때도 있으니 그것을 전문가인 여러분의 관점에서 판단하지 말고, 고객의 관점을 존중해 주어야 한다.",
+              "start": 0,
+              "end": 112
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

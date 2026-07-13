@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:20.842083+00:00",
+  "annotator_a": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_A.jsonl",
+  "annotator_b": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/pilot_30/annotator_B.jsonl",
+  "shared_chunks": 30,
+  "completed_pair_chunks": 0,
+  "pending_pair_chunks": 30,
+  "status": "pending_human_annotations",
+  "metrics": null,
+  "disagreement_chunks": []
+}

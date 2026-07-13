@@ -1,0 +1,25 @@
+{
+  "generated_at_utc": "2026-06-27T20:08:34.926742+00:00",
+  "mode": "dry_run",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "target_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+  "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/annotator_A.jsonl",
+  "allow_partial": false,
+  "original_rows": 120,
+  "reviewed_rows": 120,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": [],
+  "issue_count_truncated": 0,
+  "summary": {
+    "mode": "annotation",
+    "changed_rows": 0,
+    "status_counts": {
+      "pending_human_annotation": 120
+    },
+    "gold_node_rows": 0,
+    "gold_edge_rows": 0
+  },
+  "status": "validated_dry_run"
+}

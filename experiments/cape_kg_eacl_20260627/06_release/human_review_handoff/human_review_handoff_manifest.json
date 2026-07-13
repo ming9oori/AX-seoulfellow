@@ -1,0 +1,413 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:34.243929+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "output_dir": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff",
+  "batch_count": 5,
+  "assigned_chunks": 100,
+  "candidate_edges_total": 1371,
+  "claim_status": "handoff_ready_pending_human_review",
+  "annotators": {
+    "A": {
+      "annotator": "A",
+      "package": "full_120",
+      "rows": 100,
+      "unique_chunks": 100,
+      "duplicate_chunk_count": 0,
+      "candidate_edges_total": 1371,
+      "status_counts": {
+        "pending_human_annotation": 100
+      },
+      "batches": [
+        {
+          "batch_id": "full_120_priority_batch_001",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 811,
+          "chunk_ids": [
+            "JZ-CHUNK-0094",
+            "JZ-CHUNK-0020",
+            "JZ-CHUNK-0032",
+            "JZ-CHUNK-0016",
+            "JZ-CHUNK-0019",
+            "JZ-CHUNK-0002",
+            "JZ-CHUNK-0099",
+            "JZ-CHUNK-0017",
+            "JZ-CHUNK-0108",
+            "JZ-CHUNK-0018",
+            "JZ-CHUNK-0069",
+            "JZ-CHUNK-0033",
+            "JZ-CHUNK-0098",
+            "JZ-CHUNK-0101",
+            "JZ-CHUNK-0103",
+            "JZ-CHUNK-0104",
+            "JZ-CHUNK-0097",
+            "JZ-CHUNK-0196",
+            "JZ-CHUNK-0188",
+            "JZ-CHUNK-0092"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_002",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 180,
+          "chunk_ids": [
+            "JZ-CHUNK-0102",
+            "JZ-CHUNK-0090",
+            "JZ-CHUNK-0042",
+            "JZ-CHUNK-0106",
+            "JZ-CHUNK-0013",
+            "JZ-CHUNK-0026",
+            "JZ-CHUNK-0093",
+            "JZ-CHUNK-0054",
+            "JZ-CHUNK-0130",
+            "JZ-CHUNK-0008",
+            "JZ-CHUNK-0199",
+            "JZ-CHUNK-0037",
+            "JZ-CHUNK-0205",
+            "JZ-CHUNK-0107",
+            "JZ-CHUNK-0132",
+            "JZ-CHUNK-0014",
+            "JZ-CHUNK-0024",
+            "JZ-CHUNK-0010",
+            "JZ-CHUNK-0134",
+            "JZ-CHUNK-0140"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_003",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 152,
+          "chunk_ids": [
+            "JZ-CHUNK-0145",
+            "JZ-CHUNK-0190",
+            "JZ-CHUNK-0195",
+            "JZ-CHUNK-0137",
+            "JZ-CHUNK-0058",
+            "JZ-CHUNK-0143",
+            "JZ-CHUNK-0198",
+            "JZ-CHUNK-0187",
+            "JZ-CHUNK-0189",
+            "JZ-CHUNK-0009",
+            "JZ-CHUNK-0148",
+            "JZ-CHUNK-0193",
+            "JZ-CHUNK-0012",
+            "JZ-CHUNK-0144",
+            "JZ-CHUNK-0138",
+            "JZ-CHUNK-0007",
+            "JZ-CHUNK-0053",
+            "JZ-CHUNK-0034",
+            "JZ-CHUNK-0056",
+            "JZ-CHUNK-0038"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_004",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 91,
+          "chunk_ids": [
+            "JZ-CHUNK-0091",
+            "JZ-CHUNK-0191",
+            "JZ-CHUNK-0028",
+            "JZ-CHUNK-0061",
+            "JZ-CHUNK-0031",
+            "JZ-CHUNK-0141",
+            "JZ-CHUNK-0006",
+            "JZ-CHUNK-0035",
+            "JZ-CHUNK-0142",
+            "JZ-CHUNK-0186",
+            "JZ-CHUNK-0003",
+            "JZ-CHUNK-0105",
+            "JZ-CHUNK-0203",
+            "JZ-CHUNK-0004",
+            "JZ-CHUNK-0025",
+            "JZ-CHUNK-0023",
+            "JZ-CHUNK-0065",
+            "JZ-CHUNK-0015",
+            "JZ-CHUNK-0040",
+            "JZ-CHUNK-0005"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_005",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 137,
+          "chunk_ids": [
+            "JZ-CHUNK-0070",
+            "JZ-CHUNK-0068",
+            "JZ-CHUNK-0057",
+            "JZ-CHUNK-0036",
+            "JZ-CHUNK-0001",
+            "JZ-CHUNK-0060",
+            "JZ-CHUNK-0147",
+            "JZ-CHUNK-0011",
+            "JZ-CHUNK-0129",
+            "JZ-CHUNK-0146",
+            "JZ-CHUNK-0139",
+            "JZ-CHUNK-0055",
+            "JZ-CHUNK-0067",
+            "JZ-CHUNK-0133",
+            "JZ-CHUNK-0052",
+            "JZ-CHUNK-0131",
+            "JZ-CHUNK-0066",
+            "JZ-CHUNK-0062",
+            "JZ-CHUNK-0204",
+            "JZ-CHUNK-0200"
+          ]
+        }
+      ],
+      "ready_for_minimum_gate": true
+    },
+    "B": {
+      "annotator": "B",
+      "package": "full_120",
+      "rows": 100,
+      "unique_chunks": 100,
+      "duplicate_chunk_count": 0,
+      "candidate_edges_total": 1371,
+      "status_counts": {
+        "pending_human_annotation": 100
+      },
+      "batches": [
+        {
+          "batch_id": "full_120_priority_batch_001",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 811,
+          "chunk_ids": [
+            "JZ-CHUNK-0094",
+            "JZ-CHUNK-0020",
+            "JZ-CHUNK-0032",
+            "JZ-CHUNK-0016",
+            "JZ-CHUNK-0019",
+            "JZ-CHUNK-0002",
+            "JZ-CHUNK-0099",
+            "JZ-CHUNK-0017",
+            "JZ-CHUNK-0108",
+            "JZ-CHUNK-0018",
+            "JZ-CHUNK-0069",
+            "JZ-CHUNK-0033",
+            "JZ-CHUNK-0098",
+            "JZ-CHUNK-0101",
+            "JZ-CHUNK-0103",
+            "JZ-CHUNK-0104",
+            "JZ-CHUNK-0097",
+            "JZ-CHUNK-0196",
+            "JZ-CHUNK-0188",
+            "JZ-CHUNK-0092"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_002",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 180,
+          "chunk_ids": [
+            "JZ-CHUNK-0102",
+            "JZ-CHUNK-0090",
+            "JZ-CHUNK-0042",
+            "JZ-CHUNK-0106",
+            "JZ-CHUNK-0013",
+            "JZ-CHUNK-0026",
+            "JZ-CHUNK-0093",
+            "JZ-CHUNK-0054",
+            "JZ-CHUNK-0130",
+            "JZ-CHUNK-0008",
+            "JZ-CHUNK-0199",
+            "JZ-CHUNK-0037",
+            "JZ-CHUNK-0205",
+            "JZ-CHUNK-0107",
+            "JZ-CHUNK-0132",
+            "JZ-CHUNK-0014",
+            "JZ-CHUNK-0024",
+            "JZ-CHUNK-0010",
+            "JZ-CHUNK-0134",
+            "JZ-CHUNK-0140"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_003",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 152,
+          "chunk_ids": [
+            "JZ-CHUNK-0145",
+            "JZ-CHUNK-0190",
+            "JZ-CHUNK-0195",
+            "JZ-CHUNK-0137",
+            "JZ-CHUNK-0058",
+            "JZ-CHUNK-0143",
+            "JZ-CHUNK-0198",
+            "JZ-CHUNK-0187",
+            "JZ-CHUNK-0189",
+            "JZ-CHUNK-0009",
+            "JZ-CHUNK-0148",
+            "JZ-CHUNK-0193",
+            "JZ-CHUNK-0012",
+            "JZ-CHUNK-0144",
+            "JZ-CHUNK-0138",
+            "JZ-CHUNK-0007",
+            "JZ-CHUNK-0053",
+            "JZ-CHUNK-0034",
+            "JZ-CHUNK-0056",
+            "JZ-CHUNK-0038"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_004",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 91,
+          "chunk_ids": [
+            "JZ-CHUNK-0091",
+            "JZ-CHUNK-0191",
+            "JZ-CHUNK-0028",
+            "JZ-CHUNK-0061",
+            "JZ-CHUNK-0031",
+            "JZ-CHUNK-0141",
+            "JZ-CHUNK-0006",
+            "JZ-CHUNK-0035",
+            "JZ-CHUNK-0142",
+            "JZ-CHUNK-0186",
+            "JZ-CHUNK-0003",
+            "JZ-CHUNK-0105",
+            "JZ-CHUNK-0203",
+            "JZ-CHUNK-0004",
+            "JZ-CHUNK-0025",
+            "JZ-CHUNK-0023",
+            "JZ-CHUNK-0065",
+            "JZ-CHUNK-0015",
+            "JZ-CHUNK-0040",
+            "JZ-CHUNK-0005"
+          ]
+        },
+        {
+          "batch_id": "full_120_priority_batch_005",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+          "rows": 20,
+          "candidate_edges": 137,
+          "chunk_ids": [
+            "JZ-CHUNK-0070",
+            "JZ-CHUNK-0068",
+            "JZ-CHUNK-0057",
+            "JZ-CHUNK-0036",
+            "JZ-CHUNK-0001",
+            "JZ-CHUNK-0060",
+            "JZ-CHUNK-0147",
+            "JZ-CHUNK-0011",
+            "JZ-CHUNK-0129",
+            "JZ-CHUNK-0146",
+            "JZ-CHUNK-0139",
+            "JZ-CHUNK-0055",
+            "JZ-CHUNK-0067",
+            "JZ-CHUNK-0133",
+            "JZ-CHUNK-0052",
+            "JZ-CHUNK-0131",
+            "JZ-CHUNK-0066",
+            "JZ-CHUNK-0062",
+            "JZ-CHUNK-0204",
+            "JZ-CHUNK-0200"
+          ]
+        }
+      ],
+      "ready_for_minimum_gate": true
+    }
+  },
+  "optional_strong_review": {
+    "available": true,
+    "package": "strong_resegmented_342_max18",
+    "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18",
+    "rows": 342,
+    "annotator_A_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+    "annotator_B_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+    "adjudication_template_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl",
+    "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv",
+    "review_preview_csv": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.csv",
+    "review_preview_md": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/strong_review_preview.md",
+    "review_preview_summary_json": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.json",
+    "review_preview_summary_md": "experiments/cape_kg_eacl_20260627/06_release/strong_resegmented_review_preview_summary.md",
+    "expected_reviewed_files": {
+      "annotator_A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A_edited.jsonl",
+      "annotator_B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B_edited.jsonl",
+      "adjudication": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_edited.jsonl"
+    },
+    "candidate_edges_total": 2087,
+    "chunks_with_silver_candidates": 93,
+    "candidate_edges_min": 0,
+    "candidate_edges_max": 328,
+    "max_split_sentence_count": 18,
+    "source_chunk_count": 214,
+    "strong_300_chunk_gap_after_resegmentation": 0,
+    "claim_status": "optional_strong_review_handoff_ready_pending_human_review"
+  },
+  "bundles": {
+    "annotator_A": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_A_priority100.tar.gz",
+      "bytes": 431579,
+      "sha256": "28d47a6f9b479c054ddbc886fe15f365b8389f6183a34ce7a2170d894704c87e",
+      "file_count": 88
+    },
+    "annotator_B": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_B_priority100.tar.gz",
+      "bytes": 431580,
+      "sha256": "8ddd97bd64f4d2e0e381abb09ebd0cd46bfa3430a77a8dcc382a9001bb43da85",
+      "file_count": 88
+    },
+    "coordinator": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_coordinator_priority100.tar.gz",
+      "bytes": 679139,
+      "sha256": "26d98f4b8f1a663d940a9287ec4cb17c50004b5cb6b547054c6e522d219b9eca",
+      "file_count": 96
+    },
+    "adjudicator": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_adjudicator_full120.tar.gz",
+      "bytes": 284553,
+      "sha256": "718e5dfb9954cfa0b510d318f64a976ecda027d14f190bb0e7f22b21fffd3be6",
+      "file_count": 42
+    },
+    "mapping_expert": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_mapping_expert_review_top20_groups.tar.gz",
+      "bytes": 148030,
+      "sha256": "838ace64502a71c04b4e9866230d1ab455307aefdd23a7a5b7fc5e0ea96a4329",
+      "file_count": 39
+    },
+    "crosswalk_expert": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_crosswalk_expert_review_ncs_pcf.tar.gz",
+      "bytes": 120421,
+      "sha256": "36296fd089d95cab4ad3d6e4ecc1a514d2aeb2e31313b9e61a04d4854eade749",
+      "file_count": 37
+    },
+    "active_review_effort": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_active_review_human_effort.tar.gz",
+      "bytes": 136671,
+      "sha256": "179c683580de5cd72acaeddd68c5fc882e6609bf3c1a8568c5474007da4bf5f1",
+      "file_count": 40
+    },
+    "structural_reviewer": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_structural_review_optional.tar.gz",
+      "bytes": 87208,
+      "sha256": "6018d90a8ed5f5a9384cfc9a335553d79000e0512b8edbe45006da15878ab3d3",
+      "file_count": 41
+    },
+    "strong_resegmented_review": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_strong_resegmented_342.tar.gz",
+      "bytes": 1155271,
+      "sha256": "7f5449d1df34fc4ac8c58eb058c4f5b52bcaaab5215cc98dba160841585446e0",
+      "file_count": 57
+    }
+  },
+  "checksums": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256"
+}

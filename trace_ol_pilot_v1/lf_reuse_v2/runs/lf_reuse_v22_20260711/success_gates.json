@@ -1,0 +1,14 @@
+{
+  "gates": {
+    "active_safe_package_at_least_1": true,
+    "test_package_precision_ge_0_90": true,
+    "critical_error_rate_not_worse": true,
+    "claim_f1_not_worse": true,
+    "llm_candidate_reduction_ge_0_20": false,
+    "no_prior_evidence_overlap": true,
+    "no_validation_test_group_leakage": true
+  },
+  "passed": 6,
+  "total": 7,
+  "status": "REVISE"
+}

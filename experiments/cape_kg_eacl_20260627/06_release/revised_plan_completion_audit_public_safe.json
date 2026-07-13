@@ -1,0 +1,300 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.340480+00:00",
+  "claim_status": "public_safe_revised_plan_completion_audit_ready_not_submission_complete",
+  "source_claim_status": "revised_plan_not_complete_human_evidence_pending",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "public_safety": {
+    "source_text_included": false,
+    "private_review_paths_included": false,
+    "reviewed_file_names_included": false,
+    "contains_only_counts_statuses_and_generic_next_steps": true
+  },
+  "completion_decision": {
+    "plan_completion_proven": false,
+    "submission_ready": false,
+    "reason": "The revised plan's automatic scaffolds are ready, but required human-gold, IAA, adjudication, proposed human-gold scoring, and expert/effort evidence are missing."
+  },
+  "summary": {
+    "checklist_item_count": 20,
+    "completion_proven_item_count": 11,
+    "human_blocked_item_count": 9,
+    "minimum_human_blocker_count": 4,
+    "strong_or_optional_human_blocker_count": 4,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failure_count": 4,
+    "claim_gate_optional_failure_count": 2,
+    "pre_human_handoff_status": "PASS",
+    "pre_human_handoff_checks": 92,
+    "required_human_return_files": 14,
+    "present_human_return_files": 0,
+    "master_return_files": 16,
+    "master_return_files_present": 0,
+    "method_module_count": 11,
+    "method_modules_missing_required": 0,
+    "claim_status": "public_safe_revised_plan_completion_audit_ready_not_submission_complete"
+  },
+  "human_blocker_ids": {
+    "minimum_accept": [
+      "min.gold_chunks",
+      "min.gold_items",
+      "min.iaa",
+      "min.proposed"
+    ],
+    "strong_or_optional": [
+      "strong.gold_chunks",
+      "strong.gold_items",
+      "strong.mapping_downstream",
+      "strong.active_review"
+    ]
+  },
+  "public_audit_rows": [
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_chunks",
+      "requirement": "100+ adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": "no",
+      "proof_state": "human_required_not_complete",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "human_gold_return_required",
+      "public_next_step": "Complete two-reviewer gold labeling and adjudicated resolution for the minimum evaluation set."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_items",
+      "requirement": "500+ adjudicated gold node/edge/evidence items",
+      "status": "pending_human",
+      "claimable": "no",
+      "proof_state": "human_required_not_complete",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "human_gold_return_required",
+      "public_next_step": "Complete two-reviewer gold labeling and adjudicated resolution for the minimum evaluation set."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.iaa",
+      "requirement": "2+ annotators and agreement for 100+ chunks",
+      "status": "pending_human",
+      "claimable": "no",
+      "proof_state": "human_required_not_complete",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "human_gold_return_required",
+      "public_next_step": "Compute agreement after both reviewer streams are complete."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.gold_sampling_ready",
+      "requirement": "Priority-100 gold subset sampling ready",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.baselines",
+      "requirement": "B0/B1/B2 actual LLM baselines completed",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.proposed",
+      "requirement": "CAPE-KG proposed result completed and scored",
+      "status": "partial",
+      "claimable": "no",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "human_gold_return_required",
+      "public_next_step": "Score the proposed condition against adjudicated human-gold labels."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.ablations",
+      "requirement": "3+ actual ablations completed",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.error_analysis",
+      "requirement": "Structured error analysis table and taxonomy",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_subset",
+      "requirement": "Public benchmark or public subset experiment",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.release_plan",
+      "requirement": "Code, prompt, schema, and reproducibility release package",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.limitations",
+      "requirement": "Limitations section",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "minimum_accept",
+      "id": "min.public_synthetic_examples",
+      "requirement": "Public-safe synthetic examples for reproducibility mitigation",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_chunks",
+      "requirement": "300-500 adjudicated gold chunks",
+      "status": "pending_human",
+      "claimable": "no",
+      "proof_state": "human_required_not_complete",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "strong_or_expert_return_required",
+      "public_next_step": "Complete the optional larger human-gold review set before making strong-scale claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.gold_items",
+      "requirement": "1,500+ adjudicated gold edge/evidence items",
+      "status": "pending_human",
+      "claimable": "no",
+      "proof_state": "human_required_not_complete",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "strong_or_expert_return_required",
+      "public_next_step": "Complete the optional larger human-gold review set before making strong-scale claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.public_cross",
+      "requirement": "PAGED/Text2KGBench cross experiment",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.edc_taxonomy_baselines",
+      "requirement": "EDC/SAC-KG/Taxonomy-RAG family baselines or reproductions",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.mapping_downstream",
+      "requirement": "NCS/PCF mapping downstream evaluation",
+      "status": "partial",
+      "claimable": "no",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "strong_or_expert_return_required",
+      "public_next_step": "Complete expert review before making ranking or utility claims."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.active_review",
+      "requirement": "Active review efficiency evaluation",
+      "status": "partial",
+      "claimable": "no",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "strong_or_expert_return_required",
+      "public_next_step": "Collect reviewer effort and correction outcomes before claiming review-efficiency gains."
+    },
+    {
+      "scope": "strong_accept",
+      "id": "strong.visualization",
+      "requirement": "Visualization/demo provided",
+      "status": "pass",
+      "claimable": "yes",
+      "proof_state": "proven_for_current_automatic_stage",
+      "completion_proven": "yes",
+      "human_blocked": "no",
+      "evidence_category": "public_or_release_artifact_available",
+      "public_next_step": "No additional automatic step is required before human returns."
+    },
+    {
+      "scope": "method_modules",
+      "id": "method.m1_m11",
+      "requirement": "CAPE-KG M1-M11 modules represented by executable artifacts",
+      "status": "partial",
+      "claimable": "yes",
+      "proof_state": "scaffold_ready_human_evidence_pending",
+      "completion_proven": "no",
+      "human_blocked": "yes",
+      "evidence_category": "internal_completion_evidence",
+      "public_next_step": "Inspect current plan evidence and update after human returns."
+    }
+  ],
+  "source_artifact_roles": [
+    "claim_gate_report",
+    "eacl_plan_compliance_matrix",
+    "human_review_master_return_files",
+    "paper_readiness_checklist",
+    "pre_human_handoff_validation",
+    "submission_completion_audit"
+  ]
+}

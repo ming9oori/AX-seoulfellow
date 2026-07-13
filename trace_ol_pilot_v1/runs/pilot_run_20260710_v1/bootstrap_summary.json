@@ -1,0 +1,27 @@
+{
+  "E0_direct_triple": {
+    "lower": 0.6364,
+    "median": 0.7843,
+    "upper": 0.8966
+  },
+  "E1_full_llm": {
+    "lower": 0.8571,
+    "median": 0.931,
+    "upper": 0.9836
+  },
+  "E2_no_llm": {
+    "lower": 0.4127,
+    "median": 0.5902,
+    "upper": 0.7667
+  },
+  "E4_selective_distill": {
+    "lower": 0.4127,
+    "median": 0.5902,
+    "upper": 0.7667
+  },
+  "E2_flat_ablation_subset": {
+    "lower": 0.2308,
+    "median": 0.5217,
+    "upper": 0.8182
+  }
+}

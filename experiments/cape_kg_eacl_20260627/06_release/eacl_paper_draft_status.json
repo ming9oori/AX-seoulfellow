@@ -1,0 +1,28 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.582686+00:00",
+  "draft_file": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+  "claim_status": "pending_human_gold_iaa_and_human_gold_scoring",
+  "submission_ready": false,
+  "required_failure_count": 4,
+  "blocking_items": [
+    "min.gold_chunks",
+    "min.gold_items",
+    "min.iaa",
+    "min.proposed"
+  ],
+  "minimum_paper_gate_return_files": 11,
+  "minimum_paper_gate_return_files_present": 0,
+  "optional_strong_return_files": 3,
+  "optional_strong_return_files_present": 0,
+  "tracked_human_return_files": 14,
+  "tracked_human_return_files_present": 0,
+  "required_human_return_files": 14,
+  "optional_structural_return_files": 2,
+  "optional_structural_return_files_present": 0,
+  "master_return_files": 16,
+  "master_return_files_present": 0,
+  "return_preflight_status": "pending_human_returns",
+  "pre_human_handoff_status": "PASS",
+  "safe_to_use_as_submission": false,
+  "reason": "Human-gold annotation, adjudication, IAA, proposed-method human-gold scoring, mapping expert review, NCS-PCF crosswalk expert review, and active-review effort evidence are still pending."
+}

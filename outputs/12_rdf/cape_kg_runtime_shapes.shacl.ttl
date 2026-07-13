@@ -1,0 +1,134 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix cape: <https://example.org/cape-kg#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+cape:ArtifactShape a sh:NodeShape ;
+  sh:targetClass cape:Artifact ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:ArtifactFlowShape a sh:NodeShape ;
+  sh:targetClass cape:ArtifactFlow ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:ChunkShape a sh:NodeShape ;
+  sh:targetClass cape:Chunk ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:ConceptShape a sh:NodeShape ;
+  sh:targetClass cape:Concept ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:DecisionGatewayShape a sh:NodeShape ;
+  sh:targetClass cape:DecisionGateway ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:DomainTaskShape a sh:NodeShape ;
+  sh:targetClass cape:DomainTask ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:EvidenceAnchorShape a sh:NodeShape ;
+  sh:targetClass cape:EvidenceAnchor ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:GuardConditionShape a sh:NodeShape ;
+  sh:targetClass cape:GuardCondition ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:PrincipleShape a sh:NodeShape ;
+  sh:targetClass cape:Principle ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:ProcedureStepShape a sh:NodeShape ;
+  sh:targetClass cape:ProcedureStep ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:ReviewCheckpointShape a sh:NodeShape ;
+  sh:targetClass cape:ReviewCheckpoint ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:RiskShape a sh:NodeShape ;
+  sh:targetClass cape:Risk ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:RoleShape a sh:NodeShape ;
+  sh:targetClass cape:Role ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:SentenceShape a sh:NodeShape ;
+  sh:targetClass cape:Sentence ;
+  sh:property [ sh:path cape:nodeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+cape:EvidenceGroundedEdgeShape a sh:NodeShape ;
+  sh:targetClass cape:KGEdge ;
+  sh:property [ sh:path cape:edgeId ; sh:minCount 1 ] ;
+  sh:property [ sh:path cape:predicate ; sh:minCount 1 ] ;
+  sh:property [ sh:path prov:wasDerivedFrom ; sh:minCount 1 ] .
+
+cape:CANDIDATE_PROCESS_CONTEXTDomainRangeShape a sh:NodeShape ;
+  sh:message "CANDIDATE_PROCESS_CONTEXT domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:CANDIDATE_REQUIRES_CAPABILITYDomainRangeShape a sh:NodeShape ;
+  sh:message "CANDIDATE_REQUIRES_CAPABILITY domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:EVIDENCED_BYDomainRangeShape a sh:NodeShape ;
+  sh:message "EVIDENCED_BY domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:FEEDS_INTODomainRangeShape a sh:NodeShape ;
+  sh:message "FEEDS_INTO domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_DECISION_GATEWAYDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_DECISION_GATEWAY domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_GUARD_CONDITIONDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_GUARD_CONDITION domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_PRINCIPLEDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_PRINCIPLE domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_REVIEWDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_REVIEW domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_REVIEW_CHECKPOINTDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_REVIEW_CHECKPOINT domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_RISKDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_RISK domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_STEPDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_STEP domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:HAS_SUBTASKDomainRangeShape a sh:NodeShape ;
+  sh:message "HAS_SUBTASK domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:PERFORMED_BYDomainRangeShape a sh:NodeShape ;
+  sh:message "PERFORMED_BY domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:PRECEDESDomainRangeShape a sh:NodeShape ;
+  sh:message "PRECEDES domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:PRODUCESDomainRangeShape a sh:NodeShape ;
+  sh:message "PRODUCES domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:USED_AS_INPUT_FORDomainRangeShape a sh:NodeShape ;
+  sh:message "USED_AS_INPUT_FOR domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:USES_INPUTDomainRangeShape a sh:NodeShape ;
+  sh:message "USES_INPUT domain/range rule is enforced by the CAPE-KG SHACL-style validator." .
+
+cape:AllowedPredicateSetShape a sh:NodeShape ;
+  sh:message "Allowed predicates: ALIAS_OF, ANALYZES, CANDIDATE_PROCESS_CONTEXT, CANDIDATE_REQUIRES_CAPABILITY, DECIDES, DEVELOPS, EVALUATES, EVIDENCED_BY, FEEDS_INTO, HAS_CHILD, HAS_COMPETENCY_UNIT, HAS_DECISION_GATEWAY, HAS_GUARD_CONDITION, HAS_METRIC, HAS_PRINCIPLE, HAS_REVIEW, HAS_REVIEW_CHECKPOINT, HAS_RISK, HAS_STEP, HAS_SUBTASK, PERFORMED_BY, PRECEDES, PRODUCES, RELATED_TO, TRIGGERED_BY, USED_AS_INPUT_FOR, USES_INPUT" .

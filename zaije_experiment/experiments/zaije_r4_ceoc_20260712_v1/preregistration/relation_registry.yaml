@@ -1,0 +1,11 @@
+relations:
+  - {id: REL_HAS_DEFINITION, domain: ConceptCandidate, range: DefinitionAssertion, promotion: explicit_only}
+  - {id: REL_HAS_INPUT, domain: WorkUnitCandidate, range: ArtifactCandidate, promotion: explicit_or_structural}
+  - {id: REL_PRODUCES_OUTPUT, domain: WorkUnitCandidate, range: ArtifactCandidate, promotion: explicit_or_structural}
+  - {id: REL_PERFORMED_BY, domain: WorkUnitCandidate, range: ActorConceptCandidate, promotion: exact_argument_required}
+  - {id: REL_PRECEDES, domain: WorkUnitCandidate, range: WorkUnitCandidate, promotion: explicit_sequence_only}
+  - {id: REL_HAS_CONDITION, domain: AssertionCandidate, range: ConditionMention, promotion: cue_scope_required}
+  - {id: REL_HAS_EXCEPTION, domain: AssertionCandidate, range: ExceptionMention, promotion: cue_scope_required}
+  - {id: REL_ILLUSTRATES, domain: ExampleInstance, range: AssertionCandidate, promotion: safe}
+  - {id: REL_HAS_QUANTITY_CONSTRAINT, domain: ConceptCandidate, range: QuantityMention, promotion: explicit_value_required}
+  - {id: REL_ALIAS_OF, domain: ConceptCandidate, range: ConceptCandidate, promotion: exact_alias_or_closed_choice}

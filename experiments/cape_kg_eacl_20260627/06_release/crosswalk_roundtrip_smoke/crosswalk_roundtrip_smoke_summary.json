@@ -1,0 +1,49 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.781900+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "output_dir": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke",
+  "overall_status": "PASS",
+  "claim_status": "crosswalk_roundtrip_smoke_not_paper_evidence",
+  "source_group_count": 2,
+  "selected_source_group_count": 2,
+  "selected_source_ids": [
+    "L2_TASK_BID_NO_BID_DECISION",
+    "L2_TASK_BID_VALIDATION"
+  ],
+  "reviewed_rows": 20,
+  "import_error_count": 0,
+  "import_warning_count": 0,
+  "metric_rows": 1,
+  "metrics": [
+    {
+      "candidate_rows": 20,
+      "source_task_count": 2,
+      "completed_rows": 20,
+      "pending_rows": 0,
+      "complete_source_groups": 2,
+      "sources_with_positive": 2,
+      "expert_accept_rate": 0.1,
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "precision_at_10": 0.1,
+      "mrr": 1.0,
+      "ndcg_at_10": 1.0,
+      "utility_grade_mean": 0.3,
+      "explanation_quality_score_mean": 3.2,
+      "explanation_quality_score_count": 20,
+      "claim_status": "crosswalk_expert_review_evaluated"
+    }
+  ],
+  "issues": [],
+  "files": {
+    "target": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_target.jsonl",
+    "reviewed": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_reviewed.jsonl",
+    "merged": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_merged.jsonl",
+    "import_report": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_import_report.json",
+    "metrics_csv": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_metrics_smoke.csv",
+    "metrics_json": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_metrics_smoke.json",
+    "summary": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_roundtrip_smoke_summary.json",
+    "report": "experiments/cape_kg_eacl_20260627/06_release/crosswalk_roundtrip_smoke/crosswalk_roundtrip_smoke_report.md"
+  }
+}

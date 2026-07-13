@@ -1,0 +1,357 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:33.587774+00:00",
+  "as_of_date": "2026-06-29",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "official_sources": [
+    {
+      "source_id": "SRC01_eacl_2027_dates",
+      "title": "EACL 2027 official site",
+      "url": "https://2027.eacl.org/",
+      "used_for": "ARR submission deadline and conference date."
+    },
+    {
+      "source_id": "SRC02_arr_cfp",
+      "title": "ACL Rolling Review Call for Papers",
+      "url": "https://aclrollingreview.org/cfp",
+      "used_for": "ARR submission, anonymized supplementary material, and desk-rejection policy cues."
+    },
+    {
+      "source_id": "SRC03_arr_author_checklist",
+      "title": "ARR author checklist / common submission problems",
+      "url": "https://aclrollingreview.org/authorchecklist",
+      "used_for": "Page-limit and Limitations-section checks."
+    },
+    {
+      "source_id": "SRC04_aclpub_formatting",
+      "title": "ACLPUB paper formatting guidelines",
+      "url": "https://acl-org.github.io/ACLPUB/formatting.html",
+      "used_for": "Limitations placement and formatting expectations."
+    },
+    {
+      "source_id": "SRC05_arr_authors",
+      "title": "ARR author guidelines",
+      "url": "https://aclrollingreview.org/authors",
+      "used_for": "Under-review and anonymous-preprint policy cues."
+    },
+    {
+      "source_id": "SRC06_responsible_nlp",
+      "title": "ARR Responsible NLP Research Checklist",
+      "url": "https://aclrollingreview.org/responsibleNLPresearch/",
+      "used_for": "Ethics, societal impact, and reproducibility checklist scope."
+    }
+  ],
+  "overall_status": "PASS",
+  "claim_status": "arr_submission_policy_checklist_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "arr_target_date": "2026-08-03",
+    "days_to_arr_target": 35,
+    "item_count": 10,
+    "missing_evidence_files": 0,
+    "status_counts": {
+      "pass": 3,
+      "pass_expected_not_ready": 1,
+      "pass_pre_human_scaffold": 1,
+      "pending_author_action": 1,
+      "pending_author_confirmation": 1,
+      "pending_pdf_render": 1,
+      "public_safe_scaffold_ready_anonymization_pending": 1,
+      "scaffold_ready_final_answers_pending": 1
+    },
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "paper_draft_submission_ready": false,
+    "paper_draft_safe_to_use_as_submission": false,
+    "official_source_count": 6
+  },
+  "items": [
+    {
+      "item_id": "ARR01_deadline_tracking",
+      "requirement": "Track EACL 2027 ARR submission target date and use AoE-style planning.",
+      "status": "pass",
+      "paper_use_now": "schedule_reference_only",
+      "evidence_files": [
+        {
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+          "exists": true,
+          "bytes": 6133
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC01_eacl_2027_dates"
+      ],
+      "blocker": "none",
+      "next_action": "Keep the action board synchronized if official dates change."
+    },
+    {
+      "item_id": "ARR02_claim_gate_not_submission_ready",
+      "requirement": "Do not mark the package as submission-ready while required human-gold claim gates fail.",
+      "status": "pass_expected_not_ready",
+      "paper_use_now": "internal_go_no_go",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+          "exists": true,
+          "bytes": 25787
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md",
+          "exists": true,
+          "bytes": 14477
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC02_arr_cfp"
+      ],
+      "blocker": "claim_gate=FAIL; required_failures=4",
+      "next_action": "Complete human-gold, IAA, adjudication, and proposed-method human-gold scoring before submission-ready language."
+    },
+    {
+      "item_id": "ARR03_limitations_section",
+      "requirement": "Paper draft includes a dedicated Limitations section after Conclusion and before References.",
+      "status": "pass",
+      "paper_use_now": "draft_section_ready",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/limitations.md",
+          "exists": true,
+          "bytes": 1176
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC03_arr_author_checklist",
+        "SRC04_aclpub_formatting"
+      ],
+      "blocker": "none",
+      "next_action": "Keep Limitations limited to limitations; avoid new results, figures, or analysis in that section."
+    },
+    {
+      "item_id": "ARR04_ethics_section",
+      "requirement": "Paper draft includes ethics/data-release discussion before References.",
+      "status": "pass",
+      "paper_use_now": "draft_section_ready",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/external_resource_license_report.md",
+          "exists": true,
+          "bytes": 2807
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC06_responsible_nlp"
+      ],
+      "blocker": "none",
+      "next_action": "Keep data release, private source-text rights, human review, and LLM-use risks synchronized."
+    },
+    {
+      "item_id": "ARR05_anonymization",
+      "requirement": "Submission manuscript and supplementary material must be anonymized before ARR upload.",
+      "status": "pending_author_action",
+      "paper_use_now": "internal_only_until_anonymized",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_safety_report.md",
+          "exists": true,
+          "bytes": 2110
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC02_arr_cfp",
+        "SRC05_arr_authors"
+      ],
+      "blocker": "Current draft/release paths are internal and not anonymized for upload.",
+      "next_action": "Prepare an anonymized paper PDF and anonymized supplement bundle from the public-safe release only."
+    },
+    {
+      "item_id": "ARR06_page_limit_pdf_check",
+      "requirement": "Long/short paper page limits must be checked on the final ACL-formatted PDF.",
+      "status": "pending_pdf_render",
+      "paper_use_now": "not_checkable_from_markdown",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_section_source_map.md",
+          "exists": true,
+          "bytes": 9141
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md",
+          "exists": true,
+          "bytes": 12030
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC03_arr_author_checklist",
+        "SRC04_aclpub_formatting"
+      ],
+      "blocker": "Markdown draft cannot prove ACL PDF page count.",
+      "next_action": "Render with the current ACL template and verify long/short page count before upload."
+    },
+    {
+      "item_id": "ARR07_supplement_public_safe",
+      "requirement": "Supplementary material should be anonymized and avoid tracking/file-hosting risks.",
+      "status": "public_safe_scaffold_ready_anonymization_pending",
+      "paper_use_now": "internal_release_ready_not_upload_ready",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+          "exists": true,
+          "bytes": 2061
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_external_release_review_queue.md",
+          "exists": true,
+          "bytes": 1112
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC02_arr_cfp"
+      ],
+      "blocker": "latest_release_bundle_index.md is the authoritative current-bundle pointer; upload-ready anonymization is not yet produced.",
+      "next_action": "Use public-safe skeleton, remove identifying paths/names, and package through an allowed submission mechanism."
+    },
+    {
+      "item_id": "ARR08_responsible_nlp_checklist",
+      "requirement": "Responsible NLP, ethics, societal impact, and reproducibility issues should be explicitly covered.",
+      "status": "scaffold_ready_final_answers_pending",
+      "paper_use_now": "draft_support_ready",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/data_release_ethics_statement.md",
+          "exists": true,
+          "bytes": 6315
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/public_reproducibility_manifest.md",
+          "exists": true,
+          "bytes": 19910
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_risk_register.md",
+          "exists": true,
+          "bytes": 17456
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC06_responsible_nlp"
+      ],
+      "blocker": "Final checklist answers must be filled at submission time.",
+      "next_action": "Use the Responsible NLP checklist prep plus data-release, license, public-safe, and reviewer-risk artifacts to fill the official checklist."
+    },
+    {
+      "item_id": "ARR09_no_dual_submission",
+      "requirement": "Authors must ensure the paper is not simultaneously submitted elsewhere while under ARR review.",
+      "status": "pending_author_confirmation",
+      "paper_use_now": "author_policy_confirmation_required",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_timeline_action_board.md",
+          "exists": true,
+          "bytes": 6133
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC05_arr_authors"
+      ],
+      "blocker": "Requires author confirmation; cannot be proven by repository artifacts.",
+      "next_action": "Confirm submission venue status immediately before ARR upload."
+    },
+    {
+      "item_id": "ARR10_final_artifact_sync",
+      "requirement": "Final paper, tables, claims, protocol lock, provenance, and release bundle must be regenerated after any human returns.",
+      "status": "pass_pre_human_scaffold",
+      "paper_use_now": "internal_process_ready",
+      "evidence_files": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_table_blueprint.md",
+          "exists": true,
+          "bytes": 12030
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/evaluation_protocol_lock.md",
+          "exists": true,
+          "bytes": 19847
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/provenance_manifest.md",
+          "exists": true,
+          "bytes": 55803
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md",
+          "exists": true,
+          "bytes": 14120
+        }
+      ],
+      "missing_evidence_files": [],
+      "source_ids": [
+        "SRC02_arr_cfp"
+      ],
+      "blocker": "pre_human_validation=FAIL; paper_submission_ready=False",
+      "next_action": "After human returns, rerun post-annotation refresh and regenerate the final anonymized submission package."
+    }
+  ],
+  "missing_evidence_files": []
+}

@@ -1,0 +1,195 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-1008",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "organization and competitors",
+                "quote": "우리 조직과 경쟁사",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "evaluation accuracy",
+                "quote": "평가가 정확한가",
+                "role": "action"
+              }
+            ],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "•우리 조직과 경쟁사에 대한 평가가 정확한가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X covers the exact claim quote and argument structure from the evidence, with correct discourse status and claim type. Y changes claim family and predicate, and omits the action argument."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-1045",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Example competitor comparison table for OOwon electronic litigation computer equipment Oth introduction project",
+                "quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "경쟁사 비교표 예시 - OO원 전자소송 전산장비 O차 도입사업",
+            "claim_type": "OTHER_UNCLEAR",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "is an example",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim is a direct, contiguous quote of the evidence and matches the example nature of the table. Y's claims are not directly supported by the quoted evidence and introduce obligations not present in the target text."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-1173",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution optimization",
+                "quote": "솔루션 최적화",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "modify",
+                "quote": "수정하여",
+                "role": "action"
+              },
+              {
+                "normalized_label": "customer needs",
+                "quote": "고객의 니즈",
+                "role": "object"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "• 솔루션 최적화: 솔루션을 수정하여 고객의 니즈를 만족시키는 것이므로 반드시 추가 비용이 들어간다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is to satisfy",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim is a contiguous, full quote of the evidence and preserves the descriptive modality and fact type. Y's claim starts the quote later and changes the claim family and type to obligation, which is not directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-1270",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "example 1, green defense",
+                "quote": "<예시 1>의 6번 ‘그린국방’",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "consider",
+                "quote": "생각해 보자",
+                "role": "action"
+              }
+            ],
+            "claim_family": "DISCOURSE",
+            "claim_local_id": "1",
+            "claim_quote": "예를 들어 다음 <예시 1>의 6번 ‘그린국방’의 경우를 생각해 보자.",
+            "claim_type": "EXAMPLE",
+            "condition_quote": null,
+            "discourse_status": "EXAMPLE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only Y provides a claim for this evidence, and it matches the evidence exactly in quote, claim type, and discourse status."
+        ]
+      },
+      {
+        "decision": "ACCEPT_X",
+        "evidence_id": "zaije:evidence/xlsx-row-1272",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Proposals that address 'Green Defense' and those that do not",
+                "quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서",
+                "role": "subject"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "‘그린국방’을 다루는 제안서와 다루지 않는 제안서 중 어디에 높은 점수를 주겠는가?",
+            "claim_type": "QUESTION",
+            "condition_quote": null,
+            "discourse_status": "QUESTION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "UNSPECIFIED",
+            "predicate": "would you give a higher score to",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claim uses the full, contiguous quote and preserves the comparative structure of the question, matching the evidence. Y omits part of the subject and changes polarity."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b01_f3560a89a672.json",
+  "response_id": "resp_00cd0fd4eea541d3006a5291478fec819ba00f57ae77907da0",
+  "usage": {
+    "input_tokens": 8561,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 9677
+  }
+}

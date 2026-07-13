@@ -1,0 +1,280 @@
+{
+  "parsed": {
+    "adjudications": [
+      {
+        "decision": "ACCEPT_Y",
+        "evidence_id": "zaije:evidence/xlsx-row-1171",
+        "final_claims": [
+          {
+            "arguments": [],
+            "claim_family": "NORMATIVE",
+            "claim_local_id": "claim_1",
+            "claim_quote": "고객의 부정적 인식이 실제 우리 솔루션의 문제에서 비롯되었다면 우리는 이 솔루션을 고객에 맞게 최적화하고, 고객이 오해한 것이라면 고객의 인식을 교정해야 한다.",
+            "claim_type": "RECOMMENDATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_GUIDANCE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "should",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Only Y provides a claim, which is directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1197",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "early project phase",
+                "quote": "사업 초기(A시점)",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "proposal submission late phase",
+                "quote": "제안서 제출 시점이 가까웠을 때(B시점)",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "bid participation decision",
+                "quote": "입찰 참여 결정(Bid)을 할 수 있다",
+                "role": "effect_positive"
+              },
+              {
+                "normalized_label": "bid non-participation decision",
+                "quote": "입찰 불참여(No bid) 결정을 해야 하는 경우도 많다",
+                "role": "effect_negative"
+              }
+            ],
+            "claim_family": "DECISIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "따라서 사업 초기(A시점)에는 20점도 극복할 수 있으므로 입찰 참여 결정(Bid)을 할 수 있는가 하면 제안서 제출 시점이 가까웠을 때(B시점)에는 5점도 극복하기 어려우므로 입찰 불참여(No bid) 결정을 해야 하는 경우도 많다.",
+            "claim_type": "DECISION_TRIGGER",
+            "condition_quote": "사업 초기(A시점)와 제안서 제출 시점이 가까웠을 때(B시점)",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "입찰 참여 여부 결정은 극복 가능한 점수에 따라 달라진다",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim type, predicate, and argument structure more accurately reflect the evidence. X's arguments are less precise."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1260",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "prior research or first phase project completion",
+                "quote": "사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우",
+                "role": "condition"
+              },
+              {
+                "normalized_label": "no special disqualification",
+                "quote": "특별한 결격사유가 없는 한",
+                "role": "exception"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c2",
+            "claim_quote": "대부분의 방위사업과 SI사업에서 사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우에는 특별한 결격사유가 없는 한 경쟁자 우위에 있다고 봐야 한다.",
+            "claim_type": "NECESSARY_CONDITION",
+            "condition_quote": "사전에 연구과제를 수행했다든가 1차 사업을 수행한 경우",
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": "특별한 결격사유가 없는 한",
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "predicate": "경쟁자 우위에 있다고 봐야 한다",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Y's claim includes explicit condition and exception fields directly supported by the evidence."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1273",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "first place strategy",
+                "quote": "1등 전략",
+                "role": "agent"
+              },
+              {
+                "normalized_label": "balanced approach to diverse evaluators' interests",
+                "quote": "다양한 평가위원의 관심에 골고루 균형감 있게 접근한다",
+                "role": "goal"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c3",
+            "claim_quote": "접근 전략: 다양한 평가위원의 관심에 골고루 균형감 있게 접근한다.",
+            "claim_type": "PROCESS_ORDER",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "접근 전략은 균형감 있게 다양한 평가위원 관심에 접근하는 것이다",
+            "promotion_target": "RULE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "Both X and Y support the same claim, but X provides more detailed argument structure."
+        ]
+      },
+      {
+        "decision": "MERGE_SUPPORTED_FIELDS",
+        "evidence_id": "zaije:evidence/xlsx-row-1279",
+        "final_claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "first place company A",
+                "quote": "1등(A사)",
+                "role": "agent"
+              },
+              {
+                "normalized_label": "traffic information accuracy",
+                "quote": "교통정보 정확도",
+                "role": "feature"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c5",
+            "claim_quote": "1등(A사) 교통정보 정확도: 획기적 개선",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "1등(A사)의 교통정보 정확도는 획기적으로 개선되었다",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "second place company B",
+                "quote": "2등(B사)",
+                "role": "agent"
+              },
+              {
+                "normalized_label": "traffic information accuracy",
+                "quote": "교통정보 정확도",
+                "role": "feature"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c6",
+            "claim_quote": "2등(B사) 교통정보 정확도: 28% 향상",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "2등(B사)의 교통정보 정확도는 28% 향상되었다",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "first place company A",
+                "quote": "1등(A사)",
+                "role": "agent"
+              },
+              {
+                "normalized_label": "vehicle speed",
+                "quote": "차량 속도",
+                "role": "feature"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c7",
+            "claim_quote": "1등(A사) 차량 속도: 교통체증 해소 예상",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "1등(A사)의 차량 속도는 교통체증 해소가 예상된다",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "second place company B",
+                "quote": "2등(B사)",
+                "role": "agent"
+              },
+              {
+                "normalized_label": "vehicle speed",
+                "quote": "차량 속도",
+                "role": "feature"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c8",
+            "claim_quote": "2등(B사) 차량 속도: 시뮬레이션 결과 12.8% 개선 예측",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": "시뮬레이션 결과",
+            "discourse_status": "CASE_INSTANCE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "2등(B사)의 차량 속도는 시뮬레이션 결과 12.8% 개선이 예측된다",
+            "promotion_target": "DO_NOT_PROMOTE",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "reason_codes": [
+          "X's claims are directly supported by the evidence table and are more specific than Y's general descriptive claim."
+        ]
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/adjudication_b02_3b81b2096862.json",
+  "response_id": "resp_0448cfe3db05f74d006a528ee1157c819a9f68cb35e6c9e98a",
+  "usage": {
+    "input_tokens": 6721,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1722,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8443
+  }
+}

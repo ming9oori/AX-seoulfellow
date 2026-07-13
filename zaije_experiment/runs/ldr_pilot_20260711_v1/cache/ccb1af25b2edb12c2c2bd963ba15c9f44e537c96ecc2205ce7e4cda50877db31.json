@@ -1,0 +1,232 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "cd0e884fbcad8ce5357289061d87f34c66f776735e7242a9fecb1588ee15c164",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Persuasive Proposal to Customer",
+                "quote": "고객에게 설득력이 높은 제안",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Logical Persuasiveness",
+                "quote": "논리적으로 설득적일(Logically Persuasive)",
+                "role": "attribute1"
+              },
+              {
+                "normalized_label": "Emotional Credibility",
+                "quote": "감성적으로 신뢰를 확보(Emotionally Credible)",
+                "role": "attribute2"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c1",
+            "claim_quote": "고객에게 설득력이 높은 제안은 논리적으로 설득적일(Logically Persuasive) 뿐만 아니라 감성적으로 신뢰를 확보(Emotionally Credible)하는 것을 말한다.",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-760",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "c776e49558679e2d347d3069a698af6630348b8071e6ac45a8e77130d3a105aa",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Overemphasized Fancy Proposal",
+                "quote": "잘못 강조된 화려한 제안서",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Obscures Core Message",
+                "quote": "제안자가 강조하고자 하는 핵심 메시지를 흐린다",
+                "role": "effect1"
+              },
+              {
+                "normalized_label": "Causes Evaluator Resentment",
+                "quote": "평가자로 하여금 반감을 사게 하는 경우가 있다",
+                "role": "effect2"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c2",
+            "claim_quote": "잘못 강조된 화려한 제안서는 제안자가 강조하고자 하는 핵심 메시지를 흐리고, 평가자로 하여금 반감을 사게 하는 경우가 있음을 직시해야 한다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "must be recognized that",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-834",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "42c8c63325982ac09a05cd324e1dfb7fc53b298efe234c7d787f6460be6259cf",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Motivation",
+                "quote": "동기(Motivation)",
+                "role": "concept"
+              },
+              {
+                "normalized_label": "Issue Self-Created by Customer to Achieve Vision",
+                "quote": "고객이 비전을 달성하기 위해서 스스로 창출한 이슈",
+                "role": "definition"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c3",
+            "claim_quote": "동기(Motivation): 고객이 비전을 달성하기 위해서 스스로 창출한 이슈",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [
+              {
+                "normalized_label": "Problems",
+                "quote": "문제(Problems)",
+                "role": "concept"
+              },
+              {
+                "normalized_label": "Obstacles to Overcome for Current Business Execution",
+                "quote": "현재 비즈니스 수행을 위해 극복해야 할 장애요인",
+                "role": "definition"
+              }
+            ],
+            "claim_family": "DEFINITIONAL",
+            "claim_local_id": "c4",
+            "claim_quote": "문제(Problems): 현재 비즈니스 수행을 위해 극복해야 할 장애요인",
+            "claim_type": "DEFINITION",
+            "condition_quote": null,
+            "discourse_status": "DEFINITION",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "is defined as",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-896",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "e272427dc56688154db5cf15f8a8d06ab6874518aafa787e4f6a100a0dab9482",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Bias, Politics, Personal Risk",
+                "quote": "개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk)",
+                "role": "example_list"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c5",
+            "claim_quote": "예를 들면 개인적인 편견(Bias), 내부 의사결정구조(Politics), 개인적 이슈(Personal Risk) 등이 그것이다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "are examples of",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-906",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "437c94dabddce6aee8277079ae8427a94ffdb1f0bc6928757a271b6cf2ee5fd3",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Solution Based on Voice of Customer",
+                "quote": "현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)",
+                "role": "subject"
+              },
+              {
+                "normalized_label": "Persuades Evaluators",
+                "quote": "평가자를 설득한다",
+                "role": "effect1"
+              },
+              {
+                "normalized_label": "Receives Higher Qualitative Scores",
+                "quote": "더 높은 정성적 점수(Qualified Evaluation)를 받는다",
+                "role": "effect2"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c6",
+            "claim_quote": "현장의 소리를 기반으로 한 솔루션 제공(계단의 높이 조정, 실내온도 조절을 위한 에어컨 설치)은 평가자를 설득하고, 더 높은 정성적 점수(Qualified Evaluation)를 받는다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "results in",
+            "promotion_target": "ASSERTION",
+            "scope_quote": null,
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-952",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r2_b06_ccb1af25b2ed.json",
+  "response_id": "resp_0e88c0a447b76bd6006a528e79af7c819b8aaa1f366006c592",
+  "usage": {
+    "input_tokens": 2789,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1490,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4279
+  }
+}

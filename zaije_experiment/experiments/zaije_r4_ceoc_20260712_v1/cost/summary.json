@@ -1,0 +1,14 @@
+{
+  "api_calls": {
+    "confirmatory_b2": 29,
+    "confirmatory_b3": 146,
+    "dev_qualification_revision_1": 393,
+    "dev_qualification_revision_2": 393,
+    "total": 961
+  },
+  "batch_discount_not_assumed": true,
+  "estimated_standard_price_upper_bound_usd": 1.352958,
+  "input_tokens": 495051,
+  "output_tokens": 45357,
+  "test_calls": 0
+}

@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_06ca0a8122fae014006a5251f863c8819ab4214714d194c1a0",
+  "usage": {
+    "input_tokens": 2406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1126,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3532
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r553",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r553",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r553",
+              "text": "표 2. 분석적 평가자와 통합적 평가자의 평가 방법\n\n| 평가 항목 | 비중 | 평가 |  | 평가 근거 |\n| --- | --- | --- | --- | --- |\n| 사업전략의 현실성,<br>혁신성, 창의성 | 15 | 10 |  | 분석적 평가자 |\n| 업체 역량 | 30 | 25 |  |  |\n| PM 및 수행조직의<br>전문성 | 40 | 30 |  | 통합적 평가자 |\n| 신기술 도입 | 5 | 2 |  |  |\n| 수행기간 준수 | 10 | 9 |  |  |\n| 총 계 | 100 | 76 |  |  |",
+              "start": 0,
+              "end": 200
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r662",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r662",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r662",
+              "text": "•고객이 이번 단계에서 달성하고자 하는 목표가 무엇인가?",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r988",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r988",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r988",
+              "text": "사소한 이슈는 두 번째 열의 ‘비중’을 고려하여 통합하라.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r990",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r990",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r990",
+              "text": "③ 세 번째 열에는 고객이 핵심 이슈별로 우리 회사에 줄 점수를 해당 비중에 맞춰 예상하라.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Recommendation",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r991",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r991",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim",
+          "prompt_version": "1.0",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim_1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r991",
+              "text": "예를 들어 어떤 핵심 이슈의 비중이 20점이면 20점 중 고객은 여러분에게 몇 점을 줄것인가?",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "UNCLEAR",
+            "claim_type": "Question",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "NEEDS_REVIEW",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "run_id": "run:20260710T000000Z:P2_OFFLINE:a9482ce",
+  "comparison_dir": "/tmp/trace_ol_jaije_repro_check",
+  "comparison_mode": "same input, config, code, and run_id",
+  "overall_status": "PASS",
+  "byte_identical_files": 14,
+  "files": {
+    "source_blocks.jsonl": "29359a7c99068d57325df800470a4a4bdfa54dcb53b63249ad6936b7da7c0bbc",
+    "evidence_spans.jsonl": "4957c3ff8b44cc88f303f5ee8b55252572cefe78d2ca301d9b89777fac437663",
+    "tables.jsonl": "ba01e26526870dacab90667a952e35fefcf1b8b4ee7545b623ec1efaaae1d09f",
+    "formulas.jsonl": "b052c619122d41894daf3bba5c0389aeeb23b64bd29a9ab71010efe1a40efade",
+    "term_candidates.jsonl": "049760f0c1e3d77afa5ea9cdbdad89ef600490aff09148bf4209af24e787621a",
+    "claims.candidate.jsonl": "f640a184f9ccc65cbdda24b0382d3c9a8ced9f59924ca8d4bed2ca9c7d2b3830",
+    "claims.adjudicated.jsonl": "0704a61a60c3fe6755521c3fc3e70e3cd06b2bad00a494d1c1e5d5fd9c1e43a9",
+    "model_calls.jsonl": "b8b818cb1c8f6acd1df232a2c9a48a8214bfe3ae65e71ffdf8b54b03b633fae0",
+    "entities.jsonl": "85a3ebee1b80ac67aaf93230eda525386be7214e093294599b57c957ecce2eaf",
+    "relations.accepted.jsonl": "bee256cfe18390bfc78229ecfff2c8eddfa2aaa961a1f162f7282868542f3c7f",
+    "split_manifest.json": "4dd5f373e9be4668ff4656202a083c7d2ca36d6821131fcfa2bfdbf5f792a740",
+    "neo4j/nodes.csv": "f89ad40723d07a1628eff95946b7ef1fb23c4bcda5864f6b403b908f2323cacd",
+    "neo4j/relationships.csv": "79aa2f96e7ee5a7f51f9c06188445de70c35a5a085e682005e16faaba22fd121",
+    "neo4j/10_load.cypher": "bab54eb0b11a796cfaff7d6a7cc36efce77ceaed6328a9a5e55c8ff57e838400"
+  }
+}

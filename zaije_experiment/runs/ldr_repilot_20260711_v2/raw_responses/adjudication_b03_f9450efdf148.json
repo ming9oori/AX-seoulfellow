@@ -1,0 +1,317 @@
+{
+  "background": false,
+  "billing": {
+    "payer": "developer"
+  },
+  "completed_at": 1783796063,
+  "created_at": 1783796054,
+  "error": null,
+  "frequency_penalty": 0.0,
+  "id": "resp_009755463dfb475b006a529156af6c819bae796e8e0a1daa5b",
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": 18000,
+  "max_tool_calls": null,
+  "metadata": {},
+  "model": "gpt-4.1-2025-04-14",
+  "moderation": null,
+  "object": "response",
+  "output": [
+    {
+      "content": [
+        {
+          "annotations": [],
+          "logprobs": [],
+          "text": "{\"adjudications\":[{\"evidence_id\":\"zaije:evidence/xlsx-row-40\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"S (Solution) 예) 판매자의 솔루션*C (Communication) 예) 영업, 제안서, PT 등=S′(고객이 인지하는 가치)\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"S (Solution)\",\"normalized_label\":\"Solution\"},{\"role\":\"object\",\"quote\":\"S′(고객이 인지하는 가치)\",\"normalized_label\":\"Customer perceived value\"},{\"role\":\"criterion\",\"quote\":\"C (Communication)\",\"normalized_label\":\"Communication\"}],\"predicate\":\"equals product of\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}] ,\"reason_codes\":[\"Y's claim is a direct definition from the table and matches the evidence exactly; X's claims are interpretive and not directly supported by the evidence.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-536\",\"decision\":\"ACCEPT_X\",\"final_claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"불특정 평가위원들도 명백히 ‘의사결정자’로서 분석해야 한다.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"OBLIGATION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"불특정 평가위원들\",\"normalized_label\":\"평가위원\"},{\"role\":\"action\",\"quote\":\"분석해야 한다\",\"normalized_label\":\"분석\"}],\"predicate\":\"must\",\"modality\":\"MUST\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_RULE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}] ,\"reason_codes\":[\"X's claim exactly matches the imperative modality and obligation in the evidence; Y's claim is less precise and omits the obligation modality.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-551\",\"decision\":\"ACCEPT_X\",\"final_claims\":[{\"claim_local_id\":\"1\",\"claim_quote\":\"분석적 접근은 개별 평가 항목의 점수를 확보함으로써 종합적으로 높은 총계 점수를 얻는 것을 말하고, 통합적 접근은 개별 점수보다는 고객이 종합적으로 우리 조직과 솔루션이 우위라는 점을 인지하여 높은 점수를 주게 하는 방법을 말한다.\",\"claim_family\":\"DEFINITIONAL\",\"claim_type\":\"DEFINITION\",\"arguments\":[{\"role\":\"object\",\"quote\":\"분석적 접근\",\"normalized_label\":\"접근\"},{\"role\":\"object\",\"quote\":\"통합적 접근\",\"normalized_label\":\"접근\"}],\"predicate\":\"is_defined_as\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"DEFINITION\",\"promotion_target\":\"CONCEPT_ONLY\",\"uncertain_fields\":[]}] ,\"reason_codes\":[\"X's claim is a direct definition, matching the evidence's structure and discourse status; Y's claim splits the definition into descriptive facts and changes the discourse status.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-585\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"c5\",\"claim_quote\":\"통합적 평가자에게는 프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다.〔‘6.6.3 질의응답(Q&A)에서 승부하라’ 참고〕3.\",\"claim_family\":\"NORMATIVE\",\"claim_type\":\"RECOMMENDATION\",\"arguments\":[{\"role\":\"actor\",\"quote\":\"통합적 평가자\",\"normalized_label\":\"통합적 평가자\"},{\"role\":\"action\",\"quote\":\"프레젠테이션 중에서도 특히 Q&A가 절대적으로 중요함을 인식하고 완벽히 대비한다\",\"normalized_label\":\"Q&A 중요성 인식 및 대비\"}],\"predicate\":\"should\",\"modality\":\"SHOULD\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"GENERAL_GUIDANCE\",\"promotion_target\":\"RULE\",\"uncertain_fields\":[]}] ,\"reason_codes\":[\"Y's claim includes the full context and actor ('통합적 평가자') as in the evidence; X omits this and is less specific.\"]},{\"evidence_id\":\"zaije:evidence/xlsx-row-664\",\"decision\":\"ACCEPT_Y\",\"final_claims\":[{\"claim_local_id\":\"c1\",\"claim_quote\":\"프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)은 무엇인가?\",\"claim_family\":\"DECISIONAL\",\"claim_type\":\"QUESTION\",\"arguments\":[{\"role\":\"subject\",\"quote\":\"프로젝트가 단계별로 진행되기 위해서 각 단계에서 고객이 관심을 보일 효용(동기, 핵심 이슈 등)\",\"normalized_label\":\"Project Stage Interest Utility\"},{\"role\":\"criterion\",\"quote\":\"무엇인가?\",\"normalized_label\":\"Inquiry\"}],\"predicate\":\"무엇인가?\",\"modality\":\"DESCRIPTIVE\",\"polarity\":\"POSITIVE\",\"condition_quote\":null,\"exception_quote\":null,\"scope_quote\":null,\"discourse_status\":\"QUESTION\",\"promotion_target\":\"DO_NOT_PROMOTE\",\"uncertain_fields\":[]}] ,\"reason_codes\":[\"Y's claim preserves the question discourse status and structure of the evidence; X reformulates it as a descriptive fact, which is not supported by the evidence's interrogative form.\"]}] }",
+          "type": "output_text"
+        }
+      ],
+      "id": "msg_009755463dfb475b006a5291572778819bb99815a47eb808ad",
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "presence_penalty": 0.0,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "prompt_cache_retention": "in_memory",
+  "reasoning": {
+    "context": null,
+    "effort": null,
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "store": true,
+  "temperature": 0.0,
+  "text": {
+    "format": {
+      "description": null,
+      "name": "ldr_adjudications",
+      "schema": {
+        "additionalProperties": false,
+        "properties": {
+          "adjudications": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "decision": {
+                  "enum": [
+                    "ACCEPT_X",
+                    "ACCEPT_Y",
+                    "MERGE_SUPPORTED_FIELDS",
+                    "REJECT_BOTH",
+                    "UNDERDETERMINED"
+                  ],
+                  "type": "string"
+                },
+                "evidence_id": {
+                  "type": "string"
+                },
+                "final_claims": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "arguments": {
+                        "items": {
+                          "additionalProperties": false,
+                          "properties": {
+                            "normalized_label": {
+                              "type": "string"
+                            },
+                            "quote": {
+                              "type": "string"
+                            },
+                            "role": {
+                              "enum": [
+                                "subject",
+                                "action",
+                                "object",
+                                "input",
+                                "output",
+                                "actor",
+                                "criterion",
+                                "value",
+                                "condition",
+                                "exception",
+                                "scope",
+                                "source"
+                              ],
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "role",
+                            "quote",
+                            "normalized_label"
+                          ],
+                          "type": "object"
+                        },
+                        "type": "array"
+                      },
+                      "claim_family": {
+                        "enum": [
+                          "PROCEDURAL",
+                          "NORMATIVE",
+                          "DEFINITIONAL",
+                          "DESCRIPTIVE",
+                          "ASSESSMENT",
+                          "DECISIONAL",
+                          "TEMPLATE_INSTRUCTION",
+                          "DISCOURSE"
+                        ],
+                        "type": "string"
+                      },
+                      "claim_local_id": {
+                        "type": "string"
+                      },
+                      "claim_quote": {
+                        "type": "string"
+                      },
+                      "claim_type": {
+                        "enum": [
+                          "DEFINITION",
+                          "DESCRIPTIVE_FACT",
+                          "OBLIGATION",
+                          "PROHIBITION",
+                          "RECOMMENDATION",
+                          "NECESSARY_CONDITION",
+                          "CONDITIONAL_RULE",
+                          "EXCEPTION",
+                          "PROCESS_ORDER",
+                          "ACTIVITY_OUTPUT",
+                          "DECISION_TRIGGER",
+                          "PURPOSE_CAUSE",
+                          "COMPARISON_FORMULA",
+                          "EVALUATION_OBSERVATION",
+                          "EXAMPLE",
+                          "COUNTEREXAMPLE",
+                          "QUESTION",
+                          "QUOTATION",
+                          "OTHER_UNCLEAR"
+                        ],
+                        "type": "string"
+                      },
+                      "condition_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "discourse_status": {
+                        "enum": [
+                          "GENERAL_RULE",
+                          "GENERAL_GUIDANCE",
+                          "DEFINITION",
+                          "EXAMPLE",
+                          "QUESTION",
+                          "MISCONCEPTION",
+                          "REBUTTAL",
+                          "QUOTATION",
+                          "CASE_INSTANCE",
+                          "OTHER"
+                        ],
+                        "type": "string"
+                      },
+                      "exception_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "modality": {
+                        "enum": [
+                          "MUST",
+                          "MUST_NOT",
+                          "SHOULD",
+                          "SHOULD_NOT",
+                          "MAY",
+                          "DESCRIPTIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "polarity": {
+                        "enum": [
+                          "POSITIVE",
+                          "NEGATIVE",
+                          "UNSPECIFIED"
+                        ],
+                        "type": "string"
+                      },
+                      "predicate": {
+                        "type": "string"
+                      },
+                      "promotion_target": {
+                        "enum": [
+                          "ASSERTION",
+                          "RULE",
+                          "PROCEDURE_EDGE",
+                          "CONCEPT_ONLY",
+                          "TEMPLATE_SCHEMA",
+                          "DO_NOT_PROMOTE",
+                          "UNDERDETERMINED"
+                        ],
+                        "type": "string"
+                      },
+                      "scope_quote": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "uncertain_fields": {
+                        "items": {
+                          "type": "string"
+                        },
+                        "type": "array"
+                      }
+                    },
+                    "required": [
+                      "claim_local_id",
+                      "claim_quote",
+                      "claim_family",
+                      "claim_type",
+                      "arguments",
+                      "predicate",
+                      "modality",
+                      "polarity",
+                      "condition_quote",
+                      "exception_quote",
+                      "scope_quote",
+                      "discourse_status",
+                      "promotion_target",
+                      "uncertain_fields"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "reason_codes": {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "evidence_id",
+                "decision",
+                "final_claims",
+                "reason_codes"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "adjudications"
+        ],
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    },
+    "verbosity": "medium"
+  },
+  "tool_choice": "auto",
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 0
+    }
+  },
+  "tools": [],
+  "top_logprobs": 0,
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 7193,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1192,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 8385
+  },
+  "user": null
+}

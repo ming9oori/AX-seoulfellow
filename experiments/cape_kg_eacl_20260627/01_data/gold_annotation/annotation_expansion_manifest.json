@@ -1,0 +1,87 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:22.016581+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "source_layer2_chunks": "outputs/02_ocr/layer2_chunks.jsonl",
+  "current_full_package": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120",
+  "all_available_chunk_count": 214,
+  "current_full_package_chunk_count": 120,
+  "remaining_optional_chunk_count": 94,
+  "max_current_corpus_chunk_count": 214,
+  "strong_300_chunk_gap": 86,
+  "strong_resegmented_package": "strong_resegmented_342_max18",
+  "strong_resegmented_max_sentences": 18,
+  "strong_resegmented_chunk_count": 342,
+  "strong_300_chunk_gap_after_resegmentation": 0,
+  "strong_resegmented_claim_status": "ready_pending_human_review",
+  "packages": {
+    "all_available_214": {
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/all_available_214",
+      "chunk_count": 214,
+      "annotator_files": {
+        "A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/all_available_214/annotator_A.jsonl",
+        "B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/all_available_214/annotator_B.jsonl"
+      },
+      "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/all_available_214/adjudication.jsonl",
+      "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/all_available_214/tracking_sheet.csv",
+      "candidate_edges_total": 2004,
+      "candidate_edges_min": 0,
+      "candidate_edges_max": 328,
+      "chunks_with_silver_candidates": 72,
+      "chapter_distribution": {
+        "CH01": 22,
+        "CH02": 29,
+        "CH03": 37,
+        "CH04": 40,
+        "CH05": 57,
+        "CH06": 29
+      }
+    },
+    "remaining_94_text_only": {
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/remaining_94_text_only",
+      "chunk_count": 94,
+      "annotator_files": {
+        "A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/remaining_94_text_only/annotator_A.jsonl",
+        "B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/remaining_94_text_only/annotator_B.jsonl"
+      },
+      "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/remaining_94_text_only/adjudication.jsonl",
+      "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/remaining_94_text_only/tracking_sheet.csv",
+      "candidate_edges_total": 0,
+      "candidate_edges_min": 0,
+      "candidate_edges_max": 0,
+      "chunks_with_silver_candidates": 0,
+      "chapter_distribution": {
+        "CH01": 2,
+        "CH02": 9,
+        "CH03": 17,
+        "CH04": 20,
+        "CH05": 37,
+        "CH06": 9
+      }
+    },
+    "strong_resegmented_342_max18": {
+      "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18",
+      "chunk_count": 342,
+      "annotator_files": {
+        "A": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+        "B": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl"
+      },
+      "adjudication_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication.jsonl",
+      "tracking_sheet": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv",
+      "candidate_edges_total": 2087,
+      "candidate_edges_min": 0,
+      "candidate_edges_max": 328,
+      "chunks_with_silver_candidates": 93,
+      "chapter_distribution": {
+        "CH01": 28,
+        "CH02": 43,
+        "CH03": 60,
+        "CH04": 73,
+        "CH05": 88,
+        "CH06": 50
+      }
+    }
+  },
+  "claim_status": "optional_expansion_ready_pending_human_review",
+  "human_gate_effect": "does_not_change_minimum_11_file_paper_gate"
+}

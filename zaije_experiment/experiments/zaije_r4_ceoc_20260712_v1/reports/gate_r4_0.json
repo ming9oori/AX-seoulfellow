@@ -1,0 +1,9 @@
+{
+  "confirmatory_count": 80,
+  "confirmatory_prior_api_exposure": 0,
+  "exposed_registry_completeness": 1.0,
+  "hash_match": 1.0,
+  "parent_overwrite": 0,
+  "status": "PASS",
+  "test_access": 0
+}

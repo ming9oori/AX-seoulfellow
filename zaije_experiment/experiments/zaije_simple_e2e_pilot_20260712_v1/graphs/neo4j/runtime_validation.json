@@ -1,0 +1,64 @@
+{
+  "accuracy_claimed": false,
+  "all_views_non_empty": true,
+  "constraints": [
+    {
+      "name": "simple_uid_unique",
+      "type": "UNIQUENESS"
+    }
+  ],
+  "expected_node_count": 6258,
+  "expected_relationship_count": 9249,
+  "human_intervention_count": 0,
+  "indexes": [
+    {
+      "name": "index_343aff4e",
+      "state": "ONLINE"
+    },
+    {
+      "name": "index_f7700477",
+      "state": "ONLINE"
+    },
+    {
+      "name": "simple_system",
+      "state": "ONLINE"
+    },
+    {
+      "name": "simple_type",
+      "state": "ONLINE"
+    },
+    {
+      "name": "simple_uid_unique",
+      "state": "ONLINE"
+    }
+  ],
+  "neo4j_version": "4.4.43",
+  "node_count": 6258,
+  "node_coverage": 1.0,
+  "pass": true,
+  "relation_counts": {
+    "HAS_INPUT": 65,
+    "PERFORMED_BY": 73,
+    "PRECEDES": 157,
+    "PRODUCES_OUTPUT": 79
+  },
+  "relationship_count": 9249,
+  "relationship_coverage": 1.0,
+  "runtime": "LOCAL_COMMUNITY_SERVER",
+  "semantic_relation_count": 374,
+  "semantic_relation_provenance_coverage": 1.0,
+  "type_counts": {
+    "Actor": 80,
+    "Artifact": 38,
+    "InformationObject": 93,
+    "Organization": 2,
+    "WorkUnit": 192
+  },
+  "uri": "bolt://127.0.0.1:7688",
+  "view_result_counts": {
+    "evidence_trace": 460,
+    "process_sequence": 157,
+    "workunit_actor": 73,
+    "workunit_input_output": 144
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "zaije_r5_crsi_v_20260712_v1",
+  "locked_input_hashes": {
+    "handoff-hanyang/수주제안/자이제_1.xlsx": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+    "zaije_experiment/experiments/zaije_r4_ceoc_20260712_v1/graphs/rdf/ceoc_core.ttl": "e52507f6fc3c383311ea8de8bfb9242dd8df6f6bd92048004d32663e97928d2f",
+    "zaije_experiment/experiments/zaije_r4_ceoc_20260712_v1/runs/b1_deterministic/edges.jsonl": "a008205f5fd2a95e4ab6e21554cbe75572ead3dfe16f0f3bf5bc8752f32aa9d6",
+    "zaije_experiment/experiments/zaije_r4_ceoc_20260712_v1/runs/b1_deterministic/nodes.jsonl": "9480a961195478ce620fbd04905631ef13d586170e31c61a0a686c738279ae52"
+  },
+  "logical_content_equal": true,
+  "logical_content_sha256": "7d3ff71f72a48777470ef405bcde68e72102239a3f47c02a963f30e651e5c6f6",
+  "logical_records": 1366,
+  "r4_source": "/home/minjoo/AX_서울펠로우/legacy/자이제_1.xlsx",
+  "r4_source_binary_sha256": "9246a6da6c7635b3f34ee55df75112eb38a2984ea06828be943dc196de5926eb",
+  "r4_status": {
+    "canonical_graph_system": "R4-B1",
+    "confirmatory_evidence_count": 80,
+    "experiment_id": "zaije_r4_ceoc_20260712_v1",
+    "hypotheses": {
+      "H4_A_conservative_safety": "SUPPORTED",
+      "H4_B_selective_llm_coverage": "NOT_SUPPORTED",
+      "H4_C_selective_llm_cost_efficiency": "NOT_SUPPORTED",
+      "H4_D_structural_usefulness": "SUPPORTED",
+      "H4_E_neo4j_projection": "SUPPORTED"
+    },
+    "operational_graph_includes_llm_candidates": false,
+    "overall_status": "DETERMINISTIC_CORE_ONLY_PASS",
+    "r3_semantic_fields_used_as_facts": false,
+    "test_access": 0
+  },
+  "requested_source": "/home/minjoo/AX_서울펠로우/handoff-hanyang/수주제안/자이제_1.xlsx",
+  "requested_source_binary_sha256": "e8c5f174b65eccd7a50dbd2e0e216ea870a6aedfd16b3e4538d6486aea15cf1f",
+  "test_access": 0
+}

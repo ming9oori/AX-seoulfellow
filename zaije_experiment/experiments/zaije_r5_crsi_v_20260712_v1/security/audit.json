@@ -1,0 +1,7 @@
+{
+  "api_key_transport": "getpass TTY only",
+  "key_stored": false,
+  "pass": true,
+  "secret_pattern_hits": [],
+  "test_access": 0
+}

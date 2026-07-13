@@ -1,0 +1,16 @@
+{
+  "gates": {
+    "source_span_validity_ge_0_98": false,
+    "silver_resolved_coverage_ge_0_80": false,
+    "challenge_rate_le_0_20": false,
+    "claim_first_critical_error_reduction_ge_0_30": true,
+    "e4_vs_e1_macro_f1_gap_le_0_05": false,
+    "e4_vs_e1_token_ratio_le_0_40": true,
+    "distillation_call_reduction_ge_0_20": false,
+    "provenance_path_coverage_eq_1": true,
+    "competency_queries_ge_8_of_10": true
+  },
+  "passed": 4,
+  "total": 9,
+  "status": "STOP_OR_REVISE"
+}

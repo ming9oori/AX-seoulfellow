@@ -1,0 +1,49 @@
+@prefix eg: <https://example.org/eg-moi/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+eg:AssertionShape a sh:NodeShape ;
+    sh:property eg:AssertionShapeProperty2e67870f,
+        eg:AssertionShapeProperty6b9dc34c,
+        eg:AssertionShapePropertyb0c03a1b ;
+    sh:targetClass eg:Assertion .
+
+eg:EvidenceUnitShape a sh:NodeShape ;
+    sh:property eg:EvidenceUnitShapeProperty5c1e5488 ;
+    sh:targetClass eg:EvidenceUnit .
+
+eg:MentionShape a sh:NodeShape ;
+    sh:property eg:MentionShapeProperty2e67870f,
+        eg:MentionShapePropertyca2aff46 ;
+    sh:targetClass eg:Mention .
+
+eg:ValidatedClusterShape a sh:NodeShape ;
+    sh:property eg:ValidatedClusterShapePropertyb0c03a1b,
+        eg:ValidatedClusterShapePropertye94c3317 ;
+    sh:targetClass eg:ConceptCluster .
+
+eg:AssertionShapeProperty2e67870f sh:minCount 1 ;
+    sh:path eg:DERIVED_FROM .
+
+eg:AssertionShapeProperty6b9dc34c sh:minCount 1 ;
+    sh:path eg:WAS_GENERATED_BY .
+
+eg:AssertionShapePropertyb0c03a1b sh:hasValue "VALIDATED" ;
+    sh:minCount 1 ;
+    sh:path eg:status .
+
+eg:EvidenceUnitShapeProperty5c1e5488 sh:minCount 1 ;
+    sh:path eg:exact_text .
+
+eg:MentionShapeProperty2e67870f sh:minCount 1 ;
+    sh:path eg:DERIVED_FROM .
+
+eg:MentionShapePropertyca2aff46 sh:minCount 1 ;
+    sh:path eg:DENOTES .
+
+eg:ValidatedClusterShapePropertyb0c03a1b sh:minCount 1 ;
+    sh:path eg:status .
+
+eg:ValidatedClusterShapePropertye94c3317 sh:minCount 1 ;
+    sh:path eg:evidence_anchor_ids .
+

@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="850" viewBox="0 0 1400 850">
+<rect width="100%" height="100%" fill="#FAFBFC"/>
+<text x="40" y="50" font-family="sans-serif" font-size="26" font-weight="700" fill="#102A43">Extraction Provenance</text>
+<text x="40" y="78" font-family="sans-serif" font-size="13" fill="#52606D">EG-MOI | nodes 61 | relationships 60</text>
+<line x1="748.8" y1="153.7" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="829.4" y="289.3" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="877.1" y1="255.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="893.5" y="340.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="958.1" y1="224.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="934.1" y="324.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="405.4" y1="414.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="657.7" y="419.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="808.1" y1="295.4" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="859.1" y="360.2" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="921.6" y1="565.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="915.8" y="495.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="981.0" y1="360.4" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="945.5" y="392.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="769.0" y1="567.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="839.5" y="496.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="1072.0" y1="481.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="991.0" y="453.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="677.2" y1="636.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="793.6" y="530.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="993.4" y1="446.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="951.7" y="435.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="767.8" y1="631.7" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="838.9" y="528.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="940.4" y1="301.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="925.2" y="363.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="451.1" y1="539.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="680.5" y="482.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="748.2" y1="277.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="829.1" y="351.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="535.3" y1="248.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="722.7" y="336.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="857.7" y1="325.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="883.9" y="375.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="427.9" y1="234.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="668.9" y="329.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="908.9" y1="409.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="909.4" y="417.2" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="503.5" y1="478.3" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="706.7" y="451.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="360.1" y1="547.3" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="635.0" y="486.2" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="631.9" y1="155.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="770.9" y="290.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="424.0" y1="350.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="667.0" y="387.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="970.3" y1="510.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="940.2" y="467.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="582.8" y1="550.4" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="746.4" y="487.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="588.9" y1="621.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="749.4" y="523.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="620.9" y1="284.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="765.4" y="355.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="414.7" y1="479.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="662.4" y="452.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="641.3" y1="570.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="775.7" y="497.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="861.1" y1="177.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="885.5" y="301.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="521.4" y1="183.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="715.7" y="304.2" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="324.5" y1="382.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="617.3" y="403.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="871.2" y1="512.6" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="890.6" y="468.8" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="958.1" y1="625.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="934.1" y="525.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="427.9" y1="616.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="668.9" y="520.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="705.4" y1="576.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="807.7" y="500.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="861.1" y1="672.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="885.5" y="548.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="496.9" y1="386.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="703.5" y="405.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="360.1" y1="302.7" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="635.0" y="363.8" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="900.1" y1="471.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="905.0" y="448.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="1030.7" y1="290.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="970.4" y="357.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="1030.7" y1="559.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="970.4" y="492.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="707.6" y1="212.7" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="808.8" y="318.8" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="851.9" y1="607.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="880.9" y="516.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="892.4" y1="364.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="901.2" y="394.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="522.8" y1="343.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="716.4" y="384.4" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="535.3" y1="518.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="722.7" y="471.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="683.8" y1="274.3" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="796.9" y="349.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="490.3" y1="432.8" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="700.1" y="428.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="796.9" y1="224.4" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="853.5" y="324.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="468.7" y1="293.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="689.3" y="359.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="565.5" y1="308.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="737.7" y="366.9" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="511.0" y1="588.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="710.5" y="506.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="826.0" y1="545.9" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="868.0" y="485.5" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="1072.0" y1="369.0" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="991.0" y="397.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="631.9" y1="694.2" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="770.9" y="559.6" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="617.6" y1="221.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="763.8" y="323.0" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="748.8" y1="696.3" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="829.4" y="560.7" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="521.4" y1="666.5" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="715.7" y="545.8" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<line x1="324.5" y1="467.1" x2="910.0" y2="425.0" stroke="#9AA5B1" stroke-width="1.5"/>
+<text x="617.3" y="446.1" font-family="sans-serif" font-size="8" fill="#52606D">WAS_GENERATED_BY</text>
+<circle cx="910.0" cy="425.0" r="31" fill="#F7D774" stroke="#486581" stroke-width="1.5"/>
+<text x="910.0" y="429.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">EG-MOI automatic ind...</text>
+<text x="910.0" y="469.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">ExtractionActivity</text>
+<circle cx="993.4" cy="446.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="993.4" y="450.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 니즈를 해결 HAS_INPUT...</text>
+<text x="993.4" y="490.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Assertion</text>
+<circle cx="1072.0" cy="481.0" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="1072.0" y="485.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">induced procedure or...</text>
+<text x="1072.0" y="525.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Assertion</text>
+<circle cx="900.1" cy="471.0" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="900.1" y="475.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">induced procedure or...</text>
+<text x="900.1" y="515.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Assertion</text>
+<circle cx="970.3" cy="510.1" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="970.3" y="514.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">induced procedure or...</text>
+<text x="970.3" y="554.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Assertion</text>
+<circle cx="1030.7" cy="559.8" r="31" fill="#F4B183" stroke="#486581" stroke-width="1.5"/>
+<text x="1030.7" y="563.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">induced procedure or...</text>
+<text x="1030.7" y="603.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Assertion</text>
+<circle cx="871.2" cy="512.6" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="871.2" y="516.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">검토</text>
+<text x="871.2" y="556.6" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="921.6" cy="565.2" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="921.6" y="569.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">도출</text>
+<text x="921.6" y="609.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="958.1" cy="625.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="958.1" y="629.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제공</text>
+<text x="958.1" y="669.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="826.0" cy="545.9" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="826.0" y="549.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제공</text>
+<text x="826.0" y="589.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="851.9" cy="607.1" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="851.9" y="611.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">결정</text>
+<text x="851.9" y="651.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="861.1" cy="672.8" r="31" fill="#9CC4E4" stroke="#486581" stroke-width="1.5"/>
+<text x="861.1" y="676.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">개발</text>
+<text x="861.1" y="716.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">SemanticFrame</text>
+<circle cx="769.0" cy="567.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="769.0" y="571.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">추가 제안은 고객의 니즈를 해결한 경...</text>
+<text x="769.0" y="611.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="767.8" cy="631.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="767.8" y="635.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">방위산업)을 평</text>
+<text x="767.8" y="675.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="748.8" cy="696.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="748.8" y="700.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">수주전략 업데이트 및 제안 요약(Ex...</text>
+<text x="748.8" y="740.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="705.4" cy="576.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="705.4" y="580.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">No bid</text>
+<text x="705.4" y="620.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="677.2" cy="636.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="677.2" y="640.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">충실도 체크리스트</text>
+<text x="677.2" y="680.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="631.9" cy="694.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="631.9" y="698.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">목차</text>
+<text x="631.9" y="738.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="641.3" cy="570.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="641.3" y="574.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Tail-skid</text>
+<text x="641.3" y="614.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="588.9" cy="621.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="588.9" y="625.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Tail-skid</text>
+<text x="588.9" y="665.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="521.4" cy="666.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="521.4" y="670.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Request for Proposal</text>
+<text x="521.4" y="710.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="582.8" cy="550.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="582.8" y="554.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">직접 솔루션</text>
+<text x="582.8" y="594.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="511.0" cy="588.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="511.0" y="592.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서 및 프레젠테이션 평</text>
+<text x="511.0" y="632.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="427.9" cy="616.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="427.9" y="620.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">적절한 솔루션이 무엇인지</text>
+<text x="427.9" y="660.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="535.3" cy="518.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="535.3" y="522.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">IT</text>
+<text x="535.3" y="562.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="451.1" cy="539.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="451.1" y="543.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">도 있지만 사실과 다른 경우</text>
+<text x="451.1" y="583.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="360.1" cy="547.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="360.1" y="551.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">참여할 것인가를 결정</text>
+<text x="360.1" y="591.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="503.5" cy="478.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="503.5" y="482.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Mock up</text>
+<text x="503.5" y="522.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="414.7" cy="479.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="414.7" y="483.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">needs</text>
+<text x="414.7" y="523.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="324.5" cy="467.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="324.5" y="471.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">왜 이 단계에서 참여결정</text>
+<text x="324.5" y="511.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="490.3" cy="432.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="490.3" y="436.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">우리가 솔루션을 제공</text>
+<text x="490.3" y="476.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="405.4" cy="414.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="405.4" y="418.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Key Word</text>
+<text x="405.4" y="458.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="324.5" cy="382.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="324.5" y="386.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Sales Representative</text>
+<text x="324.5" y="426.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="496.9" cy="386.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="496.9" y="390.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">그 회사의 과거 고객의 평</text>
+<text x="496.9" y="430.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="424.0" cy="350.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="424.0" y="354.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서 작성</text>
+<text x="424.0" y="394.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="360.1" cy="302.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="360.1" y="306.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Blue Team Review</text>
+<text x="360.1" y="346.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="522.8" cy="343.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="522.8" y="347.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객의 RFP나 사업설명회에는 없지만...</text>
+<text x="522.8" y="387.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="468.7" cy="293.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="468.7" y="297.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Eliminate</text>
+<text x="468.7" y="337.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="427.9" cy="234.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="427.9" y="238.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">문제</text>
+<text x="427.9" y="278.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="565.5" cy="308.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="565.5" y="312.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">를 최소화하는 전략</text>
+<text x="565.5" y="352.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="535.3" cy="248.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="535.3" y="252.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Motive</text>
+<text x="535.3" y="292.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="521.4" cy="183.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="521.4" y="187.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안 전략</text>
+<text x="521.4" y="227.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="620.9" cy="284.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="620.9" y="288.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">분류하고 그 집단의 등급을 평</text>
+<text x="620.9" y="328.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="617.6" cy="221.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="617.6" y="225.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">가격만이 경쟁요소라면</text>
+<text x="617.6" y="265.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="631.9" cy="155.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="631.9" y="159.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">CHAPTER</text>
+<text x="631.9" y="199.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="683.8" cy="274.3" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="683.8" y="278.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">니즈를 파악해서 도출한 핵심 이슈</text>
+<text x="683.8" y="318.3" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="707.6" cy="212.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="707.6" y="216.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">문제는 한 번 옳지 않은 방법에 익숙...</text>
+<text x="707.6" y="256.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="748.8" cy="153.7" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="748.8" y="157.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">일단 노출되면 경쟁자는 그 전략</text>
+<text x="748.8" y="197.7" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="748.2" cy="277.8" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="748.2" y="281.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">쉬플리 컨설팅 초기에는 간단하고 혁신...</text>
+<text x="748.2" y="321.8" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="796.9" cy="224.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="796.9" y="228.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Highlight</text>
+<text x="796.9" y="268.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="861.1" cy="177.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="861.1" y="181.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">완성되면 이것을 리뷰하는 것을 제안서</text>
+<text x="861.1" y="221.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="808.1" cy="295.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="808.1" y="299.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">Stated Requirements ...</text>
+<text x="808.1" y="339.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="877.1" cy="255.1" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="877.1" y="259.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">고객이 각각의 이슈를 평</text>
+<text x="877.1" y="299.1" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="958.1" cy="224.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="958.1" y="228.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">핵심 정보를 제공</text>
+<text x="958.1" y="268.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="857.7" cy="325.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="857.7" y="329.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">제안서 초안</text>
+<text x="857.7" y="369.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="940.4" cy="301.9" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="940.4" y="305.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">맹목적인 양적 추구는 평가위원의 평</text>
+<text x="940.4" y="345.9" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1030.7" cy="290.2" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1030.7" y="294.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">경쟁사와 차별화되는 특징인</text>
+<text x="1030.7" y="334.2" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="892.4" cy="364.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="892.4" y="368.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">판매</text>
+<text x="892.4" y="408.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="981.0" cy="360.4" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="981.0" y="364.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">및 수주전략</text>
+<text x="981.0" y="404.4" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="1072.0" cy="369.0" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="1072.0" y="373.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">프로젝트가 단계</text>
+<text x="1072.0" y="413.0" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+<circle cx="908.9" cy="409.5" r="31" fill="#D8F0EB" stroke="#486581" stroke-width="1.5"/>
+<text x="908.9" y="413.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#102A43">이 전략</text>
+<text x="908.9" y="453.5" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#52606D">Mention</text>
+</svg>

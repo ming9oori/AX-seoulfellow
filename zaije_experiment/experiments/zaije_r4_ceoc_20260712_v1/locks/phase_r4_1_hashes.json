@@ -1,0 +1,14 @@
+{
+  "locks/confirmatory_membership_lock.json": "cf92c0a28a7e4207fb4a245df57468e28f305be89d8b9bdb8caac445f9f6a97a",
+  "locks/exposure_registry.json": "49065be124af4efba04acf090e1a124b938588ca6805b38934309236a5f0983c",
+  "locks/input_lock.json": "89a9b8c12803bee56d2301728dbf4e9fceaf54a36422eb5ba63f9294217672bc",
+  "locks/r3_boundary_import_lock.json": "06d1fbf15675e1d7d20d3f2462fe1d0948aff6da71f29636e690ad6f63315db9",
+  "preregistration/cq_split_lock.json": "c829f9700b63b52cf63e57b14d7a9793c309590a6535fc7f1f46cf524374e248",
+  "preregistration/llm_selection_policy.yaml": "f1ee8ed9b68dae04a8ea883bdf84441169344e3e7ce98cb95a1379ebc5ad9570",
+  "preregistration/promotion_policy.yaml": "8cee3c2cff42c628019df8a44e356aa078ccbbc42fdca3cb7db80745785dfa3f",
+  "preregistration/relation_registry.yaml": "7557a5bb1eca633f24d5f5c132b2da76cda6d386c4564a1e02e4b311e1f8e6fd",
+  "preregistration/shacl_policy.yaml": "2f1c39912f426b6dfd86cfc4130375c37d46c37e4774c31aa30e3b944db83603",
+  "schema/core_schema.ttl": "f6b8180f3a2915957c07bf9de20a22a58afb61488a941470ae9195328a368154",
+  "schema/neo4j_projection.yaml": "191852f9a194c10fea3e5ac905725884bc03df03a1006f3efe519aed7d9d8073",
+  "schema/shapes.ttl": "cb759e0e1fff69a08bb3f3830f5c4e41131704c2153be4fd86da1a90b7210e5b"
+}

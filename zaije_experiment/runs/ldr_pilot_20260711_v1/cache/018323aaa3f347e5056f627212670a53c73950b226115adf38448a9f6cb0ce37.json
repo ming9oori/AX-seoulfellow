@@ -1,0 +1,152 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "de8a12f36441028a73541328c418495c31ea128a8f45eaec1d3ab6e24c24bf61",
+        "claims": [],
+        "evidence_id": "zaije:evidence/xlsx-row-7",
+        "no_claim_reason": "The text is a question '왜 그럴까?' ('Why is that?') and does not contain an explicit claim or proposition."
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "9c901e9e931520ef8498ccee18683a643d4dc2af08764c37cde3bc4294c7431a",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Long Term Positioning and Opportunity Planning",
+                "quote": "고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)",
+                "role": "activity"
+              },
+              {
+                "normalized_label": "Effort and process to find unstated customer needs",
+                "quote": "빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스",
+                "role": "activity_output"
+              }
+            ],
+            "claim_family": "PROCEDURAL",
+            "claim_local_id": "c1",
+            "claim_quote": "그래서 수주하는 제안에는 제안서 작성 전에 고객과의 관계수립(Long Term Positioning)과 프로젝트 수주를 위한 계획수립(Opportunity Planning)을 통해 빙산 아래 숨어 있는 고객이 말해주지 않는 니즈까지 찾으려는 노력과 프로세스가 필수이다.",
+            "claim_type": "OBLIGATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "predicate": "필수이다",
+            "promotion_target": "RULE",
+            "scope_quote": "수주하는 제안",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-21",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "f3aae8078ba9186870c7f8c4b42c1c00caeb473e5b6ed5e3b04d73a5337b33ae",
+        "claims": [],
+        "evidence_id": "zaije:evidence/xlsx-row-30",
+        "no_claim_reason": "The text is a question '어떻게 우리 회사의 제안 성공률을 높일 수 있을까?' ('How can we increase our company's proposal success rate?') and does not contain an explicit claim or proposition."
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "0a27d3064c1eb96d86b556a563d494186bdc4e3937840cbbc3572bfe9906e8ce",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "70-year collusion history between conglomerates and power starting after liberation under Syngman Rhee regime",
+                "quote": "광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사",
+                "role": "event"
+              },
+              {
+                "normalized_label": "An event indicating the end or need to end of the collusion history",
+                "quote": "종료되었음을 (또는 종료되어야 함을) 말해주는 사건",
+                "role": "event"
+              }
+            ],
+            "claim_family": "ASSESSMENT",
+            "claim_local_id": "c1",
+            "claim_quote": "광복 이후 이승만 정권이 적산분배를 하면서 시작된 재벌과 권력의 70년 야합의 역사가 종료되었음을 (또는 종료되어야 함을) 말해주는 사건이기 때문이다.",
+            "claim_type": "EVALUATION_OBSERVATION",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "말해주는",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "이 사건",
+            "uncertain_fields": [
+              "polarity"
+            ]
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-70",
+        "no_claim_reason": null
+      },
+      {
+        "annotation_role": "ONTOLOGY_FIRST",
+        "bundle_hash": "59e8ba4933651b1e392ab968c39300f0f78b73b5702d9664607da1587bb5b38b",
+        "claims": [
+          {
+            "arguments": [
+              {
+                "normalized_label": "Shortening of evaluation period in national defense projects",
+                "quote": "국가방위사업 평가기간 단축",
+                "role": "activity"
+              }
+            ],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c1",
+            "claim_quote": "몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업도 평가기간이 점점 짧아지고 있다.",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "짧아지고 있다",
+            "promotion_target": "ASSERTION",
+            "scope_quote": "몇 백억, 몇 천억 원 규모의 구매절차를 진행하는 국가방위사업",
+            "uncertain_fields": []
+          },
+          {
+            "arguments": [],
+            "claim_family": "DESCRIPTIVE",
+            "claim_local_id": "c2",
+            "claim_quote": "- 9~10시: 평가위원 도착 및 오리엔테이션\n- 10~12시: 제안 평가- 12~1시: 점심 \n- 1~3시: 제안 프레젠테이션\n- 3~5시: 점수 제출 및 검증",
+            "claim_type": "DESCRIPTIVE_FACT",
+            "condition_quote": null,
+            "discourse_status": "GENERAL_RULE",
+            "exception_quote": null,
+            "modality": "DESCRIPTIVE",
+            "polarity": "POSITIVE",
+            "predicate": "평가 일정은 다음과 같다",
+            "promotion_target": "CONCEPT_ONLY",
+            "scope_quote": "가장 일반적인 평가 일정",
+            "uncertain_fields": []
+          }
+        ],
+        "evidence_id": "zaije:evidence/xlsx-row-86",
+        "no_claim_reason": null
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/annotator_B_r1_b01_018323aaa3f3.json",
+  "response_id": "resp_07dce1b15e6b45b8006a528da251ec8199b70fbd06170cd55d",
+  "usage": {
+    "input_tokens": 2885,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1244,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4129
+  }
+}

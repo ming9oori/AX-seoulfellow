@@ -1,0 +1,189 @@
+{
+  "response_id": "resp_03594ada5037c0e9006a51172efcbc81999d536b16e615cc60",
+  "usage": {
+    "input_tokens": 3617,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 1626,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5243
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r322",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r322",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r322",
+              "text": "세일즈는 개인이나 한정된 소수가 고객이지만 B/D는 특정 집단 혹은 전체 조직(구매자, 평가자, 영향자가 복잡하게 얽혀 있음)이 고객이다.",
+              "start": 0,
+              "end": 82
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r482",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r482",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r482",
+              "text": "예시 1. Capture Plan (3/8) - 사업 주관조직/관련자 핵심 이슈\n\n작성 방법: 사업주관 조직: 사업주관 내부 조직뿐만 아니라 관련 조직도 기술하십시오.<br>핵심 관련자를 결정하십시오(3~6명 권장).<br>핵심 관련자의 관심 이슈: 해당 사업에 핵심 관련자의 영향 정도(1점~5점)를 기술하고,<br>사업 이슈의 중요도(1~5점)를 기입합니다.<br>관심 이슈는 의사결정자에 따라 여러 개가 될 수 있습니다.<br>평가위원회: 고객조직(예: 간사 등)의 평가위원회에 미치는 예상 영향력을 기재하고 기타 정보를 기재하십시오.\n\n| 요소 | 성명/구분 | 직책/내용 | 영향력 | 핵심 이슈 | 중요도 |\n| --- | --- | --- | --- | --- | --- |\n| 사업 주관조직<br>(분야, 구성, 담당자) |  | 나존중(대표이사)<br>이결제(CFO), 전산원(IT이사), 설립자들, 사외 이사 |  |  |  |\n|  | 나존중 | 최고경영자 | 5 | •비용절감 | 4 |\n|  |  |  |  | •핵심사업에 집중 | 3 |\n|  |  |  |  | •인원 감축 | 2 |\n|  | 이결제 | 최고재무<br>책임자 | 4 | •운영비 절감 | 4 |\n|  |  |  |  | •IT자본 투자 감축 | 3 |\n|  |  |  |  | •인원 감축 | 2 |\n|  | 전산원 | IT이사 | 2 | •직위 유지 | 4 |\n|  |  |  |  | •골칫거리 제거 | 3 |\n|  |  |  |  | •하드웨어 및 소프트웨어 다양성 통제 | 2 |\n|  | 설립자들 | 이사회 일환 | 3 | •의료에 집중함 | 4 |\n|  |  |  |  | •비용 감축 | 3 |\n|  |  |  |  | •서비스 수준 유지 | 2 |\n|  | 사외 이사 | 이사회 | 2 | •IT 지원 비용 절감 | 4 |\n|  |  |  |  | •핵심 사업에 집중 | 3 |\n|  |  |  |  | •서비스 수준 향상 | 2 |",
+              "start": 0,
+              "end": 1000
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r484",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r484",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r484",
+              "text": "평가위원회 정보별로 평가위원회 존재하지 않음핵심 관련자 = 평가위원회© Shipley Associates, Shipley Korea, All rights reserved 5 4 3 2 1매우 높음 중간 매우 낮음",
+              "start": 0,
+              "end": 100
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r596",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r596",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r596",
+              "text": "평가자는 주류에서 벗어나면 부담감을 느낀다",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r609",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r609",
+        "annotator": {
+          "role": "A",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r609",
+              "text": "2. 의도적으로 높은 점수를 주었다가 최고점이 되면 평가에서 배제된다.",
+              "start": 0,
+              "end": 40
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

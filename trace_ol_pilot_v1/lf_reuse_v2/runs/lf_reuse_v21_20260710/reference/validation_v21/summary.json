@@ -1,0 +1,12 @@
+{
+  "targets": 60,
+  "tier_counts": {
+    "Silver-A": 23,
+    "Challenge": 18,
+    "Silver-B": 19
+  },
+  "resolved": 42,
+  "resolved_rate": 0.7,
+  "ab_agreement_rate": 0.3833,
+  "span_issues": 8
+}

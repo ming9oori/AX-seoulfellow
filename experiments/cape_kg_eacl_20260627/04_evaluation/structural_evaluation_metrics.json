@@ -1,0 +1,697 @@
+{
+  "generated_at_utc": "2026-06-29T18:55:36.830809+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "outputs_dir": "outputs",
+  "schema_file": "experiments/cape_kg_eacl_20260627/02_schema/cape_schema.json",
+  "nodes_file": "outputs/07_layer2_graph/layer2_nodes.jsonl",
+  "edges_file": "outputs/07_layer2_graph/layer2_edges.jsonl",
+  "ncs_mapping_file": "outputs/08_mapping/l2_ncs_mapping_candidates.jsonl",
+  "pcf_mapping_file": "outputs/08_mapping/l2_pcf_mapping_candidates.jsonl",
+  "claim_status": "kg_structural_diagnostic_not_human_gold",
+  "ontology_conformance": {
+    "node_count": 220,
+    "edge_count": 947,
+    "known_node_type_count": 14,
+    "known_edge_type_count": 17,
+    "unknown_node_type_count": 0,
+    "unknown_predicate_count": 0,
+    "dangling_edge_count": 0,
+    "domain_range_checked_edge_count": 947,
+    "domain_range_violation_count": 0,
+    "evidence_missing_edge_count": 0,
+    "ontology_conformance_issue_count": 0,
+    "ontology_conformance_rate": 1.0,
+    "node_type_counts": {
+      "DomainTask": 22,
+      "Artifact": 14,
+      "Role": 10,
+      "Risk": 3,
+      "DecisionGateway": 4,
+      "GuardCondition": 13,
+      "Principle": 5,
+      "ProcedureStep": 99,
+      "ReviewCheckpoint": 41,
+      "ArtifactFlow": 9
+    },
+    "predicate_counts": {
+      "USES_INPUT": 201,
+      "PRODUCES": 220,
+      "PERFORMED_BY": 120,
+      "HAS_RISK": 39,
+      "HAS_DECISION_GATEWAY": 54,
+      "HAS_GUARD_CONDITION": 14,
+      "HAS_PRINCIPLE": 64,
+      "HAS_STEP": 99,
+      "HAS_REVIEW_CHECKPOINT": 41,
+      "PRECEDES": 77,
+      "FEEDS_INTO": 9,
+      "USED_AS_INPUT_FOR": 9
+    },
+    "issues": []
+  },
+  "procedural_consistency": {
+    "procedural_edge_count": 844,
+    "task_count": 22,
+    "procedure_step_count": 99,
+    "decision_gateway_count": 4,
+    "precedence_cycle_count": 0,
+    "gateway_without_branch_count": 4,
+    "gateway_without_guard_count": 0,
+    "artifact_flow_direction_violation_count": 0,
+    "task_or_step_without_artifact_io_count": 99,
+    "procedural_consistency_issue_count": 4,
+    "procedural_consistency_rate": 0.995283,
+    "issues": [
+      {
+        "severity": "warning",
+        "issue_type": "gateway_without_branch",
+        "node_id": "L2_DG_DG_BID_NO_BID"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "gateway_without_branch",
+        "node_id": "L2_DG_DG_PURSUIT"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "gateway_without_branch",
+        "node_id": "L2_DG_DG_BID_VALIDATION"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "gateway_without_branch",
+        "node_id": "L2_DG_DG_APPROVAL"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OPPORTUNITY_ASSESSMENT-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OPPORTUNITY_ASSESSMENT-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OPPORTUNITY_ASSESSMENT-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OPPORTUNITY_ASSESSMENT-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CAPTURE_PLANNING-06"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_NO_BID_DECISION-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_NO_BID_DECISION-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_NO_BID_DECISION-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_NO_BID_DECISION-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_VALIDATION-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_VALIDATION-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_VALIDATION-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-BID_VALIDATION-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-CUSTOMER_NEEDS_ANALYSIS-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPETITOR_ANALYSIS-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPETITOR_ANALYSIS-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPETITOR_ANALYSIS-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPETITOR_ANALYSIS-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-WIN_STRATEGY_DEVELOPMENT-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-06"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_PLANNING-07"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_TEAM_FORMATION-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_TEAM_FORMATION-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_TEAM_FORMATION-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_TEAM_FORMATION-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-KICKOFF_MEETING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-KICKOFF_MEETING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-KICKOFF_MEETING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-KICKOFF_MEETING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_STRATEGY_DEVELOPMENT-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SOLUTION_DEFINITION-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SOLUTION_DEFINITION-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SOLUTION_DEFINITION-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SOLUTION_DEFINITION-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PMP_DEVELOPMENT-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PMP_DEVELOPMENT-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PMP_DEVELOPMENT-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PMP_DEVELOPMENT-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PMP_DEVELOPMENT-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OUTLINE_DEVELOPMENT-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OUTLINE_DEVELOPMENT-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OUTLINE_DEVELOPMENT-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-OUTLINE_DEVELOPMENT-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SECTION_PLANNING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SECTION_PLANNING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SECTION_PLANNING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SECTION_PLANNING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-SECTION_PLANNING-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_WRITING-06"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-EXECUTIVE_SUMMARY_WRITING-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-05"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PROPOSAL_REVIEW-06"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-RED_TEAM_REVIEW-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-RED_TEAM_REVIEW-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-RED_TEAM_REVIEW-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-RED_TEAM_REVIEW-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PRICE_STRATEGY-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PRICE_STRATEGY-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PRICE_STRATEGY-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PRICE_STRATEGY-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PT_STRATEGY-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PT_STRATEGY-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PT_STRATEGY-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-PT_STRATEGY-04"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPLIANCE_CHECK-01"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPLIANCE_CHECK-02"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPLIANCE_CHECK-03"
+      },
+      {
+        "severity": "warning",
+        "issue_type": "task_or_step_without_artifact_io",
+        "node_id": "STEP-COMPLIANCE_CHECK-04"
+      }
+    ]
+  },
+  "cq_answerability": {
+    "cq_count": 12,
+    "answerable_cq_count": 12,
+    "cq_answerability_rate": 1.0,
+    "rows": [
+      {
+        "cq_id": "CQ1",
+        "question": "Task/step composition and order",
+        "required_predicates": "HAS_STEP,PRECEDES",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 176,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ2",
+        "question": "Task input artifacts",
+        "required_predicates": "USES_INPUT",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 201,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ3",
+        "question": "Task output artifacts",
+        "required_predicates": "PRODUCES",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 220,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ4",
+        "question": "Task responsible roles",
+        "required_predicates": "PERFORMED_BY",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 120,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ5",
+        "question": "Decision gateways",
+        "required_predicates": "HAS_DECISION_GATEWAY",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 54,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ6",
+        "question": "Decision guard conditions",
+        "required_predicates": "HAS_GUARD_CONDITION",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 14,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ7",
+        "question": "Artifact flow between tasks",
+        "required_predicates": "FEEDS_INTO,USED_AS_INPUT_FOR",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 18,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ8",
+        "question": "Review checkpoints",
+        "required_predicates": "HAS_REVIEW_CHECKPOINT",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 41,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ9",
+        "question": "Principles",
+        "required_predicates": "HAS_PRINCIPLE",
+        "support_source": "layer2_edges",
+        "supporting_edge_count": 64,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ10",
+        "question": "Evidence grounding",
+        "required_predicates": "EVIDENCED_BY",
+        "support_source": "edge.evidence_anchor_ids",
+        "supporting_edge_count": 947,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ11",
+        "question": "NCS capability alignment",
+        "required_predicates": "REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",
+        "support_source": "l2_ncs_mapping_candidates.jsonl",
+        "supporting_edge_count": 110,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      },
+      {
+        "cq_id": "CQ12",
+        "question": "PCF process context",
+        "required_predicates": "PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",
+        "support_source": "l2_pcf_mapping_candidates.jsonl",
+        "supporting_edge_count": 110,
+        "answerable_by_current_kg": true,
+        "claim_status": "kg_structural_diagnostic_not_human_gold"
+      }
+    ]
+  }
+}

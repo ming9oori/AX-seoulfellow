@@ -1,0 +1,40 @@
+{
+  "started_at_utc": "2026-06-29T19:01:25Z",
+  "ended_at_utc": "2026-06-29T19:01:25Z",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "apply_imports": "0",
+  "wrapper_status": "completed",
+  "exit_code": 0,
+  "preflight_overall_status": "pending_strong_human_returns",
+  "package": "strong_resegmented_342_max18",
+  "package_dir": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18",
+  "present_strong_return_files": 0,
+  "apply_scope": "no_strong_return_files",
+  "expected_review_units": 342,
+  "paired_completed_chunks": 0,
+  "ready_for_strong_iaa": false,
+  "ready_for_strong_claim_after_import": false,
+  "annotator_A_present": false,
+  "annotator_B_present": false,
+  "adjudication_present": false,
+  "annotator_A_completed_chunks": 0,
+  "annotator_B_completed_chunks": 0,
+  "completed_adjudicated_chunks": 0,
+  "error_count": 0,
+  "warning_count": 0,
+  "import_reports": [
+    {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A_import_report.json",
+      "exists": false
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B_import_report.json",
+      "exists": false
+    },
+    {
+      "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_import_report.json",
+      "exists": false
+    }
+  ],
+  "claim_status": "strong_return_apply_success_not_paper_evidence_until_human_gold_scoring"
+}

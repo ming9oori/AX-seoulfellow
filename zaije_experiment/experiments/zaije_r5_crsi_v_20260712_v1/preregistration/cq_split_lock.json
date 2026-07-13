@@ -1,0 +1,18 @@
+{
+  "confirmatory": [
+    "CQ5_3_RULE_CONSTRAINT",
+    "CQ5_4_TEMPLATE_FIELD",
+    "CQ5_5_EVIDENCE_TRACE"
+  ],
+  "dev": [
+    "CQ5_1_CONCEPT_ALIAS",
+    "CQ5_2_PROCESS"
+  ],
+  "r4_regression": [
+    "EXPLICIT_DEFINITION",
+    "TEMPLATE_FIELD",
+    "EXPLICIT_RULE",
+    "QUANTITY",
+    "PROVENANCE"
+  ]
+}

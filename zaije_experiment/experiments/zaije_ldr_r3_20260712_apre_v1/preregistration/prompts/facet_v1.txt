@@ -1,0 +1,3 @@
+Judge one proposed binary semantic facet for one exact Atomic Work Claim anchor.
+Return SUPPORTED only when the source and structural context support the proposed facet, NOT_SUPPORTED when they do not, and UNDERDETERMINED when ambiguous.
+Facets are orthogonal and need not be mutually exclusive. Do not rewrite the anchor. Return proposal_id exactly.

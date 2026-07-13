@@ -1,0 +1,30 @@
+configurations:
+  - id: C01
+    model_snapshot: gpt-4o-mini-2024-07-18
+    reasoning_effort: not_supported
+  - id: C02
+    model_snapshot: gpt-4.1-mini-2025-04-14
+    reasoning_effort: not_supported
+  - id: C03
+    model_snapshot: gpt-4o-2024-08-06
+    reasoning_effort: not_supported
+  - id: C04
+    model_snapshot: gpt-4.1-2025-04-14
+    reasoning_effort: not_supported
+  - id: C05
+    model_snapshot: gpt-4.1-nano-2025-04-14
+    reasoning_effort: not_supported
+repeats: 2
+selection_score:
+  within_model_stability: 0.35
+  deterministic_control_accuracy: 0.25
+  missing_candidate_avoidance: 0.15
+  high_risk_constraint_consistency: 0.15
+  normalized_cost_efficiency: 0.10
+exclusion:
+  schema_validity_min: 1.00
+  candidate_id_validity_min: 1.00
+  deterministic_control_accuracy_min: 0.95
+  boundary_repeat_f1_min: 0.85
+  critical_field_ims_min: 0.85
+  api_failure_rate_max: 0.01

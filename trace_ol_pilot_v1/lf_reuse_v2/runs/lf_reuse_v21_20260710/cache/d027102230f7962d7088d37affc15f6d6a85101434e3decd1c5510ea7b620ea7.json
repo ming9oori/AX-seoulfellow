@@ -1,0 +1,429 @@
+{
+  "response_id": "resp_0b58c9e60dd630f6006a5117ce984081989ad336063f18cd78",
+  "usage": {
+    "input_tokens": 3363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 2491,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5854
+  },
+  "parsed": {
+    "annotations": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r796",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r797",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:1",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r797",
+              "text": "수주영업을 할 때도 반드시 명심해야 할 점은 고객의 구매 니즈나 의사결정이 항상 합리적인 토론과 추론에 따라 결정된다고 생각하면 안 된다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [
+              {
+                "role": "MUST_NOT",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r797",
+                  "text": "고객의 구매 니즈나 의사결정이 항상 합리적인 토론과 추론에 따라 결정된다고 생각하면 안 된다.",
+                  "start": 39,
+                  "end": 66
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r819",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r820",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:2",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r820",
+              "text": "왜냐하면 대학교수 같은 전문직 종사자는 반드시 특정한 관점을 가지고 사물을 보기 때문이다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [
+              {
+                "role": "MUST",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r820",
+                  "text": "대학교수 같은 전문직 종사자는 반드시 특정한 관점을 가지고 사물을 보기 때문이다.",
+                  "start": 0,
+                  "end": 45
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r848",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r849",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:3",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r849",
+              "text": "전략이란 ‘최고의 솔루션(The Best Solution)’을 제공하는 것이 아니라 고객의 입장에서 ‘최적의 솔루션(The Optimized Solution)’을 제공받을 수 있다는 확신을 갖게 하는 것을 말한다.",
+              "start": 0,
+              "end": 90
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r873",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r874",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:4",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r874",
+              "text": "충실도(Compliance)란 ‘고객의 공식적인 요구사항(빙산의 윗부분)에 대한 충족도’를 의미한다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r903",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r904",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:5",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r904",
+              "text": "Shipley Tip",
+              "start": 0,
+              "end": 10
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "OtherUnclear",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "NONE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r918",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r919",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:6",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r919",
+              "text": "고객사의 핵심 이슈를 분석하기 위해서는 고객사의 의사결정자(Decision Maker)와 그 의사결정에 영향력을 행사하는 사람(Influencer, 이하 영향자)을 분석해야 한다.",
+              "start": 0,
+              "end": 82
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Obligation",
+            "arguments": [
+              {
+                "role": "MUST",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r919",
+                  "text": "고객사의 핵심 이슈를 분석하기 위해서는 고객사의 의사결정자(Decision Maker)와 그 의사결정에 영향력을 행사하는 사람(Influencer, 이하 영향자)을 분석해야 한다.",
+                  "start": 0,
+                  "end": 82
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r919",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r920",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:7",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r920",
+              "text": "의사결정자를 분석할 때 대부분이 범하는 오류는 의사결정자의 이슈가 핵심 이슈라고 생각하는 경우이다.",
+              "start": 0,
+              "end": 66
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "ConditionalRule",
+            "arguments": [
+              {
+                "role": "MUST_NOT",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r920",
+                  "text": "의사결정자의 이슈가 핵심 이슈라고 생각하는 경우이다.",
+                  "start": 39,
+                  "end": 66
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "MUST_NOT",
+            "polarity": "NEGATIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r944",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r945",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:8",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r945",
+              "text": "예를 들어 공공부문의 조달사업은 고객조직을 분석하는 것 자체가 무의미할 때가 있다.",
+              "start": 0,
+              "end": 45
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "DescriptiveFact",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1082",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1083",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:9",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1083",
+              "text": "목적(What)이란 바로 앞에서 말한 4가지 목적(강점 강화, 약점 약화, 경쟁자의 강점 약화, 경쟁자의 약점 강화)을 말한다.",
+              "start": 0,
+              "end": 82
+            },
+            "claim_family": "FACTUAL",
+            "claim_type": "Definition",
+            "arguments": [],
+            "predicate_normalized": null,
+            "modality": "NONE",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      },
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r1102",
+        "bundle_id": "bundle:ev:jaije:clean_sentences:r1103",
+        "annotator": {
+          "role": "B",
+          "model_id": "atomic-claim-v0.2",
+          "prompt_version": "v0.2",
+          "schema_version": "atomic-claim-v0.2"
+        },
+        "claims": [
+          {
+            "claim_id": "claim:10",
+            "source_span": {
+              "evidence_id": "ev:jaije:clean_sentences:r1103",
+              "text": "높은 가격이 약점일 경우에는 가치제안을 한다.",
+              "start": 0,
+              "end": 30
+            },
+            "claim_family": "NORMATIVE",
+            "claim_type": "Recommendation",
+            "arguments": [
+              {
+                "role": "SHOULD",
+                "span": {
+                  "evidence_id": "ev:jaije:clean_sentences:r1103",
+                  "text": "높은 가격이 약점일 경우에는 가치제안을 한다.",
+                  "start": 0,
+                  "end": 30
+                },
+                "implicit": false,
+                "restored_from_context": false,
+                "context_evidence_id": null,
+                "kernel_type": "Rule"
+              }
+            ],
+            "predicate_normalized": null,
+            "modality": "SHOULD",
+            "polarity": "POSITIVE",
+            "conditions": [],
+            "exceptions": [],
+            "scope_span": null,
+            "purpose_span": null,
+            "promotion_target": "NONE",
+            "decision": "ACCEPT",
+            "uncertainty_code": "NONE"
+          }
+        ]
+      }
+    ]
+  }
+}

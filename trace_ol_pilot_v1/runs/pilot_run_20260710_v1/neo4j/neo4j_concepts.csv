@@ -1,0 +1,32 @@
+id,pref_label,kernel_type,human_reviewed
+concept:9c97bbbee2a56770eea19a49,implicit:subject,Condition,false
+concept:72a380400f217f36b6df5cc6,implicit:subject,Unknown,false
+concept:8349d2a813d46447223a4e16,implicit:subject,Goal,false
+concept:07c738a609f33cee62cb28b9,implicit:subject,Process,false
+concept:a69d4a6282bf367ca05e5307,implicit:subject,Role,false
+concept:a6ab9411b0b18355499cb464,• 수주전략 초안 개발 / 리뷰<br>(리뷰된 수주전략을 Capture Plan에 포함)<br>• 수주전략의 실행계획 적용<br>• 수주전략 업데이트 및 제안 요약(Executive Summary)<br>초안 설계,Activity,false
+concept:8989906dbaa9ffa712ee8b51,• Capture Plan 초안<br><br>• Executive Summary<br>초안,Artifact,false
+concept:1411da48c4a4eab20ce61cbc,• 고객의 니즈 분석 및 요구조건 개발 작업 지원<br>• 고객과 함께 솔루션 정의,Activity,false
+concept:8079e324114e04690be06b21,• Capture Plan<br>업데이트 버전,Artifact,false
+concept:f48ff2f8755e11367eb6a7d2,• 협력업체 구성 의사결정: 경쟁자 분석을 통해서 자사의<br>약점을 극복하기 위한 업체 구성<br>• 블랙햇 리뷰(경쟁자 분석 리뷰),Activity,false
+concept:4c9d583f1ae14309bc633ebe,• 경쟁사 비교표 (BCM),Artifact,false
+concept:e223b5c3214c5532be537233,제안서에서도 품질을 강조해야 한다.,Rule,false
+concept:865ffb81a3393e4c48ec989a,implicit:subject,Rule,false
+concept:e77ef21ad53a99c28bfa207a,implicit:subject,Concept,false
+concept:7f6190f55c991ba6633bb106,커뮤니케이션 방법을 개발 해야 한다.,Task,false
+concept:0d25c804284adc2951829214,implicit:Subject,Task,false
+concept:c61ae34a159c5a0182a670e5,Capture Plan,Artifact,false
+concept:160c65076c61b7cf5c71070c,Capture Planning,Stage,false
+concept:c3b4bb1387ef437d826b957e,Bid/No bid Decision,Decision,false
+concept:604dd5f95818b434a4da4aab,Proposal Planning,Task,false
+concept:8ca87a5408836b3027aa6a76,제안서,Artifact,false
+concept:18401fb38d4a236ddce2d3f7,Executive Summary,Artifact,false
+concept:f50714f32162036141e2d9b0,BCM,Artifact,false
+concept:4f126f7b9801c208addd55a9,Bidder Comparison Matrix,Artifact,false
+concept:272666be0ac5c37a75b46fde,경쟁자 분석,Task,false
+concept:5f4ff949db484575e1c65ad7,고객,Role,false
+concept:9fccb5ddb058dbcc2ebb7e50,RFP,Artifact,false
+concept:bf4f1ba10c711e859138f8d4,Account Plan,Artifact,false
+concept:c1f811a99a447170d7277030,가치제안,Concept,false
+concept:5d275f819a69907525738fef,리스크,Risk,false
+concept:1faff097e9f54c6c290d504e,위험,Risk,false

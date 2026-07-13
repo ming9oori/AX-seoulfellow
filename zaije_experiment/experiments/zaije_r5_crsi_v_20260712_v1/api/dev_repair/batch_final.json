@@ -1,0 +1,41 @@
+{
+  "cancelled_at": null,
+  "cancelling_at": null,
+  "completed_at": 1783865989,
+  "completion_window": "24h",
+  "created_at": 1783865849,
+  "endpoint": "/v1/responses",
+  "error_file_id": null,
+  "errors": null,
+  "expired_at": null,
+  "expires_at": 1783952249,
+  "failed_at": null,
+  "finalizing_at": 1783865988,
+  "id": "batch_6a53a1f9cf1c81909fc61ca55ad69ced",
+  "in_progress_at": 1783865911,
+  "input_file_id": "file-N9cKtwNNMevDBFqVTNLM82",
+  "metadata": {
+    "experiment": "zaije_r5_crsi_v_20260712_v1",
+    "phase": "dev_repair"
+  },
+  "model": "gpt-4.1-2025-04-14",
+  "object": "batch",
+  "output_file_id": "file-YNphXgQhAXjFi15Z6kYTdf",
+  "request_counts": {
+    "completed": 2,
+    "failed": 0,
+    "total": 2
+  },
+  "status": "completed",
+  "usage": {
+    "input_tokens": 2414,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 1690,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 4104
+  }
+}

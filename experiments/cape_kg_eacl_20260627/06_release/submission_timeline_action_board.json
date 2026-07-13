@@ -1,0 +1,584 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:33.772865+00:00",
+  "as_of_date": "2026-06-29",
+  "plan_file": "AX_EACL_submission_review_revised_plan.md",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "overall_status": "PASS",
+  "claim_status": "submission_timeline_action_board_ready_not_submission_complete",
+  "safe_to_use_as_submission": false,
+  "submission_ready": false,
+  "summary": {
+    "arr_target_date": "2026-08-03",
+    "days_to_arr_target": 35,
+    "phase_count": 6,
+    "action_count": 10,
+    "critical_action_count": 5,
+    "strong_optional_action_count": 5,
+    "minimum_human_return_files": 11,
+    "minimum_human_return_files_present": 0,
+    "optional_human_return_files": 5,
+    "optional_human_return_files_present": 0,
+    "optional_claim_return_files": 3,
+    "optional_claim_return_files_present": 0,
+    "optional_structural_return_files": 2,
+    "optional_structural_return_files_present": 0,
+    "tracked_human_return_files": 16,
+    "tracked_human_return_files_present": 0,
+    "human_blocker_count": 8,
+    "claim_gate_overall_status": "FAIL",
+    "claim_gate_required_failures": 4,
+    "claim_gate_optional_failures": 2,
+    "pre_human_validation_status": "PASS",
+    "pre_human_validation_checks": 92,
+    "completion_status": "not_complete_pending_human_gold_iaa_adjudication_and_expert_review",
+    "post_human_scoring_claim_status": "post_human_scoring_readiness_ready_pending_human_returns",
+    "next_action_rows": 9,
+    "missing_evidence_files": 0,
+    "phase_status_counts": {
+      "automatic_foundation_ready_pilot_human_pending": 1,
+      "automatic_llm_runs_ready_minimum_gold_pending": 1,
+      "diagnostic_tables_ready_final_claim_refresh_pending": 1,
+      "not_submission_ready_until_minimum_gates_pass": 1,
+      "release_package_ready_not_submission_complete": 1,
+      "scorers_ready_human_gold_refresh_pending": 1
+    },
+    "action_status_counts": {
+      "automatic_scaffold_ready_human_values_pending": 1,
+      "pending_expert_review": 2,
+      "pending_human": 2,
+      "pending_human_effort": 1,
+      "pending_human_returns": 1,
+      "pending_structural_reviewer": 2,
+      "release_ready_not_submission_complete": 1
+    }
+  },
+  "strategy_a_aggressive_schedule": [
+    {
+      "phase_id": "A01_foundation_week",
+      "start_date": "2026-06-27",
+      "end_date": "2026-07-03",
+      "days_until_start": -2,
+      "days_until_end": 4,
+      "plan_tasks": [
+        "논문 title, task definition, related work 확정",
+        "annotation guideline v1 작성",
+        "30 chunk pilot annotation"
+      ],
+      "current_status": "automatic_foundation_ready_pilot_human_pending",
+      "evidence": [
+        {
+          "path": "AX_EACL_submission_review_revised_plan.md",
+          "exists": true,
+          "bytes": 29461
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+          "exists": true,
+          "bytes": 12652
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/method_novelty_positioning.md",
+          "exists": true,
+          "bytes": 10144
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/rq_evidence_matrix.md",
+          "exists": true,
+          "bytes": 14252
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+          "exists": true,
+          "bytes": 12049
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "gold.completed_chunks",
+        "gold.iaa"
+      ],
+      "action_now": "Pilot/foundation 문서는 준비됨. 실제 pilot 또는 priority batch annotation 반환이 필요함."
+    },
+    {
+      "phase_id": "A02_minimum_gold_and_core_runs",
+      "start_date": "2026-07-04",
+      "end_date": "2026-07-12",
+      "days_until_start": 5,
+      "days_until_end": 13,
+      "plan_tasks": [
+        "100~150 chunk gold annotation",
+        "B0/B1/B2 baseline 구현",
+        "CAPE-KG minimal implementation"
+      ],
+      "current_status": "automatic_llm_runs_ready_minimum_gold_pending",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/actual_llm_silver_metrics.json",
+          "exists": true,
+          "bytes": 15122
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+          "exists": true,
+          "bytes": 8192
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa"
+      ],
+      "action_now": "Baseline/proposed generation은 준비됨. 11개 minimum human-return file이 critical path."
+    },
+    {
+      "phase_id": "A03_main_scoring_and_metrics",
+      "start_date": "2026-07-13",
+      "end_date": "2026-07-20",
+      "days_until_start": 14,
+      "days_until_end": 21,
+      "plan_tasks": [
+        "main experiments",
+        "evidence span evaluation",
+        "ontology conformance evaluation",
+        "procedural consistency evaluation"
+      ],
+      "current_status": "scorers_ready_human_gold_refresh_pending",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_report.md",
+          "exists": true,
+          "bytes": 1371
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/structural_evaluation_report.md",
+          "exists": true,
+          "bytes": 2087
+        },
+        {
+          "path": "outputs/12_rdf/cape_kg_shacl_validation_report.md",
+          "exists": true,
+          "bytes": 1327
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "llm.proposed_human_gold_score"
+      ],
+      "action_now": "Human-gold import 후 scoring wrapper와 post-annotation refresh를 실행해야 main metric이 채워짐."
+    },
+    {
+      "phase_id": "A04_ablation_analysis_writing",
+      "start_date": "2026-07-21",
+      "end_date": "2026-07-27",
+      "days_until_start": 22,
+      "days_until_end": 28,
+      "plan_tasks": [
+        "ablation",
+        "error analysis",
+        "paper writing"
+      ],
+      "current_status": "diagnostic_tables_ready_final_claim_refresh_pending",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/error_analysis.md",
+          "exists": true,
+          "bytes": 12148
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/07_reports/eacl_paper_draft.md",
+          "exists": true,
+          "bytes": 21410
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+          "exists": true,
+          "bytes": 19281
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/reviewer_response_prep.md",
+          "exists": true,
+          "bytes": 14814
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "gold.completed_chunks",
+        "llm.proposed_human_gold_score"
+      ],
+      "action_now": "현재 paper draft와 diagnostic tables는 준비됨. human-gold 결과가 들어오면 final result language로 갱신해야 함."
+    },
+    {
+      "phase_id": "A05_internal_review_and_submission_package",
+      "start_date": "2026-07-28",
+      "end_date": "2026-08-02",
+      "days_until_start": 29,
+      "days_until_end": 34,
+      "plan_tasks": [
+        "internal review",
+        "reproducibility package",
+        "final submission"
+      ],
+      "current_status": "release_package_ready_not_submission_complete",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md",
+          "exists": true,
+          "bytes": 14120
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+          "exists": true,
+          "bytes": 2061
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/release_bundle_checksums.sha256",
+          "exists": true,
+          "bytes": 378
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md",
+          "exists": true,
+          "bytes": 14535
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "action_now": "Release bundle은 준비되어 있으나 submission-ready gate는 human-gold 완료 전까지 false."
+    },
+    {
+      "phase_id": "A06_arr_submission_target",
+      "start_date": "2026-08-03",
+      "end_date": "2026-08-03",
+      "days_until_start": 35,
+      "days_until_end": 35,
+      "plan_tasks": [
+        "ARR submission"
+      ],
+      "current_status": "not_submission_ready_until_minimum_gates_pass",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/submission_completion_audit_ko.md",
+          "exists": true,
+          "bytes": 25787
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_plan_compliance_matrix.md",
+          "exists": true,
+          "bytes": 34933
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_gate_report.md",
+          "exists": true,
+          "bytes": 4370
+        }
+      ],
+      "missing_evidence_files": [],
+      "blocking_gates": [
+        "gold.completed_chunks",
+        "gold.item_count",
+        "gold.iaa",
+        "llm.proposed_human_gold_score"
+      ],
+      "action_now": "최소 human-gold gates와 proposed human-gold scoring이 PASS가 되기 전에는 제출 완료로 표시하지 않음."
+    }
+  ],
+  "critical_path_actions": [
+    {
+      "action_id": "CP01_minimum_annotation_returns",
+      "workstream": "human_gold_annotation",
+      "due_date": "2026-07-12",
+      "days_until_due": 13,
+      "priority": "critical",
+      "status": "pending_human",
+      "owner": "annotator_A_and_B",
+      "required_for": "minimum_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+          "exists": true,
+          "bytes": 8192
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_launch_checklist_ko.md",
+          "exists": true,
+          "bytes": 12049
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "10개 priority batch A/B reviewed JSONL을 exact filename으로 반환한다."
+    },
+    {
+      "action_id": "CP02_adjudication_return",
+      "workstream": "human_gold_adjudication",
+      "due_date": "2026-07-13",
+      "days_until_due": 14,
+      "priority": "critical",
+      "status": "pending_human",
+      "owner": "adjudicator",
+      "required_for": "minimum_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+          "exists": true,
+          "bytes": 331466
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/human_gate_action_plan.md",
+          "exists": true,
+          "bytes": 18799
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "A/B annotation 반환 후 adjudication_edited.jsonl을 작성하고 import한다."
+    },
+    {
+      "action_id": "CP03_iaa_and_human_gold_scoring",
+      "workstream": "human_gold_metrics",
+      "due_date": "2026-07-20",
+      "days_until_due": 21,
+      "priority": "critical",
+      "status": "pending_human_returns",
+      "owner": "pipeline_after_returns",
+      "required_for": "minimum_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/post_human_scoring_readiness.md",
+          "exists": true,
+          "bytes": 7034
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_metrics.json",
+          "exists": true,
+          "bytes": 1509
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/human_gold_span_iou_metrics.json",
+          "exists": true,
+          "bytes": 1405
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "검수 반환 import 후 IAA, node/edge/evidence/span metrics, P_cape_kg_actual scoring을 재계산한다."
+    },
+    {
+      "action_id": "CP04_claim_safe_main_tables",
+      "workstream": "paper_tables",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "critical",
+      "status": "automatic_scaffold_ready_human_values_pending",
+      "owner": "paper_author",
+      "required_for": "minimum_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/paper_tables.md",
+          "exists": true,
+          "bytes": 14924
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claimable_main_table.md",
+          "exists": true,
+          "bytes": 6429
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/claim_language_guardrails.md",
+          "exists": true,
+          "bytes": 19281
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "Human-gold metric이 채워진 뒤 silver/proxy diagnostic language를 final result language와 분리해 업데이트한다."
+    },
+    {
+      "action_id": "CP05_release_and_validation_freeze",
+      "workstream": "submission_package",
+      "due_date": "2026-08-02",
+      "days_until_due": 34,
+      "priority": "critical",
+      "status": "release_ready_not_submission_complete",
+      "owner": "pipeline",
+      "required_for": "minimum_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/eacl_submission_package_manifest.md",
+          "exists": true,
+          "bytes": 14120
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/latest_release_bundle_index.md",
+          "exists": true,
+          "bytes": 2061
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md",
+          "exists": true,
+          "bytes": 14535
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "최종 결과 반영 후 release bundle, checksum, protocol lock, pre-human/final validation을 다시 실행한다."
+    },
+    {
+      "action_id": "OP01_mapping_expert_review",
+      "workstream": "mapping_downstream",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "strong_optional",
+      "status": "pending_expert_review",
+      "owner": "mapping_expert",
+      "required_for": "strong_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/mapping_review_progress_report.md",
+          "exists": true,
+          "bytes": 4317
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/mapping_expert_metrics.json",
+          "exists": true,
+          "bytes": 1675
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "Top-K NCS/PCF 후보를 expert review하고 P@K/MRR/nDCG/explanation quality를 재계산한다."
+    },
+    {
+      "action_id": "OP02_crosswalk_expert_review",
+      "workstream": "ncs_pcf_crosswalk",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "strong_optional",
+      "status": "pending_expert_review",
+      "owner": "crosswalk_expert",
+      "required_for": "strong_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_manifest.json",
+          "exists": true,
+          "bytes": 1538
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/crosswalk_expert_metrics.json",
+          "exists": true,
+          "bytes": 1115
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "Layer2-bridged NCS-PCF crosswalk 후보를 expert review하고 utility metrics를 재계산한다."
+    },
+    {
+      "action_id": "OP03_active_review_effort",
+      "workstream": "active_review_efficiency",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "strong_optional",
+      "status": "pending_human_effort",
+      "owner": "active_review_effort_reviewer",
+      "required_for": "strong_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_plan.md",
+          "exists": true,
+          "bytes": 2911
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/04_evaluation/active_review_human_effort_metrics.json",
+          "exists": true,
+          "bytes": 6348
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "active/uncertainty/random control effort sheet를 채워 review-efficiency claim을 검증한다."
+    },
+    {
+      "action_id": "OP04_structural_checkpoint_review",
+      "workstream": "structural_review_checkpoint_candidates",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "strong_optional",
+      "status": "pending_structural_reviewer",
+      "owner": "structural_reviewer",
+      "required_for": "strong_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "exists": true,
+          "bytes": 3565
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.md",
+          "exists": true,
+          "bytes": 1088
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+          "exists": true,
+          "bytes": 23258
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "ReviewCheckpoint 후보를 구조 검수자가 확인하고 structural review returns를 반영한다."
+    },
+    {
+      "action_id": "OP05_structural_gateway_branch_review",
+      "workstream": "structural_gateway_branch_gaps",
+      "due_date": "2026-07-27",
+      "days_until_due": 28,
+      "priority": "strong_optional",
+      "status": "pending_structural_reviewer",
+      "owner": "structural_reviewer",
+      "required_for": "strong_accept",
+      "evidence": [
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+          "exists": true,
+          "bytes": 3565
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/06_release/structural_review_return_preflight.md",
+          "exists": true,
+          "bytes": 1088
+        },
+        {
+          "path": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+          "exists": true,
+          "bytes": 12566
+        }
+      ],
+      "missing_evidence_files": [],
+      "next_action": "Gateway branch gap 후보를 확인해 procedural consistency 보강 여부를 결정한다."
+    }
+  ],
+  "missing_evidence_files": []
+}

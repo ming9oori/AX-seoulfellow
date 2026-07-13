@@ -1,0 +1,9 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix zaije: <https://example.org/zaije/> .
+
+zaije:CanonicalRelationShape a sh:NodeShape ;
+  sh:targetClass zaije:CanonicalRelationAssertion ;
+  sh:property [ sh:path zaije:source ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path zaije:target ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path zaije:relationType ; sh:minCount 1 ; sh:maxCount 1 ] ;
+  sh:property [ sh:path zaije:evidenceAnchorId ; sh:minCount 1 ] .

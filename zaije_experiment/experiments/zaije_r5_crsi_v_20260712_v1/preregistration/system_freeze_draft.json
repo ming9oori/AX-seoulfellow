@@ -1,0 +1,20 @@
+{
+  "budget_sweep": [
+    0.1,
+    0.2,
+    0.4
+  ],
+  "default_b2_budget_if_no_80pct_yield": 0.2,
+  "merge_policy": "HARD_MERGE_OR_LLM_SAME_THEN_CONSTRAINT_GATE",
+  "model": "gpt-4.1-2025-04-14",
+  "pair_score": {
+    "bilingual": 0.1,
+    "definition": 0.2,
+    "graph": 0.25,
+    "lexical": 0.3,
+    "role": 0.15
+  },
+  "repeat_fraction": 0.2,
+  "temperature": 0,
+  "test_access": 0
+}

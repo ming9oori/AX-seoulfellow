@@ -1,0 +1,450 @@
+{
+  "generated_at_utc": "2026-06-29T18:56:34.124054+00:00",
+  "experiment_dir": "experiments/cape_kg_eacl_20260627",
+  "claim_status": "role_quickstart_ready_pending_human_returns",
+  "summary": {
+    "pre_human_handoff_status": "PASS",
+    "pre_human_handoff_checks": 92,
+    "minimum_return_files": 11,
+    "minimum_return_files_present": 0,
+    "required_return_files": 14,
+    "required_return_files_present": 0,
+    "optional_structural_return_files": 2,
+    "optional_structural_return_files_present": 0,
+    "master_return_files": 16,
+    "master_return_files_present": 0,
+    "first_batch_id": "full_120_priority_batch_001",
+    "role_count": 9
+  },
+  "commands": {
+    "verify_handoff_checksums": "sha256sum -c experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+    "validate_required_returns": "python3 scripts/validate_cape_human_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "validate_strong_returns": "python3 scripts/validate_cape_strong_review_returns.py --experiment-dir experiments/cape_kg_eacl_20260627",
+    "dry_run_human_return_apply": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=0 bash scripts/run_cape_human_return_apply.sh",
+    "apply_human_returns": "PYTHON_BIN=python3 LLM_PYTHON=python3 APPLY_IMPORTS=1 bash scripts/run_cape_human_return_apply.sh",
+    "validate_pre_human_handoff": "python3 scripts/validate_cape_pre_human_handoff.py --experiment-dir experiments/cape_kg_eacl_20260627 --outputs-dir outputs"
+  },
+  "cards": [
+    {
+      "role": "annotator_A",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_A_priority100.tar.gz",
+      "goal": "priority 100 chunks 중 배정된 5개 batch를 독립 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_workbench.html",
+        "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+        "experiments/cape_kg_eacl_20260627/06_release/annotation_calibration_pack_ko.md",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "claim_note": "A/B가 같은 100 chunks를 모두 완료하고 IAA/adjudication이 끝나기 전까지 human-gold claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_A",
+          "batch_or_group": "full_120_priority_batch_001",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_A",
+          "batch_or_group": "full_120_priority_batch_002",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_A_full_120_priority_batch_002.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_A",
+          "batch_or_group": "full_120_priority_batch_003",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_A_full_120_priority_batch_003.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_A",
+          "batch_or_group": "full_120_priority_batch_004",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_A_full_120_priority_batch_004.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_A",
+          "batch_or_group": "full_120_priority_batch_005",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_A_full_120_priority_batch_005.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        }
+      ]
+    },
+    {
+      "role": "annotator_B",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_annotator_B_priority100.tar.gz",
+      "goal": "priority 100 chunks 중 배정된 5개 batch를 독립 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card_ko.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/annotation_workbench.html",
+        "experiments/cape_kg_eacl_20260627/01_data/annotation_guideline_v1.md",
+        "experiments/cape_kg_eacl_20260627/06_release/annotation_calibration_pack_ko.md",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+      "claim_note": "A/B가 같은 100 chunks를 모두 완료하고 IAA/adjudication이 끝나기 전까지 human-gold claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_B",
+          "batch_or_group": "full_120_priority_batch_001",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_B_full_120_priority_batch_001.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_B",
+          "batch_or_group": "full_120_priority_batch_002",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_002/annotator_B_full_120_priority_batch_002.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_B",
+          "batch_or_group": "full_120_priority_batch_003",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_003/annotator_B_full_120_priority_batch_003.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_B",
+          "batch_or_group": "full_120_priority_batch_004",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_004/annotator_B_full_120_priority_batch_004.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        },
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_annotation",
+          "owner": "annotator_B",
+          "batch_or_group": "full_120_priority_batch_005",
+          "expected_rows": "20",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_005/annotator_B_full_120_priority_batch_005.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "100 chunk two-annotator gold와 IAA 계산에 필요",
+          "next_action": "Export edited JSONL with the exact reviewed_file name, then run preflight."
+        }
+      ]
+    },
+    {
+      "role": "coordinator",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_coordinator_priority100.tar.gz",
+      "goal": "반환 파일 무결성 확인, preflight, dry-run/apply orchestration",
+      "start_here": "experiments/cape_kg_eacl_20260627/06_release/human_review_start_here_ko.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_checksums.sha256",
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.md",
+        "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+        "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards_ko.md"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/06_release/human_review_return_preflight.md",
+        "experiments/cape_kg_eacl_20260627/06_release/human_return_apply_last_run.md",
+        "experiments/cape_kg_eacl_20260627/06_release/pre_human_handoff_validation.md"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/05_review/human_gold_batches/full_120_priority_batch_001/annotator_A_full_120_priority_batch_001.reviewed.jsonl",
+      "claim_note": "checksum/preflight 통과는 claim evidence가 아니라 import safety evidence",
+      "return_rows": []
+    },
+    {
+      "role": "adjudicator",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_adjudicator_full120.tar.gz",
+      "goal": "A/B disagreement를 adjudication하여 final human-gold 생성",
+      "start_here": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/adjudication_protocol.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/adjudication_protocol.md"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl",
+      "claim_note": "adjudication_edited.jsonl import 전에는 proposed human-gold scoring claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "yes",
+          "task_type": "human_gold_adjudication",
+          "owner": "adjudicator",
+          "batch_or_group": "full_120_adjudication",
+          "expected_rows": "120",
+          "input_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_draft.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/full_120/adjudication_edited.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "최종 adjudicated human-gold와 proposed human-gold scoring에 필요",
+          "next_action": "Resolve adjudication_draft rows, save adjudication_edited.jsonl, then run preflight/import."
+        }
+      ]
+    },
+    {
+      "role": "mapping_expert",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_mapping_expert_review_top20_groups.tar.gz",
+      "goal": "NCS/PCF mapping top20 priority groups의 top-5 후보 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_protocol.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+        "experiments/cape_kg_eacl_20260627/05_review/mapping_review_next_20_groups.csv"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl",
+      "claim_note": "expert-reviewed file import 전에는 mapping P@K/MRR/nDCG claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "no",
+          "task_type": "mapping_expert_review",
+          "owner": "mapping_expert",
+          "batch_or_group": "top20_groups_top5_rows",
+          "expected_rows": "100",
+          "input_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/mapping_review/mapping_review_items.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "NCS/PCF mapping P@K, MRR, nDCG, accept-rate claim에 필요",
+          "next_action": "Review Top-5 candidates for the 20 priority groups (100 rows), export mapping_review_items.reviewed.jsonl, then run preflight/import."
+        }
+      ]
+    },
+    {
+      "role": "crosswalk_expert",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_crosswalk_expert_review_ncs_pcf.tar.gz",
+      "goal": "NCS-PCF crosswalk 후보 220 rows의 utility/ranking 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_protocol.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_sheet.csv"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl",
+      "claim_note": "expert-reviewed file import 전에는 crosswalk accept-rate/utility claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "no",
+          "task_type": "crosswalk_expert_review",
+          "owner": "crosswalk_expert",
+          "batch_or_group": "ncs_pcf_crosswalk_candidates",
+          "expected_rows": "220",
+          "input_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.jsonl",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/01_data/crosswalk_review/crosswalk_review_items.reviewed.jsonl",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "NCS-PCF crosswalk accept-rate, utility, ranking claim에 필요",
+          "next_action": "Review NCS-PCF crosswalk candidates, export crosswalk_review_items.reviewed.jsonl, then run preflight/import."
+        }
+      ]
+    },
+    {
+      "role": "active_reviewer",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_active_review_human_effort.tar.gz",
+      "goal": "active/random review effort와 timing 기록",
+      "start_here": "experiments/cape_kg_eacl_20260627/06_release/active_review_human_effort_briefing.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+        "experiments/cape_kg_eacl_20260627/05_review/actual_llm_active_review_queue_P_cape_kg_actual.csv"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+      "claim_note": "review_seconds/corrected_error 없는 상태에서는 active-review efficiency claim 금지",
+      "return_rows": [
+        {
+          "requiredness": "required",
+          "required_for_minimum": "no",
+          "task_type": "active_review_human_effort",
+          "owner": "active_reviewer",
+          "batch_or_group": "pooled_active_uncertainty_random",
+          "expected_rows": "204",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort_template.csv",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/active_review_human_effort.reviewed.csv",
+          "present": "no",
+          "status": "missing_reviewed_file",
+          "why_it_matters": "active review efficiency와 사람 검수 비용 claim에 필요",
+          "next_action": "Fill reviewer_id, review_seconds, decision, corrected_error, and high_impact_correction in the active-review effort CSV, then run preflight/refresh."
+        }
+      ]
+    },
+    {
+      "role": "structural_reviewer",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_structural_review_optional.tar.gz",
+      "goal": "optional structural gap/checkpoint 후보 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/06_release/structural_review_action_plan.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+        "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.reviewed.csv",
+        "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.reviewed.csv"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.reviewed.csv",
+      "claim_note": "선택 구조 검수이며 minimum paper gate의 대체 evidence가 아님",
+      "return_rows": [
+        {
+          "task_type": "structural_review_checkpoint_candidates",
+          "owner": "structural_reviewer",
+          "expected_rows": "45",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.csv",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_review_checkpoint_candidates.reviewed.csv",
+          "present": "no",
+          "status": "ready_for_optional_review",
+          "allowed_decisions": "accept_review_checkpoint;keep_current_type;merge_with_existing_review;reject_candidate;needs_discussion",
+          "next_action": "Fill human_decision and human_notes, then save with the exact reviewed_file name."
+        },
+        {
+          "task_type": "structural_gateway_branch_gaps",
+          "owner": "structural_reviewer",
+          "expected_rows": "4",
+          "input_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.csv",
+          "reviewed_file": "experiments/cape_kg_eacl_20260627/05_review/structural_gateway_branch_gaps.reviewed.csv",
+          "present": "no",
+          "status": "ready_for_optional_review",
+          "allowed_decisions": "add_branches_to;keep_gateway_without_branch;split_gateway;reject_gateway;needs_discussion",
+          "next_action": "Fill human_decision and human_notes; add branch target notes only when source evidence supports the outcome."
+        }
+      ]
+    },
+    {
+      "role": "strong_resegmented_review",
+      "bundle": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/cape_human_gold_strong_resegmented_342.tar.gz",
+      "goal": "optional 342 resegmented review units의 strong setting 검수",
+      "start_here": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/README_strong_resegmented_review_ko.md",
+      "open_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/tracking_sheet.csv"
+      ],
+      "save_files": [
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A_edited.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_B_edited.jsonl",
+        "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/adjudication_edited.jsonl"
+      ],
+      "first_required_return": "experiments/cape_kg_eacl_20260627/01_data/gold_annotation/strong_resegmented_342_max18/annotator_A_edited.jsonl",
+      "claim_note": "strong 300+ claim은 optional이며 A/B/adjudication 완료 후에만 가능",
+      "return_rows": []
+    }
+  ],
+  "source_files": {
+    "handoff_manifest": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_handoff/human_review_handoff_manifest.json",
+      "exists": true,
+      "bytes": 16713
+    },
+    "master_return_files": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_master_return_files.csv",
+      "exists": true,
+      "bytes": 8192
+    },
+    "dashboard": {
+      "path": "experiments/cape_kg_eacl_20260627/06_release/human_review_status_dashboard_ko.json",
+      "exists": true,
+      "bytes": 36382
+    },
+    "first_batch_card": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/human_review_first_batch_execution_card.json",
+      "exists": true,
+      "bytes": 10518
+    },
+    "structural_optional_returns": {
+      "path": "experiments/cape_kg_eacl_20260627/05_review/structural_review_optional_returns.csv",
+      "exists": true,
+      "bytes": 1019
+    }
+  },
+  "outputs": {
+    "markdown": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards_ko.md",
+    "json": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.json",
+    "csv": "experiments/cape_kg_eacl_20260627/05_review/human_review_role_quickstart_cards.csv"
+  }
+}

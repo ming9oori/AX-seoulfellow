@@ -1,0 +1,92 @@
+{
+  "parsed": {
+    "annotations": [
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-90_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "UNDERDETERMINED"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-106_C02",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "CAUSAL_EVALUATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-208_C02",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "PROCEDURAL"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-283_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "PROCEDURAL"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-329_C02",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "CAUSAL_EVALUATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-340_C02",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "NORMATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-349_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "DESCRIPTIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-350_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "META_DISCOURSE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-361_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "META_DISCOURSE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-408_C01",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "DEFINITIONAL"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-551_C02",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "CAUSAL_EVALUATIVE"
+      },
+      {
+        "claim_unit_id": "DEV_zaije:evidence/xlsx-row-553_C03",
+        "configuration_id": "C03",
+        "repeat_id": 1,
+        "semantic_mode": "CAUSAL_EVALUATIVE"
+      }
+    ]
+  },
+  "raw_response_path": "raw_responses/F1_C03_r1_b01_7f6fd628110d.json",
+  "response_id": "resp_051ec71256715ec7006a53110bc9f48199bfa03348c6e6cb68",
+  "usage": {
+    "input_tokens": 1677,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 454,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2131
+  }
+}

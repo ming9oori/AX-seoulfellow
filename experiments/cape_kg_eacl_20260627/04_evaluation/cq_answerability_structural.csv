@@ -1,0 +1,13 @@
+﻿cq_id,question,required_predicates,support_source,supporting_edge_count,answerable_by_current_kg,claim_status
+CQ1,Task/step composition and order,"HAS_STEP,PRECEDES",layer2_edges,176,True,kg_structural_diagnostic_not_human_gold
+CQ2,Task input artifacts,USES_INPUT,layer2_edges,201,True,kg_structural_diagnostic_not_human_gold
+CQ3,Task output artifacts,PRODUCES,layer2_edges,220,True,kg_structural_diagnostic_not_human_gold
+CQ4,Task responsible roles,PERFORMED_BY,layer2_edges,120,True,kg_structural_diagnostic_not_human_gold
+CQ5,Decision gateways,HAS_DECISION_GATEWAY,layer2_edges,54,True,kg_structural_diagnostic_not_human_gold
+CQ6,Decision guard conditions,HAS_GUARD_CONDITION,layer2_edges,14,True,kg_structural_diagnostic_not_human_gold
+CQ7,Artifact flow between tasks,"FEEDS_INTO,USED_AS_INPUT_FOR",layer2_edges,18,True,kg_structural_diagnostic_not_human_gold
+CQ8,Review checkpoints,HAS_REVIEW_CHECKPOINT,layer2_edges,41,True,kg_structural_diagnostic_not_human_gold
+CQ9,Principles,HAS_PRINCIPLE,layer2_edges,64,True,kg_structural_diagnostic_not_human_gold
+CQ10,Evidence grounding,EVIDENCED_BY,edge.evidence_anchor_ids,947,True,kg_structural_diagnostic_not_human_gold
+CQ11,NCS capability alignment,"REQUIRES_CAPABILITY,CANDIDATE_ALIGNS_WITH",l2_ncs_mapping_candidates.jsonl,110,True,kg_structural_diagnostic_not_human_gold
+CQ12,PCF process context,"PROCESS_CONTEXT,CANDIDATE_ALIGNS_WITH",l2_pcf_mapping_candidates.jsonl,110,True,kg_structural_diagnostic_not_human_gold

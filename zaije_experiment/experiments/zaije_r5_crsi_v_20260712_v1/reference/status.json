@@ -1,0 +1,13 @@
+{
+  "canonical_graph_system": "R5-B1",
+  "confirmatory_evidence_count": 8,
+  "confirmatory_group_count": 7,
+  "engineering_validated": true,
+  "experiment_id": "zaije_r5_crsi_v_20260712_v1",
+  "human_semantic_gold_validated": false,
+  "key_stored": false,
+  "ontology_consolidation_gate": true,
+  "operational_graph_includes_llm_candidates": false,
+  "overall_status": "DETERMINISTIC_CRSI_ONLY_PASS",
+  "test_access": 0
+}

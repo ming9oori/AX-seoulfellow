@@ -1,0 +1,16 @@
+{
+  "actual_api_calls": 79,
+  "cache_hits": 77,
+  "input_tokens": 247006,
+  "output_tokens": 183601,
+  "estimated_cost_usd": 0.154424,
+  "strong_model_calls": 1,
+  "failed_truncated_calls": 2,
+  "strong_model_cost_share": 0.0497,
+  "hard_caps": {
+    "calls": 80,
+    "input_tokens": 600000,
+    "output_tokens": 250000,
+    "strong_calls": 8
+  }
+}

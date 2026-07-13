@@ -1,0 +1,204 @@
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1041_A01"], "left": "ALIAS_393e2d51cfa121a82290", "reason": "EXPLICIT_ALIAS", "right": "CON_cc11c2562e6ffc25dc90"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-284_A01"], "left": "ALIAS_f60e7b330bcd412842ef", "reason": "EXPLICIT_ALIAS", "right": "CON_0f1e47ede1f2a327e072"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-996_A01"], "left": "ALIAS_02da270a052097bc45dd", "reason": "EXPLICIT_ALIAS", "right": "CON_797dbc77701eb524cec9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-281_A04"], "left": "ALIAS_b969b495ce082a5540c7", "reason": "EXPLICIT_ALIAS", "right": "CON_68ee4096f979e1323bde"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1238_A01"], "left": "ALIAS_bf55e57db8a9e8ffdf1f", "reason": "EXPLICIT_ALIAS", "right": "CON_2741582389418915097b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-512_A01"], "left": "ALIAS_991671d27924833a4473", "reason": "EXPLICIT_ALIAS", "right": "CON_39a8f006ad30941e2792"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1163_A01"], "left": "ALIAS_6001c6b9233b54b38929", "reason": "EXPLICIT_ALIAS", "right": "CON_b3f7c025897c80fc0e22"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-225_A01"], "left": "ALIAS_7527cd6eec4901bf1ccc", "reason": "EXPLICIT_ALIAS", "right": "CON_7f3f83590d4d52601919"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-273_A02"], "left": "ALIAS_e3eb8aee093c321474e2", "reason": "EXPLICIT_ALIAS", "right": "CON_dfc1afaf7ef9b021735f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-708_A01"], "left": "ALIAS_ac9acfb5b06d5dd96eb3", "reason": "EXPLICIT_ALIAS", "right": "CON_82dd41d6a9693f40ad21"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-719_A01"], "left": "ALIAS_a0e7ea5ce97949cfc4fa", "reason": "EXPLICIT_ALIAS", "right": "CON_68da7bc9e2b2f189a530"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-734_A01"], "left": "ALIAS_263c6fe414a7268272be", "reason": "EXPLICIT_ALIAS", "right": "CON_7e45b56019bfe44e6e5e"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1134_A01"], "left": "ALIAS_b0514922d61b6412009e", "reason": "EXPLICIT_ALIAS", "right": "CON_1de6121295737073ea25"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-888_A01"], "left": "ALIAS_cef57368aac9fd8dcfb7", "reason": "EXPLICIT_ALIAS", "right": "CON_b2231bb341079227bbdc"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1054_A01"], "left": "ALIAS_a91b04cfa45c45e57481", "reason": "EXPLICIT_ALIAS", "right": "CON_2745a6a592342faa837c"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1014_A01"], "left": "ALIAS_d41c46a59600d68d544b", "reason": "EXPLICIT_ALIAS", "right": "CON_bdf9a11bcd0ecaa7088f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-652_A01"], "left": "ALIAS_aba4f11c576ef5a9e251", "reason": "EXPLICIT_ALIAS", "right": "CON_b01d4d896e26d6c7bb2f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1054_A01"], "left": "ALIAS_34dc417a76f215c83a8a", "reason": "EXPLICIT_ALIAS", "right": "CON_5a17b4413570a4065a28"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-849_A01"], "left": "ALIAS_69efef6b99df7ca7eb40", "reason": "EXPLICIT_ALIAS", "right": "CON_3a99cfb75e3a05a723dc"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-803_A01"], "left": "ALIAS_000fbed62dd3091896ed", "reason": "EXPLICIT_ALIAS", "right": "CON_6497d47d3b9aefa0fb1c"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-803_A01"], "left": "ALIAS_aba4f11c576ef5a9e251", "reason": "EXPLICIT_ALIAS", "right": "CON_0504e22946c093ee6117"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1028_A01"], "left": "ALIAS_d41c46a59600d68d544b", "reason": "EXPLICIT_ALIAS", "right": "CON_6195b1142c4c7ae78c3f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1065_A01"], "left": "ALIAS_eaa00c2eb082fc203eef", "reason": "EXPLICIT_ALIAS", "right": "CON_5718119e3a5b5369c0b9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-219_A01"], "left": "ALIAS_0d6def1103f3b6c2c5e1", "reason": "EXPLICIT_ALIAS", "right": "CON_7b7a9af294a8d1da4f96"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1137_A01"], "left": "ALIAS_40736870c9a9e8114838", "reason": "EXPLICIT_ALIAS", "right": "CON_ab0fbcd4c117f65616b9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-760_A01"], "left": "ALIAS_f62da90f5ef7135ae01f", "reason": "EXPLICIT_ALIAS", "right": "CON_3b38876e135c33d942fd"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-217_A01"], "left": "ALIAS_d01f50ff7d14c73b6a70", "reason": "EXPLICIT_ALIAS", "right": "CON_5cfb7083785819a8aa78"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-849_A01"], "left": "ALIAS_d1a2532a28dab6aab6e5", "reason": "EXPLICIT_ALIAS", "right": "CON_b51da0ebb66a81ef95b3"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-495_A02"], "left": "ALIAS_23bc3de4351685df7570", "reason": "EXPLICIT_ALIAS", "right": "CON_e0f2d69bdf663d4ffd55"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-279_A03"], "left": "ALIAS_f60e7b330bcd412842ef", "reason": "EXPLICIT_ALIAS", "right": "CON_0f66289b7e716a188fb6"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-727_A01"], "left": "ALIAS_a0e7ea5ce97949cfc4fa", "reason": "EXPLICIT_ALIAS", "right": "CON_23fb730050e7a5bc3383"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-888_A01"], "left": "ALIAS_a984ac4bf37327e07d7b", "reason": "EXPLICIT_ALIAS", "right": "CON_f328a73813dd220841cb"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-220_A01"], "left": "ALIAS_77376f8f301dfde7e3c0", "reason": "EXPLICIT_ALIAS", "right": "CON_dfc26fc2823238dd9786"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1242_A01"], "left": "ALIAS_ab612db5893ff0b2b527", "reason": "EXPLICIT_ALIAS", "right": "CON_01c3fc88107ce241b90a"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-208_A01"], "left": "ALIAS_f3a60c587a13313f1669", "reason": "EXPLICIT_ALIAS", "right": "CON_02d23fbbbda17d60d1e5"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-377_A01"], "left": "ALIAS_deec6473127371a73b6d", "reason": "EXPLICIT_ALIAS", "right": "CON_b30642f4afd7b01f9ca9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-951_A01"], "left": "ALIAS_401684f7db59a4f1a621", "reason": "EXPLICIT_ALIAS", "right": "CON_a140ce37fecb09389a71"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-878_A01"], "left": "ALIAS_b5e8d28b4848d002b6cf", "reason": "EXPLICIT_ALIAS", "right": "CON_f6be01db8a8dc173975a"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-21_A01"], "left": "ALIAS_d9a2e23142e15d802555", "reason": "EXPLICIT_ALIAS", "right": "CON_3a64e44d17bf1e57c5de"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-500_A02"], "left": "ALIAS_db97545f1a0920138589", "reason": "EXPLICIT_ALIAS", "right": "CON_18117cffc5df0d5e6b6c"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1141_A01"], "left": "ALIAS_b5a25adb8bd8d949b153", "reason": "EXPLICIT_ALIAS", "right": "CON_e292aa120cc0e51c7412"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-668_A01"], "left": "ALIAS_fe5bcec8c762000c4535", "reason": "EXPLICIT_ALIAS", "right": "CON_38e8ce518c7f31a63ce5"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1140_A01"], "left": "ALIAS_7713b95897b71ee8adc3", "reason": "EXPLICIT_ALIAS", "right": "CON_8ac1285aa0a44b62ff3a"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-250_A01"], "left": "ALIAS_d01f50ff7d14c73b6a70", "reason": "EXPLICIT_ALIAS", "right": "CON_d2945ed5336f46349a07"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-209_A01"], "left": "ALIAS_2da49033e0493c6a7dd0", "reason": "EXPLICIT_ALIAS", "right": "CON_d1f165ae41dedcbdd3e6"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1011_A01"], "left": "ALIAS_915c4947807f374c5765", "reason": "EXPLICIT_ALIAS", "right": "CON_6136157c7552234bdcd0"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-288_A03"], "left": "ALIAS_f60e7b330bcd412842ef", "reason": "EXPLICIT_ALIAS", "right": "CON_0f66289b7e716a188fb6"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-231_A01"], "left": "ALIAS_e5313a48a49d28dcc47d", "reason": "EXPLICIT_ALIAS", "right": "CON_04f4347e085dcdbeafcd"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-514_A01"], "left": "ALIAS_551cea07660c1dfd6376", "reason": "EXPLICIT_ALIAS", "right": "CON_5bfabc897c68bda3c9f5"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-500_A03"], "left": "ALIAS_4cdeff3771fc912d383e", "reason": "EXPLICIT_ALIAS", "right": "CON_ef6bb35569064b764b5f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-976_A02"], "left": "ALIAS_393e2d51cfa121a82290", "reason": "EXPLICIT_ALIAS", "right": "CON_580f4778e6cdb8ef01bb"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-896_A02"], "left": "ALIAS_f104a858b5962f8937c9", "reason": "EXPLICIT_ALIAS", "right": "CON_d38cd686c28b9bc9e0b3"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-786_A01"], "left": "ALIAS_78fb2fcbc8840f103a57", "reason": "EXPLICIT_ALIAS", "right": "CON_d3f5bfabb492ba01e841"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-976_A02"], "left": "ALIAS_06a5ca6aa6e25b5d48fb", "reason": "EXPLICIT_ALIAS", "right": "CON_a5ee3fc319ded06c9653"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-155_A01"], "left": "ALIAS_bb79d5ca2d5c7519385d", "reason": "EXPLICIT_ALIAS", "right": "CON_02dfee98b66ad065e82f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-156_A01"], "left": "ALIAS_4c4f5c4316fd8646db33", "reason": "EXPLICIT_ALIAS", "right": "CON_d977e265e7c50d085806"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1039_A01"], "left": "ALIAS_fed4a31da59696860ce4", "reason": "EXPLICIT_ALIAS", "right": "CON_31cf86c65251a58954f4"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1005_A01"], "left": "ALIAS_915c4947807f374c5765", "reason": "EXPLICIT_ALIAS", "right": "CON_6136157c7552234bdcd0"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-119_A01"], "left": "ALIAS_e564e64877a8239b0729", "reason": "EXPLICIT_ALIAS", "right": "CON_9a5370e521e317cd889b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-272_A01"], "left": "ALIAS_eccff23f72dee5af43f5", "reason": "EXPLICIT_ALIAS", "right": "CON_c1c37e01f91a93a2e7f3"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-985_A01"], "left": "ALIAS_34dc417a76f215c83a8a", "reason": "EXPLICIT_ALIAS", "right": "CON_ad206a80b385ed192a12"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1278_A01"], "left": "ALIAS_5f5fa7f525f921a276ea", "reason": "EXPLICIT_ALIAS", "right": "CON_808edc9ea415b42f1d29"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-762_A01"], "left": "ALIAS_973aece84b69c622a532", "reason": "EXPLICIT_ALIAS", "right": "CON_c3d16e21be0e81cd0875"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-760_A01"], "left": "ALIAS_2d21956b56c41b58d0cb", "reason": "EXPLICIT_ALIAS", "right": "CON_b371bbd59898d09b6107"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-287_A04"], "left": "ALIAS_4c16a7c611109b9d4011", "reason": "EXPLICIT_ALIAS", "right": "CON_887a6f1fe6e3defff20f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-366_A01"], "left": "ALIAS_189a81de13d55248311e", "reason": "EXPLICIT_ALIAS", "right": "CON_0e8d83cb05a8904f3f8d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-230_A01"], "left": "ALIAS_d54a388718f487cd9c68", "reason": "EXPLICIT_ALIAS", "right": "CON_17ae876ccfbb66c1d7ce"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-956_A01"], "left": "ALIAS_f559b10efd06f70e8d68", "reason": "EXPLICIT_ALIAS", "right": "CON_edb1700b61107f7a5e55"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1046_A11"], "left": "ALIAS_e9b468f4e64e42c7b588", "reason": "EXPLICIT_ALIAS", "right": "CON_b6eee021c832eaf133d4"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-94_A01"], "left": "ALIAS_95bee6be9a5c4542c08e", "reason": "EXPLICIT_ALIAS", "right": "CON_f11afcd5c5fc7500eaa9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1001_A02"], "left": "ALIAS_ac73f67cfcf84a5f890d", "reason": "EXPLICIT_ALIAS", "right": "CON_3d8aa809751e6138ce19"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-499_A01"], "left": "ALIAS_ff016ae9e216d181c1e6", "reason": "EXPLICIT_ALIAS", "right": "CON_087dab3e19882d063f67"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1197_A01"], "left": "ALIAS_a91b04cfa45c45e57481", "reason": "EXPLICIT_ALIAS", "right": "CON_31bdd2351e7210bf9bdd"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-952_A03"], "left": "ALIAS_f25c6d8f3224e884d4bb", "reason": "EXPLICIT_ALIAS", "right": "CON_1a7b330074b6dec9079b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-224_A01"], "left": "ALIAS_a6c73ebb052b00b4e225", "reason": "EXPLICIT_ALIAS", "right": "CON_ae18cc8bb7731c7ebce8"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-258_A01"], "left": "ALIAS_be0af34bce676d261bcb", "reason": "EXPLICIT_ALIAS", "right": "CON_152f003d3e2ed5317b53"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-223_A01"], "left": "ALIAS_9ad1878b70375b8bc741", "reason": "EXPLICIT_ALIAS", "right": "CON_b7a2fe476fdbbfa6af31"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-728_A01"], "left": "ALIAS_3ef91166c421d4a88611", "reason": "EXPLICIT_ALIAS", "right": "CON_5488eb41fe9a4dca9fbc"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-237_A04"], "left": "ALIAS_a6c73ebb052b00b4e225", "reason": "EXPLICIT_ALIAS", "right": "CON_675e32df889b74ef445f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-281_A02"], "left": "ALIAS_052dc836e04a649a2560", "reason": "EXPLICIT_ALIAS", "right": "CON_68ee4096f979e1323bde"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-972_A01"], "left": "ALIAS_393e2d51cfa121a82290", "reason": "EXPLICIT_ALIAS", "right": "CON_275012ef29856c0be7de"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1337_A01"], "left": "ALIAS_bcdd1ce7b4a467089afd", "reason": "EXPLICIT_ALIAS", "right": "CON_c7dfb572caa8693d0cda"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-495_A01"], "left": "ALIAS_aba4f11c576ef5a9e251", "reason": "EXPLICIT_ALIAS", "right": "CON_4c2ce3793bc435bf4947"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-345_A01"], "left": "ALIAS_f60e7b330bcd412842ef", "reason": "EXPLICIT_ALIAS", "right": "CON_59c811a0f3b27590f8e3"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1137_A01"], "left": "ALIAS_04d50f8d0ad7c3af6c02", "reason": "EXPLICIT_ALIAS", "right": "CON_e87ec3701ae11466011b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-841_A01"], "left": "ALIAS_6e6eef32e8c9b81b12f3", "reason": "EXPLICIT_ALIAS", "right": "CON_ddfc580dc7c0a4f8322b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-223_A01"], "left": "ALIAS_d1aec217ea688d97c024", "reason": "EXPLICIT_ALIAS", "right": "CON_116a144090ae9922c605"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-79_A01"], "left": "ALIAS_bb79d5ca2d5c7519385d", "reason": "EXPLICIT_ALIAS", "right": "CON_8ed54e5989d2dc9f0e8a"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-903_A01"], "left": "ALIAS_fe197f22966eb234325e", "reason": "EXPLICIT_ALIAS", "right": "CON_ba32ae3c0b39e54e20a2"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-999_A01"], "left": "ALIAS_02da270a052097bc45dd", "reason": "EXPLICIT_ALIAS", "right": "CON_db45d21db89b7e06d193"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-95_A01"], "left": "ALIAS_dc070e9e00c6357ba5c7", "reason": "EXPLICIT_ALIAS", "right": "CON_f58e4a0813181214bb39"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-259_A01"], "left": "ALIAS_bc4c004b50f5f78bafd3", "reason": "EXPLICIT_ALIAS", "right": "CON_445f776f15e771f2b69f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-996_A01"], "left": "ALIAS_f60e7b330bcd412842ef", "reason": "EXPLICIT_ALIAS", "right": "CON_22cb3b8c9496e0be288d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1364_A01"], "left": "ALIAS_c537967d4095a6449ec5", "reason": "EXPLICIT_ALIAS", "right": "CON_91c11dfa1a27ec05b239"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-732_A01"], "left": "ALIAS_263c6fe414a7268272be", "reason": "EXPLICIT_ALIAS", "right": "CON_cdf82ee2e66288e3bfc9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-696_A01"], "left": "ALIAS_328110f2b902977612f4", "reason": "EXPLICIT_ALIAS", "right": "CON_bd32c7fa3138a1e3d87d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-218_A01"], "left": "ALIAS_2ac530d54f09fe4eb6a6", "reason": "EXPLICIT_ALIAS", "right": "CON_f1d4b9ec947f17df39d9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1278_A01"], "left": "ALIAS_cf79e1f9c1159affdc3f", "reason": "EXPLICIT_ALIAS", "right": "CON_6dd5726e1f6a14199e95"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-272_A01"], "left": "ALIAS_47d4e12873061489ca7b", "reason": "EXPLICIT_ALIAS", "right": "CON_62bfa6cf18ca1ac0b3fd"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-238_A02"], "left": "ALIAS_a96884a032c81cf1c813", "reason": "EXPLICIT_ALIAS", "right": "CON_57a49f76b440c2ef92e9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-222_A01"], "left": "ALIAS_77376f8f301dfde7e3c0", "reason": "EXPLICIT_ALIAS", "right": "CON_28b825a63ceac59a66df"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-976_A02"], "left": "ALIAS_b2a5cb8b594caba313dd", "reason": "EXPLICIT_ALIAS", "right": "CON_ba40ce81ab7b3b484319"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-123_A01"], "left": "ALIAS_09237668105090452e64", "reason": "EXPLICIT_ALIAS", "right": "CON_93066f6e2e7234a23990"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-67_A01"], "left": "ALIAS_a27148fa83839578ccc9", "reason": "EXPLICIT_ALIAS", "right": "CON_65dd4a86cde5b0832be7"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-222_A01"], "left": "ALIAS_11089021b44b7fa06ec3", "reason": "EXPLICIT_ALIAS", "right": "CON_3512af8745811119cb03"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-21_A01"], "left": "ALIAS_dcb9497129612a5536f6", "reason": "EXPLICIT_ALIAS", "right": "CON_d968392a1886ff7590e9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-246_A04"], "left": "ALIAS_915c4947807f374c5765", "reason": "EXPLICIT_ALIAS", "right": "CON_6136157c7552234bdcd0"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1266_A01"], "left": "ALIAS_9b63da6e5f15e5112eb6", "reason": "EXPLICIT_ALIAS", "right": "CON_476694b4f445f0b90520"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-280_A01"], "left": "ALIAS_4c16a7c611109b9d4011", "reason": "EXPLICIT_ALIAS", "right": "CON_887a6f1fe6e3defff20f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-20_A01"], "left": "ALIAS_f8252fe19ae012ead64a", "reason": "EXPLICIT_ALIAS", "right": "CON_55e3e1ef94c65da026d9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-906_A01"], "left": "ALIAS_122aad98ccb82c0044c3", "reason": "EXPLICIT_ALIAS", "right": "CON_8728b693c80d33cdc249"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-156_A01"], "left": "ALIAS_28db4d9bb01c9a277fc7", "reason": "EXPLICIT_ALIAS", "right": "CON_aa8ee7c1c65b19af96d9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-236_A03"], "left": "ALIAS_34dc417a76f215c83a8a", "reason": "EXPLICIT_ALIAS", "right": "CON_a411b2aba092abd46659"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-500_A01"], "left": "ALIAS_8925721bf6fbed0166f3", "reason": "EXPLICIT_ALIAS", "right": "CON_d3d8675c6df5ee617df0"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1288_A01"], "left": "ALIAS_a91b04cfa45c45e57481", "reason": "EXPLICIT_ALIAS", "right": "CON_fcb05e3202caa6c6b13f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-9_A01"], "left": "ALIAS_1c59bb4782004a89cc7e", "reason": "EXPLICIT_ALIAS", "right": "CON_646c8a672bb6527ee856"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1164_A01"], "left": "ALIAS_ab1a8be9ddc2a32fd888", "reason": "EXPLICIT_ALIAS", "right": "CON_5fe63f33752fbb9aa654"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-973_A01"], "left": "ALIAS_d41c46a59600d68d544b", "reason": "EXPLICIT_ALIAS", "right": "CON_69a392198cee4095e49c"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-232_A01"], "left": "ALIAS_dbc95159bd0b6346d4a3", "reason": "EXPLICIT_ALIAS", "right": "CON_97f24633facaf9e5690e"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1156_A01"], "left": "ALIAS_6001c6b9233b54b38929", "reason": "EXPLICIT_ALIAS", "right": "CON_1394dfba24bc22ac3479"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-896_A01"], "left": "ALIAS_474e9bb85b999529e895", "reason": "EXPLICIT_ALIAS", "right": "CON_cd267f8dd147a089c4b8"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-243_A04"], "left": "ALIAS_47d4e12873061489ca7b", "reason": "EXPLICIT_ALIAS", "right": "CON_05b214f9938f017574af"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1063_A01"], "left": "ALIAS_c85f740efe662d396da7", "reason": "EXPLICIT_ALIAS", "right": "CON_661b5853d26e702a1d6f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-697_A01"], "left": "ALIAS_87273feaf155001cc72b", "reason": "EXPLICIT_ALIAS", "right": "CON_03c1c8db30a610ffb598"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-234_A02"], "left": "ALIAS_2ac530d54f09fe4eb6a6", "reason": "EXPLICIT_ALIAS", "right": "CON_d5d2eaf78286e1445df2"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1046_A05"], "left": "ALIAS_e9b468f4e64e42c7b588", "reason": "EXPLICIT_ALIAS", "right": "CON_1cb537eb37c5459d42c2"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1288_A01"], "left": "ALIAS_34dc417a76f215c83a8a", "reason": "EXPLICIT_ALIAS", "right": "CON_eadfae62f797308d8f2b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1337_A01"], "left": "ALIAS_ed4940f51364717b201f", "reason": "EXPLICIT_ALIAS", "right": "CON_297158f053e49a353d17"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-762_A01"], "left": "ALIAS_4367aedb41bede61f9bf", "reason": "EXPLICIT_ALIAS", "right": "CON_aeb4beffdebdd6e0fcc9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1239_A01"], "left": "ALIAS_ab612db5893ff0b2b527", "reason": "EXPLICIT_ALIAS", "right": "CON_b9626511d3769c763b22"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-786_A02"], "left": "ALIAS_da3277348a4b114d562a", "reason": "EXPLICIT_ALIAS", "right": "CON_d3c227b9effdd1fa9915"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1197_A01"], "left": "ALIAS_f5d7ce08eab9124ee602", "reason": "EXPLICIT_ALIAS", "right": "CON_2030ef4ffa7b29ddc0f0"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-273_A02"], "left": "ALIAS_adbfe22fa9228e97e05d", "reason": "EXPLICIT_ALIAS", "right": "CON_3dbea719db4b13a8c3e2"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-999_A01"], "left": "ALIAS_f86d40071d437a6a579b", "reason": "EXPLICIT_ALIAS", "right": "CON_59c5a6462dffa5d164bb"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-906_A01"], "left": "ALIAS_559ea5d0a4639c01bfec", "reason": "EXPLICIT_ALIAS", "right": "CON_218dd587f53d26764138"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-456_A01"], "left": "ALIAS_11089021b44b7fa06ec3", "reason": "EXPLICIT_ALIAS", "right": "CON_6b7bb39c3884467d7cdd"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-285_A01"], "left": "ALIAS_d01f50ff7d14c73b6a70", "reason": "EXPLICIT_ALIAS", "right": "CON_5aadba9a7d050a396bc8"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-585_A01"], "left": "ALIAS_6ca53523991e636af90d", "reason": "EXPLICIT_ALIAS", "right": "CON_4628b085c2a1a625e38d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-207_A01"], "left": "ALIAS_03a54722fd86756252b3", "reason": "EXPLICIT_ALIAS", "right": "CON_84c7e730ac8d2cc2a429"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-511_A01"], "left": "ALIAS_a311334e551f0e9df909", "reason": "EXPLICIT_ALIAS", "right": "CON_dfed35c0c6284d51606b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-956_A01"], "left": "ALIAS_1735d37ce4860b026ea7", "reason": "EXPLICIT_ALIAS", "right": "CON_400cf70f45330920520b"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-699_A01"], "left": "ALIAS_a0e7ea5ce97949cfc4fa", "reason": "EXPLICIT_ALIAS", "right": "CON_68da7bc9e2b2f189a530"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1040_A01"], "left": "ALIAS_fed4a31da59696860ce4", "reason": "EXPLICIT_ALIAS", "right": "CON_dc3a190767c40b326139"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1014_A01"], "left": "ALIAS_a79f092238f7d7b9a41a", "reason": "EXPLICIT_ALIAS", "right": "CON_56b25cd49dc6b9d86bf7"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-284_A01"], "left": "ALIAS_a6c73ebb052b00b4e225", "reason": "EXPLICIT_ALIAS", "right": "CON_33231d65ac5b5c27dc04"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1038_A01"], "left": "ALIAS_393e2d51cfa121a82290", "reason": "EXPLICIT_ALIAS", "right": "CON_c29ccf06bce3b6dcb5c7"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-218_A01"], "left": "ALIAS_a17ccff94b5117420e5f", "reason": "EXPLICIT_ALIAS", "right": "CON_4bd8823584e145a08329"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1064_A01"], "left": "ALIAS_f3f091d84124bb102b5e", "reason": "EXPLICIT_ALIAS", "right": "CON_82fa52d31de546fffba1"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-406_A01"], "left": "ALIAS_23bc3de4351685df7570", "reason": "EXPLICIT_ALIAS", "right": "CON_65056bee35c0d843592f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-730_A01"], "left": "ALIAS_a5b872b77e857e37fe61", "reason": "EXPLICIT_ALIAS", "right": "CON_bf9887c5466aeb7c0018"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-216_A01"], "left": "ALIAS_34dc417a76f215c83a8a", "reason": "EXPLICIT_ALIAS", "right": "CON_7450ff654198a1c546d5"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1153_A01"], "left": "ALIAS_1eb645d423fce8ee664d", "reason": "EXPLICIT_ALIAS", "right": "CON_ef2c5ffb1cfb7999073d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1037_A01"], "left": "ALIAS_9a75161f4e59a8c82f60", "reason": "EXPLICIT_ALIAS", "right": "CON_75c2bfa84fc425e13996"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-880_A01"], "left": "ALIAS_4fec654f099fe2a5aac1", "reason": "EXPLICIT_ALIAS", "right": "CON_c8aab3af170e84d4aace"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1047_A05"], "left": "ALIAS_0a8b6962ec889e588024", "reason": "EXPLICIT_ALIAS", "right": "CON_aa2317a20a68c1949d27"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1002_A01"], "left": "ALIAS_02da270a052097bc45dd", "reason": "EXPLICIT_ALIAS", "right": "CON_a6d02c35a4e569bd2737"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-91_A01"], "left": "ALIAS_bb79d5ca2d5c7519385d", "reason": "EXPLICIT_ALIAS", "right": "CON_86f5e763bc2c380f592d"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-350_A01"], "left": "ALIAS_71352637f42a2f6cf8a1", "reason": "EXPLICIT_ALIAS", "right": "CON_bad36dd92473d3eb7151"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-512_A01"], "left": "ALIAS_f653e6cc4a702de17646", "reason": "EXPLICIT_ALIAS", "right": "CON_2e2a6cd17ae79bca78b9"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1062_A01"], "left": "ALIAS_376be64f6d8069e7ee21", "reason": "EXPLICIT_ALIAS", "right": "CON_820fe2581688d8f124ae"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-906_A01"], "left": "ALIAS_abcbdeb370324c1d10e8", "reason": "EXPLICIT_ALIAS", "right": "CON_8d0820cfd6229c9c8034"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-369_A02"], "left": "ALIAS_deec6473127371a73b6d", "reason": "EXPLICIT_ALIAS", "right": "CON_2b5b48c379d63a73881f"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-18_A01"], "left": "ALIAS_0e5940838735f8652cc3", "reason": "EXPLICIT_ALIAS", "right": "CON_608efb2cf3bd8067a826"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-1240_A01"], "left": "ALIAS_76723c4f91bd2fd7098e", "reason": "EXPLICIT_ALIAS", "right": "CON_56ef823f49c000ad873a"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-408_A01"], "left": "ALIAS_dfc5dd08dab01df65351", "reason": "EXPLICIT_ALIAS", "right": "CON_e13fc7b75eb2ba52c5e5"}
+{"evidence_anchor_ids": ["zaije:evidence/xlsx-row-273_A02"], "left": "ALIAS_85056e1f9f815b26fd92", "reason": "EXPLICIT_ALIAS", "right": "CON_294a7c7b00ebf384467f"}
+{"evidence_anchor_ids": [], "left": "CON_275012ef29856c0be7de", "normalized": "discriminator", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_580f4778e6cdb8ef01bb"}
+{"evidence_anchor_ids": [], "left": "CON_580f4778e6cdb8ef01bb", "normalized": "discriminator", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_c29ccf06bce3b6dcb5c7"}
+{"evidence_anchor_ids": [], "left": "CON_c29ccf06bce3b6dcb5c7", "normalized": "discriminator", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_cc11c2562e6ffc25dc90"}
+{"evidence_anchor_ids": [], "left": "CON_0f1e47ede1f2a327e072", "normalized": "rfp", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_0f66289b7e716a188fb6"}
+{"evidence_anchor_ids": [], "left": "CON_0f66289b7e716a188fb6", "normalized": "rfp", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_22cb3b8c9496e0be288d"}
+{"evidence_anchor_ids": [], "left": "CON_22cb3b8c9496e0be288d", "normalized": "rfp", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_59c811a0f3b27590f8e3"}
+{"evidence_anchor_ids": [], "left": "CON_797dbc77701eb524cec9", "normalized": "hot button", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_a6d02c35a4e569bd2737"}
+{"evidence_anchor_ids": [], "left": "CON_a6d02c35a4e569bd2737", "normalized": "hot button", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_db45d21db89b7e06d193"}
+{"evidence_anchor_ids": [], "left": "CON_1394dfba24bc22ac3479", "normalized": "experience", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_b3f7c025897c80fc0e22"}
+{"evidence_anchor_ids": [], "left": "CON_23fb730050e7a5bc3383", "normalized": "composition", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_68da7bc9e2b2f189a530"}
+{"evidence_anchor_ids": [], "left": "CON_7e45b56019bfe44e6e5e", "normalized": "ghosting", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_cdf82ee2e66288e3bfc9"}
+{"evidence_anchor_ids": [], "left": "CON_2745a6a592342faa837c", "normalized": "no bid", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_31bdd2351e7210bf9bdd"}
+{"evidence_anchor_ids": [], "left": "CON_31bdd2351e7210bf9bdd", "normalized": "no bid", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_fcb05e3202caa6c6b13f"}
+{"evidence_anchor_ids": [], "left": "CON_6195b1142c4c7ae78c3f", "normalized": "recognition", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_69a392198cee4095e49c"}
+{"evidence_anchor_ids": [], "left": "CON_69a392198cee4095e49c", "normalized": "recognition", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_bdf9a11bcd0ecaa7088f"}
+{"evidence_anchor_ids": [], "left": "CON_0504e22946c093ee6117", "normalized": "benefit", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_4c2ce3793bc435bf4947"}
+{"evidence_anchor_ids": [], "left": "CON_4c2ce3793bc435bf4947", "normalized": "benefit", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_b01d4d896e26d6c7bb2f"}
+{"evidence_anchor_ids": [], "left": "CON_5a17b4413570a4065a28", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_7450ff654198a1c546d5"}
+{"evidence_anchor_ids": [], "left": "CON_7450ff654198a1c546d5", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_7b7a9af294a8d1da4f96"}
+{"evidence_anchor_ids": [], "left": "CON_7b7a9af294a8d1da4f96", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_97f24633facaf9e5690e"}
+{"evidence_anchor_ids": [], "left": "CON_97f24633facaf9e5690e", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_a411b2aba092abd46659"}
+{"evidence_anchor_ids": [], "left": "CON_a411b2aba092abd46659", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_ad206a80b385ed192a12"}
+{"evidence_anchor_ids": [], "left": "CON_ad206a80b385ed192a12", "normalized": "bid no bid decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_eadfae62f797308d8f2b"}
+{"evidence_anchor_ids": [], "left": "CON_5aadba9a7d050a396bc8", "normalized": "milestone", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_5cfb7083785819a8aa78"}
+{"evidence_anchor_ids": [], "left": "CON_5cfb7083785819a8aa78", "normalized": "milestone", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_d2945ed5336f46349a07"}
+{"evidence_anchor_ids": [], "left": "CON_65056bee35c0d843592f", "normalized": "value proposition", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_e0f2d69bdf663d4ffd55"}
+{"evidence_anchor_ids": [], "left": "CON_28b825a63ceac59a66df", "normalized": "proposal planning", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_dfc26fc2823238dd9786"}
+{"evidence_anchor_ids": [], "left": "CON_01c3fc88107ce241b90a", "normalized": "blue ocean", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_b9626511d3769c763b22"}
+{"evidence_anchor_ids": [], "left": "CON_2b5b48c379d63a73881f", "normalized": "intellectual property", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_b30642f4afd7b01f9ca9"}
+{"evidence_anchor_ids": [], "left": "CON_02dfee98b66ad065e82f", "normalized": "transparency", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_86f5e763bc2c380f592d"}
+{"evidence_anchor_ids": [], "left": "CON_86f5e763bc2c380f592d", "normalized": "transparency", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_8ed54e5989d2dc9f0e8a"}
+{"evidence_anchor_ids": [], "left": "CON_31cf86c65251a58954f4", "normalized": "positioning", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_dc3a190767c40b326139"}
+{"evidence_anchor_ids": [], "left": "CON_1cb537eb37c5459d42c2", "normalized": "hp", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_b6eee021c832eaf133d4"}
+{"evidence_anchor_ids": [], "left": "CON_33231d65ac5b5c27dc04", "normalized": "bid validation decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_675e32df889b74ef445f"}
+{"evidence_anchor_ids": [], "left": "CON_675e32df889b74ef445f", "normalized": "bid validation decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_ae18cc8bb7731c7ebce8"}
+{"evidence_anchor_ids": [], "left": "CON_d5d2eaf78286e1445df2", "normalized": "pursuit decision", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_f1d4b9ec947f17df39d9"}
+{"evidence_anchor_ids": [], "left": "CON_05b214f9938f017574af", "normalized": "executive summary", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_62bfa6cf18ca1ac0b3fd"}
+{"evidence_anchor_ids": [], "left": "CON_3512af8745811119cb03", "normalized": "capture plan", "reason": "EXACT_NORMALIZED_EXPLICIT_ALIAS", "right": "CON_6b7bb39c3884467d7cdd"}

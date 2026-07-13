@@ -1,0 +1,10 @@
+hard_incompatible:
+  - [Actor, Artifact]
+  - [Actor, InformationObject]
+  - [WorkUnit, Metric]
+  - [WorkUnit, Artifact]
+  - [Template, TemplateField]
+  - [ExampleInstance, DomainConcept]
+  - [Organization, Actor]
+hard_merge_only: true
+soft_merge_direct_promotion: false

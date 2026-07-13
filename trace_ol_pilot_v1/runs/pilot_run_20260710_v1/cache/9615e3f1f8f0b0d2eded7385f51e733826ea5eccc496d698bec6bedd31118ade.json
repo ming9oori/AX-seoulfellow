@@ -1,0 +1,58 @@
+{
+  "response_id": "resp_04ddd47b8e63f69b006a50cbe01dfc819986f878d6a69ee58a",
+  "usage": {
+    "input_tokens": 2093,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 244,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 2337
+  },
+  "parsed": {
+    "adjudications": [
+      {
+        "evidence_id": "ev:jaije:clean_sentences:r7",
+        "decision": "A_ACCEPT",
+        "final_annotation": {
+          "evidence_id": "ev:jaije:clean_sentences:r7",
+          "bundle_id": "bundle:ev:jaije:clean_sentences:r7",
+          "annotator": {
+            "role": "annotator_A",
+            "model_id": "gpt-4o-mini-2024-07-18",
+            "prompt_version": "reference_A_v0.1",
+            "schema_version": "atomic-claim-v0.2"
+          },
+          "claims": [
+            {
+              "claim_id": "claim:35c8c0f6b59bde3a29889ab2015cd799",
+              "source_span": {
+                "evidence_id": "ev:jaije:clean_sentences:r7",
+                "text": "왜 그럴까?",
+                "start": 0,
+                "end": 6
+              },
+              "claim_family": "UNCLEAR",
+              "claim_type": "Question",
+              "arguments": [],
+              "predicate_normalized": null,
+              "modality": "NONE",
+              "polarity": "NONE",
+              "conditions": [],
+              "exceptions": [],
+              "scope_span": null,
+              "purpose_span": null,
+              "promotion_target": "NONE",
+              "decision": "ABSTAIN",
+              "uncertainty_code": "NONE"
+            }
+          ]
+        },
+        "reason_code": "SPAN"
+      }
+    ]
+  }
+}

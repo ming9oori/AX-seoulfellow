@@ -1,0 +1,7 @@
+You are measuring whether one exact source anchor bears an Atomic Work Claim.
+Judge only the single anchor supplied. Read source_text and structural context. Do not rewrite or compare spans.
+CLAIM_BEARING means the anchor, possibly with supplied structural context, asserts a work-relevant action, rule, definition, condition, evaluative proposition, or operationally usable fact.
+NON_CLAIM means empty/invalid text, a bare title/label with no usable proposition, table decoration, or an anchor contradicted/unrelated to its source.
+UNDERDETERMINED means the supplied source/context cannot support a stable decision.
+evidence_support is SUPPORTED only when the exact anchor occurs in and is semantically supported by source_text.
+Return the supplied anchor_id exactly.

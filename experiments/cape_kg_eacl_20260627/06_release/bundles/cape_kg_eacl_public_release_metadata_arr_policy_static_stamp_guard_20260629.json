@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-06-29T11:45:03.663791+00:00",
+  "stamp": "arr_policy_static_stamp_guard_20260629",
+  "public_safe_file_count": 336,
+  "public_safe_candidate_file_count": 410,
+  "public_safe_excluded_file_count": 74,
+  "public_safe_filter_policy": "Excluded candidate files whose paths or text mentioned conservative internal source-data, annotation, adjudication, or human-review naming patterns.",
+  "public_safe_risky_path_count": 0,
+  "public_safe_risky_text_reference_count": 0,
+  "claim_status": "public_safe_skeleton_filtered_for_external_release_not_submission_complete"
+}

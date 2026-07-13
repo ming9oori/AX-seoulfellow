@@ -1,0 +1,21 @@
+﻿rank,chunk_id,page_start,page_end,priority_score,priority_reason,candidate_edges,top_predicates,unique_evidence_anchors,component_spans,exact_components,exact_component_ratio,full_sentence_proxy_components,label_not_found_components,active_review_items,high_impact_items,review_focus
+1,JZ-CHUNK-0094,205,208,0.701,"active_review,high_impact,dense_candidates",50,PERFORMED_BY:17; USES_INPUT:12; PRODUCES:12; HAS_PRINCIPLE:6,89,150,32,0.2133,50,68,3,3,dense candidate pruning; evidence span repair; high-impact review
+2,JZ-CHUNK-0020,51,52,0.527795,"active_review,high_impact,dense_candidates",50,USES_INPUT:17; PRODUCES:17; PERFORMED_BY:7; HAS_PRINCIPLE:4,36,150,31,0.2067,50,69,5,1,dense candidate pruning; evidence span repair; high-impact review
+3,JZ-CHUNK-0032,73,76,0.515,"active_review,dense_candidates",50,USES_INPUT:22; PRODUCES:22; PERFORMED_BY:6,27,150,72,0.4800,50,28,4,0,dense candidate pruning; evidence span repair
+4,JZ-CHUNK-0016,43,44,0.508,"active_review,dense_candidates",50,USES_INPUT:17; PRODUCES:17; HAS_DECISION_GATEWAY:7; PERFORMED_BY:6,36,150,70,0.4667,50,30,3,0,dense candidate pruning; evidence span repair
+5,JZ-CHUNK-0019,49,51,0.501,"active_review,dense_candidates",50,USES_INPUT:27; PRODUCES:20; PERFORMED_BY:1; HAS_PRINCIPLE:1,72,150,48,0.3200,50,52,2,0,dense candidate pruning; evidence span repair
+6,JZ-CHUNK-0002,21,23,0.494,"active_review,dense_candidates",50,USES_INPUT:12; PRODUCES:12; HAS_PRINCIPLE:11; PERFORMED_BY:10,84,150,37,0.2467,50,63,1,0,dense candidate pruning; evidence span repair
+7,JZ-CHUNK-0099,216,217,0.494,"active_review,dense_candidates",50,USES_INPUT:16; PRODUCES:16; PERFORMED_BY:11; HAS_PRINCIPLE:5,88,150,48,0.3200,50,52,1,0,dense candidate pruning; evidence span repair
+8,JZ-CHUNK-0017,45,46,0.487,"active_review,dense_candidates",50,USES_INPUT:19; PRODUCES:14; HAS_DECISION_GATEWAY:9; PERFORMED_BY:4,29,150,76,0.5067,50,24,4,0,dense candidate pruning
+9,JZ-CHUNK-0108,239,241,0.465459,"active_review,high_impact,dense_candidates",48,PRODUCES:20; USES_INPUT:13; PERFORMED_BY:8; HAS_PRINCIPLE:6,72,144,65,0.4514,48,31,1,1,dense candidate pruning; evidence span repair; high-impact review
+10,JZ-CHUNK-0018,47,48,0.421792,"active_review,dense_candidates",50,USES_INPUT:17; PRODUCES:14; PERFORMED_BY:8; HAS_PRINCIPLE:6,101,150,40,0.2667,50,60,3,0,dense candidate pruning; evidence span repair
+11,JZ-CHUNK-0069,152,154,0.402333,"active_review,high_impact,dense_candidates",16,PERFORMED_BY:4; USES_INPUT:4; PRODUCES:4; HAS_PRINCIPLE:2,66,48,20,0.4167,16,12,2,2,evidence span repair; high-impact review
+12,JZ-CHUNK-0033,76,79,0.4,dense_candidates,50,HAS_STEP:11; PERFORMED_BY:10; PRECEDES:10; USES_INPUT:8,55,150,35,0.2333,50,65,0,0,dense candidate pruning; evidence span repair
+13,JZ-CHUNK-0098,214,216,0.4,dense_candidates,50,USES_INPUT:22; PRODUCES:15; PERFORMED_BY:12; HAS_PRINCIPLE:1,70,150,48,0.3200,50,52,0,0,dense candidate pruning; evidence span repair
+14,JZ-CHUNK-0101,219,223,0.4,dense_candidates,50,PRODUCES:22; USES_INPUT:20; PERFORMED_BY:4; HAS_DECISION_GATEWAY:3,68,150,69,0.4600,50,31,0,0,dense candidate pruning; evidence span repair
+15,JZ-CHUNK-0103,227,228,0.4,dense_candidates,50,USES_INPUT:23; PRODUCES:23; PERFORMED_BY:2; HAS_PRINCIPLE:1,67,150,26,0.1733,50,74,0,0,dense candidate pruning; evidence span repair
+16,JZ-CHUNK-0104,228,230,0.4,dense_candidates,50,USES_INPUT:29; PRODUCES:17; PERFORMED_BY:3; HAS_PRINCIPLE:1,71,150,28,0.1867,50,72,0,0,dense candidate pruning; evidence span repair
+17,JZ-CHUNK-0097,212,214,0.368168,"active_review,dense_candidates",43,PERFORMED_BY:14; USES_INPUT:10; PRODUCES:10; HAS_PRINCIPLE:5,89,129,51,0.3953,43,35,2,0,dense candidate pruning; evidence span repair
+18,JZ-CHUNK-0196,415,417,0.3668,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+19,JZ-CHUNK-0188,421,421,0.35882,"active_review,high_impact",0,,0,0,0,0.0000,0,0,3,3,missing-edge scan; high-impact review
+20,JZ-CHUNK-0092,199,271,0.347,"active_review,high_impact",4,USES_INPUT:2; PRODUCES:2,8,12,6,0.5000,4,2,4,3,high-impact review

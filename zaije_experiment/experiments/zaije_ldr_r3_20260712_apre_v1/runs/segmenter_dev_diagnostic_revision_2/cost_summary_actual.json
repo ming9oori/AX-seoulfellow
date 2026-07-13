@@ -1,0 +1,9 @@
+{
+  "attempts_current_process": 60,
+  "cache_hits_during_resume": 0,
+  "estimated_cost_usd": 0.023562,
+  "failed_attempts_current_process": 0,
+  "input_tokens": 46498,
+  "output_tokens": 3102,
+  "real_calls": 60
+}

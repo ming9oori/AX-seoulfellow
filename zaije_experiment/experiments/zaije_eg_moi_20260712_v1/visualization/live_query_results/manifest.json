@@ -1,0 +1,130 @@
+{
+  "actual_totals": [
+    8,
+    16,
+    8,
+    201,
+    445
+  ],
+  "all_nonempty": true,
+  "collage_file": "00_representative_5_live_results.svg",
+  "collage_sha256": "5a5da5a7674dbfe9157194cc28af865880669289dfae35da806b37e444dfb7e2",
+  "expected_totals": [
+    8,
+    16,
+    8,
+    201,
+    445
+  ],
+  "pass": true,
+  "query_results": [
+    {
+      "displayed_path_count": 8,
+      "file": "01_schema.svg",
+      "key": "01_schema",
+      "neo4j_database": "neo4j",
+      "query_executed_against": "bolt://127.0.0.1:7689",
+      "relation": "SUBCLASS_OF",
+      "relationship_counts": {
+        "SUBCLASS_OF": 8
+      },
+      "returned_path_count": 8,
+      "schema_keys": [
+        "Agent",
+        "Context",
+        "CustomerRequirement",
+        "DomainConcept",
+        "EvaluationMeasure",
+        "Measure",
+        "ProposalArtifact",
+        "ProposalContext",
+        "ProposalDomainConcept",
+        "ProposalOrganization",
+        "ProposalRole",
+        "ProposalWorkUnit",
+        "Resource",
+        "WorkUnit"
+      ],
+      "sha256": "c1f6032f5e0734508faec5d03a32fad05493ede0f874e11269371a0ae37772bb",
+      "title": "1. Induced Schema",
+      "total_count": 8
+    },
+    {
+      "displayed_path_count": 16,
+      "file": "02_input_output.svg",
+      "key": "02_input_output",
+      "neo4j_database": "neo4j",
+      "query_executed_against": "bolt://127.0.0.1:7689",
+      "relation": "HAS_INPUT / PRODUCES_OUTPUT",
+      "relationship_counts": {
+        "HAS_INPUT": 13,
+        "PRODUCES_OUTPUT": 3
+      },
+      "returned_path_count": 16,
+      "schema_keys": [
+        "CustomerRequirement",
+        "ProposalArtifact",
+        "ProposalWorkUnit"
+      ],
+      "sha256": "f1af3c91a92368c36dbd90c29b2963ab7d0bfb3210183194126cbf651bb14dfb",
+      "title": "2. Work Input and Output",
+      "total_count": 16
+    },
+    {
+      "displayed_path_count": 8,
+      "file": "03_performer.svg",
+      "key": "03_performer",
+      "neo4j_database": "neo4j",
+      "query_executed_against": "bolt://127.0.0.1:7689",
+      "relation": "PERFORMED_BY",
+      "relationship_counts": {
+        "PERFORMED_BY": 8
+      },
+      "returned_path_count": 8,
+      "schema_keys": [
+        "ProposalRole",
+        "ProposalWorkUnit"
+      ],
+      "sha256": "b9ae6b9f404797bf1ea828a090cba5aee4cd760e5a93851ef6b1b924a92c77cb",
+      "title": "3. Work Performer",
+      "total_count": 8
+    },
+    {
+      "displayed_path_count": 50,
+      "file": "04_sequence.svg",
+      "key": "04_sequence",
+      "neo4j_database": "neo4j",
+      "query_executed_against": "bolt://127.0.0.1:7689",
+      "relation": "PRECEDES",
+      "relationship_counts": {
+        "PRECEDES": 50
+      },
+      "returned_path_count": 50,
+      "schema_keys": [
+        "ProposalWorkUnit"
+      ],
+      "sha256": "8e2774fff4bf51b4a0b8144e433281b0105610cea468fc679ba664675cf79529",
+      "title": "4. Work Sequence",
+      "total_count": 201
+    },
+    {
+      "displayed_path_count": 50,
+      "file": "05_evidence.svg",
+      "key": "05_evidence",
+      "neo4j_database": "neo4j",
+      "query_executed_against": "bolt://127.0.0.1:7689",
+      "relation": "DERIVED_FROM",
+      "relationship_counts": {
+        "DERIVED_FROM": 50
+      },
+      "returned_path_count": 50,
+      "schema_keys": [
+        "Assertion",
+        "EvidenceUnit"
+      ],
+      "sha256": "1dd945fc18fe0497408cf3b44f8d6e80e9f76cf4b81e9302ae514c5dd9f906b9",
+      "title": "5. Assertion Evidence Trace",
+      "total_count": 445
+    }
+  ]
+}

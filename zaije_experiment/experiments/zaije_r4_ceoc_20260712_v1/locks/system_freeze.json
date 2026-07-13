@@ -1,0 +1,14 @@
+{
+  "candidate_generator_sha256": "34dba65dca87e93f6b60151b3f83309c6a925c64685ed9dd4386db68593f713d",
+  "confirmatory_api_exposure_at_freeze": 0,
+  "confirmatory_membership_sha256": "53167e5d614b7760f2df5b346820884f869257294984e2af316274b111b29b69",
+  "experiment_id": "zaije_r4_ceoc_20260712_v1",
+  "generic_support_k": 2,
+  "model_snapshot": "gpt-4.1-2025-04-14",
+  "promotion_policy_sha256": "8cee3c2cff42c628019df8a44e356aa078ccbbc42fdca3cb7db80745785dfa3f",
+  "prompt_sha256": "2d96163feaa1ee3a6aa404db9dbb3240808a6b4cf34492d6e7d0c03eab95a4d5",
+  "relation_registry_sha256": "7557a5bb1eca633f24d5f5c132b2da76cda6d386c4564a1e02e4b311e1f8e6fd",
+  "schema_sha256": "2c5b020bb8bf0d48826c36c3b1d2bcb7620a934a3d32f0009d69d1f5c4e14b1c",
+  "selected_b2_budget": 0.2,
+  "test_access": 0
+}

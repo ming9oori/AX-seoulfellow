@@ -1,0 +1,13 @@
+{
+  "cached_input_tokens": 0,
+  "estimated_cost_usd": 0.73452,
+  "input_tokens": 347259,
+  "output_tokens": 26449,
+  "real_calls": 936,
+  "tokens_by_model": {
+    "gpt-4.1-2025-04-14": 124563,
+    "gpt-4.1-mini-2025-04-14": 106581,
+    "gpt-4o-2024-08-06": 124570,
+    "gpt-4o-mini-2024-07-18": 17994
+  }
+}

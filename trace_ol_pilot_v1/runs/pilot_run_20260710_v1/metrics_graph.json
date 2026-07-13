@@ -1,0 +1,17 @@
+{
+  "E0_direct_triple": {
+    "graph_f1": 0.0
+  },
+  "E1_full_llm": {
+    "graph_f1": 0.0
+  },
+  "E2_no_llm": {
+    "graph_f1": 0.0
+  },
+  "E4_selective_distill": {
+    "graph_f1": 0.0
+  },
+  "E2_flat_ablation_subset": {
+    "graph_f1": 0.0
+  }
+}

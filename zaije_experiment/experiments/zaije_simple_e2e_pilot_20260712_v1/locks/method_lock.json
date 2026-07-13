@@ -1,0 +1,29 @@
+{
+  "agent_used": false,
+  "embedding_used": false,
+  "human_used": false,
+  "llm_used": false,
+  "relations": [
+    "PERFORMED_BY",
+    "HAS_INPUT",
+    "PRODUCES_OUTPUT",
+    "PRECEDES"
+  ],
+  "sentence_patterns": [
+    "ACTION_PATTERN",
+    "INPUT_BASIS_PATTERN"
+  ],
+  "table_header_rules": [
+    "ACTIVITY",
+    "OUTPUT",
+    "INPUT",
+    "ROLE"
+  ],
+  "types": [
+    "WorkUnit",
+    "Actor",
+    "Organization",
+    "Artifact",
+    "InformationObject"
+  ]
+}
