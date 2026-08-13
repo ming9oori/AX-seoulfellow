@@ -16,3 +16,10 @@ __pycache__/
 *.tmp
 *.log
 .last_outputs_backup
+
+# 로컬 환경 변수
+.env
+
+# TaskFrame 실행 산출물 및 LLM 캐시
+code_hyuna/taskframe_v4/outputs/
+code_hyuna/taskframe_v4/**/.cache/
