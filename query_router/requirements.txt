@@ -1,0 +1,5 @@
+numpy>=1.24,<3
+torch>=2.5,<3
+sentence-transformers>=3.4,<6
+scikit-learn>=1.5,<2
+beautifulsoup4>=4.12,<5
