@@ -15,6 +15,4 @@ class MLPRouter(nn.Module):
 
 
 if __name__ == "__main__":
-    # Loss 구현/수식/주석은 train_linear.py의 router_loss에 공통으로 정의한다.
-    # 기본 weighted BCE 또는 --loss weighted_bce_fbeta를 선택할 수 있다.
     train_main(MLPRouter, "mlp")

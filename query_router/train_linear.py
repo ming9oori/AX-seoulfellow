@@ -20,7 +20,7 @@ class LinearRouter(nn.Module):
         self.layer = nn.Linear(3, 1)
 
     def forward(self, features):
-        return self.layer(features).squeeze(-1)  # logits. Sigmoid는 loss/예측에서 적용.
+        return self.layer(features).squeeze(-1)
 
 
 def router_loss(logits, labels, loss_name, pos_weight, mix_lambda, beta):
@@ -89,29 +89,47 @@ def train_main(model_factory=LinearRouter, model_type="linear"):
     parser.add_argument("--weight-decay", type=float, default=1e-4)
     parser.add_argument("--seed", type=int, default=42)
     args = parser.parse_args()
+    
+    
     if min(args.epochs, args.patience, args.batch_size, args.lr, args.pos_weight, args.beta) <= 0 or args.weight_decay < 0:
         parser.error("학습 인자는 양수이고 weight-decay는 0 이상이어야 합니다.")
+        
+        
     if not 0 <= args.mix_lambda <= 1 or not 0 < args.target_recall <= 1:
         parser.error("mix-lambda는 [0,1], target-recall은 (0,1]이어야 합니다.")
+        
+        
     vectors_dir = args.vectors_dir.resolve()
     out = (args.output_dir or vectors_dir / model_type).resolve()
     if (out / "model.pt").exists():
         parser.error("체크포인트가 이미 있습니다. 새 --output-dir를 사용하세요.")
     out.mkdir(parents=True, exist_ok=True)
+    
+    
     manifest = json.loads((vectors_dir / "manifest.json").read_text())
     if manifest["feature_names"] != FEATURE_NAMES or sha256(vectors_dir / "vectors.npz") != manifest["vectors_sha256"]:
         raise ValueError("벡터 파일 또는 특징 순서가 manifest와 다릅니다.")
+    
+    
     random.seed(args.seed)
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
     torch.set_num_threads(1)
+    
+    
     with np.load(vectors_dir / "vectors.npz", allow_pickle=False) as data:
         x, y, splits, qa_ids = (data[k].copy() for k in ("features", "labels", "splits", "qa_ids"))
+        
+        
     if x.shape != (len(y), 3) or not np.isfinite(x).all() or not set(np.unique(y)).issubset({0, 1}):
         raise ValueError("잘못된 벡터/라벨입니다.")
+    
+    
     masks = {s: splits == s for s in ("train", "valid", "test")}
     if not all(mask.any() for mask in masks.values()):
         raise ValueError("train/valid/test가 모두 있어야 합니다.")
+    
+    
     # 정규화 통계는 train에서만 추정한다. valid/test 정보는 학습에 쓰지 않는다.
     mean, std = x[masks["train"]].mean(axis=0), x[masks["train"]].std(axis=0)
     std = np.maximum(std, 1e-6)
@@ -121,6 +139,8 @@ def train_main(model_factory=LinearRouter, model_type="linear"):
     model = model_factory()
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
     best_loss, best_state, best_epoch, stale = float("inf"), None, 0, 0
+    
+    
     history = []
     single_class = len(np.unique(y[masks["train"]])) < 2
     if single_class:
@@ -141,25 +161,42 @@ def train_main(model_factory=LinearRouter, model_type="linear"):
             optimizer.step()
             total_loss += loss.item() * len(batch_y)
         model.eval()
+        
         with torch.no_grad():
             valid_loss = loss_fn(model(tensors["valid"][0]), tensors["valid"][1]).item()
+            
         history.append({"epoch": epoch, "train_loss": total_loss / int(masks["train"].sum()), "valid_loss": valid_loss})
         if valid_loss < best_loss - 1e-6:
             best_loss, best_state, best_epoch, stale = valid_loss, copy.deepcopy(model.state_dict()), epoch, 0
         else:
             stale += 1
+            
         if epoch == 1 or epoch % 25 == 0:
             print(f"epoch={epoch} train_loss={history[-1]['train_loss']:.6f} valid_loss={valid_loss:.6f}", flush=True)
+            
         if stale >= args.patience:
             break
+        
+        
     model.load_state_dict(best_state)
     model.eval()
     with torch.no_grad():
         valid_p = model(tensors["valid"][0]).sigmoid().numpy()
     threshold, threshold_note = choose_threshold(y[masks["valid"]], valid_p, args.target_recall)
-    report = {"model_type": model_type, "single_class_training": single_class, "best_epoch": best_epoch,
-              "loss": {"name": args.loss, "pos_weight": args.pos_weight, "lambda": args.mix_lambda, "beta": args.beta},
-              "threshold_selection": threshold_note, "splits": {}}
+    
+    report = {
+        "model_type": model_type, 
+        "single_class_training": single_class, 
+        "best_epoch": best_epoch,
+        "loss": {
+            "name": args.loss, 
+            "pos_weight": args.pos_weight, 
+            "lambda": args.mix_lambda, 
+            "beta": args.beta
+        },
+        "threshold_selection": threshold_note, 
+        "splits": {}
+        }
     # 모델/임계값 선택이 모두 끝난 뒤에만 test 예측을 생성한다.
     for split, mask in masks.items():
         with torch.no_grad():
@@ -167,18 +204,32 @@ def train_main(model_factory=LinearRouter, model_type="linear"):
         report["splits"][split] = metrics(y[mask], p, threshold, args.beta)
         report["splits"][split]["always_search"] = metrics(y[mask], np.ones_like(p), 0.5, args.beta)
         report["splits"][split]["never_search"] = metrics(y[mask], np.zeros_like(p), 0.5, args.beta)
+        
         write_jsonl(out / f"{split}_predictions.jsonl", [{"qa_id": str(q), "label": int(label),
-                     "search_score": float(score), "needs_search": bool(score >= threshold)}
-                     for q, label, score in zip(qa_ids[mask], y[mask], p)])
-    checkpoint = {"model_type": model_type, "state_dict": best_state, "feature_mean": torch.from_numpy(mean),
-                  "feature_std": torch.from_numpy(std), "threshold": threshold,
-                  "vectors_dir": str(vectors_dir), "vectors_sha256": manifest["vectors_sha256"],
-                  "manifest_sha256": sha256(vectors_dir / "manifest.json"), "single_class_training": single_class,
-                  "seed": args.seed, "best_epoch": best_epoch}
+                    "search_score": float(score), "needs_search": bool(score >= threshold)}
+                    for q, label, score in zip(qa_ids[mask], y[mask], p)])
+        
+        
+    checkpoint = {
+        "model_type": model_type, 
+        "state_dict": best_state, 
+        "feature_mean": torch.from_numpy(mean),
+        "feature_std": torch.from_numpy(std), 
+        "threshold": threshold,
+        "vectors_dir": str(vectors_dir), 
+        "vectors_sha256": manifest["vectors_sha256"],
+        "manifest_sha256": sha256(vectors_dir / "manifest.json"), 
+        "single_class_training": single_class,
+        "seed": args.seed, 
+        "best_epoch": best_epoch
+        }
+    
     torch.save(checkpoint, out / "model.pt")
+    
     write_json(out / "metrics.json", report)
     write_json(out / "training_config.json", {key: str(value) if isinstance(value, Path) else value for key, value in vars(args).items()})
     write_jsonl(out / "history.jsonl", history)
+    
     print(json.dumps(report, ensure_ascii=False, indent=2), flush=True)
     print(f"저장: {out / 'model.pt'}", flush=True)
 
