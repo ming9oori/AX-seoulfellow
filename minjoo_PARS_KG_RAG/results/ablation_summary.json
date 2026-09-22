@@ -1,0 +1,322 @@
+{
+  "report_date": "2026-09-21",
+  "last_updated": "2026-09-22",
+  "status": "complete",
+  "run_id": "p1p_profile_free_component_ablation_210_20260921",
+  "experiment_name": "p1p_profile_free_component_ablation",
+  "public_framework_name": "PARS-KG-RAG",
+  "public_framework_long_name": "PCF-Anchored Property-Relation Subgraph KG-RAG",
+  "purpose": "Minimal nested ablation of PARS-KG-RAG while holding models, data, generation, and evaluation fixed.",
+  "methods": [
+    {
+      "id": "B0_VANILLA_DENSE_RAG",
+      "short_name": "Dense",
+      "public_name": "Dense RAG",
+      "components": "EvidenceSpan dense retrieval only"
+    },
+    {
+      "id": "P1B_PCF_FIRST_PROFILE_FREE_CROSS_ENCODER_MMR",
+      "short_name": "PF-Base",
+      "public_name": "PCF Path",
+      "components": "Profile-free PCF-first; no Aspect and no PARS"
+    },
+    {
+      "id": "P1G_PCF_GROUNDED_ASPECT_PROFILE_FREE_MMR",
+      "short_name": "PF-Direct",
+      "public_name": "PCF+Aspect",
+      "components": "PF-Base plus non-LLM P1-G Direct Aspect-to-Evidence retrieval; no PARS"
+    },
+    {
+      "id": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR",
+      "short_name": "PF-Full",
+      "public_name": "PARS-KG-RAG",
+      "components": "PF-Direct plus PCF-anchored property-relation subgraph retrieval"
+    }
+  ],
+  "invariants": {
+    "query_profile_used_by_kg_methods": false,
+    "property_weighting": "fixed_equal",
+    "embedding_model": "text-embedding-3-small",
+    "answer_model": "gpt-4o-mini-2024-07-18",
+    "evidence_top_k": 5,
+    "conditions": [
+      "D0_ORIGINAL"
+    ],
+    "hyperparameters_changed_between_methods": false
+  },
+  "data": {
+    "total_questions": 210,
+    "source_derived_questions": 150,
+    "synthetic_general_work_questions": 60,
+    "synthetic_types": {
+      "operational_direct": 10,
+      "scenario_query": 10,
+      "multi_intent": 10,
+      "process_structure": 10,
+      "condition_relation": 10,
+      "colloquial_query": 10
+    },
+    "development_questions": 32,
+    "official_comparison_questions": 178,
+    "official_evidence_metric_denominator": 175,
+    "all_questions_with_aligned_gold_evidence": 207,
+    "official_composition": {
+      "source_derived": 148,
+      "synthetic_holdout": 30
+    },
+    "dataset_path": "qa_v2/generated/general_extension_20260920/qa_dataset_expanded_210_split.csv",
+    "dataset_sha256": "7bf6923359f6a47eacc7aa12eaa27a1d9fa09f3315ad05a5e1744a5a34756a87",
+    "gold_status_warning": "The 150 source-derived references are pending review and the 60 synthetic references are not human-reviewed. All partitions were inspected during development."
+  },
+  "graph": {
+    "snapshot_sha256": "949837766c7811605caedb3f7df5c5848664823f73eab3d6e50bf333c3e42202",
+    "reconstructed_unique_node_count": 6280,
+    "reconstructed_relationship_count": 11325,
+    "nodes": {
+      "PCFProcess": 2017,
+      "TaskFrame": 12,
+      "TaskFrameAlias": 42,
+      "TaskMention": 314,
+      "Fact": 2319,
+      "EvidenceSpan": 1525,
+      "Section": 51
+    }
+  },
+  "models": {
+    "embedding": {
+      "id": "text-embedding-3-small",
+      "dimensions": 1536,
+      "normalization": "L2"
+    },
+    "aspect_extraction": "Kiwi candidate generation plus deterministic P1-G five-signal graph-grounded reciprocal-rank fusion; no LLM and no training",
+    "cross_encoder": {
+      "id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "max_length": 512
+    },
+    "answer_and_verification": "gpt-4o-mini-2024-07-18",
+    "bertscore": {
+      "id": "FacebookAI/xlm-roberta-large",
+      "revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+      "layer": 17
+    }
+  },
+  "fixed_retrieval_settings": {
+    "pcf_top_k": 3,
+    "taskframe_top_k": 3,
+    "candidate_k_per_branch": 20,
+    "rerank_candidate_k": 40,
+    "evidence_top_k": 5,
+    "rrf_k": 60,
+    "mmr_lambda": 0.9,
+    "semantic_weight": 0.75,
+    "lexical_weight": 0.25,
+    "context_max_chars": 6000
+  },
+  "official_retrieval_percent": [
+    {
+      "method": "Dense",
+      "hit_at_1": 47.43,
+      "hit_at_5": 77.14,
+      "recall_at_5": 60.95,
+      "complete_at_5": 46.86,
+      "mrr": 58.27
+    },
+    {
+      "method": "PF-Base",
+      "hit_at_1": 66.86,
+      "hit_at_5": 91.43,
+      "recall_at_5": 71.83,
+      "complete_at_5": 55.43,
+      "mrr": 76.64
+    },
+    {
+      "method": "PF-Direct",
+      "hit_at_1": 68.0,
+      "hit_at_5": 91.43,
+      "recall_at_5": 72.59,
+      "complete_at_5": 56.0,
+      "mrr": 77.35
+    },
+    {
+      "method": "PF-Full",
+      "hit_at_1": 72.57,
+      "hit_at_5": 90.29,
+      "recall_at_5": 72.88,
+      "complete_at_5": 57.71,
+      "mrr": 79.77
+    }
+  ],
+  "latency_benchmark": {
+    "measured_at": "2026-09-22T05:13:25+00:00",
+    "unit": "warm_cache_seconds_per_query_to_top5",
+    "question_count": 178,
+    "repeats": 1,
+    "hardware": "NVIDIA GeForce RTX 3090",
+    "p1g_aspect_mean_seconds_per_query": 0.7140450839944422,
+    "reported_pipeline_mean_seconds_per_query": {
+      "Dense": 0.014734694730128119,
+      "PF-Base": 0.26301744806248656,
+      "PF-Direct": 1.0203023688307522,
+      "PF-Full": 2.224957464241097
+    },
+    "answer_generation_included": false,
+    "excluded": [
+      "one-time graph-index and cross-encoder loading",
+      "uncached OpenAI embedding network latency",
+      "answer generation and citation verification API latency",
+      "offline metric computation"
+    ],
+    "report": "docs/latency.md",
+    "machine_summary": "results/latency_summary.json",
+    "raw_artifact": "runs/p1p_profile_free_component_ablation_210_20260921/metrics/retrieval_latency_benchmark.json"
+  },
+  "paired_bootstrap_retrieval_percentage_points": {
+    "iterations": 10000,
+    "unit": "qid",
+    "PF-Full_minus_Dense": {
+      "hit_at_1": {"difference": 25.14, "ci95": [18.29, 32.0]},
+      "hit_at_5": {"difference": 13.14, "ci95": [7.43, 18.86]},
+      "recall_at_5": {"difference": 11.93, "ci95": [7.45, 16.62]},
+      "complete_at_5": {"difference": 10.86, "ci95": [5.71, 16.01]},
+      "mrr": {"difference": 21.5, "ci95": [16.26, 26.78]}
+    },
+    "PF-Full_minus_PF-Base": {
+      "hit_at_1": {"difference": 5.71, "ci95": [0.57, 10.86]},
+      "hit_at_5": {"difference": -1.14, "ci95": [-4.57, 2.29]},
+      "recall_at_5": {"difference": 1.05, "ci95": [-1.86, 3.95]},
+      "complete_at_5": {"difference": 2.29, "ci95": [-1.14, 6.29]},
+      "mrr": {"difference": 3.13, "ci95": [-0.14, 6.56]}
+    },
+    "PF-Full_minus_PF-Direct": {
+      "hit_at_1": {"difference": 4.57, "ci95": [1.14, 8.0]},
+      "hit_at_5": {"difference": -1.14, "ci95": [-4.0, 1.71]},
+      "recall_at_5": {"difference": 0.29, "ci95": [-2.19, 2.86]},
+      "complete_at_5": {"difference": 1.71, "ci95": [-1.14, 4.57]},
+      "mrr": {"difference": 2.42, "ci95": [0.26, 4.79]}
+    }
+  },
+  "official_answer_scores": [
+    {
+      "method": "Dense",
+      "bleu4_kiwi": 24.6841,
+      "rouge1_f1_kiwi": 52.4265,
+      "rouge2_f1_kiwi": 32.1431,
+      "rougeL_f1_kiwi": 43.81,
+      "bertscore_f1_xlmr17": 92.3182,
+      "insufficient_rate_percent": 1.69
+    },
+    {
+      "method": "PF-Base",
+      "bleu4_kiwi": 26.3053,
+      "rouge1_f1_kiwi": 54.6146,
+      "rouge2_f1_kiwi": 34.4535,
+      "rougeL_f1_kiwi": 45.3674,
+      "bertscore_f1_xlmr17": 92.5728,
+      "insufficient_rate_percent": 2.25
+    },
+    {
+      "method": "PF-Direct",
+      "bleu4_kiwi": 24.7597,
+      "rouge1_f1_kiwi": 53.6857,
+      "rouge2_f1_kiwi": 33.1925,
+      "rougeL_f1_kiwi": 44.7435,
+      "bertscore_f1_xlmr17": 92.3902,
+      "insufficient_rate_percent": 2.81
+    },
+    {
+      "method": "PF-Full",
+      "bleu4_kiwi": 26.2105,
+      "rouge1_f1_kiwi": 55.0567,
+      "rouge2_f1_kiwi": 34.8705,
+      "rougeL_f1_kiwi": 46.4597,
+      "bertscore_f1_xlmr17": 92.5215,
+      "insufficient_rate_percent": 2.25
+    }
+  ],
+  "paired_bootstrap_answer_score_points": {
+    "iterations": 10000,
+    "unit": "section_no",
+    "PF-Full_minus_Dense": {
+      "bleu4_kiwi": {"difference": 1.5331, "ci95": [-0.2066, 3.2462]},
+      "rouge1_f1_kiwi": {"difference": 2.6417, "ci95": [1.1146, 4.1792]},
+      "rouge2_f1_kiwi": {"difference": 2.7371, "ci95": [1.0242, 4.5061]},
+      "rougeL_f1_kiwi": {"difference": 2.6517, "ci95": [0.9025, 4.3201]},
+      "bertscore_f1_xlmr17": {"difference": 0.2036, "ci95": [-0.014, 0.4133]}
+    },
+    "PF-Full_minus_PF-Base": {
+      "bleu4_kiwi": {"difference": -0.0814, "ci95": [-2.2653, 1.9918]},
+      "rouge1_f1_kiwi": {"difference": 0.4553, "ci95": [-1.4399, 2.2878]},
+      "rouge2_f1_kiwi": {"difference": 0.4249, "ci95": [-1.7576, 2.5379]},
+      "rougeL_f1_kiwi": {"difference": 1.0976, "ci95": [-0.9824, 3.0834]},
+      "bertscore_f1_xlmr17": {"difference": -0.0506, "ci95": [-0.2999, 0.1867]}
+    },
+    "PF-Full_minus_PF-Direct": {
+      "bleu4_kiwi": {"difference": 1.4483, "ci95": [-0.2294, 3.1268]},
+      "rouge1_f1_kiwi": {"difference": 1.3757, "ci95": [-0.0691, 2.8938]},
+      "rouge2_f1_kiwi": {"difference": 1.6847, "ci95": [-0.0026, 3.4032]},
+      "rougeL_f1_kiwi": {"difference": 1.7173, "ci95": [0.0689, 3.3997]},
+      "bertscore_f1_xlmr17": {"difference": 0.1319, "ci95": [-0.0868, 0.3569]}
+    }
+  },
+  "representative_example": {
+    "selection_rationale": "A source-derived process question where only PF-Full retrieved both Gold EvidenceSpans in the Top-5 and ranked a Gold item first.",
+    "qid": "JAIJE1-QA-0101",
+    "question": "기회분석이 끝난 뒤 제안참여 의사결정 전에는 어떤 결정이 이루어집니까?",
+    "selected_aspects": [
+      "기회 분석 끝나 뒤 제안 참여 의사 결정 전 이루어지",
+      "끝나 뒤 제안 참여",
+      "참여 의사 결정 전"
+    ],
+    "retrieval_mrr": {
+      "Dense": 0.2,
+      "PF-Base": 0.5,
+      "PF-Direct": 0.5,
+      "PF-Full": 1.0
+    },
+    "retrieval_recall_at_5": {
+      "Dense": 0.5,
+      "PF-Base": 0.5,
+      "PF-Direct": 0.5,
+      "PF-Full": 1.0
+    },
+    "PF-Full_complete_evidence_set_at_5": 1.0,
+    "PF-Full_top_evidence": "정보수집을 위한 영업활동이 끝나면 이 축적된 정보를 기반으로 제안참여 의사결정(Bid/ No Bid Decision)을 하게 된다.",
+    "PF-Full_second_evidence": "먼저 기회분석(Opportunity Assessment)이 끝나고 나면 고객과 경쟁자 정보수집을 위한 영업활동을 할 것인가 말 것인가를 결정하는 것이 영업참여 결정(Pursuit Decision)이다.",
+    "PF-Full_answer": "기회분석이 끝난 뒤, 고객과 경쟁자에 대한 정보 수집을 위한 영업참여 결정을 하게 됩니다. 이 과정에서 RFP가 나오면 참여 여부에 대한 최종 의사결정을 해야 합니다."
+  },
+  "integrity": {
+    "retrieval_rows": 840,
+    "answer_rows": 840,
+    "official_answer_metric_rows": 712,
+    "retrieval_failures": 0,
+    "api_failures": 0,
+    "query_profile_artifact_exists": false,
+    "profile_free_kg_rows": 630,
+    "profile_free_kg_rows_with_nonempty_profile": 0,
+    "official_answer_status": {
+      "Dense": {"ANSWERED": 175, "INSUFFICIENT": 3},
+      "PF-Base": {"ANSWERED": 174, "INSUFFICIENT": 4},
+      "PF-Direct": {"ANSWERED": 173, "INSUFFICIENT": 5},
+      "PF-Full": {"ANSWERED": 174, "INSUFFICIENT": 4}
+    },
+    "unit_tests_passed": 41
+  },
+  "artifact_checksums": {
+    "runs/p1p_profile_free_component_ablation_210_20260921/resolved_config.json": "113a2cdf6ea9c64706d36c7dc90e716d04b2bc36f1a6a5555015b389ab9c6a51",
+    "runs/p1p_profile_free_component_ablation_210_20260921/03_retrieval_metric_summary.json": "e8ea2d20ef92ca165e7c9f3032c4b9b3f8b536dd9c0216721f95f25c068d6655",
+    "runs/p1p_profile_free_component_ablation_210_20260921/metrics/component_ablation_retrieval_analysis.json": "feb91cdeac80bb0b4b1c2aa549b00a24ceb7837d76bd42e6cafec7bda0407d34",
+    "runs/p1p_profile_free_component_ablation_210_20260921/metrics/answer_metric_summary.json": "f7020cf37260b57886861991663017b8fd2d279752818e31bf9268d0346a51d2",
+    "runs/p1p_profile_free_component_ablation_210_20260921/metrics/answer_metric_table.md": "7897d0820bcec5f9d26b8a85fbd68b4b6741a150e08ed8b77ff9518b645ac3c9",
+    "runs/p1p_profile_free_component_ablation_210_20260921/metrics/retrieval_latency_benchmark.json": "7a9f0b06734e3f78e617a10a6696c2069a53839a5db5e3c67a8d744980ec6a62"
+  },
+  "interpretation": "PF-Full has the best Hit@1, Recall@5, Complete@5, MRR, ROUGE-1, ROUGE-2, and ROUGE-L point estimates. Adding PARS over PF-Direct significantly improves Hit@1 and MRR; the Hit@5 decrease is not significant. Direct Aspect alone has no significant gain over PF-Base in this run. Answer-level differences among KG ablations are mostly uncertain, with only PF-Full minus PF-Direct ROUGE-L having a strictly positive 95% interval.",
+  "limitations": [
+    "All partitions were inspected during development, so this is exploratory rather than an untouched confirmatory test.",
+    "The 60 general-work questions are synthetic and not independently written by practitioners.",
+    "The 150 source-derived questions inherit lexical and evidence bias from one source document.",
+    "References and synthetic Gold evidence require human review before publication-grade claims.",
+    "Answer metrics use one stochastic generation per method; repeated generation and blinded human evaluation remain necessary.",
+    "Latency is a single-pass warm-cache retrieval-computation benchmark and excludes model loading, uncached embedding network latency, and answer-generation API latency; it is not a production end-to-end SLA."
+  ]
+}

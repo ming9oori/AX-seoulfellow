@@ -1,0 +1,34 @@
+{
+  "purpose": "Repair three deterministic text-alignment misses before freezing Gold Evidence for the synthetic paraphrase stress test.",
+  "method": "Direct page-and-text reconciliation against the frozen 2026-09-19 graph snapshot; no retrieval output or method score was inspected when choosing IDs.",
+  "review_status": "technical_alignment_only_not_practitioner_reviewed",
+  "overrides": [
+    {
+      "qid": "JAIJE1-QA-0112",
+      "gold_evidence_ids": [
+        "EV_2a35ed495e4d357b",
+        "EV_b4c0d87d36fa3cf7",
+        "EV_18ebcdb77143c784"
+      ],
+      "reason": "The source row combines list items 1, 2, and 3 into one string, while the graph stores the same page-109 content as three EvidenceSpans."
+    },
+    {
+      "qid": "JAIJE1-QA-0135",
+      "gold_evidence_ids": [
+        "EV_7d90c4d2a1e8554d"
+      ],
+      "reason": "The source contains HTML footnote markup, while the page-22 EvidenceSpan contains the same table with normalized footnote markers."
+    },
+    {
+      "qid": "JAIJE1-QA-0144",
+      "gold_evidence_ids": [
+        "EV_ca17de82881daaaf",
+        "EV_9b57bfadc4aef406",
+        "EV_846d419f6cbc3d33",
+        "EV_659e6bc09a10fc17",
+        "EV_a171e8ecb991d3b4"
+      ],
+      "reason": "The source row concatenates the five page-27 schedule bullets, while the graph stores each time slot as a separate EvidenceSpan."
+    }
+  ]
+}

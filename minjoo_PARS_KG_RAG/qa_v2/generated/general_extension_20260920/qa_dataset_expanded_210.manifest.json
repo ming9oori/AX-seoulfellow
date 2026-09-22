@@ -1,0 +1,34 @@
+{
+  "name": "synthetic_general_operational_extension_v1",
+  "methodological_status": "Synthetic scenario-generalized development diagnostic; not practitioner-authored and not an independent test set.",
+  "source_count": 150,
+  "extension_count": 60,
+  "expanded_count": 210,
+  "strata": {
+    "operational_direct": 10,
+    "scenario_query": 10,
+    "multi_intent": 10,
+    "process_structure": 10,
+    "condition_relation": 10,
+    "colloquial_query": 10
+  },
+  "inputs": {
+    "source_csv": {
+      "path": "../AX/qa_dataset/outputs/full_terra_v1/qa_dataset.csv",
+      "sha256": "0fd298f745903c3ecb5b1b044da5ed3d40df55a7183a40f653dd0fe3c842402c"
+    },
+    "aligned_gold": {
+      "path": "runs/full_20260919/03_aligned_gold.jsonl",
+      "sha256": "38953f8e5d53c516580cd9a71e27d33467ae6b3e22111b5e8f597699b4f0c3f7"
+    },
+    "specs": {
+      "path": "qa_v2/general_query_specs_20260920.json",
+      "sha256": "739a61734ce87a0f6520a0651fceae91f8a83a65dcb89f4717baac3f83a49d0a"
+    }
+  },
+  "output": {
+    "path": "qa_v2/generated/general_extension_20260920/qa_dataset_expanded_210.csv",
+    "sha256": "7593c3a026880a2ccb4430f63abd6d8302ac23bd987510e6718c34821709834a"
+  },
+  "gold_policy": "Union of frozen aligned Gold from declared parent_qids; retrieval outputs are never read."
+}

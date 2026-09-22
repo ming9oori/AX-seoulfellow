@@ -1,0 +1,428 @@
+{
+  "name": "synthetic_general_operational_extension_v1",
+  "created_at": "2026-09-20",
+  "purpose": "Add general sales/proposal questions to the existing 150-question source-derived control without using retrieval outputs to select Gold evidence.",
+  "methodological_status": "Synthetic scenario-generalized development diagnostic; not practitioner-authored and not an independent test set.",
+  "questions": [
+    {
+      "qa_id": "QAGEN-001",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-01",
+      "question": "고객 관리 계획과 특정 수주 건별 계획은 어떻게 구분해서 작성해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0041"]
+    },
+    {
+      "qa_id": "QAGEN-002",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-02",
+      "question": "고객과 관계만 좋으면 수주할 수 있나요? 관계 외에 무엇이 필요하죠?",
+      "parent_qids": ["JAIJE1-QA-0047"]
+    },
+    {
+      "qa_id": "QAGEN-003",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-03",
+      "question": "우리 솔루션의 가치를 고객에게 설명할 때 어떤 정보를 빠뜨리면 안 되나요?",
+      "parent_qids": ["JAIJE1-QA-0050"]
+    },
+    {
+      "qa_id": "QAGEN-004",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-04",
+      "question": "평가위원을 분석한 결과를 제안 대응에 어떻게 활용하나요?",
+      "parent_qids": ["JAIJE1-QA-0058"]
+    },
+    {
+      "qa_id": "QAGEN-005",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-05",
+      "question": "고객이 이미 아는 우리 약점은 제안서에서 어떻게 다뤄야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0061"]
+    },
+    {
+      "qa_id": "QAGEN-006",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-06",
+      "question": "의사결정권자의 이 사업 관심사를 알아내려면 어떻게 접근하는 게 좋나요?",
+      "parent_qids": ["JAIJE1-QA-0067"]
+    },
+    {
+      "qa_id": "QAGEN-007",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-07",
+      "question": "근거를 꼼꼼히 보는 평가자에게는 제안서를 어떻게 구성해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0083"]
+    },
+    {
+      "qa_id": "QAGEN-008",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-08",
+      "question": "회사에 표준 제안 프로세스가 꼭 필요한 이유는 무엇인가요?",
+      "parent_qids": ["JAIJE1-QA-0100"]
+    },
+    {
+      "qa_id": "QAGEN-009",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-09",
+      "question": "짧은 제안 기간에 작성 일정을 어떤 기준으로 관리해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0117"]
+    },
+    {
+      "qa_id": "QAGEN-010",
+      "query_stratum": "operational_direct",
+      "scenario_id": "GEN-DIRECT-10",
+      "question": "고객이 구매 결정을 내리는 동안 영업 담당자는 어떤 역할을 해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0134"]
+    },
+    {
+      "qa_id": "QAGEN-011",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-01",
+      "question": "고객사가 곧 입찰 공고를 낼 것 같습니다. 제안서를 쓰기 전에 영업팀이 먼저 해둘 일은 무엇인가요?",
+      "parent_qids": ["JAIJE1-QA-0004"]
+    },
+    {
+      "qa_id": "QAGEN-012",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-02",
+      "question": "RFP가 나온 뒤 고객 요구를 바꾸려니 잘 안 됩니다. 이 시점에는 왜 영향력을 행사하기 어렵나요?",
+      "parent_qids": ["JAIJE1-QA-0005"]
+    },
+    {
+      "qa_id": "QAGEN-013",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-03",
+      "question": "기술적으로 가장 좋은 솔루션을 냈는데도 질 수 있나요? 제안에서 더 중요한 것은 무엇인가요?",
+      "parent_qids": ["JAIJE1-QA-0010"]
+    },
+    {
+      "qa_id": "QAGEN-014",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-04",
+      "question": "평가위원 대부분이 비전문가라면 핵심 메시지를 어떤 방식으로 전달해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0012"]
+    },
+    {
+      "qa_id": "QAGEN-015",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-05",
+      "question": "고객이 공식 문서에 쓰지 않은 중요한 니즈를 찾아내려면 어디서부터 시작해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0029"]
+    },
+    {
+      "qa_id": "QAGEN-016",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-06",
+      "question": "제안 준비에 이미 비용을 많이 썼습니다. 그래도 참여를 포기해야 하는 상황이 있나요?",
+      "parent_qids": ["JAIJE1-QA-0036"]
+    },
+    {
+      "qa_id": "QAGEN-017",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-07",
+      "question": "요구사항 때문에 제안서가 길어질 수밖에 없습니다. 평가를 방해하지 않게 어떻게 구성할까요?",
+      "parent_qids": ["JAIJE1-QA-0056"]
+    },
+    {
+      "qa_id": "QAGEN-018",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-08",
+      "question": "고객이 우리 솔루션을 부정적으로 봅니다. 실제 약점인지 오해인지에 따라 대응을 어떻게 달리하나요?",
+      "parent_qids": ["JAIJE1-QA-0075"]
+    },
+    {
+      "qa_id": "QAGEN-019",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-09",
+      "question": "현재 경쟁사보다 불리한 상황이라면 제안 전략을 어떻게 짜야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0098"]
+    },
+    {
+      "qa_id": "QAGEN-020",
+      "query_stratum": "scenario_query",
+      "scenario_id": "GEN-SCENARIO-10",
+      "question": "제안서를 제출한 다음에 발표 준비를 시작해도 괜찮을까요?",
+      "parent_qids": ["JAIJE1-QA-0129"]
+    },
+    {
+      "qa_id": "QAGEN-021",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-01",
+      "question": "추가 아이디어를 많이 넣을수록 유리한가요? 실제로 채택할 추가 제안은 어떤 기준과 내용으로 골라야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0063", "JAIJE1-QA-0064"]
+    },
+    {
+      "qa_id": "QAGEN-022",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-02",
+      "question": "제안서 그래픽은 어느 정도 비중이 적당하며, 그래픽만 봐도 핵심 메시지가 전달되게 하려면 어떻게 해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0078", "JAIJE1-QA-0079"]
+    },
+    {
+      "qa_id": "QAGEN-023",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-03",
+      "question": "제안서에서 리스크를 숨겨도 될까요? 리스크 관리는 어떤 방식으로 설명해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0114", "JAIJE1-QA-0115"]
+    },
+    {
+      "qa_id": "QAGEN-024",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-04",
+      "question": "제안서 초안부터 제출 전까지 어떤 리뷰를 언제 거치고, 각 단계에서 무엇을 확인해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0123", "JAIJE1-QA-0124", "JAIJE1-QA-0125"]
+    },
+    {
+      "qa_id": "QAGEN-025",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-05",
+      "question": "고객 정보 관리와 특정 기회에 대한 경쟁 전략 수립을 각각 어떤 계획 도구로 운영해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0033", "JAIJE1-QA-0041"]
+    },
+    {
+      "qa_id": "QAGEN-026",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-06",
+      "question": "경쟁사가 있는 상황에서 가치제안은 무엇을 의미하고, 어떤 차별점과 정보를 담아야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0048", "JAIJE1-QA-0049", "JAIJE1-QA-0050"]
+    },
+    {
+      "qa_id": "QAGEN-027",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-07",
+      "question": "평가위원을 역할과 전문성에 따라 나눴을 때 사용자와 행정가에게 각각 어떤 관점으로 제안해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0057", "JAIJE1-QA-0074"]
+    },
+    {
+      "qa_id": "QAGEN-028",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-08",
+      "question": "사전 예상 순위가 앞설 때와 뒤질 때 제안 전략을 어떻게 다르게 가져가야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0096", "JAIJE1-QA-0097", "JAIJE1-QA-0098"]
+    },
+    {
+      "qa_id": "QAGEN-029",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-09",
+      "question": "고객의 구매 과정은 어떤 단계로 진행되며, 영업 담당자는 니즈 정의부터 의사결정까지 무엇을 해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0103", "JAIJE1-QA-0104", "JAIJE1-QA-0134"]
+    },
+    {
+      "qa_id": "QAGEN-030",
+      "query_stratum": "multi_intent",
+      "scenario_id": "GEN-MULTI-10",
+      "question": "제안서 디자인만 바꾸면 차별화될까요? 경쟁력 있는 제안서는 내용과 형식을 어떤 순서와 원칙으로 결정해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0140", "JAIJE1-QA-0141", "JAIJE1-QA-0142"]
+    },
+    {
+      "qa_id": "QAGEN-031",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-01",
+      "question": "우리 회사가 체계적인 제안 프로세스를 갖췄다고 하려면 조직·절차·도구 측면에서 무엇이 정해져 있어야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0094", "JAIJE1-QA-0099"]
+    },
+    {
+      "qa_id": "QAGEN-032",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-02",
+      "question": "수주 기회를 분석한 뒤 실제 입찰 참여를 확정하기 전에는 어떤 결정을 내려야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0101"]
+    },
+    {
+      "qa_id": "QAGEN-033",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-03",
+      "question": "특정 수주 기회를 관리할 때 캡처 플랜은 어느 시점에 어떤 목적으로 작성하나요?",
+      "parent_qids": ["JAIJE1-QA-0108"]
+    },
+    {
+      "qa_id": "QAGEN-034",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-04",
+      "question": "경쟁사를 분석한 다음에는 어떤 산출물을 만들고 이후 제안 전략에 어떻게 활용하나요?",
+      "parent_qids": ["JAIJE1-QA-0109"]
+    },
+    {
+      "qa_id": "QAGEN-035",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-05",
+      "question": "고객과 함께 요구를 구체화하는 단계에서는 어떤 활동을 하고 무엇을 산출해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0110"]
+    },
+    {
+      "qa_id": "QAGEN-036",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-06",
+      "question": "전체 수주전략과 실제 제안서 전략은 어떤 관계로 연결해 수립해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0118"]
+    },
+    {
+      "qa_id": "QAGEN-037",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-07",
+      "question": "제안서 각 장에서 구체적인 솔루션과 핵심 메시지를 미리 설계하려면 어떤 도구를 쓰나요?",
+      "parent_qids": ["JAIJE1-QA-0119"]
+    },
+    {
+      "qa_id": "QAGEN-038",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-08",
+      "question": "제안서 작성 계획을 확정할 때 어떤 리뷰를 하고 주요 산출물로 무엇을 남겨야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0123"]
+    },
+    {
+      "qa_id": "QAGEN-039",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-09",
+      "question": "레드팀 리뷰는 제안서 작성 과정의 어느 시점에 하고, 나온 의견은 언제 반영하나요?",
+      "parent_qids": ["JAIJE1-QA-0124"]
+    },
+    {
+      "qa_id": "QAGEN-040",
+      "query_stratum": "process_structure",
+      "scenario_id": "GEN-PROCESS-10",
+      "question": "제안서 제출 직전 경영진 최종 리뷰에서는 어떤 부분까지 확인해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0125"]
+    },
+    {
+      "qa_id": "QAGEN-041",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-01",
+      "question": "고객 의사결정에 영향을 주려면 왜 입찰 공고가 나오기 전에 접촉해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0017"]
+    },
+    {
+      "qa_id": "QAGEN-042",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-02",
+      "question": "규모가 큰 수주 건에서는 기존 인맥과 정확한 고객·경쟁 정보 중 무엇을 더 우선해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0024"]
+    },
+    {
+      "qa_id": "QAGEN-043",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-03",
+      "question": "제안 전략과 발표가 좋아도 공식 요구사항을 하나라도 놓치면 왜 문제가 되나요?",
+      "parent_qids": ["JAIJE1-QA-0028"]
+    },
+    {
+      "qa_id": "QAGEN-044",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-04",
+      "question": "우리 회사가 객관적으로 잘하는 항목이면 언제나 핵심 차별화요소로 써도 되나요?",
+      "parent_qids": ["JAIJE1-QA-0037"]
+    },
+    {
+      "qa_id": "QAGEN-045",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-05",
+      "question": "경쟁 제품이 있는 시장에서는 가치제안이 단순한 장점 소개와 어떻게 달라야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0049"]
+    },
+    {
+      "qa_id": "QAGEN-046",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-06",
+      "question": "가격이 가장 낮아야만 수주할 수 있다는 판단은 어떤 점에서 위험한가요?",
+      "parent_qids": ["JAIJE1-QA-0071"]
+    },
+    {
+      "qa_id": "QAGEN-047",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-07",
+      "question": "솔루션을 차별화할 때 현재 고객만 대상으로 삼아야 하나요, 새로운 고객군도 고려할 수 있나요?",
+      "parent_qids": ["JAIJE1-QA-0086"]
+    },
+    {
+      "qa_id": "QAGEN-048",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-08",
+      "question": "경쟁사가 낮은 가격을 앞세울 때 우리 가치제안은 어떤 원리로 대응해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0106"]
+    },
+    {
+      "qa_id": "QAGEN-049",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-09",
+      "question": "발생 가능성은 높지만 사업 영향은 낮은 리스크를 어느 등급으로 관리해야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0116"]
+    },
+    {
+      "qa_id": "QAGEN-050",
+      "query_stratum": "condition_relation",
+      "scenario_id": "GEN-CONDITION-10",
+      "question": "고객과의 거래 기회를 계속 쫓지 말고 포기해야 하는 판단 기준은 무엇인가요?",
+      "parent_qids": ["JAIJE1-QA-0128"]
+    },
+    {
+      "qa_id": "QAGEN-051",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-01",
+      "question": "수주할 때 말하는 리스크 갭이 정확히 뭐예요?",
+      "parent_qids": ["JAIJE1-QA-0018"]
+    },
+    {
+      "qa_id": "QAGEN-052",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-02",
+      "question": "캡처 플랜만 잘 쓰면 RFP에 없는 고객 속마음까지 알 수 있나요?",
+      "parent_qids": ["JAIJE1-QA-0034"]
+    },
+    {
+      "qa_id": "QAGEN-053",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-03",
+      "question": "우리 강점만 세게 써 놓으면 전략 있는 제안서라고 볼 수 있나요?",
+      "parent_qids": ["JAIJE1-QA-0052"]
+    },
+    {
+      "qa_id": "QAGEN-054",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-04",
+      "question": "제안서가 두꺼우면 오히려 점수를 깎이는 경우도 있나요?",
+      "parent_qids": ["JAIJE1-QA-0054"]
+    },
+    {
+      "qa_id": "QAGEN-055",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-05",
+      "question": "고객 조직에서 실제로 구매 결정에 영향 주는 사람은 누구를 말하나요?",
+      "parent_qids": ["JAIJE1-QA-0065"]
+    },
+    {
+      "qa_id": "QAGEN-056",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-06",
+      "question": "기술 심사위원은 제안서를 볼 때 대체 무엇을 가장 중점적으로 보나요?",
+      "parent_qids": ["JAIJE1-QA-0073"]
+    },
+    {
+      "qa_id": "QAGEN-057",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-07",
+      "question": "입찰 제안에서 결국 달성해야 하는 최종 목표는 뭔가요?",
+      "parent_qids": ["JAIJE1-QA-0081"]
+    },
+    {
+      "qa_id": "QAGEN-058",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-08",
+      "question": "논리만 정확하면 고객이 설득되나요? 그 밖에 무엇이 더 필요하죠?",
+      "parent_qids": ["JAIJE1-QA-0095"]
+    },
+    {
+      "qa_id": "QAGEN-059",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-09",
+      "question": "영업 담당자가 고객 신뢰를 얻으려면 어떤 전문가 이미지로 자리 잡아야 하나요?",
+      "parent_qids": ["JAIJE1-QA-0111"]
+    },
+    {
+      "qa_id": "QAGEN-060",
+      "query_stratum": "colloquial_query",
+      "scenario_id": "GEN-COLLOQUIAL-10",
+      "question": "기술 요구사항만 확인하면 끝인가요? 제안 전략을 위해 같이 찾아야 할 것은 무엇인가요?",
+      "parent_qids": ["JAIJE1-QA-0149"]
+    }
+  ]
+}

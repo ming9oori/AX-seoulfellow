@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARS-KG-RAG 실제 성공 사례</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #172033;
+      background: #f4f6f8;
+      font-family: "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      overflow-wrap: anywhere;
+    }
+    main {
+      width: min(960px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 42px 0 80px;
+    }
+    header, section {
+      margin-bottom: 24px;
+      padding: 30px;
+      border: 1px solid #dce1e8;
+      border-radius: 14px;
+      background: #ffffff;
+    }
+    header {
+      color: #ffffff;
+      background: #17274a;
+      border-color: #17274a;
+    }
+    h1, h2, h3 { line-height: 1.35; }
+    h1 { margin: 0 0 14px; font-size: 34px; }
+    h2 { margin: 0 0 18px; color: #263f96; font-size: 26px; }
+    h3 { margin: 0 0 8px; font-size: 19px; }
+    p { margin: 0 0 14px; }
+    p:last-child { margin-bottom: 0; }
+    .meta { color: #cbd5f2; font-size: 14px; }
+    .question {
+      margin: 18px 0 0;
+      padding: 18px;
+      border-left: 5px solid #86a1ff;
+      background: rgba(255,255,255,.09);
+      font-size: 23px;
+      font-weight: 700;
+    }
+    .summary {
+      padding: 18px;
+      border-left: 6px solid #078267;
+      background: #e8f7f2;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .box {
+      padding: 18px;
+      border: 1px solid #dce1e8;
+      border-radius: 10px;
+      background: #fafbfd;
+    }
+    .gold { border-color: #8dd2c1; background: #f0fbf7; }
+    .gold-label { color: #08725b; font-weight: 800; }
+    code {
+      color: #43506a;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 15px;
+    }
+    th, td {
+      padding: 12px 9px;
+      border: 1px solid #dce1e8;
+      text-align: center;
+      vertical-align: top;
+    }
+    th { background: #edf1f7; }
+    th:first-child, td:first-child { text-align: left; }
+    tr.best td { background: #e8f7f2; font-weight: 700; }
+    .steps {
+      margin: 0;
+      padding-left: 24px;
+    }
+    .steps li { margin-bottom: 13px; }
+    .aspect {
+      margin: 9px 0;
+      padding: 12px 15px;
+      border-radius: 8px;
+      background: #eef1ff;
+    }
+    .flow {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .flow-item {
+      padding: 14px 16px;
+      border-left: 5px solid #667fe0;
+      background: #f2f4fc;
+    }
+    .flow-item strong { display: inline-block; min-width: 150px; }
+    .rank {
+      display: inline-block;
+      min-width: 38px;
+      margin-right: 8px;
+      padding: 3px 8px;
+      color: #ffffff;
+      border-radius: 6px;
+      background: #5269c7;
+      text-align: center;
+      font-weight: 800;
+    }
+    .evidence {
+      margin: 12px 0;
+      padding: 16px;
+      border: 1px solid #dce1e8;
+      border-radius: 10px;
+    }
+    .evidence.hit { border: 2px solid #078267; background: #f0fbf7; }
+    .evidence .title { margin-bottom: 7px; font-weight: 800; }
+    .tag {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 2px 7px;
+      color: #08725b;
+      border-radius: 5px;
+      background: #d8f3ea;
+      font-size: 12px;
+    }
+    .answer {
+      padding: 20px;
+      color: #ffffff;
+      border-radius: 10px;
+      background: #17274a;
+      font-size: 18px;
+    }
+    .warning {
+      margin-top: 16px;
+      padding: 16px;
+      border-left: 6px solid #d68718;
+      background: #fff2da;
+    }
+    .small { color: #5d687d; font-size: 14px; }
+    @media (max-width: 680px) {
+      body { font-size: 16px; }
+      main { width: min(100% - 16px, 960px); padding-top: 8px; }
+      header, section { padding: 20px; border-radius: 8px; }
+      h1 { font-size: 27px; }
+      h2 { font-size: 22px; }
+      .question { font-size: 19px; }
+      .grid { grid-template-columns: 1fr; }
+      table { font-size: 13px; }
+      th, td { padding: 8px 5px; }
+    }
+    @media print {
+      body { background: #ffffff; }
+      main { width: 100%; padding: 0; }
+      header, section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>PARS-KG-RAG 실제 성공 사례</h1>
+    <p class="meta">문항 JAIJE1-QA-0101 · 실제 210문항 구성요소 ablation 결과</p>
+    <div class="question">기회분석이 끝난 뒤 제안참여 의사결정 전에는 어떤 결정이 이루어집니까?</div>
+  </header>
+
+  <section>
+    <h2>1. 이 사례의 핵심 결과</h2>
+    <div class="summary">다른 세 방법은 정답 근거 2개 중 1개만 Top-5에서 찾았지만, PARS-KG-RAG는 두 근거를 모두 찾아 1위와 2위에 배치했습니다.</div>
+    <table>
+      <thead>
+        <tr><th>방법</th><th>찾은 Gold</th><th>Recall@5</th><th>Complete@5</th><th>MRR</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Dense RAG</td><td>1 / 2</td><td>0.50</td><td>0</td><td>0.20</td></tr>
+        <tr><td>PCF Path</td><td>1 / 2</td><td>0.50</td><td>0</td><td>0.50</td></tr>
+        <tr><td>PCF + Aspect</td><td>1 / 2</td><td>0.50</td><td>0</td><td>0.50</td></tr>
+        <tr class="best"><td>PARS-KG-RAG</td><td>2 / 2</td><td>1.00</td><td>1</td><td>1.00</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. 답변에 필요한 두 개의 정답 근거</h2>
+    <div class="grid">
+      <article class="box gold">
+        <div class="gold-label">Gold 1 · 먼저 일어나는 결정</div>
+        <h3>영업참여 결정(Pursuit Decision)</h3>
+        <p>“먼저 기회분석(Opportunity Assessment)이 끝나고 나면 고객과 경쟁자 정보수집을 위한 영업활동을 할 것인가 말 것인가를 결정하는 것이 영업참여 결정(Pursuit Decision)이다.”</p>
+        <code>EV_2c129cd2c1be2571 · 44쪽</code>
+      </article>
+      <article class="box gold">
+        <div class="gold-label">Gold 2 · 그다음 일어나는 결정</div>
+        <h3>제안참여 의사결정(Bid / No Bid)</h3>
+        <p>“정보수집을 위한 영업활동이 끝나면 이 축적된 정보를 기반으로 제안참여 의사결정(Bid/No Bid Decision)을 하게 된다.”</p>
+        <code>EV_c4831786c40fbbb8 · 44쪽</code>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. 질문에서 Aspect를 만드는 방법</h2>
+    <ol class="steps">
+      <li><strong>Kiwi 형태소 분석:</strong> 질문을 ‘기회 분석 / 끝나 / 뒤 / 제안 참여 / 의사 결정 / 전 / 이루어지’처럼 정규화합니다.</li>
+      <li><strong>후보 구 생성:</strong> 업무 대상, 행동, 시간·조건을 나타내는 연속 구절을 후보로 만듭니다.</li>
+      <li><strong>그래프 grounding:</strong> 후보를 질문, PCF, TaskFrame, EvidenceSpan 및 실제 경로와 비교합니다.</li>
+      <li><strong>상위 관점 선택:</strong> 다섯 신호의 순위를 동일 가중으로 결합하고 역할이 겹치지 않는 3개 관점을 선택합니다.</li>
+    </ol>
+    <div class="aspect"><strong>전체 의도:</strong> 기회 분석 끝나 뒤 제안 참여 의사 결정 전 이루어지</div>
+    <div class="aspect"><strong>시간 조건 1:</strong> 끝나 뒤 제안 참여</div>
+    <div class="aspect"><strong>시간 조건 2:</strong> 참여 의사 결정 전</div>
+    <p class="small">이 과정에는 정답, Gold Evidence ID, LLM 학습이 사용되지 않습니다.</p>
+  </section>
+
+  <section>
+    <h2>4. Gold 1이 복원된 과정</h2>
+    <p>Gold 1은 원문 유사도만으로는 상위에 오르지 못했습니다. 그러나 주변 노드의 속성과 관계가 질문의 시간 순서와 업무 맥락을 함께 지지했습니다.</p>
+    <div class="flow">
+      <div class="flow-item"><span class="rank">17위</span><strong>PCF 기본 경로</strong>직접 경로만으로는 낮은 순위</div>
+      <div class="flow-item"><span class="rank">14위</span><strong>Direct Aspect</strong>Aspect 직접 검색에서도 부족</div>
+      <div class="flow-item"><span class="rank">4위</span><strong>PARS 서브그래프</strong>속성·관계 신호로 복원</div>
+      <div class="flow-item"><span class="rank">1위</span><strong>Cross-Encoder</strong>질문과 근거의 정밀 의미 비교</div>
+      <div class="flow-item"><span class="rank">2위</span><strong>최종 Top-5</strong>MMR 이후 최종 배치</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. 실제로 사용된 그래프 구조</h2>
+    <p>Gold 1 주변에서 선택된 서브그래프는 <strong>8개 노드와 7개 실제 저장 관계</strong>로 구성됩니다. 질의 시점에 가상 관계를 만들지 않았습니다.</p>
+    <div class="flow">
+      <div class="flow-item"><strong>PCFProcess</strong>리드·기회 관리 → 기회 수주 계획 수립</div>
+      <div class="flow-item"><strong>TaskFrame</strong>입찰 의사결정 및 기회 관리</div>
+      <div class="flow-item"><strong>Fact.qualifier</strong>“기회분석이 끝나고 나면”</div>
+      <div class="flow-item"><strong>TaskMention.object</strong>“참여 여부에 대한 최종 의사결정을”</div>
+      <div class="flow-item"><strong>관계</strong>MAPS_TO_PCF, HAS_SUPPORTING_FACT, SUPPORTED_BY, RELATED_TO_TASK_MENTION, PRECEDES</div>
+      <div class="flow-item"><strong>EvidenceSpan</strong>Gold 1 원문 및 같은 업무 단계의 보조 근거</div>
+    </div>
+    <p class="small">Gold 1의 다섯 신호 순위: Question–Property 2위, Aspect Coverage 1위, Edge Support 3위, PCF Anchor 1위, Evidence 직접 적합도 12위.</p>
+  </section>
+
+  <section>
+    <h2>6. 네 방법이 가져온 실제 Top-5</h2>
+    <h3>Dense RAG</h3>
+    <p>EV_a588… → EV_f5e0… → EV_6d68… → EV_6ad5… → <strong>EV_c483…(Gold 2)</strong></p>
+
+    <h3>PCF Path</h3>
+    <p>EV_55c2… → <strong>EV_c483…(Gold 2)</strong> → EV_799a… → EV_6d68… → EV_c37e…</p>
+
+    <h3>PCF + Aspect</h3>
+    <p>EV_55c2… → <strong>EV_c483…(Gold 2)</strong> → EV_799a… → EV_f5e0… → EV_a588…</p>
+
+    <h3>PARS-KG-RAG</h3>
+    <div class="evidence hit">
+      <div class="title"><span class="rank">1</span>EV_c4831786c40fbbb8 <span class="tag">GOLD 2</span></div>
+      <p>정보수집 영업활동이 끝난 뒤 축적된 정보로 제안참여 의사결정을 한다.</p>
+    </div>
+    <div class="evidence hit">
+      <div class="title"><span class="rank">2</span>EV_2c129cd2c1be2571 <span class="tag">GOLD 1</span></div>
+      <p>기회분석이 끝난 뒤 정보수집 영업활동을 할지 결정하는 Pursuit Decision이 이루어진다.</p>
+    </div>
+    <div class="evidence"><div class="title"><span class="rank">3</span>EV_55c2af601bb7345b</div><p>수주영업 단계와 제안 참여 의사결정 표.</p></div>
+    <div class="evidence"><div class="title"><span class="rank">4</span>EV_f562a769a21e7c8b</div><p>RFP가 나온 뒤의 Bid Validation Decision.</p></div>
+    <div class="evidence"><div class="title"><span class="rank">5</span>EV_6d68da3d64fd08f8</div><p>단계별 의사결정 Milestone 설명.</p></div>
+  </section>
+
+  <section>
+    <h2>7. Evidence에서 답변을 만드는 과정</h2>
+    <ol class="steps">
+      <li>최종 Top-5 Evidence 원문을 E1~E5로 정리합니다.</li>
+      <li>각 원문의 페이지·섹션·Evidence ID를 붙입니다.</li>
+      <li>매칭된 노드 속성, 저장된 관계, 실제 그래프 경로를 함께 제공합니다.</li>
+      <li>생성 모델이 이 context만 사용해 초안과 인용을 만듭니다.</li>
+      <li>검증 모델이 인용 근거로 지지되지 않는 문장을 제거하거나 수정합니다.</li>
+    </ol>
+    <p class="small">이 사례의 context 길이는 5,451자이며, 답변 생성 모델은 gpt-4o-mini-2024-07-18입니다.</p>
+
+    <h3>실제 생성된 최종 답변</h3>
+    <div class="answer">“기회분석이 끝난 뒤, 고객과 경쟁자에 대한 정보 수집을 위한 영업참여 결정을 하게 됩니다. 이 과정에서 RFP가 나오면 참여 여부에 대한 최종 의사결정을 해야 합니다.”</div>
+    <p class="small">실제 인용: EV_2c129cd2c1be2571(Gold 1), EV_f562a769a21e7c8b(보조 근거)</p>
+
+    <div class="warning">
+      <strong>중요한 해석:</strong> 검색은 성공했지만 답변 생성은 아직 완전하지 않습니다. Gold 1과 Gold 2를 모두 Top-2에서 찾았음에도 생성기가 Gold 2 대신 4위의 후속 단계 근거를 선택했습니다. 다음 개선 대상은 시간 순서와 완전한 근거 세트를 고려하는 citation planner입니다.
+    </div>
+  </section>
+
+  <section>
+    <h2>8. 이 문항의 답변 평가</h2>
+    <table>
+      <thead>
+        <tr><th>방법</th><th>ROUGE-1</th><th>ROUGE-2</th><th>ROUGE-L</th><th>BERTScore F1</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Dense RAG</td><td>0.5000</td><td>0.3333</td><td>0.3500</td><td><strong>0.9127</strong></td></tr>
+        <tr><td>PCF Path</td><td>0.4634</td><td>0.2500</td><td>0.2683</td><td>0.9020</td></tr>
+        <tr><td>PCF + Aspect</td><td>0.5476</td><td><strong>0.3902</strong></td><td>0.2857</td><td>0.9026</td></tr>
+        <tr class="best"><td>PARS-KG-RAG</td><td><strong>0.5859</strong></td><td>0.3505</td><td><strong>0.4040</strong></td><td>0.9112</td></tr>
+      </tbody>
+    </table>
+    <p class="small">PARS-KG-RAG는 이 문항에서 ROUGE-1과 ROUGE-L이 가장 높습니다. 그러나 모든 답변 지표에서 1위인 것은 아니므로, 이 사례는 전체 우월성 증명보다 작동 원리를 설명하는 정성 사례로 사용해야 합니다.</p>
+  </section>
+
+  <section>
+    <h2>9. 재현 정보</h2>
+    <p><strong>임베딩:</strong> text-embedding-3-small</p>
+    <p><strong>재정렬:</strong> BAAI/bge-reranker-v2-m3</p>
+    <p><strong>답변 생성:</strong> gpt-4o-mini-2024-07-18</p>
+    <p><strong>원시 실행 폴더:</strong><br><code>runs/p1p_profile_free_component_ablation_210_20260921/</code></p>
+    <p class="small">본 문서의 질문, Evidence 순위, 생성 답변 및 평가 점수는 위 실행 폴더의 원시 JSONL과 대조했습니다.</p>
+  </section>
+</main>
+</body>
+</html>

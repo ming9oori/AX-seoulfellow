@@ -1,0 +1,84 @@
+{
+  "report_date": "2026-09-22",
+  "status": "complete",
+  "source_run_id": "p1p_profile_free_component_ablation_210_20260921",
+  "benchmark": "warm_cache_question_to_top5_retrieval_latency",
+  "unit": "wall_clock_seconds_per_query",
+  "scope": {
+    "condition": "D0_ORIGINAL",
+    "main_comparison_questions": 178,
+    "repeats": 1,
+    "warmup_questions_per_method": 3,
+    "embedding_cache": "warm SQLite cache",
+    "aspect_accounting": "P1-G batch extraction mean is added once to each standalone Aspect method",
+    "answer_generation_included": false
+  },
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "torch": "2.8.0+cu128",
+    "python": "3.11.13",
+    "platform": "Linux-5.4.0-144-generic-x86_64-with-glibc2.31"
+  },
+  "aspect_extraction": {
+    "total_seconds": 127.10002495101071,
+    "mean_seconds_per_query": 0.7140450839944422
+  },
+  "methods": [
+    {
+      "method": "B0_VANILLA_DENSE_RAG",
+      "public_name": "Dense RAG",
+      "n": 178,
+      "retrieval_mean_seconds": 0.014734694730128119,
+      "retrieval_median_seconds": 0.013964224999654107,
+      "retrieval_p95_seconds": 0.024347827647579832,
+      "aspect_seconds_per_query": 0.0,
+      "reported_pipeline_mean_seconds_per_query": 0.014734694730128119
+    },
+    {
+      "method": "P1B_PCF_FIRST_PROFILE_FREE_CROSS_ENCODER_MMR",
+      "public_name": "PCF Path",
+      "n": 178,
+      "retrieval_mean_seconds": 0.26301744806248656,
+      "retrieval_median_seconds": 0.25493830350751523,
+      "retrieval_p95_seconds": 0.35210970849875595,
+      "aspect_seconds_per_query": 0.0,
+      "reported_pipeline_mean_seconds_per_query": 0.26301744806248656
+    },
+    {
+      "method": "P1G_PCF_GROUNDED_ASPECT_PROFILE_FREE_MMR",
+      "public_name": "PCF+Aspect",
+      "n": 178,
+      "retrieval_mean_seconds": 0.30625728483630993,
+      "retrieval_median_seconds": 0.2932769235048909,
+      "retrieval_p95_seconds": 0.42154505643411544,
+      "aspect_seconds_per_query": 0.7140450839944422,
+      "reported_pipeline_mean_seconds_per_query": 1.0203023688307522
+    },
+    {
+      "method": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR",
+      "public_name": "PARS-KG-RAG",
+      "n": 178,
+      "retrieval_mean_seconds": 1.5109123802466549,
+      "retrieval_median_seconds": 1.5297779260145035,
+      "retrieval_p95_seconds": 1.7824209316895576,
+      "aspect_seconds_per_query": 0.7140450839944422,
+      "reported_pipeline_mean_seconds_per_query": 2.224957464241097
+    }
+  ],
+  "one_time_excluded_seconds": {
+    "graph_index_construction": 4.8994002350082155,
+    "cross_encoder_loading": 6.298577430017758
+  },
+  "other_exclusions": [
+    "uncached OpenAI embedding network latency",
+    "answer generation and citation verification API latency",
+    "offline metric computation"
+  ],
+  "raw_artifact": {
+    "path": "runs/p1p_profile_free_component_ablation_210_20260921/metrics/retrieval_latency_benchmark.json",
+    "sha256": "7a9f0b06734e3f78e617a10a6696c2069a53839a5db5e3c67a8d744980ec6a62"
+  },
+  "reproduction_script": "scripts/benchmark_retrieval_latency.py",
+  "reproduction_script_sha256": "23a1e325916afc09d0116572d5106c099aae75805245d0bb2d86e7a7e91e22f2",
+  "interpretation": "These values compare warm-cache retrieval computation cost and are not end-to-end production response-time SLAs."
+}

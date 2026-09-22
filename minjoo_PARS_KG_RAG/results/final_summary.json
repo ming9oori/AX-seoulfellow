@@ -1,0 +1,214 @@
+{
+  "report_date": "2026-09-21",
+  "status": "complete",
+  "run_id": "p1p_profile_free_final_210_20260921",
+  "experiment_name": "p1p_profile_free_text_embedding_3_small",
+  "public_framework_name": "PARS-KG-RAG",
+  "public_framework_long_name": "PCF-Anchored Property-Relation Subgraph KG-RAG",
+  "proposed_method": {
+    "id": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR",
+    "short_name": "PARS-KG-RAG",
+    "description": "PCF-first, direct Aspect-to-Evidence recall, and property-relation subgraph retrieval combined by equal three-way RRF, followed by Cross-Encoder and MMR Top-5 selection without a Query Profile.",
+    "query_profile_used": false,
+    "property_weighting": "fixed_equal",
+    "aspect_extractor": "P1-G PCF-Grounded Aspect Routing",
+    "aspect_count_max": 3,
+    "aspect_llm_used": false,
+    "trainable_parameters": 0,
+    "virtual_neo4j_edges_created": 0
+  },
+  "data": {
+    "total_questions": 210,
+    "source_derived_questions": 150,
+    "synthetic_general_work_questions": 60,
+    "development_questions": 32,
+    "official_comparison_questions": 178,
+    "official_evidence_metric_denominator": 175,
+    "all_questions_with_aligned_gold_evidence": 207,
+    "dataset_path": "qa_v2/generated/general_extension_20260920/qa_dataset_expanded_210_split.csv",
+    "dataset_sha256": "7bf6923359f6a47eacc7aa12eaa27a1d9fa09f3315ad05a5e1744a5a34756a87"
+  },
+  "graph": {
+    "snapshot_sha256": "949837766c7811605caedb3f7df5c5848664823f73eab3d6e50bf333c3e42202",
+    "node_count": 6280,
+    "relationship_count": 11325,
+    "relationship_type_count": 16,
+    "nodes": {
+      "PCFProcess": 2017,
+      "TaskFrame": 12,
+      "TaskFrameAlias": 42,
+      "TaskMention": 314,
+      "Fact": 2319,
+      "EvidenceSpan": 1525,
+      "Section": 51
+    }
+  },
+  "models": {
+    "embedding": {
+      "id": "text-embedding-3-small",
+      "dimensions": 1536,
+      "normalization": "L2"
+    },
+    "aspect_extraction": "Kiwi candidate generation plus deterministic P1-G five-signal graph-grounded rank fusion",
+    "answer_and_verification": "gpt-4o-mini-2024-07-18",
+    "cross_encoder": {
+      "id": "BAAI/bge-reranker-v2-m3",
+      "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+      "max_length": 512
+    },
+    "bertscore": {
+      "id": "FacebookAI/xlm-roberta-large",
+      "revision": "c23d21b0620b635a76227c604d44e43a9f0ee389",
+      "layer": 17
+    }
+  },
+  "fixed_retrieval_settings": {
+    "pcf_top_k": 3,
+    "taskframe_top_k": 3,
+    "candidate_k_per_branch": 20,
+    "rerank_candidate_k": 40,
+    "evidence_top_k": 5,
+    "rrf_k": 60,
+    "mmr_lambda": 0.9,
+    "semantic_weight": 0.75,
+    "lexical_weight": 0.25,
+    "context_max_chars": 6000
+  },
+  "official_retrieval_percent": [
+    {
+      "method": "B0_VANILLA_DENSE_RAG",
+      "hit_at_1": 47.43,
+      "hit_at_5": 77.14,
+      "recall_at_5": 60.95,
+      "complete_at_5": 46.86,
+      "mrr": 58.27
+    },
+    {
+      "method": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_MMR",
+      "label": "legacy_query_profile",
+      "hit_at_1": 70.86,
+      "hit_at_5": 89.14,
+      "recall_at_5": 71.64,
+      "complete_at_5": 56.0,
+      "mrr": 78.48
+    },
+    {
+      "method": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR",
+      "label": "final",
+      "hit_at_1": 72.57,
+      "hit_at_5": 90.29,
+      "recall_at_5": 72.88,
+      "complete_at_5": 57.71,
+      "mrr": 79.68
+    }
+  ],
+  "official_answer_scores": [
+    {
+      "method": "B0_VANILLA_DENSE_RAG",
+      "bleu4_kiwi": 24.6841,
+      "rouge1_f1_kiwi": 52.4265,
+      "rouge2_f1_kiwi": 32.1431,
+      "rougeL_f1_kiwi": 43.81,
+      "bertscore_f1_xlmr17": 92.3182,
+      "failure_rate": 0.0,
+      "insufficient_rate": 0.0169
+    },
+    {
+      "method": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_MMR",
+      "label": "legacy_query_profile",
+      "bleu4_kiwi": 26.3619,
+      "rouge1_f1_kiwi": 55.4857,
+      "rouge2_f1_kiwi": 35.4988,
+      "rougeL_f1_kiwi": 47.1905,
+      "bertscore_f1_xlmr17": 92.6451,
+      "failure_rate": 0.0,
+      "insufficient_rate": 0.0337
+    },
+    {
+      "method": "P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR",
+      "label": "final",
+      "bleu4_kiwi": 26.3602,
+      "rouge1_f1_kiwi": 55.434,
+      "rouge2_f1_kiwi": 35.247,
+      "rougeL_f1_kiwi": 47.0603,
+      "bertscore_f1_xlmr17": 92.598,
+      "failure_rate": 0.0,
+      "insufficient_rate": 0.0225
+    }
+  ],
+  "paired_bootstrap": {
+    "iterations": 10000,
+    "retrieval_unit": "qid",
+    "answer_unit": "section_no_cluster",
+    "profile_free_minus_dense": {
+      "retrieval_percentage_points": {
+        "hit_at_1": {"difference": 25.14, "ci95": [18.29, 32.0]},
+        "hit_at_5": {"difference": 13.14, "ci95": [7.43, 18.86]},
+        "recall_at_5": {"difference": 11.93, "ci95": [7.45, 16.62]},
+        "complete_at_5": {"difference": 10.86, "ci95": [5.71, 16.01]},
+        "mrr": {"difference": 21.41, "ci95": [16.18, 26.7]}
+      },
+      "answer_score_points": {
+        "bleu4_kiwi": {"difference": 1.691, "ci95": [-0.1462, 3.5254]},
+        "rouge1_f1_kiwi": {"difference": 3.024, "ci95": [1.5025, 4.5576]},
+        "rouge2_f1_kiwi": {"difference": 3.1173, "ci95": [1.4056, 4.9008]},
+        "rougeL_f1_kiwi": {"difference": 3.2614, "ci95": [1.5415, 4.9564]},
+        "bertscore_f1_xlmr17": {"difference": 0.281, "ci95": [0.0983, 0.4689]}
+      }
+    },
+    "profile_free_minus_legacy_profile": {
+      "retrieval_percentage_points": {
+        "hit_at_1": {"difference": 1.71, "ci95": [-1.14, 4.57]},
+        "hit_at_5": {"difference": 1.14, "ci95": [-1.14, 3.43]},
+        "recall_at_5": {"difference": 1.24, "ci95": [-0.29, 3.05]},
+        "complete_at_5": {"difference": 1.71, "ci95": [0.0, 4.0]},
+        "mrr": {"difference": 1.2, "ci95": [-0.65, 3.1]}
+      },
+      "answer_score_points": {
+        "bleu4_kiwi": {"difference": -0.0083, "ci95": [-1.8083, 1.7555]},
+        "rouge1_f1_kiwi": {"difference": -0.0455, "ci95": [-1.3255, 1.2445]},
+        "rouge2_f1_kiwi": {"difference": -0.2447, "ci95": [-1.7993, 1.3473]},
+        "rougeL_f1_kiwi": {"difference": -0.12, "ci95": [-1.6676, 1.4698]},
+        "bertscore_f1_xlmr17": {"difference": -0.0466, "ci95": [-0.24, 0.151]}
+      }
+    }
+  },
+  "diagnostic_retrieval_percent": {
+    "source_control_148": {
+      "dense": {"hit_at_1": 51.03, "hit_at_5": 81.38, "recall_at_5": 64.25, "mrr": 61.82},
+      "profile_free": {"hit_at_1": 75.86, "hit_at_5": 92.41, "recall_at_5": 75.29, "mrr": 82.63}
+    },
+    "synthetic_holdout_30": {
+      "dense": {"hit_at_1": 30.0, "hit_at_5": 56.67, "recall_at_5": 45.0, "mrr": 41.11},
+      "profile_free": {"hit_at_1": 56.67, "hit_at_5": 80.0, "recall_at_5": 61.23, "mrr": 65.39}
+    }
+  },
+  "integrity": {
+    "retrieval_rows": 630,
+    "answer_rows": 630,
+    "api_failures": 0,
+    "final_method_rows_without_query_profile": 210,
+    "final_selected_evidence_items": 1050,
+    "missing_selected_subgraphs": 0,
+    "broken_subgraph_edge_endpoints": 0,
+    "virtual_edges_created": 0,
+    "official_final_answer_status": {"ANSWERED": 174, "INSUFFICIENT": 4},
+    "context_chars": {"min": 3803, "mean": 5405.37, "max": 5996},
+    "unit_tests_passed": 41
+  },
+  "artifact_checksums": {
+    "runs/p1p_profile_free_final_210_20260921/resolved_config.json": "fb3b39cc9ccf73b282dfd7fe492b4cb3ffafdcc293461f776103929f23be8867",
+    "runs/p1p_profile_free_final_210_20260921/03_retrieval_metric_summary.json": "d91736ac7ee66800bef8c3d4e5842be8158c376b00c678614dbef3dba6b5d7fe",
+    "runs/p1p_profile_free_final_210_20260921/metrics/profile_free_retrieval_analysis.json": "ceda9583ec36e1338f828ccc5a80137707c9cddeb078cc6e787cc82d8dbe75d5",
+    "runs/p1p_profile_free_final_210_20260921/metrics/answer_metric_summary.json": "ff4281796e83ce55399de4edfddb7eb22ea9c3f9dd6be244568e6ec3521acf67",
+    "runs/p1p_profile_free_final_210_20260921/metrics/answer_metric_table.md": "94083514ef8e0ab843f1de0636ecd60bda5e07f63c88b32cfdf7a8719877e724"
+  },
+  "interpretation": "The profile-free final method improves all five retrieval point estimates over the legacy profiled method and retains statistically indistinguishable answer quality. Against Dense RAG it has strictly positive paired 95% confidence intervals for all five retrieval metrics and for ROUGE-1/2/L and BERTScore; the BLEU interval includes zero.",
+  "limitations": [
+    "All partitions were inspected during development, so this is not an untouched confirmatory test.",
+    "The 60 general-work questions are synthetic rather than independently written by practitioners.",
+    "The 150 source-derived questions inherit wording and evidence bias from one source document.",
+    "Synthetic Gold evidence and reference answers require human review.",
+    "Answer metrics are based on one generation per method and should be supplemented by repeated generation and blind human evaluation."
+  ]
+}
