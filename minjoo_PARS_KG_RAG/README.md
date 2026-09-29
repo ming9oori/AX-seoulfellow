@@ -30,7 +30,7 @@
 
 ## 데이터와 결과
 
-데이터셋은 총 210문항이다. 원문 기반 150문항과 일반 수주·제안 업무를 본뜬 합성 질문 60문항으로 구성되며, 32문항은 개발용, 178문항은 주 비교용이다. Gold Evidence 정렬이 된 주 비교 문항은 175개다. 데이터의 성격과 대표 문항은 [데이터셋 문서](docs/dataset.md)를 참고한다.
+데이터셋은 총 210문항이다. 원문 기반 150문항과 일반 수주·제안 업무를 본뜬 합성 질문 60문항으로 구성되며, 32문항은 개발용, 178문항은 주 비교용이다. Gold Evidence 정렬이 된 주 비교 문항은 175개다. 데이터의 성격과 대표 문항은 [데이터셋 문서](docs/dataset.md), 실제 생성 코드·프롬프트·계보는 [데이터 생성 문서](data_creation/README.md)를 참고한다.
 
 주 비교 178문항의 점수는 아래와 같다. 값은 백분율이며, 시간은 warm-cache 질문당 Top-5 검색 시간이다. 답변 생성 시간은 포함하지 않는다.
 
@@ -48,6 +48,7 @@ PARS-KG-RAG는 Dense RAG보다 검색 지표가 높았고, Hit@1·MRR·ROUGE-L �
 ```text
 minjoo_PARS_KG_RAG/
 ├── config/                  # 최종 비교 및 4-way ablation 설정
+├── data_creation/           # 범용 QA 생성기 + 150문항 원본 코드·프롬프트·계보
 ├── docs/                    # 방법론·데이터·그래프·발표·시각화 문서
 ├── qa_v2/                   # 최종 210문항 데이터와 생성 명세
 ├── results/                 # 검증된 기계 판독 요약 JSON
@@ -128,6 +129,8 @@ python -m compileall -q run_experiment.py src scripts qa_v2
 - [구성요소 ablation 및 전체 성능표](docs/component_ablation.md)
 - [10장 이내 발표 슬라이드 초안](docs/presentation.md)
 - [210문항 데이터셋 설명](docs/dataset.md)
+- [210문항 생성 코드·프롬프트·계보](data_creation/README.md)
+- [다른 source용 범용 QA 생성기](data_creation/reusable_qa_generator/README.md)
 - [Neo4j 노드·관계·속성](docs/graph_schema.md)
 - [실제 성공 사례 HTML](docs/success_case.html)
 - [검색 처리 시간](docs/latency.md)
@@ -136,4 +139,3 @@ python -m compileall -q run_experiment.py src scripts qa_v2
 - [처리 시간 JSON](results/latency_summary.json)
 
 보안 및 공개 전 점검 사항은 [SECURITY.md](SECURITY.md), 포함·제외 범위는 [RELEASE_MANIFEST.md](RELEASE_MANIFEST.md)에 기록했다.
-

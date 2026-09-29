@@ -1,0 +1,47 @@
+{
+  "dataset": {
+    "name": "example_handbook_qa",
+    "language": "Korean",
+    "domain": "사내 운영 지침",
+    "qa_id_prefix": "HANDBOOK-QA"
+  },
+  "input": {
+    "path": "examples/source.csv",
+    "format": "auto",
+    "sheet": null,
+    "id_column": "source_id",
+    "text_column": "text",
+    "group_columns": ["document_id", "section"],
+    "metadata_columns": ["document_id", "section", "page"]
+  },
+  "prompt": {
+    "system_prompt_path": "prompts/system_prompt.txt",
+    "few_shots_path": null,
+    "version": "generic-grounded-qa-v1"
+  },
+  "generation": {
+    "model": "gpt-4o-mini-2024-07-18",
+    "target_size": 6,
+    "qas_per_chunk": 2,
+    "max_source_rows": 12,
+    "max_source_chars": 5000,
+    "max_source_ids_per_qa": 4,
+    "max_answer_sentences": 2,
+    "duplicate_threshold": 0.92,
+    "max_output_tokens": 1600,
+    "max_retries": 2,
+    "retry_base_seconds": 2.0,
+    "timeout_seconds": 120.0,
+    "question_types": [
+      "fact",
+      "numeric",
+      "definition",
+      "reason",
+      "method",
+      "comparison",
+      "procedure",
+      "misconception"
+    ],
+    "difficulties": ["easy", "medium", "hard"]
+  }
+}

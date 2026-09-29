@@ -212,6 +212,8 @@ HAS_CONDITION 35 / HAS_MEASURE 1 / PRECEDES 201
 | [상세 방법론](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/reports/detailed_EG_MOI_full_methodology.md) | 단계별 규칙과 설계 근거 |
 | [10페이지 발표자료](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/reports/presentation_EG_MOI_method_results_10slides.md) | 방법론과 결과 요약 |
 | [최종 보고서](zaije_experiment/experiments/zaije_eg_moi_20260712_v1/reports/final_report.md) | 실험 결과와 한계 |
+| [PARS-KG-RAG 실험 패키지](minjoo_PARS_KG_RAG/README.md) | 최종 방법론·실험 결과·재현 코드 |
+| [범용 QA 생성기](minjoo_PARS_KG_RAG/data_creation/reusable_qa_generator/README.md) | 다른 원천 데이터에서 근거 기반 QA를 생성하는 코드와 프롬프트 |
 
 ## 7. 해석할 때 주의할 점
 

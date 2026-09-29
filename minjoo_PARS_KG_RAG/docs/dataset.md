@@ -3,6 +3,9 @@
 기준일: 2026-09-21  
 주 입력 파일: `qa_v2/generated/general_extension_20260920/qa_dataset_expanded_210_split.csv`
 
+원문부터 최종 CSV까지 사용한 코드, 시스템 프롬프트, five-shot, Gold 정렬 규칙과
+재현 명령은 [`../data_creation/README.md`](../data_creation/README.md)에 별도로 정리했다.
+
 ## 1. 핵심 구성
 
 총 210문항은 원문 기반 통제 질문 150개와 일반 업무 표현을 보강한 합성 질문 60개로 구성된다.

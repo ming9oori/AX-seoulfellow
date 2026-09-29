@@ -1,0 +1,37 @@
+{
+  "dataset_size": 150,
+  "source_row_count": 1366,
+  "chunk_count": 103,
+  "chapters": {
+    "입찰과 제안": 53,
+    "수주영업": 53,
+    "제안서 전략": 44
+  },
+  "sections_covered": 51,
+  "question_types": {
+    "definition": 28,
+    "comparison": 17,
+    "method": 23,
+    "reason": 34,
+    "misconception": 22,
+    "numeric": 3,
+    "fact": 10,
+    "procedure": 13
+  },
+  "difficulties": {
+    "medium": 103,
+    "easy": 43,
+    "hard": 4
+  },
+  "evidence_modes": {
+    "single_sentence": 64,
+    "multi_sentence": 76,
+    "table": 10
+  },
+  "rejected_reasons": {
+    "duplicate_question": 1
+  },
+  "prompt_version": "jaije-qa-v1",
+  "prompt_sha256": "f0c6ec3fe8548aec050a75a0ed27b2a889b36420e3e3dbb444bfb577bc320770",
+  "generated_at": "2026-09-10T10:48:18+00:00"
+}

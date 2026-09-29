@@ -1,0 +1,7 @@
+source_id,document_id,section,page,text
+SRC-001,example-handbook,계정 관리,1,신규 계정은 팀 책임자의 승인을 받은 뒤 생성한다.
+SRC-002,example-handbook,계정 관리,1,사용하지 않는 계정은 확인 후 비활성화한다.
+SRC-003,example-handbook,장비 관리,2,공용 장비 점검은 매주 월요일 오전에 실시한다.
+SRC-004,example-handbook,장비 관리,2,점검 결과는 장비 관리대장에 기록한다.
+SRC-005,example-handbook,장애 대응,3,서비스 장애를 발견하면 먼저 운영 책임자에게 알린다.
+SRC-006,example-handbook,장애 대응,3,보고 후에는 장애 발생 시간과 증상을 기록한다.

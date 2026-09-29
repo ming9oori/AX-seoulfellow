@@ -1,0 +1,50 @@
+[
+  {
+    "name": "single-source policy fact",
+    "source_records": [
+      {
+        "source_id": "EX-001",
+        "text": "정기 장비 점검은 매주 월요일 오전에 실시한다.",
+        "metadata": {
+          "document_id": "example-guide",
+          "section": "장비 관리"
+        }
+      }
+    ],
+    "expected": {
+      "question": "정기 장비 점검은 언제 실시하나요?",
+      "answer": "정기 장비 점검은 매주 월요일 오전에 실시합니다.",
+      "source_ids": ["EX-001"],
+      "question_type": "fact",
+      "difficulty": "easy"
+    }
+  },
+  {
+    "name": "multi-source procedure",
+    "source_records": [
+      {
+        "source_id": "EX-002",
+        "text": "장애를 발견하면 먼저 운영 책임자에게 알린다.",
+        "metadata": {
+          "document_id": "example-guide",
+          "section": "장애 대응"
+        }
+      },
+      {
+        "source_id": "EX-003",
+        "text": "보고 후에는 장애 시간과 증상을 기록한다.",
+        "metadata": {
+          "document_id": "example-guide",
+          "section": "장애 대응"
+        }
+      }
+    ],
+    "expected": {
+      "question": "장애를 발견했을 때 어떤 순서로 대응해야 하나요?",
+      "answer": "먼저 운영 책임자에게 알린 뒤 장애 시간과 증상을 기록해야 합니다.",
+      "source_ids": ["EX-002", "EX-003"],
+      "question_type": "procedure",
+      "difficulty": "medium"
+    }
+  }
+]
