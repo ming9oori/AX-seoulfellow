@@ -18,7 +18,7 @@
 원문 Excel·API 키·내부 요청 로그는 포함하지 않았다.
 모든 문항은 사람 검수 전 초안이며, 검증 통계와 검수 메모는 각 출력 폴더에 있다.
 
-재생성할 때는 `requirements.txt`를 설치하고 원문 Excel 3개를 부모 `dataset/`에 준비한다.
+재생성할 때는 `requirements.txt`를 설치하고 원문 Excel 3개를 부모 `jaije_qa_dataset/`에 준비한다.
 `generate_document_qa.py --help`에서 입력·시트·출력 경로를 지정하고,
 먼저 `--dry-run`으로 점검한다. 실제 생성에는 `OPENAI_API_KEY`가 필요하다.
 `validate_document_outputs.py`는 원문 Excel과 전체 실행 로그를 필요로 하는 보존용 검증기다.

@@ -14,4 +14,4 @@
 [생성·통합 이력](manifest.json) · [중복·구성 검증](validation_report.json) ·
 [Excel 원문 대조](source_validation_report.json) · [검수 메모](review_notes.json)
 
-재통합: 저장소 루트에서 `python3 dataset/build_final_dataset.py --output-dir /path/to/empty_output`을 실행한다.
+재통합: 저장소 루트에서 `python3 jaije_qa_dataset/build_final_dataset.py --output-dir /path/to/empty_output`을 실행한다.

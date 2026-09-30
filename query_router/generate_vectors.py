@@ -177,7 +177,7 @@ def similarity_features(query_vectors, ontology_vectors):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--qa", type=Path, default=ROOT.parent / "dataset/qa_dataset.jsonl")
+    parser.add_argument("--qa", type=Path, default=ROOT.parent / "jaije_qa_dataset/qa_dataset.jsonl")
     parser.add_argument("--ontology-html", type=Path, default=ROOT.parent / "code_hyuna/taskframe_v4/final_report/task_centric_open_kg_report_v2.html")
     parser.add_argument("--output-dir", type=Path, default=ROOT / "artifacts/bge_m3")
     parser.add_argument("--model-name", default="BAAI/bge-m3")

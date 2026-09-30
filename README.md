@@ -1,7 +1,7 @@
 # 자이제 EG-MOI 온톨로지·KG 실험
 
-QA 데이터셋: **[자이제 1·2·3 통합 450문항과 생성 프롬프트·five-shot](dataset/README.md)**
-([CSV](dataset/final_450/qa_dataset.csv) · [JSONL](dataset/final_450/qa_dataset.jsonl)).
+QA 데이터셋: **[자이제 1·2·3 통합 450문항과 생성 프롬프트·five-shot](jaije_qa_dataset/README.md)**
+([CSV](jaije_qa_dataset/final_450/qa_dataset.csv) · [JSONL](jaije_qa_dataset/final_450/qa_dataset.jsonl)).
 
 `자이제_1.xlsx` 문서만 사용해 **원문 근거까지 추적할 수 있는 온톨로지와 Neo4j 지식그래프(KG)**를 자동 생성한 실험이다.
 

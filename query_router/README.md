@@ -47,7 +47,7 @@ python -m pip install -r query_router/requirements.txt
 
 ## 3. 현재 입력과 라벨
 
-- QA: `dataset/qa_dataset.jsonl` — 기존 150개, 원본 파일은 변경하지 않음.
+- QA: `jaije_qa_dataset/qa_dataset.jsonl` — 기존 150개, 원본 파일은 변경하지 않음.
 - 온톨로지: `code_hyuna/taskframe_v4/final_report/task_centric_open_kg_report_v2.html`.
 - HTML에서 TaskFrame 12개, TaskMention 314개, Fact 1,936개에서 원문 Relation 1,165개를 추출한다.
 - Relation 1,165개는 **고유한 원문 서술어 수**이다. 보고서의 정규화 관계 1,103개와는 다른 집계다.
@@ -160,7 +160,7 @@ HF_HUB_OFFLINE=1 python query_router/run_mlp.py --checkpoint query_router/artifa
 새 QA가 같은 컬럼 구조로 준비되면 `--qa`만 변경해 새 실험 폴더에서 실행한다.
 
 ```bash
-python query_router/generate_vectors.py --qa dataset/qa_dataset.jsonl --output-dir query_router/artifacts/updated_qa
+python query_router/generate_vectors.py --qa jaije_qa_dataset/qa_dataset.jsonl --output-dir query_router/artifacts/updated_qa
 python query_router/train_linear.py --vectors-dir query_router/artifacts/updated_qa
 python query_router/train_mlp.py --vectors-dir query_router/artifacts/updated_qa
 ```
