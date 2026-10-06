@@ -1,0 +1,17 @@
+{
+  "python": "3.11.13",
+  "packages": {
+    "numpy": "2.3.2",
+    "kiwipiepy": "0.23.2",
+    "tiktoken": "0.14.0",
+    "openai": "2.54.0",
+    "pydantic": "2.11.7",
+    "PyYAML": "6.0.2",
+    "torch": "2.8.0",
+    "transformers": "5.17.0",
+    "sacrebleu": "2.6.0",
+    "rouge-score": "0.1.2",
+    "bert-score": "0.3.13"
+  },
+  "scope": "Environment used for offline release validation, not a complete cross-platform lockfile"
+}

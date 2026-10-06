@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "supported": {"type": "boolean"},
+    "corrected_answer": {"type": "string"},
+    "supported_citations": {"type": "array", "items": {"type": "string"}},
+    "unsupported_claims": {"type": "array", "items": {"type": "string"}},
+    "limitation": {"type": "string"}
+  },
+  "required": ["supported", "corrected_answer", "supported_citations", "unsupported_claims", "limitation"],
+  "additionalProperties": false
+}

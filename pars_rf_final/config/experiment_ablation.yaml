@@ -1,0 +1,119 @@
+experiment_name: p1p_profile_free_component_ablation
+random_seed: 20260921
+
+paths:
+  neo4j_env: .env
+  qa_csv: qa_v2/generated/general_extension_20260920/qa_dataset_expanded_210_split.csv
+  cache_dir: cache
+  runs_dir: runs
+
+neo4j:
+  transport: query_api
+  connect_timeout_seconds: 15
+  query_timeout_seconds: 120
+  max_retries: 5
+
+# All three KG methods are Profile-free. No Query Profile or LLM Aspect model
+# is configured. The ablation changes only retrieval components.
+models:
+  embedding_provider: openai
+  embedding: text-embedding-3-small
+  embedding_dimensions: 1536
+  answer_generator: gpt-4o-mini-2024-07-18
+  reasoning_effort: null
+
+retrieval:
+  pcf_top_k: 3
+  taskframe_top_k: 3
+  evidence_top_k: 5
+  pcf_hierarchy_max_distance: 2
+  context_max_chars: 6000
+  lexical_weight: 0.25
+  semantic_weight: 0.75
+  gap_score_threshold: 0.35
+  embedding_batch_size: 64
+  p0_cross_encoder_rerank:
+    model: BAAI/bge-reranker-v2-m3
+    revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+    device: cuda
+    batch_size: 32
+    max_length: 512
+    candidate_k: 20
+    p0_evidence_quota: 2
+    rrf_k: 60
+    p0_weight: 1.0
+    cross_encoder_weight: 1.0
+    mmr_lambda: 0.90
+    same_section_penalty: true
+  aspect_analysis:
+    routing_mode: direct_evidence
+    direct_evidence_query_k: 3
+    direct_evidence_candidate_k: 20
+    rerank_cross_encoder_weight: 0.0
+    dual_path_enabled: true
+    dual_path_fusion: weighted_rrf
+    dual_path_branch_candidate_k: 20
+    dual_path_rerank_candidate_k: 40
+    emit_candidate_diagnostics: true
+
+pcf_grounded_aspect:
+  selected_k: 3
+
+generation:
+  max_output_tokens: 350
+  concurrency: 8
+  max_retries: 5
+  store: false
+  fail_on_api_error: true
+
+# Nested component ablation:
+# Dense -> Profile-free PCF-first -> +Direct Aspect -> +PARS (full).
+methods:
+  - B0_VANILLA_DENSE_RAG
+  - P1B_PCF_FIRST_PROFILE_FREE_CROSS_ENCODER_MMR
+  - P1G_PCF_GROUNDED_ASPECT_PROFILE_FREE_MMR
+  - P1P_PCF_ANCHORED_PROPERTY_RELATIONAL_SUBGRAPH_PROFILE_FREE_MMR
+
+conditions:
+  - D0_ORIGINAL
+
+evaluation:
+  # This split has already been inspected. Results remain exploratory.
+  development_qids:
+    - JAIJE1-QA-0001
+    - JAIJE1-QA-0002
+    - QAGEN-001
+    - QAGEN-003
+    - QAGEN-005
+    - QAGEN-007
+    - QAGEN-009
+    - QAGEN-011
+    - QAGEN-013
+    - QAGEN-015
+    - QAGEN-017
+    - QAGEN-019
+    - QAGEN-021
+    - QAGEN-023
+    - QAGEN-025
+    - QAGEN-027
+    - QAGEN-029
+    - QAGEN-031
+    - QAGEN-033
+    - QAGEN-035
+    - QAGEN-037
+    - QAGEN-039
+    - QAGEN-041
+    - QAGEN-043
+    - QAGEN-045
+    - QAGEN-047
+    - QAGEN-049
+    - QAGEN-051
+    - QAGEN-053
+    - QAGEN-055
+    - QAGEN-057
+    - QAGEN-059
+  bootstrap_iterations: 10000
+  bertscore_model: FacebookAI/xlm-roberta-large
+  bertscore_layers: 17
+  bertscore_batch_size: 4
+  bertscore_device: cuda

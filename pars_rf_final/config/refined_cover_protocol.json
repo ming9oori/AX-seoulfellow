@@ -1,0 +1,20 @@
+{
+  "version": "relevance_first_cover_v1",
+  "parent_run": "pars_cover_final_baselines_210_20261001",
+  "variants": ["HYBRID_TOP5", "HYBRID_ANCHORED_COVER", "CE_TOP5", "CE_ANCHORED_COVER"],
+  "selection_metric_order": ["evidence_recall_at_5", "evidence_hit_at_1", "complete_evidence_set_at_5", "evidence_mrr"],
+  "tie_preference": ["HYBRID_TOP5", "HYBRID_ANCHORED_COVER", "CE_TOP5", "CE_ANCHORED_COVER"],
+  "candidate_question_top_k": 40,
+  "candidate_per_aspect_top_k": 20,
+  "K": 5,
+  "multi_aspect_lambda": 0.8,
+  "single_aspect_lambda": 1.0,
+  "first_evidence_policy": "highest_relevance_anchor",
+  "coverage_policy": "relevance_gated_matching",
+  "final_order": "descending_relevance_then_evidence_id",
+  "seed": 20261002,
+  "selection_split": "development_32_only",
+  "independent_test": false,
+  "rules": "Keep question-only variable aspects and existing prompts; freeze dev winner before evaluation. Never select on evaluation metrics.",
+  "cost_note": "CE scores are computed on original text only, using the existing pinned bge reranker. Not a zero-reranker method."
+}

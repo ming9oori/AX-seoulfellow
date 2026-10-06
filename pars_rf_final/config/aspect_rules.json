@@ -1,0 +1,14 @@
+{
+  "version": "role_clause_v1",
+  "origin": "reconstructed_from_spec_before_evaluation",
+  "max_aspects": 3,
+  "intent_cues": "언제|무엇|어떤|누구|누가|무슨|뭐|뭔|어디|어떻게|왜|몇|얼마|어느",
+  "parallel_boundary": "[,;?]|그리고|또한|(?:하고|하며|이고|이며|고|며)(?=\\s)",
+  "constraint_cues": "이전|이후|이내|이상|이하|미만|초과|동안|때|경우|뒤|전(?=에는|에|까지|부터|[,;?]|\\s|$)|후(?=에는|에|까지|부터|[,;?]|\\s|$)|않[가-힣]*|아닌|제외|없이|\\d+(?:\\.\\d+)?\\s*(?:일|주|개월|년|개|명|회|%|원)",
+  "numeric_comparator_suffix": "\\s+(?:이내|이상|이하|미만|초과)[가-힣]*",
+  "noun_tags": ["NNG", "NNP", "SL", "SN"],
+  "action_tags": ["VV", "VA", "XSV", "XSA"],
+  "condition_slot_policy": "intent_max_two_then_all_constraints",
+  "fallback": "original_question",
+  "graph_or_gold_input": false
+}

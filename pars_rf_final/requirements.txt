@@ -1,0 +1,17 @@
+neo4j>=6.0,<7
+requests>=2.31,<3
+python-dotenv>=1.0,<2
+openai>=2.0,<3
+pydantic>=2.0,<3
+PyYAML>=6.0,<7
+numpy>=2.0,<3
+kiwipiepy>=0.20,<1
+sacrebleu>=2.4,<3
+rouge-score>=0.1.2,<1
+bert-score>=0.3.13,<1
+transformers>=5.0,<6
+torch>=2.0
+sentence-transformers>=6.0,<7
+sentencepiece>=0.2,<1
+# PARS-Cover exact embedding/generation token-limit validation.
+tiktoken==0.14.0

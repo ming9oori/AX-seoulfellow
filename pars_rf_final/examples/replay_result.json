@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "question": "제안은 어떤 방식으로 진행할 수 있으며, 갖춰야 할 두 가지 특성은 무엇인가요?",
+  "aspect_texts": [
+    "제안은 어떤 방식으로 진행할 수 있으며,",
+    "갖춰야 할 두 가지 특성은 무엇인가요?"
+  ],
+  "aspect_extraction_recomputed": true,
+  "candidate_count": 70,
+  "selected_evidence_ids": [
+    "EV_6fd93e1359a8f7fb",
+    "EV_e6751f2d0f7cb861",
+    "EV_564cc03ecbccb018",
+    "EV_648b3aa5d651e789",
+    "EV_ec64a74a59afb060"
+  ],
+  "stored_answer": "제안은 면대면, 제안서, 프레젠테이션을 통해 진행할 수 있으며, 설득적이고 신뢰감을 전해야 합니다.",
+  "stored_citations": [
+    "E1",
+    "E3"
+  ],
+  "api_calls": 0,
+  "scope": "Candidate union and CE ranking replay from saved scores; answer is stored, not newly generated."
+}
