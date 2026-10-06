@@ -1,4 +1,103 @@
-# 자이제 EG-MOI 온톨로지·KG 실험
+# AX-seoulfellow: PARS-RF + Kiwi 및 KG 실험
+
+## 최종 방법론: 터미널에서 질문하고 답변 받기
+
+**최종 QA 방법론은 PARS-RF + Kiwi입니다.** 질문에서 Aspect를 추출하고, 그래프 보정을 적용한 검색 후보를 Cross-Encoder로 재정렬한 뒤, 원문 근거를 바탕으로 답변을 생성하고 검증합니다.
+
+- [최종 패키지 안내](pars_rf_final/README.md)
+- [상세 방법론](pars_rf_final/docs/methodology.md) · [4장 발표 자료](pars_rf_final/presentation/slides.md)
+- [최종 메인 테이블: 11개 방법 비교](pars_rf_final/results/main_table.csv)
+
+아래 명령은 **Bash 터미널** 기준입니다. 현재 `aigpu38` 서버에서는 기존 Python 환경과 그래프 snapshot을 그대로 사용할 수 있습니다. 새 질문 실행에는 OpenAI API 키와 API·모델 다운로드를 위한 네트워크가 필요합니다.
+
+### 1. 현재 서버에서 실행 환경 준비
+
+아래 두 줄을 복사해서 실행하세요. 실행 위치는 `pars_rf_final` 폴더입니다.
+
+```bash
+cd "/home/minjoo/AX_서울펠로우/AX-seoulfellow/pars_rf_final"
+source ../../KG-RAG/.eval-venv/bin/activate
+```
+
+**다른 서버나 새 환경**에서는 저장소의 `pars_rf_final` 폴더로 이동한 다음, Python 3.11 이상으로 환경을 준비합니다. 현재 서버의 기존 환경을 사용하는 경우에는 이 설치 단계를 건너뜁니다.
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install -e .
+```
+
+### 2. API 키와 그래프 경로 설정
+
+API 키가 이미 환경변수에 설정되어 있으면 그대로 사용합니다. 그렇지 않으면 아래 명령이 키를 입력받습니다. 입력 중에는 화면에 표시되지 않습니다.
+
+```bash
+if [ -z "${OPENAI_API_KEY:-}" ]; then
+    read -r -s -p "OpenAI API Key: " OPENAI_API_KEY
+    printf '\n'
+fi
+export OPENAI_API_KEY
+
+export PARS_SNAPSHOT="../../KG-RAG/runs/p1p_profile_free_component_ablation_210_20260921/00_graph_snapshot.json"
+test -f "$PARS_SNAPSHOT" && echo "그래프 snapshot 확인 완료"
+```
+
+`PARS_SNAPSHOT`은 현재 서버의 실제 그래프 경로입니다. **그래프 snapshot과 전체 원문은 GitHub 패키지에 포함되어 있지 않습니다.** 다른 서버에서는 별도로 전달받은 snapshot의 절대 경로로 바꾸세요. 확인 메시지가 나오지 않으면 경로를 먼저 확인합니다. API 키는 README나 코드에 적지 않습니다.
+
+### 3. 질문을 입력하고 실행
+
+```bash
+read -r -p "질문을 입력하세요: " question_text
+python scripts/answer_question.py \
+  --snapshot "$PARS_SNAPSHOT" \
+  --question "$question_text" \
+  --device cuda \
+  --allow-api
+```
+
+예시 질문: `제안은 어떤 방식으로 진행할 수 있으며, 갖춰야 할 두 가지 특성은 무엇인가요?`
+
+GPU를 사용할 수 없으면 `--device cuda`를 `--device cpu`로 바꾸세요. 질문을 한 번 입력하면 답변 생성·검증 후 프로그램이 종료됩니다. **다음 질문은 3번 명령을 다시 실행**하면 됩니다. 이전 대화 내용을 이어받는 채팅 방식은 아닙니다.
+
+### 4. 실행 결과 확인
+
+터미널에는 다음 항목이 JSON으로 출력됩니다.
+
+| 항목 | 의미 |
+|---|---|
+| `status` | `ANSWERED`: 답변·근거 검증 조건 충족, `INSUFFICIENT`: 조건을 충족하지 못함 |
+| `answer` | 검증 단계가 반환한 답변. `status`와 함께 확인 |
+| `citations` | 선택된 근거의 인용 ID. 실제 원문은 저장된 검색 결과에서 확인 |
+
+`pars_rf_final` 기준으로 아래 파일도 저장됩니다.
+
+| 파일 | 내용 |
+|---|---|
+| `runs/live/answer.json` | 질문, 답변, 초안, 검증 결과, 검색 근거 등 상세 결과. 성공적으로 실행할 때마다 덮어씀 |
+| `runs/live/api_usage.jsonl` | API 호출 이벤트와 사용량 기록. 실행할 때마다 이어서 기록 |
+| `runs/live/embeddings.sqlite` | 다음 실행에서 재사용하는 임베딩 캐시 |
+
+최초 실행에는 문서·그래프 임베딩 생성과 재정렬 모델 로딩 때문에 시간이 더 걸릴 수 있습니다. `--allow-api`는 유료 API 호출을 허용하는 옵션이며, 임베딩과 답변 생성·검증에 비용이 발생합니다. 사용량 로그를 남기지만 **이 CLI는 현재 요금에 따른 달러 비용이나 전체 처리 시간을 자동 집계하지 않습니다.** README의 과거 실험 시간·비용은 이번 질문의 측정값이 아닙니다.
+
+질문별 결과를 보관하려면 실행 명령에 `--output runs/question_001`처럼 서로 다른 출력 폴더를 지정할 수 있습니다. 임베딩 캐시도 해당 폴더에 생성되므로 새 폴더의 첫 실행에는 임베딩 비용이 다시 발생할 수 있습니다.
+
+### 자주 막히는 부분
+
+| 상황 | 확인할 내용 |
+|---|---|
+| `Snapshot file does not exist` | `pars_rf_final`에서 실행 중인지, `PARS_SNAPSHOT`이 실제 파일을 가리키는지 확인 |
+| `OPENAI_API_KEY is not set` | 같은 터미널에서 2번의 키 설정을 실행 |
+| `ModuleNotFoundError` | 가상환경 활성화 여부 확인. 새 환경이면 `python -m pip install -e .` 실행 |
+| CUDA 관련 오류 | CUDA를 지원하는 PyTorch·GPU 환경을 확인하거나 `--device cpu` 사용 |
+| API 인증·연결 또는 모델 다운로드 오류 | 키의 유효성 및 실행 서버의 네트워크 접근 확인 |
+
+API 없이 저장된 사례를 확인하려면 같은 폴더에서 `python scripts/replay_example.py`를 실행합니다. 이는 저장된 점수·답변을 사용하는 재현이며 새 질문에 대한 답변 생성은 아닙니다. 새 질문 CLI의 유료 종단 간 실행은 패키징·README 작성 과정에서 재검증하지 않았습니다.
+
+---
+
+## 기존 실험: 자이제 EG-MOI 온톨로지·KG 구축
+
+아래는 기존 EG-MOI 구축 실험 안내입니다. 아래의 “LLM 호출 0”, “API key 불필요”는 해당 구축 실험의 조건이며, 위 PARS-RF 새 질문 실행에는 적용되지 않습니다.
 
 QA 데이터셋: **[자이제 1·2·3 통합 450문항과 생성 프롬프트·five-shot](jaije_qa_dataset/README.md)**
 ([CSV](jaije_qa_dataset/final_450/qa_dataset.csv) · [JSONL](jaije_qa_dataset/final_450/qa_dataset.jsonl)).
