@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pars-rf-final"
+version = "1.0.0"
+description = "PARS-RF + Kiwi final method, evidence selection and release artifacts"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "minjoo" },
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,413 @@
+{
+  "completed": true,
+  "conditions": [
+    {
+      "method": "PARS_REFINED",
+      "label": "PARS-RF + Kiwi",
+      "answer_n": 178,
+      "retrieval_gold_n": 175,
+      "Hit@1": 74.85714285714286,
+      "Recall@5": 76.89795918367348,
+      "MRR@5": 83.05714285714285,
+      "BLEU-4": 27.631380030698143,
+      "ROUGE-L": 47.512062890027806,
+      "BERTScore": 92.79804413907983,
+      "extraction_mean_s": 0.003256330051614865,
+      "extraction_p50_s": 0.0031399950003105914,
+      "extraction_p95_s": 0.005005790498944407,
+      "extraction_n": 890,
+      "retrieval_mean_s": 0.2432639804588103,
+      "retrieval_p50_s": 0.2068036509990634,
+      "retrieval_p95_s": 0.42015548849903994,
+      "retrieval_n": 534,
+      "retrieval_timing_scope": "three warm repetitions including Kiwi extraction",
+      "generation_api_mean_s": 3.0701259599816777,
+      "generation_api_p50_s": 2.9877549879602157,
+      "generation_api_p95_s": 4.005486707831733,
+      "generation_answer_api_mean_s": 1.4840763545983597,
+      "generation_verifier_api_mean_s": 1.586049605383318,
+      "generation_timed_n": 178,
+      "generation_timing_status": "RECONSTRUCTED_ORIGINAL_PAID_API_DURATIONS",
+      "standalone_answer_usd": 0.030919650000000003,
+      "standalone_verifier_usd": 0.033296849999999996,
+      "standalone_generation_usd": 0.0642165,
+      "standalone_extraction_usd": 0,
+      "standalone_generation_and_extraction_usd": 0.0642165,
+      "incremental_answer_verifier_usd": 0
+    },
+    {
+      "method": "PARS_LLM_ASPECT",
+      "label": "PARS-RF + LLM",
+      "answer_n": 178,
+      "retrieval_gold_n": 175,
+      "Hit@1": 74.85714285714286,
+      "Recall@5": 77.18367346938776,
+      "MRR@5": 83.05714285714285,
+      "BLEU-4": 27.685526069910882,
+      "ROUGE-L": 47.548093476037586,
+      "BERTScore": 92.80066878608103,
+      "extraction_mean_s": 1.6041792269436914,
+      "extraction_p50_s": 1.3088272064997,
+      "extraction_p95_s": 3.0837166341996634,
+      "extraction_n": 178,
+      "retrieval_mean_s": 0.24995405426971354,
+      "retrieval_p50_s": 0.2074635449989728,
+      "retrieval_p95_s": 0.42083020605168714,
+      "retrieval_n": 178,
+      "retrieval_timing_scope": "single pass, pre-extracted LLM aspects and warm embeddings",
+      "generation_api_mean_s": 3.119283043750983,
+      "generation_api_p50_s": 2.9877549879602157,
+      "generation_api_p95_s": 4.138691907806788,
+      "generation_answer_api_mean_s": 1.5307730866879456,
+      "generation_verifier_api_mean_s": 1.5885099570630374,
+      "generation_timed_n": 178,
+      "generation_timing_status": "RECONSTRUCTED_ORIGINAL_PAID_API_DURATIONS",
+      "standalone_answer_usd": 0.030997500000000008,
+      "standalone_verifier_usd": 0.033374850000000005,
+      "standalone_generation_usd": 0.06437235000000001,
+      "standalone_extraction_usd": 0.010156799999999995,
+      "standalone_generation_and_extraction_usd": 0.07452915,
+      "incremental_answer_verifier_usd": 0.0014715
+    },
+    {
+      "method": "ASPECT_VIEW_RAG",
+      "label": "Aspect-View + Kiwi",
+      "answer_n": 178,
+      "retrieval_gold_n": 175,
+      "Hit@1": 74.85714285714286,
+      "Recall@5": 77.08843537414965,
+      "MRR@5": 83.17142857142858,
+      "BLEU-4": 27.677984538634387,
+      "ROUGE-L": 47.512152476006925,
+      "BERTScore": 92.81638452176297,
+      "extraction_mean_s": 0.003256330051614865,
+      "extraction_p50_s": 0.0031399950003105914,
+      "extraction_p95_s": 0.005005790498944407,
+      "extraction_n": 890,
+      "retrieval_mean_s": 0.21158419588209654,
+      "retrieval_p50_s": 0.1782840710002347,
+      "retrieval_p95_s": 0.3949049681003088,
+      "retrieval_n": 534,
+      "retrieval_timing_scope": "three warm repetitions including Kiwi extraction",
+      "generation_api_mean_s": 3.087455240027911,
+      "generation_api_p50_s": 3.007742441026494,
+      "generation_api_p95_s": 4.043863269907889,
+      "generation_answer_api_mean_s": 1.4933969009532908,
+      "generation_verifier_api_mean_s": 1.5940583390746204,
+      "generation_timed_n": 178,
+      "generation_timing_status": "RECONSTRUCTED_ORIGINAL_PAID_API_DURATIONS",
+      "standalone_answer_usd": 0.030876750000000005,
+      "standalone_verifier_usd": 0.03325499999999999,
+      "standalone_generation_usd": 0.06413175,
+      "standalone_extraction_usd": 0,
+      "standalone_generation_and_extraction_usd": 0.06413175,
+      "incremental_answer_verifier_usd": 0
+    },
+    {
+      "method": "ASPECT_VIEW_LLM",
+      "label": "Aspect-View + LLM",
+      "answer_n": 178,
+      "retrieval_gold_n": 175,
+      "Hit@1": 74.85714285714286,
+      "Recall@5": 77.08843537414965,
+      "MRR@5": 83.17142857142858,
+      "BLEU-4": 27.710417916060397,
+      "ROUGE-L": 47.53288172392171,
+      "BERTScore": 92.81493542569407,
+      "extraction_mean_s": 1.6041792269436914,
+      "extraction_p50_s": 1.3088272064997,
+      "extraction_p95_s": 3.0837166341996634,
+      "extraction_n": 178,
+      "retrieval_mean_s": 0.2025215130000852,
+      "retrieval_p50_s": 0.17136949900123,
+      "retrieval_p95_s": 0.371015017951504,
+      "retrieval_n": 178,
+      "retrieval_timing_scope": "single pass, pre-extracted LLM aspects and warm embeddings",
+      "generation_api_mean_s": 3.100180463285796,
+      "generation_api_p50_s": 3.007742441026494,
+      "generation_api_p95_s": 4.138691907806788,
+      "generation_answer_api_mean_s": 1.5060220564248923,
+      "generation_verifier_api_mean_s": 1.5941584068609036,
+      "generation_timed_n": 178,
+      "generation_timing_status": "RECONSTRUCTED_ORIGINAL_PAID_API_DURATIONS",
+      "standalone_answer_usd": 0.03096690000000001,
+      "standalone_verifier_usd": 0.033346350000000004,
+      "standalone_generation_usd": 0.06431325000000002,
+      "standalone_extraction_usd": 0.010156799999999995,
+      "standalone_generation_and_extraction_usd": 0.07447005000000001,
+      "incremental_answer_verifier_usd": 0
+    }
+  ],
+  "changes": [
+    {
+      "method": "PARS_LLM_ASPECT",
+      "scope": "all_210",
+      "n": 210,
+      "changed_top5": 5,
+      "changed_context": 5,
+      "changed_answer": null
+    },
+    {
+      "method": "PARS_LLM_ASPECT",
+      "scope": "evaluation_178",
+      "n": 178,
+      "changed_top5": 3,
+      "changed_context": 3,
+      "changed_answer": 3
+    },
+    {
+      "method": "ASPECT_VIEW_LLM",
+      "scope": "all_210",
+      "n": 210,
+      "changed_top5": 5,
+      "changed_context": 5,
+      "changed_answer": null
+    },
+    {
+      "method": "ASPECT_VIEW_LLM",
+      "scope": "evaluation_178",
+      "n": 178,
+      "changed_top5": 2,
+      "changed_context": 2,
+      "changed_answer": 2
+    }
+  ],
+  "answer_comparisons": [
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "bleu4_kiwi",
+      "point_difference": 0.05414603921273908,
+      "mean_bootstrap_difference": 0.054438322970913576,
+      "ci95": [
+        0.0,
+        0.14712136858583616
+      ],
+      "probability_difference_gt_0": 0.8668
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "rouge1_f1_kiwi",
+      "point_difference": 0.008096695796965037,
+      "mean_bootstrap_difference": 0.00790081595805898,
+      "ci95": [
+        -0.040963124994874534,
+        0.06754221388366251
+      ],
+      "probability_difference_gt_0": 0.5256
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "rouge2_f1_kiwi",
+      "point_difference": 0.05087970532190411,
+      "mean_bootstrap_difference": 0.05113736333459771,
+      "ci95": [
+        0.0,
+        0.13901593026205722
+      ],
+      "probability_difference_gt_0": 0.8668
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "rougeL_f1_kiwi",
+      "point_difference": 0.0360305860097796,
+      "mean_bootstrap_difference": 0.03623773957184586,
+      "ci95": [
+        0.0,
+        0.09712776530286983
+      ],
+      "probability_difference_gt_0": 0.8668
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "bertscore_f1_xlmr17",
+      "point_difference": 0.0026246470011983547,
+      "mean_bootstrap_difference": 0.0026822247053432265,
+      "ci95": [
+        -0.004500955938456741,
+        0.01294865051196865
+      ],
+      "probability_difference_gt_0": 0.7193
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "bleu4_kiwi",
+      "point_difference": 0.03243337742600971,
+      "mean_bootstrap_difference": 0.03232843058751565,
+      "ci95": [
+        0.0,
+        0.10645776332303418
+      ],
+      "probability_difference_gt_0": 0.6234
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "rouge1_f1_kiwi",
+      "point_difference": 0.022134620654760795,
+      "mean_bootstrap_difference": 0.02213148449021853,
+      "ci95": [
+        0.0,
+        0.07296226808421835
+      ],
+      "probability_difference_gt_0": 0.6234
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "rouge2_f1_kiwi",
+      "point_difference": 0.03178592548787407,
+      "mean_bootstrap_difference": 0.031781421869130216,
+      "ci95": [
+        0.0,
+        0.10477582846004196
+      ],
+      "probability_difference_gt_0": 0.6234
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "rougeL_f1_kiwi",
+      "point_difference": 0.020729247914786697,
+      "mean_bootstrap_difference": 0.02072631087179196,
+      "ci95": [
+        0.0,
+        0.0683297431264835
+      ],
+      "probability_difference_gt_0": 0.6234
+    },
+    {
+      "condition": "D0_ORIGINAL",
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "bertscore_f1_xlmr17",
+      "point_difference": -0.001449096068895983,
+      "mean_bootstrap_difference": -0.0014474517178581052,
+      "ci95": [
+        -0.005193773956353098,
+        0.0004562608739178131
+      ],
+      "probability_difference_gt_0": 0.326
+    }
+  ],
+  "retrieval_comparisons": [
+    {
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "evidence_hit_at_1",
+      "point_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    },
+    {
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "evidence_recall_at_5",
+      "point_difference": 0.2857142857142857,
+      "ci95": [
+        0.0,
+        0.9615384615384616
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    },
+    {
+      "comparison": "PARS_LLM_ASPECT - PARS_REFINED",
+      "metric": "evidence_mrr",
+      "point_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    },
+    {
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "evidence_hit_at_1",
+      "point_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    },
+    {
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "evidence_recall_at_5",
+      "point_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    },
+    {
+      "comparison": "ASPECT_VIEW_LLM - ASPECT_VIEW_RAG",
+      "metric": "evidence_mrr",
+      "point_difference": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "n": 175,
+      "clusters": 79,
+      "iterations": 10000
+    }
+  ],
+  "extraction_eval_timing": {
+    "n": 178,
+    "mean_s": 1.6041792269436914,
+    "p50_s": 1.3088272064997,
+    "p95_s": 3.0837166341996634
+  },
+  "aspect_counts": {
+    "1": 190,
+    "2": 20
+  },
+  "fallbacks": 3,
+  "fallback_qids": [
+    "JAIJE1-QA-0007",
+    "JAIJE1-QA-0135",
+    "QAGEN-028"
+  ],
+  "actual_api_usd": 0.013588440000000004,
+  "cost_by_kind": {
+    "aspect": {
+      "calls": 210,
+      "usd": 0.012057599999999998
+    },
+    "embedding": {
+      "calls": 72,
+      "usd": 5.9340000000000004e-05
+    },
+    "answer": {
+      "calls": 3,
+      "usd": 0.0007134
+    },
+    "verifier": {
+      "calls": 3,
+      "usd": 0.0007580999999999999
+    }
+  },
+  "application_generation_cache_hits": 706,
+  "successful_api_calls": 288,
+  "api_requests": 376,
+  "failed_api_attempts": 88,
+  "parent_unchanged": true,
+  "historical_failed_access_diagnostic_requests": 1,
+  "independent_test": false
+}

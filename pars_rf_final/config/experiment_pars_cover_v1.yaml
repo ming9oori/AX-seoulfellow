@@ -1,0 +1,69 @@
+# Reconstructed from the latest completed PARS run, with user approval 2026-10-01.
+# NOT the missing original companion YAML. The full pipeline is still under integration.
+contract_version: pars-cover-reconstructed-v1
+experiment_name: pars_cover_v1_latest_pars_adapted
+asset_origin: latest_completed_pars_plus_cover_spec
+legacy_config: config/experiment_ablation.yaml
+legacy_run: ../../KG-RAG/runs/p1p_profile_free_component_ablation_210_20260921
+spec: ../../PARS_Cover_Codex_Experiment_Spec.md
+dataset_450_enabled: false
+models:
+  embedding_provider: openai
+  embedding: text-embedding-3-small
+  embedding_dimensions: 1536
+  answer_generator: gpt-4o-mini-2024-07-18
+  legacy_reranker: BAAI/bge-reranker-v2-m3
+  legacy_reranker_revision: 953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e
+  bertscore: FacebookAI/xlm-roberta-large
+  bertscore_revision: c23d21b0620b635a76227c604d44e43a9f0ee389
+retrieval:
+  methods: [LEGACY_PARS, PARS_COVER, PARS_COVER_NO_SET, PARS_COVER_TEXT_ONLY]
+  pcf_top_k: 3
+  taskframe_top_k: 3
+  evidence_top_k: 5
+  legacy_gap_policy: legacy_union_top3
+  cover_gap_policy: spec_fill_missing
+  beta: 0.1
+  lambda: 0.5
+  lexical_weight: 0.25
+  semantic_weight: 0.75
+  aspect_rule_version: role_clause_v1
+  template_version: pars-cover-direct-views-v1
+  embedding_batch_size: 128
+  embedding_max_input_tokens: 8192
+  embedding_max_batch_tokens: 300000
+context:
+  mode: shared_evidence_only
+  base_chars: 6000
+  budget_rounding_chars: 1000
+  safety_limit_chars: 32000
+  truncate: false
+generation:
+  endpoint: responses
+  temperature: 0
+  top_p: 1
+  max_output_tokens: 350
+  concurrency: 8
+  max_retries: 5
+  sdk_max_retries: 0
+  store: false
+  fail_on_api_error: true
+  answer_prompt: prompts/answer_system.txt
+  verifier_prompt: prompts/verifier_system.txt
+  answer_schema: schemas/answer_output.json
+  verifier_schema: schemas/verifier_output.json
+evaluation:
+  split_source: config/experiment_ablation.yaml
+  bootstrap_iterations: 10000
+  bootstrap_seed: 20260930
+  retrieval_primary: Complete@5
+  retrieval_secondary: Recall@5
+  answer_bootstrap_unit: document_section
+  bertscore_layers: 17
+  bertscore_idf: false
+  bertscore_rescale_with_baseline: false
+benchmark:
+  warmup_questions: 3
+  repeats: 5
+  concurrency: 1
+  final_result_cache: false

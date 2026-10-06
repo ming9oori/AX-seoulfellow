@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "answer": {"type": "string"},
+    "citations": {"type": "array", "items": {"type": "string"}},
+    "status": {"type": "string", "enum": ["ANSWERED", "INSUFFICIENT"]},
+    "limitation": {"type": "string"}
+  },
+  "required": ["answer", "citations", "status", "limitation"],
+  "additionalProperties": false
+}

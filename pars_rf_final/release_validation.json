@@ -1,0 +1,25 @@
+{
+  "validated_on": "2026-10-06",
+  "tests": {
+    "run": 74,
+    "passed": 73,
+    "skipped": 1,
+    "failed": 0,
+    "skip_reason": "Historical full run not distributed"
+  },
+  "offline_real_example": {
+    "passed": true,
+    "aspects_recomputed": true,
+    "candidate_count": 70,
+    "top5_matches": true,
+    "api_calls": 0
+  },
+  "main_table": {
+    "methods": 11,
+    "columns": 12,
+    "matches_original": true
+  },
+  "presentation_slides": 4,
+  "credentials_scan": "No API tokens or private keys found in selected text and Office XML",
+  "live_entrypoint": "Help and argument guard checked; paid end-to-end execution not performed"
+}

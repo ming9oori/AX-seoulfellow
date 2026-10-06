@@ -1,0 +1,461 @@
+{
+  "source_run": "pars_refined_210_20261001",
+  "qid": "JAIJE1-QA-0102",
+  "retrieval": {
+    "context": "[E1]\nevidence_id: EV_6fd93e1359a8f7fb\nsource: 자이제_1.xlsx\npage: 105\nsection: 수주영업 > 고객의 구매단계를 파악하라\ntext:\n일반적으로 제안은 면대면, 제안서, 프레젠테이션을 통해서 할 수 있고, 설득적이며 동시에 신뢰감을 전할 수 있어야 한다.\n\n[E2]\nevidence_id: EV_e6751f2d0f7cb861\nsource: 자이제_1.xlsx\npage: 44\nsection: 입찰과 제안 > 프로세스가 중요하다\ntext:\n제안 프로세스는 크게 두 가지 프로세스로 나누어진다.\n\n[E3]\nevidence_id: EV_564cc03ecbccb018\nsource: 자이제_1.xlsx\npage: 103\nsection: 수주영업 > 설득력이 높은 제안\ntext:\n제안의 설득력을 높이려면 논리적일 뿐만 아니라 정서적으로 신뢰를 얻어야 한다.\n\n[E4]\nevidence_id: EV_648b3aa5d651e789\nsource: 자이제_1.xlsx\npage: 43\nsection: 입찰과 제안 > 프로세스가 중요하다\ntext:\n제안 성공률을 높이려면 세 가지 분야에서 프로세스가 정의되고, 도구가 개발되고, 구성원이 훈련되어야 한다.\n\n[E5]\nevidence_id: EV_ec64a74a59afb060\nsource: 자이제_1.xlsx\npage: 149\nsection: 제안서 전략 > 전략은 목적을 명확히 하는 것이다.\ntext:\n제안 전략이란 반드시 이 네 가지 목적 중 하나 이상을 달성하는 것이다.",
+    "context_sha256": "ca0da2b049ae621669c49fe391c8dbebb94071a0b792a1b15a8621b3373755b0",
+    "selected_evidence_ids": [
+      "EV_6fd93e1359a8f7fb",
+      "EV_e6751f2d0f7cb861",
+      "EV_564cc03ecbccb018",
+      "EV_648b3aa5d651e789",
+      "EV_ec64a74a59afb060"
+    ],
+    "delivered_evidence_ids": [
+      "EV_6fd93e1359a8f7fb",
+      "EV_e6751f2d0f7cb861",
+      "EV_564cc03ecbccb018",
+      "EV_648b3aa5d651e789",
+      "EV_ec64a74a59afb060"
+    ],
+    "citation_map": {
+      "E1": "EV_6fd93e1359a8f7fb",
+      "E2": "EV_e6751f2d0f7cb861",
+      "E3": "EV_564cc03ecbccb018",
+      "E4": "EV_648b3aa5d651e789",
+      "E5": "EV_ec64a74a59afb060"
+    },
+    "context_chars": 928,
+    "truncated": false,
+    "context_mode": "shared_evidence_only",
+    "budget_chars": 7000,
+    "question": "제안은 어떤 방식으로 진행할 수 있으며, 갖춰야 할 두 가지 특성은 무엇인가요?",
+    "method": "PARS_REFINED",
+    "condition": "D0_ORIGINAL",
+    "source_variant": "CE_TOP5",
+    "selection": {
+      "evidence_ids": [
+        "EV_6fd93e1359a8f7fb",
+        "EV_e6751f2d0f7cb861",
+        "EV_564cc03ecbccb018",
+        "EV_648b3aa5d651e789",
+        "EV_ec64a74a59afb060"
+      ],
+      "selection_order": [
+        "EV_6fd93e1359a8f7fb",
+        "EV_e6751f2d0f7cb861",
+        "EV_564cc03ecbccb018",
+        "EV_648b3aa5d651e789",
+        "EV_ec64a74a59afb060"
+      ],
+      "steps": [
+        {
+          "evidence_id": "EV_6fd93e1359a8f7fb",
+          "reason": "highest_relevance_anchor",
+          "relevance": 0.9203612611724168
+        },
+        {
+          "evidence_id": "EV_e6751f2d0f7cb861",
+          "reason": "relevance_plus_uncovered_gain",
+          "gain": 0.09504495482626481,
+          "relevance": 0.475224774131324
+        },
+        {
+          "evidence_id": "EV_564cc03ecbccb018",
+          "reason": "relevance_plus_uncovered_gain",
+          "gain": 0.033280860505947606,
+          "relevance": 0.166404302529738
+        },
+        {
+          "evidence_id": "EV_648b3aa5d651e789",
+          "reason": "relevance_plus_uncovered_gain",
+          "gain": 0.01923903256641178,
+          "relevance": 0.0961951628320589
+        },
+        {
+          "evidence_id": "EV_ec64a74a59afb060",
+          "reason": "relevance_plus_uncovered_gain",
+          "gain": 0.014370253349903876,
+          "relevance": 0.07185126674951937
+        }
+      ],
+      "effective_lambda": 1.0,
+      "coverage_is_support_probability": false
+    },
+    "aspects": [
+      {
+        "aspect_id": "a1",
+        "roles": [
+          "intent"
+        ],
+        "source_spans": [
+          {
+            "start": 0,
+            "end": 22,
+            "text": "제안은 어떤 방식으로 진행할 수 있으며,"
+          }
+        ],
+        "anchor_spans": [],
+        "search_text": "제안은 어떤 방식으로 진행할 수 있으며,",
+        "bundled": false,
+        "rule_version": "adaptive_requirements_v1",
+        "condition_links": [],
+        "constraint_spans": [],
+        "merged_source_spans": [],
+        "selection_reason": "independent_information_request"
+      },
+      {
+        "aspect_id": "a2",
+        "roles": [
+          "intent"
+        ],
+        "source_spans": [
+          {
+            "start": 23,
+            "end": 44,
+            "text": "갖춰야 할 두 가지 특성은 무엇인가요?"
+          }
+        ],
+        "anchor_spans": [],
+        "search_text": "갖춰야 할 두 가지 특성은 무엇인가요?",
+        "bundled": false,
+        "rule_version": "adaptive_requirements_v1",
+        "condition_links": [],
+        "constraint_spans": [],
+        "merged_source_spans": [],
+        "selection_reason": "independent_information_request"
+      }
+    ],
+    "pcf_candidates": [
+      {
+        "id": "PCF_11784",
+        "score": 0.36017489433288574
+      },
+      {
+        "id": "PCF_19941",
+        "score": 0.3379479944705963
+      },
+      {
+        "id": "PCF_10780",
+        "score": 0.3361150622367859
+      }
+    ],
+    "taskframe_candidates": [
+      {
+        "id": "TF_60295b3e84ab02cf",
+        "semantic_score": 0.40551599860191345,
+        "pcf_prior": 0.18971214540940406,
+        "score": 0.35156503530378613,
+        "candidate_source": "pcf"
+      },
+      {
+        "id": "TF_2e4b50b58b27fae2",
+        "semantic_score": 0.2986729145050049,
+        "pcf_prior": 0.18204655850641982,
+        "score": 0.26951632550535864,
+        "candidate_source": "pcf"
+      },
+      {
+        "id": "TF_cf9aaafffb1c0cb9",
+        "semantic_score": 0.28529372811317444,
+        "pcf_prior": 0.18442455027150537,
+        "score": 0.2600764336527572,
+        "candidate_source": "pcf"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "EV_6fd93e1359a8f7fb",
+        "rank": 1
+      },
+      {
+        "evidence_id": "EV_e6751f2d0f7cb861",
+        "rank": 2
+      },
+      {
+        "evidence_id": "EV_564cc03ecbccb018",
+        "rank": 3
+      },
+      {
+        "evidence_id": "EV_648b3aa5d651e789",
+        "rank": 4
+      },
+      {
+        "evidence_id": "EV_ec64a74a59afb060",
+        "rank": 5
+      }
+    ],
+    "candidate_evidence_ids": [
+      "EV_069906c2ac08ad21",
+      "EV_0b2234e5c8bc9907",
+      "EV_0bfa2ac21a866795",
+      "EV_0c41e4a5e323e19c",
+      "EV_0c69f54d44ebf8c2",
+      "EV_0e3f14f65c1bfa1f",
+      "EV_182586589e30b184",
+      "EV_1903bd8fd3995fee",
+      "EV_1d5ebc70e9e68321",
+      "EV_24e6bcf14a0e4a8c",
+      "EV_2584687829ee50c3",
+      "EV_2a2c8f4d3e1d62b8",
+      "EV_3193ed18af563e98",
+      "EV_3dfe0f87fcab1d81",
+      "EV_407507ea139ae207",
+      "EV_4ec2023eb04485a0",
+      "EV_5418f7d286bdc89b",
+      "EV_564cc03ecbccb018",
+      "EV_5764b3bfee5dd0bf",
+      "EV_582e3c1ef6edfed8",
+      "EV_5a31d52bfda9b581",
+      "EV_648b3aa5d651e789",
+      "EV_6bf0b87b7b282129",
+      "EV_6ef7e9c94a79b39e",
+      "EV_6fd93e1359a8f7fb",
+      "EV_729827183f915768",
+      "EV_7405276a3c5845e8",
+      "EV_759fd6563bd531ea",
+      "EV_784bffb5352290f3",
+      "EV_7e0e12db5765453c",
+      "EV_8072df13c6cfd7f3",
+      "EV_819d9ba96088639d",
+      "EV_86780a34573f5750",
+      "EV_87515e73d3bded53",
+      "EV_8afb7cb445581c35",
+      "EV_905a601159142945",
+      "EV_920d56190232f214",
+      "EV_9332e23dc70d49f2",
+      "EV_9c4484ab40cd115c",
+      "EV_9e0be0aee2ac951f",
+      "EV_ae24d4eb7ba68662",
+      "EV_b27af5744d82a2d0",
+      "EV_b37d74487eeac385",
+      "EV_be1fd920ca9177f7",
+      "EV_c37ef3eaf847b687",
+      "EV_c476469768217f16",
+      "EV_d21f1ad5790048d5",
+      "EV_d2d4a8812cdbe99d",
+      "EV_d989d553139a03ce",
+      "EV_dafeb3a8efeffec8",
+      "EV_db733f364c0d3744",
+      "EV_dcea16ce58d890df",
+      "EV_ddfa36957fc6c1c9",
+      "EV_e1293316498456f6",
+      "EV_e1b19222d17be47a",
+      "EV_e38249462a965c07",
+      "EV_e6751f2d0f7cb861",
+      "EV_eb41371237e344b5",
+      "EV_ec64a74a59afb060",
+      "EV_f301622b68fb3761",
+      "EV_f511bea31da27596",
+      "EV_f68964be433d5e41",
+      "EV_f70ce92c1b42ad3e",
+      "EV_f72f46fe742a3aa0",
+      "EV_fa64958cc7b8925a",
+      "EV_fb30230c7823d011",
+      "EV_fe3c8a28313f174f",
+      "EV_fed6e759f60db17d",
+      "EV_ff73825d831cd438",
+      "EV_ff89c01ea5236b67"
+    ],
+    "status": "RETRIEVED",
+    "qid": "JAIJE1-QA-0102",
+    "ce_diagnostic": {
+      "candidate_count": 70,
+      "truncated_pairs": 0,
+      "max_pair_tokens": 390,
+      "ce_max_length": 512
+    },
+    "source_score_sha256": "d08512e11899ea05daa9c184424b5034f716f05a42990b8ead8b324ca2d678e3"
+  },
+  "answer": {
+    "qid": "JAIJE1-QA-0102",
+    "method": "PARS_REFINED",
+    "condition": "D0_ORIGINAL",
+    "api_failed": false,
+    "context_sha256": "ca0da2b049ae621669c49fe391c8dbebb94071a0b792a1b15a8621b3373755b0",
+    "draft": {
+      "answer": "제안은 면대면, 제안서, 프레젠테이션을 통해 진행할 수 있으며, 설득적이고 신뢰감을 전해야 합니다.",
+      "citations": [
+        "E1",
+        "E3"
+      ],
+      "status": "ANSWERED",
+      "limitation": ""
+    },
+    "verification": {
+      "supported": true,
+      "corrected_answer": "제안은 면대면, 제안서, 프레젠테이션을 통해 진행할 수 있으며, 설득적이고 신뢰감을 전해야 합니다.",
+      "supported_citations": [
+        "E1",
+        "E3"
+      ],
+      "unsupported_claims": [],
+      "limitation": ""
+    },
+    "status": "ANSWERED",
+    "prediction_answer": "제안은 면대면, 제안서, 프레젠테이션을 통해 진행할 수 있으며, 설득적이고 신뢰감을 전해야 합니다.",
+    "citations": [
+      "E1",
+      "E3"
+    ],
+    "cited_evidence_ids": [
+      "EV_6fd93e1359a8f7fb",
+      "EV_564cc03ecbccb018"
+    ]
+  },
+  "ce": {
+    "indices": [
+      34,
+      54,
+      60,
+      61,
+      63,
+      72,
+      131,
+      134,
+      158,
+      190,
+      195,
+      222,
+      265,
+      343,
+      358,
+      443,
+      476,
+      499,
+      509,
+      521,
+      531,
+      597,
+      651,
+      672,
+      680,
+      700,
+      705,
+      714,
+      729,
+      769,
+      780,
+      789,
+      814,
+      821,
+      839,
+      862,
+      875,
+      880,
+      940,
+      951,
+      1054,
+      1082,
+      1087,
+      1140,
+      1170,
+      1176,
+      1255,
+      1259,
+      1294,
+      1303,
+      1305,
+      1317,
+      1321,
+      1335,
+      1340,
+      1352,
+      1367,
+      1403,
+      1409,
+      1446,
+      1450,
+      1462,
+      1467,
+      1468,
+      1486,
+      1491,
+      1511,
+      1515,
+      1518,
+      1519
+    ],
+    "logits": [
+      -5.98046875,
+      -7.5859375,
+      -4.55078125,
+      -6.82421875,
+      -3.51953125,
+      -7.1171875,
+      -6.63671875,
+      -5.92578125,
+      -6.85546875,
+      -8.34375,
+      -10.390625,
+      -11.015625,
+      -8.1328125,
+      -5.08203125,
+      -6.6875,
+      -9.2265625,
+      -9.9375,
+      -1.611328125,
+      -9.78125,
+      -8.1796875,
+      -9.3046875,
+      -2.240234375,
+      -8.46875,
+      -9.7890625,
+      2.447265625,
+      -4.79296875,
+      -8.0,
+      -6.3671875,
+      -8.4296875,
+      -9.0390625,
+      -8.8671875,
+      -6.1953125,
+      -10.6328125,
+      -9.75,
+      -9.8828125,
+      -9.8671875,
+      -8.6875,
+      -5.6171875,
+      -3.46484375,
+      -4.93359375,
+      -5.19921875,
+      -8.1015625,
+      -6.6015625,
+      -4.90234375,
+      -3.521484375,
+      -5.5234375,
+      -5.78515625,
+      -7.06640625,
+      -10.8046875,
+      -4.234375,
+      -6.953125,
+      -10.6171875,
+      -7.1171875,
+      -4.67578125,
+      -4.90234375,
+      -5.8671875,
+      -0.09918212890625,
+      -7.375,
+      -2.55859375,
+      -4.640625,
+      -4.71875,
+      -6.109375,
+      -9.4140625,
+      -7.0,
+      -4.73828125,
+      -4.859375,
+      -4.44140625,
+      -3.09375,
+      -4.2890625,
+      -9.1484375
+    ],
+    "diagnostic": {
+      "candidate_count": 70,
+      "truncated_pairs": 0,
+      "max_pair_tokens": 390,
+      "ce_max_length": 512
+    },
+    "rerank_ms": 266.62470609880984,
+    "source_score_sha256": "d08512e11899ea05daa9c184424b5034f716f05a42990b8ead8b324ca2d678e3"
+  },
+  "note": "Actual stored trace. Context source paths are reduced to basenames; historical context_sha256 refers to the original context. Saved answer is not regenerated by replay."
+}
